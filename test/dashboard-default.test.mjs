@@ -81,6 +81,17 @@ test("uses neutral topic names on screen and offers a copyable text report", asy
   assert.match(html, /function reportText\(\)/);
 });
 
+test("reports store ratings for the VNG app separately from the global app", async () => {
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  assert.match(html, /const isVngApp = row => \/VNG\/i\.test\(row\.app_name\|\|''\)/);
+  assert.match(html, /function newRatings\(platform,vng,start,end\)/);
+  assert.match(html, /Điểm theo ứng dụng/);
+  // Sensor Tower có cả app Global (HAEGIN) và app VNG; không được gộp hai app thành một điểm.
+  const day = JSON.parse(await readFile(new URL("../public/data/daily/2026-10-05.json", import.meta.url), "utf8"));
+  const apps = new Set((day.ratings || []).filter((r) => r.platform === "Google Play").map((r) => /VNG/i.test(r.app_name)));
+  assert.deepEqual([...apps].sort(), [false, true]);
+});
+
 test("uses calendar days and validates manual ranges", async () => {
   const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
   assert.match(html, /function calendarDates\(start,end\)/);

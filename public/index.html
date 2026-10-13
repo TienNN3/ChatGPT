@@ -189,6 +189,8 @@
     .review-head { display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:4px; }
     .stars { color:#f2a516; letter-spacing:1px; }
     .review .thai { display:block; margin-top:2px; overflow-wrap:anywhere; }
+    .section-title { margin:6px 4px 12px; } .section-title h2 { margin-bottom:2px; } .section-title p { margin:0; }
+    .plain-list { margin:0; padding-left:18px; display:grid; gap:8px; font-size:13px; color:var(--muted); } .plain-list strong { color:var(--text); }
     .loading { opacity:.55; pointer-events:none; }
     dialog { width:min(720px,calc(100% - 24px)); max-height:82vh; overflow:auto; background:var(--surface); color:var(--text); border:1px solid var(--line); border-radius:18px; padding:20px; }
     dialog::backdrop { background:rgba(5,8,15,.6); }
@@ -303,17 +305,26 @@
       </section>
     </div>
 
-    <!-- TAB 3: Đánh giá store — review Google Play / App Store trong kỳ và điểm tích lũy -->
+    <!-- TAB 3: Đánh giá store — điểm rating Sensor Tower theo app và review có nội dung trong kỳ -->
     <div class="tab-panel" data-panel="store" hidden>
+      <div class="section-title"><h2>Điểm rating trên store</h2><p class="muted small">Sensor Tower cập nhật theo tuần · ưu tiên app <strong>Play Together VNG</strong>; app Global (HAEGIN) chỉ để tham chiếu</p></div>
+      <section id="ratingCards" class="source-cards"></section>
+      <section class="grid">
+        <article class="card span-8"><div class="card-head"><h2>Điểm rating Play Together VNG theo tuần</h2><p id="ratingCaption"></p></div><div class="chart-wrap"><canvas id="ratingChart" aria-label="Biểu đồ điểm rating Google Play và App Store theo tuần"></canvas></div></article>
+        <article class="card span-4"><div class="card-head"><h2>Cách đọc</h2></div><ul class="plain-list">
+          <li><strong>Điểm tích lũy</strong>: điểm trung bình của toàn bộ lượt đánh giá từ trước đến nay, thay đổi rất chậm.</li>
+          <li><strong>Điểm lượt mới</strong>: điểm trung bình của các lượt đánh giá mới trong tuần, phản ánh cảm nhận gần đây.</li>
+          <li>Lượt mới thấp hơn điểm tích lũy trong nhiều tuần liền là dấu hiệu điểm store sẽ giảm.</li>
+          <li>Số lượt mới của Google Play là ước tính của Sensor Tower nên có thể lẻ.</li></ul></article>
+        <article class="card span-12"><div class="card-head"><h2>Điểm theo ứng dụng</h2><p id="ratingTableCaption"></p></div><div class="scroll"><table class="responsive-table"><thead><tr><th>Ứng dụng</th><th>Nền tảng</th><th class="num">Điểm tích lũy</th><th class="num">Tổng lượt</th><th class="num">Điểm lượt mới</th><th class="num">Lượt mới</th><th>Cập nhật</th></tr></thead><tbody id="ratingRows"></tbody></table></div></article>
+      </section>
+      <div class="section-title"><h2>Review có nội dung</h2><p class="muted small">Review Google Play / App Store có ngày đăng trong kỳ đang chọn</p></div>
       <section id="storeKpis" class="source-cards"></section>
       <div id="storeEmpty"></div>
-      <section class="grid">
-        <article id="starCard" class="card span-5"><div class="card-head"><h2>Phân bố số sao</h2><p>Review store có ngày đăng trong kỳ</p></div><div id="starDist" class="bar-list"></div></article>
-        <article id="ratingCard" class="card span-7"><div class="card-head"><h2>Điểm đánh giá trên store</h2><p id="ratingCaption"></p></div><div class="chart-wrap"><canvas id="ratingChart" aria-label="Biểu đồ điểm đánh giá Google Play và App Store"></canvas></div></article>
-      </section>
       <section id="storeLists" class="grid">
-        <article class="card span-6 voice-card like"><div class="card-head"><h2>Review khen gần đây (4–5★)</h2><p>Mới nhất trước</p></div><div id="storePraise"></div></article>
-        <article class="card span-6 voice-card dislike"><div class="card-head"><h2>Review chê gần đây (1–2★)</h2><p>Mới nhất trước</p></div><div id="storeCriticism"></div></article>
+        <article class="card span-4"><div class="card-head"><h2>Phân bố số sao</h2><p>Review có ngày đăng trong kỳ</p></div><div id="starDist" class="bar-list"></div></article>
+        <article class="card span-4 voice-card like"><div class="card-head"><h2>Review khen gần đây (4–5★)</h2><p>Mới nhất trước</p></div><div id="storePraise"></div></article>
+        <article class="card span-4 voice-card dislike"><div class="card-head"><h2>Review chê gần đây (1–2★)</h2><p>Mới nhất trước</p></div><div id="storeCriticism"></div></article>
         <article class="card span-12 voice-card action"><div class="card-head"><h2>Số sao và nội dung không khớp</h2><p>Ví dụ 5★ nhưng nội dung phàn nàn, hoặc 1★ nhưng nội dung khen · nên đọc lại để xác nhận phân loại</p></div><div id="storeMismatch"></div></article>
       </section>
     </div>
@@ -408,8 +419,19 @@
     const isSummaryText = item => /tóm tắt phân loại/i.test(item.text_vn||'');
     function bestQuote(items){return [...items].filter(i=>i.text_vn&&!/^\[/.test(i.text_vn)&&!isSummaryText(i)).sort((a,b)=>engagementScore(b)-engagementScore(a)||itemTime(b)-itemTime(a))[0]}
     function rankThemes(items){return countBy(items,i=>i.theme).sort((a,b)=>(a[0]===GENERIC_THEME)-(b[0]===GENERIC_THEME)||b[1]-a[1])}
-    function aggregateRating(day,platform){const rows=(day.ratings||[]).filter(r=>r.platform===platform&&Number.isFinite(r.total_avg_rating)&&Number.isFinite(r.total_rating_count));const count=rows.reduce((sum,r)=>sum+r.total_rating_count,0);return count?rows.reduce((sum,r)=>sum+r.total_avg_rating*r.total_rating_count,0)/count:null}
-    function latestRating(platform){for(const day of [...state.ratingDays].reverse()){const value=aggregateRating(day,platform);if(value!==null)return{value,date:day.date}}return null}
+    // Rating Sensor Tower: tách app Play Together VNG và app Global (HAEGIN), không gộp vì app Global có số lượt lớn hơn nhiều.
+    const isVngApp = row => /VNG/i.test(row.app_name||'');
+    function snapshot(day,platform,vng=true){return (day.ratings||[]).find(r=>r.platform===platform&&isVngApp(r)===vng&&Number.isFinite(r.total_avg_rating))}
+    function latestSnapshot(platform,vng=true){for(const day of [...state.ratingDays].reverse()){const r=snapshot(day,platform,vng);if(r)return{...r,date:day.date}}return null}
+    function latestRating(platform){const r=latestSnapshot(platform);return r?{value:r.total_avg_rating,date:r.date,count:r.total_rating_count}:null}
+    // Điểm lượt mới của các snapshot nằm trong khoảng ngày; nếu khoảng không có snapshot thì dùng tuần gần nhất trước đó.
+    function newRatings(platform,vng,start,end){
+      let rows=state.ratingDays.filter(d=>d.date>=start&&d.date<=end).map(d=>({...snapshot(d,platform,vng),date:d.date})).filter(r=>Number.isFinite(r.incremental_avg_rating));
+      let fallback=false;
+      if(!rows.length){const last=[...state.ratingDays].reverse().filter(d=>d.date<=end).map(d=>({...snapshot(d,platform,vng),date:d.date})).find(r=>Number.isFinite(r.incremental_avg_rating));if(last){rows=[last];fallback=true}}
+      const weight=r=>Math.max(0,r.incremental_rating_count||0),count=rows.reduce((sum,r)=>sum+weight(r),0);
+      return{avg:count?rows.reduce((sum,r)=>sum+r.incremental_avg_rating*weight(r),0)/count:(rows.length?rows.at(-1).incremental_avg_rating:null),count,fallback,dates:rows.map(r=>r.date)};
+    }
     // Kỳ trước quá ít dữ liệu thì so sánh bằng số tuyệt đối để tránh phần trăm gây hiểu nhầm.
     function changeText(current,previous){if(!previous)return current?'Kỳ trước không ghi nhận phản hồi':'Không thay đổi so với kỳ trước';if(previous<10)return current===previous?'Không đổi so với kỳ trước':`${current>previous?'Tăng':'Giảm'} từ ${previous} phản hồi ở kỳ trước`;const delta=Math.round((current-previous)/previous*100);return`${delta>0?'Tăng':delta<0?'Giảm':'Không đổi'} ${Math.abs(delta)}% so với kỳ trước`}
     function diffBadge(current,previous){const d=current-previous;if(!d)return'<span class="muted">không đổi so với kỳ trước</span>';return`<span class="${d>0?'up':'down'}">${d>0?'▲':'▼'} ${Math.abs(d)}</span> <span class="muted">so với kỳ trước (${previous})</span>`}
@@ -497,7 +519,7 @@
         <article class="kpi positive"><span class="label">Tích cực</span><span class="value">${fmt.format(s.Positive)}</span><span class="sub">${diffBadge(s.Positive,p.Positive)}</span></article>
         <article class="kpi negative"><span class="label">Tiêu cực</span><span class="value">${fmt.format(s.Negative)}</span><span class="sub">${diffBadge(s.Negative,p.Negative)}</span></article>
         <article class="kpi wide"><span class="label">Tỷ lệ cảm xúc</span><div class="sent-bar">${bar}</div><div class="legend">${SENTIMENTS.map(k=>`<span><i class="dot ${k.toLowerCase()}-bg"></i>${sentimentLabel(k)} ${s[k]} (${pct(s[k],n)})</span>`).join('')}</div></article>
-        <article class="kpi wide"><span class="label">Điểm store (tích lũy, gần nhất)</span><div class="rating-pair"><div><span class="sub">Google Play</span>${rating(gp)}</div><div><span class="sub">App Store</span>${rating(ios)}</div></div></article>`;
+        <article class="kpi wide"><span class="label">Điểm store Play Together VNG (tích lũy)</span><div class="rating-pair"><div><span class="sub">Google Play</span>${rating(gp)}</div><div><span class="sub">App Store</span>${rating(ios)}</div></div></article>`;
     }
     function themeBlock(items,previous,sentiment){
       const subset=items.filter(i=>i.sentiment===sentiment&&isOpinion(i)),prev=previous.filter(i=>i.sentiment===sentiment&&isOpinion(i)),ranked=rankThemes(subset).slice(0,4);
@@ -545,9 +567,13 @@
       chart('sentimentChart','bar',{labels:buckets.map(b=>b.label),datasets:SENTIMENTS.map(s=>({label:sentimentLabel(s),counts:counts(s),data:counts(s).map((n,i)=>share?(buckets[i].items.length?n/buckets[i].items.length*100:0):n),backgroundColor:fade(cssVar(`--${s.toLowerCase()}`)),borderRadius:2}))},{
         plugins:{legend:{position:'bottom',labels:{color:cssVar('--muted'),boxWidth:12,boxHeight:12}},tooltip:{callbacks:{label:ctx=>{const n=ctx.dataset.counts[ctx.dataIndex],total=buckets[ctx.dataIndex].items.length;return` ${ctx.dataset.label}: ${n} (${pct(n,total)})`},footer:items=>`Tổng: ${buckets[items[0].dataIndex].items.length} phản hồi`}}},
         scales:{x:{stacked:true,ticks:{color:cssVar('--muted'),maxRotation:0,autoSkipPadding:8},grid:{display:false}},y:{stacked:true,beginAtZero:true,max:share?100:undefined,ticks:{color:cssVar('--muted'),precision:0,callback:v=>share?`${v}%`:v},grid:{color:'rgba(129,144,168,.15)'}}}});
-      const ratingDays=state.ratingDays.filter(d=>STORES.some(p=>aggregateRating(d,p)!==null));
-      $('#ratingCaption').textContent=ratingDays.length?`Điểm trung bình tích lũy do Sensor Tower cập nhật · 90 ngày tính đến ${dateLabel(state.ratingDays.at(-1).date)}`:'Chưa có dữ liệu điểm store trong 90 ngày gần nhất';
-      chart('ratingChart','line',{labels:ratingDays.map(d=>shortDate(d.date)),datasets:STORES.map((platform,index)=>({label:platform,data:ratingDays.map(d=>aggregateRating(d,platform)),borderColor:index?'#a64cff':'#2f80ed',backgroundColor:index?'#a64cff':'#2f80ed',tension:.3,spanGaps:true,pointRadius:3}))},{scales:{y:{min:1,max:5,ticks:{stepSize:1,color:cssVar('--muted')},grid:{color:'rgba(129,144,168,.15)'}},x:{ticks:{color:cssVar('--muted'),maxRotation:0,autoSkipPadding:8},grid:{display:false}}}});
+      const ratingDays=state.ratingDays.filter(d=>STORES.some(p=>snapshot(d,p)));
+      $('#ratingCaption').textContent=ratingDays.length?`Đường liền: điểm tích lũy · Đường đứt: điểm lượt mới trong tuần · 90 ngày tính đến ${dateLabel(state.ratingDays.at(-1).date)}`:'Chưa có dữ liệu rating trong 90 ngày gần nhất';
+      const storeColor={'Google Play':'#2f80ed','App Store':'#a64cff'};
+      chart('ratingChart','line',{labels:ratingDays.map(d=>shortDate(d.date)),datasets:STORES.flatMap(platform=>[
+        {label:`${platform} · tích lũy`,data:ratingDays.map(d=>snapshot(d,platform)?.total_avg_rating??null),borderColor:storeColor[platform],backgroundColor:storeColor[platform],tension:.3,spanGaps:true,pointRadius:2},
+        {label:`${platform} · lượt mới`,data:ratingDays.map(d=>snapshot(d,platform)?.incremental_avg_rating??null),borderColor:storeColor[platform],backgroundColor:storeColor[platform],borderDash:[5,4],tension:.3,spanGaps:true,pointRadius:3,counts:ratingDays.map(d=>snapshot(d,platform)?.incremental_rating_count??null)}
+      ])},{plugins:{legend:{position:'bottom',labels:{color:cssVar('--muted'),boxWidth:12,boxHeight:2}},tooltip:{callbacks:{label:ctx=>{const v=ctx.parsed.y;if(v===null)return null;const n=ctx.dataset.counts?.[ctx.dataIndex];return` ${ctx.dataset.label}: ${v.toFixed(2)}★${Number.isFinite(n)?` (${fmt.format(Math.max(0,Math.round(n)))} lượt)`:''}`}}}},scales:{y:{min:1,max:5,ticks:{stepSize:1,color:cssVar('--muted')},grid:{color:'rgba(129,144,168,.15)'}},x:{ticks:{color:cssVar('--muted'),maxRotation:0,autoSkipPadding:8},grid:{display:false}}}});
     }
     function renderActivities(items){
       const rows=countBy(items,activityLabel),max=rows[0]?.[1]||1;
@@ -576,19 +602,26 @@
     function reviewRow(i){return`<div class="review"><div class="review-head"><span class="stars">${'★'.repeat(i.rating||0)}<span class="muted">${'★'.repeat(5-(i.rating||0))}</span></span><span class="muted small">${esc(dateLabel(i.date))} · ${esc(i.source)}</span><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span></div>${isSummaryText(i)?`<div class="thai">${esc(i.text_th)}</div><span class="muted small">Tóm tắt: ${esc(i.text_vn.replace(/\s*Đây là tóm tắt phân loại.*$/i,''))}</span>`:`<div><strong>${esc(i.text_vn)}</strong></div>${i.text_th&&i.text_th!==i.text_vn?`<span class="thai muted small">${esc(i.text_th)}</span>`:''}`}${i.link?` <a class="small" href="${esc(i.link)}" target="_blank" rel="noopener">Mở store ↗</a>`:''}</div>`}
     function renderStore(items,previous){
       const reviews=items.filter(isStore).filter(i=>Number.isFinite(i.rating)).sort((a,b)=>itemTime(b)-itemTime(a)),prev=previous.filter(isStore).filter(i=>Number.isFinite(i.rating)),n=reviews.length;
-      const avgStar=n?reviews.reduce((sum,i)=>sum+i.rating,0)/n:null,prevAvg=prev.length?prev.reduce((sum,i)=>sum+i.rating,0)/prev.length:null,good=reviews.filter(i=>i.rating>=4),bad=reviews.filter(i=>i.rating<=2),gp=latestRating('Google Play'),ios=latestRating('App Store');
+      const avgStar=n?reviews.reduce((sum,i)=>sum+i.rating,0)/n:null,prevAvg=prev.length?prev.reduce((sum,i)=>sum+i.rating,0)/prev.length:null,good=reviews.filter(i=>i.rating>=4),bad=reviews.filter(i=>i.rating<=2);
       const card=(label,value,sub)=>`<div class="card source-card static"><span class="label">${label}</span><span class="value">${value}</span><span class="sub">${sub}</span></div>`;
+      const dates=selectedDates(),start=dates[0],end=dates.at(-1),prevDates=state.previous.map(d=>d.date);
+      const stars=v=>v===null||v===undefined?'–':`${v.toFixed(2)}★`,count=v=>fmt.format(Math.max(0,Math.round(v||0)));
+      $('#ratingCards').innerHTML=STORES.map(platform=>{const last=latestSnapshot(platform),now=newRatings(platform,true,start,end),before=now.fallback&&now.dates.length?newRatings(platform,true,dateAdd(now.dates[0],-7),dateAdd(now.dates[0],-1)):(prevDates.length?newRatings(platform,true,prevDates[0],prevDates.at(-1)):null),gap=last&&now.avg!==null&&now.count>=5?now.avg-last.total_avg_rating:null;
+        return`<div class="card source-card static"><span class="label">Play Together VNG · ${platform}</span><span class="value">${stars(last?.total_avg_rating)} <small class="muted">tích lũy · ${count(last?.total_rating_count)} lượt</small></span><span class="sub">Lượt mới ${now.fallback?`tuần gần nhất (${shortDate(now.dates[0])})`:'trong kỳ'}: <strong class="${gap!==null&&gap<-0.2?'neg-text':gap!==null&&gap>0.2?'pos-text':''}">${stars(now.avg)}</strong> · ${count(now.count)} lượt</span><span class="sub">${before&&before.avg!==null?`${now.fallback?`Tuần trước đó (${shortDate(before.dates.at(-1))})`:'Kỳ trước'}: ${stars(before.avg)} · ${count(before.count)} lượt`:'Kỳ trước: chưa có snapshot'}${last?` · cập nhật ${shortDate(last.date)}`:''}</span></div>`}).join('')
+        +(()=>{const rows=STORES.map(p=>newRatings(p,true,start,end)),n=rows.reduce((sum,r)=>sum+r.count,0),avg=n?rows.reduce((sum,r)=>sum+(r.avg||0)*r.count,0)/n:null;return card('Lượt đánh giá mới (VNG, cả 2 store)',`${count(n)} <small class="muted">lượt · ${stars(avg)}</small>`,rows.some(r=>r.fallback)?'Kỳ ngắn hơn chu kỳ cập nhật tuần, đang dùng tuần gần nhất':'Tổng hợp các snapshot tuần trong kỳ')})();
+      const apps=[...new Map(state.ratingDays.flatMap(d=>(d.ratings||[]).map(r=>[`${r.platform}|${r.app_id}`,r]))).values()].sort((a,b)=>isVngApp(b)-isVngApp(a)||a.platform.localeCompare(b.platform));
+      $('#ratingRows').innerHTML=apps.map(app=>{const vng=isVngApp(app),last=latestSnapshot(app.platform,vng),now=newRatings(app.platform,vng,start,end);return`<tr><td data-label="Ứng dụng">${esc(vng?'Play Together VNG':'Play Together (Global · HAEGIN)')}</td><td data-label="Nền tảng">${esc(app.platform)}</td><td class="num" data-label="Điểm tích lũy">${stars(last?.total_avg_rating)}</td><td class="num" data-label="Tổng lượt">${count(last?.total_rating_count)}</td><td class="num" data-label="Điểm lượt mới">${stars(now.avg)}</td><td class="num" data-label="Lượt mới">${count(now.count)}</td><td data-label="Cập nhật">${last?esc(dateLabel(last.date)):'–'}${now.fallback?' <span class="muted small">(tuần gần nhất)</span>':''}</td></tr>`}).join('')||'<tr><td colspan="7" class="empty">Chưa có dữ liệu rating trong 90 ngày gần nhất.</td></tr>';
+      $('#ratingTableCaption').textContent='Điểm tích lũy lấy từ snapshot mới nhất trong 90 ngày; điểm lượt mới tính theo kỳ đang chọn.';
       $('#storeKpis').innerHTML=[
         card('Review trong kỳ',fmt.format(n),`Google Play ${reviews.filter(i=>i.source==='Google Play').length} · App Store ${reviews.filter(i=>i.source==='App Store').length} · kỳ trước ${prev.length}`),
         card('Số sao trung bình (review trong kỳ)',avgStar===null?'–':`${avgStar.toFixed(2)}★`,prevAvg===null?'Kỳ trước không có review':`Kỳ trước ${prevAvg.toFixed(2)}★`),
         card('Review 4–5★',n?pct(good.length,n):'–',`${good.length} review`),
-        card('Review 1–2★',n?pct(bad.length,n):'–',`${bad.length} review`),
-        card('Điểm tích lũy trên store',`${gp?gp.value.toFixed(2):'–'} <small class="muted">GP</small> · ${ios?ios.value.toFixed(2):'–'} <small class="muted">iOS</small>`,`Cập nhật ${gp?shortDate(gp.date):'–'} (GP) · ${ios?shortDate(ios.date):'–'} (iOS)`)
+        card('Review 1–2★',n?pct(bad.length,n):'–',`${bad.length} review`)
       ].join('');
       const latest=n?null:state.ratingDays.flatMap(d=>(d.items||[]).filter(isStore).map(i=>({...i,date:d.date}))).sort((a,b)=>b.date.localeCompare(a.date))[0];
       $('#storeEmpty').innerHTML=n?'':`<div class="card notice">Kỳ này chưa có review store mới.${latest?` Review gần nhất trong 90 ngày: <strong>${esc(dateLabel(latest.date))}</strong> (${esc(latest.source)}).`:' Không có review nào trong 90 ngày gần nhất.'} <button id="storeWiden" class="link-btn">Xem 90 ngày gần nhất</button></div>`;
       if(!n)$('#storeWiden').onclick=()=>{const latestDate=state.index.latest_with_data||state.index.dates.at(-1);clearPresets();setMode('range');$('#toDate').value=latestDate;$('#fromDate').value=dateAdd(latestDate,-89);apply()};
-      $('#starCard').hidden=!n;$('#storeLists').hidden=!n;$('#ratingCard').className=`card ${n?'span-7':'span-12'}`;
+      $('#storeLists').hidden=!n;
       $('#starDist').innerHTML=[5,4,3,2,1].map(star=>{const c=reviews.filter(i=>i.rating===star).length;return`<div class="bar-row static"><span class="name">${star}★</span><span class="bar-track" style="width:${Math.max(4,n?c/Math.max(...[5,4,3,2,1].map(s=>reviews.filter(i=>i.rating===s).length))*100:4)}%"><span class="${star>=4?'positive':star===3?'mixed':'negative'}-bg" style="width:100%"></span></span><span class="num">${c} <small>${pct(c,n)}</small></span></div>`}).join('');
       const list=(rows,empty)=>rows.slice(0,6).map(reviewRow).join('')||`<p class="empty-note">${empty}</p>`;
       $('#storePraise').innerHTML=list(good,'Không có review 4–5★ trong kỳ.');
@@ -629,7 +662,7 @@
         `Nội dung chưa rõ ngày đăng được tách riêng, không cộng vào số liệu theo ngày${undated?` (kỳ này: ${fmt.format(undated)})`:''}.`,
         `Trong kỳ có ${fmt.format(machine)} phản hồi dùng bản dịch tự động và ${fmt.format(review)} phản hồi được đánh dấu cần rà soát lại phân loại.`,
         'Mục “Người chơi thích gì / chưa hài lòng” chỉ xếp hạng ý kiến về game; bài rao bán, trao đổi vẫn được tính trong tổng phản hồi, hoạt động cộng đồng và danh sách.',
-        'Điểm store là điểm trung bình tích lũy do Sensor Tower cập nhật, không phụ thuộc vào số phản hồi trong kỳ.'
+        'Điểm store lấy từ Sensor Tower theo tuần, tính riêng cho app Play Together VNG (app Global của HAEGIN chỉ hiển thị để tham chiếu trong tab Đánh giá store) và không phụ thuộc vào số phản hồi trong kỳ.'
       ].map(text=>`<li>${esc(text)}</li>`).join('');
     }
     function explorerItems(){return $('#includeUndated').checked?rawSelectedItems():selectedItems()}
