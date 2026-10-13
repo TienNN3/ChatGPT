@@ -169,7 +169,7 @@
     .source-cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:14px; margin-bottom:16px; }
     .source-card { display:flex; flex-direction:column; gap:3px; padding:16px; text-align:left; color:var(--text); font:inherit; border-top:3px solid var(--brand); }
     button.source-card:hover { border-color:var(--brand); }
-    .source-card .label { color:var(--muted); font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+    .source-card .label { color:var(--muted); font-size:13px; font-weight:600; line-height:1.35; overflow-wrap:anywhere; }
     .source-card .value { font-size:26px; font-weight:700; letter-spacing:-.03em; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
     .source-card .value small { font-size:12px; font-weight:500; }
     .source-card .sub { font-size:12px; color:var(--muted); }
@@ -354,7 +354,15 @@
     const kindLabel = item => isStore(item) ? 'Đánh giá store' : contentKindLabel(item.content_kind);
     const activityLabel = item => item.activity_type || kindLabel(item);
     const channelName = item => item.community||item.source||'Chưa xác định';
-    const sourceLabel = name => String(name).replace(/^Facebook Group · /,'Group ').replace(/^Facebook Fanpage · /,'Fanpage ');
+    // Tên hiển thị của group/fanpage (lấy từ tiêu đề trang Facebook); dữ liệu gốc vẫn giữ ID trong trường community.
+    const COMMUNITY_NAMES = {
+      'Facebook Group · playtogetherth':'Play Together VNG : THAILAND Community',
+      'Facebook Group · 1772363333745643':'Play Together VNG Thailand Official (group)',
+      'Facebook Group · 815754622673816':'Play Together : THAILAND ตลาดนัดซื้อขาย (chợ mua bán)',
+      'Facebook Group · 562362538882428':"GOI : Let's Play Together 🇹🇭 (tìm phòng, tìm bạn chơi)",
+      'Facebook Fanpage · @playtogetherthailandofficial':'Fanpage Play Together Thailand Official'
+    };
+    const sourceLabel = name => COMMUNITY_NAMES[name] || String(name).replace(/^Facebook Group · /,'Group ').replace(/^Facebook Fanpage · /,'Fanpage ');
     // Bài rao bán/trao đổi vẫn được đếm đầy đủ nhưng không phải ý kiến về game, nên không dùng để xếp hạng "thích / chưa hài lòng".
     const isOpinion = item => item.activity_type!=='Rao bán / trao đổi';
     const themeLabel = name => name===GENERIC_THEME ? 'Ý kiến chung (chưa rõ chủ đề)' : name;
