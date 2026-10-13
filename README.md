@@ -29,8 +29,12 @@ Phiên bản hiện tại là chế độ mock. Trước khi chạy production c
 
 ## Public bằng GitHub Pages
 
-Mỗi lần có commit mới trên nhánh `main`, workflow `.github/workflows/pages.yml` sẽ chạy validation và test rồi publish thư mục `public`.
+Xem ngay qua CDN HTML công khai, không cần cấu hình hosting:
+
+`https://raw.githack.com/TienNN3/ChatGPT/main/public/index.html`
+
+Để dùng URL GitHub Pages ổn định, chủ repository cần bật một lần tại **Settings > Pages > Build and deployment > Source: GitHub Actions**. Sau đó, mỗi commit mới trên nhánh `main` sẽ chạy validation và test rồi publish thư mục `public`.
 
 URL công khai: `https://tiennn3.github.io/ChatGPT/`
 
-Có thể chạy workflow thủ công từ tab Actions. GitHub Pages không cần Firebase project hay credential riêng trong repository.
+Có thể chạy lại workflow thủ công từ tab Actions sau khi bật Pages. GitHub Pages không cần Firebase project hay credential riêng trong repository.
