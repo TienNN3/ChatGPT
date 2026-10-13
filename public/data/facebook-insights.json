@@ -1,40 +1,31 @@
 {
-  "title": "Nhận định bổ sung từ rà soát Facebook 30 ngày",
-  "as_of": "2026-10-13",
+  "title": "Ngữ cảnh diễn giải chủ đề",
   "source_label": "facebook-handoff.md",
-  "scope_note": "Tổng hợp định tính từ đợt rà soát mở rộng; số liệu theo ngày trên dashboard vẫn dùng bộ dữ liệu đã lọc theo nguồn.",
-  "cards": [
+  "scope_note": "Chỉ dùng để bổ sung ngữ cảnh cho chủ đề xuất hiện trong kỳ đang chọn; mọi số lượng trên dashboard được tính trực tiếp từ kỳ đó.",
+  "signals": [
     {
-      "title": "Vấn đề cần ưu tiên",
-      "summary": "Đăng nhập và chuyển tài khoản sang máy chủ VNG là rủi ro nổi bật nhất.",
-      "details": [
-        "Người chơi phản ánh không vào được tài khoản cũ, mã chuyển lỗi hoặc bị tạo nhân vật mới.",
-        "Báo cáo rà soát ghi nhận 13 trường hợp mức P1 trong 30 ngày liên quan đến nhóm vấn đề này."
-      ]
+      "themes": ["Đăng nhập tài khoản", "Lỗi đăng nhập đa thiết bị"],
+      "title": "Đăng nhập và chuyển tài khoản",
+      "context": "Các phản ánh thường liên quan đến tài khoản cũ, mã chuyển hoặc việc phát sinh nhân vật mới sau khi chuyển sang hệ thống VNG.",
+      "suggested_action": "Ưu tiên đối chiếu permalink, trạng thái tài khoản và luồng chuyển dữ liệu trước khi kết luận nguyên nhân."
     },
     {
-      "title": "Các điểm cần chú ý khác",
-      "summary": "Phần thưởng gacha và sự kiện chưa đáp ứng kỳ vọng của một bộ phận người chơi.",
-      "details": [
-        "Phần thưởng bị đánh giá là ít giá trị hoặc khó thu thập.",
-        "Một số hoạt động giới hạn khiến người chơi khó hoàn thành bộ sưu tập hoặc nhiệm vụ."
-      ]
+      "themes": ["Giá trị phần thưởng gacha", "Phần thưởng sự kiện", "Giá vật phẩm quá cao"],
+      "title": "Giá trị phần thưởng và sự kiện",
+      "context": "Rà soát định tính cho thấy người chơi quan tâm đến giá trị nhận được, độ khó thu thập và khả năng hoàn thành hoạt động giới hạn.",
+      "suggested_action": "Theo dõi riêng phản hồi về giá trị phần thưởng, xác suất và điều kiện hoàn thành sự kiện."
     },
     {
-      "title": "Chủ đề tích cực",
-      "summary": "Hoạt động sáng tạo và thể hiện cá nhân tạo nhiều tương tác tích cực.",
-      "details": [
-        "Khoe nhà, nông trại và trang phục.",
-        "Thảo luận về thẻ, nội dung mới và giao lưu cộng đồng."
-      ]
+      "themes": ["Game bị văng và treo"],
+      "title": "Độ ổn định của trò chơi",
+      "context": "Các phản ánh về văng hoặc treo game cần được kiểm tra cùng thiết bị, phiên bản và thời điểm xảy ra.",
+      "suggested_action": "Gom permalink và thông tin môi trường để xác định phạm vi ảnh hưởng."
     },
     {
-      "title": "Nội dung được thảo luận nhiều",
-      "summary": "Nhu cầu hỗ trợ và trao đổi giữa người chơi chiếm tỷ trọng lớn.",
-      "details": [
-        "Hỏi đáp cách chơi và mã quà tặng.",
-        "Mua bán tài khoản, vật phẩm và hướng dẫn chuyển máy chủ."
-      ]
+      "themes": ["Trải nghiệm game tích cực", "Hoạt động và tính năng trong game"],
+      "title": "Sáng tạo và tương tác cộng đồng",
+      "context": "Nội dung khoe nhà, nông trại, trang phục và tham gia hoạt động thường tạo tương tác tích cực.",
+      "suggested_action": "Dùng các nội dung nổi bật làm tín hiệu cho chủ đề cộng đồng nên tiếp tục khuyến khích."
     }
   ]
 }

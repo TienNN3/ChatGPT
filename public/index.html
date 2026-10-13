@@ -31,7 +31,8 @@
     .mock-banner { display:none; background:#fff3d6; border:1px solid #f2cf7d; color:#614608; border-radius:12px; padding:10px 14px; margin-bottom:16px; }
     [data-theme="dark"] .mock-banner { background:#372d18; color:#ffe9ad; border-color:#765c25; }
     .card { background:var(--surface); border:1px solid var(--line); border-radius:18px; box-shadow:var(--shadow); padding:20px; }
-    .controls { display:flex; align-items:end; flex-wrap:wrap; gap:12px; margin-bottom:18px; }
+    .controls { display:grid; grid-template-columns:auto 1fr auto; align-items:end; gap:18px; margin-bottom:14px; }
+    .control-fields { display:flex; align-items:end; flex-wrap:wrap; gap:10px; }
     .segmented { display:flex; padding:4px; background:var(--surface-2); border-radius:11px; }
     .segmented button { border:0; background:transparent; color:var(--muted); border-radius:8px; padding:8px 13px; }
     .segmented button.active { background:var(--surface); color:var(--text); box-shadow:0 2px 8px rgba(0,0,0,.08); }
@@ -39,8 +40,12 @@
     input,select { min-height:38px; border:1px solid var(--line); border-radius:9px; background:var(--surface); color:var(--text); padding:7px 10px; }
     .btn { border:1px solid var(--line); border-radius:9px; background:var(--surface); color:var(--text); padding:9px 12px; }
     .btn.primary { border-color:var(--brand); color:#fff; background:var(--brand); }
-    .presets { display:flex; flex-wrap:wrap; gap:6px; }
+    .presets { display:flex; flex-wrap:wrap; gap:6px; justify-content:flex-end; }
+    .preset.active { border-color:var(--brand); color:var(--brand); background:color-mix(in srgb,var(--brand) 9%,var(--surface)); }
     .range-only { display:none; }
+    .period-bar { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:18px; padding:0 4px; }
+    .period-title { font-weight:700; }
+    .scope-note { color:var(--muted); font-size:12px; }
     .kpis { display:grid; grid-template-columns:repeat(6,minmax(140px,1fr)); gap:14px; margin-bottom:18px; }
     .kpi { background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:17px; }
     .kpi .value { display:block; font-size:25px; font-weight:700; margin-top:9px; }
@@ -52,6 +57,9 @@
     .grid { display:grid; grid-template-columns:repeat(12,1fr); gap:18px; margin-bottom:18px; }
     .span-3 { grid-column:span 3; } .span-4 { grid-column:span 4; } .span-6 { grid-column:span 6; } .span-8 { grid-column:span 8; } .span-12 { grid-column:span 12; }
     .chart-wrap { height:285px; }
+    .chart-heading { display:flex; justify-content:space-between; align-items:flex-start; gap:14px; margin-bottom:8px; }
+    .chart-heading h2 { margin-bottom:4px; }
+    .chart-heading p { margin-bottom:0; font-size:12px; }
     .source-table,.feedback-table { width:100%; border-collapse:collapse; }
     th,td { text-align:left; border-bottom:1px solid var(--line); padding:10px 8px; vertical-align:top; }
     th { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.04em; }
@@ -64,6 +72,9 @@
     .report-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
     .report-block { background:var(--surface-2); border-radius:13px; padding:15px; }
     .report-block ul { margin:8px 0 0; padding-left:20px; }
+    .report-block p:last-child { margin-bottom:0; }
+    .report-block .metric { display:block; font-size:22px; font-weight:700; margin:4px 0 8px; }
+    .supporting { font-size:12px; color:var(--muted); }
     .quote { border-left:3px solid var(--brand); padding-left:11px; margin:9px 0; }
     .thai { font-family:"Noto Sans Thai",sans-serif; }
     .filters { display:grid; grid-template-columns:repeat(4,minmax(130px,1fr)); gap:10px; margin-bottom:14px; }
@@ -71,14 +82,18 @@
     .sentiment-tag { border-radius:999px; padding:4px 7px; font-size:11px; color:#fff; white-space:nowrap; }
     .sentiment-tag.Positive { background:var(--positive); } .sentiment-tag.Negative { background:var(--negative); } .sentiment-tag.Neutral { background:var(--neutral); } .sentiment-tag.Mixed { background:var(--mixed); }
     .pagination { display:flex; justify-content:space-between; align-items:center; gap:10px; margin-top:14px; }
+    .explorer-tools { display:flex; justify-content:space-between; gap:16px; align-items:flex-start; flex-wrap:wrap; }
+    .checkline { display:flex; align-items:center; gap:7px; color:var(--muted); font-size:12px; }
+    .checkline input { min-height:auto; }
+    .loading { opacity:.55; pointer-events:none; }
     dialog { width:min(680px,calc(100% - 30px)); max-height:80vh; overflow:auto; background:var(--surface); color:var(--text); border:1px solid var(--line); border-radius:18px; padding:22px; }
     dialog::backdrop { background:rgba(5,8,15,.66); }
     .close { float:right; }
     .empty { padding:30px; text-align:center; color:var(--muted); }
     .error { border-color:var(--negative); color:var(--negative); }
     details { border-top:1px solid var(--line); padding:10px 0; }
-    @media(max-width:980px) { .kpis{grid-template-columns:repeat(2,1fr)} .span-3,.span-4,.span-6,.span-8{grid-column:span 12} .filters{grid-template-columns:repeat(2,1fr)} }
-    @media(max-width:600px) { .shell{padding:14px} header{display:block}.header-actions{margin-top:12px}.kpis{grid-template-columns:1fr}.report-grid,.filters{grid-template-columns:1fr}.filters .search{grid-column:span 1}.card{padding:15px}.chart-wrap{height:240px}.feedback-table{min-width:920px} }
+    @media(max-width:980px) { .controls{grid-template-columns:1fr}.presets{justify-content:flex-start}.kpis{grid-template-columns:repeat(2,1fr)} .span-3,.span-4,.span-6,.span-8{grid-column:span 12} .filters{grid-template-columns:repeat(2,1fr)} }
+    @media(max-width:600px) { .shell{padding:14px} header{display:block}.header-actions{margin-top:12px}.kpis{grid-template-columns:1fr}.report-grid,.filters{grid-template-columns:1fr}.filters .search{grid-column:span 1}.card{padding:15px}.chart-wrap{height:240px}.feedback-table{min-width:920px}.control-fields{align-items:stretch}.control-fields label{width:100%}.control-fields input{width:100%} }
   </style>
 </head>
 <body>
@@ -89,33 +104,36 @@
     </header>
     <div id="mockBanner" class="mock-banner"><strong>Dữ liệu demo.</strong> Các số liệu và quote hiện tại là dữ liệu mock tổng hợp, không phải tiếng nói người chơi thật.</div>
     <section class="card controls" aria-label="Bộ lọc thời gian">
-      <div class="segmented"><button data-mode="day">Theo ngày</button><button data-mode="range" class="active">Theo khoảng</button></div>
-      <label class="day-only">Ngày<input id="dayPicker" type="date"></label>
-      <label class="range-only">Từ ngày<input id="fromDate" type="date"></label>
-      <label class="range-only">Đến ngày<input id="toDate" type="date"></label>
-      <div class="range-only presets"><button class="btn" data-days="yesterday">Hôm qua</button><button class="btn" data-days="7">7 ngày</button><button class="btn" data-days="30">30 ngày</button><button class="btn" data-days="month">Tháng này</button></div>
-      <button id="applyRange" class="btn primary range-only">Áp dụng</button>
+      <div class="segmented"><button data-mode="day" class="active">Một ngày</button><button data-mode="range">Khoảng ngày</button></div>
+      <div class="control-fields">
+        <label class="day-only">Ngày cần xem<input id="dayPicker" type="date"></label>
+        <label class="range-only">Từ ngày<input id="fromDate" type="date"></label>
+        <label class="range-only">Đến ngày<input id="toDate" type="date"></label>
+        <button id="applyRange" class="btn primary range-only">Xem khoảng ngày</button>
+      </div>
+      <div class="presets" aria-label="Chọn nhanh"><button class="btn preset" data-days="yesterday">Hôm qua</button><button class="btn preset" data-days="7">7 ngày gần nhất</button><button class="btn preset" data-days="30">30 ngày gần nhất</button><button class="btn preset" data-days="month">Tháng này</button></div>
     </section>
+    <div class="period-bar"><span id="periodLabel" class="period-title"></span><span id="scopeNote" class="scope-note"></span></div>
     <section id="kpis" class="kpis"></section>
-    <section id="insights" class="grid"></section>
     <section id="briefing" class="grid"></section>
+    <section id="insights" class="grid"></section>
     <section class="grid">
-      <article class="card span-6"><h2>Xu hướng cảm xúc</h2><p class="muted">Khi chọn một ngày, biểu đồ hiển thị 30 ngày kết thúc tại ngày đó</p><div class="chart-wrap"><canvas id="sentimentChart"></canvas></div></article>
-      <article class="card span-6"><h2>Xu hướng số lượng phản hồi</h2><p class="muted">Chỉ xếp theo ngày khi Facebook hiển thị được ngày đăng</p><div class="chart-wrap"><canvas id="volumeChart"></canvas></div></article>
-      <article class="card span-6"><h2>Chủ đề tích cực và tiêu cực</h2><div class="chart-wrap"><canvas id="topicChart"></canvas></div></article>
-      <article class="card span-6"><h2>Điểm đánh giá trên store</h2><div class="chart-wrap"><canvas id="ratingChart"></canvas></div></article>
-      <article class="card span-12"><h2>Số lượng phản hồi theo ngày và cộng đồng</h2><div class="scroll"><table class="source-table"><thead><tr><th>Ngày</th><th>Cộng đồng / nguồn</th><th>Tổng</th><th>Tích cực</th><th>Tiêu cực</th><th>Trung tính</th><th>Chưa rõ ngày đăng</th></tr></thead><tbody id="sourceRows"></tbody></table></div></article>
+      <article class="card span-6"><div class="chart-heading"><div><h2>Diễn biến cảm xúc theo ngày</h2><p id="trendCaption" class="muted"></p></div></div><div class="chart-wrap"><canvas id="sentimentChart"></canvas></div></article>
+      <article class="card span-6"><div class="chart-heading"><div><h2>Phản hồi theo nguồn</h2><p id="sourceChartCaption" class="muted"></p></div></div><div class="chart-wrap"><canvas id="volumeChart"></canvas></div></article>
+      <article class="card span-6"><div class="chart-heading"><div><h2>Chủ đề tích cực và tiêu cực</h2><p class="muted">Chỉ sử dụng phản hồi thuộc kỳ đang chọn</p></div></div><div class="chart-wrap"><canvas id="topicChart"></canvas></div></article>
+      <article class="card span-6"><div class="chart-heading"><div><h2>Điểm đánh giá trên store</h2><p id="ratingCaption" class="muted"></p></div></div><div class="chart-wrap"><canvas id="ratingChart"></canvas></div></article>
+      <article class="card span-12"><h2>Chi tiết số lượng theo ngày và nguồn</h2><p class="muted">Bảng này chỉ tính nội dung xác định được ngày đăng trong kỳ đã chọn.</p><div class="scroll"><table class="source-table"><thead><tr><th>Ngày</th><th>Cộng đồng / nguồn</th><th>Tổng</th><th>Tích cực</th><th>Tiêu cực</th><th>Trung tính</th><th>Đan xen</th></tr></thead><tbody id="sourceRows"></tbody></table></div></article>
     </section>
     <section class="grid">
       <article class="card span-4"><h2>Chủ đề được thảo luận nhiều</h2><div id="themeList" class="theme-list"></div></article>
       <article class="card span-8"><h2>Tóm tắt và điểm cần chú ý theo ngày</h2><div id="report"></div></article>
     </section>
     <section class="card">
-      <div style="display:flex;justify-content:space-between;gap:12px;align-items:center"><div><h2>Danh sách feedback</h2><p class="muted">Mới nhất trước · Bản dịch tiếng Việt được đặt trước nguyên văn</p></div><button id="exportCsv" class="btn">Tải CSV</button></div>
+      <div class="explorer-tools"><div><h2>Danh sách phản hồi</h2><p class="muted">Mới nhất trước · Bản dịch tiếng Việt được đặt trước nguyên văn</p><label class="checkline"><input id="includeUndated" type="checkbox"> Hiển thị cả nội dung chưa xác định được ngày đăng trong đợt thu thập thuộc kỳ này (<span id="undatedCount">0</span>)</label></div><button id="exportCsv" class="btn">Tải CSV</button></div>
       <div class="filters">
         <label>Cộng đồng / nguồn<select id="sourceFilter"></select></label><label>Cảm xúc<select id="sentimentFilter"></select></label><label>Hoạt động<select id="activityFilter"></select></label><label>Chủ đề<select id="themeFilter"></select></label><label class="search">Tìm nội dung<input id="keywordFilter" type="search" placeholder="Tìm trong tiếng Việt hoặc nguyên văn"></label>
       </div>
-      <div class="scroll"><table class="feedback-table"><thead><tr><th>Ngày</th><th>Cộng đồng</th><th>Cảm xúc</th><th>Bản dịch tiếng Việt</th><th>Nguyên văn</th><th>Hoạt động</th><th>Chủ đề</th><th>Engagement</th><th>Link</th></tr></thead><tbody id="feedbackRows"></tbody></table></div>
+      <div class="scroll"><table class="feedback-table"><thead><tr><th>Ngày</th><th>Cộng đồng</th><th>Cảm xúc</th><th>Bản dịch tiếng Việt</th><th>Nguyên văn</th><th>Hoạt động</th><th>Chủ đề</th><th>Tương tác</th><th>Nguồn</th></tr></thead><tbody id="feedbackRows"></tbody></table></div>
       <div class="pagination"><span id="pageInfo" class="muted"></span><div><button id="prevPage" class="btn">Trước</button> <button id="nextPage" class="btn">Sau</button></div></div>
     </section>
   </main>
@@ -123,93 +141,173 @@
   <script>
   (() => {
     const $ = (selector) => document.querySelector(selector);
-    const state = { mode:'range', index:null, briefing:null, selected:[], context:[], previous:[], charts:{}, page:1, filtered:[] };
+    const state = { mode:'day', index:null, briefing:null, selected:[], context:[], previous:[], charts:{}, page:1, filtered:[] };
     const colors = { Positive:'#159a68', Negative:'#e24a5a', Neutral:'#8190a8', Mixed:'#e49a2f' };
+    const sourceColors = ['#645cff','#a64cff','#159a68','#e49a2f','#2f80ed','#e24a5a','#8190a8'];
     const fmt = new Intl.NumberFormat('vi-VN');
     const esc = (value='') => String(value).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    const avg = (values) => { const clean=values.filter(Number.isFinite); return clean.length ? clean.reduce((a,b)=>a+b,0)/clean.length : null; };
-    const options = (values) => '<option value="">Tất cả</option>'+[...new Set(values.filter(Boolean))].sort().map(v=>`<option>${esc(v)}</option>`).join('');
+    const avg = values => { const clean=values.filter(Number.isFinite); return clean.length ? clean.reduce((a,b)=>a+b,0)/clean.length : null; };
+    const pct = (value,total) => total ? `${Math.round(value/total*100)}%` : '0%';
+    const options = values => '<option value="">Tất cả</option>'+[...new Set(values.filter(Boolean))].sort().map(v=>`<option>${esc(v)}</option>`).join('');
     const timelineItems = day => (day.items||[]).filter(i=>i.date_basis!=='observed_at');
     const sentimentLabel = value => ({Positive:'Tích cực',Negative:'Tiêu cực',Neutral:'Trung tính',Mixed:'Đan xen'}[value]||value);
-    const moodFor = items => {const pos=items.filter(i=>i.sentiment==='Positive').length,neg=items.filter(i=>i.sentiment==='Negative').length,threshold=Math.max(2,Math.ceil(items.length*.15));if(!items.length)return'Chưa có dữ liệu';if(pos-neg>=threshold)return'Tích cực';if(neg-pos>=threshold)return'Tiêu cực';return'Trung tính'};
-    const itemTime = item => {const label=String(item.published_label||'').replaceAll('\u202f',' '),relative=label.match(/^(?:(a|an)|(\d+))\s+(minute|hour|day)s?\s+ago$/i),base=Date.parse(item.collected_at||'');if(relative&&Number.isFinite(base)){const count=relative[1]?1:Number(relative[2]),unit={minute:60000,hour:3600000,day:86400000}[relative[3].toLowerCase()];return base-count*unit}const parsed=Date.parse(label);return Number.isFinite(parsed)?parsed:Date.parse(`${item.date}T00:00:00Z`)};
-    const aggregateRating = (day,platform) => {const rows=(day.ratings||[]).filter(r=>r.platform===platform&&Number.isFinite(r.total_avg_rating)&&Number.isFinite(r.total_rating_count));const count=rows.reduce((sum,r)=>sum+r.total_rating_count,0);return count?rows.reduce((sum,r)=>sum+r.total_avg_rating*r.total_rating_count,0)/count:null};
-    const latestRating = platform => {for(const day of [...state.selected].reverse()){const value=aggregateRating(day,platform);if(value!==null)return value}return null};
-    const selectedItems = () => state.selected.flatMap(day=>day.items.map(item=>({...item,date:day.date})));
+    const contentKindLabel = value => ({post:'Bài đăng',comment:'Bình luận',review:'Đánh giá store'}[value]||value||'Phản hồi');
+    const channelName = item => item.community||item.source||'Chưa xác định';
+    const countBy = (items,keyFn) => Object.entries(items.reduce((acc,item)=>{const key=keyFn(item)||'Chưa phân loại';acc[key]=(acc[key]||0)+1;return acc},{})).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));
+    const rawSelectedItems = () => state.selected.flatMap(day=>(day.items||[]).map(item=>({...item,date:day.date})));
+    const selectedItems = () => rawSelectedItems().filter(i=>i.date_basis!=='observed_at');
+    const previousItems = () => state.previous.flatMap(day=>timelineItems(day).map(item=>({...item,date:day.date})));
     const selectedDates = () => state.selected.map(day=>day.date);
-    function dateAdd(value, days){ const d=new Date(`${value}T00:00:00Z`); d.setUTCDate(d.getUTCDate()+days); return d.toISOString().slice(0,10); }
-    async function fetchJson(path){ const response=await fetch(path,{cache:'no-store'}); if(!response.ok) throw new Error(`${path}: HTTP ${response.status}`); return response.json(); }
+
+    function dateAdd(value,days){const d=new Date(`${value}T00:00:00Z`);d.setUTCDate(d.getUTCDate()+days);return d.toISOString().slice(0,10)}
+    function calendarDates(start,end){const dates=[];for(let day=start;day<=end;day=dateAdd(day,1))dates.push(day);return dates}
+    function dateLabel(value){return new Date(`${value}T00:00:00Z`).toLocaleDateString('vi-VN',{day:'2-digit',month:'2-digit',year:'numeric',timeZone:'UTC'})}
+    function periodLabel(){const dates=selectedDates();if(!dates.length)return'Kỳ chưa có dữ liệu';return dates.length===1?dateLabel(dates[0]):`${dateLabel(dates[0])} – ${dateLabel(dates.at(-1))}`}
+    function moodFor(items){
+      if(!items.length)return'Chưa đủ dữ liệu';
+      const pos=items.filter(i=>i.sentiment==='Positive').length,neg=items.filter(i=>i.sentiment==='Negative').length,neutral=items.filter(i=>['Neutral','Mixed'].includes(i.sentiment)).length;
+      const gap=Math.max(2,Math.ceil(items.length*.08));
+      if(pos-neg>=gap)return'Nghiêng tích cực';
+      if(neg-pos>=gap)return'Nghiêng tiêu cực';
+      return neutral/items.length>=.5?'Chủ yếu trung tính':'Cảm xúc cân bằng';
+    }
+    function itemTime(item){const label=String(item.published_label||'').replaceAll('\u202f',' '),relative=label.match(/^(?:(a|an)|(\d+))\s+(minute|hour|day)s?\s+ago$/i),base=Date.parse(item.collected_at||'');if(relative&&Number.isFinite(base)){const count=relative[1]?1:Number(relative[2]),unit={minute:60000,hour:3600000,day:86400000}[relative[3].toLowerCase()];return base-count*unit}const parsed=Date.parse(label);return Number.isFinite(parsed)?parsed:Date.parse(`${item.date}T00:00:00Z`)}
+    function aggregateRating(day,platform){const rows=(day.ratings||[]).filter(r=>r.platform===platform&&Number.isFinite(r.total_avg_rating)&&Number.isFinite(r.total_rating_count));const count=rows.reduce((sum,r)=>sum+r.total_rating_count,0);return count?rows.reduce((sum,r)=>sum+r.total_avg_rating*r.total_rating_count,0)/count:null}
+    function latestRating(platform){for(const day of [...state.context].reverse()){const value=aggregateRating(day,platform);if(value!==null)return value}return null}
+    function changeText(current,previous){if(!previous)return current?'Kỳ trước không ghi nhận phản hồi':'Không thay đổi so với kỳ trước';const delta=Math.round((current-previous)/previous*100);return`${delta>0?'Tăng':delta<0?'Giảm':'Không đổi'} ${Math.abs(delta)}% so với kỳ trước`}
+    async function fetchJson(path){const response=await fetch(path,{cache:'no-store'});if(!response.ok)throw new Error(`${path}: HTTP ${response.status}`);return response.json()}
+    async function loadDates(dates){const available=new Set(state.index.dates);return Promise.all(dates.map(async date=>available.has(date)?fetchJson(`data/daily/${date}.json`):{date,items:[],ratings:[],alerts:[]}))}
+
+    function setMode(mode){
+      state.mode=mode;
+      document.querySelectorAll('[data-mode]').forEach(button=>button.classList.toggle('active',button.dataset.mode===mode));
+      document.querySelectorAll('.day-only').forEach(x=>x.style.display=mode==='day'?'grid':'none');
+      document.querySelectorAll('.range-only').forEach(x=>x.style.display=mode==='range'?'grid':'none');
+    }
+    function chosenDays(){return state.mode==='day'?[$('#dayPicker').value]:calendarDates($('#fromDate').value,$('#toDate').value)}
+    function contextDays(){const chosen=chosenDays();return chosen.length===1?calendarDates(dateAdd(chosen[0],-29),chosen[0]):chosen}
+    function previousDays(current){return calendarDates(dateAdd(current[0],-current.length),dateAdd(current[0],-1))}
+    function validateSelection(){
+      if(state.mode==='day'&&!$('#dayPicker').value)throw new Error('Vui lòng chọn ngày cần xem.');
+      if(state.mode==='range'){
+        if(!$('#fromDate').value||!$('#toDate').value)throw new Error('Vui lòng chọn đủ ngày bắt đầu và ngày kết thúc.');
+        if($('#fromDate').value>$('#toDate').value)throw new Error('Ngày bắt đầu phải trước ngày kết thúc.');
+        if(calendarDates($('#fromDate').value,$('#toDate').value).length>90)throw new Error('Mỗi lần xem tối đa 90 ngày để bảo đảm báo cáo dễ đọc.');
+      }
+    }
+    function resetExplorer(){['sourceFilter','sentimentFilter','activityFilter','themeFilter','keywordFilter'].forEach(id=>{$(`#${id}`).value=''});$('#includeUndated').checked=false;state.page=1}
+    async function apply(){
+      try{
+        validateSelection();document.querySelector('main').classList.add('loading');
+        const current=chosenDays(),context=contextDays(),previous=previousDays(current);
+        [state.selected,state.context,state.previous]=await Promise.all([loadDates(current),loadDates(context),loadDates(previous)]);
+        resetExplorer();render();
+      }catch(error){alert(error.message)}finally{document.querySelector('main').classList.remove('loading')}
+    }
     async function init(){
-      try {
+      try{
         [state.index,state.briefing]=await Promise.all([fetchJson('data/index.json'),fetchJson('data/facebook-insights.json')]);
-        const dates=[...state.index.dates].sort(); if(!dates.length) throw new Error('index.json không có ngày dữ liệu');
-        const initialDate=state.index.latest_with_data&&dates.includes(state.index.latest_with_data)?state.index.latest_with_data:dates.at(-1);
-        $('#dayPicker').min=dates[0]; $('#dayPicker').max=dates.at(-1); $('#dayPicker').value=initialDate;
-        $('#fromDate').min=dates[0]; $('#fromDate').max=dates.at(-1); $('#toDate').min=dates[0]; $('#toDate').max=dates.at(-1);
-        $('#fromDate').value=dateAdd(initialDate,-1); $('#toDate').value=dateAdd(initialDate,-1);
-        document.querySelectorAll('.day-only').forEach(x=>x.style.display='none');
-        document.querySelectorAll('.range-only').forEach(x=>x.style.display=x.classList.contains('presets')?'flex':'grid');
+        const dates=[...state.index.dates].sort();if(!dates.length)throw new Error('index.json không có ngày dữ liệu');
+        const latest=state.index.latest_with_data&&dates.includes(state.index.latest_with_data)?state.index.latest_with_data:dates.at(-1);
+        const initialDate=dateAdd(latest,-1)>=dates[0]?dateAdd(latest,-1):latest;
+        for(const id of ['dayPicker','fromDate','toDate']){$(`#${id}`).min=dates[0];$(`#${id}`).max=dates.at(-1)}
+        $('#dayPicker').value=initialDate;$('#fromDate').value=initialDate;$('#toDate').value=initialDate;
+        setMode('day');document.querySelector('[data-days="yesterday"]').classList.add('active');
         $('#updated').textContent=`Cập nhật lần cuối: ${new Date(state.index.last_updated).toLocaleString('vi-VN')}`;
         $('#mockBanner').style.display=state.index.data_mode==='mock'?'block':'none';
         await apply();
-      } catch(error){ document.querySelector('main').innerHTML+=`<section class="card error"><strong>Không thể tải dữ liệu.</strong><br>${esc(error.message)}</section>`; }
+      }catch(error){document.querySelector('main').innerHTML+=`<section class="card error"><strong>Không thể tải dữ liệu.</strong><br>${esc(error.message)}</section>`}
     }
-    async function loadDates(dates){
-      const loaded=await Promise.all(dates.map(async date=>{ try{return await fetchJson(`data/daily/${date}.json`)}catch{return null} }));
-      return loaded.filter(Boolean);
+
+    function render(){
+      const items=selectedItems(),raw=rawSelectedItems(),undated=raw.filter(i=>i.date_basis==='observed_at').length,alerts=state.selected.flatMap(d=>d.alerts||[]);
+      $('#periodLabel').textContent=`Kỳ phân tích: ${periodLabel()}`;
+      $('#scopeNote').textContent=`${fmt.format(items.length)} phản hồi có ngày đăng${undated?` · ${fmt.format(undated)} nội dung chưa rõ ngày được tách riêng`:''}`;
+      $('#undatedCount').textContent=fmt.format(undated);
+      $('#includeUndated').disabled=!undated;
+      renderKpis(items);renderBriefing(items,alerts);renderInsights(items,undated);renderCharts();renderSources();renderThemes(items);renderReport();setupFilters(items);renderFeedback();
+      $('#alertBadge').hidden=!alerts.length;$('#alertBadge').textContent=`${alerts.length} cảnh báo cần xem`;
     }
-    function chosenDays(){const all=[...state.index.dates].sort();if(state.mode==='day')return[$('#dayPicker').value];return all.filter(d=>d>=$('#fromDate').value&&d<=$('#toDate').value).slice(-90)}
-    function contextDays(){const all=[...state.index.dates].sort(),single=state.mode==='day'||$('#fromDate').value===$('#toDate').value;if(single){const end=state.mode==='day'?$('#dayPicker').value:$('#toDate').value,start=dateAdd(end,-29);return all.filter(d=>d>=start&&d<=end)}return chosenDays()}
-    async function apply(){
-      const all=[...state.index.dates].sort(),current=chosenDays(),context=contextDays(),start=all.indexOf(current[0]),previous=all.slice(Math.max(0,start-current.length),start);
-      [state.selected,state.context,state.previous]=await Promise.all([loadDates(current),loadDates(context),loadDates(previous)]);
-      state.page=1; render();
-    }
-    function render(){ const items=selectedItems(); renderKpis(items); renderInsights(items); renderBriefing(); renderCharts(); renderSources(items); renderThemes(items); renderReport(); setupFilters(items); renderFeedback(); const alerts=state.selected.flatMap(d=>d.alerts||[]); $('#alertBadge').hidden=!alerts.length; $('#alertBadge').textContent=`${alerts.length} cảnh báo`; }
-    function previousItems(){ return state.previous.flatMap(day=>day.items); }
     function renderKpis(items){
-      const confirmed=items.filter(i=>i.date_basis!=='observed_at'),positive=confirmed.filter(i=>i.sentiment==='Positive').length,negative=confirmed.filter(i=>i.sentiment==='Negative').length,severe=items.filter(i=>['P0','P1'].includes(i.severity)).length,undated=items.filter(i=>i.date_basis==='observed_at').length;
+      const positive=items.filter(i=>i.sentiment==='Positive').length,negative=items.filter(i=>i.sentiment==='Negative').length,previous=previousItems(),sources=new Set(items.map(channelName)).size;
       const gp=latestRating('Google Play'),ios=latestRating('App Store'),ratings=[gp,ios].filter(Number.isFinite);
-      const cards=[['Tổng phản hồi',fmt.format(items.length),undated?`${fmt.format(undated)} mục chưa rõ ngày đăng`:'Trong kỳ đã chọn'],['Xu hướng chung',moodFor(confirmed),`${fmt.format(confirmed.length)} phản hồi có ngày đăng`],['Tích cực',fmt.format(positive),'phản hồi'],['Tiêu cực',fmt.format(negative),'phản hồi'],['Điểm store',ratings.length?avg(ratings).toFixed(2):'N/A',`Google Play ${gp===null?'N/A':gp.toFixed(2)} · iOS ${ios===null?'N/A':ios.toFixed(2)}`],['Cảnh báo',fmt.format(severe),severe?'Cần ưu tiên xử lý':'Không ghi nhận vấn đề nghiêm trọng']];
+      const cards=[
+        ['Phản hồi có ngày đăng',fmt.format(items.length),changeText(items.length,previous.length)],
+        ['Xu hướng cảm xúc',moodFor(items),`${pct(positive,items.length)} tích cực · ${pct(negative,items.length)} tiêu cực`],
+        ['Tích cực',fmt.format(positive),`${pct(positive,items.length)} tổng phản hồi`],
+        ['Tiêu cực',fmt.format(negative),`${pct(negative,items.length)} tổng phản hồi`],
+        ['Nguồn có phản hồi',fmt.format(sources),'Group, fanpage comment và store review'],
+        ['Điểm store gần nhất',ratings.length?avg(ratings).toFixed(2):'N/A',`Google Play ${gp===null?'N/A':gp.toFixed(2)} · iOS ${ios===null?'N/A':ios.toFixed(2)}`]
+      ];
       $('#kpis').innerHTML=cards.map(([label,value,sub])=>`<article class="kpi"><span class="muted">${label}</span><span class="value">${value}</span><span class="delta">${sub}</span></article>`).join('');
     }
-    function renderInsights(items){
-      const confirmed=items.filter(i=>i.date_basis!=='observed_at'),posts=items.filter(i=>i.content_kind==='post').length,comments=items.filter(i=>i.content_kind==='comment').length,communities=new Set(items.map(channelName)).size;
-      const activity=Object.entries(items.reduce((a,i)=>{const key=i.activity_type||i.content_kind||'Feedback';a[key]=(a[key]||0)+1;return a},{})).sort((a,b)=>b[1]-a[1]).slice(0,5);
-      const byTone=tone=>Object.entries(confirmed.filter(i=>i.sentiment===tone).reduce((a,i)=>{a[i.theme]=(a[i.theme]||0)+1;return a},{})).sort((a,b)=>b[1]-a[1]).slice(0,4);
-      const severe=items.filter(i=>['P0','P1'].includes(i.severity));
-      const lines=rows=>rows.length?rows.map(([name,count])=>`<div class="insight-line"><span>${esc(name)}</span><strong>${fmt.format(count)}</strong></div>`).join(''):'<span class="muted">Chưa ghi nhận nội dung nổi bật</span>';
+    function renderBriefing(items,alerts){
+      const previous=previousItems(),positive=items.filter(i=>i.sentiment==='Positive'),negative=items.filter(i=>i.sentiment==='Negative');
+      const topPositive=countBy(positive,i=>i.theme).slice(0,3),topNegative=countBy(negative,i=>i.theme).slice(0,3),topActivities=countBy(items,i=>i.activity_type||contentKindLabel(i.content_kind)).slice(0,3);
+      const signal=state.briefing?.signals?.find(entry=>topNegative.some(([theme])=>(entry.themes||[]).includes(theme)));
+      const list=rows=>rows.length?`<ul>${rows.map(([name,count])=>`<li>${esc(name)}: <strong>${fmt.format(count)}</strong></li>`).join('')}</ul>`:'<p class="muted">Chưa ghi nhận nội dung nổi bật.</p>';
+      const alertText=alerts.length?`<ul>${alerts.map(a=>`<li><strong>${esc(a.level||'Cảnh báo')} · ${esc(a.title)}</strong>: ${esc(a.detail||'Cần kiểm tra thêm.')}</li>`).join('')}</ul>`:'<p>Không ghi nhận cảnh báo P0/P1 trong kỳ đã chọn.</p>';
+      $('#briefing').innerHTML=`<article class="card span-12"><h2>Nhận định cho kỳ ${esc(periodLabel())}</h2><p class="muted">Toàn bộ số liệu dưới đây được tính lại theo đúng kỳ đang chọn; kỳ trước có cùng số ngày và liền kề trước kỳ này.</p><div class="grid" style="margin-bottom:0">
+        <div class="report-block span-3"><h3>Diễn biến tổng thể</h3><span class="metric">${esc(moodFor(items))}</span><p>${fmt.format(items.length)} phản hồi, ${changeText(items.length,previous.length).toLocaleLowerCase('vi-VN')}.</p></div>
+        <div class="report-block span-3"><h3>Chủ đề tích cực</h3><span class="metric">${fmt.format(positive.length)}</span>${list(topPositive)}</div>
+        <div class="report-block span-3"><h3>Điểm cần chú ý</h3><span class="metric">${fmt.format(negative.length)}</span>${list(topNegative)}${signal?`<p class="supporting">Ngữ cảnh rà soát: ${esc(signal.context)}</p>`:''}</div>
+        <div class="report-block span-3"><h3>Cảnh báo và hành động</h3>${alertText}${!alerts.length&&topActivities.length?`<p class="supporting">Hoạt động nổi bật: ${esc(topActivities[0][0])} (${topActivities[0][1]}).</p>`:''}</div>
+      </div></article>`;
+    }
+    function renderInsights(items,undated){
+      const activities=countBy(items,i=>i.activity_type||contentKindLabel(i.content_kind)).slice(0,5),themes=countBy(items,i=>i.theme).slice(0,5),sources=countBy(items,channelName).slice(0,5);
+      const reviewCount=items.filter(i=>i.needs_review).length,machine=items.filter(i=>i.translation_method==='machine_translation').length;
+      const lines=rows=>rows.length?rows.map(([name,count])=>`<div class="insight-line"><span>${esc(name)}</span><strong>${fmt.format(count)}</strong></div>`).join(''):'<span class="muted">Chưa có dữ liệu trong kỳ.</span>';
       $('#insights').innerHTML=`
-        <article class="card span-3 insight-card"><h2>Tổng quan</h2><span class="big">${moodFor(confirmed)}</span><div class="insight-list"><div class="insight-line"><span>Bài đăng</span><strong>${fmt.format(posts)}</strong></div><div class="insight-line"><span>Bình luận</span><strong>${fmt.format(comments)}</strong></div><div class="insight-line"><span>Cộng đồng / nguồn</span><strong>${fmt.format(communities)}</strong></div></div></article>
-        <article class="card span-3 insight-card"><h2>Hoạt động cộng đồng</h2><div class="insight-list">${lines(activity)}</div></article>
-        <article class="card span-3 insight-card"><h2>Chủ đề tích cực</h2><div class="insight-list">${lines(byTone('Positive'))}</div></article>
-        <article class="card span-3 insight-card"><h2>Điểm cần chú ý</h2><div class="insight-list">${lines(byTone('Negative'))}${severe.length?`<div class="insight-line"><span>Cảnh báo</span><strong>${severe.length} · ${esc(severe[0].theme)}</strong></div>`:''}</div></article>`;
+        <article class="card span-3 insight-card"><h2>Hoạt động cộng đồng</h2><div class="insight-list">${lines(activities)}</div></article>
+        <article class="card span-3 insight-card"><h2>Chủ đề được nói nhiều</h2><div class="insight-list">${lines(themes)}</div></article>
+        <article class="card span-3 insight-card"><h2>Nguồn có nhiều phản hồi</h2><div class="insight-list">${lines(sources)}</div></article>
+        <article class="card span-3 insight-card"><h2>Chất lượng dữ liệu</h2><div class="insight-list"><div class="insight-line"><span>Cần rà soát thủ công</span><strong>${fmt.format(reviewCount)}</strong></div><div class="insight-line"><span>Bản dịch tự động</span><strong>${fmt.format(machine)}</strong></div><div class="insight-line"><span>Chưa rõ ngày đăng</span><strong>${fmt.format(undated)}</strong></div></div></article>`;
     }
-    function renderBriefing(){const briefing=state.briefing;if(!briefing){$('#briefing').innerHTML='';return}$('#briefing').innerHTML=`<article class="card span-12"><h2>${esc(briefing.title)}</h2><p class="muted">Cập nhật đến ${esc(briefing.as_of)} · ${esc(briefing.scope_note)}</p><div class="grid" style="margin-bottom:0">${briefing.cards.map(card=>`<div class="report-block span-3"><h3>${esc(card.title)}</h3><p>${esc(card.summary)}</p><ul>${card.details.map(item=>`<li>${esc(item)}</li>`).join('')}</ul></div>`).join('')}</div></article>`}
-    function chart(id,type,data,opts={}){ if(state.charts[id])state.charts[id].destroy(); if(!window.Chart){$(`#${id}`).parentElement.innerHTML='<div class="empty">Không tải được thư viện biểu đồ.</div>';return} state.charts[id]=new Chart($(`#${id}`),{type,data,options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{labels:{color:getComputedStyle(document.body).color}}},scales:{x:{ticks:{color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'}},y:{ticks:{color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'},beginAtZero:true}},...opts}}); }
+    function chart(id,type,data,opts={}){if(state.charts[id])state.charts[id].destroy();if(!window.Chart){$(`#${id}`).parentElement.innerHTML='<div class="empty">Không tải được thư viện biểu đồ.</div>';return}state.charts[id]=new Chart($(`#${id}`),{type,data,options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{labels:{color:getComputedStyle(document.body).color}}},scales:{x:{ticks:{color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'}},y:{ticks:{color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'},beginAtZero:true}},...opts}})}
     function renderCharts(){
-      const days=state.context, labels=days.map(d=>d.date.slice(5));
-      chart('sentimentChart','bar',{labels,datasets:Object.keys(colors).map(s=>({label:sentimentLabel(s),data:days.map(d=>timelineItems(d).filter(i=>i.sentiment===s).length),backgroundColor:colors[s]}))},{scales:{x:{stacked:true,ticks:{color:'#8190a8'},grid:{display:false}},y:{stacked:true,beginAtZero:true,ticks:{color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'}}}});
-      chart('volumeChart','bar',{labels,datasets:[{label:'Tổng phản hồi',data:days.map(d=>timelineItems(d).length),backgroundColor:'#645cff'}]},{scales:{x:{ticks:{color:'#8190a8'},grid:{display:false}},y:{beginAtZero:true,ticks:{color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'}}}});
-      const items=selectedItems().filter(i=>i.date_basis!=='observed_at'), topics=[...new Set(items.map(i=>i.theme))].slice(0,12);
-      chart('topicChart','bar',{labels:topics,datasets:[{label:'Tích cực',data:topics.map(t=>items.filter(i=>i.theme===t&&i.sentiment==='Positive').length),backgroundColor:colors.Positive},{label:'Tiêu cực',data:topics.map(t=>-items.filter(i=>i.theme===t&&i.sentiment==='Negative').length),backgroundColor:colors.Negative}]},{indexAxis:'y',scales:{x:{stacked:true,ticks:{color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'}},y:{stacked:true,ticks:{color:'#8190a8'},grid:{display:false}}}});
-      chart('ratingChart','line',{labels,datasets:['Google Play','App Store'].map((source,idx)=>({label:source,data:days.map(d=>aggregateRating(d,source)),borderColor:idx?'#a64cff':'#645cff',tension:.3,spanGaps:true}))},{scales:{y:{min:1,max:5,ticks:{stepSize:1,color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'}},x:{ticks:{color:'#8190a8'},grid:{display:false}}}});
+      const days=state.context,labels=days.map(d=>d.date.slice(5)),contextLabel=`${dateLabel(days[0].date)} – ${dateLabel(days.at(-1).date)}`;
+      $('#trendCaption').textContent=`Khung biểu đồ: ${contextLabel}${state.selected.length===1?' (30 ngày kết thúc tại ngày đang xem)':''}`;
+      $('#sourceChartCaption').textContent=`Số lượng theo ngày đăng · ${contextLabel}`;
+      $('#ratingCaption').textContent=`Lịch sử điểm tích lũy trong khung ${contextLabel}`;
+      chart('sentimentChart','bar',{labels,datasets:Object.keys(colors).map(s=>({label:sentimentLabel(s),data:days.map(d=>timelineItems(d).filter(i=>i.sentiment===s).length),backgroundColor:colors[s]}))},{scales:{x:{stacked:true,ticks:{color:'#8190a8'},grid:{display:false}},y:{stacked:true,beginAtZero:true,ticks:{color:'#8190a8',precision:0},grid:{color:'rgba(129,144,168,.12)'}}}});
+      const contextItems=days.flatMap(d=>timelineItems(d)),sources=countBy(contextItems,channelName).slice(0,7).map(([name])=>name);
+      chart('volumeChart','bar',{labels,datasets:sources.map((source,index)=>({label:source,data:days.map(d=>timelineItems(d).filter(i=>channelName(i)===source).length),backgroundColor:sourceColors[index%sourceColors.length]}))},{scales:{x:{stacked:true,ticks:{color:'#8190a8'},grid:{display:false}},y:{stacked:true,beginAtZero:true,ticks:{color:'#8190a8',precision:0},grid:{color:'rgba(129,144,168,.12)'}}}});
+      const items=selectedItems(),topics=countBy(items.filter(i=>['Positive','Negative'].includes(i.sentiment)),i=>i.theme).slice(0,10).map(([name])=>name);
+      chart('topicChart','bar',{labels:topics,datasets:[{label:'Tích cực',data:topics.map(t=>items.filter(i=>i.theme===t&&i.sentiment==='Positive').length),backgroundColor:colors.Positive},{label:'Tiêu cực',data:topics.map(t=>-items.filter(i=>i.theme===t&&i.sentiment==='Negative').length),backgroundColor:colors.Negative}]},{indexAxis:'y',scales:{x:{stacked:true,ticks:{color:'#8190a8',precision:0},grid:{color:'rgba(129,144,168,.12)'}},y:{stacked:true,ticks:{color:'#8190a8'},grid:{display:false}}}});
+      chart('ratingChart','line',{labels,datasets:['Google Play','App Store'].map((source,index)=>({label:source,data:days.map(d=>aggregateRating(d,source)),borderColor:index?'#a64cff':'#645cff',backgroundColor:index?'#a64cff':'#645cff',tension:.3,spanGaps:true}))},{scales:{y:{min:1,max:5,ticks:{stepSize:1,color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'}},x:{ticks:{color:'#8190a8'},grid:{display:false}}}});
     }
-    function channelName(item){return item.community||item.source}
-    function renderSources(){ const rows=state.selected.flatMap(day=>{const items=(day.items||[]).map(item=>({...item,date:day.date})),sources=[...new Set(items.map(channelName))];return sources.map(source=>{const group=items.filter(i=>channelName(i)===source);return{date:day.date,source,rows:group}})}).sort((a,b)=>b.date.localeCompare(a.date)||b.rows.length-a.rows.length); $('#sourceRows').innerHTML=rows.map(({date,source,rows})=>`<tr><td>${esc(date)}</td><td>${esc(source)}</td><td>${rows.length}</td><td>${rows.filter(i=>i.sentiment==='Positive').length}</td><td>${rows.filter(i=>i.sentiment==='Negative').length}</td><td>${rows.filter(i=>['Neutral','Mixed'].includes(i.sentiment)).length}</td><td>${rows.filter(i=>i.date_basis==='observed_at').length}</td></tr>`).join('')||'<tr><td colspan="7">Không có dữ liệu</td></tr>'; }
-    function renderThemes(items){ const grouped={}; items.forEach(i=>{grouped[i.theme]??=[];grouped[i.theme].push(i)}); const previous=previousItems(); $('#themeList').innerHTML=Object.entries(grouped).sort((a,b)=>b[1].length-a[1].length).slice(0,10).map(([name,rows])=>{const pos=rows.filter(i=>i.sentiment==='Positive').length/rows.length*100,neg=rows.filter(i=>i.sentiment==='Negative').length/rows.length*100,prev=previous.filter(i=>i.theme===name).length,trend=rows.length>prev?'↑':rows.length<prev?'↓':'→';return`<button class="theme-row" data-theme-name="${esc(name)}"><span>${esc(name)}</span><span class="theme-bar"><span class="positive" style="width:${pos}%"></span><span class="negative" style="width:${neg}%"></span></span><strong>${rows.length} ${trend}</strong></button>`}).join('')||'<div class="empty">Không có theme</div>'; document.querySelectorAll('[data-theme-name]').forEach(button=>button.onclick=()=>showTheme(button.dataset.themeName,items)); }
-    function showTheme(name,items){ const rows=items.filter(i=>i.theme===name); $('#themeDetail').innerHTML=`<h2>${esc(name)}</h2><p class="muted">${rows.length} phản hồi trong kỳ đã chọn</p>`+rows.map(i=>`<div class="quote"><strong>${esc(i.text_vn)}</strong><div class="thai muted">Nguyên văn: ${esc(i.text_th)}</div><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn</a></div>`).join(''); $('#themeDialog').showModal(); }
-    function renderReport(){ if(!state.selected.length){$('#report').innerHTML='<div class="empty">Không có dữ liệu ngày này</div>';return} const summaries=[...state.selected].reverse().map(day=>{const rows=timelineItems(day),positive=rows.filter(i=>i.sentiment==='Positive'),negative=rows.filter(i=>i.sentiment==='Negative'),top=group=>Object.entries(group.reduce((a,i)=>{a[i.theme]=(a[i.theme]||0)+1;return a},{})).sort((a,b)=>b[1]-a[1])[0],liked=top(positive),disliked=top(negative),alerts=day.alerts||[];return`<details ${state.selected.length===1?'open':''}><summary><strong>${esc(day.date)}</strong> · ${rows.length} phản hồi có ngày đăng · Xu hướng: <strong>${moodFor(rows)}</strong></summary><div class="report-grid" style="margin-top:12px"><div class="report-block"><h3>Chủ đề tích cực</h3>${liked?`${esc(liked[0])}: ${liked[1]} phản hồi`:'Chưa ghi nhận chủ đề tích cực nổi bật'}</div><div class="report-block"><h3>Điểm cần chú ý</h3>${disliked?`${esc(disliked[0])}: ${disliked[1]} phản hồi`:'Chưa ghi nhận phản hồi tiêu cực nổi bật'}</div></div>${alerts.length?`<p><strong>Cần ưu tiên:</strong> ${alerts.map(a=>esc(a.title)).join(', ')}</p>`:''}</details>`});$('#report').innerHTML=summaries.join('');
+    function renderSources(){
+      const rows=state.selected.flatMap(day=>{const items=timelineItems(day).map(item=>({...item,date:day.date})),sources=[...new Set(items.map(channelName))];return sources.map(source=>({date:day.date,source,rows:items.filter(i=>channelName(i)===source)}))}).sort((a,b)=>b.date.localeCompare(a.date)||b.rows.length-a.rows.length);
+      $('#sourceRows').innerHTML=rows.map(({date,source,rows})=>`<tr><td>${esc(dateLabel(date))}</td><td>${esc(source)}</td><td>${rows.length}</td><td>${rows.filter(i=>i.sentiment==='Positive').length}</td><td>${rows.filter(i=>i.sentiment==='Negative').length}</td><td>${rows.filter(i=>i.sentiment==='Neutral').length}</td><td>${rows.filter(i=>i.sentiment==='Mixed').length}</td></tr>`).join('')||'<tr><td colspan="7" class="empty">Không có phản hồi xác định được ngày đăng trong kỳ.</td></tr>';
     }
-    function setupFilters(items){ const map={sentimentFilter:'sentiment',themeFilter:'theme',activityFilter:'activity_type'}; const source=$('#sourceFilter'),sourceCurrent=source.value;source.innerHTML=options(items.map(channelName));source.value=sourceCurrent;for(const[id,key]of Object.entries(map)){const el=$(`#${id}`),current=el.value;if(id==='sentimentFilter')el.innerHTML='<option value="">Tất cả</option>'+[...new Set(items.map(i=>i.sentiment).filter(Boolean))].map(v=>`<option value="${esc(v)}">${esc(sentimentLabel(v))}</option>`).join('');else el.innerHTML=options(items.map(i=>i[key]));el.value=current} }
-    function filterItems(){ const selectors={sentimentFilter:'sentiment',themeFilter:'theme',activityFilter:'activity_type'}; const query=$('#keywordFilter').value.trim().toLocaleLowerCase(); state.filtered=selectedItems().filter(item=>(!$('#sourceFilter').value||channelName(item)===$('#sourceFilter').value)&&Object.entries(selectors).every(([id,key])=>!$(`#${id}`).value||item[key]===$(`#${id}`).value)&&(!query||`${item.text_th} ${item.text_vn}`.toLocaleLowerCase().includes(query))).sort((a,b)=>itemTime(b)-itemTime(a)); }
-    function engagementText(item){if(!item.engagement)return'';const parts=[...(item.engagement.reactions||[])];if(item.engagement.comment_count)parts.push(`${item.engagement.comment_count} comments`);return parts.join('; ')}
-    function renderFeedback(){filterItems();const size=50,total=Math.max(1,Math.ceil(state.filtered.length/size));state.page=Math.min(state.page,total);const rows=state.filtered.slice((state.page-1)*size,state.page*size);$('#feedbackRows').innerHTML=rows.map(i=>`<tr><td>${esc(i.date)}${i.published_label?`<br><small class="muted">${esc(i.published_label)}</small>`:''}${i.date_basis==='observed_at'?'<br><small class="muted">chỉ biết ngày thu thập</small>':''}</td><td>${esc(channelName(i))}<br><small class="muted">${esc(i.content_kind||'feedback')}</small></td><td><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span></td><td><strong>${esc(i.text_vn)}</strong>${i.translation_method==='machine_translation'?'<br><small class="muted">Bản dịch tự động</small>':''}</td><td class="thai">${esc(i.text_th)}</td><td>${esc(i.activity_type||i.content_kind||'Feedback')}</td><td>${esc(i.theme)}</td><td>${esc(engagementText(i))}</td><td><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở</a></td></tr>`).join('')||'<tr><td colspan="9" class="empty">Không có phản hồi phù hợp</td></tr>';$('#pageInfo').textContent=`${state.filtered.length} dòng, trang ${state.page}/${total}`;$('#prevPage').disabled=state.page<=1;$('#nextPage').disabled=state.page>=total;}
-    function exportCsv(){filterItems();const keys=['date','date_basis','source','community','content_kind','activity_type','engagement','sentiment','topic','theme','text_th','text_vn','link'];const quote=v=>`"${String(v??'').replaceAll('"','""')}"`;const csv=[keys.join(','),...state.filtered.map(i=>keys.map(k=>quote(k==='engagement'?engagementText(i):i[k])).join(','))].join('\n');const blob=new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`ptg-sentiment-${selectedDates()[0]||'export'}-${selectedDates().at(-1)||''}.csv`;a.click();URL.revokeObjectURL(url);}
-    document.querySelectorAll('[data-mode]').forEach(button=>button.onclick=async()=>{state.mode=button.dataset.mode;document.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b===button));document.querySelectorAll('.day-only').forEach(x=>x.style.display=state.mode==='day'?'grid':'none');document.querySelectorAll('.range-only').forEach(x=>x.style.display=state.mode==='range'?(x.classList.contains('presets')?'flex':'grid'):'none');await apply()});
-    $('#dayPicker').onchange=apply; $('#applyRange').onclick=apply;
-    document.querySelectorAll('[data-days]').forEach(button=>button.onclick=async()=>{const end=state.index.latest_with_data||state.index.dates.at(-1);if(button.dataset.days==='yesterday'){$('#fromDate').value=dateAdd(end,-1);$('#toDate').value=dateAdd(end,-1)}else{$('#toDate').value=end;$('#fromDate').value=button.dataset.days==='month'?`${end.slice(0,7)}-01`:dateAdd(end,-Number(button.dataset.days)+1)}await apply()});
+    function renderThemes(items){
+      const grouped={};items.forEach(i=>{grouped[i.theme]??=[];grouped[i.theme].push(i)});const previous=previousItems();
+      $('#themeList').innerHTML=Object.entries(grouped).sort((a,b)=>b[1].length-a[1].length).slice(0,10).map(([name,rows])=>{const pos=rows.filter(i=>i.sentiment==='Positive').length/rows.length*100,neg=rows.filter(i=>i.sentiment==='Negative').length/rows.length*100,prev=previous.filter(i=>i.theme===name).length,trend=rows.length>prev?'↑':rows.length<prev?'↓':'→';return`<button class="theme-row" data-theme-name="${esc(name)}" title="So với kỳ trước: ${prev} phản hồi"><span>${esc(name)}</span><span class="theme-bar"><span class="positive" style="width:${pos}%"></span><span class="negative" style="width:${neg}%"></span></span><strong>${rows.length} ${trend}</strong></button>`}).join('')||'<div class="empty">Không có chủ đề trong kỳ.</div>';
+      document.querySelectorAll('[data-theme-name]').forEach(button=>button.onclick=()=>showTheme(button.dataset.themeName,items));
+    }
+    function showTheme(name,items){const rows=items.filter(i=>i.theme===name);$('#themeDetail').innerHTML=`<h2>${esc(name)}</h2><p class="muted">${rows.length} phản hồi trong kỳ ${esc(periodLabel())}</p>`+rows.map(i=>`<div class="quote"><strong>${esc(i.text_vn)}</strong><div class="thai muted">Nguyên văn: ${esc(i.text_th)}</div><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn</a></div>`).join('');$('#themeDialog').showModal()}
+    function renderReport(){
+      const days=[...state.selected].reverse().filter(day=>timelineItems(day).length||(day.alerts||[]).length);
+      if(!days.length){$('#report').innerHTML='<div class="empty">Không có phản hồi xác định được ngày đăng trong kỳ này.</div>';return}
+      $('#report').innerHTML=days.map(day=>{const rows=timelineItems(day),positive=rows.filter(i=>i.sentiment==='Positive'),negative=rows.filter(i=>i.sentiment==='Negative'),top=group=>countBy(group,i=>i.theme)[0],liked=top(positive),disliked=top(negative),alerts=day.alerts||[];return`<details ${state.selected.length===1?'open':''}><summary><strong>${esc(dateLabel(day.date))}</strong> · ${rows.length} phản hồi · <strong>${esc(moodFor(rows))}</strong></summary><div class="report-grid" style="margin-top:12px"><div class="report-block"><h3>Chủ đề tích cực</h3>${liked?`${esc(liked[0])}: ${liked[1]} phản hồi`:'Chưa ghi nhận chủ đề tích cực nổi bật.'}</div><div class="report-block"><h3>Điểm cần chú ý</h3>${disliked?`${esc(disliked[0])}: ${disliked[1]} phản hồi`:'Chưa ghi nhận phản hồi tiêu cực nổi bật.'}</div></div>${alerts.length?`<p><strong>Cảnh báo được phát hiện:</strong> ${alerts.map(a=>esc(a.title)).join(', ')}</p>`:''}</details>`}).join('');
+    }
+    function explorerItems(){return $('#includeUndated').checked?rawSelectedItems():selectedItems()}
+    function setupFilters(items){
+      const map={sentimentFilter:'sentiment',themeFilter:'theme',activityFilter:'activity_type'},source=$('#sourceFilter');source.innerHTML=options(items.map(channelName));
+      for(const[id,key]of Object.entries(map)){const el=$(`#${id}`);if(id==='sentimentFilter')el.innerHTML='<option value="">Tất cả</option>'+[...new Set(items.map(i=>i.sentiment).filter(Boolean))].map(v=>`<option value="${esc(v)}">${esc(sentimentLabel(v))}</option>`).join('');else el.innerHTML=options(items.map(i=>i[key]||contentKindLabel(i.content_kind)))}
+    }
+    function filterItems(){const selectors={sentimentFilter:'sentiment',themeFilter:'theme'},query=$('#keywordFilter').value.trim().toLocaleLowerCase();state.filtered=explorerItems().filter(item=>(!$('#sourceFilter').value||channelName(item)===$('#sourceFilter').value)&&(!$('#activityFilter').value||(item.activity_type||contentKindLabel(item.content_kind))===$('#activityFilter').value)&&Object.entries(selectors).every(([id,key])=>!$(`#${id}`).value||item[key]===$(`#${id}`).value)&&(!query||`${item.text_th||''} ${item.text_vn||''}`.toLocaleLowerCase().includes(query))).sort((a,b)=>itemTime(b)-itemTime(a))}
+    function engagementText(item){if(!item.engagement)return'';const parts=(item.engagement.reactions||[]).map(value=>String(value).replace(/people|person/gi,'người'));if(item.engagement.comment_count)parts.push(`${item.engagement.comment_count} bình luận`);return parts.join('; ')}
+    function renderFeedback(){filterItems();const size=50,total=Math.max(1,Math.ceil(state.filtered.length/size));state.page=Math.min(state.page,total);const rows=state.filtered.slice((state.page-1)*size,state.page*size);$('#feedbackRows').innerHTML=rows.map(i=>`<tr><td>${esc(i.date)}${i.published_label?`<br><small class="muted">${esc(i.published_label)}</small>`:''}${i.date_basis==='observed_at'?'<br><small class="muted">Chưa rõ ngày đăng; đây là ngày thu thập</small>':''}</td><td>${esc(channelName(i))}<br><small class="muted">${esc(contentKindLabel(i.content_kind))}</small></td><td><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span></td><td><strong>${esc(i.text_vn)}</strong>${i.translation_method==='machine_translation'?'<br><small class="muted">Bản dịch tự động</small>':''}</td><td class="thai">${esc(i.text_th)}</td><td>${esc(i.activity_type||contentKindLabel(i.content_kind))}</td><td>${esc(i.theme)}</td><td>${esc(engagementText(i))}</td><td><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở</a></td></tr>`).join('')||'<tr><td colspan="9" class="empty">Không có phản hồi phù hợp.</td></tr>';$('#pageInfo').textContent=`${state.filtered.length} dòng · Trang ${state.page}/${total}`;$('#prevPage').disabled=state.page<=1;$('#nextPage').disabled=state.page>=total}
+    function exportCsv(){filterItems();const keys=['date','date_basis','source','community','content_kind','activity_type','engagement','sentiment','topic','theme','text_th','text_vn','link'],quote=value=>`"${String(value??'').replaceAll('"','""')}"`,csv=[keys.join(','),...state.filtered.map(i=>keys.map(key=>quote(key==='engagement'?engagementText(i):i[key])).join(','))].join('\n'),blob=new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=`ptg-feedback-${selectedDates()[0]||'export'}-${selectedDates().at(-1)||''}.csv`;link.click();URL.revokeObjectURL(url)}
+
+    const clearPresets=()=>document.querySelectorAll('.preset').forEach(button=>button.classList.remove('active'));
+    document.querySelectorAll('[data-mode]').forEach(button=>button.onclick=async()=>{clearPresets();setMode(button.dataset.mode);await apply()});
+    $('#dayPicker').onchange=async()=>{clearPresets();await apply()};$('#fromDate').onchange=clearPresets;$('#toDate').onchange=clearPresets;$('#applyRange').onclick=apply;
+    document.querySelectorAll('[data-days]').forEach(button=>button.onclick=async()=>{const latest=state.index.latest_with_data||state.index.dates.at(-1),end=button.dataset.days==='yesterday'?dateAdd(latest,-1):latest;document.querySelectorAll('.preset').forEach(x=>x.classList.toggle('active',x===button));if(button.dataset.days==='yesterday'){setMode('day');$('#dayPicker').value=end}else{setMode('range');$('#toDate').value=end;$('#fromDate').value=button.dataset.days==='month'?`${end.slice(0,7)}-01`:dateAdd(end,-Number(button.dataset.days)+1)}await apply()});
     document.querySelectorAll('.filters select,.filters input').forEach(el=>el.addEventListener(el.type==='search'?'input':'change',()=>{state.page=1;renderFeedback()}));
+    $('#includeUndated').onchange=()=>{state.page=1;setupFilters(explorerItems());renderFeedback()};
     $('#prevPage').onclick=()=>{state.page--;renderFeedback()};$('#nextPage').onclick=()=>{state.page++;renderFeedback()};$('#exportCsv').onclick=exportCsv;
     $('#themeToggle').onclick=()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';localStorage.setItem('ptg-theme',dark?'dark':'light');renderCharts()};document.documentElement.dataset.theme=localStorage.getItem('ptg-theme')||'light';
     init();
