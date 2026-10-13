@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-08",
+  "alerts": [],
+  "items": [
+    {
+      "id": "facebook-ca5d24d1c04aec21",
+      "source": "Facebook Group",
+      "link": "https://www.facebook.com/groups/1772363333745643/posts/1891999091782066/?comment_id=1891999418448700",
+      "link_quality": "canonical_permalink",
+      "author_masked": "Ẩ***",
+      "text_th": "PT26HALLOWEEN",
+      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.45,
+      "needs_review": true,
+      "content_kind": "comment",
+      "date_basis": "published_at",
+      "published_label": "Thursday, October 8, 2026 at 4:48 PM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T14:30:00+07:00"
+    },
+    {
+      "id": "facebook-59af84cf97ced023",
+      "source": "Facebook Group",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28509892081955268/?comment_id=28526280300316446",
+      "link_quality": "canonical_permalink",
+      "author_masked": "Ẩ***",
+      "text_th": "มันก็ปกติม่ะ ไม่มีโฆษณา 30 วัน",
+      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.45,
+      "needs_review": true,
+      "content_kind": "comment",
+      "date_basis": "published_at",
+      "published_label": "Thursday, October 8, 2026 at 2:27 PM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T14:30:00+07:00"
+    },
+    {
+      "id": "facebook-b6e2d1b7abd3ea4b",
+      "source": "Facebook Group",
+      "link": "https://www.facebook.com/groups/815754622673816/posts/2150619619187303/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "Ẩ***",
+      "text_th": "บริการกดสภาพอากาศ ของขวัญ และเมล็ด Play together \nสภาพอากาศทุกอัน 10 บาท \nเมล็ดราคาตามภาพ ยอดนิยม\nเมล็ดที่ใช้ทองไม่สามารถกิฟได้นะครับ \nอาจจะมีการปรับราคาเล็กน้อยโปรดติดตามโพสต์ล่าสุดของอุ๋งๆเลย \nแอดแล้วทักได้เลย รับทั้งวอเล็ต และ ธนาคาร สต็อกมีเพิ่มเรื่อยๆ สอบถามแพ็คเพิ่มเติมได้เลยอุ๋งๆ",
+      "text_vn": "Đã lưu nguyên văn bài đăng Facebook; cần dịch và phân loại thủ công.",
+      "sentiment": "Neutral",
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.45,
+      "needs_review": true,
+      "content_kind": "post",
+      "date_basis": "published_at",
+      "published_label": "5 days ago",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T14:30:00+07:00"
+    },
+    {
+      "id": "facebook-703f0749ec9ed485",
+      "source": "Facebook Group",
+      "link": "https://www.facebook.com/groups/1772363333745643/posts/1891383281843647/?comment_id=1891423575172951",
+      "link_quality": "canonical_permalink",
+      "author_masked": "K***",
+      "text_th": "ทุเรียนกับทุเรียนเทศคนละต้นค่ะส่วนมากทุเรียนจะได้จะการสุ่มซองผักค่ะทุเรียนเทศ… See more",
+      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "sentiment": "Neutral",
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.45,
+      "needs_review": true,
+      "content_kind": "comment",
+      "date_basis": "published_at",
+      "published_label": "Thursday, October 8, 2026 at 12:09 AM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T14:30:00+07:00"
+    },
+    {
+      "id": "facebook-fe7727f664649e90",
+      "source": "Facebook Group",
+      "link": "https://www.facebook.com/groups/815754622673816/posts/2150401479209117/?comment_id=2150928175823114",
+      "link_quality": "canonical_permalink",
+      "author_masked": "W***",
+      "text_th": "สนใจคับ ให้1500เลย",
+      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.45,
+      "needs_review": true,
+      "content_kind": "comment",
+      "date_basis": "published_at",
+      "published_label": "Thursday, October 8, 2026 at 8:40 AM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T14:30:00+07:00"
+    }
+  ],
+  "metrics": {
+    "volume": 5,
+    "noise": 0,
+    "by_source": {
+      "Facebook Group": 5
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 5,
+      "Negative": 0,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Other": 3,
+      "Gacha / Shop / Pricing": 2
+    },
+    "by_segment": {
+      "unknown": 5
+    },
+    "nss": 0,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 0
+    }
+  },
+  "report": {
+    "overview": "Có 5 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Facebook ngày 2026-10-08: 5 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
+      "Lần thu thập 2026-10-13T14:30:00+07:00: 233 quan sát duy nhất (128 post, 105 comment), gồm 41 bài chỉ có hình/không có chữ truy cập được và 70 post có reaction metadata.",
+      "103 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
+      "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
+    ]
+  },
+  "generated_at": "2026-10-13T07:27:53.790Z",
+  "data_mode": "production"
+}

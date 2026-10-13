@@ -1,0 +1,121 @@
+{
+  "date": "2026-09-13",
+  "alerts": [],
+  "items": [
+    {
+      "id": "facebook-b402f91ba519a862",
+      "source": "Facebook Fanpage",
+      "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid0nBFrbr7U99JGGs4RrsrVebH6xiLGgC7HsVBipewb1fCYh2runMJswJ4VghEnK9pkl?comment_id=1392787339660109",
+      "link_quality": "canonical_permalink",
+      "author_masked": "A***",
+      "text_th": "Toàn rác đỡ tốn tiền",
+      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.45,
+      "needs_review": true,
+      "content_kind": "comment",
+      "date_basis": "published_at",
+      "published_label": "Sunday, September 13, 2026 at 10:05 AM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T14:30:00+07:00"
+    }
+  ],
+  "metrics": {
+    "volume": 1,
+    "noise": 0,
+    "by_source": {
+      "Facebook Fanpage": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 1,
+      "Negative": 0,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Other": 1
+    },
+    "by_segment": {
+      "unknown": 1
+    },
+    "nss": 0,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 0
+    }
+  },
+  "report": {
+    "overview": "Có 1 feedback trong ngày từ Facebook Fanpage. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Facebook ngày 2026-09-13: 1 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
+      "Lần thu thập 2026-10-13T14:30:00+07:00: 233 quan sát duy nhất (128 post, 105 comment), gồm 41 bài chỉ có hình/không có chữ truy cập được và 70 post có reaction metadata.",
+      "103 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
+      "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
+    ]
+  },
+  "generated_at": "2026-10-13T07:27:53.790Z",
+  "data_mode": "production"
+}

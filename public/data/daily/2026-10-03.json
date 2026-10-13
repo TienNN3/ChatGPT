@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-03",
+  "alerts": [],
+  "items": [
+    {
+      "id": "facebook-3ad6f3713b74c9dd",
+      "source": "Facebook Group",
+      "link": "https://www.facebook.com/groups/815754622673816/posts/2146890932893505/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "Ẩ***",
+      "text_th": "งวด 16 ตุลาคม เปิดแผงแล้วจ้า\n#L6 ลอตเตอรี่ 80\n# สลากดิจิตัล\nสลากถูกกฏหมาย\nร้านมหาเศรษฐี\nร้านค้าผู้พิการ\nถูกรางวัลเงินโอนเข้าเป๋าตังค์ทันที\nซื้อผ่านเป๋าตังค์ ซื้อง่าย ไม่หาย ปลอดภัย ได้เงินชัวร์\nเปิดร้าน 6.00-23.00 น.\nอุดหนุนร้านนี้เข้าเป๋าตังค์สแกนคิวอาร์โค้ดได้เลย",
+      "text_vn": "Đã lưu nguyên văn bài đăng Facebook; cần dịch và phân loại thủ công.",
+      "sentiment": "Neutral",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.45,
+      "needs_review": true,
+      "content_kind": "post",
+      "date_basis": "published_at",
+      "published_label": "October 3 at 9:32 PM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T14:30:00+07:00"
+    },
+    {
+      "id": "facebook-74ff9bf1c2de74b0",
+      "source": "Facebook Group",
+      "link": "https://www.facebook.com/groups/815754622673816/posts/2146519179597347/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "Ẩ***",
+      "text_th": "คิวว่างนะคะ\n รับฟาร์มกิจกรรม \n1,000 เหรียญ 20฿\n10,000 เหรียญ 180฿\nเหมา เวล 1-50 500฿\n•ขอคนไม่เร่ง •ล็อคเมลฟ้า\n•เครดิตหน้าโปรไฟล์",
+      "text_vn": "Đã lưu nguyên văn bài đăng Facebook; cần dịch và phân loại thủ công.",
+      "sentiment": "Neutral",
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.45,
+      "needs_review": true,
+      "content_kind": "post",
+      "date_basis": "published_at",
+      "published_label": "October 3 at 12:05 PM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T14:30:00+07:00"
+    },
+    {
+      "id": "facebook-47d92411b96adbfd",
+      "source": "Facebook Group",
+      "link": "https://www.facebook.com/groups/815754622673816/posts/2131132551136010/?comment_id=2146826616233270",
+      "link_quality": "canonical_permalink",
+      "author_masked": "M***",
+      "text_th": "ออกยังงับ",
+      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.45,
+      "needs_review": true,
+      "content_kind": "comment",
+      "date_basis": "published_at",
+      "published_label": "Saturday, October 3, 2026 at 8:06 PM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T14:30:00+07:00"
+    }
+  ],
+  "metrics": {
+    "volume": 3,
+    "noise": 0,
+    "by_source": {
+      "Facebook Group": 3
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 3,
+      "Negative": 0,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Event & Update content": 1,
+      "Gacha / Shop / Pricing": 1,
+      "Other": 1
+    },
+    "by_segment": {
+      "unknown": 3
+    },
+    "nss": 0,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 0
+    }
+  },
+  "report": {
+    "overview": "Có 3 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Facebook ngày 2026-10-03: 3 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
+      "Lần thu thập 2026-10-13T14:30:00+07:00: 233 quan sát duy nhất (128 post, 105 comment), gồm 41 bài chỉ có hình/không có chữ truy cập được và 70 post có reaction metadata.",
+      "103 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
+      "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
+    ]
+  },
+  "generated_at": "2026-10-13T07:27:53.790Z",
+  "data_mode": "production"
+}

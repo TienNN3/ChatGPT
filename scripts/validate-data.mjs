@@ -13,6 +13,8 @@ const themes = await parse(join(dataDir, "themes.json"));
 if (!Array.isArray(index?.dates)) errors.push("index.json: dates must be an array");
 if (!Array.isArray(themes?.themes)) errors.push("themes.json: themes must be an array");
 const themeLabels = new Set((themes?.themes || []).map((theme) => theme.label));
+const ids = new Set();
+const pii = /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}|(?:\+?66|0)[ -]?\d(?:[ -]?\d){7,}|\b(?:uid|user id|order id|transaction id)\s*[:#]?\s*[A-Z0-9-]{4,}/iu;
 const files = await readdir(join(dataDir, "daily"));
 for (const file of files.filter((name) => name.endsWith(".json"))) {
   const day = await parse(join(dataDir, "daily", file));
@@ -27,6 +29,17 @@ for (const file of files.filter((name) => name.endsWith(".json"))) {
     if (!/^.$|^.{1}\*\*\*$/u.test(item.author_masked)) errors.push(`${file}/${item.id}: author is not masked`);
     if (!themeLabels.has(item.theme)) errors.push(`${file}/${item.id}: unknown theme ${item.theme}`);
     if (item.confidence < 0.6 && item.needs_review !== true) errors.push(`${file}/${item.id}: low confidence must need review`);
+    if (ids.has(item.id)) errors.push(`${file}/${item.id}: duplicate id`);
+    ids.add(item.id);
+    if (pii.test(`${item.text_th}\n${item.text_vn}`)) errors.push(`${file}/${item.id}: possible PII in feedback text`);
+    if (item.source?.startsWith("Facebook")) {
+      const canonical = /^https:\/\/(?:www\.)?facebook\.com\/.*\/posts\//.test(item.link);
+      const capturedComment = item.content_kind === "comment" && item.link_quality === "captured_comment_reference" && /[?&]comment_id=/.test(item.link);
+      if (!canonical && !capturedComment) errors.push(`${file}/${item.id}: Facebook link is not a valid captured post/comment reference`);
+      if (!new Set(["post", "comment"]).has(item.content_kind)) errors.push(`${file}/${item.id}: missing/invalid Facebook content_kind`);
+      if (!new Set(["published_at", "observed_at"]).has(item.date_basis)) errors.push(`${file}/${item.id}: missing/invalid Facebook date_basis`);
+      if (!item.engagement || !Array.isArray(item.engagement.reactions)) errors.push(`${file}/${item.id}: missing Facebook engagement metadata`);
+    }
   }
 }
 for (const date of index?.dates || []) if (!files.includes(`${date}.json`)) errors.push(`index.json: missing daily/${date}.json`);

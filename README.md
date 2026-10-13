@@ -30,7 +30,7 @@ node scripts/import-sensortower-ios.mjs "/path/to/Review iOS TH.csv"
 npm run check
 ```
 
-Importer hiện xử lý các review năm 2026, che tên tác giả, loại PII/noise, phân loại chủ đề và cập nhật index production. Không commit file CSV gốc vì có thể chứa dữ liệu cá nhân. Google Play, Facebook group, fanpage và nguồn CS cần collector hoặc export riêng; nguồn chưa có phải được ghi rõ trong `data_health`.
+Importer hiện xử lý các review năm 2026, che tên tác giả, loại PII/noise, phân loại chủ đề và cập nhật index production. Không commit file CSV gốc vì có thể chứa dữ liệu cá nhân. Facebook group/fanpage dùng importer riêng bên dưới; Google Play và nguồn CS chưa có collector phải được ghi rõ trong `data_health`.
 
 File export Android Thailand năm 2026 có thể nhập bằng:
 
@@ -40,6 +40,17 @@ npm run check
 ```
 
 Importer Android gộp dữ liệu với iOS theo ngày. Cột tiếng Việt là tóm tắt phân loại có đánh dấu `needs_review`, không được xem là bản dịch nguyên văn.
+
+## Nhập feedback Facebook
+
+Chỉ nhập staging đã làm sạch, đã che tên và không còn PII. Thư mục `.staging/` được ignore và không được dùng để lưu cookie, token, browser profile hoặc export thô:
+
+```bash
+node scripts/import-facebook.mjs .staging/facebook-observations.json
+npm run check
+```
+
+Importer tạo ID ổn định, chuẩn hóa permalink, chống trùng theo permalink + nội dung + tác giả đã che + loại nội dung, gộp với review store theo ngày và cập nhật metrics/report/index. Mọi post/comment truy cập được đều được giữ lại, gồm bài khoe ảnh, rao bán và thảo luận chung; reaction và số comment được lưu trong `engagement`. Mục không có ngày đăng hiển thị được dùng ngày quan sát với `date_basis=observed_at`, không tự suy đoán ngày đăng.
 
 ## Public bằng GitHub Pages
 

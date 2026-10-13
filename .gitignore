@@ -3,6 +3,7 @@ node_modules/
 .env.*
 !.env.example
 input/
+.staging/
 *.p8
 *.pem
 *service-account*.json

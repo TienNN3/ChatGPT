@@ -1,0 +1,174 @@
+{
+  "date": "2026-09-15",
+  "alerts": [],
+  "items": [
+    {
+      "id": "facebook-ba01c0efc9ce3b0e",
+      "source": "Facebook Group",
+      "link": "https://www.facebook.com/groups/815754622673816/posts/2130260874556511/?comment_id=2130261807889751",
+      "link_quality": "canonical_permalink",
+      "author_masked": "Ẩ***",
+      "text_th": "ทักแชทได้เลยนะคะ",
+      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.45,
+      "needs_review": true,
+      "content_kind": "comment",
+      "date_basis": "published_at",
+      "published_label": "Tuesday, September 15, 2026 at 9:15 PM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T14:30:00+07:00"
+    },
+    {
+      "id": "facebook-df0c376861a9ec3c",
+      "source": "Facebook Group",
+      "link": "https://www.facebook.com/groups/815754622673816/posts/2129994817916450/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "Ẩ***",
+      "text_th": "5 ดาว = 5 ฿\n4 ดาว = 4 ฿\nใบดาวต่ำกว่าอื่นๆติดต่อสอบถามได้ค้าบ\n(มีเครดิตเช็คได้หน้าโปรไฟล์)",
+      "text_vn": "Đã lưu nguyên văn bài đăng Facebook; cần dịch và phân loại thủ công.",
+      "sentiment": "Neutral",
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.45,
+      "needs_review": true,
+      "content_kind": "post",
+      "date_basis": "published_at",
+      "published_label": "September 15 at 2:28 PM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T14:30:00+07:00"
+    },
+    {
+      "id": "facebook-f1de9d07a5a4c9cc",
+      "source": "Facebook Fanpage",
+      "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid02gfVJHDMCSfST9deUC6Q6xoJJ4rWTFZwJmNi5uitzs1qsR84RNijbkPeJQ8emtPjBl?comment_id=1115410737816507",
+      "link_quality": "canonical_permalink",
+      "author_masked": "L***",
+      "text_th": "Lag ? Dead game.",
+      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "sentiment": "Neutral",
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.45,
+      "needs_review": true,
+      "content_kind": "comment",
+      "date_basis": "published_at",
+      "published_label": "Tuesday, September 15, 2026 at 7:17 PM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T14:30:00+07:00"
+    }
+  ],
+  "metrics": {
+    "volume": 3,
+    "noise": 0,
+    "by_source": {
+      "Facebook Group": 2,
+      "Facebook Fanpage": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 3,
+      "Negative": 0,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Other": 1,
+      "Gacha / Shop / Pricing": 1,
+      "Bug / Crash / Lag / Performance": 1
+    },
+    "by_segment": {
+      "unknown": 3
+    },
+    "nss": 0,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 0
+    }
+  },
+  "report": {
+    "overview": "Có 3 feedback trong ngày từ Facebook Group, Facebook Fanpage. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Facebook ngày 2026-09-15: 3 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
+      "Lần thu thập 2026-10-13T14:30:00+07:00: 233 quan sát duy nhất (128 post, 105 comment), gồm 41 bài chỉ có hình/không có chữ truy cập được và 70 post có reaction metadata.",
+      "103 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
+      "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
+    ]
+  },
+  "generated_at": "2026-10-13T07:27:53.790Z",
+  "data_mode": "production"
+}
