@@ -1951,33 +1951,123 @@
         "video_title": null
       },
       "collected_at": "2026-10-13T22:30:00+07:00"
+    },
+    {
+      "id": "youtube-bd8ede07e759cd07",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=PlxJcPt5Dvo",
+      "author_masked": "W***",
+      "text_th": "《Play Together》: 2.32.0 อัพเดตใหม่ ผักยักษ์อลหม่าน/สัตว์เลี้ยงชนิดใหม่ #playtogether #playtogethervng",
+      "text_vn": "Play Together: cập nhật mới 2.32.0, sự kiện Rau khổng lồ hỗn loạn và thú cưng loại mới",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 42,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
+    },
+    {
+      "id": "youtube-c819b888fb6539a2",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=wqMuYI5uza8",
+      "author_masked": "N***",
+      "text_th": "#Play togetherVNG the",
+      "text_vn": "Shorts Play Together VNG (chỉ có hashtag, không có mô tả)",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 189,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
+    },
+    {
+      "id": "youtube-3be4767bb1774bd7",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=PlxJcPt5Dvo&lc=UgwHjVZLZMR4dKIEeat4AaABAg",
+      "author_masked": "ผ***",
+      "text_th": "มันตีผักยังไงคับผมตีไม่ได้",
+      "text_vn": "Đập rau khổng lồ thế nào vậy ạ? Mình đập không được.",
+      "translation_method": "machine_translation",
+      "sentiment": "Negative",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "date_basis": "published_at",
+      "published_label": "12 days ago",
+      "date_precision": "exact",
+      "engagement": {
+        "views": null,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": "《Play Together》: 2.32.0 อัพเดตใหม่ ผักยักษ์อลหม่าน"
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 65,
+    "volume": 68,
     "noise": 0,
     "by_source": {
       "Facebook Group": 62,
-      "YouTube": 3
+      "YouTube": 6
     },
     "by_sentiment": {
       "Positive": 7,
-      "Neutral": 52,
-      "Negative": 6,
+      "Neutral": 54,
+      "Negative": 7,
       "Mixed": 0
     },
     "by_topic": {
-      "Other": 43,
+      "Other": 44,
       "Gacha / Shop / Pricing": 6,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 4,
-      "Event & Update content": 5,
+      "Event & Update content": 7,
       "Bug / Crash / Lag / Performance": 3,
       "Login / Account / Data": 4
     },
     "by_segment": {
-      "unknown": 65
+      "unknown": 68
     },
-    "nss": 1.5,
+    "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

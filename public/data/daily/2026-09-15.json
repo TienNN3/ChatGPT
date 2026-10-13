@@ -1132,16 +1132,77 @@
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
       "translation_method": "machine_translation"
+    },
+    {
+      "id": "youtube-c9246a39915cd4e5",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=PEY-vrx951U",
+      "author_masked": "M***",
+      "text_th": "เดียวMalongพาไปล่า ปลาประหลาดทาว์มาฟิสคูร์ #playtogethervng",
+      "text_vn": "Malong dẫn mọi người đi săn cá kỳ lạ Taumafiskur",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 5,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
+    },
+    {
+      "id": "youtube-8fb5756ff78fd09e",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=CRzdKinOBQg",
+      "author_masked": "M***",
+      "text_th": "จัดไปสมาชิกล่าปลาค่อกุ้งทะเลลึกกัน #playtogethervng #gaming",
+      "text_vn": "Nào các thành viên, cùng đi săn cá tôm hùm biển sâu",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 528,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 39,
+    "volume": 41,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 39
+      "Facebook Group": 39,
+      "YouTube": 2
     },
     "by_sentiment": {
-      "Positive": 3,
+      "Positive": 5,
       "Neutral": 31,
       "Negative": 4,
       "Mixed": 1
@@ -1150,14 +1211,14 @@
       "Other": 25,
       "Gacha / Shop / Pricing": 6,
       "Event & Update content": 1,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 4,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 6,
       "Login / Account / Data": 1,
       "Bug / Crash / Lag / Performance": 2
     },
     "by_segment": {
-      "unknown": 39
+      "unknown": 41
     },
-    "nss": -2.6,
+    "nss": 2.4,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

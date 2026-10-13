@@ -1433,17 +1433,47 @@
         "video_title": null
       },
       "collected_at": "2026-10-13T22:30:00+07:00"
+    },
+    {
+      "id": "youtube-1bda1246a0108c43",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=ylLYSECaIf4",
+      "author_masked": "T***",
+      "text_th": "VVIP PASS ใหม่ ซีซั่นอันเดดฮาร์ท ของรางวัลเพียบ!!!",
+      "text_vn": "VVIP Pass mới mùa Undead Heart, phần thưởng đầy ắp!!!",
+      "translation_method": "machine_translation",
+      "sentiment": "Positive",
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 152,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 49,
+    "volume": 50,
     "noise": 0,
     "by_source": {
       "Facebook Group": 48,
-      "YouTube": 1
+      "YouTube": 2
     },
     "by_sentiment": {
-      "Positive": 6,
+      "Positive": 7,
       "Neutral": 38,
       "Negative": 5,
       "Mixed": 0
@@ -1454,13 +1484,13 @@
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 5,
       "Bug / Crash / Lag / Performance": 2,
       "Login / Account / Data": 2,
-      "Gacha / Shop / Pricing": 3
+      "Gacha / Shop / Pricing": 4
     },
     "by_segment": {
-      "unknown": 46,
+      "unknown": 47,
       "midgame": 3
     },
-    "nss": 2,
+    "nss": 4,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
