@@ -1,0 +1,20 @@
+{
+  "name": "ptg-th-player-sentiment",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only daily player sentiment dashboard for Play Together Thailand",
+  "scripts": {
+    "generate:mock": "node scripts/generate-mock.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "test": "node --test",
+    "serve": "node scripts/serve.mjs",
+    "deploy": "npm run validate && XDG_CONFIG_HOME=.firebase-config firebase deploy --only hosting"
+  },
+  "devDependencies": {
+    "firebase-tools": "15.33.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

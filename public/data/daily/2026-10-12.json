@@ -1,0 +1,221 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T08:00:00+07:00",
+  "data_mode": "mock",
+  "metrics": {
+    "volume": 4,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 1,
+      "Fanpage": 1,
+      "App Store": 1,
+      "Community export": 1
+    },
+    "by_sentiment": {
+      "Positive": 2,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 1
+    },
+    "by_topic": {
+      "Bug / Crash / Lag / Performance": 2,
+      "Rewards / Compensation": 1,
+      "Topup & Payment": 1
+    },
+    "by_segment": {
+      "midgame": 1,
+      "new": 1,
+      "payer": 1,
+      "veteran": 1
+    },
+    "nss": 25,
+    "nss_d1": -33.3,
+    "nss_7d_avg": 0,
+    "store": {
+      "gp_avg": 1,
+      "ios_avg": 5,
+      "star_1": 1,
+      "star_5": 1
+    }
+  },
+  "alerts": [],
+  "report": {
+    "overview": "Dữ liệu mock có 4 phản hồi và NSS 25. Dữ liệu mỏng, không dùng để kết luận về người chơi thật.",
+    "bright_spots": [
+      {
+        "title": "Phần thưởng sự kiện",
+        "count": 1,
+        "quote": {
+          "text_th": "ของแจกกิจกรรมดีมาก",
+          "text_vn": "Quà tặng sự kiện rất tốt.",
+          "link": "https://example.invalid/mock/fb-103"
+        }
+      },
+      {
+        "title": "Phần thưởng sự kiện",
+        "count": 1,
+        "quote": {
+          "text_th": "เติมแล้วของเข้าเร็ว",
+          "text_vn": "Nạp tiền xong nhận vật phẩm nhanh.",
+          "link": "https://example.invalid/mock/ios-103"
+        }
+      }
+    ],
+    "pain_points": [
+      {
+        "issue": "Lag khi câu cá",
+        "cause": "Có thể do trải nghiệm trong tình huống được mô tả chưa ổn định.",
+        "effect": "Có thể làm giảm mức hài lòng nếu kéo dài.",
+        "count": 1,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "ตกปลาแล้วหลุดสามครั้ง",
+            "text_vn": "Bị mất kết nối ba lần khi câu cá.",
+            "link": "https://example.invalid/mock/gp-103"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Có phản hồi mock trong nhóm này.",
+        "links": [
+          "https://example.invalid/mock/fb-103"
+        ]
+      },
+      "midgame": {
+        "summary": "Có phản hồi mock trong nhóm này.",
+        "links": [
+          "https://example.invalid/mock/gp-103"
+        ]
+      },
+      "veteran": {
+        "summary": "Có phản hồi mock trong nhóm này.",
+        "links": [
+          "https://example.invalid/mock/group-103"
+        ]
+      },
+      "payer": {
+        "summary": "Có phản hồi mock trong nhóm này.",
+        "links": [
+          "https://example.invalid/mock/ios-103"
+        ]
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Xác minh bằng dữ liệu thật trước khi hành động.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Xác minh bằng dữ liệu thật trước khi hành động.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Xác minh bằng dữ liệu thật trước khi hành động.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Xác minh bằng dữ liệu thật trước khi hành động.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Toàn bộ dữ liệu trong file này là dữ liệu mock tổng hợp để kiểm thử giao diện.",
+      "Các nguồn thật chưa được cấu hình."
+    ]
+  },
+  "items": [
+    {
+      "id": "mock-2026-10-12-001",
+      "source": "Google Play",
+      "link": "https://example.invalid/mock/gp-103",
+      "text_th": "ตกปลาแล้วหลุดสามครั้ง",
+      "text_vn": "Bị mất kết nối ba lần khi câu cá.",
+      "sentiment": "Negative",
+      "confidence": 0.94,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Lag khi câu cá",
+      "segment": "midgame",
+      "severity": "P1",
+      "needs_review": false,
+      "source_links": [
+        "https://example.invalid/mock/gp-103"
+      ],
+      "author_masked": "K***",
+      "rating": 1
+    },
+    {
+      "id": "mock-2026-10-12-002",
+      "source": "Fanpage",
+      "link": "https://example.invalid/mock/fb-103",
+      "text_th": "ของแจกกิจกรรมดีมาก",
+      "text_vn": "Quà tặng sự kiện rất tốt.",
+      "sentiment": "Positive",
+      "confidence": 0.93,
+      "topic": "Rewards / Compensation",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "new",
+      "severity": null,
+      "needs_review": false,
+      "source_links": [
+        "https://example.invalid/mock/fb-103"
+      ],
+      "author_masked": "M***"
+    },
+    {
+      "id": "mock-2026-10-12-003",
+      "source": "App Store",
+      "link": "https://example.invalid/mock/ios-103",
+      "text_th": "เติมแล้วของเข้าเร็ว",
+      "text_vn": "Nạp tiền xong nhận vật phẩm nhanh.",
+      "sentiment": "Positive",
+      "confidence": 0.92,
+      "topic": "Topup & Payment",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "payer",
+      "severity": null,
+      "needs_review": false,
+      "source_links": [
+        "https://example.invalid/mock/ios-103"
+      ],
+      "author_masked": "B***",
+      "rating": 5
+    },
+    {
+      "id": "mock-2026-10-12-004",
+      "source": "Community export",
+      "link": "https://example.invalid/mock/group-103",
+      "text_th": "เกมสนุกแต่บางครั้งแลค",
+      "text_vn": "Game vui nhưng đôi lúc bị lag.",
+      "sentiment": "Mixed",
+      "confidence": 0.86,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Lag khi câu cá",
+      "segment": "veteran",
+      "severity": "P3",
+      "needs_review": false,
+      "source_links": [
+        "https://example.invalid/mock/group-103"
+      ],
+      "author_masked": "F***"
+    }
+  ]
+}

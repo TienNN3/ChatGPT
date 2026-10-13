@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "themes": [
+    {
+      "id": "event-rewards",
+      "label": "Phần thưởng sự kiện",
+      "topic": "Event & Update content"
+    },
+    {
+      "id": "fishing-lag",
+      "label": "Lag khi câu cá",
+      "topic": "Bug / Crash / Lag / Performance"
+    },
+    {
+      "id": "gacha-value",
+      "label": "Giá trị phần thưởng gacha",
+      "topic": "Gacha / Shop / Pricing"
+    },
+    {
+      "id": "account-login",
+      "label": "Đăng nhập tài khoản",
+      "topic": "Login / Account / Data"
+    },
+    {
+      "id": "thai-localization",
+      "label": "Bản địa hóa tiếng Thái",
+      "topic": "Localization (Thai text, wrong translation)"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T08:00:00+07:00",
+  "data_mode": "mock",
+  "metrics": {
+    "volume": 3,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 1,
+      "App Store": 1,
+      "Fanpage": 1
+    },
+    "by_sentiment": {
+      "Positive": 2,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Event & Update content": 2,
+      "Bug / Crash / Lag / Performance": 1
+    },
+    "by_segment": {
+      "midgame": 2,
+      "unknown": 1
+    },
+    "nss": 33.3,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": 5,
+      "ios_avg": 2,
+      "star_1": 0,
+      "star_5": 1
+    }
+  },
+  "alerts": [],
+  "report": {
+    "overview": "Dữ liệu mock có 3 phản hồi và NSS 33.3. Dữ liệu mỏng, không dùng để kết luận về người chơi thật.",
+    "bright_spots": [
+      {
+        "title": "Phần thưởng sự kiện",
+        "count": 1,
+        "quote": {
+          "text_th": "อีเวนต์ใหม่สนุกมาก รางวัลปัง",
+          "text_vn": "Sự kiện mới rất vui, phần thưởng tuyệt vời.",
+          "link": "https://example.invalid/mock/gp-101"
+        }
+      },
+      {
+        "title": "Phần thưởng sự kiện",
+        "count": 1,
+        "quote": {
+          "text_th": "ชุดใหม่สวยดี 555",
+          "text_vn": "Trang phục mới đẹp đấy, haha.",
+          "link": "https://example.invalid/mock/fb-101"
+        }
+      }
+    ],
+    "pain_points": [
+      {
+        "issue": "Lag khi câu cá",
+        "cause": "Có thể do trải nghiệm trong tình huống được mô tả chưa ổn định.",
+        "effect": "Có thể làm giảm mức hài lòng nếu kéo dài.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "เกมแลคตอนตกปลา",
+            "text_vn": "Game bị lag khi câu cá.",
+            "link": "https://example.invalid/mock/ios-101"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Chưa có dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Có phản hồi mock trong nhóm này.",
+        "links": [
+          "https://example.invalid/mock/gp-101"
+        ]
+      },
+      "veteran": {
+        "summary": "Chưa có dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Chưa có dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Xác minh bằng dữ liệu thật trước khi hành động.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Xác minh bằng dữ liệu thật trước khi hành động.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Xác minh bằng dữ liệu thật trước khi hành động.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Xác minh bằng dữ liệu thật trước khi hành động.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Toàn bộ dữ liệu trong file này là dữ liệu mock tổng hợp để kiểm thử giao diện.",
+      "Các nguồn thật chưa được cấu hình."
+    ]
+  },
+  "items": [
+    {
+      "id": "mock-2026-10-10-001",
+      "source": "Google Play",
+      "link": "https://example.invalid/mock/gp-101",
+      "text_th": "อีเวนต์ใหม่สนุกมาก รางวัลปัง",
+      "text_vn": "Sự kiện mới rất vui, phần thưởng tuyệt vời.",
+      "sentiment": "Positive",
+      "confidence": 0.95,
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "midgame",
+      "severity": null,
+      "needs_review": false,
+      "source_links": [
+        "https://example.invalid/mock/gp-101"
+      ],
+      "author_masked": "S***",
+      "rating": 5
+    },
+    {
+      "id": "mock-2026-10-10-002",
+      "source": "App Store",
+      "link": "https://example.invalid/mock/ios-101",
+      "text_th": "เกมแลคตอนตกปลา",
+      "text_vn": "Game bị lag khi câu cá.",
+      "sentiment": "Negative",
+      "confidence": 0.96,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Lag khi câu cá",
+      "segment": "midgame",
+      "severity": "P2",
+      "needs_review": false,
+      "source_links": [
+        "https://example.invalid/mock/ios-101"
+      ],
+      "author_masked": "N***",
+      "rating": 2
+    },
+    {
+      "id": "mock-2026-10-10-003",
+      "source": "Fanpage",
+      "link": "https://example.invalid/mock/fb-101",
+      "text_th": "ชุดใหม่สวยดี 555",
+      "text_vn": "Trang phục mới đẹp đấy, haha.",
+      "sentiment": "Positive",
+      "confidence": 0.88,
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": false,
+      "source_links": [
+        "https://example.invalid/mock/fb-101"
+      ],
+      "author_masked": "M***"
+    }
+  ]
+}

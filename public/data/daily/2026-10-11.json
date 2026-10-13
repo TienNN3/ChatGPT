@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T08:00:00+07:00",
+  "data_mode": "mock",
+  "metrics": {
+    "volume": 3,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 1,
+      "CS": 1,
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 1,
+      "Neutral": 0,
+      "Negative": 2,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Gacha / Shop / Pricing": 1,
+      "Login / Account / Data": 1,
+      "Localization (Thai text, wrong translation)": 1
+    },
+    "by_segment": {
+      "payer": 1,
+      "veteran": 1,
+      "midgame": 1
+    },
+    "nss": -33.3,
+    "nss_d1": 33.3,
+    "nss_7d_avg": 33.3,
+    "store": {
+      "gp_avg": 1,
+      "ios_avg": 5,
+      "star_1": 1,
+      "star_5": 1
+    }
+  },
+  "alerts": [],
+  "report": {
+    "overview": "Dữ liệu mock có 3 phản hồi và NSS -33.3. Dữ liệu mỏng, không dùng để kết luận về người chơi thật.",
+    "bright_spots": [
+      {
+        "title": "Bản địa hóa tiếng Thái",
+        "count": 1,
+        "quote": {
+          "text_th": "ภาษาไทยรอบนี้อ่านง่ายขึ้น",
+          "text_vn": "Tiếng Thái ở bản này dễ đọc hơn.",
+          "link": "https://example.invalid/mock/ios-102"
+        }
+      }
+    ],
+    "pain_points": [
+      {
+        "issue": "Giá trị phần thưởng gacha",
+        "cause": "Có thể do trải nghiệm trong tình huống được mô tả chưa ổn định.",
+        "effect": "Có thể làm giảm mức hài lòng nếu kéo dài.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "สุ่มเกลือดีจริงๆ ครับ",
+            "text_vn": "Gacha 'may mắn' thật đấy. Câu này mang ý mỉa mai vì kết quả quá tệ.",
+            "link": "https://example.invalid/mock/gp-102"
+          }
+        ]
+      },
+      {
+        "issue": "Đăng nhập tài khoản",
+        "cause": "Có thể do trải nghiệm trong tình huống được mô tả chưa ổn định.",
+        "effect": "Có thể làm giảm mức hài lòng nếu kéo dài.",
+        "count": 1,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "เข้าเกมไม่ได้หลังอัปเดต",
+            "text_vn": "Không thể đăng nhập sau bản cập nhật.",
+            "link": "https://example.invalid/mock/cs-102"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Chưa có dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Có phản hồi mock trong nhóm này.",
+        "links": [
+          "https://example.invalid/mock/ios-102"
+        ]
+      },
+      "veteran": {
+        "summary": "Có phản hồi mock trong nhóm này.",
+        "links": [
+          "https://example.invalid/mock/cs-102"
+        ]
+      },
+      "payer": {
+        "summary": "Có phản hồi mock trong nhóm này.",
+        "links": [
+          "https://example.invalid/mock/gp-102"
+        ]
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Xác minh bằng dữ liệu thật trước khi hành động.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Xác minh bằng dữ liệu thật trước khi hành động.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Xác minh bằng dữ liệu thật trước khi hành động.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Xác minh bằng dữ liệu thật trước khi hành động.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Toàn bộ dữ liệu trong file này là dữ liệu mock tổng hợp để kiểm thử giao diện.",
+      "Các nguồn thật chưa được cấu hình."
+    ]
+  },
+  "items": [
+    {
+      "id": "mock-2026-10-11-001",
+      "source": "Google Play",
+      "link": "https://example.invalid/mock/gp-102",
+      "text_th": "สุ่มเกลือดีจริงๆ ครับ",
+      "text_vn": "Gacha 'may mắn' thật đấy. Câu này mang ý mỉa mai vì kết quả quá tệ.",
+      "sentiment": "Negative",
+      "confidence": 0.84,
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "payer",
+      "severity": "P2",
+      "needs_review": false,
+      "source_links": [
+        "https://example.invalid/mock/gp-102"
+      ],
+      "author_masked": "A***",
+      "rating": 1
+    },
+    {
+      "id": "mock-2026-10-11-002",
+      "source": "CS",
+      "link": "https://example.invalid/mock/cs-102",
+      "text_th": "เข้าเกมไม่ได้หลังอัปเดต",
+      "text_vn": "Không thể đăng nhập sau bản cập nhật.",
+      "sentiment": "Negative",
+      "confidence": 0.91,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "veteran",
+      "severity": "P1",
+      "needs_review": false,
+      "source_links": [
+        "https://example.invalid/mock/cs-102"
+      ],
+      "author_masked": "P***"
+    },
+    {
+      "id": "mock-2026-10-11-003",
+      "source": "App Store",
+      "link": "https://example.invalid/mock/ios-102",
+      "text_th": "ภาษาไทยรอบนี้อ่านง่ายขึ้น",
+      "text_vn": "Tiếng Thái ở bản này dễ đọc hơn.",
+      "sentiment": "Positive",
+      "confidence": 0.9,
+      "topic": "Localization (Thai text, wrong translation)",
+      "topic_secondary": [],
+      "theme": "Bản địa hóa tiếng Thái",
+      "segment": "midgame",
+      "severity": null,
+      "needs_review": false,
+      "source_links": [
+        "https://example.invalid/mock/ios-102"
+      ],
+      "author_masked": "D***",
+      "rating": 5
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>PTG TH Player Sentiment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" referrerpolicy="no-referrer"></script>
+  <style>
+    :root { color-scheme: light; --bg:#f5f7fb; --surface:#fff; --surface-2:#eef2f7; --text:#172033; --muted:#637087; --line:#dce2eb; --brand:#645cff; --brand-2:#a64cff; --positive:#159a68; --negative:#e24a5a; --neutral:#8190a8; --mixed:#e49a2f; --shadow:0 12px 34px rgba(39,48,78,.08); }
+    [data-theme="dark"] { color-scheme:dark; --bg:#11141c; --surface:#191e29; --surface-2:#242b39; --text:#edf1f7; --muted:#a0acc0; --line:#30394b; --brand:#8b82ff; --brand-2:#cf77ff; --shadow:0 12px 34px rgba(0,0,0,.22); }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:"Be Vietnam Pro",sans-serif; font-size:14px; }
+    button,input,select { font:inherit; }
+    button { cursor:pointer; }
+    a { color:var(--brand); }
+    .shell { max-width:1480px; margin:auto; padding:24px; }
+    header { display:flex; justify-content:space-between; align-items:flex-start; gap:24px; margin-bottom:18px; }
+    h1,h2,h3,p { margin-top:0; }
+    h1 { margin-bottom:6px; font-size:clamp(24px,4vw,38px); letter-spacing:-.04em; }
+    h2 { font-size:18px; margin-bottom:16px; }
+    h3 { font-size:15px; margin-bottom:8px; }
+    .eyebrow { color:var(--brand); text-transform:uppercase; letter-spacing:.12em; font-weight:700; font-size:11px; }
+    .muted { color:var(--muted); }
+    .header-actions { display:flex; align-items:center; gap:10px; }
+    .badge,.pill { display:inline-flex; align-items:center; padding:6px 10px; border-radius:999px; font-weight:600; font-size:12px; }
+    .badge { color:#fff; background:var(--negative); }
+    .mock-banner { display:none; background:#fff3d6; border:1px solid #f2cf7d; color:#614608; border-radius:12px; padding:10px 14px; margin-bottom:16px; }
+    [data-theme="dark"] .mock-banner { background:#372d18; color:#ffe9ad; border-color:#765c25; }
+    .card { background:var(--surface); border:1px solid var(--line); border-radius:18px; box-shadow:var(--shadow); padding:20px; }
+    .controls { display:flex; align-items:end; flex-wrap:wrap; gap:12px; margin-bottom:18px; }
+    .segmented { display:flex; padding:4px; background:var(--surface-2); border-radius:11px; }
+    .segmented button { border:0; background:transparent; color:var(--muted); border-radius:8px; padding:8px 13px; }
+    .segmented button.active { background:var(--surface); color:var(--text); box-shadow:0 2px 8px rgba(0,0,0,.08); }
+    label { color:var(--muted); font-size:12px; display:grid; gap:5px; }
+    input,select { min-height:38px; border:1px solid var(--line); border-radius:9px; background:var(--surface); color:var(--text); padding:7px 10px; }
+    .btn { border:1px solid var(--line); border-radius:9px; background:var(--surface); color:var(--text); padding:9px 12px; }
+    .btn.primary { border-color:var(--brand); color:#fff; background:var(--brand); }
+    .presets { display:flex; flex-wrap:wrap; gap:6px; }
+    .range-only { display:none; }
+    .kpis { display:grid; grid-template-columns:repeat(5,minmax(150px,1fr)); gap:14px; margin-bottom:18px; }
+    .kpi { background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:17px; }
+    .kpi .value { display:block; font-size:25px; font-weight:700; margin-top:9px; }
+    .kpi .delta { font-size:11px; color:var(--muted); }
+    .grid { display:grid; grid-template-columns:repeat(12,1fr); gap:18px; margin-bottom:18px; }
+    .span-4 { grid-column:span 4; } .span-6 { grid-column:span 6; } .span-8 { grid-column:span 8; } .span-12 { grid-column:span 12; }
+    .chart-wrap { height:285px; }
+    .source-table,.feedback-table { width:100%; border-collapse:collapse; }
+    th,td { text-align:left; border-bottom:1px solid var(--line); padding:10px 8px; vertical-align:top; }
+    th { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.04em; }
+    .scroll { overflow:auto; }
+    .theme-list { display:grid; gap:8px; }
+    .theme-row { display:grid; grid-template-columns:minmax(130px,1.2fr) 2fr 55px; align-items:center; gap:10px; border:0; width:100%; text-align:left; color:var(--text); background:transparent; padding:7px 0; }
+    .theme-bar { display:flex; height:9px; border-radius:8px; overflow:hidden; background:var(--surface-2); }
+    .theme-bar span { min-width:2px; }
+    .positive { background:var(--positive); } .negative { background:var(--negative); } .neutral { background:var(--neutral); } .mixed { background:var(--mixed); }
+    .report-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+    .report-block { background:var(--surface-2); border-radius:13px; padding:15px; }
+    .report-block ul { margin:8px 0 0; padding-left:20px; }
+    .quote { border-left:3px solid var(--brand); padding-left:11px; margin:9px 0; }
+    .thai { font-family:"Noto Sans Thai",sans-serif; }
+    .filters { display:grid; grid-template-columns:repeat(4,minmax(130px,1fr)); gap:10px; margin-bottom:14px; }
+    .filters .search { grid-column:span 2; }
+    .sentiment-tag { border-radius:999px; padding:4px 7px; font-size:11px; color:#fff; white-space:nowrap; }
+    .sentiment-tag.Positive { background:var(--positive); } .sentiment-tag.Negative { background:var(--negative); } .sentiment-tag.Neutral { background:var(--neutral); } .sentiment-tag.Mixed { background:var(--mixed); }
+    .pagination { display:flex; justify-content:space-between; align-items:center; gap:10px; margin-top:14px; }
+    dialog { width:min(680px,calc(100% - 30px)); max-height:80vh; overflow:auto; background:var(--surface); color:var(--text); border:1px solid var(--line); border-radius:18px; padding:22px; }
+    dialog::backdrop { background:rgba(5,8,15,.66); }
+    .close { float:right; }
+    .empty { padding:30px; text-align:center; color:var(--muted); }
+    .error { border-color:var(--negative); color:var(--negative); }
+    details { border-top:1px solid var(--line); padding:10px 0; }
+    @media(max-width:980px) { .kpis{grid-template-columns:repeat(2,1fr)} .span-4,.span-6,.span-8{grid-column:span 12} .filters{grid-template-columns:repeat(2,1fr)} }
+    @media(max-width:600px) { .shell{padding:14px} header{display:block}.header-actions{margin-top:12px}.kpis{grid-template-columns:1fr}.report-grid,.filters{grid-template-columns:1fr}.filters .search{grid-column:span 1}.card{padding:15px}.chart-wrap{height:240px}.feedback-table{min-width:920px} }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div><div class="eyebrow">Daily intelligence</div><h1>PTG TH Player Sentiment</h1><div id="updated" class="muted">Đang tải dữ liệu...</div></div>
+      <div class="header-actions"><span id="alertBadge" class="badge" hidden></span><button id="themeToggle" class="btn" aria-label="Đổi giao diện">◐</button></div>
+    </header>
+    <div id="mockBanner" class="mock-banner"><strong>Dữ liệu demo.</strong> Các số liệu và quote hiện tại là dữ liệu mock tổng hợp, không phải tiếng nói người chơi thật.</div>
+    <section class="card controls" aria-label="Bộ lọc thời gian">
+      <div class="segmented"><button data-mode="day" class="active">Theo ngày</button><button data-mode="range">Theo khoảng</button></div>
+      <label class="day-only">Ngày<input id="dayPicker" type="date"></label>
+      <label class="range-only">Từ ngày<input id="fromDate" type="date"></label>
+      <label class="range-only">Đến ngày<input id="toDate" type="date"></label>
+      <div class="range-only presets"><button class="btn" data-days="7">7 ngày</button><button class="btn" data-days="14">14 ngày</button><button class="btn" data-days="30">30 ngày</button><button class="btn" data-days="month">Tháng này</button></div>
+      <button id="applyRange" class="btn primary range-only">Áp dụng</button>
+    </section>
+    <section id="kpis" class="kpis"></section>
+    <section class="grid">
+      <article class="card span-6"><h2>Xu hướng NSS</h2><div class="chart-wrap"><canvas id="nssChart"></canvas></div></article>
+      <article class="card span-6"><h2>Volume theo sentiment</h2><div class="chart-wrap"><canvas id="volumeChart"></canvas></div></article>
+      <article class="card span-6"><h2>Phân bổ topic</h2><div class="chart-wrap"><canvas id="topicChart"></canvas></div></article>
+      <article class="card span-6"><h2>Store rating</h2><div class="chart-wrap"><canvas id="ratingChart"></canvas></div></article>
+      <article class="card span-12"><h2>Phân bổ nguồn</h2><div class="scroll"><table class="source-table"><thead><tr><th>Nguồn</th><th>Volume</th><th>% Positive</th><th>% Negative</th><th>NSS</th></tr></thead><tbody id="sourceRows"></tbody></table></div></article>
+    </section>
+    <section class="grid">
+      <article class="card span-4"><h2>Người chơi đang nói gì</h2><div id="themeList" class="theme-list"></div></article>
+      <article class="card span-8"><h2>Báo cáo</h2><div id="report"></div></article>
+    </section>
+    <section class="card">
+      <div style="display:flex;justify-content:space-between;gap:12px;align-items:center"><h2>Feedback explorer</h2><button id="exportCsv" class="btn">Tải CSV</button></div>
+      <div class="filters">
+        <label>Nguồn<select id="sourceFilter"></select></label><label>Sentiment<select id="sentimentFilter"></select></label><label>Topic<select id="topicFilter"></select></label><label>Theme<select id="themeFilter"></select></label>
+        <label>Segment<select id="segmentFilter"></select></label><label>Severity<select id="severityFilter"></select></label><label>Cần review<select id="reviewFilter"><option value="">Tất cả</option><option value="true">Có</option><option value="false">Không</option></select></label><label class="search">Tìm Thai hoặc Việt<input id="keywordFilter" type="search" placeholder="Nhập từ khóa"></label>
+      </div>
+      <div class="scroll"><table class="feedback-table"><thead><tr><th>Ngày</th><th>Nguồn</th><th>Sentiment</th><th>Topic</th><th>Theme</th><th>Tiếng Thái</th><th>Tiếng Việt</th><th>Link</th></tr></thead><tbody id="feedbackRows"></tbody></table></div>
+      <div class="pagination"><span id="pageInfo" class="muted"></span><div><button id="prevPage" class="btn">Trước</button> <button id="nextPage" class="btn">Sau</button></div></div>
+    </section>
+  </main>
+  <dialog id="themeDialog"><button class="btn close" onclick="this.closest('dialog').close()">Đóng</button><div id="themeDetail"></div></dialog>
+  <script>
+  (() => {
+    const $ = (selector) => document.querySelector(selector);
+    const state = { mode:'day', index:null, selected:[], context:[], previous:[], charts:{}, page:1, filtered:[] };
+    const colors = { Positive:'#159a68', Negative:'#e24a5a', Neutral:'#8190a8', Mixed:'#e49a2f' };
+    const fmt = new Intl.NumberFormat('vi-VN');
+    const esc = (value='') => String(value).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    const avg = (values) => { const clean=values.filter(Number.isFinite); return clean.length ? clean.reduce((a,b)=>a+b,0)/clean.length : null; };
+    const options = (values) => '<option value="">Tất cả</option>'+[...new Set(values.filter(Boolean))].sort().map(v=>`<option>${esc(v)}</option>`).join('');
+    const itemNss = (items) => items.length ? ((items.filter(i=>i.sentiment==='Positive').length-items.filter(i=>i.sentiment==='Negative').length)/items.length)*100 : 0;
+    const selectedItems = () => state.selected.flatMap(day=>day.items.map(item=>({...item,date:day.date})));
+    const selectedDates = () => state.selected.map(day=>day.date);
+    function dateAdd(value, days){ const d=new Date(`${value}T00:00:00Z`); d.setUTCDate(d.getUTCDate()+days); return d.toISOString().slice(0,10); }
+    async function fetchJson(path){ const response=await fetch(path,{cache:'no-store'}); if(!response.ok) throw new Error(`${path}: HTTP ${response.status}`); return response.json(); }
+    async function init(){
+      try {
+        state.index=await fetchJson('data/index.json');
+        const dates=[...state.index.dates].sort(); if(!dates.length) throw new Error('index.json không có ngày dữ liệu');
+        $('#dayPicker').min=dates[0]; $('#dayPicker').max=dates.at(-1); $('#dayPicker').value=dates.at(-1);
+        $('#fromDate').min=dates[0]; $('#fromDate').max=dates.at(-1); $('#toDate').min=dates[0]; $('#toDate').max=dates.at(-1);
+        $('#fromDate').value=dates[Math.max(0,dates.length-7)]; $('#toDate').value=dates.at(-1);
+        $('#updated').textContent=`Cập nhật lần cuối: ${new Date(state.index.last_updated).toLocaleString('vi-VN')}`;
+        $('#mockBanner').style.display=state.index.data_mode==='mock'?'block':'none';
+        await apply();
+      } catch(error){ document.querySelector('main').innerHTML+=`<section class="card error"><strong>Không thể tải dữ liệu.</strong><br>${esc(error.message)}</section>`; }
+    }
+    async function loadDates(dates){
+      const loaded=await Promise.all(dates.map(async date=>{ try{return await fetchJson(`data/daily/${date}.json`)}catch{return null} }));
+      return loaded.filter(Boolean);
+    }
+    function contextDays(){
+      const all=[...state.index.dates].sort();
+      if(state.mode==='day'){ const end=$('#dayPicker').value; return all.filter(d=>d<=end).slice(-7); }
+      return all.filter(d=>d>=$('#fromDate').value&&d<=$('#toDate').value).slice(-90);
+    }
+    async function apply(){
+      const all=[...state.index.dates].sort(), current=state.mode==='day'?[$('#dayPicker').value]:contextDays();
+      const context=state.mode==='day'?contextDays():current, start=all.indexOf(current[0]), previous=all.slice(Math.max(0,start-current.length),start);
+      [state.selected,state.context,state.previous]=await Promise.all([loadDates(current),loadDates(context),loadDates(previous)]);
+      state.page=1; render();
+    }
+    function render(){ const items=selectedItems(); renderKpis(items); renderCharts(); renderSources(items); renderThemes(items); renderReport(); setupFilters(items); renderFeedback(); const alerts=state.selected.flatMap(d=>d.alerts||[]); $('#alertBadge').hidden=!alerts.length; $('#alertBadge').textContent=`${alerts.length} cảnh báo`; }
+    function previousItems(){ return state.previous.flatMap(day=>day.items); }
+    function renderKpis(items){
+      const negative=items.filter(i=>i.sentiment==='Negative').length, severe=items.filter(i=>['P0','P1'].includes(i.severity)).length;
+      const ratings=items.filter(i=>Number.isFinite(i.rating)).map(i=>i.rating), nss=itemNss(items), previous=previousItems(); const delta=previous.length?nss-itemNss(previous):null;
+      const cards=[['Tổng feedback',fmt.format(items.length),'Trong kỳ đã chọn'],['NSS',nss.toFixed(1),delta===null?'Chưa có kỳ so sánh':`${delta>=0?'+':''}${delta.toFixed(1)} so với kỳ trước`],['% Negative',items.length?`${(negative/items.length*100).toFixed(1)}%`:'0%','Tỷ trọng tiêu cực'],['Store rating',ratings.length?avg(ratings).toFixed(2):'N/A','Google Play và iOS'],['P0 / P1',fmt.format(severe),'Cần ưu tiên']];
+      $('#kpis').innerHTML=cards.map(([label,value,sub])=>`<article class="kpi"><span class="muted">${label}</span><span class="value">${value}</span><span class="delta">${sub}</span></article>`).join('');
+    }
+    function chart(id,type,data,opts={}){ if(state.charts[id])state.charts[id].destroy(); if(!window.Chart){$(`#${id}`).parentElement.innerHTML='<div class="empty">Không tải được thư viện biểu đồ.</div>';return} state.charts[id]=new Chart($(`#${id}`),{type,data,options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{labels:{color:getComputedStyle(document.body).color}}},scales:{x:{ticks:{color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'}},y:{ticks:{color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'},beginAtZero:true}},...opts}}); }
+    function renderCharts(){
+      const days=state.context, labels=days.map(d=>d.date.slice(5));
+      chart('nssChart','line',{labels,datasets:[{label:'NSS',data:days.map(d=>d.metrics.nss),borderColor:colors.Positive,backgroundColor:'rgba(21,154,104,.12)',fill:true,tension:.3}]},{scales:{y:{min:-100,max:100,ticks:{color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'}},x:{ticks:{color:'#8190a8'},grid:{display:false}}}});
+      chart('volumeChart','bar',{labels,datasets:Object.keys(colors).map(s=>({label:s,data:days.map(d=>d.metrics.by_sentiment[s]||0),backgroundColor:colors[s]}))},{scales:{x:{stacked:true,ticks:{color:'#8190a8'},grid:{display:false}},y:{stacked:true,beginAtZero:true,ticks:{color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'}}}});
+      const items=selectedItems(), topics=[...new Set(items.map(i=>i.topic))];
+      chart('topicChart','bar',{labels:topics,datasets:[{label:'Positive',data:topics.map(t=>items.filter(i=>i.topic===t&&i.sentiment==='Positive').length),backgroundColor:colors.Positive},{label:'Negative',data:topics.map(t=>-items.filter(i=>i.topic===t&&i.sentiment==='Negative').length),backgroundColor:colors.Negative}]},{indexAxis:'y',scales:{x:{stacked:true,ticks:{color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'}},y:{stacked:true,ticks:{color:'#8190a8'},grid:{display:false}}}});
+      chart('ratingChart','line',{labels,datasets:['Google Play','App Store'].map((source,idx)=>({label:source,data:days.map(d=>{const rs=d.items.filter(i=>i.source===source&&Number.isFinite(i.rating)).map(i=>i.rating);return avg(rs)}),borderColor:idx?'#a64cff':'#645cff',tension:.3,spanGaps:true}))},{scales:{y:{min:1,max:5,ticks:{stepSize:1,color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'}},x:{ticks:{color:'#8190a8'},grid:{display:false}}}});
+    }
+    function renderSources(items){ const sources=[...new Set(items.map(i=>i.source))]; $('#sourceRows').innerHTML=sources.map(source=>{const rows=items.filter(i=>i.source===source),pos=rows.filter(i=>i.sentiment==='Positive').length,neg=rows.filter(i=>i.sentiment==='Negative').length;return`<tr><td>${esc(source)}</td><td>${rows.length}</td><td>${(pos/rows.length*100).toFixed(0)}%</td><td>${(neg/rows.length*100).toFixed(0)}%</td><td>${itemNss(rows).toFixed(1)}</td></tr>`}).join('')||'<tr><td colspan="5">Không có dữ liệu</td></tr>'; }
+    function renderThemes(items){ const grouped={}; items.forEach(i=>{grouped[i.theme]??=[];grouped[i.theme].push(i)}); const previous=previousItems(); $('#themeList').innerHTML=Object.entries(grouped).sort((a,b)=>b[1].length-a[1].length).slice(0,10).map(([name,rows])=>{const pos=rows.filter(i=>i.sentiment==='Positive').length/rows.length*100,neg=rows.filter(i=>i.sentiment==='Negative').length/rows.length*100,prev=previous.filter(i=>i.theme===name).length,trend=rows.length>prev?'↑':rows.length<prev?'↓':'→';return`<button class="theme-row" data-theme-name="${esc(name)}"><span>${esc(name)}</span><span class="theme-bar"><span class="positive" style="width:${pos}%"></span><span class="negative" style="width:${neg}%"></span></span><strong>${rows.length} ${trend}</strong></button>`}).join('')||'<div class="empty">Không có theme</div>'; document.querySelectorAll('[data-theme-name]').forEach(button=>button.onclick=()=>showTheme(button.dataset.themeName,items)); }
+    function showTheme(name,items){ const rows=items.filter(i=>i.theme===name); $('#themeDetail').innerHTML=`<h2>${esc(name)}</h2><p class="muted">${rows.length} phản hồi trong kỳ đã chọn</p>`+rows.map(i=>`<div class="quote"><div class="thai">${esc(i.text_th)}</div><div>${esc(i.text_vn)}</div><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn</a></div>`).join(''); $('#themeDialog').showModal(); }
+    function renderReport(){ if(!state.selected.length){$('#report').innerHTML='<div class="empty">Không có dữ liệu ngày này</div>';return} if(state.mode==='day'){const day=state.selected.at(-1),r=day.report; $('#report').innerHTML=`<p>${esc(r.overview)}</p><div class="report-grid"><div class="report-block"><h3>Điểm sáng</h3>${r.bright_spots.map(x=>`<div><strong>${esc(x.title)} (${x.count})</strong><div class="quote"><span class="thai">${esc(x.quote.text_th)}</span><br>${esc(x.quote.text_vn)} <a href="${esc(x.quote.link)}">Nguồn</a></div></div>`).join('')||'Không có'}</div><div class="report-block"><h3>Điểm đau</h3>${r.pain_points.map(x=>`<div><strong>${esc(x.issue)} (${x.severity||'N/A'})</strong><p>${esc(x.cause)} → ${esc(x.effect)}</p></div>`).join('')||'Không có'}</div><div class="report-block"><h3>Phân khúc</h3>${Object.entries(r.segments).map(([k,v])=>`<p><strong>${esc(k)}:</strong> ${esc(v.summary)}</p>`).join('')}</div><div class="report-block"><h3>Hành động đề xuất</h3>${Object.entries(r.next_actions).map(([k,v])=>`<p><strong>${esc(k)}:</strong> ${v.map(a=>`${esc(a.task)} (${esc(a.owner)}, ${esc(a.priority)})`).join('; ')}</p>`).join('')}</div></div><div class="report-block" style="margin-top:16px"><h3>Data health</h3><ul>${r.data_health.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`;}
+      else {const alerts=state.selected.flatMap(d=>(d.alerts||[]).map(a=>({...a,date:d.date}))); const grouped={};selectedItems().forEach(i=>{grouped[i.theme]=(grouped[i.theme]||0)+1}); const top=Object.entries(grouped).sort((a,b)=>b[1]-a[1]).slice(0,5); $('#report').innerHTML=`<div class="report-block"><h3>Cảnh báo trong khoảng</h3>${alerts.length?alerts.map(a=>`<p><strong>${esc(a.date)} ${esc(a.title)}:</strong> ${esc(a.detail)}</p>`).join(''):'Không có cảnh báo.'}</div><div class="report-block" style="margin-top:16px"><h3>Theme nổi bật</h3><ul>${top.map(([k,v])=>`<li>${esc(k)}: ${v}</li>`).join('')}</ul></div><div style="margin-top:16px">${state.selected.map(d=>`<details><summary>${esc(d.date)}</summary><p>${esc(d.report.overview)}</p></details>`).join('')}</div>`; }
+    }
+    function setupFilters(items){ const map={sourceFilter:'source',sentimentFilter:'sentiment',topicFilter:'topic',themeFilter:'theme',segmentFilter:'segment',severityFilter:'severity'}; for(const[id,key]of Object.entries(map)){const el=$(`#${id}`),current=el.value;el.innerHTML=options(items.map(i=>i[key]));el.value=current} }
+    function filterItems(){ const selectors={sourceFilter:'source',sentimentFilter:'sentiment',topicFilter:'topic',themeFilter:'theme',segmentFilter:'segment',severityFilter:'severity'}; const query=$('#keywordFilter').value.trim().toLocaleLowerCase(); state.filtered=selectedItems().filter(item=>Object.entries(selectors).every(([id,key])=>!$(`#${id}`).value||item[key]===$(`#${id}`).value)&&(!$('#reviewFilter').value||String(item.needs_review)===$('#reviewFilter').value)&&(!query||`${item.text_th} ${item.text_vn}`.toLocaleLowerCase().includes(query))); }
+    function renderFeedback(){filterItems();const size=50,total=Math.max(1,Math.ceil(state.filtered.length/size));state.page=Math.min(state.page,total);const rows=state.filtered.slice((state.page-1)*size,state.page*size);$('#feedbackRows').innerHTML=rows.map(i=>`<tr><td>${esc(i.date)}</td><td>${esc(i.source)}</td><td><span class="sentiment-tag ${esc(i.sentiment)}">${esc(i.sentiment)}</span></td><td>${esc(i.topic)}</td><td>${esc(i.theme)}</td><td class="thai">${esc(i.text_th)}</td><td>${esc(i.text_vn)}</td><td><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở</a></td></tr>`).join('')||'<tr><td colspan="8" class="empty">Không có phản hồi phù hợp</td></tr>';$('#pageInfo').textContent=`${state.filtered.length} dòng, trang ${state.page}/${total}`;$('#prevPage').disabled=state.page<=1;$('#nextPage').disabled=state.page>=total;}
+    function exportCsv(){filterItems();const keys=['date','source','sentiment','topic','theme','text_th','text_vn','link'];const quote=v=>`"${String(v??'').replaceAll('"','""')}"`;const csv=[keys.join(','),...state.filtered.map(i=>keys.map(k=>quote(i[k])).join(','))].join('\n');const blob=new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`ptg-sentiment-${selectedDates()[0]||'export'}-${selectedDates().at(-1)||''}.csv`;a.click();URL.revokeObjectURL(url);}
+    document.querySelectorAll('[data-mode]').forEach(button=>button.onclick=async()=>{state.mode=button.dataset.mode;document.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b===button));document.querySelectorAll('.day-only').forEach(x=>x.style.display=state.mode==='day'?'grid':'none');document.querySelectorAll('.range-only').forEach(x=>x.style.display=state.mode==='range'?(x.classList.contains('presets')?'flex':'grid'):'none');await apply()});
+    $('#dayPicker').onchange=apply; $('#applyRange').onclick=apply;
+    document.querySelectorAll('[data-days]').forEach(button=>button.onclick=()=>{const end=state.index.dates.at(-1);$('#toDate').value=end;$('#fromDate').value=button.dataset.days==='month'?`${end.slice(0,7)}-01`:dateAdd(end,-Number(button.dataset.days)+1)});
+    document.querySelectorAll('.filters select,.filters input').forEach(el=>el.addEventListener(el.type==='search'?'input':'change',()=>{state.page=1;renderFeedback()}));
+    $('#prevPage').onclick=()=>{state.page--;renderFeedback()};$('#nextPage').onclick=()=>{state.page++;renderFeedback()};$('#exportCsv').onclick=exportCsv;
+    $('#themeToggle').onclick=()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';localStorage.setItem('ptg-theme',dark?'dark':'light');renderCharts()};document.documentElement.dataset.theme=localStorage.getItem('ptg-theme')||'light';
+    init();
+  })();
+  </script>
+</body>
+</html>
