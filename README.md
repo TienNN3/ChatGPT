@@ -29,9 +29,11 @@ Phiên bản hiện tại là chế độ mock. Trước khi chạy production c
 
 ## Public bằng GitHub Pages
 
-Xem ngay qua CDN HTML công khai, không cần cấu hình hosting:
+URL preview công khai qua CDN bên thứ ba, không cần cấu hình hosting:
 
 `https://raw.githack.com/TienNN3/ChatGPT/main/public/index.html`
+
+URL preview này tiện để xem ngay nhưng không có cam kết vận hành. Nên dùng GitHub Pages bên dưới làm URL chính thức.
 
 Để dùng URL GitHub Pages ổn định, chủ repository cần bật một lần tại **Settings > Pages > Build and deployment > Source: GitHub Actions**. Sau đó, mỗi commit mới trên nhánh `main` sẽ chạy validation và test rồi publish thư mục `public`.
 
