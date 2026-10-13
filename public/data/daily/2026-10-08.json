@@ -3,6 +3,36 @@
   "alerts": [],
   "items": [
     {
+      "id": "facebook-0f266047d9d2ee5b",
+      "source": "Facebook Group",
+      "community": "Facebook Group · 1772363333745643",
+      "link": "https://www.facebook.com/groups/1772363333745643/posts/1891999091782066/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "Ẩ***",
+      "text_th": "แจกโค้ด ฉลองเดือนฮาโลวีน… See more",
+      "text_vn": "Tặng code mừng tháng Halloween... Xem thêm",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "October 8, 2026 at 4:47 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 4 people"
+        ],
+        "comment_count": "4"
+      },
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
+    },
+    {
       "id": "facebook-ca5d24d1c04aec21",
       "source": "Facebook Group",
       "community": "Facebook Group · 1772363333745643",
@@ -28,7 +58,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-59af84cf97ced023",
@@ -56,7 +86,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-b6e2d1b7abd3ea4b",
@@ -84,7 +114,99 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
+    },
+    {
+      "id": "facebook-3c936d5518f207e1",
+      "source": "Facebook Group",
+      "community": "Facebook Group · 1772363333745643",
+      "link": "https://www.facebook.com/groups/1772363333745643/posts/1891899548458687/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "A***",
+      "text_th": "ร่วมกิจกรรมค่า \n[redacted]",
+      "text_vn": "ร่วมกิจกรรมค่า \n[đã được biên tập lại]",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Khoe / tham gia hoạt động",
+      "date_basis": "published_at",
+      "published_label": "October 8, 2026 at 2:02 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 1 person",
+          "Love: 1 person"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
+    },
+    {
+      "id": "facebook-1b235c9aa851a3b5",
+      "source": "Facebook Group",
+      "community": "Facebook Group · 1772363333745643",
+      "link": "https://www.facebook.com/groups/1772363333745643/posts/1891827768465865/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "P***",
+      "text_th": "ย้ายจาก Global มา VNG ไม่ได้? อาจเกิดจากปัญหานี้!… See more",
+      "text_vn": "Không thể chuyển từ Global sang VNG? Có thể do vấn đề này gây ra!… Xem thêm",
+      "translation_method": "machine_translation",
+      "sentiment": "Negative",
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.68,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Hỏi đáp / báo lỗi",
+      "date_basis": "published_at",
+      "published_label": "October 8, 2026 at 11:57 AM",
+      "engagement": {
+        "reactions": [
+          "Like: 3 people"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
+    },
+    {
+      "id": "facebook-74c189be2c4439bb",
+      "source": "Facebook Group",
+      "community": "Facebook Group · 1772363333745643",
+      "link": "https://www.facebook.com/groups/1772363333745643/posts/1891824605132848/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "L***",
+      "text_th": "[Post without accessible text]",
+      "text_vn": "Bài đăng chỉ có hình ảnh; Facebook không cung cấp phần chữ để dịch.",
+      "translation_method": "image_without_accessible_text",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Khoe / tham gia hoạt động",
+      "date_basis": "published_at",
+      "published_label": "October 8, 2026 at 11:51 AM",
+      "engagement": {
+        "reactions": [
+          "Like: 3 people",
+          "Love: 1 person"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-703f0749ec9ed485",
@@ -112,7 +234,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-ff83dc3d67547a11",
@@ -140,7 +262,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-fe7727f664649e90",
@@ -168,7 +290,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-5c8a3c41813be3a4",
@@ -196,7 +318,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-d5654620575d8d67",
@@ -224,7 +346,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-b691911bdb0f2809",
@@ -235,6 +357,7 @@
       "author_masked": "K***",
       "text_th": "เดี๋ยวนี้ play together เข้ากับสตีมไม่ได้แล้วหรอคะเมื่อก่อนเคยผูกกับ steam แต่ตอนนี้จะไปเข้าในสตรีมมันเป็นไอดีใหม่เฉยเลย",
       "text_vn": "Giờ Play Together không đăng nhập bằng Steam được nữa hả? Trước đây mình đã liên kết với Steam, nhưng giờ vào bằng Steam thì lại thành ID mới luôn.",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -253,8 +376,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-095c148c40ea09a0",
@@ -265,6 +387,7 @@
       "author_masked": "P***",
       "text_th": "NEW EVENT SWEET HALLOWEEN- สัตว์เลี้ยงค้างคาวใหม่- ปลาขนมหวาน 20 ชนิด- เมล็ดพันธุ์ใหม่- NPC & เฟอร์นิเจอร์ไอเทมต่างๆCr. Zeross Hunters",
       "text_vn": "SỰ KIỆN MỚI SWEET HALLOWEEN\n- Thú cưng con dơi mới\n- 20 loại cá bánh kẹo\n- Hạt giống mới\n- NPC & các vật phẩm nội thất\nCr. Zeross Hunters",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -284,8 +407,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-90818192383e0fe9",
@@ -296,6 +418,7 @@
       "author_masked": "W***",
       "text_th": "คอนเฟิร์มแล้วแพทช์ต่อไปตกปลาแน่นอน5555",
       "text_vn": "Xác nhận rồi, bản cập nhật tới chắc chắn là câu cá haha",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -315,8 +438,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-70ff473919859aa9",
@@ -327,6 +449,7 @@
       "author_masked": "N***",
       "text_th": "อยากได้ปลายักษ์ใหม่จังเลย",
       "text_vn": "Muốn có cá khổng lồ mới quá",
+      "translation_method": "machine_translation",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -343,8 +466,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-21eaa079ba3f207c",
@@ -355,6 +477,7 @@
       "author_masked": "B***",
       "text_th": "อยากทราบว่าแตงโมกับฟักทองปลูกได้ใหญ่สุดที่กี่กิโลกรัมคะ",
       "text_vn": "Cho mình hỏi dưa hấu với bí ngô trồng to nhất được bao nhiêu kg ạ?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -373,8 +496,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-fef385918be102dc",
@@ -385,6 +507,7 @@
       "author_masked": "P***",
       "text_th": "New Coupon Code PT26HALLOWEEN",
       "text_vn": "Mã coupon mới PT26HALLOWEEN",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -404,8 +527,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-7a19ac5f4258d2e0",
@@ -416,6 +538,7 @@
       "author_masked": "P***",
       "text_th": "PT26HALLOWEEN",
       "text_vn": "PT26HALLOWEEN (mã coupon)",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -432,8 +555,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-0a2f66fd8b84c462",
@@ -444,6 +566,7 @@
       "author_masked": "A***",
       "text_th": "อยากได้เบ็ดที่ต้องสุ่มโดยไม่ต้องสุ่มเอง เอ๊ะ เขาจะเอามาขายอีกนานไหมคะ พวกเบ็ดสมอ เบ็ดไอติม ทางนี้สุ่มจนท้อค่ะ",
       "text_vn": "Muốn có cần câu gacha mà không phải tự quay. Ủa, bao lâu nữa họ mới bán lại vậy? Mấy cần câu mỏ neo, cần câu kem ấy, bên này quay đến nản luôn rồi.",
+      "translation_method": "machine_translation",
       "sentiment": "Positive",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -462,8 +585,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-353d6c68620da8b2",
@@ -474,6 +596,7 @@
       "author_masked": "A***",
       "text_th": "แนะนำ",
       "text_vn": "Gợi ý / Đề xuất",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -490,8 +613,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-7514214cd85f098f",
@@ -502,6 +624,7 @@
       "author_masked": "ว***",
       "text_th": "มีตารางแข่งเกาลัดของใครมีคนได้นน. 5.39 มั้ยคะ ตอนนี้ถ้วยเงินตารางเราคือ5.38 กลัวหลุดอะ อยากได้ถ้วยเงิน555555มีตารางแข่งเกาลัดของใครมีคนได้นน. 5.39 มั้ยคะ ตอนนี้ถ้วยเงินตารางเราคือ5.38 กลัวหลุดอะ อยากได้ถ้วยเงิน555555",
       "text_vn": "Bảng thi hạt dẻ của ai có người được 5.39 kg không ạ? Hiện cúp bạc bảng mình là 5.38, sợ bị tụt mất, muốn có cúp bạc quá haha\n(lặp lại nội dung)",
+      "translation_method": "machine_translation",
       "sentiment": "Mixed",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -520,8 +643,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-29646c3d8bc8847b",
@@ -532,6 +654,7 @@
       "author_masked": "A***",
       "text_th": "5.40 ใหญ่สุดคับบ",
       "text_vn": "5.40 là lớn nhất nha",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -548,8 +671,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-973df3a22b84076f",
@@ -560,6 +682,7 @@
       "author_masked": "W***",
       "text_th": "สำหรับใครที่มีปัญหาไม่สามารถย้ายไอดีได้ลองเช็คดูนะครับ",
       "text_vn": "Ai gặp vấn đề không chuyển ID được thì thử kiểm tra cái này nhé.",
+      "translation_method": "machine_translation",
       "sentiment": "Negative",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -578,8 +701,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-3b530c3b046fce74",
@@ -590,6 +712,7 @@
       "author_masked": "I***",
       "text_th": "เพราะมี2เซิฟ55555",
       "text_vn": "Vì có 2 server haha",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -606,8 +729,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-6f91384c08a92b1b",
@@ -618,6 +740,7 @@
       "author_masked": "ท***",
       "text_th": "สอบถามหน่อยค่ะมีใครเคยเป็นแบบนี้มัง เข้าล๊อคอินไม่ได้ตั้งแต่เมื่อว่านตอนเย็นๆ   ลบแล้วโหลดใหม่  แล้วก็ยังไม่ได้",
       "text_vn": "Cho mình hỏi có ai bị như này không? Không đăng nhập được từ chiều tối hôm qua, đã xóa rồi tải lại mà vẫn không được.",
+      "translation_method": "machine_translation",
       "sentiment": "Negative",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -634,8 +757,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-b3ff61fcea11785f",
@@ -646,6 +768,7 @@
       "author_masked": "W***",
       "text_th": "สวัสดีครับ ตอนนี้แก้ปัญหาได้รึยัง",
       "text_vn": "Xin chào, bây giờ đã khắc phục được chưa ạ?",
+      "translation_method": "machine_translation",
       "sentiment": "Negative",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -662,8 +785,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-491c4fe174ed1183",
@@ -674,6 +796,7 @@
       "author_masked": "I***",
       "text_th": "พอดีไปเหนน้องเสือมาของใครไม่รู้แต่น้องน่ารัก อยากให้มีกิจจับผีอีกอ่ะ55555 สนุกดี",
       "text_vn": "Vừa thấy bé hổ của ai đó, dễ thương ghê. Muốn có lại sự kiện bắt ma quá haha, vui lắm.",
+      "translation_method": "machine_translation",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -694,8 +817,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-ef6fb5c5b9096433",
@@ -706,6 +828,7 @@
       "author_masked": "N***",
       "text_th": "เวียนหัวกะเขาวงกตถ้าจะมีอีก ขอแผนที่ไม่หลงทาง และขอผีไม่จั้มสแกร์555+",
       "text_vn": "Chóng mặt với mê cung, nếu có nữa thì xin cái bản đồ để không lạc đường, và xin ma đừng hù dọa (jump scare) haha",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -722,8 +845,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-f58bddccb507557b",
@@ -734,6 +856,7 @@
       "author_masked": "W***",
       "text_th": "รอลุ้นเดี๋ยวฮาโลวีนก็ใกล้จะมาถึงแล้วว",
       "text_vn": "Hồi hộp chờ, Halloween sắp tới rồi",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -750,8 +873,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-da62f9ea9c76339f",
@@ -762,6 +884,7 @@
       "author_masked": "U***",
       "text_th": "ทำไมใส่โค้ดจะย้ายเกม แล้วขึ้นแบบนี้หรอคะ ใครเป็นบ้าง TT",
       "text_vn": "Sao nhập mã chuyển game lại hiện như thế này ạ? Có ai bị không TT",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -780,8 +903,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-991192afd0292f46",
@@ -792,6 +914,7 @@
       "author_masked": "W***",
       "text_th": "สวัสดีครับ ตอนนี้แก้ปัญหาได้รึยัง",
       "text_vn": "Xin chào, bây giờ đã khắc phục được chưa ạ?",
+      "translation_method": "machine_translation",
       "sentiment": "Negative",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -808,8 +931,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-c6dcd9b404b177c5",
@@ -820,6 +942,7 @@
       "author_masked": "A***",
       "text_th": "เช้านี้ทำไมเข้าเกมไม่ได้หรอคะ (ผู้เล่นใหม่ค่ะTT)",
       "text_vn": "Sáng nay sao không vào game được ạ? (Mình là người chơi mới TT)",
+      "translation_method": "machine_translation",
       "sentiment": "Negative",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -839,8 +962,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-42a1c2ef801f3f0c",
@@ -851,6 +973,7 @@
       "author_masked": "A***",
       "text_th": "ถ้ามีออโต้คลิกในเครื่อง ต้องลบออกค่ะ",
       "text_vn": "Nếu có auto click trong máy thì phải xóa đi ạ",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -867,8 +990,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-65b355a557fbcce8",
@@ -879,6 +1001,7 @@
       "author_masked": "ว***",
       "text_th": "ลูกเทวดามากกกก",
       "text_vn": "Hên quá trời luôn",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -895,8 +1018,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-f59c7e1ea41a7522",
@@ -907,6 +1029,7 @@
       "author_masked": "F***",
       "text_th": "จริงๆ ถ้าทำให้หลอดมินิมี เต็มทุกช่องก่อนเวลจะเต็ม 5 ก็จะได้ของดีทุกวันเลยนะ(แนะนำให้หาเพื่อนกดหัวใจให้มินิมี เรื่อยๆ จนหลอดเต็…",
       "text_vn": "Thật ra nếu làm thanh Mini Me đầy hết các ô trước khi level đầy 5 thì ngày nào cũng nhận được đồ xịn đó (khuyên nên tìm bạn bè bấm tim cho Mini Me liên tục cho đến khi thanh đầy…",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -923,8 +1046,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-0b203d4a35e88244",
@@ -935,6 +1057,7 @@
       "author_masked": "I***",
       "text_th": "ทางนี้ออกแต่ของง กะเสื้ออผ้าล่ะก้asseseried5555",
       "text_vn": "Bên này ra toàn đồ với quần áo phụ kiện thôi haha",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -951,8 +1074,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-39aa620fe9d58e93",
@@ -963,6 +1085,7 @@
       "author_masked": "I***",
       "text_th": "เพชรเกือบหมด55555",
       "text_vn": "Kim cương gần hết rồi haha",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -979,8 +1102,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-bda5235c6b57fc33",
@@ -991,6 +1113,7 @@
       "author_masked": "A***",
       "text_th": "แล้วไม่ดีหรอ ออกง่าย ถ้าไม่ออกก็ไม่มีสุ่มต่อแล้วนิ",
       "text_vn": "Vậy không tốt sao, ra dễ mà, nếu không ra thì cũng không cần quay tiếp nữa.",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -1007,8 +1130,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-304565e183b8e84e",
@@ -1019,6 +1141,7 @@
       "author_masked": "A***",
       "text_th": "ง่ายสำหรับบางคน",
       "text_vn": "Dễ với một số người thôi",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1035,8 +1158,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-20da46b05cfdb885",
@@ -1047,6 +1169,7 @@
       "author_masked": "W***",
       "text_th": "ผมไม่ได้ตามทุกแพทช์ แต่คิดว่าน่าจะมีปรับราคาเล็กน้อยนะครับ<แต่อันนี้ไม่ชัวร์นะ",
       "text_vn": "Mình không theo dõi mọi bản cập nhật, nhưng nghĩ chắc có điều chỉnh giá một chút. (Cái này không chắc nha)",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -1063,8 +1186,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-8f4d4fc20291c567",
@@ -1075,6 +1197,7 @@
       "author_masked": "N***",
       "text_th": "ขอดูราคาเทียบได้ไหมค่ะ เพราะเราปลูกผักตั้งแค่มีแพตท์มาราครอยู่ในเกณปกตินะคะ เลยอยากรู้ว่าพืชอันไหนที่ลดลง ปังแดงเราขาย5สถานะ ร…",
       "text_vn": "Cho mình xem so sánh giá được không ạ? Vì mình trồng rau từ khi có bản cập nhật thấy giá vẫn bình thường, nên muốn biết cây nào bị giảm. Củ dền đỏ mình bán 5 trạng thái…",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -1091,8 +1214,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-1d1cf78397f67cf9",
@@ -1103,6 +1225,7 @@
       "author_masked": "I***",
       "text_th": "55555",
       "text_vn": "Haha",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1119,8 +1242,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-0c3e841ad59eb0cb",
@@ -1131,6 +1253,7 @@
       "author_masked": "W***",
       "text_th": "สวัสดีครับ ตอนนี้แก้ปัญหาได้รึยัง",
       "text_vn": "Xin chào, bây giờ đã khắc phục được chưa ạ?",
+      "translation_method": "machine_translation",
       "sentiment": "Negative",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -1147,8 +1270,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-f7dc06327b3dbef0",
@@ -1159,6 +1281,7 @@
       "author_masked": "M***",
       "text_th": "ได้ผูกเมลไว้มั้ย ถ้าจำไม่ผิด ตอนล็อกอินในสตรีม เหมือนมันจะให้ลิงก์ผ่านเมล",
       "text_vn": "Bạn có liên kết email không? Nếu nhớ không nhầm thì khi đăng nhập bằng Steam, hình như nó sẽ gửi link qua email.",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1175,33 +1298,33 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     }
   ],
   "metrics": {
-    "volume": 41,
+    "volume": 45,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 41
+      "Facebook Group": 45
     },
     "by_sentiment": {
-      "Positive": 0,
-      "Neutral": 40,
-      "Negative": 0,
-      "Mixed": 1
+      "Positive": 3,
+      "Neutral": 33,
+      "Negative": 7,
+      "Mixed": 2
     },
     "by_topic": {
-      "Other": 23,
+      "Other": 25,
       "Gacha / Shop / Pricing": 6,
+      "Event & Update content": 2,
+      "Login / Account / Data": 1,
       "Bug / Crash / Lag / Performance": 9,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2,
-      "Event & Update content": 1
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2
     },
     "by_segment": {
-      "unknown": 41
+      "unknown": 45
     },
-    "nss": 0,
+    "nss": -8.9,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
@@ -1212,8 +1335,27 @@
     }
   },
   "report": {
-    "overview": "Có 41 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
-    "bright_spots": [],
+    "overview": "Có 45 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
+    "bright_spots": [
+      {
+        "title": "Góp ý trải nghiệm chung",
+        "count": 2,
+        "quote": {
+          "text_th": "อยากได้ปลายักษ์ใหม่จังเลย",
+          "text_vn": "Muốn có cá khổng lồ mới quá",
+          "link": "https://www.facebook.com/groups/playtogetherth/posts/28527487376862405/?comment_id=28527683616842781"
+        }
+      },
+      {
+        "title": "Giá trị phần thưởng gacha",
+        "count": 1,
+        "quote": {
+          "text_th": "อยากได้เบ็ดที่ต้องสุ่มโดยไม่ต้องสุ่มเอง เอ๊ะ เขาจะเอามาขายอีกนานไหมคะ พวกเบ็ดสมอ เบ็ดไอติม ทางนี้สุ่มจนท้อค่ะ",
+          "text_vn": "Muốn có cần câu gacha mà không phải tự quay. Ủa, bao lâu nữa họ mới bán lại vậy? Mấy cần câu mỏ neo, cần câu kem ấy, bên này quay đến nản luôn rồi.",
+          "link": "https://www.facebook.com/groups/playtogetherth/posts/28526705710273905/"
+        }
+      }
+    ],
     "pain_points": [
       {
         "issue": "Giá trị phần thưởng gacha",
@@ -1226,6 +1368,39 @@
             "text_th": "บริการกดสภาพอากาศ ของขวัญ และเมล็ด Play together \nสภาพอากาศทุกอัน 10 บาท \nเมล็ดราคาตามภาพ ยอดนิยม\nเมล็ดที่ใช้ทองไม่สามารถกิฟได้นะครับ \nอาจจะมีการปรับราคาเล็กน้อยโปรดติดตามโพสต์ล่าสุดของอุ๋งๆเลย \nแอดแล้วทักได้เลย รับทั้งวอเล็ต และ ธนาคาร สต็อกมีเพิ่มเรื่อยๆ สอบถามแพ็คเพิ่มเติมได้เลยอุ๋งๆ",
             "text_vn": "Dịch vụ báo thời tiết, quà tặng và hạt giống Chơi cùng nhau \nMọi điều kiện thời tiết 10 baht \nCác loại hạt phổ biến có giá như trong hình\nHạt giống sử dụng vàng không thể được tặng. \nCó thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. \nThêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
             "link": "https://www.facebook.com/groups/815754622673816/posts/2150619619187303/"
+          }
+        ]
+      },
+      {
+        "issue": "Đăng nhập tài khoản",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng hoặc cản trở tiếp tục chơi.",
+        "count": 1,
+        "severity": null,
+        "quotes": [
+          {
+            "text_th": "ย้ายจาก Global มา VNG ไม่ได้? อาจเกิดจากปัญหานี้!… See more",
+            "text_vn": "Không thể chuyển từ Global sang VNG? Có thể do vấn đề này gây ra!… Xem thêm",
+            "link": "https://www.facebook.com/groups/1772363333745643/posts/1891827768465865/"
+          }
+        ]
+      },
+      {
+        "issue": "Game bị văng và treo",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng hoặc cản trở tiếp tục chơi.",
+        "count": 7,
+        "severity": null,
+        "quotes": [
+          {
+            "text_th": "มีตารางแข่งเกาลัดของใครมีคนได้นน. 5.39 มั้ยคะ ตอนนี้ถ้วยเงินตารางเราคือ5.38 กลัวหลุดอะ อยากได้ถ้วยเงิน555555มีตารางแข่งเกาลัดของใครมีคนได้นน. 5.39 มั้ยคะ ตอนนี้ถ้วยเงินตารางเราคือ5.38 กลัวหลุดอะ อยากได้ถ้วยเงิน555555",
+            "text_vn": "Bảng thi hạt dẻ của ai có người được 5.39 kg không ạ? Hiện cúp bạc bảng mình là 5.38, sợ bị tụt mất, muốn có cúp bạc quá haha\n(lặp lại nội dung)",
+            "link": "https://www.facebook.com/groups/playtogetherth/posts/28524983273779482/"
+          },
+          {
+            "text_th": "สำหรับใครที่มีปัญหาไม่สามารถย้ายไอดีได้ลองเช็คดูนะครับ",
+            "text_vn": "Ai gặp vấn đề không chuyển ID được thì thử kiểm tra cái này nhé.",
+            "link": "https://www.facebook.com/groups/playtogetherth/posts/28524966063781203/"
           }
         ]
       }
@@ -1279,14 +1454,14 @@
       ]
     },
     "data_health": [
-      "Facebook ngày 2026-10-08: 41 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
-      "Lần thu thập 2026-10-13T18:01:15.030+07:00: 1150 quan sát duy nhất (634 post, 516 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 464 post có reaction metadata.",
-      "31 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Facebook ngày 2026-10-08: 45 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
+      "Lần thu thập 2026-10-13T21:49:11.678+07:00: 1238 quan sát duy nhất (697 post, 541 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 522 post có reaction metadata.",
+      "14 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
       "Fanpage chỉ giữ bình luận từ facebook.com/playtogetherthailandofficial; đã loại 12 bài fanpage và 15 bình luận không thuộc fanpage Thái.",
       "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
       "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T11:01:43.420Z",
+  "generated_at": "2026-10-13T14:49:11.712Z",
   "data_mode": "production"
 }

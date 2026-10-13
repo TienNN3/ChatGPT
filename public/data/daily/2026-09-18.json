@@ -11,6 +11,7 @@
       "author_masked": "A***",
       "text_th": "5 ดาว = 5 ฿4 ดาว = 4 ฿ใบดาวต่ำกว่าอื่นๆติดต่อสอบถามได้ค้าบ(มีเครดิตเช็คได้หน้าโปรไฟล์)",
       "text_vn": "5 sao = 5 ฿4 sao = 4 ฿ Các mức sao thấp hơn khác vui lòng liên hệ và hỏi thăm (có tín dụng, kiểm tra trên trang hồ sơ)",
+      "translation_method": "machine_translation",
       "sentiment": "Positive",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -27,8 +28,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-a259cdf70f3266ee",
@@ -39,6 +39,7 @@
       "author_masked": "C***",
       "text_th": "โสมธรรมดา 12 ต้น  ชุดละ100บาท",
       "text_vn": "Nhân sâm thông thường, 12 cây, 100 baht một bộ",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -55,8 +56,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-0fd069a9c3e3f4eb",
@@ -67,6 +67,7 @@
       "author_masked": "A***",
       "text_th": "สอบถามค่ะ ต้องอัพสถานะอะไรเพิ่มหรอคะ พอดีเบ็ดขาด หลายรอบมาก",
       "text_vn": "Tôi có một câu hỏi. Tôi có cần nâng cấp trạng thái của mình không? Tôi đã bị đứt móc nhiều lần.",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -85,8 +86,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-7940999bf4e7bffa",
@@ -97,6 +97,7 @@
       "author_masked": "L***",
       "text_th": "มีใครเป็นเหมือนกันมั้ยคะะ เต็มทุกเซิฟเวอร์เลยบ่",
       "text_vn": "Có ai gặp vấn đề tương tự không? Tất cả các máy chủ đều đầy đủ.",
+      "translation_method": "machine_translation",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -115,8 +116,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-8ef6f0e93cb74218",
@@ -127,6 +127,7 @@
       "author_masked": "W***",
       "text_th": "[Image post]",
       "text_vn": "Bài đăng chỉ có hình ảnh; Facebook không cung cấp phần chữ để dịch.",
+      "translation_method": "image_without_accessible_text",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -147,8 +148,7 @@
         ],
         "comment_count": "6"
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "image_without_accessible_text"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-ac83e7b251dcf2cf",
@@ -159,6 +159,7 @@
       "author_masked": "A***",
       "text_th": "เกมนี้สามารถเล่นทั้งใน Pc และ มือถือ เชื่อมบัญชีเดียวกันได้มั้ยคะเกมนี้สามารถเล่นทั้งใน Pc และ มือถือ เชื่อมบัญชีเดียวกันได้มั้ยคะ",
       "text_vn": "Trò chơi này có thể chơi trên cả PC và điện thoại di động, có thể liên kết cùng một tài khoản không? Trò chơi này có thể chơi trên cả PC và điện thoại di động được không, có thể liên kết cùng một tài khoản không?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -175,8 +176,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-8f0aeb92120fe340",
@@ -187,6 +187,7 @@
       "author_masked": "W***",
       "text_th": "เคยไหม มีเพื่อนแบบนี้",
       "text_vn": "Bạn đã từng có một người bạn như thế này chưa?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -207,8 +208,7 @@
         ],
         "comment_count": "5"
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-27f49faf6212f6f6",
@@ -219,6 +219,7 @@
       "author_masked": "P***",
       "text_th": "NEW VVIP PASS",
       "text_vn": "THẺ VVIP MỚI",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -238,8 +239,7 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-bc5d524bea40695b",
@@ -250,6 +250,7 @@
       "author_masked": "L***",
       "text_th": "น้องมินิมีจับมาให้ด้วย",
       "text_vn": "Little Mini cũng đã mang nó đến cho bạn.",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -268,8 +269,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-2636d7ff40fb503b",
@@ -280,6 +280,7 @@
       "author_masked": "D***",
       "text_th": "ได้แบบนี้ปกติไหมคะ",
       "text_vn": "Điều này có bình thường không?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -300,8 +301,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-d20a9ba7398df6cf",
@@ -312,6 +312,7 @@
       "author_masked": "K***",
       "text_th": "4ฟอง พอดีจบกิจ เอาแค่นี้พอ",
       "text_vn": "4 quả trứng, vừa đủ để hoàn thành công việc, cứ lấy cái này đi.",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -332,8 +333,7 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-cd041105c6ff06b4",
@@ -344,6 +344,7 @@
       "author_masked": "B***",
       "text_th": "เกมดีๆ",
       "text_vn": "Trò chơi hay",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -362,8 +363,7 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-12c10ae481714827",
@@ -374,6 +374,7 @@
       "author_masked": "A***",
       "text_th": "เย่ๆ",
       "text_vn": "Đúng!",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -394,8 +395,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-67da0df43f8ac360",
@@ -406,6 +406,7 @@
       "author_masked": "G***",
       "text_th": "ชิบหายคับ ตูดติดเบาะ ลงรถไม่ได้ ขับลงน้ำก็อภินิหารอีก หดหู่",
       "text_vn": "Thật là khủng khiếp. Mông tôi dính chặt vào ghế. Tôi không thể ra khỏi xe được. Lái xe xuống nước là một điều kỳ diệu khác. Chán nản.",
+      "translation_method": "machine_translation",
       "sentiment": "Negative",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -425,14 +426,167 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-2caf4d9e3d554408",
       "source": "Facebook Group",
       "community": "Facebook Group · playtogetherth",
       "link": "https://www.facebook.com/groups/playtogetherth/posts/28262892549988557/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "H***",
+      "text_th": "ถ้าในเกมมีการเอาชุดไทยเข้ามาจริง ๆ ฉันคงจินตนาการภาพตัวเองถ่ายรูปกับน้องเหมียว NIAO ในบ้านของฉัน พร้อมกับข้อความว่า “WE ARE THAILAND” เลยอะ!!",
+      "text_vn": "Nếu trang phục Thái Lan thực sự được đưa vào game, tôi sẽ tưởng tượng mình chụp ảnh cùng chú mèo NIAO trong nhà với thông điệp “CHÚNG TÔI LÀ THÁI LAN”!!",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 18, 2026 at 6:13 AM",
+      "engagement": {
+        "reactions": [
+          "Like: 4 people",
+          "Love: 1 person"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
+    },
+    {
+      "id": "facebook-c53b0782c8cd41ff",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28261462496798229/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "S***",
+      "text_th": "เบื่อจังเป็นลูกรักสุ่มอะไรก็ออกง่ายอยากเหมาอะ",
+      "text_vn": "Tôi quá chán việc phải là một đứa trẻ được yêu thương ngẫu nhiên. Bất cứ điều gì đi ra dễ dàng. Tôi muốn trộn nó lên.",
+      "translation_method": "machine_translation",
+      "sentiment": "Mixed",
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.68,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 18, 2026 at 2:58 AM",
+      "engagement": {
+        "reactions": [
+          "Like: 8 people",
+          "Haha: 1 person"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
+    },
+    {
+      "id": "facebook-3ed4aa70589eb455",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28260161666928312/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "T***",
+      "text_th": "ลิ้งค์ผ่านเฟสบุ๊คไม่ได้เลย โหลดทั้งตัวเก่าเพื่อจะคัดลอกโค้ด แต่เข้าไม่ได้เลยครับ มีใครพอทราบไหมครับ",
+      "text_vn": "Không thể liên kết qua Facebook. Tải phiên bản cũ để sao chép mã. Nhưng mình không vào được. Có ai biết không?",
+      "translation_method": "machine_translation",
+      "sentiment": "Negative",
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.68,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Hỏi đáp / báo lỗi",
+      "date_basis": "published_at",
+      "published_label": "September 18, 2026 at 12:35 AM",
+      "engagement": {
+        "reactions": [
+          "Like: 1 person"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
+    },
+    {
+      "id": "facebook-55d67c12dd6151f7",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28259831436961335/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "C***",
+      "text_th": "มีใครพอทราบมั้ยคะว่าน้องกระต่ายถ้าจะผสมจำเป็นต้องสีเดียวกันมั้ยคะ",
+      "text_vn": "Có ai biết thỏ có cần phải cùng màu nếu muốn nuôi chung không?",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 18, 2026 at 12:03 AM",
+      "engagement": {
+        "reactions": [
+          "Like: 3 people"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
+    },
+    {
+      "id": "facebook-25306875aa915706",
+      "source": "Facebook Group",
+      "community": "Facebook Group · 1772363333745643",
+      "link": "https://www.facebook.com/groups/1772363333745643/posts/1873696850278957/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "W***",
+      "text_th": "POV : เมื่อเพื่อนชวนตกปลา*หมายเหตุคลิปนี้เป็นแค่การแสดงเท่านั้นไม่ใช่เหตุการณ์ที่เกิดขึ้นจริงแต่อย่างใด",
+      "text_vn": "POV: Khi bạn rủ đi câu cá *Lưu ý: clip chỉ là diễn, không phải sự việc có thật",
+      "sentiment": "Neutral",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 18, 2026 at 5:31 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 8 people",
+          "Haha: 6 people",
+          "Love: 1 person"
+        ],
+        "comment_count": "1"
+      },
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-cb6064a9542079ac",
+      "source": "Facebook Group",
+      "community": "Facebook Group · 1772363333745643",
+      "link": "https://www.facebook.com/groups/1772363333745643/posts/1873323666982942/",
       "link_quality": "canonical_permalink",
       "author_masked": "H***",
       "text_th": "ถ้าในเกมมีการเอาชุดไทยเข้ามาจริง ๆ ฉันคงจินตนาการภาพตัวเองถ่ายรูปกับน้องเหมียว NIAO ในบ้านของฉัน พร้อมกับข้อความว่า “WE ARE THAILAND” เลยอะ!!",
@@ -456,124 +610,33 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
-    },
-    {
-      "id": "facebook-c53b0782c8cd41ff",
-      "source": "Facebook Group",
-      "community": "Facebook Group · playtogetherth",
-      "link": "https://www.facebook.com/groups/playtogetherth/posts/28261462496798229/",
-      "link_quality": "canonical_permalink",
-      "author_masked": "S***",
-      "text_th": "เบื่อจังเป็นลูกรักสุ่มอะไรก็ออกง่ายอยากเหมาอะ",
-      "text_vn": "Tôi quá chán việc phải là một đứa trẻ được yêu thương ngẫu nhiên. Bất cứ điều gì đi ra dễ dàng. Tôi muốn trộn nó lên.",
-      "sentiment": "Mixed",
-      "topic": "Gacha / Shop / Pricing",
-      "topic_secondary": [],
-      "theme": "Giá trị phần thưởng gacha",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.68,
-      "needs_review": true,
-      "content_kind": "post",
-      "activity_type": "Thảo luận",
-      "date_basis": "published_at",
-      "published_label": "September 18, 2026 at 2:58 AM",
-      "engagement": {
-        "reactions": [
-          "Like: 8 people",
-          "Haha: 1 person"
-        ],
-        "comment_count": null
-      },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
-    },
-    {
-      "id": "facebook-3ed4aa70589eb455",
-      "source": "Facebook Group",
-      "community": "Facebook Group · playtogetherth",
-      "link": "https://www.facebook.com/groups/playtogetherth/posts/28260161666928312/",
-      "link_quality": "canonical_permalink",
-      "author_masked": "T***",
-      "text_th": "ลิ้งค์ผ่านเฟสบุ๊คไม่ได้เลย โหลดทั้งตัวเก่าเพื่อจะคัดลอกโค้ด แต่เข้าไม่ได้เลยครับ มีใครพอทราบไหมครับ",
-      "text_vn": "Không thể liên kết qua Facebook. Tải phiên bản cũ để sao chép mã. Nhưng mình không vào được. Có ai biết không?",
-      "sentiment": "Negative",
-      "topic": "Bug / Crash / Lag / Performance",
-      "topic_secondary": [],
-      "theme": "Game bị văng và treo",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.68,
-      "needs_review": true,
-      "content_kind": "post",
-      "activity_type": "Hỏi đáp / báo lỗi",
-      "date_basis": "published_at",
-      "published_label": "September 18, 2026 at 12:35 AM",
-      "engagement": {
-        "reactions": [
-          "Like: 1 person"
-        ],
-        "comment_count": null
-      },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
-    },
-    {
-      "id": "facebook-55d67c12dd6151f7",
-      "source": "Facebook Group",
-      "community": "Facebook Group · playtogetherth",
-      "link": "https://www.facebook.com/groups/playtogetherth/posts/28259831436961335/",
-      "link_quality": "canonical_permalink",
-      "author_masked": "C***",
-      "text_th": "มีใครพอทราบมั้ยคะว่าน้องกระต่ายถ้าจะผสมจำเป็นต้องสีเดียวกันมั้ยคะ",
-      "text_vn": "Có ai biết thỏ có cần phải cùng màu nếu muốn nuôi chung không?",
-      "sentiment": "Neutral",
-      "topic": "Other",
-      "topic_secondary": [],
-      "theme": "Góp ý trải nghiệm chung",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.6,
-      "needs_review": true,
-      "content_kind": "post",
-      "activity_type": "Thảo luận",
-      "date_basis": "published_at",
-      "published_label": "September 18, 2026 at 12:03 AM",
-      "engagement": {
-        "reactions": [
-          "Like: 3 people"
-        ],
-        "comment_count": null
-      },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
       "translation_method": "machine_translation"
     }
   ],
   "metrics": {
-    "volume": 18,
+    "volume": 20,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 18
+      "Facebook Group": 20
     },
     "by_sentiment": {
-      "Positive": 0,
-      "Neutral": 18,
-      "Negative": 0,
-      "Mixed": 0
+      "Positive": 1,
+      "Neutral": 15,
+      "Negative": 3,
+      "Mixed": 1
     },
     "by_topic": {
       "Gacha / Shop / Pricing": 3,
       "Other": 11,
       "Login / Account / Data": 1,
       "Bug / Crash / Lag / Performance": 2,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 3
     },
     "by_segment": {
-      "unknown": 18
+      "unknown": 20
     },
-    "nss": 0,
+    "nss": -10,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
@@ -584,9 +647,67 @@
     }
   },
   "report": {
-    "overview": "Có 18 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
-    "bright_spots": [],
-    "pain_points": [],
+    "overview": "Có 20 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
+    "bright_spots": [
+      {
+        "title": "Giá trị phần thưởng gacha",
+        "count": 1,
+        "quote": {
+          "text_th": "5 ดาว = 5 ฿4 ดาว = 4 ฿ใบดาวต่ำกว่าอื่นๆติดต่อสอบถามได้ค้าบ(มีเครดิตเช็คได้หน้าโปรไฟล์)",
+          "text_vn": "5 sao = 5 ฿4 sao = 4 ฿ Các mức sao thấp hơn khác vui lòng liên hệ và hỏi thăm (có tín dụng, kiểm tra trên trang hồ sơ)",
+          "link": "https://www.facebook.com/groups/815754622673816/posts/2132633994319199/"
+        }
+      }
+    ],
+    "pain_points": [
+      {
+        "issue": "Góp ý trải nghiệm chung",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng hoặc cản trở tiếp tục chơi.",
+        "count": 1,
+        "severity": null,
+        "quotes": [
+          {
+            "text_th": "มีใครเป็นเหมือนกันมั้ยคะะ เต็มทุกเซิฟเวอร์เลยบ่",
+            "text_vn": "Có ai gặp vấn đề tương tự không? Tất cả các máy chủ đều đầy đủ.",
+            "link": "https://www.facebook.com/groups/playtogetherth/posts/28272195212391624/"
+          }
+        ]
+      },
+      {
+        "issue": "Game bị văng và treo",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng hoặc cản trở tiếp tục chơi.",
+        "count": 2,
+        "severity": null,
+        "quotes": [
+          {
+            "text_th": "ชิบหายคับ ตูดติดเบาะ ลงรถไม่ได้ ขับลงน้ำก็อภินิหารอีก หดหู่",
+            "text_vn": "Thật là khủng khiếp. Mông tôi dính chặt vào ghế. Tôi không thể ra khỏi xe được. Lái xe xuống nước là một điều kỳ diệu khác. Chán nản.",
+            "link": "https://www.facebook.com/groups/playtogetherth/posts/28266661766278302/"
+          },
+          {
+            "text_th": "ลิ้งค์ผ่านเฟสบุ๊คไม่ได้เลย โหลดทั้งตัวเก่าเพื่อจะคัดลอกโค้ด แต่เข้าไม่ได้เลยครับ มีใครพอทราบไหมครับ",
+            "text_vn": "Không thể liên kết qua Facebook. Tải phiên bản cũ để sao chép mã. Nhưng mình không vào được. Có ai biết không?",
+            "link": "https://www.facebook.com/groups/playtogetherth/posts/28260161666928312/"
+          }
+        ]
+      },
+      {
+        "issue": "Giá trị phần thưởng gacha",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng hoặc cản trở tiếp tục chơi.",
+        "count": 1,
+        "severity": null,
+        "quotes": [
+          {
+            "text_th": "เบื่อจังเป็นลูกรักสุ่มอะไรก็ออกง่ายอยากเหมาอะ",
+            "text_vn": "Tôi quá chán việc phải là một đứa trẻ được yêu thương ngẫu nhiên. Bất cứ điều gì đi ra dễ dàng. Tôi muốn trộn nó lên.",
+            "link": "https://www.facebook.com/groups/playtogetherth/posts/28261462496798229/"
+          }
+        ]
+      }
+    ],
     "segments": {
       "new": {
         "summary": "Không đủ dữ liệu.",
@@ -636,14 +757,14 @@
       ]
     },
     "data_health": [
-      "Facebook ngày 2026-09-18: 18 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
-      "Lần thu thập 2026-10-13T18:01:15.030+07:00: 1150 quan sát duy nhất (634 post, 516 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 464 post có reaction metadata.",
-      "31 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Facebook ngày 2026-09-18: 20 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
+      "Lần thu thập 2026-10-13T21:49:11.678+07:00: 1238 quan sát duy nhất (697 post, 541 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 522 post có reaction metadata.",
+      "14 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
       "Fanpage chỉ giữ bình luận từ facebook.com/playtogetherthailandofficial; đã loại 12 bài fanpage và 15 bình luận không thuộc fanpage Thái.",
       "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
       "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T11:01:43.420Z",
+  "generated_at": "2026-10-13T14:49:11.712Z",
   "data_mode": "production"
 }

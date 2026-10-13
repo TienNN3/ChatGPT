@@ -1,27 +1,27 @@
 {
   "date": "2026-10-12",
-  "generated_at": "2026-10-13T11:01:43.420Z",
+  "generated_at": "2026-10-13T14:49:11.712Z",
   "data_mode": "production",
   "metrics": {
-    "volume": 22,
+    "volume": 24,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 22
+      "Facebook Group": 24
     },
     "by_sentiment": {
       "Positive": 1,
-      "Neutral": 19,
+      "Neutral": 21,
       "Negative": 1,
       "Mixed": 1
     },
     "by_topic": {
-      "Other": 13,
+      "Other": 15,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2,
       "Gacha / Shop / Pricing": 3,
       "Login / Account / Data": 4
     },
     "by_segment": {
-      "unknown": 21,
+      "unknown": 23,
       "payer": 1
     },
     "nss": 0,
@@ -36,7 +36,7 @@
   },
   "alerts": [],
   "report": {
-    "overview": "Có 22 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
+    "overview": "Có 24 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
     "bright_spots": [
       {
         "title": "Hoạt động và tính năng trong game",
@@ -129,9 +129,9 @@
       ]
     },
     "data_health": [
-      "Facebook ngày 2026-10-12: 22 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
-      "Lần thu thập 2026-10-13T18:01:15.030+07:00: 1150 quan sát duy nhất (634 post, 516 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 464 post có reaction metadata.",
-      "31 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Facebook ngày 2026-10-12: 24 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
+      "Lần thu thập 2026-10-13T21:49:11.678+07:00: 1238 quan sát duy nhất (697 post, 541 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 522 post có reaction metadata.",
+      "14 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
       "Fanpage chỉ giữ bình luận từ facebook.com/playtogetherthailandofficial; đã loại 12 bài fanpage và 15 bình luận không thuộc fanpage Thái.",
       "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
       "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
@@ -164,7 +164,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-8c355a675880b03c",
@@ -192,7 +192,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-59e06236aa84c54d",
@@ -221,7 +221,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-0bae01ab04fbe6f1",
@@ -249,7 +249,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-464a92d92a2cb883",
@@ -277,7 +277,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-656f6e5492d99cfb",
@@ -307,7 +307,7 @@
         ],
         "comment_count": "7"
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-6e7a6c235b8b05f1",
@@ -339,7 +339,7 @@
         ],
         "comment_count": "2"
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-5f5081501953a7b7",
@@ -367,7 +367,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-35ab19965eb01b12",
@@ -395,7 +395,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-6be1d4c42b02cf80",
@@ -423,7 +423,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-72196d771732f9e5",
@@ -451,7 +451,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-bf6ab8200015a693",
@@ -479,7 +479,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-946cdcc54c3d4eaf",
@@ -507,7 +507,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-4f9169b550d1da6d",
@@ -535,7 +535,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-b785e652c3519170",
@@ -563,7 +563,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-a6073a2d4ccf4cbd",
@@ -591,7 +591,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-f31e43109cbf6563",
@@ -623,7 +623,37 @@
         ],
         "comment_count": "8"
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
+    },
+    {
+      "id": "facebook-f4fd961527778368",
+      "source": "Facebook Group",
+      "community": "Facebook Group · 1772363333745643",
+      "link": "https://www.facebook.com/groups/1772363333745643/posts/1895482058100436/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "C***",
+      "text_th": "[Image post: 🍂]",
+      "text_vn": "Bài đăng chỉ có hình ảnh; Facebook không cung cấp phần chữ để dịch.",
+      "translation_method": "image_without_accessible_text",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Khoe / tham gia hoạt động",
+      "date_basis": "published_at",
+      "published_label": "October 12, 2026 at 11:54 AM",
+      "engagement": {
+        "reactions": [
+          "Love: 1 person"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-fafecec62e369ead",
@@ -651,7 +681,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-8b85d563377f6e85",
@@ -679,7 +709,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-933610690ae2730e",
@@ -707,7 +737,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-30ec7cab0555aff9",
@@ -718,6 +748,7 @@
       "author_masked": "A***",
       "text_th": "อยากทราบว่า ถ้าไม่เชื่อมเป็นแบบ Vng จะเป็นอะไรไหมคะถ้ายังเล่นแบบ เดิมอยู่",
       "text_vn": "Muốn hỏi nếu không liên kết sang bản VNG mà vẫn chơi như cũ thì có sao không ạ?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -734,8 +765,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-675d0255ed93a2f5",
@@ -746,6 +776,7 @@
       "author_masked": "A***",
       "text_th": "คืนผีหลอก",
       "text_vn": "Đêm ma ám",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -762,7 +793,34 @@
         "reactions": [],
         "comment_count": "31"
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
+    },
+    {
+      "id": "facebook-4cadf42164cce947",
+      "source": "Facebook Group",
+      "community": "Facebook Group · 1772363333745643",
+      "link": "https://www.facebook.com/groups/1772363333745643/posts/1889526738695968/?comment_id=1895488004766508",
+      "link_quality": "canonical_permalink",
+      "author_masked": "W***",
+      "text_th": "แวะมาดันครับ",
+      "text_vn": "Ghé vào ủng hộ ạ",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "date_basis": "published_at",
+      "published_label": "October 12, 2026",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
       "translation_method": "machine_translation"
     }
   ],

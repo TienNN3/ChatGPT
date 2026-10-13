@@ -6,19 +6,95 @@
     "partial": "Thu thập một phần",
     "pending": "Chờ duyệt thành viên",
     "not_collected": "Chưa thu thập",
-    "store": "Review Sensor Tower"
+    "store": "Review Sensor Tower",
+    "inactive": "Không có bài mới"
   },
   "sources": [
-    { "key": "Facebook Group · playtogetherth", "name": "Play Together VNG : THAILAND Community", "type": "group", "status": "full", "detail": "Bài đăng và bình luận hiển thị, 14/09 – 13/10/2026", "url": "https://www.facebook.com/groups/playtogetherth/" },
-    { "key": "Facebook Group · 815754622673816", "name": "Play Together : THAILAND ตลาดนัดซื้อขาย (chợ mua bán)", "type": "group", "status": "full", "detail": "Bài đăng và bình luận hiển thị, 09/09 – 13/10/2026", "url": "https://www.facebook.com/groups/815754622673816/" },
-    { "key": "Facebook Group · 1772363333745643", "name": "Play Together VNG Thailand Official (group)", "type": "group", "status": "partial", "detail": "Chỉ có lần thu thập ngày 13/10/2026", "url": "https://www.facebook.com/groups/1772363333745643/" },
-    { "key": "Facebook Group · 562362538882428", "name": "GOI : Let's Play Together 🇹🇭 (tìm phòng, tìm bạn chơi)", "type": "group", "status": "partial", "detail": "Chỉ có lần thu thập ngày 13/10/2026; phần lớn bài không hiện ngày đăng", "url": "https://www.facebook.com/groups/562362538882428/" },
-    { "key": "Facebook Group · 3252260471541104", "name": "Play Together TH พูดคุย/ซื้อขาย-แลกเปลี่ยน (thảo luận, mua bán)", "type": "group", "status": "pending", "detail": "Group riêng tư, đã gửi yêu cầu tham gia (cần trả lời câu hỏi thành viên)", "url": "https://www.facebook.com/groups/3252260471541104/" },
-    { "key": "Facebook Group · 356675609124267", "name": "PLAY TOGETHER THAILAND : แลกเปลี่ยน ซื้อขาย (trao đổi, mua bán)", "type": "group", "status": "pending", "detail": "Group riêng tư, đang chờ admin duyệt", "url": "https://www.facebook.com/groups/356675609124267/" },
-    { "key": "Facebook Group · 473704433937505", "name": "ซื้อ-ขาย Play Together TH (mua bán)", "type": "group", "status": "pending", "detail": "Group riêng tư, đang chờ admin duyệt", "url": "https://www.facebook.com/groups/473704433937505/" },
-    { "key": "Facebook Group · 847315523442353", "name": "Play Together แลกเปลี่ยนข้อมูล - ซื้อขายต่างๆ (trao đổi, mua bán)", "type": "group", "status": "pending", "detail": "Group riêng tư, đang chờ admin duyệt", "url": "https://www.facebook.com/groups/847315523442353/" },
-    { "key": "Facebook Fanpage · @playtogetherthailandofficial", "name": "Fanpage Play Together Thailand Official", "type": "fanpage", "status": "not_collected", "detail": "Chỉ tính bình luận của người dùng; chưa có lần thu thập", "url": "https://www.facebook.com/playtogetherthailandofficial" },
-    { "key": "Google Play", "name": "Google Play", "type": "store", "status": "store", "detail": "Review có nội dung từ Sensor Tower" },
-    { "key": "App Store", "name": "App Store", "type": "store", "status": "store", "detail": "Review có nội dung từ Sensor Tower" }
+    {
+      "key": "Facebook Group · playtogetherth",
+      "name": "Play Together VNG : THAILAND Community",
+      "type": "group",
+      "status": "full",
+      "detail": "Bài đăng và bình luận hiển thị, 14/09 – 13/10/2026",
+      "url": "https://www.facebook.com/groups/playtogetherth/"
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "name": "Play Together : THAILAND ตลาดนัดซื้อขาย (chợ mua bán)",
+      "type": "group",
+      "status": "full",
+      "detail": "Bài đăng và bình luận hiển thị, 09/09 – 13/10/2026",
+      "url": "https://www.facebook.com/groups/815754622673816/"
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "name": "Play Together VNG Thailand Official (group)",
+      "type": "group",
+      "status": "full",
+      "detail": "Bài đăng và bình luận hiển thị, 20/08 – 13/10/2026",
+      "url": "https://www.facebook.com/groups/1772363333745643/"
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "name": "GOI : Let's Play Together 🇹🇭 (tìm phòng, tìm bạn chơi)",
+      "type": "group",
+      "status": "inactive",
+      "detail": "Đã quét ngày 13/10/2026: bài mới nhất từ 14/03/2023, không có hoạt động trong 30 ngày",
+      "url": "https://www.facebook.com/groups/562362538882428/"
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "name": "Play Together TH พูดคุย/ซื้อขาย-แลกเปลี่ยน (thảo luận, mua bán)",
+      "type": "group",
+      "status": "pending",
+      "detail": "Group riêng tư, đã gửi yêu cầu tham gia (cần trả lời câu hỏi thành viên)",
+      "url": "https://www.facebook.com/groups/3252260471541104/"
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "name": "PLAY TOGETHER THAILAND : แลกเปลี่ยน ซื้อขาย (trao đổi, mua bán)",
+      "type": "group",
+      "status": "pending",
+      "detail": "Group riêng tư, đang chờ admin duyệt",
+      "url": "https://www.facebook.com/groups/356675609124267/"
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "name": "ซื้อ-ขาย Play Together TH (mua bán)",
+      "type": "group",
+      "status": "pending",
+      "detail": "Group riêng tư, đang chờ admin duyệt",
+      "url": "https://www.facebook.com/groups/473704433937505/"
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "name": "Play Together แลกเปลี่ยนข้อมูล - ซื้อขายต่างๆ (trao đổi, mua bán)",
+      "type": "group",
+      "status": "pending",
+      "detail": "Group riêng tư, đang chờ admin duyệt",
+      "url": "https://www.facebook.com/groups/847315523442353/"
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "name": "Fanpage Play Together Thailand Official",
+      "type": "fanpage",
+      "status": "not_collected",
+      "detail": "Chỉ tính bình luận của người dùng; chưa có lần thu thập",
+      "url": "https://www.facebook.com/playtogetherthailandofficial"
+    },
+    {
+      "key": "Google Play",
+      "name": "Google Play",
+      "type": "store",
+      "status": "store",
+      "detail": "Review có nội dung từ Sensor Tower"
+    },
+    {
+      "key": "App Store",
+      "name": "App Store",
+      "type": "store",
+      "status": "store",
+      "detail": "Review có nội dung từ Sensor Tower"
+    }
   ]
 }

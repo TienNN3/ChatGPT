@@ -28,7 +28,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-a402835e6c626375",
@@ -56,7 +56,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-46e5a047132280d5",
@@ -67,6 +67,7 @@
       "author_masked": "น***",
       "text_th": "หาโสมครับ",
       "text_vn": "Tìm mua nhân sâm",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -83,8 +84,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-a37d35bb13559a7e",
@@ -95,6 +95,7 @@
       "author_masked": "A***",
       "text_th": "ช่วงนี้ใครเจอโปรเก็บการ์ดบ่อยเหมือนเรามั้ยคะ ไม่ค่อยเจอการ์ดที่ตกพื้นเลยค่ะ",
       "text_vn": "Dạo này có ai gặp hack nhặt thẻ thường xuyên như mình không? Hầu như không thấy thẻ rơi trên đất luôn",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -113,8 +114,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-90c01a59a67ca704",
@@ -125,6 +125,7 @@
       "author_masked": "P***",
       "text_th": "เมล็ดพันธุ์ฤดูใบไม้ร่วงใหม่",
       "text_vn": "Hạt giống mùa thu mới",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -144,8 +145,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-eb15418f7166d2a2",
@@ -156,6 +156,7 @@
       "author_masked": "เ***",
       "text_th": "เริ่ดดด",
       "text_vn": "Đỉnh quááá",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -176,8 +177,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-8aba95120971cd51",
@@ -188,6 +188,7 @@
       "author_masked": "S***",
       "text_th": "ขออนุญาตสอบถามนะคะ หน้าอันนี้หาจากไหนคะ",
       "text_vn": "Cho mình hỏi, khuôn mặt này kiếm ở đâu ạ?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -204,8 +205,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-ea13d38bb5b69a14",
@@ -216,6 +216,7 @@
       "author_masked": "O***",
       "text_th": "ทรงผมนี้จากแพ็คไหนครับเพี่ยน ๆ",
       "text_vn": "Kiểu tóc này từ gói nào vậy mọi người?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -234,8 +235,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-12d09eac59cabcb2",
@@ -246,6 +246,7 @@
       "author_masked": "N***",
       "text_th": "สอบถามค่ะ ทรงผม ผญ ในรูปนี้มาจากแพ็คไหนคะ",
       "text_vn": "Cho hỏi, kiểu tóc nữ trong ảnh này từ gói nào ạ?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -265,8 +266,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-3f40adea4560c96a",
@@ -277,6 +277,7 @@
       "author_masked": "P***",
       "text_th": "Coming SoonEvent Giant Vegetable",
       "text_vn": "Sắp ra mắt: Sự kiện Rau Củ Khổng Lồ",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -296,8 +297,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-a2c60f67f46fe813",
@@ -308,6 +308,7 @@
       "author_masked": "A***",
       "text_th": "ตกปลามาเนิ่นนานไม่เคยตกได้ปลายักษ์กับเขาเลย วันนี้ถึงวันของเราแล้วว",
       "text_vn": "Câu cá bao lâu chưa từng câu được cá khổng lồ như người ta, hôm nay cuối cùng cũng tới lượt mình rồi",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -327,8 +328,7 @@
         ],
         "comment_count": "3"
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-bf51ed582ba400a3",
@@ -339,6 +339,7 @@
       "author_masked": "A***",
       "text_th": "ขึ้นแบบนี้ทำยังไงคะ เข้าตัวvng ไม่ได้แต่พอเข้ามาในเกมเดิมมันขึ้นให้รับเพชร 300",
       "text_vn": "Hiện thế này thì làm sao ạ? Vào bản VNG không được, nhưng vào game cũ thì hiện nhận 300 kim cương",
+      "translation_method": "machine_translation",
       "sentiment": "Negative",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -355,8 +356,7 @@
         "reactions": [],
         "comment_count": "300"
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-25d6a6c2c1c983a5",
@@ -367,6 +367,7 @@
       "author_masked": "A***",
       "text_th": "มินิมี มีหน้าตากี่แบบหรอคะ",
       "text_vn": "Mini-me có mấy kiểu ngoại hình vậy ạ?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -385,8 +386,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-4651b5657c754101",
@@ -397,6 +397,7 @@
       "author_masked": "A***",
       "text_th": "ก่อนหน้านี้ย้ายประเทศไปยุโรป พอกลับมาเอเชียทำไมเจอแค่ English Town กับ Global Town คับ อยากทราบ Siam Town หายไปไหน NPC จากพูดไทย เปลี่ยนเป็นพูด อังกฤษ หมดเลย .. (ผมเล่นใน steam )ก่อนหน้านี้ย้ายประเทศไปยุโรป พอกลับมาเอเชียทำไมเจอแค่ English Town กับ Global Town คับ อยากทราบ Siam Town หายไปไหน NPC จากพูดไทย เปลี่ยนเป็นพูด อังกฤษ หมดเลย .. (ผมเล่นใน steam )",
       "text_vn": "Trước đó mình đổi quốc gia sang châu Âu, khi quay lại châu Á sao chỉ thấy English Town và Global Town? Siam Town biến đâu mất rồi? NPC từ nói tiếng Thái chuyển hết sang tiếng Anh... (mình chơi trên Steam)",
+      "translation_method": "machine_translation",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -415,8 +416,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-06ee5c6fe5bf28f7",
@@ -427,6 +427,7 @@
       "author_masked": "A***",
       "text_th": "ครบรอบ3ปีระบบแจ้งว่าได้รับรถยนต์1คันตอนแปดโมงเช้ารถอยุ่ไหน55555สงสัยมากไม่มีในข้อความ",
       "text_vn": "Kỷ niệm 3 năm, hệ thống báo nhận được 1 chiếc ô tô lúc 8 giờ sáng, xe đâu haha, thắc mắc ghê, không có trong hộp thư",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -445,8 +446,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-9883bc239de96297",
@@ -457,6 +457,7 @@
       "author_masked": "P***",
       "text_th": "Images of the new vegetable monsters from the Giant Vegetables event",
       "text_vn": "Hình ảnh các quái vật rau củ mới trong sự kiện Rau Củ Khổng Lồ",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -476,8 +477,7 @@
         ],
         "comment_count": "5"
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-64ff66fd665a15c1",
@@ -488,6 +488,7 @@
       "author_masked": "P***",
       "text_th": "กล่องสุ่มใหม่",
       "text_vn": "Hộp gacha mới",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -508,8 +509,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     }
   ],
   "metrics": {
@@ -520,8 +520,8 @@
     },
     "by_sentiment": {
       "Positive": 1,
-      "Neutral": 16,
-      "Negative": 0,
+      "Neutral": 14,
+      "Negative": 2,
       "Mixed": 0
     },
     "by_topic": {
@@ -534,7 +534,7 @@
     "by_segment": {
       "unknown": 17
     },
-    "nss": 5.9,
+    "nss": -5.9,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
@@ -557,7 +557,36 @@
         }
       }
     ],
-    "pain_points": [],
+    "pain_points": [
+      {
+        "issue": "Đăng nhập tài khoản",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng hoặc cản trở tiếp tục chơi.",
+        "count": 1,
+        "severity": null,
+        "quotes": [
+          {
+            "text_th": "ขึ้นแบบนี้ทำยังไงคะ เข้าตัวvng ไม่ได้แต่พอเข้ามาในเกมเดิมมันขึ้นให้รับเพชร 300",
+            "text_vn": "Hiện thế này thì làm sao ạ? Vào bản VNG không được, nhưng vào game cũ thì hiện nhận 300 kim cương",
+            "link": "https://www.facebook.com/groups/playtogetherth/posts/28387230004221477/"
+          }
+        ]
+      },
+      {
+        "issue": "Góp ý trải nghiệm chung",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng hoặc cản trở tiếp tục chơi.",
+        "count": 1,
+        "severity": null,
+        "quotes": [
+          {
+            "text_th": "ก่อนหน้านี้ย้ายประเทศไปยุโรป พอกลับมาเอเชียทำไมเจอแค่ English Town กับ Global Town คับ อยากทราบ Siam Town หายไปไหน NPC จากพูดไทย เปลี่ยนเป็นพูด อังกฤษ หมดเลย .. (ผมเล่นใน steam )ก่อนหน้านี้ย้ายประเทศไปยุโรป พอกลับมาเอเชียทำไมเจอแค่ English Town กับ Global Town คับ อยากทราบ Siam Town หายไปไหน NPC จากพูดไทย เปลี่ยนเป็นพูด อังกฤษ หมดเลย .. (ผมเล่นใน steam )",
+            "text_vn": "Trước đó mình đổi quốc gia sang châu Âu, khi quay lại châu Á sao chỉ thấy English Town và Global Town? Siam Town biến đâu mất rồi? NPC từ nói tiếng Thái chuyển hết sang tiếng Anh... (mình chơi trên Steam)",
+            "link": "https://www.facebook.com/groups/playtogetherth/posts/28386847530926391/"
+          }
+        ]
+      }
+    ],
     "segments": {
       "new": {
         "summary": "Không đủ dữ liệu.",
@@ -608,13 +637,13 @@
     },
     "data_health": [
       "Facebook ngày 2026-09-27: 17 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
-      "Lần thu thập 2026-10-13T18:01:15.030+07:00: 1150 quan sát duy nhất (634 post, 516 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 464 post có reaction metadata.",
-      "31 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Lần thu thập 2026-10-13T21:49:11.678+07:00: 1238 quan sát duy nhất (697 post, 541 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 522 post có reaction metadata.",
+      "14 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
       "Fanpage chỉ giữ bình luận từ facebook.com/playtogetherthailandofficial; đã loại 12 bài fanpage và 15 bình luận không thuộc fanpage Thái.",
       "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
       "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T11:01:43.420Z",
+  "generated_at": "2026-10-13T14:49:11.712Z",
   "data_mode": "production"
 }

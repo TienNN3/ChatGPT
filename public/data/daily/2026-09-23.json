@@ -11,6 +11,7 @@
       "author_masked": "U***",
       "text_th": "โสมธรรมดา 12 ต้น  ชุดละ100บาท สนใจทักเลยครับ",
       "text_vn": "Nhân sâm thường 12 cây, 100 baht một bộ, ai quan tâm nhắn mình nhé",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -27,8 +28,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-dc0d0d00976feebf",
@@ -39,6 +39,7 @@
       "author_masked": "A***",
       "text_th": "ขึ้นแบบนี้เกิดจากสาเหตุอะไรได้บ้างคะ",
       "text_vn": "Hiện lên thế này thì có thể do nguyên nhân gì vậy ạ?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -57,8 +58,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-5ab373dc3116d2d1",
@@ -69,6 +69,7 @@
       "author_masked": "W***",
       "text_th": "รู้อ้ะป่าว",
       "text_vn": "Có biết không ta",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -88,8 +89,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-8f02cdcfdbe2df24",
@@ -100,6 +100,7 @@
       "author_masked": "A***",
       "text_th": "กลุ่มนี้มีแนะนำสำหรับผู้เล่นใหม่ไหมครับแบบ ไกด์อะไรประมาณนั้น คือผมเป็นผู้เล่นใหม่แล้วหาอุปกรณ์ปกติไม่ค่อยเจอเท่าไหร่ (ไม่ใช่พวกไกด์กิจกรรมแค่เป็นไกด์พื้นฐานของผู้เล่นใหม่ๆ จริงๆ)",
       "text_vn": "Nhóm này có hướng dẫn cho người chơi mới không ạ, kiểu guide gì đó. Mình là người mới, tìm dụng cụ cơ bản mãi không thấy (không phải guide sự kiện, chỉ là hướng dẫn cơ bản cho người mới thật sự)",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -118,8 +119,7 @@
         ],
         "comment_count": "8"
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-9a61d376353dd6eb",
@@ -130,6 +130,7 @@
       "author_masked": "G***",
       "text_th": "มีรถสปอร์ตน้องบอกอยากนั่งบัส กูเหนื่อยว่ะ",
       "text_vn": "Có xe thể thao mà bé bảo muốn đi xe buýt, mệt thật sự",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -149,8 +150,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-d4aef7cd6ba98744",
@@ -161,6 +161,7 @@
       "author_masked": "N***",
       "text_th": "เบ็ดมังกรอัปไรดีครับผม",
       "text_vn": "Cần câu rồng nên nâng chỉ số gì ạ?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -179,8 +180,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-dc5698694654f85d",
@@ -191,6 +191,7 @@
       "author_masked": "ไ***",
       "text_th": "ข้างในคืออะไรค่ะ",
       "text_vn": "Bên trong là gì vậy ạ?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -209,8 +210,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-d79409e88bf0859a",
@@ -221,6 +221,7 @@
       "author_masked": "น***",
       "text_th": "สอบถามค่ะเพิ่งกลับมาเล่น เลยสงสัยว่าพวกมังกร โทล คืออะไรเหรอคะยิงไปได้ของแต่ไม่รู้ว่าใช้ตรงไหนทำไมมีกิจซ้อนงงไปหมด",
       "text_vn": "Cho hỏi, mình mới quay lại chơi, mấy cái rồng, troll là gì vậy ạ? Bắn được đồ mà không biết dùng ở đâu, sao có nhiệm vụ chồng chéo, rối hết cả lên",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -240,8 +241,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-323c9ba7644f4865",
@@ -252,6 +252,7 @@
       "author_masked": "A***",
       "text_th": "มีกี่วันค่ะ โปรนี้",
       "text_vn": "Gói khuyến mãi này có mấy ngày vậy ạ?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -268,8 +269,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     }
   ],
   "metrics": {
@@ -356,13 +356,13 @@
     },
     "data_health": [
       "Facebook ngày 2026-09-23: 9 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
-      "Lần thu thập 2026-10-13T18:01:15.030+07:00: 1150 quan sát duy nhất (634 post, 516 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 464 post có reaction metadata.",
-      "31 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Lần thu thập 2026-10-13T21:49:11.678+07:00: 1238 quan sát duy nhất (697 post, 541 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 522 post có reaction metadata.",
+      "14 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
       "Fanpage chỉ giữ bình luận từ facebook.com/playtogetherthailandofficial; đã loại 12 bài fanpage và 15 bình luận không thuộc fanpage Thái.",
       "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
       "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T11:01:43.420Z",
+  "generated_at": "2026-10-13T14:49:11.712Z",
   "data_mode": "production"
 }

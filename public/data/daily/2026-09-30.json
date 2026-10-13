@@ -28,7 +28,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-d1188b7c9f83964b",
@@ -56,7 +56,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-e67f457ac92f1104",
@@ -84,7 +84,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-bb1c5f645407e1f3",
@@ -112,7 +112,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-915e7e1a45084ab7",
@@ -123,6 +123,7 @@
       "author_masked": "M***",
       "text_th": "ผลไม้ มีทุกชนิด ทุกสถานะ[ขาย] โสม (มีทุกสถานะ) [ขาย] เงินสวน เหรียญฟาร์ม [ขาย] เมล็ดพันธุ์ (เฉพาะที่ซื้อด้วยเพชร) [ขาย] เปลี่ยนสภาพอากาศ [ขาย] การ์ด ดาวละ 1฿.- [ขาย] รับส่งของขวัญในเมส () [รับ] กระโดดหอคอย ถ้วยละ 1฿.-ตรวจสอบเครดิตได้ที่หน้าโปรไฟล์น้าา",
       "text_vn": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -139,8 +140,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-77e8e88554dd053b",
@@ -151,6 +151,7 @@
       "author_masked": "W***",
       "text_th": "มาบอกลากันก่อนจะจากไปเหรอ55555555มังกรกับโทรลล์จะอยู่จนถึงอัปเดตในวันพรุ่งนี้นะครับหลังจากวันนี้ไปน้องก็น่าไม่อยู่แล้วว",
       "text_vn": "Đến chào tạm biệt trước khi đi à hahaha. Rồng và Troll sẽ ở lại đến bản cập nhật ngày mai nhé, sau hôm nay chắc bé không còn nữa",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -170,8 +171,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-edb8408fe3e54a7e",
@@ -182,6 +182,7 @@
       "author_masked": "W***",
       "text_th": "แวะมาพรีวิวไอเทมกิจกรรมต่อไปครับรอท่าเต้นอยู่ครับ ปล่อยมาได้ยังอะ555",
       "text_vn": "Ghé xem trước vật phẩm sự kiện tiếp theo. Đang chờ điệu nhảy, ra được chưa haha",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -200,8 +201,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-94fd22cd2791942d",
@@ -212,6 +212,7 @@
       "author_masked": "I***",
       "text_th": "มีใครอยากเข้ามั้ยค้าบบ พอดีสร้างเอาไว้แลกเปลี่ยนการ์ดค้าบผม",
       "text_vn": "Có ai muốn vào không, mình lập ra để trao đổi thẻ",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -232,8 +233,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-c66138ab4fc3b48d",
@@ -244,6 +244,7 @@
       "author_masked": "ล***",
       "text_th": "พึ่งกลับมาเล่นหาเพื่อนเล่นด้วยครับ",
       "text_vn": "Mới quay lại chơi, tìm bạn chơi cùng",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -262,8 +263,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-9d4824066fb97f84",
@@ -274,6 +274,7 @@
       "author_masked": "A***",
       "text_th": "บ้านหลังนี้ควรเก็บไหมคะ ตกปลาจับแมลงแบบในกิจได้ไหม *บ้านโลกในฝันมีแล้วค่ะ",
       "text_vn": "Có nên giữ căn nhà này không? Câu cá, bắt côn trùng như trong sự kiện được không? *Đã có nhà Thế Giới Trong Mơ rồi",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -292,8 +293,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-11f36498e339f5cd",
@@ -304,6 +304,7 @@
       "author_masked": "อ***",
       "text_th": "ขวดขาวๆมันคือเกลือมั้ยคะ ทำไมกดซื้อแล้วไม่เจอเกลือเลย ขาดแคลนเกลือจำนวนมาก",
       "text_vn": "Cái chai trắng trắng có phải là muối không? Sao bấm mua rồi mà không thấy muối đâu, đang thiếu muối trầm trọng",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -322,8 +323,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     },
     {
       "id": "facebook-82bf79417dc82f1a",
@@ -334,6 +334,7 @@
       "author_masked": "A***",
       "text_th": "สอบถามหน่อยครับ ขึ้นแบบนี้ต้องทำยังไงบ้างครับ",
       "text_vn": "Cho hỏi hiện như thế này thì phải làm sao?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -352,8 +353,7 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T18:01:15.030+07:00",
-      "translation_method": "machine_translation"
+      "collected_at": "2026-10-13T21:49:11.678+07:00"
     }
   ],
   "metrics": {
@@ -441,13 +441,13 @@
     },
     "data_health": [
       "Facebook ngày 2026-09-30: 12 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
-      "Lần thu thập 2026-10-13T18:01:15.030+07:00: 1150 quan sát duy nhất (634 post, 516 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 464 post có reaction metadata.",
-      "31 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Lần thu thập 2026-10-13T21:49:11.678+07:00: 1238 quan sát duy nhất (697 post, 541 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 522 post có reaction metadata.",
+      "14 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
       "Fanpage chỉ giữ bình luận từ facebook.com/playtogetherthailandofficial; đã loại 12 bài fanpage và 15 bình luận không thuộc fanpage Thái.",
       "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
       "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T11:01:43.420Z",
+  "generated_at": "2026-10-13T14:49:11.712Z",
   "data_mode": "production"
 }
