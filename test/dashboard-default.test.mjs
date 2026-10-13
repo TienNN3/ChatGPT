@@ -129,6 +129,22 @@ test("every feedback item has a content type, keywords and a short summary", asy
   assert.match(html, /id="dailyKeywords"/);
 });
 
+test("ships a how-it-works guide reachable from the ? button", async () => {
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  assert.match(html, /id="helpToggle"/);
+  assert.match(html, /how-it-works\.md/);
+  const guide = await readFile(new URL("../public/how-it-works.md", import.meta.url), "utf8");
+  for (const rule of ["observed_at", "ค้างคาว", "sources.json", "intent", "Play Together VNG", "apply-labels.mjs", "npm run check"]) assert.ok(guide.includes(rule), `guide missing: ${rule}`);
+});
+
+test("links overview elements to the feedback list by day, keyword and content type", async () => {
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  assert.match(html, /id="dateFilter"/);
+  assert.match(html, /data-filter-date=/);
+  assert.match(html, /data-view="intent"/);
+  assert.match(html, /focusExplorer\(\{dateFilter:date\}\)/);
+});
+
 test("uses calendar days and validates manual ranges", async () => {
   const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
   assert.match(html, /function calendarDates\(start,end\)/);

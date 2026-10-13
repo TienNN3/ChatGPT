@@ -12,6 +12,10 @@ npm run serve
 
 Mở `http://127.0.0.1:4173`.
 
+## Cách hoạt động (cho người và AI tiếp tục dự án)
+
+Tài liệu đầy đủ về mục tiêu, nguồn, quy tắc, phân loại và quy trình nằm ở `public/how-it-works.md`, mở được từ nút **?** trên dashboard (có nút "Sao chép cho AI") hoặc trực tiếp tại `https://tiennn3.github.io/PTGTHPlayerSentiment/how-it-works.md`. Cập nhật tài liệu này mỗi khi đổi nguồn hoặc quy tắc.
+
 ## Dashboard đọc như thế nào
 
 Mặc định mở 7 ngày gần nhất. Mọi số liệu được tính lại theo kỳ đang chọn và so với kỳ liền trước có cùng số ngày. Mỗi tab có link riêng qua hash (`#overview`, `#sources`, `#store`, `#feedback`).

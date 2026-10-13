@@ -130,7 +130,7 @@
     .thai { font-family:"Noto Sans Thai",sans-serif; }
     /* Explorer */
     .explorer-tools { display:flex; justify-content:space-between; gap:12px 16px; align-items:flex-start; flex-wrap:wrap; margin-bottom:12px; }
-    .filters { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)) minmax(0,2fr); gap:10px; margin-bottom:12px; }
+    .filters { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)) minmax(0,1.6fr); gap:10px; margin-bottom:12px; }
     .checkline { display:flex; align-items:center; gap:7px; color:var(--muted); font-size:12px; margin-top:6px; }
     .checkline input { min-height:auto; }
     .active-filters { display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin-bottom:10px; font-size:12px; color:var(--muted); }
@@ -202,6 +202,13 @@
     .intent-tag { display:inline-block; font-size:11px; font-weight:600; padding:2px 8px; border-radius:999px; background:var(--brand-soft); color:var(--brand); white-space:nowrap; }
     .summary-line { font-size:12px; color:var(--muted); font-style:italic; }
     .chips.compact { gap:5px; } .chips.compact .chip { padding:3px 9px; font-size:12px; }
+    .help-btn { width:40px; font-weight:700; font-size:16px; padding:8px 0; }
+    .help-dialog { width:min(860px,calc(100% - 24px)); }
+    .help-head { position:sticky; top:-20px; z-index:1; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin:-20px -20px 12px; padding:14px 20px; background:var(--surface); border-bottom:1px solid var(--line); }
+    .help-head h2 { margin:0; } .help-head .btn { padding:6px 10px; font-size:13px; text-decoration:none; display:inline-block; }
+    .help-body { font-size:14px; line-height:1.6; overflow-wrap:anywhere; } .help-dialog { overflow-x:hidden; } .help-body h2 { font-size:18px; margin:18px 0 6px; } .help-body h3 { font-size:15px; margin:16px 0 6px; }
+    .help-body ul { padding-left:20px; margin:6px 0 10px; } .help-body code { font-size:12px; background:var(--surface-2); padding:1px 5px; border-radius:5px; }
+    .help-body table { font-size:13px; margin:6px 0 12px; } .help-body p { margin:6px 0; }
     .loading { opacity:.55; pointer-events:none; }
     dialog { width:min(720px,calc(100% - 24px)); max-height:82vh; overflow:auto; background:var(--surface); color:var(--text); border:1px solid var(--line); border-radius:18px; padding:20px; }
     dialog::backdrop { background:rgba(5,8,15,.6); }
@@ -252,7 +259,7 @@
   <main class="shell">
     <header class="hero">
       <div class="brand-lockup"><div class="brand-logo"><img src="assets/vnggames-th-badge.png" alt="VNGGames Thailand Community"></div><div class="hero-copy"><div class="eyebrow">Thailand Community Intelligence</div><h1>PTG TH Player Feedback</h1><p class="hero-subtitle">Phản hồi của người chơi Play Together Thái Lan từ Facebook Group, comment fanpage và store</p><div id="updated" class="muted small">Đang tải dữ liệu...</div></div></div>
-      <div class="header-actions"><button id="themeToggle" class="btn" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối">◐</button><button id="alertBadge" class="badge" hidden></button></div>
+      <div class="header-actions"><button id="helpToggle" class="btn help-btn" aria-label="Cách hoạt động, nguồn và quy tắc" title="Cách hoạt động, nguồn và quy tắc">?</button><button id="themeToggle" class="btn" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối">◐</button><button id="alertBadge" class="badge" hidden></button></div>
     </header>
     <div id="mockBanner" class="mock-banner"><strong>Dữ liệu demo.</strong> Các số liệu và quote hiện tại là dữ liệu mock tổng hợp, không phải tiếng nói người chơi thật.</div>
 
@@ -289,12 +296,12 @@
       <section class="grid voice-row">
         <article class="card span-4 voice-card like"><div class="card-head"><h2>Người chơi thích gì</h2><p>Từ khoá được khen nhiều nhất · bấm để đọc toàn bộ</p></div><div id="likeList"></div></article>
         <article class="card span-4 voice-card dislike"><div class="card-head"><h2>Người chơi chưa hài lòng</h2><p>Từ khoá bị phàn nàn nhiều nhất · bấm để đọc toàn bộ</p></div><div id="dislikeList"></div></article>
-        <article class="card span-4 voice-card action"><div class="card-head"><h2>Cần xử lý</h2><p>Cảnh báo P0/P1, báo lỗi, crash/lag và vấn đề tài khoản trong kỳ</p></div><div id="actionList"></div></article>
+        <article class="card span-4 voice-card action"><div class="card-head"><h2>Cần xử lý</h2><p>Cảnh báo P0/P1, báo lỗi, crash/lag, vấn đề tài khoản và phàn nàn trong kỳ</p></div><div id="actionList"></div></article>
       </section>
       <section class="grid">
         <article class="card span-12">
-          <div class="card-head row-head"><div><h2>Diễn biến cảm xúc theo ngày</h2><p id="trendCaption"></p></div>
-            <div class="chart-toggles"><div class="segmented mini" aria-label="Gộp theo"><button data-group="day" class="active">Ngày</button><button data-group="week">Tuần</button></div><div class="segmented mini" aria-label="Đơn vị"><button data-scale="count" class="active">Số lượng</button><button data-scale="share">Tỷ lệ %</button></div></div></div>
+          <div class="card-head row-head"><div><h2>Diễn biến theo ngày</h2><p id="trendCaption"></p></div>
+            <div class="chart-toggles"><div class="segmented mini" aria-label="Xem theo"><button data-view="sentiment" class="active">Cảm xúc</button><button data-view="intent">Loại nội dung</button></div><div class="segmented mini" aria-label="Gộp theo"><button data-group="day" class="active">Ngày</button><button data-group="week">Tuần</button></div><div class="segmented mini" aria-label="Đơn vị"><button data-scale="count" class="active">Số lượng</button><button data-scale="share">Tỷ lệ %</button></div></div></div>
           <div class="chart-wrap"><canvas id="sentimentChart" aria-label="Biểu đồ phản hồi theo cảm xúc"></canvas></div>
         </article>
       </section>
@@ -313,7 +320,7 @@
       <section class="grid">
         <article class="card span-12"><div class="card-head"><h2>Tỷ lệ cảm xúc theo nguồn</h2><p>So sánh nhanh nguồn nào tích cực hơn, nguồn nào có nhiều phản hồi tiêu cực</p></div><div id="sourceMix" class="mix-list"></div><div class="legend" style="margin-top:10px"><span><i class="dot positive-bg"></i>Tích cực</span><span><i class="dot negative-bg"></i>Tiêu cực</span><span><i class="dot mixed-bg"></i>Đan xen</span><span><i class="dot neutral-bg"></i>Trung tính</span></div></article>
         <article class="card span-12"><div class="card-head"><h2>Phản hồi theo nguồn</h2><p>Mỗi group, fanpage và store đóng góp bao nhiêu phản hồi · bấm tên nguồn để lọc danh sách</p></div>
-          <div class="scroll"><table class="responsive-table"><thead><tr><th>Nguồn</th><th class="num">Phản hồi</th><th class="num">Tích cực</th><th class="num">Tiêu cực</th><th>Loại nội dung chính</th><th>Chủ đề nhiều nhất</th></tr></thead><tbody id="sourceSummary"></tbody></table></div>
+          <div class="scroll"><table class="responsive-table"><thead><tr><th>Nguồn</th><th class="num">Phản hồi</th><th class="num">Tích cực</th><th class="num">Tiêu cực</th><th>Loại nội dung chính</th><th>Từ khoá nổi bật</th></tr></thead><tbody id="sourceSummary"></tbody></table></div>
           <details class="more"><summary>Chi tiết số lượng theo ngày và nguồn</summary><p class="muted small">Chỉ tính nội dung xác định được ngày đăng trong kỳ đã chọn.</p><div class="scroll"><table class="responsive-table"><thead><tr><th>Ngày</th><th>Nguồn</th><th class="num">Tổng</th><th class="num">Tích cực</th><th class="num">Tiêu cực</th><th class="num">Trung tính</th><th class="num">Đan xen</th></tr></thead><tbody id="sourceRows"></tbody></table></div></details>
         </article>
       </section>
@@ -348,7 +355,7 @@
     <section id="explorer" class="card">
       <div class="explorer-tools"><div><h2>Danh sách phản hồi</h2><p class="muted small" style="margin:0">Mới nhất trước · Bản dịch tiếng Việt được đặt trước nguyên văn</p><label class="checkline"><input id="includeUndated" type="checkbox"> Hiển thị cả <span id="undatedCount">0</span> nội dung chưa rõ ngày đăng (thu thập trong kỳ này, không tính vào số liệu)</label></div><button id="exportCsv" class="btn">Tải CSV</button></div>
       <div class="filters">
-        <label>Nguồn<select id="sourceFilter"></select></label><label>Cảm xúc<select id="sentimentFilter"></select></label><label>Loại nội dung<select id="activityFilter"></select></label><label>Từ khoá<select id="themeFilter"></select></label><label class="search">Tìm nội dung<input id="keywordFilter" type="search" placeholder="Tìm trong bản dịch hoặc nguyên văn"></label>
+        <label>Ngày<select id="dateFilter"></select></label><label>Nguồn<select id="sourceFilter"></select></label><label>Cảm xúc<select id="sentimentFilter"></select></label><label>Loại nội dung<select id="activityFilter"></select></label><label>Từ khoá<select id="themeFilter"></select></label><label class="search">Tìm nội dung<input id="keywordFilter" type="search" placeholder="Tìm trong bản dịch hoặc nguyên văn"></label>
       </div>
       <div id="activeFilters" class="active-filters" hidden></div>
       <div class="scroll"><table class="feedback-table responsive-table"><thead><tr><th>Thời gian</th><th>Nguồn</th><th>Cảm xúc</th><th>Bản dịch tiếng Việt</th><th>Nguyên văn</th><th>Loại nội dung / từ khoá</th><th>Tương tác</th><th>Link</th></tr></thead><tbody id="feedbackRows"></tbody></table></div>
@@ -358,11 +365,12 @@
 
     <section class="card notes"><h3>Ghi chú về dữ liệu</h3><ul id="dataNotes"></ul></section>
   </main>
+  <dialog id="helpDialog" class="help-dialog"><div class="help-head"><h2>Cách hoạt động</h2><div><button id="copyHelp" class="btn" title="Chép toàn bộ nội dung dạng Markdown để dán cho AI ở chat khác">Sao chép cho AI</button> <a class="btn" href="how-it-works.md" target="_blank" rel="noopener">Mở bản thô</a> <button class="btn" onclick="this.closest('dialog').close()">Đóng</button></div></div><div id="helpBody" class="help-body">Đang tải…</div></dialog>
   <dialog id="themeDialog"><button class="btn close" onclick="this.closest('dialog').close()">Đóng</button><div id="themeDetail"></div></dialog>
   <script>
   (() => {
     const $ = (selector) => document.querySelector(selector);
-    const state = { mode:'range', index:null, briefing:null, selected:[], context:[], previous:[], ratingDays:[], charts:{}, page:1, filtered:[], trendGroup:'day', trendScale:'count' };
+    const state = { mode:'range', index:null, briefing:null, selected:[], context:[], previous:[], ratingDays:[], charts:{}, page:1, filtered:[], trendGroup:'day', trendScale:'count', trendView:'sentiment' };
     const cache = new Map();
     const SENTIMENTS = ['Positive','Negative','Mixed','Neutral'];
     const GENERIC_THEME = 'Góp ý trải nghiệm chung';
@@ -475,7 +483,7 @@
         if(calendarDates($('#fromDate').value,$('#toDate').value).length>90)throw new Error('Mỗi lần xem tối đa 90 ngày để bảo đảm báo cáo dễ đọc.');
       }
     }
-    function resetExplorer(){['sourceFilter','sentimentFilter','activityFilter','themeFilter','keywordFilter'].forEach(id=>{$(`#${id}`).value=''});$('#includeUndated').checked=false;state.page=1}
+    function resetExplorer(){['dateFilter','sourceFilter','sentimentFilter','activityFilter','themeFilter','keywordFilter'].forEach(id=>{$(`#${id}`).value=''});$('#includeUndated').checked=false;state.page=1}
     async function apply(){
       try{
         validateSelection();document.querySelector('main').classList.add('loading');$('#periodLabel').textContent='Đang tải dữ liệu…';
@@ -551,11 +559,12 @@
       $('#dislikeList').innerHTML=keywordBlock(items,previous,'Negative');
       const actions=alerts.map(a=>`<div class="action-item"><span class="level ${esc(a.level)}">${esc(a.level||'!')}</span><div><strong>${esc(a.title)}</strong> <span class="muted small">${esc(shortDate(a.date))}</span><p>${esc(a.detail||'Cần kiểm tra thêm.')}</p>${(a.links||[]).slice(0,3).map((link,i)=>`<a class="small" href="${esc(link)}" target="_blank" rel="noopener">Mở nguồn${a.links.length>1?` ${i+1}`:''} ↗</a>`).join(' · ')}</div></div>`);
       // Nhóm vấn đề kỹ thuật/tài khoản trong kỳ, kèm từ khoá chính và so với kỳ trước.
-      for(const intent of ISSUE_INTENTS){
+      const SIGNAL_THEME={account:'Đăng nhập tài khoản',bug:'Game bị văng và treo',performance:'Game bị văng và treo',complaint:'Giá trị phần thưởng gacha'};
+      for(const intent of [...ISSUE_INTENTS,'complaint']){
         const rows=items.filter(i=>intentOf(i)===intent),before=previous.filter(i=>intentOf(i)===intent).length;
         if(!rows.length) continue;
         const tags=countKeywords(rows).slice(0,3).map(([k,c])=>`${esc(k)} (${c})`).join(', '),q=bestQuote(rows);
-        actions.push(`<div class="action-item"><span class="level info">${rows.length}</span><div><button class="link-btn" data-filter-intent="${intent}"><strong>${esc(INTENTS[intent])}</strong></button> <span class="muted small">kỳ trước ${before}</span>${tags?`<p>Từ khoá: ${tags}</p>`:''}${q?`<p class="small muted">Ví dụ: ${esc(q.summary_vn||q.text_vn)}</p>`:''}</div></div>`);
+        actions.push(`<div class="action-item"><span class="level info">${rows.length}</span><div><button class="link-btn" data-filter-intent="${intent}"><strong>${esc(INTENTS[intent])}</strong></button> <span class="muted small">kỳ trước ${before}</span>${tags?`<p>Từ khoá: ${tags}</p>`:''}${q?`<p class="small muted">Ví dụ: ${esc(q.summary_vn||q.text_vn)}</p>`:''}${(()=>{const sig=state.briefing?.signals?.find(entry=>(entry.themes||[]).includes(SIGNAL_THEME[intent]));return sig?.suggested_action?`<p class="small">Gợi ý: ${esc(sig.suggested_action)}</p>`:''})()}</div></div>`);
       }
       $('#actionList').innerHTML=actions.join('')||'<p class="empty-note">Không có cảnh báo P0/P1 và không có báo lỗi, crash/lag hay vấn đề tài khoản trong kỳ.</p>';
       document.querySelectorAll('[data-kw]').forEach(button=>button.onclick=()=>showKeyword(button.dataset.kw,button.dataset.sentiment));
@@ -582,10 +591,14 @@
     }
     function renderCharts(){
       const days=state.context,selected=new Set(selectedDates()),single=state.selected.length===1,contextLabel=`${dateLabel(days[0].date)} – ${dateLabel(days.at(-1).date)}`,share=state.trendScale==='share',buckets=trendBuckets();
-      $('#trendCaption').textContent=`${single?`30 ngày tính đến ngày đang xem (${contextLabel}) · cột đậm là ngày đang xem`:`Phản hồi có ngày đăng · ${contextLabel}`}${share?' · tỷ lệ % trong mỗi cột':''}`;
+      $('#trendCaption').textContent=`${single?`30 ngày tính đến ngày đang xem (${contextLabel}) · cột đậm là ngày đang xem`:`Phản hồi có ngày đăng · ${contextLabel}`}${share?' · tỷ lệ % trong mỗi cột':''}${state.trendGroup==='day'?' · bấm vào cột để xem phản hồi ngày đó':''}`;
       const fade=color=>buckets.map(b=>single&&!b.dates.some(d=>selected.has(d))?`${color}59`:color);
-      const counts=s=>buckets.map(b=>b.items.filter(i=>i.sentiment===s).length);
-      chart('sentimentChart','bar',{labels:buckets.map(b=>b.label),datasets:SENTIMENTS.map(s=>({label:sentimentLabel(s),counts:counts(s),data:counts(s).map((n,i)=>share?(buckets[i].items.length?n/buckets[i].items.length*100:0):n),backgroundColor:fade(cssVar(`--${s.toLowerCase()}`)),borderRadius:2}))},{
+      // Chế độ "Loại nội dung": 6 loại nhiều nhất trong khung, phần còn lại gộp vào "Khác".
+      const byIntent=state.trendView==='intent',topIntents=countBy(buckets.flatMap(b=>b.items),intentOf).slice(0,6).map(([k])=>k),INTENT_COLORS=['#2f80ed','#11966a','#e59a2f','#e8495c','#8e5cf7','#14a3b8','#8d9ab0'];
+      const series=byIntent?[...topIntents.map((k,idx)=>({key:k,label:INTENTS[k]||k,test:i=>intentOf(i)===k,color:INTENT_COLORS[idx]})),{key:'other',label:'Khác',test:i=>!topIntents.includes(intentOf(i)),color:INTENT_COLORS[6]}]:SENTIMENTS.map(s=>({key:s,label:sentimentLabel(s),test:i=>i.sentiment===s,color:cssVar(`--${s.toLowerCase()}`)}));
+      const counts=ser=>buckets.map(b=>b.items.filter(ser.test).length);
+      chart('sentimentChart','bar',{labels:buckets.map(b=>b.label),datasets:series.map(ser=>({label:ser.label,counts:counts(ser),data:counts(ser).map((n,i)=>share?(buckets[i].items.length?n/buckets[i].items.length*100:0):n),backgroundColor:fade(ser.color),borderRadius:2}))},{
+        onClick:(evt,els)=>{ if(!els.length||state.trendGroup==='week') return; const date=buckets[els[0].index].dates[0]; if(selectedDates().includes(date)) focusExplorer({dateFilter:date}) },
         plugins:{legend:{position:'bottom',labels:{color:cssVar('--muted'),boxWidth:12,boxHeight:12}},tooltip:{callbacks:{label:ctx=>{const n=ctx.dataset.counts[ctx.dataIndex],total=buckets[ctx.dataIndex].items.length;return` ${ctx.dataset.label}: ${n} (${pct(n,total)})`},footer:items=>`Tổng: ${buckets[items[0].dataIndex].items.length} phản hồi`}}},
         scales:{x:{stacked:true,ticks:{color:cssVar('--muted'),maxRotation:0,autoSkipPadding:8},grid:{display:false}},y:{stacked:true,beginAtZero:true,max:share?100:undefined,ticks:{color:cssVar('--muted'),precision:0,callback:v=>share?`${v}%`:v},grid:{color:'rgba(129,144,168,.15)'}}}});
       const ratingDays=state.ratingDays.filter(d=>STORES.some(p=>snapshot(d,p)));
@@ -601,13 +614,14 @@
       $('#intentList').innerHTML=rows.map(([intent,count])=>{const group=items.filter(i=>intentOf(i)===intent),s=bySentiment(group);return`<button class="bar-row" data-filter-intent="${esc(intent)}" title="Lọc danh sách: ${esc(INTENTS[intent]||intent)}"><span class="name">${esc(INTENTS[intent]||intent)}</span><span class="bar-track" style="width:${Math.max(8,count/max*100)}%">${SENTIMENTS.map(k=>`<span class="${k.toLowerCase()}-bg" style="width:${s[k]/count*100}%"></span>`).join('')}</span><span class="num">${count} <small>${pct(count,items.length)}</small></span></button>`}).join('')||'<p class="empty-note">Chưa có phản hồi trong kỳ.</p>';
       document.querySelectorAll('#intentList [data-filter-intent]').forEach(button=>button.onclick=()=>focusExplorer({activityFilter:button.dataset.filterIntent}));
     }
-    const keywordChip = (kw,count,group,extra='') => `<button class="chip ${leadSentiment(group)}" data-filter-kw="${esc(kw)}" title="${SENTIMENTS.map(k=>`${sentimentLabel(k)} ${bySentiment(group)[k]}`).join(' · ')}">${esc(kw)} <span>${count}${extra}</span></button>`;
+    const keywordChip = (kw,count,group,extra='',date='') => `<button class="chip ${leadSentiment(group)}" data-filter-kw="${esc(kw)}"${date?` data-date="${date}"`:''} title="${SENTIMENTS.map(k=>`${sentimentLabel(k)} ${bySentiment(group)[k]}`).join(' · ')}">${esc(kw)} <span>${count}${extra}</span></button>`;
     function renderKeywords(items,previous){
       const prev=new Map(countKeywords(previous));
       $('#keywordChips').innerHTML=countKeywords(items).slice(0,30).map(([kw,count])=>{const before=prev.get(kw)||0,d=count-before;return keywordChip(kw,count,items.filter(i=>keywordsOf(i).includes(kw)),d?` ${d>0?'▲':'▼'}${Math.abs(d)}`:'')}).join('')||'<p class="empty-note">Chưa có từ khoá trong kỳ.</p>';
       const days=[...state.selected].reverse();
-      $('#dailyKeywords').innerHTML=days.map(day=>{const rows=timelineItems(day);if(!rows.length)return'';const intents=countBy(rows,intentLabel).slice(0,2).map(([k,c])=>`${esc(k)} (${c})`).join(', ');return`<tr><td data-label="Ngày" class="nowrap">${esc(dateLabel(day.date))}</td><td class="num" data-label="Phản hồi">${rows.length}</td><td data-label="Loại nội dung chính">${intents}</td><td data-label="Từ khoá nổi bật"><span class="chips compact">${countKeywords(rows).slice(0,6).map(([kw,c])=>keywordChip(kw,c,rows.filter(i=>keywordsOf(i).includes(kw)))).join('')}</span></td></tr>`}).join('')||'<tr><td colspan="4" class="empty">Không có phản hồi xác định được ngày đăng trong kỳ.</td></tr>';
-      document.querySelectorAll('[data-filter-kw]').forEach(button=>button.onclick=()=>focusExplorer({themeFilter:button.dataset.filterKw}));
+      $('#dailyKeywords').innerHTML=days.map(day=>{const rows=timelineItems(day);if(!rows.length)return'';const intents=countBy(rows,intentLabel).slice(0,2).map(([k,c])=>`${esc(k)} (${c})`).join(', ');return`<tr><td data-label="Ngày" class="nowrap"><button class="link-btn" data-filter-date="${day.date}" title="Xem phản hồi ngày này">${esc(dateLabel(day.date))}</button></td><td class="num" data-label="Phản hồi">${rows.length}</td><td data-label="Loại nội dung chính">${intents}</td><td data-label="Từ khoá nổi bật"><span class="chips compact">${countKeywords(rows).slice(0,6).map(([kw,c])=>keywordChip(kw,c,rows.filter(i=>keywordsOf(i).includes(kw)),'',day.date)).join('')}</span></td></tr>`}).join('')||'<tr><td colspan="4" class="empty">Không có phản hồi xác định được ngày đăng trong kỳ.</td></tr>';
+      document.querySelectorAll('[data-filter-kw]').forEach(button=>button.onclick=()=>focusExplorer({themeFilter:button.dataset.filterKw,...(button.dataset.date?{dateFilter:button.dataset.date}:{})}));
+      document.querySelectorAll('[data-filter-date]').forEach(button=>button.onclick=()=>focusExplorer({dateFilter:button.dataset.filterDate}));
     }
     function sourceKind(name,items){if(STORES.includes(name))return'Store · đánh giá';if(name==='YouTube'){const v=items.filter(i=>i.content_kind==='video').length;return`YouTube · ${v} video, ${items.length-v} bình luận`}if(/^Facebook Fanpage/.test(name))return'Fanpage · bình luận người dùng';const posts=items.filter(i=>i.content_kind==='post').length;return`Group · ${posts} bài đăng, ${items.length-posts} bình luận`}
     function spark(values,color){const max=Math.max(1,...values),step=values.length>1?100/(values.length-1):0,points=values.map((v,i)=>`${(i*step).toFixed(1)},${(30-v/max*26-2).toFixed(1)}`).join(' ');return`<svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="${points}" fill="none" stroke="${color}" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>`}
@@ -624,17 +638,17 @@
       $('#sourcePending').hidden=!pending.length;
       $('#sourcePending').innerHTML=`<div class="card-head"><h2>Nguồn chưa có dữ liệu</h2><p>Đang theo dõi nhưng không có phản hồi để đưa vào số liệu</p></div>`+pending.map(e=>`<div class="pending-row"><span class="status-chip status-${esc(e.status)}">${esc(statusText(e.status))}</span><span><strong>${esc(sourceLabel(e.key))}</strong><br><span class="muted small">${esc(e.detail||'')}</span></span>${e.url?`<a class="small" href="${esc(e.url)}" target="_blank" rel="noopener">Mở ↗</a>`:'<span></span>'}</div>`).join('');
       $('#sourceCards').innerHTML=entries.filter(e=>!pending.includes(e)).map(e=>{const name=e.key,group=items.filter(i=>channelName(i)===name),before=previous.filter(i=>channelName(i)===name).length,s=bySentiment(group),trend=state.context.map(d=>timelineItems(d).filter(i=>channelName(i)===name).length),d=group.length-before,noData=idleStatus(e.status),und=undated.filter(i=>channelName(i)===name).length;
-        const body=noData?`<span class="sub">${esc(e.detail||'')}</span>`:`${spark(trend,cssVar('--brand'))}<span class="sub">${esc(sourceKind(name,group))}${und?` · ${und} chưa rõ ngày`:''}</span><span class="sub">${group.length?`<span class="pos-text">${s.Positive} tích cực</span> · <span class="neg-text">${s.Negative} tiêu cực</span> · `:''}kỳ trước ${before}</span>${e.detail?`<span class="sub muted-note">${esc(e.detail)}</span>`:''}`;
+        const body=noData?`<span class="sub">${esc(e.detail||'')}</span>`:`${spark(trend,cssVar('--brand'))}<span class="sub">${esc(sourceKind(name,group))}${und?` · ${und} chưa rõ ngày`:''}</span><span class="sub">${group.length?`<span class="pos-text">${s.Positive} tích cực</span> · <span class="neg-text">${s.Negative} tiêu cực</span> · `:''}kỳ trước ${before}</span>${group.length?`<span class="sub">Từ khoá: ${countKeywords(group).slice(0,3).map(([k])=>esc(k)).join(', ')}</span>`:''}${e.detail?`<span class="sub muted-note">${esc(e.detail)}</span>`:''}`;
         return`<${group.length?'button':'div'} class="card source-card ${noData?'no-data':''}" ${group.length?`data-filter-source="${esc(name)}" title="Lọc danh sách theo nguồn này"`:''}><span class="label">${esc(sourceLabel(name))}</span><span class="status-chip status-${esc(e.status)}">${esc(statusText(e.status))}</span><span class="value">${noData?'–':fmt.format(group.length)} ${!noData&&d?`<span class="delta-chip neutral-chip">${d>0?'▲':'▼'} ${Math.abs(d)}</span>`:''}</span>${body}</${group.length?'button':'div'}>`}).join('')||'<div class="card empty">Không có phản hồi xác định được ngày đăng trong kỳ.</div>';
       const rows=countBy(items,channelName);
       $('#sourceMix').innerHTML=rows.map(([name,count])=>{const s=bySentiment(items.filter(i=>channelName(i)===name));return`<div class="mix-row"><span class="name">${esc(sourceLabel(name))} <small class="muted">${count}</small></span><div class="mix-bar">${SENTIMENTS.map(k=>s[k]?`<span class="${k.toLowerCase()}-bg" style="width:${s[k]/count*100}%" title="${sentimentLabel(k)}: ${s[k]}">${s[k]/count>=.12?`${pct(s[k],count)} (${s[k]})`:''}</span>`:'').join('')}</div></div>`}).join('')||'<p class="empty-note">Chưa có dữ liệu trong kỳ.</p>';
     }
     function renderSourceSummary(items){
       const rows=countBy(items,channelName);
-      $('#sourceSummary').innerHTML=rows.map(([name,count])=>{const group=items.filter(i=>channelName(i)===name),s=bySentiment(group),top=rankThemes(group)[0],act=countBy(group,intentLabel)[0];return`<tr><td data-label="Nguồn"><button class="link-btn" data-filter-source="${esc(name)}">${esc(sourceLabel(name))}</button></td><td class="num" data-label="Phản hồi">${count} <span class="muted small">(${pct(count,items.length)})</span></td><td class="num" data-label="Tích cực">${s.Positive}</td><td class="num" data-label="Tiêu cực">${s.Negative}</td><td data-label="Loại nội dung chính">${act?`${esc(act[0])} (${act[1]})`:''}</td><td data-label="Chủ đề nhiều nhất">${top?esc(themeLabel(top[0])):''}</td></tr>`}).join('')||'<tr><td colspan="6" class="empty">Không có phản hồi xác định được ngày đăng trong kỳ.</td></tr>';
+      $('#sourceSummary').innerHTML=rows.map(([name,count])=>{const group=items.filter(i=>channelName(i)===name),s=bySentiment(group),tags=countKeywords(group).slice(0,3),act=countBy(group,intentLabel)[0];return`<tr><td data-label="Nguồn"><button class="link-btn" data-filter-source="${esc(name)}">${esc(sourceLabel(name))}</button></td><td class="num" data-label="Phản hồi">${count} <span class="muted small">(${pct(count,items.length)})</span></td><td class="num" data-label="Tích cực">${s.Positive}</td><td class="num" data-label="Tiêu cực">${s.Negative}</td><td data-label="Loại nội dung chính">${act?`${esc(act[0])} (${act[1]})`:''}</td><td data-label="Từ khoá nổi bật">${tags.map(([k,c])=>`${esc(k)} (${c})`).join(', ')}</td></tr>`}).join('')||'<tr><td colspan="6" class="empty">Không có phản hồi xác định được ngày đăng trong kỳ.</td></tr>';
       document.querySelectorAll('[data-filter-source]').forEach(button=>button.onclick=()=>focusExplorer({sourceFilter:button.dataset.filterSource}));
     }
-    function reviewRow(i){return`<div class="review"><div class="review-head"><span class="stars">${'★'.repeat(i.rating||0)}<span class="muted">${'★'.repeat(5-(i.rating||0))}</span></span><span class="muted small">${esc(dateLabel(i.date))} · ${esc(i.source)}</span><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span></div>${isSummaryText(i)?`<div><strong>${esc(i.text_vn.replace(/\s*Đây là tóm tắt phân loại.*$/i,''))}</strong></div><span class="thai muted small">Nguyên văn: ${esc(i.text_th)}</span>`:`<div><strong>${esc(i.text_vn)}</strong></div>${i.text_th&&i.text_th!==i.text_vn?`<span class="thai muted small">${esc(i.text_th)}</span>`:''}`}${i.link?` <a class="small" href="${esc(i.link)}" target="_blank" rel="noopener">Mở store ↗</a>`:''}</div>`}
+    function reviewRow(i){return`<div class="review"><div class="review-head"><span class="stars">${'★'.repeat(i.rating||0)}<span class="muted">${'★'.repeat(5-(i.rating||0))}</span></span><span class="muted small">${esc(dateLabel(i.date))} · ${esc(i.source)}</span><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span><span class="intent-tag">${esc(intentLabel(i))}</span></div>${i.summary_vn?`<div class="summary-line">${esc(i.summary_vn)}${keywordsOf(i).length?` · ${keywordsOf(i).map(esc).join(', ')}`:''}</div>`:''}${isSummaryText(i)?`<div><strong>${esc(i.text_vn.replace(/\s*Đây là tóm tắt phân loại.*$/i,''))}</strong></div><span class="thai muted small">Nguyên văn: ${esc(i.text_th)}</span>`:`<div><strong>${esc(i.text_vn)}</strong></div>${i.text_th&&i.text_th!==i.text_vn?`<span class="thai muted small">${esc(i.text_th)}</span>`:''}`}${i.link?` <a class="small" href="${esc(i.link)}" target="_blank" rel="noopener">Mở store ↗</a>`:''}</div>`}
     function renderStore(items,previous){
       const reviews=items.filter(isStore).filter(i=>Number.isFinite(i.rating)).sort((a,b)=>itemTime(b)-itemTime(a)),prev=previous.filter(isStore).filter(i=>Number.isFinite(i.rating)),n=reviews.length;
       const recentReviews=state.ratingDays.flatMap(d=>(d.items||[]).filter(isStore).filter(i=>Number.isFinite(i.rating)).map(i=>({...i,date:i.date||d.date}))).sort((a,b)=>itemTime(b)-itemTime(a));
@@ -710,8 +724,9 @@
     }
     function explorerItems(){return $('#includeUndated').checked?rawSelectedItems():selectedItems()}
     function setupFilters(items){
-      const keep=Object.fromEntries(['sourceFilter','sentimentFilter','activityFilter','themeFilter'].map(id=>[id,$(`#${id}`).value]));
+      const keep=Object.fromEntries(['dateFilter','sourceFilter','sentimentFilter','activityFilter','themeFilter'].map(id=>[id,$(`#${id}`).value]));
       const opts=(values,label=v=>v)=>'<option value="">Tất cả</option>'+[...new Set(values.filter(Boolean))].sort().map(v=>`<option value="${esc(v)}">${esc(label(v))}</option>`).join('');
+      $('#dateFilter').innerHTML='<option value="">Cả kỳ</option>'+countBy(items,i=>i.date).sort((a,b)=>b[0].localeCompare(a[0])).map(([d,c])=>`<option value="${d}">${dateLabel(d)} (${c})</option>`).join('');
       $('#sourceFilter').innerHTML=opts(items.map(channelName),sourceLabel);
       $('#sentimentFilter').innerHTML='<option value="">Tất cả</option>'+SENTIMENTS.filter(s=>items.some(i=>i.sentiment===s)).map(v=>`<option value="${v}">${sentimentLabel(v)}</option>`).join('');
       $('#activityFilter').innerHTML='<option value="">Tất cả</option>'+countBy(items,intentOf).map(([k,c])=>`<option value="${esc(k)}">${esc(INTENTS[k]||k)} (${c})</option>`).join('');
@@ -719,9 +734,9 @@
       for(const[id,value]of Object.entries(keep))if([...$(`#${id}`).options].some(o=>o.value===value))$(`#${id}`).value=value;
     }
     function focusExplorer(filters){resetExplorer();setupFilters(explorerItems());for(const[id,value]of Object.entries(filters))$(`#${id}`).value=value;renderFeedback();setTab('feedback');$('.tabs').scrollIntoView({behavior:'smooth',block:'start'})}
-    function filterItems(){const query=$('#keywordFilter').value.trim().toLocaleLowerCase();state.filtered=explorerItems().filter(item=>(!$('#sourceFilter').value||channelName(item)===$('#sourceFilter').value)&&(!$('#activityFilter').value||intentOf(item)===$('#activityFilter').value)&&(!$('#sentimentFilter').value||item.sentiment===$('#sentimentFilter').value)&&(!$('#themeFilter').value||keywordsOf(item).includes($('#themeFilter').value))&&(!query||`${item.text_th||''} ${item.text_vn||''} ${item.summary_vn||''} ${keywordsOf(item).join(' ')}`.toLocaleLowerCase().includes(query))).sort((a,b)=>itemTime(b)-itemTime(a))}
+    function filterItems(){const query=$('#keywordFilter').value.trim().toLocaleLowerCase();state.filtered=explorerItems().filter(item=>(!$('#dateFilter').value||item.date===$('#dateFilter').value)&&(!$('#sourceFilter').value||channelName(item)===$('#sourceFilter').value)&&(!$('#activityFilter').value||intentOf(item)===$('#activityFilter').value)&&(!$('#sentimentFilter').value||item.sentiment===$('#sentimentFilter').value)&&(!$('#themeFilter').value||keywordsOf(item).includes($('#themeFilter').value))&&(!query||`${item.text_th||''} ${item.text_vn||''} ${item.summary_vn||''} ${keywordsOf(item).join(' ')}`.toLocaleLowerCase().includes(query))).sort((a,b)=>itemTime(b)-itemTime(a))}
     function engagementText(item){if(!item.engagement)return item.rating?`${item.rating}★`:'';const parts=(item.engagement.reactions||[]).map(value=>String(value).replace(/people|person/gi,'người'));if(item.engagement.comment_count)parts.push(`${item.engagement.comment_count} bình luận`);return parts.join('; ')}
-    function renderActiveFilters(){const labels={sourceFilter:'Nguồn',sentimentFilter:'Cảm xúc',activityFilter:'Loại nội dung',themeFilter:'Từ khoá'},active=Object.keys(labels).filter(id=>$(`#${id}`).value);$('#activeFilters').hidden=!active.length;$('#activeFilters').innerHTML=active.length?`Đang lọc: ${active.map(id=>`<strong>${labels[id]}: ${esc($(`#${id}`).selectedOptions[0]?.textContent||'')}</strong>`).join(' · ')} <button id="clearFilters" class="link-btn">Bỏ lọc</button>`:'';if(active.length)$('#clearFilters').onclick=()=>{const undated=$('#includeUndated').checked;resetExplorer();$('#includeUndated').checked=undated;setupFilters(explorerItems());renderFeedback()}}
+    function renderActiveFilters(){const labels={dateFilter:'Ngày',sourceFilter:'Nguồn',sentimentFilter:'Cảm xúc',activityFilter:'Loại nội dung',themeFilter:'Từ khoá'},active=Object.keys(labels).filter(id=>$(`#${id}`).value);$('#activeFilters').hidden=!active.length;$('#activeFilters').innerHTML=active.length?`Đang lọc: ${active.map(id=>`<strong>${labels[id]}: ${esc($(`#${id}`).selectedOptions[0]?.textContent||'')}</strong>`).join(' · ')} <button id="clearFilters" class="link-btn">Bỏ lọc</button>`:'';if(active.length)$('#clearFilters').onclick=()=>{const undated=$('#includeUndated').checked;resetExplorer();$('#includeUndated').checked=undated;setupFilters(explorerItems());renderFeedback()}}
     function renderFeedback(){
       filterItems();renderActiveFilters();const size=30,total=Math.max(1,Math.ceil(state.filtered.length/size));state.page=Math.min(state.page,total);const rows=state.filtered.slice((state.page-1)*size,state.page*size);
       $('#feedbackRows').innerHTML=rows.map(i=>`<tr><td data-label="Thời gian"><span>${esc(dateLabel(i.date))}${i.published_label?`<br><small class="muted">${esc(i.published_label)}</small>`:''}${i.date_basis==='observed_at'?'<br><small class="muted">Chưa rõ ngày đăng; đây là ngày thu thập</small>':''}</span></td><td data-label="Nguồn"><span>${esc(sourceLabel(channelName(i)))}<br><small class="muted">${esc(kindLabel(i))}</small></span></td><td data-label="Cảm xúc"><span><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span></span></td><td class="text" data-label="Bản dịch"><span>${i.summary_vn?`<span class="summary-line">${esc(i.summary_vn)}</span><br>`:''}<strong>${esc(i.text_vn)}</strong>${i.translation_method==='machine_translation'?'<br><small class="muted">Bản dịch tự động</small>':isSummaryText(i)?'<br><small class="muted">Tóm tắt phân loại, chưa phải bản dịch</small>':''}</span></td><td class="thai" data-label="Nguyên văn">${esc(i.text_th)}</td><td class="meta" data-label="Loại nội dung"><span><span class="intent-tag">${esc(intentLabel(i))}</span>${keywordsOf(i).length?`<br><small class="muted">${keywordsOf(i).map(esc).join(' · ')}</small>`:''}</span></td><td class="meta" data-label="Tương tác"${engagementText(i)?'':' data-empty'}>${esc(engagementText(i))}</td><td class="nowrap" data-label="Link"><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở ↗</a></td></tr>`).join('')||'<tr><td colspan="8" class="empty">Không có phản hồi phù hợp.</td></tr>';
@@ -736,10 +751,27 @@
     document.querySelectorAll('.filters select,.filters input').forEach(el=>el.addEventListener(el.type==='search'?'input':'change',()=>{state.page=1;renderFeedback()}));
     $('#includeUndated').onchange=()=>{state.page=1;setupFilters(explorerItems());renderFeedback()};
     $('#copyReport').onclick=copyReport;
+    // Tài liệu "Cách hoạt động" (public/how-it-works.md) hiển thị trong hộp thoại; Markdown đơn giản được chuyển sang HTML tại chỗ.
+    function markdownToHtml(md){
+      const inline=t=>esc(t).replace(/`([^`]+)`/g,'<code>$1</code>').replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>').replace(/(https?:\/\/[^\s)<]+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>');
+      const out=[];let list=null,table=null;
+      const flush=()=>{if(list){out.push(`<ul>${list.join('')}</ul>`);list=null}if(table){const [head,,...rows]=table;const cells=r=>r.split('|').slice(1,-1).map(c=>c.trim());out.push(`<div class="scroll"><table><thead><tr>${cells(head).map(c=>`<th>${inline(c)}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${cells(r).map(c=>`<td>${inline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`);table=null}};
+      for(const line of md.split('\n')){
+        if(/^\|/.test(line)){if(list)flush();(table??=[]).push(line);continue}
+        if(/^\s*[-*] /.test(line)||/^\d+\. /.test(line)){if(table)flush();(list??=[]).push(`<li>${inline(line.replace(/^\s*(?:[-*]|\d+\.) /,''))}</li>`);continue}
+        flush();
+        const h=line.match(/^(#{1,3}) (.*)$/);
+        if(h){const level=Math.min(4,h[1].length+1);out.push(`<h${level}>${inline(h[2])}</h${level}>`)}else if(line.trim())out.push(`<p>${inline(line)}</p>`);
+      }
+      flush();return out.join('');
+    }
+    let helpText='';
+    $('#helpToggle').onclick=async()=>{ $('#helpDialog').showModal(); if(!helpText){ try{ helpText=await fetch('how-it-works.md',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.text()}); $('#helpBody').innerHTML=markdownToHtml(helpText) }catch(e){ $('#helpBody').textContent='Không tải được tài liệu how-it-works.md.' } } };
+    $('#copyHelp').onclick=async()=>{const button=$('#copyHelp');try{await navigator.clipboard.writeText(helpText)}catch{const area=document.createElement('textarea');area.value=helpText;document.body.append(area);area.select();document.execCommand('copy');area.remove()}button.textContent='Đã chép ✓';setTimeout(()=>{button.textContent='Sao chép cho AI'},2000)};
     $('#prevPage').onclick=()=>{state.page--;renderFeedback()};$('#nextPage').onclick=()=>{state.page++;renderFeedback()};$('#exportCsv').onclick=exportCsv;
     $('#alertBadge').onclick=()=>{setTab('overview');document.querySelector('.voice-card.action').scrollIntoView({behavior:'smooth',block:'center'})};
     document.querySelectorAll('[data-tab]').forEach(button=>button.onclick=()=>setTab(button.dataset.tab));
-    document.querySelectorAll('[data-group],[data-scale]').forEach(button=>button.onclick=()=>{const key=button.dataset.group?'trendGroup':'trendScale',attr=button.dataset.group?'group':'scale';state[key]=button.dataset[attr];document.querySelectorAll(`[data-${attr}]`).forEach(b=>b.classList.toggle('active',b===button));if(state.selected.length)renderCharts()});
+    document.querySelectorAll('[data-group],[data-scale],[data-view]').forEach(button=>button.onclick=()=>{const attr=button.dataset.group?'group':button.dataset.scale?'scale':'view',key={group:'trendGroup',scale:'trendScale',view:'trendView'}[attr];state[key]=button.dataset[attr];document.querySelectorAll(`[data-${attr}]`).forEach(b=>b.classList.toggle('active',b===button));if(state.selected.length)renderCharts()});
     setTab(location.hash.slice(1)||'overview');
     addEventListener('hashchange',()=>setTab(location.hash.slice(1)));
     const savedTheme=(()=>{try{return localStorage.getItem('ptg-theme')}catch{return null}})();
