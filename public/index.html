@@ -514,6 +514,7 @@
     const selectedDates = () => state.selected.map(day=>day.date);
 
     function dateAdd(value,days){const d=new Date(`${value}T00:00:00Z`);d.setUTCDate(d.getUTCDate()+days);return d.toISOString().slice(0,10)}
+    function yesterdayInBangkok(now=new Date()){return dateAdd(new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit'}).format(now),-1)}
     function calendarDates(start,end){const dates=[];for(let day=start;day<=end;day=dateAdd(day,1))dates.push(day);return dates}
     function dateLabel(value){return new Date(`${value}T00:00:00Z`).toLocaleDateString('vi-VN',{day:'2-digit',month:'2-digit',year:'numeric',timeZone:'UTC'})}
     function shortDate(value){return `${value.slice(8,10)}/${value.slice(5,7)}`}
@@ -589,7 +590,7 @@
         const dates=[...state.index.dates].sort();if(!dates.length)throw new Error('index.json không có ngày dữ liệu');
         const latest=state.index.latest_with_data&&dates.includes(state.index.latest_with_data)?state.index.latest_with_data:dates.at(-1);
         const initialDate=dateAdd(latest,-1)>=dates[0]?dateAdd(latest,-1):latest,initialStart=dateAdd(latest,-6)>=dates[0]?dateAdd(latest,-6):dates[0];
-        for(const id of ['dayPicker','fromDate','toDate']){$(`#${id}`).min=dates[0];$(`#${id}`).max=dates.at(-1)}
+        for(const id of ['dayPicker','fromDate','toDate']){$(`#${id}`).min=dates[0];$(`#${id}`).max=[dates.at(-1),yesterdayInBangkok()].sort().at(-1)}
         $('#dayPicker').value=initialDate;$('#fromDate').value=initialStart;$('#toDate').value=latest;
         setMode('range');document.querySelectorAll('.preset').forEach(button=>button.classList.toggle('active',button.dataset.days==='7'));
         $('#updated').textContent=`Cập nhật lần cuối: ${new Date(state.index.last_updated).toLocaleString('vi-VN')}`;
@@ -851,6 +852,7 @@
     function renderNotes(items,undated){
       const machine=items.filter(i=>i.translation_method==='machine_translation').length,review=items.filter(i=>i.needs_review).length;
       $('#dataNotes').innerHTML=[
+        ...state.selected.filter(day=>day.collection_run?.summary_vn).map(day=>day.collection_run.summary_vn),
         'Phạm vi Facebook: trạng thái thu thập của từng group/fanpage xem ở tab Theo nguồn; bình luận chỉ gồm phần hiển thị sẵn dưới bài, không mở hết từng chuỗi bình luận.',
         'YouTube: chỉ video tiếng Thái; mỗi video của người chơi tính là 1 phản hồi, kèm bình luận của người xem. Video của kênh chính thức chỉ lấy bình luận. Bình luận cũ hơn vài tuần chỉ có ngày gần đúng (YouTube hiển thị "2 tuần trước").',
         'Facebook Group: tính cả bài đăng và bình luận (thảo luận, khoe, rao bán, trao đổi). Fanpage: chỉ tính bình luận của người dùng trên fanpage Thái Lan, không tính bài đăng chính thức.',
@@ -894,7 +896,7 @@
     const clearPresets=()=>document.querySelectorAll('.preset').forEach(button=>button.classList.remove('active'));
     document.querySelectorAll('[data-mode]').forEach(button=>button.onclick=async()=>{clearPresets();setMode(button.dataset.mode);await apply()});
     $('#dayPicker').onchange=async()=>{clearPresets();await apply()};$('#fromDate').onchange=clearPresets;$('#toDate').onchange=clearPresets;$('#applyRange').onclick=apply;
-    document.querySelectorAll('[data-days]').forEach(button=>button.onclick=async()=>{const latest=state.index.latest_with_data||state.index.dates.at(-1),end=button.dataset.days==='yesterday'?dateAdd(latest,-1):latest;document.querySelectorAll('.preset').forEach(x=>x.classList.toggle('active',x===button));if(button.dataset.days==='yesterday'){setMode('day');$('#dayPicker').value=end}else{setMode('range');$('#toDate').value=end;$('#fromDate').value=button.dataset.days==='month'?`${end.slice(0,7)}-01`:dateAdd(end,-Number(button.dataset.days)+1)}await apply()});
+    document.querySelectorAll('[data-days]').forEach(button=>button.onclick=async()=>{const latest=state.index.latest_with_data||state.index.dates.at(-1),end=button.dataset.days==='yesterday'?yesterdayInBangkok():latest;document.querySelectorAll('.preset').forEach(x=>x.classList.toggle('active',x===button));if(button.dataset.days==='yesterday'){setMode('day');$('#dayPicker').value=end}else{setMode('range');$('#toDate').value=end;$('#fromDate').value=button.dataset.days==='month'?`${end.slice(0,7)}-01`:dateAdd(end,-Number(button.dataset.days)+1)}await apply()});
     document.querySelectorAll('.filters select,.filters input').forEach(el=>el.addEventListener(el.type==='search'?'input':'change',()=>{state.page=1;renderFeedback()}));
     $('#includeUndated').onchange=()=>{state.page=1;setupFilters(explorerItems());renderFeedback()};
     $('#copyReport').onclick=copyReport;

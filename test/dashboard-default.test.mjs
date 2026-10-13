@@ -11,6 +11,19 @@ test("opens with the latest seven-day range selected", async () => {
   assert.match(html, /setMode\('range'\)/);
 });
 
+test("yesterday follows Bangkok calendar boundaries even when collection is delayed", async () => {
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  const dateAdd = html.match(/^    function dateAdd[^\n]+/m)?.[0];
+  const yesterday = html.match(/^    function yesterdayInBangkok[^\n]+/m)?.[0];
+  assert.ok(dateAdd && yesterday);
+  const getYesterday = new Function(`${dateAdd}\n${yesterday}\nreturn yesterdayInBangkok;`)();
+  assert.equal(getYesterday(new Date("2026-10-13T16:59:59Z")), "2026-10-12");
+  assert.equal(getYesterday(new Date("2026-10-13T17:00:00Z")), "2026-10-13");
+  assert.equal(getYesterday(new Date("2026-12-31T17:00:00Z")), "2026-12-31");
+  assert.match(html, /button\.dataset\.days==='yesterday'\?yesterdayInBangkok\(\):latest/);
+  assert.match(html, /\.max=\[dates\.at\(-1\),yesterdayInBangkok\(\)\]/);
+});
+
 test("keeps the selected period authoritative and separates uncertain dates", async () => {
   const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
   assert.match(html, /data-days="yesterday">Hôm qua/);

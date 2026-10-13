@@ -1,0 +1,138 @@
+{
+  "target_date": "2026-10-13",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-10-13T23:10:37.851Z",
+  "status": "partial",
+  "added_feedback": 0,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Kiểm tra sáng 14/10 cho ngày 13/10/2026: chưa có phản hồi mới đủ điều kiện nhập. Facebook chưa truy cập được; YouTube chỉ kiểm tra một phần, bình luận chưa tải; store/export không có dữ liệu mới truy cập được. Không xem đây là xác nhận các nguồn có 0 phản hồi.",
+  "existing_day": {
+    "archived": 56,
+    "dated": 42,
+    "observed_at": 14,
+    "by_source": {
+      "Facebook Group · 1772363333745643": 13,
+      "Facebook Group · playtogetherth": 25,
+      "Facebook Group · 815754622673816": 4
+    },
+    "by_sentiment": {
+      "Neutral": 32,
+      "Positive": 6,
+      "Negative": 4
+    },
+    "sentiment_percent": {
+      "Positive": 14.3,
+      "Negative": 9.5,
+      "Neutral": 76.2,
+      "Mixed": 0
+    },
+    "note": "Các số này là dữ liệu đã có trước lượt chạy, không phải phản hồi mới."
+  },
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "blocked",
+      "added_feedback": 0,
+      "existing_dated_feedback": 25,
+      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "blocked",
+      "added_feedback": 0,
+      "existing_dated_feedback": 4,
+      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "blocked",
+      "added_feedback": 0,
+      "existing_dated_feedback": 13,
+      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "blocked",
+      "added_feedback": 0,
+      "existing_dated_feedback": 0,
+      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới. Lần trước ghi nhận không hoạt động; chưa xác minh lại bài mới."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "blocked",
+      "added_feedback": 0,
+      "existing_dated_feedback": 0,
+      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới. Trạng thái chờ duyệt từ lần trước được giữ nguyên vì chưa xác minh được quyền thành viên."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "blocked",
+      "added_feedback": 0,
+      "existing_dated_feedback": 0,
+      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới. Trạng thái chờ duyệt từ lần trước được giữ nguyên vì chưa xác minh được quyền thành viên."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "blocked",
+      "added_feedback": 0,
+      "existing_dated_feedback": 0,
+      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới. Trạng thái chờ duyệt từ lần trước được giữ nguyên vì chưa xác minh được quyền thành viên."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "blocked",
+      "added_feedback": 0,
+      "existing_dated_feedback": 0,
+      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới. Trạng thái chờ duyệt từ lần trước được giữ nguyên vì chưa xác minh được quyền thành viên."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "blocked",
+      "added_feedback": 0,
+      "existing_dated_feedback": 0,
+      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới. Chỉ lấy bình luận fanpage Thái; không lấy bài chính thức hoặc fanpage global."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 0,
+      "existing_dated_feedback": 0,
+      "detail": "Đọc trang Videos và các tab Shorts/Live hiện có của 7 kênh creator trong dữ liệu; kiểm tra ngày xuất bản tuyệt đối của video liên quan. Chưa tìm được nội dung mới xác nhận thuộc 13/10/2026. Bình luận không tải nội dung trong 2 video đã mở; RSS 7 kênh trả HTTP 404/500. Chưa xác minh được kênh chính thức Play Together VNG TH từ tìm kiếm, không nhập bình luận kênh khác. Phạm vi chưa đầy đủ."
+    },
+    {
+      "key": "Google Play",
+      "status": "no_new_accessible_data",
+      "added_feedback": 0,
+      "existing_dated_feedback": 0,
+      "detail": "Export Sensor Tower Android mới nhất đến 11/10/2026, không có review ngày 13/10. Trang Google Play TH của com.vng.playtogether và com.haegin.playtogether không hiển thị review ngày cần thu thập; không có export mới hoàn tất. Không kết luận toàn bộ store có 0 review."
+    },
+    {
+      "key": "App Store",
+      "status": "no_new_accessible_data",
+      "added_feedback": 0,
+      "existing_dated_feedback": 0,
+      "detail": "Export Sensor Tower iOS mới nhất đến 25/06/2026, không có review ngày 13/10. RSS Thailand: Play Together VNG (1612175933) trả 50 review, mới nhất 10/10/2026; Global HAEGIN (1402384531) trả 0 entry. Không có review ngày 13/10 truy cập được; giữ hai app riêng."
+    }
+  ],
+  "ratings": {
+    "status": "no_new_export",
+    "added": 0,
+    "detail": "Rating Sensor Tower iOS export mới nhất 12/10/2026, Android mới nhất 05/10/2026; không có snapshot mới ngày 13/10. Giữ nguyên rating VNG và Global HAEGIN riêng biệt; rating không tính vào phản hồi."
+  },
+  "preservation": {
+    "before_items": 1555,
+    "after_items": 1555,
+    "added_ids": [],
+    "removed_ids": [],
+    "modified_existing_items": 0
+  },
+  "validation": {
+    "command": "workspace Node scripts/validate-data.mjs; workspace Node --test",
+    "status": "passed",
+    "daily_files": 196,
+    "themes": 14,
+    "tests_passed": 17,
+    "tests_failed": 0
+  }
+}

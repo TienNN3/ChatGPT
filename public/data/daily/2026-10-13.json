@@ -2216,9 +2216,17 @@
       "14 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
       "Fanpage chỉ giữ bình luận từ facebook.com/playtogetherthailandofficial; đã loại 12 bài fanpage và 15 bình luận không thuộc fanpage Thái.",
       "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
-      "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
+      "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review.",
+      "Kiểm tra sáng 14/10 cho ngày 13/10/2026: chưa có phản hồi mới đủ điều kiện nhập. Facebook chưa truy cập được; YouTube chỉ kiểm tra một phần, bình luận chưa tải; store/export không có dữ liệu mới truy cập được. Không xem đây là xác nhận các nguồn có 0 phản hồi."
     ]
   },
   "generated_at": "2026-10-13T14:49:11.712Z",
-  "data_mode": "production"
+  "data_mode": "production",
+  "collection_run": {
+    "checked_at": "2026-10-13T23:10:37.851Z",
+    "status": "partial",
+    "added_feedback": 0,
+    "report_path": "data/collection-runs/2026-10-13.json",
+    "summary_vn": "Kiểm tra sáng 14/10 cho ngày 13/10/2026: chưa có phản hồi mới đủ điều kiện nhập. Facebook chưa truy cập được; YouTube chỉ kiểm tra một phần, bình luận chưa tải; store/export không có dữ liệu mới truy cập được. Không xem đây là xác nhận các nguồn có 0 phản hồi."
+  }
 }
