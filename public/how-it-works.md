@@ -57,7 +57,7 @@ Mỗi mục có các trường:
 
 ## 5. Giao diện
 
-- **Tổng quan**: tóm tắt nhanh tự sinh + nút Sao chép báo cáo; KPI; Người chơi thích gì / chưa hài lòng / Cần xử lý; Diễn biến theo ngày (xem theo cảm xúc hoặc loại nội dung, gộp ngày/tuần, số lượng/%; bấm cột để mở danh sách ngày đó); Người chơi đang làm gì; Từ khoá được nhắc nhiều; Từ khoá theo ngày.
+- **Tổng quan** (chỉ số chính trên cùng, xu hướng ở giữa, chi tiết ở dưới): hàng 5 KPI (Tổng phản hồi, Tích cực %, Tiêu cực %, Cần xử lý = báo lỗi + crash/lag + tài khoản + phàn nàn, Điểm store VNG), mỗi thẻ có mức thay đổi và sparkline, bấm để đi tới chi tiết; 3 dòng nổi bật + tóm tắt đầy đủ thu gọn + nút Sao chép báo cáo; Diễn biến theo ngày (cảm xúc hoặc loại nội dung, ngày/tuần, số/%; bấm cột để mở danh sách ngày đó) và biểu đồ tròn tỷ lệ cảm xúc; Người chơi đang làm gì và Từ khoá được nhắc nhiều (thanh xếp hạng, màu là tỷ lệ cảm xúc); Người chơi thích gì / chưa hài lòng / Cần xử lý (dạng gọn, bấm để đọc); heatmap Từ khoá theo ngày (bấm ô để lọc đúng ngày + từ khoá). Chú thích chi tiết nằm trong biểu tượng ⓘ.
 - **Theo nguồn**: thẻ từng nguồn (số phản hồi, sparkline 30 ngày, từ khoá, trạng thái), danh sách nguồn chưa có dữ liệu, tỷ lệ cảm xúc theo nguồn, bảng theo nguồn và theo ngày.
 - **Đánh giá store**: điểm rating app VNG (tích lũy và lượt mới theo tuần), bảng theo app, review có nội dung trong kỳ, review lệch số sao/nội dung.
 - **Danh sách phản hồi**: mới nhất trước; lọc theo ngày, nguồn, cảm xúc, loại nội dung, từ khoá, tìm chữ; tải CSV.
