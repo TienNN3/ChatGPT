@@ -1,6 +1,6 @@
 {
   "date": "2026-03-02",
-  "generated_at": "2026-10-13T13:45:57.094+07:00",
+  "generated_at": "2026-10-13T15:02:49.963+07:00",
   "data_mode": "production",
   "metrics": {
     "volume": 1,
@@ -116,6 +116,38 @@
       "severity": null,
       "needs_review": false,
       "rating": 5
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together: Friends & Party",
+      "app_id": "com.haegin.playtogether",
+      "incremental_avg_rating": 3.9106,
+      "total_avg_rating": 4.3243,
+      "incremental_rating_count": 1.918899999999998,
+      "total_rating_count": 27737.5366,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "incremental_avg_rating": 4.2859,
+      "total_avg_rating": 4.2857,
+      "incremental_rating_count": 0.4495,
+      "total_rating_count": 227.1753,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together: Friends & Party",
+      "app_id": "1402384531",
+      "incremental_avg_rating": 4.9333,
+      "total_avg_rating": 4.3296,
+      "incremental_rating_count": 14,
+      "total_rating_count": 10815,
+      "source": "Sensor Tower"
     }
   ]
 }

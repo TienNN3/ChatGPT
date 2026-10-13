@@ -19,6 +19,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 5, 2026 at 10:48 AM",
       "engagement": {
@@ -44,6 +45,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 5, 2026 at 1:07 PM",
       "engagement": {
@@ -69,6 +71,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "post",
+      "activity_type": "Rao bán / trao đổi",
       "date_basis": "published_at",
       "published_label": "October 5 at 8:49 AM",
       "engagement": {
@@ -94,6 +97,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 5, 2026 at 9:35 AM",
       "engagement": {
@@ -192,6 +196,38 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T07:27:53.790Z",
-  "data_mode": "production"
+  "generated_at": "2026-10-13T15:02:49.963+07:00",
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together: Friends & Party",
+      "app_id": "com.haegin.playtogether",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.3475,
+      "incremental_rating_count": 1.9574999999999996,
+      "total_rating_count": 27863.4619,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "incremental_avg_rating": 2.6978,
+      "total_avg_rating": 4.6654,
+      "incremental_rating_count": 0.5028999999999999,
+      "total_rating_count": 254.3484,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "incremental_avg_rating": 3.7,
+      "total_avg_rating": 3.9741,
+      "incremental_rating_count": 20,
+      "total_rating_count": 386,
+      "source": "Sensor Tower"
+    }
+  ]
 }

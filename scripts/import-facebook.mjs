@@ -62,6 +62,16 @@ function fallbackVietnamese(kind, text) {
   return `Đã lưu nguyên văn ${kind === "comment" ? "bình luận" : "bài đăng"} Facebook; cần dịch và phân loại thủ công.`;
 }
 
+function activityType(raw, classification) {
+  const value = normalize(raw.text);
+  if (raw.kind === "comment") return "Bình luận";
+  if (raw.source === "Facebook Fanpage") return "Nội dung chính thức";
+  if (/(ขาย|ราคา|บาท|฿|รับฟาร์ม|รับขุด|บริการ|คิวว่าง|sell|sale|buy|trade|แลก|ผ่อน)/iu.test(value)) return "Rao bán / trao đổi";
+  if (/^\[(?:Image post|Post without accessible text)/i.test(raw.text) || /(ร่วมกิจกรรม|เข้าร่วมกิจกรรม|happy autumn|เริ่มหนาว|อวด|โชว์|น่ารัก|cute)/iu.test(value)) return "Khoe / tham gia hoạt động";
+  if (["Bug / Crash / Lag / Performance", "Login / Account / Data", "Topup & Payment"].includes(classification.topic)) return "Hỏi đáp / báo lỗi";
+  return "Thảo luận";
+}
+
 function buildReport(items, date, collection, importStats) {
   const positive = Map.groupBy(items.filter((item) => item.sentiment === "Positive"), (item) => item.theme);
   const pain = Map.groupBy(items.filter((item) => item.sentiment === "Negative" || item.sentiment === "Mixed"), (item) => item.theme);
@@ -125,7 +135,7 @@ for (const raw of staging.observations) {
     text_th: text, text_vn: previous?.text_vn || fallbackVietnamese(raw.kind, text), sentiment: previous?.sentiment || "Neutral",
     topic: previous?.topic || classification.topic, topic_secondary: previous?.topic_secondary || [], theme: previous?.theme || classification.theme,
     segment: previous?.segment || "unknown", severity: previous?.severity ?? null, confidence: previous?.confidence ?? 0.45,
-    needs_review: previous?.needs_review ?? true, content_kind: raw.kind, date_basis: dateInfo.date_basis, published_label: raw.timestamp || null,
+    needs_review: previous?.needs_review ?? true, content_kind: raw.kind, activity_type: activityType(raw, classification), date_basis: dateInfo.date_basis, published_label: raw.timestamp || null,
     engagement: { reactions: Array.isArray(raw.engagement?.reactions) ? raw.engagement.reactions : [], comment_count: raw.engagement?.comment_count ?? null },
     collected_at: staging.collection.collected_at, date: dateInfo.date
   });

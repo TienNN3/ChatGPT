@@ -52,6 +52,16 @@ npm run check
 
 Importer tạo ID ổn định, chuẩn hóa permalink, chống trùng theo permalink + nội dung + tác giả đã che + loại nội dung, gộp với review store theo ngày và cập nhật metrics/report/index. Mọi post/comment truy cập được đều được giữ lại, gồm bài khoe ảnh, rao bán và thảo luận chung; reaction và số comment được lưu trong `engagement`. Mục không có ngày đăng hiển thị được dùng ngày quan sát với `date_basis=observed_at`, không tự suy đoán ngày đăng.
 
+## Nhập rating Sensor Tower
+
+```bash
+node scripts/import-sensortower-ratings.mjs "/path/to/Rating TH Android.csv" "/path/to/Rating TH iOS.csv"
+```
+
+Rating được lưu thành snapshot riêng trong `ratings`, gồm cả app Global và VNG. Dashboard tính rating theo trọng số `Total Rating Count`; rating không làm tăng feedback volume và không tham gia NSS.
+
+Các biểu đồ theo ngày chỉ dùng mục có ngày đăng xác định. Mục Facebook chỉ biết ngày quan sát vẫn được giữ đầy đủ trong tổng lưu trữ và bảng khám phá, nhưng không được dùng để tạo spike volume hoặc tính NSS. NSS được tính bằng `(% tích cực - % tiêu cực)` trên toàn bộ mẫu sentiment đủ điều kiện, gồm cả Neutral/Mixed trong mẫu số; luôn đọc cùng cỡ mẫu `n`.
+
 ## Public bằng GitHub Pages
 
 URL preview công khai qua CDN bên thứ ba, không cần cấu hình hosting:

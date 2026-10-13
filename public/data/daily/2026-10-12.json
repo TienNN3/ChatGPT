@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "generated_at": "2026-10-13T07:27:53.790Z",
+  "generated_at": "2026-10-13T15:02:49.963+07:00",
   "data_mode": "production",
   "metrics": {
     "volume": 17,
@@ -113,6 +113,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "post",
+      "activity_type": "Nội dung chính thức",
       "date_basis": "published_at",
       "published_label": "23 hours ago",
       "engagement": {
@@ -141,6 +142,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 3:40 PM",
       "engagement": {
@@ -166,6 +168,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 11:37 PM",
       "engagement": {
@@ -191,6 +194,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 3:37 PM",
       "engagement": {
@@ -216,6 +220,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 11:54 PM",
       "engagement": {
@@ -241,6 +246,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 11:55 PM",
       "engagement": {
@@ -266,6 +272,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 3:39 PM",
       "engagement": {
@@ -291,6 +298,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 4:36 PM",
       "engagement": {
@@ -316,6 +324,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 3:48 PM",
       "engagement": {
@@ -341,6 +350,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 4:14 PM",
       "engagement": {
@@ -366,6 +376,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 10:13 PM",
       "engagement": {
@@ -391,6 +402,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 10:13 PM",
       "engagement": {
@@ -416,6 +428,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 8:38 PM",
       "engagement": {
@@ -441,6 +454,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 10:36 AM",
       "engagement": {
@@ -466,6 +480,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 2:40 PM",
       "engagement": {
@@ -491,6 +506,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, October 12, 2026 at 8:47 AM",
       "engagement": {
@@ -516,6 +532,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "post",
+      "activity_type": "Rao bán / trao đổi",
       "date_basis": "published_at",
       "published_label": "a day ago",
       "engagement": {
@@ -523,6 +540,18 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T14:30:00+07:00"
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "incremental_avg_rating": 4.3333,
+      "total_avg_rating": 3.9796,
+      "incremental_rating_count": 6,
+      "total_rating_count": 392,
+      "source": "Sensor Tower"
     }
   ]
 }

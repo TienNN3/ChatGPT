@@ -19,6 +19,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 1:09 PM",
       "engagement": {
@@ -44,6 +45,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "post",
+      "activity_type": "Hỏi đáp / báo lỗi",
       "date_basis": "published_at",
       "published_label": "2 days ago",
       "engagement": {
@@ -71,6 +73,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "post",
+      "activity_type": "Khoe / tham gia hoạt động",
       "date_basis": "published_at",
       "published_label": "2 days ago",
       "engagement": {
@@ -99,6 +102,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 5:40 PM",
       "engagement": {
@@ -124,6 +128,7 @@
       "confidence": 0.96,
       "needs_review": false,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 9:04 PM",
       "engagement": {
@@ -149,6 +154,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 9:32 AM",
       "engagement": {
@@ -174,6 +180,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 5:30 PM",
       "engagement": {
@@ -199,6 +206,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 5:56 PM",
       "engagement": {
@@ -224,6 +232,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 12:17 AM",
       "engagement": {
@@ -249,6 +258,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 4:27 PM",
       "engagement": {
@@ -274,6 +284,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 3:21 PM",
       "engagement": {
@@ -299,6 +310,7 @@
       "confidence": 0.74,
       "needs_review": false,
       "content_kind": "post",
+      "activity_type": "Thảo luận",
       "date_basis": "published_at",
       "published_label": "2 days ago",
       "engagement": {
@@ -326,6 +338,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 2:31 PM",
       "engagement": {
@@ -351,6 +364,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 3:19 PM",
       "engagement": {
@@ -378,6 +392,7 @@
       "confidence": 0.88,
       "needs_review": false,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 12:01 PM",
       "engagement": {
@@ -403,6 +418,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 11:14 AM",
       "engagement": {
@@ -428,6 +444,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 7:03 AM",
       "engagement": {
@@ -453,6 +470,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Sunday, October 11, 2026 at 11:50 AM",
       "engagement": {
@@ -596,6 +614,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T07:27:53.790Z",
+  "generated_at": "2026-10-13T08:02:49.783Z",
   "data_mode": "production"
 }

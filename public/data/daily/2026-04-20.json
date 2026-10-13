@@ -218,6 +218,38 @@
       "Facebook group, fanpage và CS chưa có trong lần backfill này."
     ]
   },
-  "generated_at": "2026-10-13T13:45:57.094+07:00",
-  "data_mode": "production"
+  "generated_at": "2026-10-13T15:02:49.963+07:00",
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together: Friends & Party",
+      "app_id": "com.haegin.playtogether",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.3459,
+      "incremental_rating_count": 2.2924000000000007,
+      "total_rating_count": 27763.396500000003,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "incremental_avg_rating": 4.375,
+      "total_avg_rating": 4.375,
+      "incremental_rating_count": 0.3,
+      "total_rating_count": 231.4514,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together: Friends & Party",
+      "app_id": "1402384531",
+      "incremental_avg_rating": 4.5417,
+      "total_avg_rating": 4.3318,
+      "incremental_rating_count": 23,
+      "total_rating_count": 10960,
+      "source": "Sensor Tower"
+    }
+  ]
 }

@@ -1,0 +1,93 @@
+{
+  "date": "2026-06-22",
+  "items": [],
+  "alerts": [],
+  "metrics": {
+    "volume": 0,
+    "noise": 0,
+    "by_source": {},
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 0,
+      "Mixed": 0
+    },
+    "by_topic": {},
+    "by_segment": {},
+    "nss": 0,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 0
+    }
+  },
+  "report": {
+    "overview": "Không có feedback trong ngày 2026-06-22; có 3 snapshot rating Sensor Tower.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Rating là snapshot tổng tích lũy từ Sensor Tower, không được tính vào feedback volume hoặc NSS."
+    ]
+  },
+  "generated_at": "2026-10-13T15:02:49.963+07:00",
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together: Friends & Party",
+      "app_id": "com.haegin.playtogether",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.3538,
+      "incremental_rating_count": 2.9620000000000033,
+      "total_rating_count": 27801.0272,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "incremental_avg_rating": 4.1819,
+      "total_avg_rating": 4.1818,
+      "incremental_rating_count": 1.0931000000000002,
+      "total_rating_count": 238.84430000000003,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together: Friends & Party",
+      "app_id": "1402384531",
+      "incremental_avg_rating": 4.9474,
+      "total_avg_rating": 4.3353,
+      "incremental_rating_count": 19,
+      "total_rating_count": 11110,
+      "source": "Sensor Tower"
+    }
+  ]
+}

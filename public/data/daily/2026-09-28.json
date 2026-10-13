@@ -19,6 +19,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, September 28, 2026 at 4:48 PM",
       "engagement": {
@@ -44,6 +45,7 @@
       "confidence": 0.45,
       "needs_review": true,
       "content_kind": "comment",
+      "activity_type": "Bình luận",
       "date_basis": "published_at",
       "published_label": "Monday, September 28, 2026 at 4:13 PM",
       "engagement": {
@@ -141,6 +143,38 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T07:27:53.790Z",
-  "data_mode": "production"
+  "generated_at": "2026-10-13T15:02:49.963+07:00",
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together: Friends & Party",
+      "app_id": "com.haegin.playtogether",
+      "incremental_avg_rating": 2.2586,
+      "total_avg_rating": 4.3469,
+      "incremental_rating_count": 1.390899999999995,
+      "total_rating_count": 27861.5042,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "incremental_avg_rating": 4.7039,
+      "total_avg_rating": 4.6566,
+      "incremental_rating_count": 0.9097000000000008,
+      "total_rating_count": 253.84539999999998,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "incremental_avg_rating": 3.4444,
+      "total_avg_rating": 3.9891,
+      "incremental_rating_count": 27,
+      "total_rating_count": 366,
+      "source": "Sensor Tower"
+    }
+  ]
 }
