@@ -27,12 +27,10 @@ Không ghi đè file ngày cũ trừ khi chủ động chạy lại đúng ngày
 
 Phiên bản hiện tại là chế độ mock. Trước khi chạy production cần bổ sung collector đã được cấp quyền cho Google Play Developer API, App Store Connect, Meta Graph API và nguồn CS/export. Các collector phải chỉ đọc, tiếp tục khi một nguồn lỗi, ghi lỗi vào `data_health`, khử trùng lặp, lọc noise và loại bỏ PII trước khi ghi file public.
 
-## Firebase Hosting
+## Public bằng GitHub Pages
 
-```bash
-cp .firebaserc.example .firebaserc
-# Thay YOUR_FIREBASE_PROJECT_ID bằng project ID thật
-npm run deploy -- --project YOUR_FIREBASE_PROJECT_ID
-```
+Mỗi lần có commit mới trên nhánh `main`, workflow `.github/workflows/pages.yml` sẽ chạy validation và test rồi publish thư mục `public`.
 
-Lệnh deploy luôn chạy validation trước. `firebase.json` đặt `Cache-Control: no-cache` cho `/data/**`.
+URL công khai: `https://tiennn3.github.io/ChatGPT/`
+
+Có thể chạy workflow thủ công từ tab Actions. GitHub Pages không cần Firebase project hay credential riêng trong repository.

@@ -9,10 +9,7 @@
     "validate": "node scripts/validate-data.mjs",
     "test": "node --test",
     "serve": "node scripts/serve.mjs",
-    "deploy": "npm run validate && XDG_CONFIG_HOME=.firebase-config firebase deploy --only hosting"
-  },
-  "devDependencies": {
-    "firebase-tools": "15.33.0"
+    "check": "npm run validate && npm test"
   },
   "engines": {
     "node": ">=22"
