@@ -3653,32 +3653,93 @@
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
       "translation_method": "machine_translation"
+    },
+    {
+      "id": "youtube-9ac825f3e0cf883a",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=2Az3GOiNMJw&lc=UgyEHfyTzlDFw2IfSGN4AaABAg",
+      "author_masked": "K***",
+      "text_th": "น่ารักมาก ต้องซื้อเลย",
+      "text_vn": "Dễ thương quá, phải mua ngay.",
+      "translation_method": "machine_translation",
+      "sentiment": "Positive",
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "date_basis": "published_at",
+      "published_label": "3 weeks ago",
+      "date_precision": "approximate",
+      "engagement": {
+        "views": null,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": "Play together : [Review] VVIP PASS ซีซั่นกระต่ายหมู่บ้านกาแล๊คซี่"
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
+    },
+    {
+      "id": "youtube-70342e00d088a524",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=2Az3GOiNMJw&lc=UgzonLMOpzPO-I_p5lh4AaABAg",
+      "author_masked": "เ***",
+      "text_th": "พี่เอาสีผิวมาแต่ไหนอ่ะ",
+      "text_vn": "Chị lấy màu da này ở đâu vậy?",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "date_basis": "published_at",
+      "published_label": "3 weeks ago",
+      "date_precision": "approximate",
+      "engagement": {
+        "views": null,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": "Play together : [Review] VVIP PASS ซีซั่นกระต่ายหมู่บ้านกาแล๊คซี่"
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 129,
+    "volume": 131,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 129
+      "Facebook Group": 129,
+      "YouTube": 2
     },
     "by_sentiment": {
-      "Positive": 6,
-      "Neutral": 117,
+      "Positive": 9,
+      "Neutral": 116,
       "Negative": 5,
       "Mixed": 1
     },
     "by_topic": {
-      "Gacha / Shop / Pricing": 13,
+      "Gacha / Shop / Pricing": 14,
       "Other": 99,
       "Bug / Crash / Lag / Performance": 4,
       "Event & Update content": 2,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 9,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 10,
       "Login / Account / Data": 2
     },
     "by_segment": {
-      "unknown": 129
+      "unknown": 131
     },
-    "nss": 0.8,
+    "nss": 3.1,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

@@ -579,30 +579,61 @@
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
       "translation_method": "machine_translation"
+    },
+    {
+      "id": "youtube-6dc71770732a4291",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=2Az3GOiNMJw",
+      "author_masked": "T***",
+      "text_th": "Play together : [Review] VVIP PASS ซีซั่นกระต่ายหมู่บ้านกาแล๊คซี่✓สวยมากๆ#Playtogether#Playtogether",
+      "text_vn": "Play Together: [Review] VVIP Pass mùa Thỏ làng Galaxy ✓ Rất đẹp",
+      "translation_method": "machine_translation",
+      "sentiment": "Positive",
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 100990,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 19,
+    "volume": 20,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 19
+      "Facebook Group": 19,
+      "YouTube": 1
     },
     "by_sentiment": {
-      "Positive": 2,
+      "Positive": 3,
       "Neutral": 16,
       "Negative": 1,
       "Mixed": 0
     },
     "by_topic": {
       "Other": 12,
-      "Gacha / Shop / Pricing": 4,
+      "Gacha / Shop / Pricing": 5,
       "Bug / Crash / Lag / Performance": 1,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2
     },
     "by_segment": {
-      "unknown": 19
+      "unknown": 20
     },
-    "nss": 5.3,
+    "nss": 10,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

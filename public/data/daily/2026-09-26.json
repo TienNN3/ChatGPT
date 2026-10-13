@@ -731,17 +731,48 @@
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
       "translation_method": "machine_translation"
+    },
+    {
+      "id": "youtube-c20d893f35ca14a4",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=EuBzTDbkAlM",
+      "author_masked": "F***",
+      "text_th": "【🔴Play Together】ตกปลา เก็บแมลง",
+      "text_vn": "[Livestream Play Together] Câu cá, bắt côn trùng",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 160,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 24,
+    "volume": 25,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 24
+      "Facebook Group": 24,
+      "YouTube": 1
     },
     "by_sentiment": {
       "Positive": 1,
-      "Neutral": 20,
+      "Neutral": 21,
       "Negative": 3,
       "Mixed": 0
     },
@@ -749,14 +780,14 @@
       "Gacha / Shop / Pricing": 4,
       "Other": 12,
       "Bug / Crash / Lag / Performance": 2,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 3,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 4,
       "Event & Update content": 1,
       "Login / Account / Data": 2
     },
     "by_segment": {
-      "unknown": 24
+      "unknown": 25
     },
-    "nss": -8.3,
+    "nss": -8,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

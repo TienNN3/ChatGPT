@@ -1861,32 +1861,123 @@
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
       "translation_method": "machine_translation"
+    },
+    {
+      "id": "youtube-42242482525bf2cc",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=zkq3AQSMwbE",
+      "author_masked": "N***",
+      "text_th": "กิจกรรมใหม่ Play together [โค้ดใต้คอมเม้น]",
+      "text_vn": "Sự kiện mới của Play Together [code ở phần bình luận]",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 14,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
+    },
+    {
+      "id": "youtube-f354b2cd724a7417",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=tgh1X8ZrUPc",
+      "author_masked": "P***",
+      "text_th": "สุ่มกล่องโกลด์เดนเชนส์ Play Together",
+      "text_vn": "Quay hộp Golden Chain trong Play Together",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 3,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
+    },
+    {
+      "id": "youtube-143256226849f7c0",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=h0OBCB2TdwY",
+      "author_masked": "T***",
+      "text_th": "Play Together : อัพเดท 2.32.0 อีเว้นท์คาวบอย✓เจ้าผักวายร้าย✓รางวัลเยอะมากๆ#playtogether#playtogether",
+      "text_vn": "Play Together: cập nhật 2.32.0, sự kiện cao bồi ✓ Rau củ phản diện ✓ Rất nhiều phần thưởng",
+      "translation_method": "machine_translation",
+      "sentiment": "Positive",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 728,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 62,
+    "volume": 65,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 62
+      "Facebook Group": 62,
+      "YouTube": 3
     },
     "by_sentiment": {
-      "Positive": 6,
-      "Neutral": 50,
+      "Positive": 7,
+      "Neutral": 52,
       "Negative": 6,
       "Mixed": 0
     },
     "by_topic": {
       "Other": 43,
-      "Gacha / Shop / Pricing": 5,
+      "Gacha / Shop / Pricing": 6,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 4,
-      "Event & Update content": 3,
+      "Event & Update content": 5,
       "Bug / Crash / Lag / Performance": 3,
       "Login / Account / Data": 4
     },
     "by_segment": {
-      "unknown": 62
+      "unknown": 65
     },
-    "nss": 0,
+    "nss": 1.5,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

@@ -1131,16 +1131,47 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00"
+    },
+    {
+      "id": "youtube-2f66c9bad0d6d7f6",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=BotfqtQhZKI",
+      "author_masked": "T***",
+      "text_th": "Play Together : กิจกรรมมินิเกมส์(อาชญากรรมแห่งแครอท)✓วัวกระทิง✓เท่สุดๆเลย#playtogether#playtogether",
+      "text_vn": "Play Together: sự kiện minigame (Tội ác của cà rốt) ✓ Bò tót ✓ Ngầu cực kỳ",
+      "translation_method": "machine_translation",
+      "sentiment": "Positive",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 4830,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 39,
+    "volume": 40,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 39
+      "Facebook Group": 39,
+      "YouTube": 1
     },
     "by_sentiment": {
-      "Positive": 4,
+      "Positive": 5,
       "Neutral": 34,
       "Negative": 1,
       "Mixed": 0
@@ -1149,14 +1180,14 @@
       "Other": 25,
       "Gacha / Shop / Pricing": 8,
       "Bug / Crash / Lag / Performance": 1,
-      "Event & Update content": 2,
+      "Event & Update content": 3,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2,
       "Login / Account / Data": 1
     },
     "by_segment": {
-      "unknown": 39
+      "unknown": 40
     },
-    "nss": 7.7,
+    "nss": 10,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

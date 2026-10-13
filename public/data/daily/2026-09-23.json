@@ -270,16 +270,47 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00"
+    },
+    {
+      "id": "youtube-04357320eb5b2fc6",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=w1QQloSO6GQ",
+      "author_masked": "T***",
+      "text_th": "Play Together : กิจกรรมมินิเกมส์(สะสมดวงดาววิบวับ)✓กระต่ายน้อย✓น่ารักมาก#playtogether#playtogether",
+      "text_vn": "Play Together: sự kiện minigame (Sưu tầm sao lấp lánh) ✓ Thỏ nhỏ ✓ Rất dễ thương",
+      "translation_method": "machine_translation",
+      "sentiment": "Positive",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 75,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 9,
+    "volume": 10,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 9
+      "Facebook Group": 9,
+      "YouTube": 1
     },
     "by_sentiment": {
-      "Positive": 0,
+      "Positive": 1,
       "Neutral": 9,
       "Negative": 0,
       "Mixed": 0
@@ -287,12 +318,12 @@
     "by_topic": {
       "Gacha / Shop / Pricing": 1,
       "Other": 7,
-      "Event & Update content": 1
+      "Event & Update content": 2
     },
     "by_segment": {
-      "unknown": 9
+      "unknown": 10
     },
-    "nss": 0,
+    "nss": 10,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

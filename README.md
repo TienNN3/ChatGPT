@@ -73,6 +73,17 @@ Phạm vi fanpage được giới hạn ở **comment** trên `facebook.com/play
 
 Script dịch thay các câu trạng thái `cần dịch` bằng tiếng Việt để Feedback Explorer luôn ưu tiên nội dung người vận hành đọc được. Bản dịch máy được đánh dấu bằng `translation_method=machine_translation`; bài chỉ có hình được ghi rõ là không có chữ để dịch.
 
+## Nhập YouTube
+
+Tìm video theo tên game và từ khoá tiếng Thái (vùng TH, lọc 30 ngày), chỉ giữ video có chữ Thái. Mỗi video của người chơi tính là 1 phản hồi; bình luận của người xem được tính riêng. Video của kênh chính thức chỉ lấy bình luận. Bỏ bình luận của chủ kênh và bình luận chỉ có link/lời chào. Tên kênh và tác giả được che.
+
+```bash
+node scripts/import-youtube.mjs .staging/youtube-YYYY-MM-DD.json
+npm run check
+```
+
+Importer chỉ thêm hoặc cập nhật mục `source=YouTube` theo id và không đụng tới Facebook, store hay rating. Bình luận cũ hơn vài tuần chỉ có ngày gần đúng (`date_precision=approximate`) vì YouTube chỉ hiển thị "2 tuần trước".
+
 ## Nhập rating Sensor Tower
 
 ```bash

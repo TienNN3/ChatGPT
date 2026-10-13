@@ -510,17 +510,48 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00"
+    },
+    {
+      "id": "youtube-3dc64b37a4892d0d",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=L5voM76TL6s",
+      "author_masked": "M***",
+      "text_th": "【🔴Play Together】กะแต่วหัดเป็นชาวฮาร์ทโทเปี่ยน🤔✨ | Mellowlop",
+      "text_vn": "[Livestream Play Together] Kataew tập làm cư dân Heartopia 🤔✨",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 153,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 17,
+    "volume": 18,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 17
+      "Facebook Group": 17,
+      "YouTube": 1
     },
     "by_sentiment": {
       "Positive": 1,
-      "Neutral": 14,
+      "Neutral": 15,
       "Negative": 2,
       "Mixed": 0
     },
@@ -528,13 +559,13 @@
       "Gacha / Shop / Pricing": 2,
       "Other": 11,
       "Event & Update content": 2,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2,
       "Login / Account / Data": 1
     },
     "by_segment": {
-      "unknown": 17
+      "unknown": 18
     },
-    "nss": -5.9,
+    "nss": -5.6,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

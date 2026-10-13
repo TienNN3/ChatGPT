@@ -205,28 +205,91 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00"
+    },
+    {
+      "id": "youtube-3ae4034b7ff63c48",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=MzfVL5HVw60&lc=Ugx8S2rGij1ntjiZovx4AaABAg",
+      "author_masked": "ผ***",
+      "text_th": "ขอร้องเล่นขโมยไข่หน่อยพี่",
+      "text_vn": "Anh ơi, làm ơn làm video chơi minigame trộm trứng đi.",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "date_basis": "published_at",
+      "published_label": "1 month ago",
+      "date_precision": "approximate",
+      "engagement": {
+        "views": null,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": "วิธีย้ายขอมูลจาก Play Together ไป Play Together VNG"
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
+    },
+    {
+      "id": "youtube-024700a045ec033d",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=5cnyJpCPTVA&lc=UgwKTFDZGC01Ls86k254AaABAg",
+      "author_masked": "ก***",
+      "text_th": "พึ่งกลับมาเล่นเเล้วลบเกมส์ออกด้วยทำไงดั",
+      "text_vn": "Mình mới quay lại chơi nhưng đã lỡ xoá game, giờ phải làm sao đây?",
+      "translation_method": "machine_translation",
+      "sentiment": "Negative",
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "date_basis": "published_at",
+      "published_label": "1 month ago",
+      "date_precision": "approximate",
+      "engagement": {
+        "views": null,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": "📘 โอนย้ายบัญชีไปยัง PLAY TOGETHER VNG ง่าย ๆ เพียง 6 ขั้นตอน!"
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 7,
+    "volume": 9,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 7
+      "Facebook Group": 7,
+      "YouTube": 2
     },
     "by_sentiment": {
       "Positive": 1,
-      "Neutral": 6,
-      "Negative": 0,
+      "Neutral": 7,
+      "Negative": 1,
       "Mixed": 0
     },
     "by_topic": {
       "Gacha / Shop / Pricing": 6,
-      "Other": 1
+      "Other": 1,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1,
+      "Login / Account / Data": 1
     },
     "by_segment": {
-      "unknown": 7
+      "unknown": 9
     },
-    "nss": 14.3,
+    "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

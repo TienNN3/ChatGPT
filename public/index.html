@@ -177,7 +177,7 @@
     .up-chip { background:var(--positive-soft); color:var(--positive); } .down-chip { background:var(--negative-soft); color:var(--negative); }
     .neutral-chip { background:var(--surface-3); color:var(--muted); }
     .status-chip { align-self:flex-start; font-size:11px; font-weight:600; padding:2px 8px; border-radius:999px; background:var(--surface-3); color:var(--muted); }
-    .status-full { background:var(--positive-soft); color:var(--positive); } .status-partial { background:var(--mixed-soft); color:var(--mixed); } .status-store { background:var(--brand-soft); color:var(--brand); }
+    .status-full,.status-youtube { background:var(--positive-soft); color:var(--positive); } .status-partial { background:var(--mixed-soft); color:var(--mixed); } .status-store { background:var(--brand-soft); color:var(--brand); }
     .source-card.no-data { opacity:.72; border-top-color:var(--line); box-shadow:none; }
     .muted-note { font-size:11px !important; }
     .coverage-note { margin:0 4px 12px; font-size:13px; color:var(--muted); }
@@ -371,7 +371,7 @@
     const timelineItems = day => (day.items||[]).filter(i=>i.date_basis!=='observed_at');
     const sentimentLabel = value => ({Positive:'Tích cực',Negative:'Tiêu cực',Neutral:'Trung tính',Mixed:'Đan xen'}[value]||value);
     const isStore = item => STORES.includes(item.source);
-    const contentKindLabel = value => ({post:'Bài đăng',comment:'Bình luận',review:'Đánh giá store'}[value]||value||'Phản hồi');
+    const contentKindLabel = value => ({post:'Bài đăng',comment:'Bình luận',review:'Đánh giá store',video:'Video YouTube'}[value]||value||'Phản hồi');
     const kindLabel = item => isStore(item) ? 'Đánh giá store' : contentKindLabel(item.content_kind);
     const activityLabel = item => item.activity_type || kindLabel(item);
     const channelName = item => item.community||item.source||'Chưa xác định';
@@ -591,17 +591,17 @@
       $('#topicChips').innerHTML=rows.map(([theme,count])=>{const s=bySentiment(items.filter(i=>i.theme===theme)),top=['Positive','Negative','Mixed'].sort((a,b)=>s[b]-s[a])[0],lead=s.Neutral>=count/2||!s[top]?'neutral':top.toLowerCase();return`<button class="chip ${lead}" data-filter-theme="${esc(theme)}" title="${SENTIMENTS.map(k=>`${sentimentLabel(k)} ${s[k]}`).join(' · ')}">${esc(themeLabel(theme))} <span>${count}</span></button>`}).join('')||'<p class="empty-note">Chưa có chủ đề trong kỳ.</p>';
       document.querySelectorAll('[data-filter-theme]').forEach(button=>button.onclick=()=>focusExplorer({themeFilter:button.dataset.filterTheme}));
     }
-    function sourceKind(name,items){if(STORES.includes(name))return'Store · đánh giá';if(/^Facebook Fanpage/.test(name))return'Fanpage · bình luận người dùng';const posts=items.filter(i=>i.content_kind==='post').length;return`Group · ${posts} bài đăng, ${items.length-posts} bình luận`}
+    function sourceKind(name,items){if(STORES.includes(name))return'Store · đánh giá';if(name==='YouTube'){const v=items.filter(i=>i.content_kind==='video').length;return`YouTube · ${v} video, ${items.length-v} bình luận`}if(/^Facebook Fanpage/.test(name))return'Fanpage · bình luận người dùng';const posts=items.filter(i=>i.content_kind==='post').length;return`Group · ${posts} bài đăng, ${items.length-posts} bình luận`}
     function spark(values,color){const max=Math.max(1,...values),step=values.length>1?100/(values.length-1):0,points=values.map((v,i)=>`${(i*step).toFixed(1)},${(30-v/max*26-2).toFixed(1)}`).join(' ');return`<svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="${points}" fill="none" stroke="${color}" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>`}
     function renderSourceCards(items,previous){
       const undated=rawSelectedItems().filter(i=>i.date_basis==='observed_at');
-      const order={full:0,partial:1,store:2,inactive:3,not_collected:4,pending:5};
+      const order={full:0,partial:1,youtube:1.5,store:2,inactive:3,not_collected:4,pending:5};
       const idleStatus=st=>st==='pending'||st==='not_collected'||st==='inactive';
       const extra=[...new Set([...items,...previous].map(channelName))].filter(n=>!rosterEntry(n)).map(key=>({key,status:'partial'}));
       const entries=[...roster(),...extra].map(r=>({...r,count:items.filter(i=>channelName(i)===r.key).length})).sort((a,b)=>(order[a.status]??9)-(order[b.status]??9)||b.count-a.count);
       const statusText=k=>state.sources?.statuses?.[k]||k;
       const collected=entries.filter(e=>e.status==='full'||e.status==='partial'),waiting=entries.filter(e=>idleStatus(e.status));
-      $('#sourceCoverage').innerHTML=roster().length?`Đang theo dõi <strong>${entries.filter(e=>e.type!=='store').length}</strong> nguồn Facebook và <strong>${entries.filter(e=>e.type==='store').length}</strong> store · ${entries.filter(e=>e.status==='full').length} group đủ 30 ngày, ${entries.filter(e=>e.status==='partial').length?`${entries.filter(e=>e.status==='partial').length} group thu thập một phần, `:''}${waiting.length} nguồn chưa có dữ liệu (chờ duyệt, chưa thu thập hoặc không có bài mới) · kỳ này có phản hồi từ <strong>${entries.filter(e=>e.count).length}</strong> nguồn.`:'';
+      $('#sourceCoverage').innerHTML=roster().length?`Đang theo dõi <strong>${entries.filter(e=>e.type==='group'||e.type==='fanpage').length}</strong> nguồn Facebook, <strong>${entries.filter(e=>e.type==='youtube').length}</strong> nguồn YouTube và <strong>${entries.filter(e=>e.type==='store').length}</strong> store · ${entries.filter(e=>e.status==='full').length} group đủ 30 ngày, ${entries.filter(e=>e.status==='partial').length?`${entries.filter(e=>e.status==='partial').length} group thu thập một phần, `:''}${waiting.length} nguồn chưa có dữ liệu (chờ duyệt, chưa thu thập hoặc không có bài mới) · kỳ này có phản hồi từ <strong>${entries.filter(e=>e.count).length}</strong> nguồn.`:'';
       const pending=entries.filter(e=>idleStatus(e.status)&&!e.count);
       $('#sourcePending').hidden=!pending.length;
       $('#sourcePending').innerHTML=`<div class="card-head"><h2>Nguồn chưa có dữ liệu</h2><p>Đang theo dõi nhưng không có phản hồi để đưa vào số liệu</p></div>`+pending.map(e=>`<div class="pending-row"><span class="status-chip status-${esc(e.status)}">${esc(statusText(e.status))}</span><span><strong>${esc(sourceLabel(e.key))}</strong><br><span class="muted small">${esc(e.detail||'')}</span></span>${e.url?`<a class="small" href="${esc(e.url)}" target="_blank" rel="noopener">Mở ↗</a>`:'<span></span>'}</div>`).join('');
@@ -680,6 +680,7 @@
       const machine=items.filter(i=>i.translation_method==='machine_translation').length,review=items.filter(i=>i.needs_review).length;
       $('#dataNotes').innerHTML=[
         'Phạm vi Facebook: trạng thái thu thập của từng group/fanpage xem ở tab Theo nguồn; bình luận chỉ gồm phần hiển thị sẵn dưới bài, không mở hết từng chuỗi bình luận.',
+        'YouTube: chỉ video tiếng Thái; mỗi video của người chơi tính là 1 phản hồi, kèm bình luận của người xem. Video của kênh chính thức chỉ lấy bình luận. Bình luận cũ hơn vài tuần chỉ có ngày gần đúng (YouTube hiển thị "2 tuần trước").',
         'Facebook Group: tính cả bài đăng và bình luận (thảo luận, khoe, rao bán, trao đổi). Fanpage: chỉ tính bình luận của người dùng trên fanpage Thái Lan, không tính bài đăng chính thức.',
         `Nội dung chưa rõ ngày đăng được tách riêng, không cộng vào số liệu theo ngày${undated?` (kỳ này: ${fmt.format(undated)})`:''}.`,
         `Trong kỳ có ${fmt.format(machine)} phản hồi dùng bản dịch tự động và ${fmt.format(review)} phản hồi được đánh dấu cần rà soát lại phân loại.`,

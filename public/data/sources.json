@@ -7,7 +7,8 @@
     "pending": "Chờ duyệt thành viên",
     "not_collected": "Chưa thu thập",
     "store": "Review Sensor Tower",
-    "inactive": "Không có bài mới"
+    "inactive": "Không có bài mới",
+    "youtube": "Tìm kiếm 30 ngày"
   },
   "sources": [
     {
@@ -81,6 +82,14 @@
       "status": "not_collected",
       "detail": "Chỉ tính bình luận của người dùng; chưa có lần thu thập",
       "url": "https://www.facebook.com/playtogetherthailandofficial"
+    },
+    {
+      "key": "YouTube",
+      "name": "YouTube (video và bình luận tiếng Thái)",
+      "type": "youtube",
+      "status": "youtube",
+      "detail": "Tìm theo tên game và từ khoá tiếng Thái (vùng TH), 13/09 – 13/10/2026. Mỗi video của người chơi tính là 1 phản hồi, kèm bình luận của người xem; video của kênh chính thức chỉ lấy bình luận.",
+      "url": "https://www.youtube.com/results?search_query=play+together+%E0%B9%84%E0%B8%97%E0%B8%A2"
     },
     {
       "key": "Google Play",

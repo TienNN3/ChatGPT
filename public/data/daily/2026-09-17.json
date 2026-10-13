@@ -1070,17 +1070,78 @@
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
       "translation_method": "machine_translation"
+    },
+    {
+      "id": "youtube-64b625871b87d666",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=6OyDr3CmiDI",
+      "author_masked": "T***",
+      "text_th": "Play Together : อัพเดท 2.31.0(New event)✓ดวงจันทร์✓ปลา/แมลงใหม่✓รางวัลเยอะ#playtogether#playtogether",
+      "text_vn": "Play Together: cập nhật 2.31.0 (sự kiện mới) ✓ Mặt trăng ✓ Cá và côn trùng mới ✓ Nhiều phần thưởng",
+      "translation_method": "machine_translation",
+      "sentiment": "Positive",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 1172,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
+    },
+    {
+      "id": "youtube-f531d0d2d02f548e",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=LN5TQ_aS0jA",
+      "author_masked": "W***",
+      "text_th": "《Play Together》: อัพเดตใหม่ 2.31.1 อาณาจักรกระต่ายดวงจันทร์ #playtogether #playtogethervng",
+      "text_vn": "Play Together: cập nhật mới 2.31.1, Vương quốc thỏ mặt trăng",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 64,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": null
+      },
+      "collected_at": "2026-10-13T22:30:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 35,
+    "volume": 37,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 35
+      "Facebook Group": 35,
+      "YouTube": 2
     },
     "by_sentiment": {
-      "Positive": 3,
-      "Neutral": 30,
+      "Positive": 7,
+      "Neutral": 28,
       "Negative": 2,
       "Mixed": 0
     },
@@ -1088,13 +1149,13 @@
       "Gacha / Shop / Pricing": 3,
       "Bug / Crash / Lag / Performance": 1,
       "Other": 25,
-      "Event & Update content": 4,
+      "Event & Update content": 6,
       "Login / Account / Data": 2
     },
     "by_segment": {
-      "unknown": 35
+      "unknown": 37
     },
-    "nss": 2.9,
+    "nss": 13.5,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
