@@ -45,12 +45,12 @@ Importer Android gộp dữ liệu với iOS theo ngày. Cột tiếng Việt l�
 
 URL preview công khai qua CDN bên thứ ba, không cần cấu hình hosting:
 
-`https://raw.githack.com/TienNN3/ChatGPT/main/public/index.html`
+`https://raw.githack.com/TienNN3/PTGTHPlayerSentiment/main/public/index.html`
 
 URL preview này tiện để xem ngay nhưng không có cam kết vận hành. Nên dùng GitHub Pages bên dưới làm URL chính thức.
 
 Để dùng URL GitHub Pages ổn định, chủ repository cần bật một lần tại **Settings > Pages > Build and deployment > Source: GitHub Actions**. Sau đó, mỗi commit mới trên nhánh `main` sẽ chạy validation và test rồi publish thư mục `public`.
 
-URL công khai: `https://tiennn3.github.io/ChatGPT/`
+URL công khai: `https://tiennn3.github.io/PTGTHPlayerSentiment/`
 
 Có thể chạy lại workflow thủ công từ tab Actions sau khi bật Pages. GitHub Pages không cần Firebase project hay credential riêng trong repository.
