@@ -1,19 +1,172 @@
 {
   "date": "2026-09-14",
-  "items": [],
+  "items": [
+    {
+      "id": "facebook-2b0619b888a18595",
+      "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
+      "link": "https://www.facebook.com/groups/815754622673816/posts/2128976904684908/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "M***",
+      "text_th": "ผลไม้ มีทุกชนิด ทุกสถานะ[ขาย] โสม (มีทุกสถานะ) [ขาย] เงินสวน เหรียญฟาร์ม [ขาย] เมล็ดพันธุ์ (เฉพาะที่ซื้อด้วยเพชร) [ขาย] เปลี่ยนสภาพอากาศ [ขาย] การ์ด ดาวละ 1฿.- [ขาย] ของขวัญในเมส [รับ] กระโดดหอคอย ถ้วยละ 1฿.- รับชำระทั้งธนาคารและวอเลต ตรวจสอบเครดิตได้ที่หน้าโปรไฟล์น้าา",
+      "text_vn": "Tất cả các loại trái cây, mọi trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, tiền xu trang trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết [Bán] Thẻ, 1฿.- mỗi sao [Bán] Quà tặng trong tình trạng lộn xộn [Chấp nhận] Nhảy tháp, 1฿.- mỗi cốc, chấp nhận cả thanh toán qua ngân hàng và ví. Kiểm tra tín dụng của bạn trên trang hồ sơ của bạn.",
+      "sentiment": "Neutral",
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Rao bán / trao đổi",
+      "date_basis": "published_at",
+      "published_label": "September 14, 2026 at 10:42 AM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-5e0a34958990f027",
+      "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
+      "link": "https://www.facebook.com/groups/815754622673816/posts/2128891081360157/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "C***",
+      "text_th": "โสมธรรมดา 11 ต้น  ชุดละ100บาทโสมน้ำค้าง โสมแสงจันทร์ โสมออโรร่า ต้นละ25บาทโสมทราย โสมแห้งแล้ง โสมลม ต้นละ20บาทโสมเปียกชื้น โสมไฟฟ้าช็อต ต้นละ18บาทสนใจทักได้นะครับ",
+      "text_vn": "Nhân sâm thông thường, 11 cây, 100 baht một bộ, sâm sương, sâm ánh trăng, nhân sâm cực quang, mỗi loại 25 baht, sâm cát, sâm khô, sâm gió, mỗi loại 20 baht, sâm ướt, sâm điện giật, mỗi loại 18 baht. Nếu quan tâm, bạn có thể nói chuyện với chúng tôi.",
+      "sentiment": "Negative",
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.68,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Rao bán / trao đổi",
+      "date_basis": "published_at",
+      "published_label": "September 14, 2026 at 8:13 AM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-33da220c1c73430e",
+      "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
+      "link": "https://www.facebook.com/groups/815754622673816/posts/2128699711379294/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "T***",
+      "text_th": "บริการกดสภาพอากาศ ของขวัญ และเมล็ด Play together สภาพอากาศทุกอัน 10 บาท เมล็ดราคาตามภาพ ยอดนิยมเมล็ดที่ใช้ทองไม่สามารถกิฟได้นะครับ อาจจะมีการปรับราคาเล็กน้อยโปรดติดตามโพสต์ล่าสุดของอุ๋งๆเลย แอดแล้วทักได้เลย รับทั้งวอเล็ต และ ธนาคาร สต็อกมีเพิ่มเรื่อยๆ สอบถามแพ็คเพิ่มเติมได้เลยอุ๋งๆ",
+      "text_vn": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
+      "sentiment": "Mixed",
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.68,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Rao bán / trao đổi",
+      "date_basis": "published_at",
+      "published_label": "September 14, 2026 at 1:50 AM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-8e7cfd1655b404f7",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28213648731579606/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "ช***",
+      "text_th": "สถานที่สุดพิเศษนี่คือที่ไหนหรอคะ",
+      "text_vn": "Nơi đặc biệt này là ở đâu?",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 14, 2026 at 7:03 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 4 people"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-3e9b9b0e987f007c",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28213565808254565/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "W***",
+      "text_th": "ขอลอกคำตอบใครได้บ้างงง",
+      "text_vn": "Tôi có thể sao chép câu trả lời của ai?",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 14, 2026 at 6:53 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 3 people"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    }
+  ],
   "alerts": [],
   "metrics": {
-    "volume": 0,
+    "volume": 5,
     "noise": 0,
-    "by_source": {},
+    "by_source": {
+      "Facebook Group": 5
+    },
     "by_sentiment": {
       "Positive": 0,
-      "Neutral": 0,
+      "Neutral": 5,
       "Negative": 0,
       "Mixed": 0
     },
-    "by_topic": {},
-    "by_segment": {},
+    "by_topic": {
+      "Gacha / Shop / Pricing": 2,
+      "Bug / Crash / Lag / Performance": 1,
+      "Other": 2
+    },
+    "by_segment": {
+      "unknown": 5
+    },
     "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
@@ -25,7 +178,7 @@
     }
   },
   "report": {
-    "overview": "Không có feedback trong ngày 2026-09-14; có 3 snapshot rating Sensor Tower.",
+    "overview": "Có 5 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
     "bright_spots": [],
     "pain_points": [],
     "segments": {
@@ -47,16 +200,45 @@
       }
     },
     "next_actions": {
-      "new": [],
-      "midgame": [],
-      "veteran": [],
-      "payer": []
+      "new": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
     },
     "data_health": [
-      "Rating là snapshot tổng tích lũy từ Sensor Tower, không được tính vào feedback volume hoặc NSS."
+      "Facebook ngày 2026-09-14: 5 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
+      "Lần thu thập 2026-10-13T18:01:15.030+07:00: 1150 quan sát duy nhất (634 post, 516 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 464 post có reaction metadata.",
+      "31 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Fanpage chỉ giữ bình luận từ facebook.com/playtogetherthailandofficial; đã loại 12 bài fanpage và 15 bình luận không thuộc fanpage Thái.",
+      "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
+      "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T15:38:00.185+07:00",
+  "generated_at": "2026-10-13T11:01:43.420Z",
   "data_mode": "production",
   "ratings": [
     {

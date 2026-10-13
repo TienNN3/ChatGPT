@@ -437,7 +437,7 @@
       return{avg:count?rows.reduce((sum,r)=>sum+r.incremental_avg_rating*weight(r),0)/count:(rows.length?rows.at(-1).incremental_avg_rating:null),count,fallback,dates:rows.map(r=>r.date)};
     }
     // Kỳ trước quá ít dữ liệu thì so sánh bằng số tuyệt đối để tránh phần trăm gây hiểu nhầm.
-    function changeText(current,previous){if(!previous)return current?'Kỳ trước không ghi nhận phản hồi':'Không thay đổi so với kỳ trước';if(previous<10)return current===previous?'Không đổi so với kỳ trước':`${current>previous?'Tăng':'Giảm'} từ ${previous} phản hồi ở kỳ trước`;const delta=Math.round((current-previous)/previous*100);return`${delta>0?'Tăng':delta<0?'Giảm':'Không đổi'} ${Math.abs(delta)}% so với kỳ trước`}
+    function changeText(current,previous){if(!previous)return current?'Kỳ trước không ghi nhận phản hồi':'Không thay đổi so với kỳ trước';if(previous<10)return current===previous?'Không đổi so với kỳ trước':`${current>previous?'Tăng':'Giảm'} từ ${previous} phản hồi ở kỳ trước`;const delta=Math.round((current-previous)/previous*100),uneven=current>=previous*5||previous>=current*5;return`${delta>0?'Tăng':delta<0?'Giảm':'Không đổi'} ${Math.abs(delta)}% so với kỳ trước${uneven?' (chênh lệch lớn, có thể do phạm vi thu thập khác nhau)':''}`}
     function diffBadge(current,previous){const d=current-previous;if(!d)return'<span class="muted">không đổi so với kỳ trước</span>';return`<span class="${d>0?'up':'down'}">${d>0?'▲':'▼'} ${Math.abs(d)}</span> <span class="muted">so với kỳ trước (${previous})</span>`}
     async function fetchJson(path){const response=await fetch(path,{cache:'no-store'});if(!response.ok)throw new Error(`${path}: HTTP ${response.status}`);return response.json()}
     function fetchDay(date){if(!cache.has(date))cache.set(date,fetchJson(`data/daily/${date}.json`).catch(error=>{cache.delete(date);throw error}));return cache.get(date)}
@@ -666,6 +666,7 @@
     function renderNotes(items,undated){
       const machine=items.filter(i=>i.translation_method==='machine_translation').length,review=items.filter(i=>i.needs_review).length;
       $('#dataNotes').innerHTML=[
+        'Phạm vi Facebook: dữ liệu 30 ngày gần nhất được thu thập từ các group đã là thành viên (VNG Community, ตลาดนัดซื้อขาย); bình luận chỉ gồm phần hiển thị sẵn dưới bài. Các group riêng tư đang chờ admin duyệt chưa có dữ liệu.',
         'Facebook Group: tính cả bài đăng và bình luận (thảo luận, khoe, rao bán, trao đổi). Fanpage: chỉ tính bình luận của người dùng trên fanpage Thái Lan, không tính bài đăng chính thức.',
         `Nội dung chưa rõ ngày đăng được tách riêng, không cộng vào số liệu theo ngày${undated?` (kỳ này: ${fmt.format(undated)})`:''}.`,
         `Trong kỳ có ${fmt.format(machine)} phản hồi dùng bản dịch tự động và ${fmt.format(review)} phản hồi được đánh dấu cần rà soát lại phân loại.`,

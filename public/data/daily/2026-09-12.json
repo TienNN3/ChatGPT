@@ -1,6 +1,15 @@
 {
   "date": "2026-09-12",
-  "alerts": [],
+  "alerts": [
+    {
+      "level": "P1",
+      "title": "Không nhận vật phẩm sau thanh toán",
+      "detail": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "links": [
+        "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+      ]
+    }
+  ],
   "items": [
     {
       "id": "android-5cc92a48331e96a6",
@@ -19,29 +28,89 @@
       "needs_review": true,
       "rating": 5,
       "translation_status": "summary_only"
+    },
+    {
+      "id": "facebook-aede22e2ce884fcd",
+      "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
+      "link": "https://www.facebook.com/groups/815754622673816/posts/2127701048145827/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "T***",
+      "text_th": "บริการกดสภาพอากาศ ของขวัญ และเมล็ด Play together สภาพอากาศทุกอัน 10 บาท เมล็ดราคาตามภาพ ยอดนิยมเมล็ดที่ใช้ทองไม่สามารถกิฟได้นะครับ อาจจะมีการปรับราคาเล็กน้อยโปรดติดตามโพสต์ล่าสุดของอุ๋งๆเลย แอดแล้วทักได้เลย รับทั้งวอเล็ต และ ธนาคาร สต็อกมีเพิ่มเรื่อยๆ สอบถามแพ็คเพิ่มเติมได้เลยอุ๋งๆ",
+      "text_vn": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
+      "sentiment": "Mixed",
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.68,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Rao bán / trao đổi",
+      "date_basis": "published_at",
+      "published_label": "September 12, 2026",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-2f0c759370aebe27",
+      "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
+      "link": "https://www.facebook.com/groups/815754622673816/posts/2127191514863447/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "C***",
+      "text_th": "โสมธรรมดา 11 ต้น  ชุดละ100บาทโสมน้ำค้าง โสมแสงจันทร์ โสมออโรร่า ต้นละ25บาทโสมทราย โสมแห้งแล้ง โสมลม ต้นละ20บาทโสมเปียกชื้น โสมไฟฟ้าช็อต ต้นละ18บาทสนใจทักได้นะครับ",
+      "text_vn": "Nhân sâm thông thường, 11 cây, 100 baht một bộ, sâm sương, sâm ánh trăng, nhân sâm cực quang, mỗi loại 25 baht, sâm cát, sâm khô, sâm gió, mỗi loại 20 baht, sâm ướt, sâm điện giật, mỗi loại 18 baht. Nếu quan tâm, bạn có thể nói chuyện với chúng tôi.",
+      "sentiment": "Negative",
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.68,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Rao bán / trao đổi",
+      "date_basis": "published_at",
+      "published_label": "September 12, 2026",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
     }
   ],
   "metrics": {
-    "volume": 1,
+    "volume": 3,
     "noise": 0,
     "by_source": {
-      "Google Play": 1
+      "Google Play": 1,
+      "Facebook Group": 2
     },
     "by_sentiment": {
       "Positive": 0,
-      "Neutral": 0,
+      "Neutral": 2,
       "Negative": 1,
       "Mixed": 0
     },
     "by_topic": {
-      "Topup & Payment": 1
+      "Topup & Payment": 1,
+      "Gacha / Shop / Pricing": 1,
+      "Bug / Crash / Lag / Performance": 1
     },
     "by_segment": {
-      "payer": 1
+      "payer": 1,
+      "unknown": 2
     },
-    "nss": -100,
+    "nss": -33.3,
     "nss_d1": null,
-    "nss_7d_avg": 100,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 5,
       "ios_avg": null,
@@ -50,13 +119,13 @@
     }
   },
   "report": {
-    "overview": "Có 1 review store và NSS -100. Dữ liệu gồm Google Play.",
+    "overview": "Có 3 feedback trong ngày từ Google Play, Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
     "bright_spots": [],
     "pain_points": [
       {
         "issue": "Không nhận vật phẩm sau thanh toán",
         "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
-        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng hoặc cản trở tiếp tục chơi.",
         "count": 1,
         "severity": "P1",
         "quotes": [
@@ -91,40 +160,42 @@
     "next_actions": {
       "new": [
         {
-          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "midgame": [
         {
-          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "veteran": [
         {
-          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "payer": [
         {
-          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "task": "Đối chiếu permalink và review các mục chưa dịch/phân loại trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ]
     },
     "data_health": [
-      "Sensor Tower Android TH: đã nhập 1 review đã che tên cho ngày này.",
-      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
-      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
-      "Facebook group, fanpage và CS chưa có trong lần backfill này."
+      "Facebook ngày 2026-09-12: 2 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
+      "Lần thu thập 2026-10-13T18:01:15.030+07:00: 1150 quan sát duy nhất (634 post, 516 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 464 post có reaction metadata.",
+      "31 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Fanpage chỉ giữ bình luận từ facebook.com/playtogetherthailandofficial; đã loại 12 bài fanpage và 15 bình luận không thuộc fanpage Thái.",
+      "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
+      "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T13:45:57.094+07:00",
+  "generated_at": "2026-10-13T11:01:43.420Z",
   "data_mode": "production"
 }

@@ -28,7 +28,7 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T14:30:00+07:00"
+      "collected_at": "2026-10-13T18:01:15.030+07:00"
     },
     {
       "id": "facebook-a402835e6c626375",
@@ -56,29 +56,485 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T14:30:00+07:00"
+      "collected_at": "2026-10-13T18:01:15.030+07:00"
+    },
+    {
+      "id": "facebook-46e5a047132280d5",
+      "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
+      "link": "https://www.facebook.com/groups/815754622673816/posts/2140160246899907/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "น***",
+      "text_th": "หาโสมครับ",
+      "text_vn": "Tìm mua nhân sâm",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 12:39 AM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-a37d35bb13559a7e",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28391958497081961/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "A***",
+      "text_th": "ช่วงนี้ใครเจอโปรเก็บการ์ดบ่อยเหมือนเรามั้ยคะ ไม่ค่อยเจอการ์ดที่ตกพื้นเลยค่ะ",
+      "text_vn": "Dạo này có ai gặp hack nhặt thẻ thường xuyên như mình không? Hầu như không thấy thẻ rơi trên đất luôn",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 10:56 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 3 people"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-90c01a59a67ca704",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28390013530609791/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "P***",
+      "text_th": "เมล็ดพันธุ์ฤดูใบไม้ร่วงใหม่",
+      "text_vn": "Hạt giống mùa thu mới",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 7:15 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 12 people",
+          "Love: 3 people"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-eb15418f7166d2a2",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28389796173964860/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "เ***",
+      "text_th": "เริ่ดดด",
+      "text_vn": "Đỉnh quááá",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 6:50 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 9 people",
+          "Haha: 5 people",
+          "Angry: 2 people"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-8aba95120971cd51",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28389437867334024/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "S***",
+      "text_th": "ขออนุญาตสอบถามนะคะ หน้าอันนี้หาจากไหนคะ",
+      "text_vn": "Cho mình hỏi, khuôn mặt này kiếm ở đâu ạ?",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 6:16 PM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-ea13d38bb5b69a14",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28389159027361908/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "O***",
+      "text_th": "ทรงผมนี้จากแพ็คไหนครับเพี่ยน ๆ",
+      "text_vn": "Kiểu tóc này từ gói nào vậy mọi người?",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 5:29 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 2 people"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-12d09eac59cabcb2",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28388968904047587/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "N***",
+      "text_th": "สอบถามค่ะ ทรงผม ผญ ในรูปนี้มาจากแพ็คไหนคะ",
+      "text_vn": "Cho hỏi, kiểu tóc nữ trong ảnh này từ gói nào ạ?",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 5:04 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 6 people",
+          "Care: 1 person"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-3f40adea4560c96a",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28388571984087279/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "P***",
+      "text_th": "Coming SoonEvent Giant Vegetable",
+      "text_vn": "Sắp ra mắt: Sự kiện Rau Củ Khổng Lồ",
+      "sentiment": "Neutral",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 4:10 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 22 people",
+          "Love: 2 people"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-a2c60f67f46fe813",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28387320867545724/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "A***",
+      "text_th": "ตกปลามาเนิ่นนานไม่เคยตกได้ปลายักษ์กับเขาเลย วันนี้ถึงวันของเราแล้วว",
+      "text_vn": "Câu cá bao lâu chưa từng câu được cá khổng lồ như người ta, hôm nay cuối cùng cũng tới lượt mình rồi",
+      "sentiment": "Neutral",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 1:30 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 2 people",
+          "Love: 1 person"
+        ],
+        "comment_count": "3"
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-bf51ed582ba400a3",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28387230004221477/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "A***",
+      "text_th": "ขึ้นแบบนี้ทำยังไงคะ เข้าตัวvng ไม่ได้แต่พอเข้ามาในเกมเดิมมันขึ้นให้รับเพชร 300",
+      "text_vn": "Hiện thế này thì làm sao ạ? Vào bản VNG không được, nhưng vào game cũ thì hiện nhận 300 kim cương",
+      "sentiment": "Negative",
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.68,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Hỏi đáp / báo lỗi",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 1:30 PM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": "300"
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-25d6a6c2c1c983a5",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28386737670937377/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "A***",
+      "text_th": "มินิมี มีหน้าตากี่แบบหรอคะ",
+      "text_vn": "Mini-me có mấy kiểu ngoại hình vậy ạ?",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 1:02 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 3 people"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-4651b5657c754101",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28386847530926391/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "A***",
+      "text_th": "ก่อนหน้านี้ย้ายประเทศไปยุโรป พอกลับมาเอเชียทำไมเจอแค่ English Town กับ Global Town คับ อยากทราบ Siam Town หายไปไหน NPC จากพูดไทย เปลี่ยนเป็นพูด อังกฤษ หมดเลย .. (ผมเล่นใน steam )ก่อนหน้านี้ย้ายประเทศไปยุโรป พอกลับมาเอเชียทำไมเจอแค่ English Town กับ Global Town คับ อยากทราบ Siam Town หายไปไหน NPC จากพูดไทย เปลี่ยนเป็นพูด อังกฤษ หมดเลย .. (ผมเล่นใน steam )",
+      "text_vn": "Trước đó mình đổi quốc gia sang châu Âu, khi quay lại châu Á sao chỉ thấy English Town và Global Town? Siam Town biến đâu mất rồi? NPC từ nói tiếng Thái chuyển hết sang tiếng Anh... (mình chơi trên Steam)",
+      "sentiment": "Negative",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.68,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 1:02 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 3 people"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-06ee5c6fe5bf28f7",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28386882507589560/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "A***",
+      "text_th": "ครบรอบ3ปีระบบแจ้งว่าได้รับรถยนต์1คันตอนแปดโมงเช้ารถอยุ่ไหน55555สงสัยมากไม่มีในข้อความ",
+      "text_vn": "Kỷ niệm 3 năm, hệ thống báo nhận được 1 chiếc ô tô lúc 8 giờ sáng, xe đâu haha, thắc mắc ghê, không có trong hộp thư",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 1:01 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 6 people"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-9883bc239de96297",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28387053394239138/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "P***",
+      "text_th": "Images of the new vegetable monsters from the Giant Vegetables event",
+      "text_vn": "Hình ảnh các quái vật rau củ mới trong sự kiện Rau Củ Khổng Lồ",
+      "sentiment": "Neutral",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 12:46 PM",
+      "engagement": {
+        "reactions": [
+          "Like: 4 people",
+          "Love: 1 person"
+        ],
+        "comment_count": "5"
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
+    },
+    {
+      "id": "facebook-64ff66fd665a15c1",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28386565174287960/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "P***",
+      "text_th": "กล่องสุ่มใหม่",
+      "text_vn": "Hộp gacha mới",
+      "sentiment": "Neutral",
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.6,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "September 27, 2026 at 11:40 AM",
+      "engagement": {
+        "reactions": [
+          "Like: 15 people",
+          "Wow: 2 people",
+          "Love: 1 person"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T18:01:15.030+07:00",
+      "translation_method": "machine_translation"
     }
   ],
   "metrics": {
-    "volume": 2,
+    "volume": 17,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 2
+      "Facebook Group": 17
     },
     "by_sentiment": {
       "Positive": 1,
-      "Neutral": 1,
+      "Neutral": 16,
       "Negative": 0,
       "Mixed": 0
     },
     "by_topic": {
-      "Gacha / Shop / Pricing": 1,
-      "Other": 1
+      "Gacha / Shop / Pricing": 2,
+      "Other": 11,
+      "Event & Update content": 2,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1,
+      "Login / Account / Data": 1
     },
     "by_segment": {
-      "unknown": 2
+      "unknown": 17
     },
-    "nss": 50,
+    "nss": 5.9,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
@@ -89,7 +545,7 @@
     }
   },
   "report": {
-    "overview": "Có 2 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
+    "overview": "Có 17 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
     "bright_spots": [
       {
         "title": "Góp ý trải nghiệm chung",
@@ -151,14 +607,14 @@
       ]
     },
     "data_health": [
-      "Facebook ngày 2026-09-27: 2 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
-      "Lần thu thập 2026-10-13T14:30:00+07:00: 206 quan sát duy nhất (116 post, 90 comment), gồm 41 bài chỉ có hình/không có chữ truy cập được và 59 post có reaction metadata.",
-      "93 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Facebook ngày 2026-09-27: 17 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
+      "Lần thu thập 2026-10-13T18:01:15.030+07:00: 1150 quan sát duy nhất (634 post, 516 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 464 post có reaction metadata.",
+      "31 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
       "Fanpage chỉ giữ bình luận từ facebook.com/playtogetherthailandofficial; đã loại 12 bài fanpage và 15 bình luận không thuộc fanpage Thái.",
       "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
       "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:37:59.960Z",
+  "generated_at": "2026-10-13T11:01:43.420Z",
   "data_mode": "production"
 }
