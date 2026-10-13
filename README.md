@@ -25,7 +25,7 @@ Quy tắc hiển thị:
 - Nội dung `date_basis=observed_at` (chưa rõ ngày đăng) không được cộng vào thống kê; chỉ xem được trong danh sách khi bật tùy chọn.
 - Bài *Rao bán / trao đổi* vẫn được đếm đầy đủ nhưng không dùng để xếp hạng chủ đề thích / chưa hài lòng.
 - Khi kỳ trước có dưới 10 phản hồi, so sánh bằng số tuyệt đối thay vì phần trăm.
-- Tên group hiển thị lấy từ `COMMUNITY_NAMES` trong `public/index.html`; tên chủ đề trung tính lấy từ `THEME_NAMES`. Dữ liệu gốc không đổi. Group mới chưa có tên sẽ hiện ID.
+- Danh sách nguồn theo dõi, tên hiển thị và trạng thái thu thập (`full`, `partial`, `pending`, `not_collected`, `store`) nằm trong `public/data/sources.json`. Tab Theo nguồn luôn hiện đủ các nguồn này, kể cả nguồn chưa có dữ liệu, để phân biệt "0 phản hồi" với "chưa thu thập". Khi thu thập thêm group, cập nhật trạng thái ở file này. Tên chủ đề trung tính lấy từ `THEME_NAMES` trong `public/index.html`. Dữ liệu gốc không đổi; nguồn chưa có trong danh sách sẽ hiện ID.
 - Cột tiếng Việt của review store hiện là tóm tắt phân loại, không phải bản dịch; giao diện hiển thị nguyên văn kèm nhãn "Tóm tắt".
 
 ## Cấu trúc dữ liệu

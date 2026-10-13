@@ -175,6 +175,14 @@
     .source-card .sub { font-size:12px; color:var(--muted); }
     .delta-chip { font-size:11px; font-weight:600; padding:2px 7px; border-radius:7px; letter-spacing:0; }
     .up-chip { background:var(--positive-soft); color:var(--positive); } .down-chip { background:var(--negative-soft); color:var(--negative); }
+    .neutral-chip { background:var(--surface-3); color:var(--muted); }
+    .status-chip { align-self:flex-start; font-size:11px; font-weight:600; padding:2px 8px; border-radius:999px; background:var(--surface-3); color:var(--muted); }
+    .status-full { background:var(--positive-soft); color:var(--positive); } .status-partial { background:var(--mixed-soft); color:var(--mixed); } .status-store { background:var(--brand-soft); color:var(--brand); }
+    .source-card.no-data { opacity:.72; border-top-color:var(--line); box-shadow:none; }
+    .muted-note { font-size:11px !important; }
+    .coverage-note { margin:0 4px 12px; font-size:13px; color:var(--muted); }
+    .pending-list { margin-bottom:16px; } .pending-row { display:grid; grid-template-columns:150px minmax(0,1fr) auto; gap:12px; align-items:center; padding:9px 0; border-top:1px solid var(--line); font-size:13px; }
+    @media(max-width:760px) { .pending-row { grid-template-columns:1fr; gap:4px; } }
     .pos-text { color:var(--positive); } .neg-text { color:var(--negative); }
     .spark { width:100%; height:30px; margin:4px 0; }
     .mix-list { display:grid; gap:10px; }
@@ -295,7 +303,9 @@
 
     <!-- TAB 2: Theo nguồn — mỗi group/fanpage/store có bao nhiêu phản hồi và cảm xúc ra sao -->
     <div class="tab-panel" data-panel="sources" hidden>
+      <p id="sourceCoverage" class="coverage-note"></p>
       <section id="sourceCards" class="source-cards"></section>
+      <section id="sourcePending" class="card pending-list" hidden></section>
       <section class="grid">
         <article class="card span-12"><div class="card-head"><h2>Tỷ lệ cảm xúc theo nguồn</h2><p>So sánh nhanh nguồn nào tích cực hơn, nguồn nào có nhiều phản hồi tiêu cực</p></div><div id="sourceMix" class="mix-list"></div><div class="legend" style="margin-top:10px"><span><i class="dot positive-bg"></i>Tích cực</span><span><i class="dot negative-bg"></i>Tiêu cực</span><span><i class="dot mixed-bg"></i>Đan xen</span><span><i class="dot neutral-bg"></i>Trung tính</span></div></article>
         <article class="card span-12"><div class="card-head"><h2>Phản hồi theo nguồn</h2><p>Mỗi group, fanpage và store đóng góp bao nhiêu phản hồi · bấm tên nguồn để lọc danh sách</p></div>
@@ -365,19 +375,10 @@
     const kindLabel = item => isStore(item) ? 'Đánh giá store' : contentKindLabel(item.content_kind);
     const activityLabel = item => item.activity_type || kindLabel(item);
     const channelName = item => item.community||item.source||'Chưa xác định';
-    // Tên hiển thị của group/fanpage (lấy từ tiêu đề trang Facebook); dữ liệu gốc vẫn giữ ID trong trường community.
-    const COMMUNITY_NAMES = {
-      'Facebook Group · playtogetherth':'Play Together VNG : THAILAND Community',
-      'Facebook Group · 1772363333745643':'Play Together VNG Thailand Official (group)',
-      'Facebook Group · 815754622673816':'Play Together : THAILAND ตลาดนัดซื้อขาย (chợ mua bán)',
-      'Facebook Group · 562362538882428':"GOI : Let's Play Together 🇹🇭 (tìm phòng, tìm bạn chơi)",
-      'Facebook Group · 3252260471541104':'Play Together TH พูดคุย/ซื้อขาย-แลกเปลี่ยน (thảo luận, mua bán)',
-      'Facebook Group · 356675609124267':'PLAY TOGETHER THAILAND : แลกเปลี่ยน ซื้อขาย (trao đổi, mua bán)',
-      'Facebook Group · 473704433937505':'ซื้อ-ขาย Play Together TH (mua bán)',
-      'Facebook Group · 847315523442353':'Play Together แลกเปลี่ยนข้อมูล - ซื้อขายต่างๆ (trao đổi, mua bán)',
-      'Facebook Fanpage · @playtogetherthailandofficial':'Fanpage Play Together Thailand Official'
-    };
-    const sourceLabel = name => COMMUNITY_NAMES[name] || String(name).replace(/^Facebook Group · /,'Group ').replace(/^Facebook Fanpage · /,'Fanpage ');
+    // Danh sách nguồn được theo dõi (public/data/sources.json): tên hiển thị và trạng thái thu thập; dữ liệu gốc vẫn giữ ID trong trường community.
+    const roster = () => state.sources?.sources || [];
+    const rosterEntry = name => roster().find(r=>r.key===name);
+    const sourceLabel = name => rosterEntry(name)?.name || String(name).replace(/^Facebook Group · /,'Group ').replace(/^Facebook Fanpage · /,'Fanpage ');
     // Bài rao bán/trao đổi vẫn được đếm đầy đủ nhưng không phải ý kiến về game, nên không dùng để xếp hạng "thích / chưa hài lòng".
     const isOpinion = item => item.activity_type!=='Rao bán / trao đổi';
     // Một số tên chủ đề trong dữ liệu mang sẵn sắc thái (vd. "Tương tác xã hội tiêu cực") trong khi phản hồi có thể là khen.
@@ -473,7 +474,7 @@
     }
     async function init(){
       try{
-        [state.index,state.briefing]=await Promise.all([fetchJson('data/index.json'),fetchJson('data/facebook-insights.json').catch(()=>null)]);
+        [state.index,state.briefing,state.sources]=await Promise.all([fetchJson('data/index.json'),fetchJson('data/facebook-insights.json').catch(()=>null),fetchJson('data/sources.json').catch(()=>null)]);
         const dates=[...state.index.dates].sort();if(!dates.length)throw new Error('index.json không có ngày dữ liệu');
         const latest=state.index.latest_with_data&&dates.includes(state.index.latest_with_data)?state.index.latest_with_data:dates.at(-1);
         const initialDate=dateAdd(latest,-1)>=dates[0]?dateAdd(latest,-1):latest,initialStart=dateAdd(latest,-6)>=dates[0]?dateAdd(latest,-6):dates[0];
@@ -509,6 +510,7 @@
         lines.push(topPos?`Người chơi phản hồi tốt nhất về <strong>${esc(themeLabel(topPos[0]))}</strong> (${topPos[1]} phản hồi).`:'Chưa có chủ đề tích cực nổi bật.');
         lines.push(topNeg?`Điểm cần chú ý nhất: <strong>${esc(themeLabel(topNeg[0]))}</strong> (${topNeg[1]} phản hồi tiêu cực).`:'Không ghi nhận phản hồi tiêu cực.');
         if(topActivity)lines.push(`Hoạt động nhiều nhất trong cộng đồng: <strong>${esc(topActivity[0])}</strong> (${topActivity[1]}); nguồn nhiều phản hồi nhất là ${esc(sourceLabel(topSource[0]))} (${topSource[1]}).`);
+        if(roster().length){const active=new Set(items.map(channelName)),idle=roster().filter(r=>!active.has(r.key));lines.push(`Phạm vi nguồn: kỳ này có phản hồi từ ${active.size}/${roster().length} nguồn đang theo dõi${idle.length?`; ${idle.filter(r=>r.status==='pending'||r.status==='not_collected').length} nguồn chưa thu thập được (chờ duyệt hoặc chưa thu thập), xem tab Theo nguồn`:''}.`)}
       }
       lines.push(alerts.length?`<span class="up">Có ${alerts.length} cảnh báo cần xử lý:</span> ${alerts.map(a=>`${esc(a.level||'')} ${esc(a.title)}`).join(', ')}.`:'Không có cảnh báo P0/P1 trong kỳ.');
       $('#summaryList').innerHTML=lines.map(line=>`<li>${line}</li>`).join('');
@@ -592,9 +594,19 @@
     function sourceKind(name,items){if(STORES.includes(name))return'Store · đánh giá';if(/^Facebook Fanpage/.test(name))return'Fanpage · bình luận người dùng';const posts=items.filter(i=>i.content_kind==='post').length;return`Group · ${posts} bài đăng, ${items.length-posts} bình luận`}
     function spark(values,color){const max=Math.max(1,...values),step=values.length>1?100/(values.length-1):0,points=values.map((v,i)=>`${(i*step).toFixed(1)},${(30-v/max*26-2).toFixed(1)}`).join(' ');return`<svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="${points}" fill="none" stroke="${color}" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>`}
     function renderSourceCards(items,previous){
-      const names=[...new Set([...items,...previous].map(channelName))].sort((a,b)=>items.filter(i=>channelName(i)===b).length-items.filter(i=>channelName(i)===a).length);
-      $('#sourceCards').innerHTML=names.map(name=>{const group=items.filter(i=>channelName(i)===name),before=previous.filter(i=>channelName(i)===name).length,s=bySentiment(group),trend=state.context.map(d=>timelineItems(d).filter(i=>channelName(i)===name).length),d=group.length-before;
-        return`<button class="card source-card" data-filter-source="${esc(name)}" title="Lọc danh sách theo nguồn này"><span class="label">${esc(sourceLabel(name))}</span><span class="value">${fmt.format(group.length)} ${d?`<span class="delta-chip ${d>0?'up-chip':'down-chip'}">${d>0?'▲':'▼'} ${Math.abs(d)}</span>`:''}</span>${spark(trend,cssVar('--brand'))}<span class="sub">${esc(sourceKind(name,group))}</span><span class="sub"><span class="pos-text">${s.Positive} tích cực</span> · <span class="neg-text">${s.Negative} tiêu cực</span> · kỳ trước ${before}</span></button>`}).join('')||'<div class="card empty">Không có phản hồi xác định được ngày đăng trong kỳ.</div>';
+      const undated=rawSelectedItems().filter(i=>i.date_basis==='observed_at');
+      const order={full:0,partial:1,store:2,not_collected:3,pending:4};
+      const extra=[...new Set([...items,...previous].map(channelName))].filter(n=>!rosterEntry(n)).map(key=>({key,status:'partial'}));
+      const entries=[...roster(),...extra].map(r=>({...r,count:items.filter(i=>channelName(i)===r.key).length})).sort((a,b)=>(order[a.status]??9)-(order[b.status]??9)||b.count-a.count);
+      const statusText=k=>state.sources?.statuses?.[k]||k;
+      const collected=entries.filter(e=>e.status==='full'||e.status==='partial'),waiting=entries.filter(e=>e.status==='pending'||e.status==='not_collected');
+      $('#sourceCoverage').innerHTML=roster().length?`Đang theo dõi <strong>${entries.filter(e=>e.type!=='store').length}</strong> nguồn Facebook và <strong>${entries.filter(e=>e.type==='store').length}</strong> store · ${entries.filter(e=>e.status==='full').length} group đủ 30 ngày, ${entries.filter(e=>e.status==='partial').length} group thu thập một phần, ${waiting.length} nguồn chưa có dữ liệu (chờ duyệt hoặc chưa thu thập) · kỳ này có phản hồi từ <strong>${entries.filter(e=>e.count).length}</strong> nguồn.`:'';
+      const pending=entries.filter(e=>(e.status==='pending'||e.status==='not_collected')&&!e.count);
+      $('#sourcePending').hidden=!pending.length;
+      $('#sourcePending').innerHTML=`<div class="card-head"><h2>Nguồn chưa có dữ liệu</h2><p>Đang theo dõi nhưng chưa thu thập được, nên không có trong số liệu</p></div>`+pending.map(e=>`<div class="pending-row"><span class="status-chip status-${esc(e.status)}">${esc(statusText(e.status))}</span><span><strong>${esc(sourceLabel(e.key))}</strong><br><span class="muted small">${esc(e.detail||'')}</span></span>${e.url?`<a class="small" href="${esc(e.url)}" target="_blank" rel="noopener">Mở ↗</a>`:'<span></span>'}</div>`).join('');
+      $('#sourceCards').innerHTML=entries.filter(e=>!pending.includes(e)).map(e=>{const name=e.key,group=items.filter(i=>channelName(i)===name),before=previous.filter(i=>channelName(i)===name).length,s=bySentiment(group),trend=state.context.map(d=>timelineItems(d).filter(i=>channelName(i)===name).length),d=group.length-before,noData=e.status==='pending'||e.status==='not_collected',und=undated.filter(i=>channelName(i)===name).length;
+        const body=noData?`<span class="sub">${esc(e.detail||'')}</span>`:`${spark(trend,cssVar('--brand'))}<span class="sub">${esc(sourceKind(name,group))}${und?` · ${und} chưa rõ ngày`:''}</span><span class="sub">${group.length?`<span class="pos-text">${s.Positive} tích cực</span> · <span class="neg-text">${s.Negative} tiêu cực</span> · `:''}kỳ trước ${before}</span>${e.detail?`<span class="sub muted-note">${esc(e.detail)}</span>`:''}`;
+        return`<${group.length?'button':'div'} class="card source-card ${noData?'no-data':''}" ${group.length?`data-filter-source="${esc(name)}" title="Lọc danh sách theo nguồn này"`:''}><span class="label">${esc(sourceLabel(name))}</span><span class="status-chip status-${esc(e.status)}">${esc(statusText(e.status))}</span><span class="value">${noData?'–':fmt.format(group.length)} ${!noData&&d?`<span class="delta-chip neutral-chip">${d>0?'▲':'▼'} ${Math.abs(d)}</span>`:''}</span>${body}</${group.length?'button':'div'}>`}).join('')||'<div class="card empty">Không có phản hồi xác định được ngày đăng trong kỳ.</div>';
       const rows=countBy(items,channelName);
       $('#sourceMix').innerHTML=rows.map(([name,count])=>{const s=bySentiment(items.filter(i=>channelName(i)===name));return`<div class="mix-row"><span class="name">${esc(sourceLabel(name))} <small class="muted">${count}</small></span><div class="mix-bar">${SENTIMENTS.map(k=>s[k]?`<span class="${k.toLowerCase()}-bg" style="width:${s[k]/count*100}%" title="${sentimentLabel(k)}: ${s[k]}">${s[k]/count>=.12?`${pct(s[k],count)} (${s[k]})`:''}</span>`:'').join('')}</div></div>`}).join('')||'<p class="empty-note">Chưa có dữ liệu trong kỳ.</p>';
     }
@@ -666,7 +678,7 @@
     function renderNotes(items,undated){
       const machine=items.filter(i=>i.translation_method==='machine_translation').length,review=items.filter(i=>i.needs_review).length;
       $('#dataNotes').innerHTML=[
-        'Phạm vi Facebook: dữ liệu 30 ngày gần nhất được thu thập từ các group đã là thành viên (VNG Community, ตลาดนัดซื้อขาย); bình luận chỉ gồm phần hiển thị sẵn dưới bài. Các group riêng tư đang chờ admin duyệt chưa có dữ liệu.',
+        'Phạm vi Facebook: trạng thái thu thập của từng group/fanpage xem ở tab Theo nguồn; bình luận chỉ gồm phần hiển thị sẵn dưới bài, không mở hết từng chuỗi bình luận.',
         'Facebook Group: tính cả bài đăng và bình luận (thảo luận, khoe, rao bán, trao đổi). Fanpage: chỉ tính bình luận của người dùng trên fanpage Thái Lan, không tính bài đăng chính thức.',
         `Nội dung chưa rõ ngày đăng được tách riêng, không cộng vào số liệu theo ngày${undated?` (kỳ này: ${fmt.format(undated)})`:''}.`,
         `Trong kỳ có ${fmt.format(machine)} phản hồi dùng bản dịch tự động và ${fmt.format(review)} phản hồi được đánh dấu cần rà soát lại phân loại.`,

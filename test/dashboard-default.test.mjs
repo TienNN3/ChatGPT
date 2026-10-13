@@ -97,6 +97,21 @@ test("reports store ratings for the VNG app separately from the global app", asy
   assert.deepEqual([...apps].sort(), [false, true]);
 });
 
+test("lists every data source in the roster so missing sources are explained", async () => {
+  const { readdir } = await import("node:fs/promises");
+  const roster = JSON.parse(await readFile(new URL("../public/data/sources.json", import.meta.url), "utf8"));
+  const keys = new Set(roster.sources.map((s) => s.key));
+  for (const s of roster.sources) assert.ok(roster.statuses[s.status], `unknown status for ${s.key}`);
+  const dir = new URL("../public/data/daily/", import.meta.url);
+  for (const file of (await readdir(dir)).filter((f) => f.endsWith(".json"))) {
+    const day = JSON.parse(await readFile(new URL(file, dir), "utf8"));
+    for (const item of day.items || []) assert.ok(keys.has(item.community || item.source), `${file}: ${item.community || item.source} missing from sources.json`);
+  }
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  assert.match(html, /data\/sources\.json/);
+  assert.match(html, /id="sourcePending"/);
+});
+
 test("uses calendar days and validates manual ranges", async () => {
   const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
   assert.match(html, /function calendarDates\(start,end\)/);
