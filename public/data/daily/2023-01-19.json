@@ -10,8 +10,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "How to GOI !!!\nปุ่ม  WASD  = เดิน\nปุ่ม E = คุย\n ทีวี = ปรับท่าทาง สติ๊กเกอร์ กด เลข12345678 แล้วจะแสดงท่าทางหรือ ส่งสติกเกอร์ \n สมุด = ตั้งชื่อตัวละคร / วิธีเล่น how to goi/ เควสรายวัน homework *ทำเควสแล้วรับเหรียญไปเปิดกาชาได้เลยนะะ อย่าลืมเข้าไปกดรับบ*\nประตู = หาห้อง และ มีเข้าเล่นโหมดสอนเล่นด้วย ตรงคำว่า tutorial\nโต๊ะแต่งหน้า กับตู้เสื้อผ้า = แต่งหน้าแต่งตัว ชุดน่ารักมาก\nถ้าเดินเลยไปทางขวา จะมีคุณยายอยู่ มีตู้กาชาด้วย\n#goi",
-      "text_vn": "Làm sao để ĐI!!!\nPhím WASD = Đi bộ\nNút E = Nói chuyện\n TV = Điều chỉnh cử chỉ nhãn dán. Nhấn số 12345678 và bạn sẽ thực hiện cử chỉ hoặc gửi nhãn dán. \n Sách = Đặt tên cho nhân vật của bạn / Cách chơi cách goi / Bài tập về nhiệm vụ hàng ngày *Làm nhiệm vụ và nhận xu để mở gacha. Đừng quên nhấn chấp nhận*\nCửa = Tìm phòng và truy cập vào chế độ hướng dẫn, trong từ hướng dẫn.\nBàn trang điểm và tủ quần áo = trang điểm và mặc quần áo, những bộ trang phục rất dễ thương\nNếu bạn đi bên phải Sẽ có bà. Ngoài ra còn có một ấm trà.\n#goi",
-      "translation_method": "machine_translation",
+      "text_vn": "Hướng dẫn chơi GOI!!!\nPhím WASD = di chuyển\nPhím E = nói chuyện\nTV = chỉnh động tác, sticker: bấm số 1-2-3-4-5-6-7-8 để làm động tác hoặc gửi sticker\nCuốn sổ = đặt tên nhân vật / cách chơi (how to goi) / nhiệm vụ hằng ngày (homework) *làm nhiệm vụ xong nhận xu đi quay gacha luôn nha, nhớ vào bấm nhận đó*\nCánh cửa = tìm phòng, còn có chế độ hướng dẫn chơi ở chỗ chữ tutorial\nBàn trang điểm và tủ quần áo = trang điểm, thay đồ, đồ dễ thương lắm\nĐi tiếp qua bên phải sẽ có bà cụ, có cả máy gacha nữa\n#goi",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -37,7 +37,8 @@
       ],
       "summary_vn": "Hướng dẫn phím điều khiển và nhiệm vụ hằng ngày trong GOI",
       "sentiment_rule": "Positive",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Làm sao để ĐI!!!\nPhím WASD = Đi bộ\nNút E = Nói chuyện\n TV = Điều chỉnh cử chỉ nhãn dán. Nhấn số 12345678 và bạn sẽ thực hiện cử chỉ hoặc gửi nhãn dán. \n Sách = Đặt tên cho nhân vật của bạn / Cách chơi cách goi / Bài tập về nhiệm vụ hàng ngày *Làm nhiệm vụ và nhận xu để mở gacha. Đừng quên nhấn chấp nhận*\nCửa = Tìm phòng và truy cập vào chế độ hướng dẫn, trong từ hướng dẫn.\nBàn trang điểm và tủ quần áo = trang điểm và mặc quần áo, những bộ trang phục rất dễ thương\nNếu bạn đi bên phải Sẽ có bà. Ngoài ra còn có một ấm trà.\n#goi"
     }
   ],
   "metrics": {

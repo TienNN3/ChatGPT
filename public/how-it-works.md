@@ -55,12 +55,25 @@ Mỗi mục có các trường:
 
 "Người chơi thích gì / chưa hài lòng" xếp hạng theo từ khoá và không tính `trade` (mua bán). "Cần xử lý" gồm cảnh báo P0/P1 trong dữ liệu và các nhóm `bug`, `performance`, `account`, `complaint`, kèm gợi ý từ `public/data/facebook-insights.json`.
 
+## 4b. Quy tắc dịch Thái → Việt
+
+Bản dịch phải đọc một lần là hiểu, đúng ngữ cảnh game. Không dịch từng chữ kiểu Google Translate. Hướng dẫn đầy đủ và bảng thuật ngữ: `docs/translation-guide.md` trong repository.
+
+- Dịch theo ý, câu tự nhiên như người chơi Việt nói chuyện trong group game; giữ giọng điệu (than, đùa, hỏi gấp), không thêm thông tin.
+- Dựa vào ngữ cảnh: nguồn (group mua bán thì đa số là rao bán), loại nội dung, câu tóm tắt để hiểu đúng câu ngắn, câu cụt.
+- Bỏ từ đệm lịch sự (ครับ/ค่ะ/นะ/งับ) hoặc đổi thành "ạ/nhé/nha"; `555` = "haha".
+- Giữ nguyên `[redacted]`, giá ghi "10 baht", số lượng, tên riêng tiếng Anh (Golden Chain, VVIP Pass, Halloween, Kaia). Danh sách rao bán giữ dạng liệt kê gọn.
+- Không chắc nghĩa từ lóng: dịch theo cách hiểu hợp lý nhất trong game; thật sự không rõ thì thêm "(?)".
+- Review store dịch đầy đủ (không tóm tắt).
+- Thuật ngữ hay gặp: โสม = nhân sâm (น้ำค้าง sương, แสงจันทร์ ánh trăng, ออโรร่า cực quang); ติดสถานะ = có hiệu ứng đặc biệt; รับฟาร์ม / รับขุด = nhận cày thuê; คิวว่าง = còn nhận đơn; ทัก = nhắn tin; บริการกดสภาพอากาศ = dịch vụ đổi thời tiết; เงินฟาร์ม = tiền nông trại; ทอง = vàng; เพชร = kim cương; กาชา / สุ่ม = gacha / quay; ย้ายข้อมูล / ย้ายไอดี = chuyển dữ liệu / tài khoản sang VNG; บัค = lỗi; หลุด / เด้ง = văng game; แลค = lag; ค้าง = đơ (chỉ khi nói về game) — **ค้างคาว = con dơi**; เวล = level; ไอดี = tài khoản.
+- Bản dịch theo ngữ cảnh có `translation_method=ai_contextual`; bản dịch máy cũ được giữ ở `text_vn_machine` để đối chiếu. Áp bản dịch mới bằng `node scripts/apply-translations.mjs <file.json>`.
+
 ## 5. Giao diện
 
 - **Tổng quan** (chỉ số chính trên cùng, xu hướng ở giữa, chi tiết ở dưới): hàng 5 KPI (Tổng phản hồi, Tích cực %, Tiêu cực %, Cần xử lý = báo lỗi + crash/lag + tài khoản + phàn nàn, Điểm store VNG), mỗi thẻ có mức thay đổi và sparkline, bấm để đi tới chi tiết; 3 dòng nổi bật + tóm tắt đầy đủ thu gọn + nút Sao chép báo cáo; Diễn biến theo ngày (cảm xúc hoặc loại nội dung, ngày/tuần, số/%; bấm cột để mở danh sách ngày đó) và biểu đồ tròn tỷ lệ cảm xúc; Người chơi đang làm gì và Từ khoá được nhắc nhiều (thanh xếp hạng, màu là tỷ lệ cảm xúc); Người chơi thích gì / chưa hài lòng / Cần xử lý (dạng gọn, bấm để đọc); heatmap Từ khoá theo ngày (bấm ô để lọc đúng ngày + từ khoá). Chú thích chi tiết nằm trong biểu tượng ⓘ.
-- **Theo nguồn**: thẻ từng nguồn (số phản hồi, sparkline 30 ngày, từ khoá, trạng thái), danh sách nguồn chưa có dữ liệu, tỷ lệ cảm xúc theo nguồn, bảng theo nguồn và theo ngày.
-- **Đánh giá store**: điểm rating app VNG (tích lũy và lượt mới theo tuần), bảng theo app, review có nội dung trong kỳ, review lệch số sao/nội dung.
-- **Danh sách phản hồi**: mới nhất trước; lọc theo ngày, nguồn, cảm xúc, loại nội dung, từ khoá, tìm chữ; tải CSV.
+- **Theo nguồn**: hàng KPI (số nguồn có phản hồi, nguồn lớn nhất, tỷ lệ Facebook/YouTube/Store, nguồn tiêu cực cao nhất), biểu đồ tròn thị phần thảo luận, tỷ lệ cảm xúc theo nguồn, thẻ từng nguồn, danh sách nguồn chưa có dữ liệu (thu gọn), bảng theo nguồn và theo ngày.
+- **Đánh giá store**: hàng KPI điểm app VNG (Google Play, App Store, lượt đánh giá mới), biểu đồ điểm theo tuần, bảng theo app, KPI review trong kỳ, phân bố sao, review khen / chê / lệch số sao.
+- **Danh sách phản hồi**: dạng thẻ, mới nhất trước; mỗi thẻ có cảm xúc, loại nội dung, nguồn, câu tóm tắt, bản dịch, nguyên văn (bấm để mở), từ khoá (bấm để lọc), link; chip lọc nhanh theo cảm xúc; lọc theo ngày, nguồn, cảm xúc, loại nội dung, từ khoá, tìm chữ; tải CSV.
 - Mọi chip/thẻ/bảng bấm được đều lọc sang Danh sách phản hồi. Link chia sẻ theo tab: `#overview`, `#sources`, `#store`, `#feedback`.
 
 ## 6. Cấu trúc file
@@ -73,6 +86,7 @@ Mỗi mục có các trường:
 - `scripts/import-youtube.mjs`: thêm/cập nhật mục `source=YouTube` theo id, không đụng nguồn khác.
 - `scripts/import-sensortower-ratings.mjs`, `import-sensortower-android.mjs`, `import-sensortower-ios.mjs`: rating và review store.
 - `scripts/apply-labels.mjs`: áp nhãn intent/keywords/summary từ file JSON.
+- `scripts/apply-translations.mjs`: áp bản dịch theo ngữ cảnh (giữ bản cũ ở `text_vn_machine`). `docs/translation-guide.md`: quy tắc dịch và thuật ngữ.
 - `scripts/validate-data.mjs` + `test/*.mjs`: kiểm tra dữ liệu và giao diện. `.staging/` được git ignore.
 
 ## 7. Quy trình cập nhật
@@ -80,7 +94,7 @@ Mỗi mục có các trường:
 1. Thu thập (Facebook group qua trình duyệt đã đăng nhập; YouTube qua tìm kiếm vùng TH và RSS kênh; Sensor Tower export).
 2. Làm sạch → staging JSON trong `.staging/` (tác giả đã che, không PII).
 3. Import bằng script tương ứng; đối chiếu số mục trước/sau (không mất id, không đổi bản dịch cũ).
-4. Dịch phần còn thiếu; gán nhãn `intent`, `keywords`, `summary_vn`, rà `sentiment` cho mục mới rồi chạy `apply-labels.mjs`.
+4. Dịch phần còn thiếu theo `docs/translation-guide.md` (không dùng bản dịch từng chữ); gán nhãn `intent`, `keywords`, `summary_vn`, rà `sentiment` cho mục mới rồi chạy `apply-labels.mjs`.
 5. Cập nhật `sources.json` nếu phạm vi thu thập thay đổi.
 6. `npm run check` (validator + test) phải pass; mọi mục phải có nhãn.
 7. Commit và push `main`; GitHub Actions tự deploy.

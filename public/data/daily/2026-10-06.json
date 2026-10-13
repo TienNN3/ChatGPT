@@ -10,8 +10,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "สนใจน้อยหน่าค่ะ",
-      "text_vn": "Tôi quan tâm đến Custard Noi.",
-      "translation_method": "machine_translation",
+      "text_vn": "Mình quan tâm mãng cầu ạ",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -35,7 +35,8 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Bày tỏ muốn mua quả na",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tôi quan tâm đến Custard Noi."
     },
     {
       "id": "facebook-f61f84460d3c4150",
@@ -45,8 +46,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "ขายโสมธรรมดาต้นละ 10 บาท ติดสถานะ ต้นละ 12 บาท",
-      "text_vn": "Bán nhân sâm thông thường với giá 10 baht một cây, hiện trạng là 12 baht một cây.",
-      "translation_method": "machine_translation",
+      "text_vn": "Bán nhân sâm thường 10 baht/cây, có hiệu ứng 12 baht/cây",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -72,7 +73,8 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Rao bán nhân sâm thường 10 baht, có trạng thái 12 baht/cây",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bán nhân sâm thông thường với giá 10 baht một cây, hiện trạng là 12 baht một cây."
     },
     {
       "id": "facebook-22e4af4a317c8ec1",
@@ -118,8 +120,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "M***",
       "text_th": "ออกยังงับสนใจรับไปดูแลต่อให้",
-      "text_vn": "Tôi vẫn quan tâm đến việc chăm sóc nó.",
-      "translation_method": "machine_translation",
+      "text_vn": "Rời chưa ạ? Mình muốn nhận lại chăm tiếp nè",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -142,7 +144,8 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Hỏi đã bán chưa, muốn nhận về chăm sóc tiếp",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tôi vẫn quan tâm đến việc chăm sóc nó."
     },
     {
       "id": "facebook-2f202acedd16eadb",
@@ -152,8 +155,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "H***",
       "text_th": "ไปยังคะ",
-      "text_vn": "Đang đi tới.",
-      "translation_method": "machine_translation",
+      "text_vn": "Đi chưa ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -176,7 +179,8 @@
         "tìm bạn"
       ],
       "summary_vn": "Hỏi đã đi chưa",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Đang đi tới."
     },
     {
       "id": "facebook-9386b94f8547f425",
@@ -221,8 +225,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "อ่าว เสียดายยย",
-      "text_vn": "Ôi, thật đáng xấu hổ.",
-      "translation_method": "machine_translation",
+      "text_vn": "Ơ, tiếc ghê",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -246,7 +250,8 @@
       ],
       "summary_vn": "Bày tỏ tiếc nuối",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Ôi, thật đáng xấu hổ."
     },
     {
       "id": "facebook-3256d8f9bca6fcad",
@@ -256,8 +261,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "T***",
       "text_th": "บริการกดสภาพอากาศ ของขวัญ และเมล็ด Play together \n… See more",
-      "text_vn": "Dịch vụ báo thời tiết, quà tặng và hạt giống Chơi cùng nhau \n… Xem thêm",
-      "translation_method": "machine_translation",
+      "text_vn": "Dịch vụ đổi thời tiết, tặng quà và hạt giống Play Together …",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -282,7 +287,8 @@
         "cày thuê"
       ],
       "summary_vn": "Quảng cáo dịch vụ đổi thời tiết, gửi quà và hạt giống",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Dịch vụ báo thời tiết, quà tặng và hạt giống Chơi cùng nhau \n… Xem thêm"
     },
     {
       "id": "facebook-61ae1fb6d8b302b0",
@@ -292,8 +298,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "M***",
       "text_th": "ผลไม้ มีทุกชนิด ทุกสถานะ[ขาย] โสม (มีทุกสถานะ) [ขาย] เงินสวน เหรียญฟาร์ม [ขาย] เมล็ดพันธุ์ (เฉพาะที่ซื้อด้วยเพชร) [ขาย] เปลี่ยนสภาพอากาศ [ขาย] การ์ด ดาวละ 1฿.- [ขาย] รับส่งของขวัญในเมส () [รับ] กระโดดหอคอย ถ้วยละ 1฿.-ตรวจสอบเครดิตได้ที่หน้าโปรไฟล์น้าา",
-      "text_vn": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé",
-      "translation_method": "machine_translation",
+      "text_vn": "Trái cây đủ loại, đủ hiệu ứng\n[Bán] Nhân sâm (đủ hiệu ứng)\n[Bán] Tiền vườn, xu nông trại\n[Bán] Hạt giống (chỉ loại mua bằng kim cương)\n[Bán] Đổi thời tiết\n[Bán] Thẻ 1 baht/sao\n[Bán] Nhận gửi quà qua inbox\n[Nhận] Nhảy tháp 1 baht/cúp\nXem uy tín ở trang cá nhân nha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -319,7 +325,8 @@
         "cày thuê"
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống, thẻ và dịch vụ cày tháp",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé"
     },
     {
       "id": "facebook-6c2a0d257f9f8ff4",
@@ -365,8 +372,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "สอบถาครับมันฝรั่ง 2.30kg อันนี้มันยักษ์รึยังครับ",
-      "text_vn": "Cho hỏi khoai tây 2.30kg này đã là khổng lồ chưa ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho hỏi khoai tây 2.30kg vậy là khổng lồ chưa ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -392,7 +399,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Hỏi khoai tây 2.30kg đã được tính là khổng lồ chưa",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho hỏi khoai tây 2.30kg này đã là khổng lồ chưa ạ?"
     },
     {
       "id": "facebook-1f28be222a1cb356",
@@ -402,8 +410,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "คนเล่นในคอมโหลดจากไหนครับ",
-      "text_vn": "Người chơi trên máy tính tải ở đâu vậy ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Mấy bạn chơi trên máy tính tải ở đâu vậy?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -428,7 +436,8 @@
         "tải game"
       ],
       "summary_vn": "Hỏi người chơi trên máy tính tải game ở đâu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Người chơi trên máy tính tải ở đâu vậy ạ?"
     },
     {
       "id": "facebook-fa765591a77200e6",
@@ -513,8 +522,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "แครอทแก่ซะด้วย",
-      "text_vn": "Lại còn cà rốt già nữa chứ",
-      "translation_method": "machine_translation",
+      "text_vn": "Cà rốt già nữa chứ",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -537,7 +546,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Đùa về cà rốt già",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Lại còn cà rốt già nữa chứ"
     },
     {
       "id": "facebook-82bfcdfdb01e594e",
@@ -547,8 +557,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "L***",
       "text_th": "แวบแรก ตกใจ ไม่เห็นคำว่าแกง",
-      "text_vn": "Thoáng nhìn giật mình, không thấy chữ \"cà ri\"",
-      "translation_method": "machine_translation",
+      "text_vn": "Thoạt nhìn giật mình, không thấy chữ \"cà ri\"",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -572,7 +582,8 @@
       ],
       "summary_vn": "Đùa giật mình vì không thấy chữ cà ri",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Thoáng nhìn giật mình, không thấy chữ \"cà ri\""
     },
     {
       "id": "facebook-0bde58f1f5419909",
@@ -582,8 +593,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "R***",
       "text_th": "การ์ดทองใบสุดท้ายยยยยจะบ้าตาย รีจนไม่รู้จะรียังไงแล้วค่ะฮื่อ",
-      "text_vn": "Thẻ vàng cuối cùng, phát điên mất, reset tới mức không biết reset sao nữa rồi, huhu",
-      "translation_method": "machine_translation",
+      "text_vn": "Còn đúng một thẻ vàng cuối cùnggg muốn điên luôn, reset tới mức không biết reset kiểu gì nữa rồi huhu",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -611,7 +622,8 @@
         "golden chain"
       ],
       "summary_vn": "Than reset mãi không ra thẻ vàng cuối cùng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Thẻ vàng cuối cùng, phát điên mất, reset tới mức không biết reset sao nữa rồi, huhu"
     },
     {
       "id": "facebook-d10b6201868e110e",
@@ -621,8 +633,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "สุดท้ายเหมือนกัน ท้อละ",
-      "text_vn": "Cũng thiếu cái cuối cùng y vậy, nản rồi",
-      "translation_method": "machine_translation",
+      "text_vn": "Mình cũng còn cái cuối, nản rồi",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -646,7 +658,8 @@
       ],
       "summary_vn": "Cũng thiếu thẻ cuối cùng, cảm thấy nản",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cũng thiếu cái cuối cùng y vậy, nản rồi"
     },
     {
       "id": "facebook-aae841236b716600",
@@ -656,8 +669,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "G***",
       "text_th": "แล้วโรงเรียนที่เอ็งอยากไปคือที่ไหนละลูก ไหนพูด",
-      "text_vn": "Thế trường con muốn vào là trường nào, nói xem nào",
-      "translation_method": "machine_translation",
+      "text_vn": "Thế trường mà con muốn vào là trường nào, nói coi",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -683,7 +696,8 @@
         "trường học"
       ],
       "summary_vn": "Đùa hỏi nhân vật muốn vào trường nào",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Thế trường con muốn vào là trường nào, nói xem nào"
     },
     {
       "id": "facebook-6f1e730368a562da",
@@ -693,8 +707,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "แ***",
       "text_th": "เอาแต่ใจตลอด ของก็ให้แต่มดกับกิ่งไม้",
-      "text_vn": "Lúc nào cũng đỏng đảnh, quà thì chỉ cho kiến với cành cây",
-      "translation_method": "machine_translation",
+      "text_vn": "Lúc nào cũng đỏng đảnh, quà thì toàn cho kiến với cành cây",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -718,7 +732,8 @@
         "tặng quà"
       ],
       "summary_vn": "Đùa thú cưng đỏng đảnh, chỉ tặng kiến và cành cây",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Lúc nào cũng đỏng đảnh, quà thì chỉ cho kiến với cành cây"
     },
     {
       "id": "facebook-27452e895f2d7bda",
@@ -728,8 +743,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "S***",
       "text_th": "สอบถามค่า ถ้าใช้แอปเปิ้ลล็อคอิน จะไม่มีโค้ดบัญชีมือถือเหรอคะ",
-      "text_vn": "Cho hỏi, nếu đăng nhập bằng Apple thì không có mã tài khoản điện thoại ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho hỏi, nếu đăng nhập bằng Apple thì không có code tài khoản điện thoại hả ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -755,7 +770,8 @@
         "chuyển tài khoản vng"
       ],
       "summary_vn": "Hỏi đăng nhập bằng Apple có mã tài khoản không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho hỏi, nếu đăng nhập bằng Apple thì không có mã tài khoản điện thoại ạ?"
     },
     {
       "id": "facebook-2e6dae097e64a6d6",
@@ -765,8 +781,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "L***",
       "text_th": "ถ้าเป็นของ VNG ต้องกรอกเติมโค้ดในเว็บค่ะ",
-      "text_vn": "Nếu là bản của VNG thì phải nhập code nạp trên web ạ",
-      "translation_method": "machine_translation",
+      "text_vn": "Nếu là bản VNG thì phải nhập code nạp trên web ạ",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -790,7 +806,8 @@
         "nạp tiền"
       ],
       "summary_vn": "Hướng dẫn bản VNG phải nhập code nạp trên web",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nếu là bản của VNG thì phải nhập code nạp trên web ạ"
     },
     {
       "id": "facebook-00e211f8ca6709fc",
@@ -800,8 +817,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "หลังจากเป็นกิจกรรมผู้เล่นจัดกันเองมานานในกลุ่มไทยตอนนี้ได้อฟชช่วยสนับสนุนจัดกิจกรรมแล้วครับบแวะไปเล่นกันเยอะ ๆ น้า ถ้ามีคนเล่นเยอะๆ จะทำให้มีกิจกรรมแบบนี้อีกต่อไปเรื่อย ๆ เลยครับ",
-      "text_vn": "Sau thời gian dài là sự kiện người chơi tự tổ chức trong nhóm Thái, giờ đã được phía chính thức hỗ trợ tổ chức rồi. Mọi người ghé chơi đông vào nhé, nếu đông người chơi thì sẽ có những sự kiện như thế này tiếp tục mãi",
-      "translation_method": "machine_translation",
+      "text_vn": "Sau một thời gian dài sự kiện do người chơi tự tổ chức trong group Thái, giờ đã được bên chính thức hỗ trợ tổ chức rồi. Mọi người ghé chơi đông vào nha, đông người chơi thì sẽ còn có sự kiện kiểu này dài dài",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -829,7 +846,8 @@
       ],
       "summary_vn": "Thông báo sự kiện cộng đồng được chính thức hỗ trợ, mời tham gia",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Sau thời gian dài là sự kiện người chơi tự tổ chức trong nhóm Thái, giờ đã được phía chính thức hỗ trợ tổ chức rồi. Mọi người ghé chơi đông vào nhé, nếu đông người chơi thì sẽ có những sự kiện như thế này tiếp tục mãi"
     },
     {
       "id": "facebook-80a00e389ece96c6",
@@ -839,8 +857,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "เริ่ดๆ",
-      "text_vn": "Đỉnh đỉnh",
-      "translation_method": "machine_translation",
+      "text_vn": "Xịn xò",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -864,7 +882,8 @@
       ],
       "summary_vn": "Khen đỉnh",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Đỉnh đỉnh"
     },
     {
       "id": "facebook-dd5dcb9a1a869c12",
@@ -874,8 +893,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "ทั้งนั่งเฝ้า นอนเฝ้า โหลดแอพเตือนกว่าจะเจอแต่ละต้น มินิมีคงสงสารโถ่วลูกรักของแมร่",
-      "text_vn": "Ngồi canh, nằm canh, tải app nhắc nhở mới gặp được từng cây, Minimi chắc thương lắm, tội con cưng của mẹ",
-      "translation_method": "machine_translation",
+      "text_vn": "Nào ngồi canh, nằm canh, tải cả app báo mới tìm được từng cây. Chắc mini-me thương mẹ lắm đây con cưng ơi",
+      "translation_method": "ai_contextual",
       "sentiment": "Mixed",
       "topic": "Other",
       "topic_secondary": [],
@@ -903,7 +922,8 @@
       ],
       "summary_vn": "Kể canh mãi mới gặp cây khổng lồ, thương minimi",
       "sentiment_rule": "Positive",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Ngồi canh, nằm canh, tải app nhắc nhở mới gặp được từng cây, Minimi chắc thương lắm, tội con cưng của mẹ"
     },
     {
       "id": "facebook-f34e755598015fad",
@@ -913,8 +933,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "เหมือนกันคับ",
-      "text_vn": "Mình cũng vậy ạ",
-      "translation_method": "machine_translation",
+      "text_vn": "Mình cũng vậy",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -937,7 +957,8 @@
         "đồng cảm"
       ],
       "summary_vn": "Đồng tình mình cũng vậy",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mình cũng vậy ạ"
     },
     {
       "id": "facebook-49993ed602731b69",
@@ -947,8 +968,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "K***",
       "text_th": "เป็นเหมือนกันค่ะ",
-      "text_vn": "Mình cũng bị giống vậy ạ",
-      "translation_method": "machine_translation",
+      "text_vn": "Mình cũng bị y vậy ạ",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -971,7 +992,8 @@
         "đồng cảm"
       ],
       "summary_vn": "Cho biết mình cũng gặp tình trạng giống vậy",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mình cũng bị giống vậy ạ"
     },
     {
       "id": "facebook-47995398552c4f93",
@@ -981,8 +1003,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "ตราบใดที่ยังอยู่ในแมพฟาร์ม (ยกเว้นเข้าไปในบ้าน) จะยังมีโอกาสติดสถานะครับ",
-      "text_vn": "Chỉ cần vẫn ở trong map nông trại (trừ khi vào trong nhà) thì vẫn có cơ hội dính trạng thái ạ",
-      "translation_method": "machine_translation",
+      "text_vn": "Miễn là còn ở trong map nông trại (trừ khi vào trong nhà) thì vẫn có cơ hội ra hiệu ứng nhé",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -1006,7 +1028,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Giải thích ở trong map nông trại vẫn có cơ hội dính trạng thái",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Chỉ cần vẫn ở trong map nông trại (trừ khi vào trong nhà) thì vẫn có cơ hội dính trạng thái ạ"
     },
     {
       "id": "facebook-0b68642cbd71829d",
@@ -1016,8 +1039,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Y***",
       "text_th": "คนนี้ดูลูกรักมาก",
-      "text_vn": "Người này trông giống con cưng lắm",
-      "translation_method": "machine_translation",
+      "text_vn": "Bạn này trông cưng con dữ",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1041,7 +1064,8 @@
       ],
       "summary_vn": "Đùa người này trông như con cưng",
       "sentiment_rule": "Positive",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Người này trông giống con cưng lắm"
     },
     {
       "id": "facebook-56018858f9e1ca57",
@@ -1051,8 +1075,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "สาดไปสมาชิก5555",
-      "text_vn": "Tung ra đi các thành viên, haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Tạt nước luôn thành viên ơi hahaha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1075,7 +1099,8 @@
         "đùa"
       ],
       "summary_vn": "Đùa kêu gọi các thành viên tung ra",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tung ra đi các thành viên, haha"
     },
     {
       "id": "facebook-4b8a67b3a7308ea9",
@@ -1085,8 +1110,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "มีประโยชน์",
-      "text_vn": "Hữu ích",
-      "translation_method": "machine_translation",
+      "text_vn": "Hữu ích ghê",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -1110,7 +1135,8 @@
       ],
       "summary_vn": "Khen bài viết hữu ích",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Hữu ích"
     },
     {
       "id": "facebook-7e3d269aa722309c",
@@ -1120,8 +1146,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "หอคอยเลยค่ะ ทริคคือเล่นจบด่านแล้ววาร์ปออกแล้วเข้าไปเล่นอีกรอบ (บางทีมันจะรันห้องใหม่มาให้นะคะ) ก็ทำวนไปเรื่อยๆจนกว่าโควต้าต่อวันจะหมด",
-      "text_vn": "Tháp luôn ạ. Mẹo là chơi xong màn thì warp ra rồi vào chơi lại (đôi khi nó sẽ tạo phòng mới), cứ lặp lại cho tới khi hết lượt trong ngày",
-      "translation_method": "machine_translation",
+      "text_vn": "Tháp luôn ạ. Mẹo là chơi xong màn thì dịch chuyển ra rồi vào chơi lại (đôi khi nó tạo phòng mới cho mình), cứ lặp lại cho tới khi hết giới hạn trong ngày",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1145,7 +1171,8 @@
         "nhảy tháp"
       ],
       "summary_vn": "Chỉ mẹo chơi tháp, warp ra vào lại để lặp đến hết lượt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tháp luôn ạ. Mẹo là chơi xong màn thì warp ra rồi vào chơi lại (đôi khi nó sẽ tạo phòng mới), cứ lặp lại cho tới khi hết lượt trong ngày"
     },
     {
       "id": "facebook-20af044e436875cf",
@@ -1223,8 +1250,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "โคนต้นครับ",
-      "text_vn": "Gốc cây ạ",
-      "translation_method": "machine_translation",
+      "text_vn": "Ở gốc cây nhé",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1247,7 +1274,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Trả lời là ở gốc cây",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Gốc cây ạ"
     },
     {
       "id": "facebook-f50208c06aa76887",
@@ -1257,8 +1285,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "K***",
       "text_th": "วิธีคือ ปักปริงแดงก่อน แล้วค่อยย้ายต้นไปในวงปริงแดง แล้วค่อยเก็บลูกที่มีนะครับ ทิ้งไว้สัก30วิ แล้วเลื่อนต้นออกได้เลย ปลูกอย่างอื่นต่อ",
-      "text_vn": "Cách làm: cắm vòi phun đỏ trước, rồi dời cây vào vùng vòi phun đỏ, rồi thu hoạch quả đang có, để khoảng 30 giây rồi dời cây ra được luôn, trồng cái khác tiếp",
-      "translation_method": "machine_translation",
+      "text_vn": "Cách làm là cắm vòi phun đỏ trước, rồi dời cây vào vòng phun đỏ, sau đó thu những quả đang có. Để khoảng 30 giây rồi dời cây ra được luôn, trồng cái khác tiếp",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1282,7 +1310,8 @@
         "rau khổng lồ"
       ],
       "summary_vn": "Hướng dẫn dùng vòi phun đỏ để cây dính trạng thái rồi dời ra",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cách làm: cắm vòi phun đỏ trước, rồi dời cây vào vùng vòi phun đỏ, rồi thu hoạch quả đang có, để khoảng 30 giây rồi dời cây ra được luôn, trồng cái khác tiếp"
     },
     {
       "id": "facebook-50b4165f53a5546d",
@@ -1292,8 +1321,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "ปล่อยนางไว้แบบนั้นเลยค่ะ เดี๋ยวนางก็ติด จะนานไหม ขึ้นอยู่กับในสวนมีผลไม้เยอะไหมค่ะ",
-      "text_vn": "Cứ để nó vậy đi ạ, lát nữa sẽ dính. Lâu hay không tùy trong vườn có nhiều trái cây không",
-      "translation_method": "machine_translation",
+      "text_vn": "Cứ để nó vậy đi ạ, lát nó ra hiệu ứng. Lâu hay không thì tùy trong vườn có nhiều trái cây không",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1317,7 +1346,8 @@
         "trái cây"
       ],
       "summary_vn": "Khuyên để nguyên cây, lâu nhanh tùy số trái cây trong vườn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cứ để nó vậy đi ạ, lát nữa sẽ dính. Lâu hay không tùy trong vườn có nhiều trái cây không"
     },
     {
       "id": "facebook-da1b8822ea674509",
@@ -1327,8 +1357,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "ชุดออกยากก5555",
-      "text_vn": "Bộ đồ khó ra quá, haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Bộ đồ khó ra quá haha",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -1353,7 +1383,8 @@
       ],
       "summary_vn": "Than bộ đồ khó ra",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bộ đồ khó ra quá, haha"
     },
     {
       "id": "facebook-74863bb7454def30",
@@ -1363,8 +1394,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ไอดีลูกรัก gm",
-      "text_vn": "ID con cưng GM",
-      "translation_method": "machine_translation",
+      "text_vn": "Tài khoản cưng của GM",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1388,7 +1419,8 @@
       ],
       "summary_vn": "Đùa ID là con cưng của GM",
       "sentiment_rule": "Positive",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "ID con cưng GM"
     },
     {
       "id": "facebook-fe105ff90167083b",
@@ -1398,8 +1430,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "ที่ขุดหายยย5555",
-      "text_vn": "Dụng cụ đào mất tiêu, haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Chỗ đào mất tiêu rồi haha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1423,7 +1455,8 @@
       ],
       "summary_vn": "Đùa dụng cụ đào bị mất",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Dụng cụ đào mất tiêu, haha"
     },
     {
       "id": "facebook-959a8890478404a5",
@@ -1433,8 +1466,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "ไม่ใช่บัคแล้ว 555 มันคือโปรแล้วรีพอร์ตได้เลยครับ",
-      "text_vn": "Không phải bug nữa rồi, haha, đó là hack, report luôn đi ạ",
-      "translation_method": "machine_translation",
+      "text_vn": "Cái này không phải bug nữa rồi haha, là hack đó, report luôn đi",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -1458,7 +1491,8 @@
         "hack"
       ],
       "summary_vn": "Cho rằng đó là hack chứ không phải bug, khuyên report",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Không phải bug nữa rồi, haha, đó là hack, report luôn đi ạ"
     },
     {
       "id": "facebook-0fd57c55e5cbb468",
@@ -1468,8 +1502,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "มาวันไหนจ๊ะ",
-      "text_vn": "Ra ngày nào vậy?",
-      "translation_method": "machine_translation",
+      "text_vn": "Ngày nào có vậy?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1492,7 +1526,8 @@
         "cập nhật mới"
       ],
       "summary_vn": "Hỏi nội dung ra ngày nào",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Ra ngày nào vậy?"
     },
     {
       "id": "facebook-6d9368b0222bd1f6",
@@ -1502,8 +1537,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "ต้องไปต่อ5555",
-      "text_vn": "Phải tiếp tục thôi, haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Phải chơi tiếp thôi haha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1526,7 +1561,8 @@
         "động viên"
       ],
       "summary_vn": "Đùa phải tiếp tục thôi",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phải tiếp tục thôi, haha"
     },
     {
       "id": "facebook-fdb08f7b65f5650c",
@@ -1571,8 +1607,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "กลุ่มเรานน.เท่านี้อยู่อันดับ10คับ 555555",
-      "text_vn": "Nhóm mình cân nặng có nhiêu đây mà đứng hạng 10, hahaha",
-      "translation_method": "machine_translation",
+      "text_vn": "Group mình cân nặng cỡ này mà đứng hạng 10 haha",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -1597,7 +1633,8 @@
       ],
       "summary_vn": "Khoe nhóm đứng hạng 10 trong bảng xếp hạng cân nặng",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nhóm mình cân nặng có nhiêu đây mà đứng hạng 10, hahaha"
     },
     {
       "id": "facebook-85897ba8aac307cd",
@@ -1607,8 +1644,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "T***",
       "text_th": "เกินอะเจ้หนูไม่ออกยักเลย",
-      "text_vn": "Quá đáng, chị ơi em không ra khổng lồ luôn",
-      "translation_method": "machine_translation",
+      "text_vn": "Quá đỉnh chị ơi, em chưa ra được cái khổng lồ nào",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -1633,7 +1670,8 @@
       ],
       "summary_vn": "Than không ra được quả khổng lồ nào",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Quá đáng, chị ơi em không ra khổng lồ luôn"
     },
     {
       "id": "facebook-313a2ba4c00fd0f7",
@@ -1643,8 +1681,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "โต๊ะข้างๆลานกิจกรรมสามารถกดทำอาหารได้ครับ",
-      "text_vn": "Cái bàn cạnh sân sự kiện có thể bấm nấu ăn ạ",
-      "translation_method": "machine_translation",
+      "text_vn": "Cái bàn cạnh khu sự kiện bấm nấu ăn được nhé",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -1668,7 +1706,8 @@
         "sự kiện"
       ],
       "summary_vn": "Chỉ bàn cạnh sân sự kiện có thể nấu ăn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cái bàn cạnh sân sự kiện có thể bấm nấu ăn ạ"
     },
     {
       "id": "facebook-4504bbbe555c143d",
@@ -1678,8 +1717,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "ลองเสิร์จโหลดในช่องทางแอปสโตรหรือถ้าเคยโหลดมาเล่นให้โหลดผ่านประวัติแอพดูครับ…",
-      "text_vn": "Thử tìm tải trên App Store, hoặc nếu từng tải chơi rồi thì tải lại qua lịch sử ứng dụng ạ…",
-      "translation_method": "machine_translation",
+      "text_vn": "Thử tìm tải trên App Store, hoặc nếu từng tải chơi rồi thì tải lại qua lịch sử ứng dụng xem…",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1703,7 +1742,8 @@
         "phiên bản cũ"
       ],
       "summary_vn": "Hướng dẫn tải lại game qua App Store hoặc lịch sử ứng dụng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Thử tìm tải trên App Store, hoặc nếu từng tải chơi rồi thì tải lại qua lịch sử ứng dụng ạ…"
     },
     {
       "id": "facebook-00ff76371f091eed",
@@ -1713,8 +1753,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ทางนี้ 2 กล่องออกครบ พอเลยค่ะ5555",
-      "text_vn": "Mình đây 2 hộp ra đủ, đủ rồi ạ, haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Bên mình 2 hộp ra đủ hết rồi, đủ rồi ạ haha",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -1738,7 +1778,8 @@
       ],
       "summary_vn": "Khoe mở 2 hộp đã ra đủ đồ",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mình đây 2 hộp ra đủ, đủ rồi ạ, haha"
     },
     {
       "id": "facebook-5e337c55fb5bb998",
@@ -1748,8 +1789,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "S***",
       "text_th": "ผสมละเป็นยังไงครับ",
-      "text_vn": "Lai/ghép xong thì thế nào ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Lai ra thì thế nào ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1772,7 +1813,8 @@
         "thú cưng"
       ],
       "summary_vn": "Hỏi lai ghép xong thì thế nào",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Lai/ghép xong thì thế nào ạ?"
     },
     {
       "id": "facebook-4452dd93d791da94",
@@ -1782,8 +1824,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "R***",
       "text_th": "ขุดยังไงเหรอคะ",
-      "text_vn": "Đào thế nào vậy ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Đào kiểu gì vậy ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1806,7 +1848,8 @@
         "đào kho báu"
       ],
       "summary_vn": "Hỏi cách đào",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Đào thế nào vậy ạ?"
     },
     {
       "id": "facebook-5ffb347c7b369949",
@@ -1816,8 +1859,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "K***",
       "text_th": "เดียวก็ออกครับขยันเก็บบ่อยๆ",
-      "text_vn": "Lát nữa sẽ ra thôi ạ, chăm thu hoạch thường xuyên",
-      "translation_method": "machine_translation",
+      "text_vn": "Lát là ra thôi, chịu khó thu hoạch thường xuyên",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1841,7 +1884,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Khuyên chăm thu hoạch thường xuyên thì sẽ ra",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Lát nữa sẽ ra thôi ạ, chăm thu hoạch thường xuyên"
     },
     {
       "id": "facebook-ccd5d4927d45f30e",
@@ -1851,8 +1895,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "K***",
       "text_th": "เก็บบ่อยๆงั๊บสู้ๆ",
-      "text_vn": "Thu hoạch thường xuyên nhé, cố lên",
-      "translation_method": "machine_translation",
+      "text_vn": "Thu hoạch thường xuyên nha, cố lên",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -1876,7 +1920,8 @@
       ],
       "summary_vn": "Khuyên thu hoạch thường xuyên, động viên cố lên",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Thu hoạch thường xuyên nhé, cố lên"
     },
     {
       "id": "facebook-10901e6c5ab9628b",
@@ -1886,8 +1931,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "เป็นเหมือนกันเลยครับ",
-      "text_vn": "Mình cũng bị y vậy ạ",
-      "translation_method": "machine_translation",
+      "text_vn": "Mình cũng bị y chang",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -1910,7 +1955,8 @@
         "đồng cảm"
       ],
       "summary_vn": "Cho biết mình cũng bị y vậy",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mình cũng bị y vậy ạ"
     },
     {
       "id": "facebook-0061eee89281a4d1",
@@ -1920,8 +1966,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "ถ้าหมายถึงเบ็ดขาดระหว่างตกปลายักษ์ หรือ ปลาหมดเวลาก่อน นั่นคือฝีมือเรา หรือเบ็ดยังไม่พาวเวอร์เยอะพอที่จะดึงเขาขึ้นครับ…",
-      "text_vn": "Nếu ý là đứt cần khi câu cá khổng lồ hoặc cá hết giờ trước, thì đó là do kỹ năng mình, hoặc cần câu chưa đủ lực để kéo lên ạ…",
-      "translation_method": "machine_translation",
+      "text_vn": "Nếu ý bạn là đứt cần lúc câu cá khổng lồ hoặc cá hết giờ trước, thì là do kỹ năng mình, hoặc cần câu chưa đủ lực để kéo lên nhé…",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -1945,7 +1991,8 @@
         "cá hiếm"
       ],
       "summary_vn": "Giải thích đứt cần khi câu cá khổng lồ do kỹ năng hoặc cần yếu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nếu ý là đứt cần khi câu cá khổng lồ hoặc cá hết giờ trước, thì đó là do kỹ năng mình, hoặc cần câu chưa đủ lực để kéo lên ạ…"
     },
     {
       "id": "facebook-9e11353dcddf6f5d",
@@ -1955,8 +2002,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ของเค้าไม่ขึ้นคับ ลูกแรก 1.04 ลูกสอง 1.05 แต่ดันไม่ขึ้นเฉยเลยไม่รู้บัครึเปล่าπ^π",
-      "text_vn": "Của mình không lên ạ, quả đầu 1.04, quả hai 1.05 mà tự dưng không lên, không biết có phải bug không π^π",
-      "translation_method": "machine_translation",
+      "text_vn": "Của mình không lên điểm, quả đầu 1.04, quả hai 1.05 mà tự nhiên không lên, không biết có phải bug không π^π",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -1980,7 +2027,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Báo thu hoạch quả 1.04, 1.05 mà điểm không lên, nghi bug",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Của mình không lên ạ, quả đầu 1.04, quả hai 1.05 mà tự dưng không lên, không biết có phải bug không π^π"
     },
     {
       "id": "facebook-96cb17751cf892cc",
@@ -1990,8 +2038,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "เป็นลูกเก่าที่เกิดแต่แรกมั้ยคะ มันนับแค่ลูกที่เกิดใหม่ตอนมีกิจแข่งค่ัะ",
-      "text_vn": "Có phải quả cũ mọc từ trước không ạ? Nó chỉ tính những quả mọc mới khi có nhiệm vụ thi thôi ạ",
-      "translation_method": "machine_translation",
+      "text_vn": "Có phải quả cũ ra từ trước không ạ? Nó chỉ tính quả mới ra trong lúc có sự kiện thi thôi",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2015,7 +2063,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Giải thích chỉ quả mọc mới khi có nhiệm vụ thi mới được tính",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Có phải quả cũ mọc từ trước không ạ? Nó chỉ tính những quả mọc mới khi có nhiệm vụ thi thôi ạ"
     },
     {
       "id": "facebook-845abb89297d6f47",
@@ -2025,8 +2074,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "ทุบจนท้ออ55555",
-      "text_vn": "Đập tới nản luôn, hahaha",
-      "translation_method": "machine_translation",
+      "text_vn": "Đập quặng tới nản luôn hahaha",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -2050,7 +2099,8 @@
       ],
       "summary_vn": "Than đập rau đến nản",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Đập tới nản luôn, hahaha"
     },
     {
       "id": "facebook-b765226052ea18c2",
@@ -2060,8 +2110,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "J***",
       "text_th": "รอบนี้ต้องตัวเดียวกัน ถึงจะผสมได้สินะคะ",
-      "text_vn": "Lần này phải cùng một con thì mới lai được đúng không ạ",
-      "translation_method": "machine_translation",
+      "text_vn": "Đợt này phải cùng một con mới lai được hả ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2084,7 +2134,8 @@
         "thú cưng"
       ],
       "summary_vn": "Hỏi lần này phải cùng một con mới lai được phải không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Lần này phải cùng một con thì mới lai được đúng không ạ"
     },
     {
       "id": "facebook-b17f9cae3d90ff2d",
@@ -2094,8 +2145,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "D***",
       "text_th": "มันไม่ใช่แมวหรอกหรอ 55555 ผมเข้าใจว่าแมวตลอดเลย น้องตัวไหนนะที่ใส่หมวกคาวบอยอะ",
-      "text_vn": "Nó không phải mèo à, hahaha, mình cứ tưởng là mèo suốt. Con nào đội mũ cao bồi vậy nhỉ",
-      "translation_method": "machine_translation",
+      "text_vn": "Không phải mèo hả haha, mình cứ tưởng là mèo suốt. Bé nào đội mũ cao bồi vậy?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2119,7 +2170,8 @@
         "sự kiện cao bồi"
       ],
       "summary_vn": "Hỏi con thú nào đội mũ cao bồi, tưởng là mèo",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nó không phải mèo à, hahaha, mình cứ tưởng là mèo suốt. Con nào đội mũ cao bồi vậy nhỉ"
     },
     {
       "id": "facebook-af123f1fe8b5769c",
@@ -2129,8 +2181,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "กี่ชั่วโมงถึงจะเก็บได้ทีนึงงับ",
-      "text_vn": "Bao nhiêu tiếng mới thu hoạch được một lần ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Bao nhiêu tiếng mới thu hoạch được một lần vậy ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2153,7 +2205,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Hỏi bao nhiêu tiếng mới thu hoạch được một lần",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bao nhiêu tiếng mới thu hoạch được một lần ạ?"
     },
     {
       "id": "facebook-262ab354eb5bed21",
@@ -2163,8 +2216,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "โ***",
       "text_th": "มันจะสุ่มยักษ์เองหรอครับหรือเวลาปลูกต้องลงสปริงด้วย",
-      "text_vn": "Nó tự ra khổng lồ ngẫu nhiên hay lúc trồng phải đặt vòi phun nữa ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Nó tự random ra khổng lồ hả, hay lúc trồng phải đặt vòi phun nữa?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -2188,7 +2241,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Hỏi khổng lồ ra ngẫu nhiên hay cần đặt vòi phun",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nó tự ra khổng lồ ngẫu nhiên hay lúc trồng phải đặt vòi phun nữa ạ?"
     },
     {
       "id": "facebook-478cbb37ffaeda11",
@@ -2198,8 +2252,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Z***",
       "text_th": "เหมือนกันเลยค่ะมีหลายต้นมากแต่ไม่ติดยักษ์สักลูกเลย",
-      "text_vn": "Mình cũng y vậy, có rất nhiều cây mà không ra quả khổng lồ nào",
-      "translation_method": "machine_translation",
+      "text_vn": "Mình cũng vậy, trồng nhiều cây lắm mà không ra quả khổng lồ nào",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -2224,7 +2278,8 @@
       ],
       "summary_vn": "Than trồng nhiều cây mà không ra quả khổng lồ nào",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mình cũng y vậy, có rất nhiều cây mà không ra quả khổng lồ nào"
     },
     {
       "id": "facebook-902a59610e6ffce0",
@@ -2234,8 +2289,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "T***",
       "text_th": "1ชม.ครับ",
-      "text_vn": "1 tiếng ạ",
-      "translation_method": "machine_translation",
+      "text_vn": "1 tiếng nhé",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2258,7 +2313,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Trả lời 1 tiếng thu hoạch một lần",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "1 tiếng ạ"
     },
     {
       "id": "facebook-42296f3ae4381ca3",
@@ -2268,8 +2324,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "โอ้ยยยย55556",
-      "text_vn": "Ôi trời, haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Trời ơiii hahaha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2292,7 +2348,8 @@
         "đùa"
       ],
       "summary_vn": "Phản ứng cảm thán, cười",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Ôi trời, haha"
     },
     {
       "id": "facebook-15cfc7d38d139d55",
@@ -2302,8 +2359,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "ไปผลิตที่เต้นท์สีเขียวได้นะครับมีที่ขุดที่ดีขึ้นมาหน่อยอยู่",
-      "text_vn": "Có thể đến lều màu xanh lá để chế tạo ạ, có dụng cụ đào tốt hơn một chút",
-      "translation_method": "machine_translation",
+      "text_vn": "Qua chỗ lều màu xanh lá mà làm nhé, có chỗ đào tốt hơn chút",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2326,7 +2383,8 @@
         "đào kho báu"
       ],
       "summary_vn": "Chỉ đến lều xanh lá để chế tạo dụng cụ đào tốt hơn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Có thể đến lều màu xanh lá để chế tạo ạ, có dụng cụ đào tốt hơn một chút"
     },
     {
       "id": "facebook-6fcf987f62d04a4b",
@@ -2370,8 +2428,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "น่าจะเป็นของเซตกระต่าย เพิ่งวนกลับมากิจที่แล้วค่ะ",
-      "text_vn": "Chắc là đồ bộ thỏ, vừa quay lại ở sự kiện trước ạ",
-      "translation_method": "machine_translation",
+      "text_vn": "Chắc là đồ của set thỏ, mới quay lại ở sự kiện trước ạ",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2395,7 +2453,8 @@
         "sự kiện"
       ],
       "summary_vn": "Cho biết đó là đồ bộ thỏ vừa quay lại sự kiện trước",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Chắc là đồ bộ thỏ, vừa quay lại ở sự kiện trước ạ"
     },
     {
       "id": "facebook-e4de8b12c6b592d3",
@@ -2405,8 +2464,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "เ***",
       "text_th": "ขอบคุณค่า",
-      "text_vn": "Cảm ơn nha",
-      "translation_method": "machine_translation",
+      "text_vn": "Cảm ơn ạ",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -2429,7 +2488,8 @@
         "cảm ơn"
       ],
       "summary_vn": "Cảm ơn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cảm ơn nha"
     },
     {
       "id": "facebook-3f06a724512f05de",
@@ -2439,8 +2499,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "สามารถดาวโหลดแอพเก่าได้จากประวัติการดาวโหลดในแอพครับ ของแอนดรอยกับ ios มีทั้งคู่นะ ลองเช็คดู",
-      "text_vn": "Có thể tải lại app cũ từ lịch sử tải xuống trong cửa hàng ứng dụng nhé, cả Android lẫn iOS đều có, thử kiểm tra xem",
-      "translation_method": "machine_translation",
+      "text_vn": "Có thể tải lại app cũ từ lịch sử tải trong cửa hàng ứng dụng nhé, Android với iOS đều có, thử kiểm tra xem",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2464,7 +2524,8 @@
         "tải game"
       ],
       "summary_vn": "Hướng dẫn tải lại app cũ từ lịch sử tải xuống",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Có thể tải lại app cũ từ lịch sử tải xuống trong cửa hàng ứng dụng nhé, cả Android lẫn iOS đều có, thử kiểm tra xem"
     },
     {
       "id": "facebook-90cb0afd940b2da1",
@@ -2474,8 +2535,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "ผลจะนับ หลังจากลงกิจคั้บ ผลที่งอกก่อนลงกิจ เก็บแล้วจะไม่นับ",
-      "text_vn": "Quả chỉ được tính sau khi đăng ký sự kiện thôi, quả mọc trước khi đăng ký thì thu hoạch sẽ không được tính",
-      "translation_method": "machine_translation",
+      "text_vn": "Quả sẽ được tính sau khi đăng ký sự kiện nhé, quả mọc trước khi đăng ký thì thu hoạch sẽ không tính",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2500,7 +2561,8 @@
       ],
       "summary_vn": "Giải thích chỉ quả mọc sau khi đăng ký sự kiện mới được tính",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Quả chỉ được tính sau khi đăng ký sự kiện thôi, quả mọc trước khi đăng ký thì thu hoạch sẽ không được tính"
     },
     {
       "id": "facebook-fbc11cea1a4c715a",
@@ -2510,8 +2572,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "S***",
       "text_th": "เหมือนกันค่า ลงแข่งแล้ว เก็บแต่คะแนนไม่ขึ้นเลยค่ะ",
-      "text_vn": "Mình cũng vậy, đã đăng ký thi rồi, thu hoạch mà điểm không tăng gì cả",
-      "translation_method": "machine_translation",
+      "text_vn": "Mình cũng vậy, đăng ký thi rồi, thu hoạch mà điểm không lên gì hết",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -2536,7 +2598,8 @@
       ],
       "summary_vn": "Báo đã đăng ký thi, thu hoạch mà điểm không tăng",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mình cũng vậy, đã đăng ký thi rồi, thu hoạch mà điểm không tăng gì cả"
     },
     {
       "id": "facebook-406f9fa08e8a73fe",
@@ -2546,8 +2609,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ลูกที่เก็บเป็นลูกที่ทิ้งไว้ในต้นก่อนกิจมามั้ยคะ เหมือนกิจก่อนๆที่เคยทำ เราเคยปลูกไว้รอกิจมาแล้วค่อยเก็งมันก็ไม่นับให้ มันนับให…",
-      "text_vn": "Quả bạn thu hoạch có phải là quả để sẵn trên cây từ trước khi sự kiện bắt đầu không? Giống mấy sự kiện trước mình từng làm, trồng sẵn chờ sự kiện tới rồi mới thu thì không được tính, nó chỉ tính…",
-      "translation_method": "machine_translation",
+      "text_vn": "Quả bạn thu hoạch có phải quả để trên cây từ trước sự kiện không ạ? Giống mấy sự kiện trước, mình từng trồng sẵn chờ sự kiện tới mới thu hoạch thì nó không tính, nó chỉ tính…",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2572,7 +2635,8 @@
       ],
       "summary_vn": "Giải thích quả có sẵn trước sự kiện không được tính điểm",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Quả bạn thu hoạch có phải là quả để sẵn trên cây từ trước khi sự kiện bắt đầu không? Giống mấy sự kiện trước mình từng làm, trồng sẵn chờ sự kiện tới rồi mới thu thì không được tính, nó chỉ tính…"
     },
     {
       "id": "facebook-28c5d2ff1ae6451d",
@@ -2582,8 +2646,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ถ้าเราลงแข่ง เราสามารถเก็บได้เรื่อยๆ หรือ เก็บส่วได้ครั้งเดียวคะ",
-      "text_vn": "Nếu đăng ký thi thì có thể thu hoạch liên tục được không, hay chỉ thu được một lần thôi ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Nếu mình đăng ký thi thì thu hoạch nộp được liên tục hay chỉ nộp được một lần ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2607,7 +2671,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Hỏi khi đăng ký thi có thu hoạch liên tục được không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nếu đăng ký thi thì có thể thu hoạch liên tục được không, hay chỉ thu được một lần thôi ạ?"
     },
     {
       "id": "facebook-be75c8e7b32d0b02",
@@ -2617,8 +2682,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "สุดเกินนนนน",
-      "text_vn": "Đỉnh quá điiii",
-      "translation_method": "machine_translation",
+      "text_vn": "Đỉnh quá trờiii",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -2642,7 +2707,8 @@
       ],
       "summary_vn": "Khen đỉnh quá",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Đỉnh quá điiii"
     },
     {
       "id": "facebook-45d7256391ccec45",
@@ -2652,8 +2718,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "อ***",
       "text_th": "นานๆที",
-      "text_vn": "Lâu lâu mới có một lần",
-      "translation_method": "machine_translation",
+      "text_vn": "Lâu lâu mới có",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2676,7 +2742,8 @@
         "sự kiện"
       ],
       "summary_vn": "Bình luận lâu lâu mới có một lần",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Lâu lâu mới có một lần"
     },
     {
       "id": "facebook-00621554af7ed0b0",
@@ -2686,8 +2753,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "ถ้าไม่ได้เติมแพคชื่อม่วงมันจะมีขุดลิมิตรายวันอยู่ครับ เหมือนตกปลาเลย",
-      "text_vn": "Nếu không nạp gói tên tím thì đào sẽ bị giới hạn theo ngày nhé, giống câu cá vậy",
-      "translation_method": "machine_translation",
+      "text_vn": "Nếu không nạp gói tên tím thì đào sẽ có giới hạn mỗi ngày nhé, giống câu cá vậy",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -2711,7 +2778,8 @@
         "vvip pass"
       ],
       "summary_vn": "Giải thích không nạp gói tên tím thì đào bị giới hạn mỗi ngày",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nếu không nạp gói tên tím thì đào sẽ bị giới hạn theo ngày nhé, giống câu cá vậy"
     },
     {
       "id": "facebook-546ab45e3ab619dc",
@@ -2721,8 +2789,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "ของเราหัวม่วงมันก็ไม่ให้ขุด เป็นมาสองวันแล้ว ไม่รู้เพราะอะไรเหมือนกัน",
-      "text_vn": "Mình có tên tím mà vẫn không cho đào, bị hai ngày rồi, không biết tại sao luôn",
-      "translation_method": "machine_translation",
+      "text_vn": "Của mình tên tím mà nó cũng không cho đào, bị hai ngày rồi, không biết tại sao luôn",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -2747,7 +2815,8 @@
       ],
       "summary_vn": "Báo có tên tím mà vẫn không đào được suốt hai ngày",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mình có tên tím mà vẫn không cho đào, bị hai ngày rồi, không biết tại sao luôn"
     },
     {
       "id": "facebook-728b885a94e4b1a2",
@@ -2757,8 +2826,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "มีเบ็ดไอติม สถานะน้ำแข็ง เบ็ดมูนไลฟ์ซอร์ด สถานะแสงจันทร์ กิจผีรอบที่แล้วเบ็ดสถานะเปียกชื้น มีแห้งแล้งด้วยจำชื่อเบ็ดไม่ได้ค่ะ เ…",
-      "text_vn": "Có cần câu kem – trạng thái băng giá, cần Moonlight Sword – trạng thái ánh trăng, sự kiện ma đợt trước có cần trạng thái ẩm ướt, còn có trạng thái khô hạn nữa mà không nhớ tên cần ạ…",
-      "translation_method": "machine_translation",
+      "text_vn": "Có cần câu kem hiệu ứng băng, cần câu Moonlight Sword hiệu ứng ánh trăng, sự kiện ma (Halloween) đợt trước có cần câu hiệu ứng ẩm ướt, còn có loại khô hạn nữa mà quên tên cần rồi ạ…",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -2782,7 +2851,8 @@
         "trang phục"
       ],
       "summary_vn": "Liệt kê các cần câu cho trạng thái băng giá, ánh trăng, ẩm ướt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Có cần câu kem – trạng thái băng giá, cần Moonlight Sword – trạng thái ánh trăng, sự kiện ma đợt trước có cần trạng thái ẩm ướt, còn có trạng thái khô hạn nữa mà không nhớ tên cần ạ…"
     },
     {
       "id": "facebook-dc2aca4f35622bcc",
@@ -2792,8 +2862,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "เทอแอดเพื่อนหน่อย",
-      "text_vn": "Bạn ơi kết bạn với mình nhé",
-      "translation_method": "machine_translation",
+      "text_vn": "Bạn ơi add friend mình với",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2816,7 +2886,8 @@
         "tìm bạn"
       ],
       "summary_vn": "Xin kết bạn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bạn ơi kết bạn với mình nhé"
     },
     {
       "id": "facebook-8c12fbbc0ece33e5",
@@ -2826,8 +2897,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "ออกเกมไปเลย ได้ตลอด น่าสงสัยจริง",
-      "text_vn": "Thoát game ra là được luôn, đáng ngờ thật",
-      "translation_method": "machine_translation",
+      "text_vn": "Thoát game ra là được liền, đáng nghi thật",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -2851,7 +2922,8 @@
       ],
       "summary_vn": "Cho biết thoát game ra là được, thấy đáng ngờ",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Thoát game ra là được luôn, đáng ngờ thật"
     },
     {
       "id": "facebook-93f10ff803075b03",
@@ -2861,8 +2933,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "L***",
       "text_th": "ถึงกับไปเสิร์ช ต้นจริงเหมือนใบแห้ง เหลือแต่ก้านแบบนี้",
-      "text_vn": "Còn phải đi tra Google, cây thật trông như lá khô, chỉ còn mỗi cuống thế này",
-      "translation_method": "machine_translation",
+      "text_vn": "Phải đi search luôn, cây thật trông như lá khô, chỉ còn cuống như vầy",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2885,7 +2957,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Kể tra Google thấy cây thật giống lá khô",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Còn phải đi tra Google, cây thật trông như lá khô, chỉ còn mỗi cuống thế này"
     },
     {
       "id": "facebook-7e198d487c0d47f7",
@@ -2895,8 +2968,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "ใบม่ายมีหมดปัญหาใบรกรุงรังเหมือนทุเรียน",
-      "text_vn": "Lá mới không còn bị rối rắm như sầu riêng nữa",
-      "translation_method": "machine_translation",
+      "text_vn": "Không có lá, hết lo lá rậm rạp như sầu riêng",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -2921,7 +2994,8 @@
       ],
       "summary_vn": "Bình luận lá cây mới không rối như sầu riêng",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Lá mới không còn bị rối rắm như sầu riêng nữa"
     },
     {
       "id": "facebook-f68e951e5e9dc7b5",
@@ -2931,8 +3005,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "เมื่อคืนหลับตอน5ทุ่มครึ่ง กรี๊ดดดดด!!",
-      "text_vn": "Tối qua ngủ lúc 11 rưỡi, áaaaa!!",
-      "translation_method": "machine_translation",
+      "text_vn": "Tối qua ngủ lúc 11 giờ rưỡi, aaaaa!!",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2955,7 +3029,8 @@
         "đùa"
       ],
       "summary_vn": "Than tối qua ngủ sớm lúc 11 rưỡi",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tối qua ngủ lúc 11 rưỡi, áaaaa!!"
     },
     {
       "id": "facebook-09660fa5a153a3d6",
@@ -2965,8 +3040,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Y***",
       "text_th": "250,000 งับ",
-      "text_vn": "250.000 nha",
-      "translation_method": "machine_translation",
+      "text_vn": "250,000 nha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -2989,7 +3064,8 @@
         "giá vật phẩm"
       ],
       "summary_vn": "Trả lời giá 250.000",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "250.000 nha"
     },
     {
       "id": "facebook-a26898707dc4ddaf",
@@ -2999,8 +3075,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "​",
-      "text_vn": "(trống)",
-      "translation_method": "machine_translation",
+      "text_vn": "(bình luận trống, không có nội dung)",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3023,7 +3099,8 @@
         "bình luận trống"
       ],
       "summary_vn": "Bình luận trống, không có nội dung",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "(trống)"
     },
     {
       "id": "facebook-e99cf57ce9109718",
@@ -3033,8 +3110,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ต้นกี่บาทหรอคะ เดาได้มุ้ย",
-      "text_vn": "Cây bao nhiêu tiền vậy ạ, đoán được không",
-      "translation_method": "machine_translation",
+      "text_vn": "Cây bao nhiêu tiền vậy ạ? Đoán được không ta",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -3058,7 +3135,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Hỏi giá cây bao nhiêu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cây bao nhiêu tiền vậy ạ, đoán được không"
     },
     {
       "id": "facebook-e44102d4c73cf45f",
@@ -3068,8 +3146,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "จะได้ไปปคุยกับเขารู้เรืองงง5555",
-      "text_vn": "Để còn nói chuyện với người ta cho hiểu haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Để còn nói chuyện với người ta cho hiểu nữa haha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3092,7 +3170,8 @@
         "đùa"
       ],
       "summary_vn": "Đùa để nói chuyện với người ta cho hiểu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Để còn nói chuyện với người ta cho hiểu haha"
     },
     {
       "id": "facebook-cfb7f51744ae67ca",
@@ -3102,8 +3181,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "อันนี้ใส่ที่สวนหรือที่ตัวครับ",
-      "text_vn": "Cái này đặt ở vườn hay ở nhân vật vậy?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cái này đặt ở vườn hay gắn lên nhân vật ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3127,7 +3206,8 @@
         "trang phục"
       ],
       "summary_vn": "Hỏi món này đặt ở vườn hay trên nhân vật",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cái này đặt ở vườn hay ở nhân vật vậy?"
     },
     {
       "id": "facebook-1346243c3933e1f8",
@@ -3137,8 +3217,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ใช้ที่อัพ เท่าาไหร่หรอคะที่ใช้ไป",
-      "text_vn": "Dùng để nâng cấp à, đã tốn bao nhiêu rồi ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Dùng đồ nâng cấp hết bao nhiêu vậy ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3161,7 +3241,8 @@
         "giá vật phẩm"
       ],
       "summary_vn": "Hỏi đã tốn bao nhiêu để nâng cấp",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Dùng để nâng cấp à, đã tốn bao nhiêu rồi ạ?"
     },
     {
       "id": "facebook-1e8e53e9b6df6dae",
@@ -3205,8 +3286,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "250,000 ครับ",
-      "text_vn": "250.000 nhé",
-      "translation_method": "machine_translation",
+      "text_vn": "250,000 nhé",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3229,7 +3310,8 @@
         "giá vật phẩm"
       ],
       "summary_vn": "Trả lời giá 250.000",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "250.000 nhé"
     },
     {
       "id": "facebook-7c1dfd87683e0440",
@@ -3274,8 +3356,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "อาจจะเกิดจากเลเวลตัวละครเรายังไม่ถึงรึเปล่าครับ…",
-      "text_vn": "Có thể do cấp độ nhân vật mình chưa đủ không?…",
-      "translation_method": "machine_translation",
+      "text_vn": "Có thể do level nhân vật mình chưa đủ không ạ…",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3298,7 +3380,8 @@
         "nhiệm vụ"
       ],
       "summary_vn": "Gợi ý có thể do cấp độ nhân vật chưa đủ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Có thể do cấp độ nhân vật mình chưa đủ không?…"
     },
     {
       "id": "facebook-7c5a5c6d04aab3c3",
@@ -3308,8 +3391,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "เ***",
       "text_th": "ซื้อ พลั่วด้ามสั้นใช้สำหรับย้ายต้นไม้ ได้ค่ะในร้านอุปกรณ์",
-      "text_vn": "Mua xẻng cán ngắn dùng để di chuyển cây ở cửa hàng dụng cụ nha",
-      "translation_method": "machine_translation",
+      "text_vn": "Mua xẻng cán ngắn dùng để dời cây được ạ, ở tiệm dụng cụ",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3333,7 +3416,8 @@
         "cửa hàng"
       ],
       "summary_vn": "Chỉ mua xẻng cán ngắn ở cửa hàng dụng cụ để dời cây",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mua xẻng cán ngắn dùng để di chuyển cây ở cửa hàng dụng cụ nha"
     },
     {
       "id": "facebook-b396cd741af9f8b0",
@@ -3343,8 +3427,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "S***",
       "text_th": "เก็บได้ตลอดค่า น้องหล่นตามพื้นค่ะ ราคาดีพอๆกับมะพร้าวนะคะ",
-      "text_vn": "Thu được liên tục nha, quả rơi dưới đất, giá tốt ngang dừa đó",
-      "translation_method": "machine_translation",
+      "text_vn": "Thu hoạch được hoài ạ, quả rơi xuống đất. Giá ngang ngang dừa đó",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -3368,7 +3452,8 @@
         "giá vật phẩm"
       ],
       "summary_vn": "Giải thích quả rơi dưới đất, nhặt liên tục, giá ngang dừa",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Thu được liên tục nha, quả rơi dưới đất, giá tốt ngang dừa đó"
     },
     {
       "id": "facebook-8fb31c91eda04f25",
@@ -3378,8 +3463,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "เ***",
       "text_th": "เป็นแบบเก็บตามพื้น เก็บหลายรอบครับพี่",
-      "text_vn": "Kiểu nhặt dưới đất, nhặt được nhiều lần nha anh/chị",
-      "translation_method": "machine_translation",
+      "text_vn": "Loại nhặt dưới đất, nhặt được nhiều lần nha anh",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3402,7 +3487,8 @@
         "trái cây"
       ],
       "summary_vn": "Giải thích quả nhặt dưới đất, nhặt được nhiều lần",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Kiểu nhặt dưới đất, nhặt được nhiều lần nha anh/chị"
     },
     {
       "id": "facebook-17dacc8981001383",
@@ -3412,8 +3498,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "เกิดปกตินะครับ",
-      "text_vn": "Xuất hiện bình thường nhé",
-      "translation_method": "machine_translation",
+      "text_vn": "Ra bình thường nhé",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3436,7 +3522,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Cho biết xuất hiện bình thường",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Xuất hiện bình thường nhé"
     },
     {
       "id": "facebook-b82190982b418deb",
@@ -3446,8 +3533,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "ราคา250000 ค่ะ มา1-2 เมล็ดค่ะเท่าที่เห็น",
-      "text_vn": "Giá 250.000 nha, ra 1–2 hạt theo mình thấy",
-      "translation_method": "machine_translation",
+      "text_vn": "Giá 250000 ạ, mỗi lần về 1-2 hạt theo mình thấy",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -3471,7 +3558,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Trả lời giá 250.000, ra 1–2 hạt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Giá 250.000 nha, ra 1–2 hạt theo mình thấy"
     },
     {
       "id": "facebook-e477654cec2f7869",
@@ -3481,8 +3569,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "น่าจะยัก แต่ยังไม่เห็นต้นที่โตเต็มที่เลยค่ะ แต่น่าจะสวยมากๆ",
-      "text_vn": "Chắc là khổng lồ được, nhưng chưa thấy cây nào lớn hết cỡ, chắc đẹp lắm",
-      "translation_method": "machine_translation",
+      "text_vn": "Chắc là khổng lồ, nhưng chưa thấy cây lớn hết cỡ, chắc đẹp lắm",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -3506,7 +3594,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Cho rằng cây có thể khổng lồ, chắc sẽ rất đẹp",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Chắc là khổng lồ được, nhưng chưa thấy cây nào lớn hết cỡ, chắc đẹp lắm"
     },
     {
       "id": "facebook-c8dc89e3fdcac674",
@@ -3516,8 +3605,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "V***",
       "text_th": "เมื่อวานเราเล่นไม่เจอบล็อคโคลี่เลยค่ะ ผักมีกี่ชนิดหรอคะ",
-      "text_vn": "Hôm qua mình chơi không thấy bông cải xanh nào, có bao nhiêu loại rau vậy ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Hôm qua mình chơi không thấy bông cải xanh đâu cả, rau có bao nhiêu loại vậy ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3541,7 +3630,8 @@
         "sự kiện"
       ],
       "summary_vn": "Hỏi có bao nhiêu loại rau, chưa thấy bông cải xanh",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Hôm qua mình chơi không thấy bông cải xanh nào, có bao nhiêu loại rau vậy ạ?"
     },
     {
       "id": "facebook-f8a4d9074aaeea40",
@@ -3551,8 +3641,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "พลาซ่าเกิดนาทีที่20กับ40ทุบพลาซ่าตาย1ตัวให้วนไปหาที่ดาวทาวแล้ววนกลับมาที่พลาซ่า",
-      "text_vn": "Plaza xuất hiện vào phút 20 và 40, đập chết 1 con ở Plaza rồi vòng qua Downtown tìm, sau đó vòng lại Plaza",
-      "translation_method": "machine_translation",
+      "text_vn": "Ở Plaza rau mọc vào phút 20 và 40, đập xong 1 cây ở Plaza thì vòng qua Downtown tìm rồi quay lại Plaza",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3576,7 +3666,8 @@
         "sự kiện"
       ],
       "summary_vn": "Chỉ giờ rau xuất hiện ở Plaza và Downtown",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Plaza xuất hiện vào phút 20 và 40, đập chết 1 con ở Plaza rồi vòng qua Downtown tìm, sau đó vòng lại Plaza"
     },
     {
       "id": "facebook-65eb627acc1195da",
@@ -3621,8 +3712,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "ใช่ค่ะ รายงายได้เลยคั้บ",
-      "text_vn": "Đúng rồi, báo cáo luôn nhé",
-      "translation_method": "machine_translation",
+      "text_vn": "Đúng rồi, báo cáo luôn đi ạ",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3645,7 +3736,8 @@
         "lừa đảo"
       ],
       "summary_vn": "Đồng tình, khuyên báo cáo luôn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Đúng rồi, báo cáo luôn nhé"
     },
     {
       "id": "facebook-fb0f2d6d32ef9811",
@@ -3655,8 +3747,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "เจอสดๆเลยคนนี้ แย่มาก",
-      "text_vn": "Gặp trực tiếp người này luôn, tệ thật",
-      "translation_method": "machine_translation",
+      "text_vn": "Gặp trực tiếp đứa này luôn, tệ thật sự",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -3679,7 +3771,8 @@
         "lừa đảo"
       ],
       "summary_vn": "Kể gặp trực tiếp người chơi này, rất tệ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Gặp trực tiếp người này luôn, tệ thật"
     },
     {
       "id": "facebook-982624ee8581f726",
@@ -3689,8 +3782,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "แ***",
       "text_th": "ได้เติมชื่อม่วงไหมคะ",
-      "text_vn": "Bạn có nạp tên tím không?",
-      "translation_method": "machine_translation",
+      "text_vn": "Bạn có nạp tên tím không ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3713,7 +3806,8 @@
         "vvip pass"
       ],
       "summary_vn": "Hỏi bạn có nạp tên tím không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bạn có nạp tên tím không?"
     },
     {
       "id": "facebook-b3b72bf4200e6a98",
@@ -3723,8 +3817,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "ถ้าขึ้นเครื่องไปประเทศอื่นมันจะโดนกำจัดจำนวนกิจกรรมที่ทำครับ พวกตกปลา จับแมลง ขุดแร่ ต้องกลับเซิฟหลักไอดี",
-      "text_vn": "Nếu bay sang nước khác thì số lần hoạt động sẽ bị giới hạn nhé, như câu cá, bắt côn trùng, đào khoáng, phải về server chính của ID",
-      "translation_method": "machine_translation",
+      "text_vn": "Nếu bay sang nước khác thì sẽ bị giới hạn số lần làm hoạt động nha, kiểu câu cá, bắt côn trùng, đào quặng, phải quay về server chính của tài khoản",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -3749,7 +3843,8 @@
         "khai thác đá"
       ],
       "summary_vn": "Giải thích sang server nước khác bị giới hạn số lần hoạt động",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nếu bay sang nước khác thì số lần hoạt động sẽ bị giới hạn nhé, như câu cá, bắt côn trùng, đào khoáng, phải về server chính của ID"
     },
     {
       "id": "facebook-827cc5814ca035e1",
@@ -3759,8 +3854,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "S***",
       "text_th": "เสริม 10-30-50เกิดที่ดาวน์ทาวน์ค่ะ",
-      "text_vn": "Bổ sung: phút 10–30–50 xuất hiện ở Downtown nha",
-      "translation_method": "machine_translation",
+      "text_vn": "Bổ sung: phút 10-30-50 thì mọc ở Downtown nha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3784,7 +3879,8 @@
         "sự kiện"
       ],
       "summary_vn": "Bổ sung rau xuất hiện ở Downtown phút 10, 30, 50",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bổ sung: phút 10–30–50 xuất hiện ở Downtown nha"
     },
     {
       "id": "facebook-7b0f4f8cc85cec37",
@@ -3794,8 +3890,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "00-20-40 เวลานาทีในชีวิตจริงครับ",
-      "text_vn": "Phút 00–20–40 theo giờ ngoài đời thật nhé",
-      "translation_method": "machine_translation",
+      "text_vn": "Phút 00-20-40 theo giờ ngoài đời thực nha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3819,7 +3915,8 @@
         "sự kiện"
       ],
       "summary_vn": "Cho biết phút 00, 20, 40 theo giờ thực",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phút 00–20–40 theo giờ ngoài đời thật nhé"
     },
     {
       "id": "facebook-f484255aa823ed9b",
@@ -3829,8 +3926,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "M***",
       "text_th": "ละอะไรแบบนี้ชอบเป็นบี๋ตลอดเลยอ่ะ55555555555",
-      "text_vn": "Mấy vụ kiểu này lúc nào cũng bị lỗi hoài haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Mấy vụ kiểu này lúc nào cũng bị lỗi hết á hahaha",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -3854,7 +3951,8 @@
       ],
       "summary_vn": "Than mấy vụ kiểu này lúc nào cũng lỗi",
       "sentiment_rule": "Mixed",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mấy vụ kiểu này lúc nào cũng bị lỗi hoài haha"
     },
     {
       "id": "facebook-b9ffeb68d83d604b",
@@ -3864,8 +3962,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "บัคแน่ๆ555",
-      "text_vn": "Chắc chắn là bug rồi haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Bug chắc luôn haha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3889,7 +3987,8 @@
       ],
       "summary_vn": "Cho rằng chắc chắn là bug",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Chắc chắn là bug rồi haha"
     },
     {
       "id": "facebook-35befea437e89b1d",
@@ -3899,8 +3998,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "เขาคิดว่าเพิ่มแค่ เฟอร์นิเจอร์ตรงข้างๆ แพงมาก",
-      "text_vn": "Họ tưởng chỉ thêm mỗi nội thất bên cạnh, đắt thật",
-      "translation_method": "machine_translation",
+      "text_vn": "Họ tưởng chỉ thêm mỗi chỗ đặt nội thất bên cạnh thôi, mà đắt quá trời",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -3924,7 +4023,8 @@
         "giá vật phẩm"
       ],
       "summary_vn": "Chê chỉ thêm mỗi nội thất bên cạnh mà giá đắt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Họ tưởng chỉ thêm mỗi nội thất bên cạnh, đắt thật"
     },
     {
       "id": "facebook-b269ca109b7d3ce5",
@@ -3934,8 +4034,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "O***",
       "text_th": "คนรวยเอาเลยค่ะ ทางนี้จน",
-      "text_vn": "Người giàu cứ chơi đi, bên này nghèo",
-      "translation_method": "machine_translation",
+      "text_vn": "Người giàu thì cứ chơi đi ạ, bên này nghèo",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -3960,7 +4060,8 @@
       ],
       "summary_vn": "Than chỉ người giàu mới chơi được, mình nghèo",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Người giàu cứ chơi đi, bên này nghèo"
     },
     {
       "id": "facebook-63cf3166dba4651c",
@@ -3970,8 +4071,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Z***",
       "text_th": "เอาแครอทม่วงมาจากไหนหรอค่ะ",
-      "text_vn": "Lấy cà rốt tím ở đâu vậy ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cà rốt tím lấy ở đâu vậy ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -3994,7 +4095,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Hỏi lấy cà rốt tím ở đâu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Lấy cà rốt tím ở đâu vậy ạ?"
     },
     {
       "id": "facebook-e44d8f359bf04ace",
@@ -4038,8 +4140,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "แล้วเราบินหาผลยุตั้งนานมันตกอยู่ที่พื้ร",
-      "text_vn": "Vậy mà mình bay đi tìm quả mãi, hóa ra nó rơi dưới đất",
-      "translation_method": "machine_translation",
+      "text_vn": "Thế mà mình bay đi tìm quả khổng lồ mãi, hoá ra nó rơi dưới đất",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -4062,7 +4164,8 @@
         "trái cây"
       ],
       "summary_vn": "Kể bay tìm quả mãi, hóa ra rơi dưới đất",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Vậy mà mình bay đi tìm quả mãi, hóa ra nó rơi dưới đất"
     },
     {
       "id": "facebook-6d7d3c151815367b",
@@ -4072,8 +4175,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "ใช้ที่ขุดทุบครับ",
-      "text_vn": "Dùng dụng cụ đào để đập nhé",
-      "translation_method": "machine_translation",
+      "text_vn": "Dùng dụng cụ đào để đập nha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -4097,7 +4200,8 @@
         "đào kho báu"
       ],
       "summary_vn": "Chỉ dùng dụng cụ đào để đập",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Dùng dụng cụ đào để đập nhé"
     },
     {
       "id": "facebook-7051152aeeb7c17d",
@@ -4107,8 +4211,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ขอเล่นด้วยค่ะๆๆๆ",
-      "text_vn": "Cho mình chơi với nha nha",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho chơi với nha nha nha",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -4132,7 +4236,8 @@
       ],
       "summary_vn": "Xin được chơi cùng",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho mình chơi với nha nha"
     },
     {
       "id": "facebook-9d91a6d22660d1b2",
@@ -4142,8 +4247,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ŧ***",
       "text_th": "มาๆค่า",
-      "text_vn": "Tới đây nào",
-      "translation_method": "machine_translation",
+      "text_vn": "Vô đây vô đây",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -4167,7 +4272,8 @@
       ],
       "summary_vn": "Mời mọi người tới chơi",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tới đây nào"
     },
     {
       "id": "facebook-9c3c66bf33031a49",
@@ -4177,8 +4283,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "มาไวมาก ผม สงสัยว่ากล่องม่วงๆ กับกรวยจราจร ที่เป็นเหมือนปีศาจ ที่ให้จับได้ตอนนี้มันของกิจนี้เหรอดูไม่เข้าเลย หรือเป็นของกิจหน้า",
-      "text_vn": "Ra nhanh quá. Mình thắc mắc mấy hộp tím với cọc giao thông kiểu quái vật đang bắt được bây giờ là đồ của sự kiện này à, nhìn không hợp gì cả, hay là của sự kiện sau",
-      "translation_method": "machine_translation",
+      "text_vn": "Ra nhanh ghê. Mình thắc mắc mấy cái hộp tím với cọc giao thông kiểu quái vật đang bắt được bây giờ là của sự kiện này hả, nhìn chẳng ăn nhập gì cả, hay là của sự kiện sau?",
+      "translation_method": "ai_contextual",
       "sentiment": "Mixed",
       "topic": "Other",
       "topic_secondary": [],
@@ -4203,7 +4309,8 @@
       ],
       "summary_vn": "Thắc mắc hộp tím, cọc giao thông quái vật thuộc sự kiện nào",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Ra nhanh quá. Mình thắc mắc mấy hộp tím với cọc giao thông kiểu quái vật đang bắt được bây giờ là đồ của sự kiện này à, nhìn không hợp gì cả, hay là của sự kiện sau"
     },
     {
       "id": "facebook-210d0178d4db8a38",
@@ -4213,8 +4320,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "J***",
       "text_th": "อีเว้นใหม่พึ่งมาวันนี้ มีหลุดสปอยอีเว้นหน้าแล้วหรอ เร็วเกิ้นนน",
-      "text_vn": "Sự kiện mới vừa ra hôm nay mà đã lộ spoil sự kiện sau rồi à, nhanh quá trời",
-      "translation_method": "machine_translation",
+      "text_vn": "Sự kiện mới vừa ra hôm nay mà đã lộ spoil sự kiện sau rồi hả, nhanh quá vậy",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -4238,7 +4345,8 @@
         "cập nhật mới"
       ],
       "summary_vn": "Bất ngờ sự kiện mới vừa ra đã lộ spoil sự kiện sau",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Sự kiện mới vừa ra hôm nay mà đã lộ spoil sự kiện sau rồi à, nhanh quá trời"
     },
     {
       "id": "facebook-33cbf2bfd8197545",
@@ -4282,8 +4390,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ส่วนมากถ้าเป็นของอีเว้นมาแล้วไปจะออกง่ายงับ",
-      "text_vn": "Thường đồ của sự kiện đã qua rồi quay lại thì dễ ra nha",
-      "translation_method": "machine_translation",
+      "text_vn": "Thường thì đồ của sự kiện cũ quay lại sẽ dễ ra nha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -4307,7 +4415,8 @@
         "sự kiện"
       ],
       "summary_vn": "Cho biết đồ sự kiện cũ quay lại thường dễ ra",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Thường đồ của sự kiện đã qua rồi quay lại thì dễ ra nha"
     },
     {
       "id": "facebook-9a4ebe5ac79b071b",
@@ -4317,8 +4426,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "ทางนี้ได้มาแค่2 ต้นเองค่ะ",
-      "text_vn": "Bên này chỉ được có 2 cây thôi",
-      "translation_method": "machine_translation",
+      "text_vn": "Bên mình chỉ được có 2 cây thôi",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -4341,7 +4450,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Cho biết chỉ được có 2 cây",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bên này chỉ được có 2 cây thôi"
     },
     {
       "id": "facebook-70af7c4e78014d7b",
@@ -4351,8 +4461,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "โ***",
       "text_th": "เบ็ดฉลามโดนไปเท่าไหร่ฮ้ะ",
-      "text_vn": "Cần câu cá mập tốn bao nhiêu vậy?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cần câu cá mập tốn hết bao nhiêu vậy?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -4376,7 +4486,8 @@
         "giá vật phẩm"
       ],
       "summary_vn": "Hỏi cần câu cá mập tốn bao nhiêu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cần câu cá mập tốn bao nhiêu vậy?"
     },
     {
       "id": "facebook-72d5cda19cc2876e",
@@ -4422,8 +4533,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "K***",
       "text_th": "ดีมากครับพี่คุ้มจัดๆ",
-      "text_vn": "Tốt lắm anh ơi, quá hời",
-      "translation_method": "machine_translation",
+      "text_vn": "Tốt lắm anh, quá hời luôn",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -4446,7 +4557,8 @@
         "giá vật phẩm"
       ],
       "summary_vn": "Khen rất tốt, quá hời",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tốt lắm anh ơi, quá hời"
     },
     {
       "id": "facebook-10ec44252f66bd67",
@@ -4456,8 +4568,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "เบ็ดที่ขาดได้ขาดดีอัพดีแค่ใหนก็ขาดสนั่นยกให้เบ็ดนี้แหละ",
-      "text_vn": "Cần hay đứt thì vẫn đứt, nâng cấp cỡ nào cũng đứt tung, phải nói là cần này luôn",
-      "translation_method": "machine_translation",
+      "text_vn": "Cần câu mà đứt là đứt, nâng cấp cỡ nào cũng đứt cái phựt, nhường danh hiệu cho cây này luôn",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -4481,7 +4593,8 @@
       ],
       "summary_vn": "Chê cần câu này nâng cấp cỡ nào cũng đứt",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cần hay đứt thì vẫn đứt, nâng cấp cỡ nào cũng đứt tung, phải nói là cần này luôn"
     },
     {
       "id": "facebook-8c71c09e0a5c90a4",
@@ -4491,8 +4604,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ผมลบvngออก 4-5รอบแล้วนะ ก็กดตรงเริ่มบัญชีใหม่ละเข้าที่เราผูกผมก็เล่นได้ปกตินะครับ จขพ.ผูกอะไรไว้คับ",
-      "text_vn": "Mình đã xóa VNG 4–5 lần rồi, bấm bắt đầu tài khoản mới rồi đăng nhập bằng cái đã liên kết vẫn chơi bình thường. Chủ bài liên kết bằng gì vậy?",
-      "translation_method": "machine_translation",
+      "text_vn": "Mình xoá VNG đi 4-5 lần rồi, cứ bấm bắt đầu tài khoản mới rồi đăng nhập vào cái đã liên kết là chơi bình thường. Chủ thớt liên kết bằng gì vậy?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -4516,7 +4629,8 @@
         "đăng nhập"
       ],
       "summary_vn": "Chia sẻ xoá VNG nhiều lần vẫn đăng nhập tài khoản liên kết bình thường",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mình đã xóa VNG 4–5 lần rồi, bấm bắt đầu tài khoản mới rồi đăng nhập bằng cái đã liên kết vẫn chơi bình thường. Chủ bài liên kết bằng gì vậy?"
     },
     {
       "id": "facebook-ce342ff09b619e9c",
@@ -4526,8 +4640,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "เกินปายยย",
-      "text_vn": "Quá đỉnh luôn",
-      "translation_method": "machine_translation",
+      "text_vn": "Đỉnh quá trời",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -4551,7 +4665,8 @@
       ],
       "summary_vn": "Khen bài đăng quá đỉnh",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Quá đỉnh luôn"
     },
     {
       "id": "facebook-9e539c08c1085a68",
@@ -4561,8 +4676,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "ผมกด250หวังxไม่กล้ากดเยอะเลยมาทรงนี้",
-      "text_vn": "Mình quay 250 mong ra x mà không dám quay nhiều nên được thế này",
-      "translation_method": "machine_translation",
+      "text_vn": "Mình quay 250 lần mong ra đồ X, không dám quay nhiều nên ra được thế này",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -4585,7 +4700,8 @@
         "gacha"
       ],
       "summary_vn": "Khoe kết quả quay gacha 250 lần mong ra đồ hiếm",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mình quay 250 mong ra x mà không dám quay nhiều nên được thế này"
     },
     {
       "id": "facebook-a77110dbf4997693",
@@ -4595,8 +4711,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "โ***",
       "text_th": "ต้นข้าวราคาดีมากกก",
-      "text_vn": "Cây lúa giá tốt lắm",
-      "translation_method": "machine_translation",
+      "text_vn": "Cây lúa giá ngon quá",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -4620,7 +4736,8 @@
         "giá vật phẩm"
       ],
       "summary_vn": "Nhận xét cây lúa bán được giá tốt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cây lúa giá tốt lắm"
     },
     {
       "id": "facebook-9c5c1610f6274185",
@@ -4630,8 +4747,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "เ***",
       "text_th": "ราคาดีมั้ยคะแต่ละอย่าง",
-      "text_vn": "Mỗi loại giá có tốt không ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Mỗi loại bán giá có ngon không ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -4655,7 +4772,8 @@
         "giá vật phẩm"
       ],
       "summary_vn": "Hỏi giá bán từng loại cây trồng có tốt không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mỗi loại giá có tốt không ạ?"
     },
     {
       "id": "facebook-87d75fe811ef2d4a",
@@ -4665,8 +4783,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "M***",
       "text_th": "คำถามคืออัพ ไปแล้วปลูกอะไร",
-      "text_vn": "Câu hỏi là nâng cấp xong rồi trồng gì",
-      "translation_method": "machine_translation",
+      "text_vn": "Câu hỏi là nâng cấp xong rồi thì trồng gì?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -4690,7 +4808,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Hỏi nâng cấp nông trại xong nên trồng gì",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Câu hỏi là nâng cấp xong rồi trồng gì"
     },
     {
       "id": "facebook-19bba8842bc0ca43",
@@ -4700,8 +4819,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "ลาก่อนปังแดง5สถานะ17ลูก ไปดีมาดีนะลูกแมร่",
-      "text_vn": "Tạm biệt 17 quả bánh mì đỏ 5 trạng thái, đi bình an nhé mấy đứa con",
-      "translation_method": "machine_translation",
+      "text_vn": "Tạm biệt 17 quả \"bánh mì đỏ\" 5 hiệu ứng (?), đi bình an nha mấy đứa",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -4725,7 +4844,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Đùa tạm biệt 17 quả bánh mì đỏ 5 trạng thái",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tạm biệt 17 quả bánh mì đỏ 5 trạng thái, đi bình an nhé mấy đứa con"
     },
     {
       "id": "facebook-5487c87911121da7",
@@ -4735,8 +4855,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "มันช่วยอะไรหรอคับ ไม่รู้จริงๆ",
-      "text_vn": "Nó giúp được gì vậy, thật sự không biết",
-      "translation_method": "machine_translation",
+      "text_vn": "Nó có tác dụng gì vậy ạ? Mình không biết thật",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -4759,7 +4879,8 @@
         "vật phẩm"
       ],
       "summary_vn": "Hỏi món đồ này có công dụng gì",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nó giúp được gì vậy, thật sự không biết"
     },
     {
       "id": "facebook-cab39480e1c4757c",
@@ -4769,8 +4890,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "K***",
       "text_th": "ขิงอันโตๆๆ5555",
-      "text_vn": "Khoe cái to bự haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Khoe quả bự ghê ta hahaha",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -4794,7 +4915,8 @@
       ],
       "summary_vn": "Đùa khen quả khổng lồ to bự",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Khoe cái to bự haha"
     },
     {
       "id": "facebook-2f8315868010af19",
@@ -4804,8 +4926,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "อยู่เซิฟสยามรึเปล่าครับ555 พี่ชายอยู่ที่ไหน",
-      "text_vn": "Bạn ở server Siam à haha, anh trai ở đâu",
-      "translation_method": "machine_translation",
+      "text_vn": "Ở server Siam hả haha, anh ở đâu vậy",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -4828,7 +4950,8 @@
         "máy chủ siam"
       ],
       "summary_vn": "Hỏi bạn có ở server Siam không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bạn ở server Siam à haha, anh trai ở đâu"
     },
     {
       "id": "facebook-13157917a4620084",
@@ -4838,8 +4961,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "คนไทยชอบเล่นเซิฟสยามมมทาว",
-      "text_vn": "Người Thái thích chơi server Siam Town",
-      "translation_method": "machine_translation",
+      "text_vn": "Người Thái thích chơi server Siam Town ghê",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -4863,7 +4986,8 @@
       ],
       "summary_vn": "Nhận xét người Thái thích chơi server Siam Town",
       "sentiment_rule": "Positive",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Người Thái thích chơi server Siam Town"
     },
     {
       "id": "facebook-44a3193c4ecb72cb",
@@ -4873,8 +4997,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "สอบถามได้ไหมครับ กิจนี้ใช้ที่ขุดอันไหนดีสุดครับ(ถ้าไม่ใช่ที่ขุดอันไหม่)",
-      "text_vn": "Cho hỏi sự kiện này dùng dụng cụ đào nào tốt nhất vậy (nếu không phải cái mới)?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho mình hỏi sự kiện này dùng dụng cụ đào nào tốt nhất ạ (nếu không phải cái mới)",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -4898,7 +5022,8 @@
         "sự kiện"
       ],
       "summary_vn": "Hỏi nên dùng dụng cụ đào nào tốt nhất cho sự kiện",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho hỏi sự kiện này dùng dụng cụ đào nào tốt nhất vậy (nếu không phải cái mới)?"
     },
     {
       "id": "facebook-c4bab29b3ae990be",
@@ -4908,8 +5033,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "PT26OCTMONTHLY",
-      "text_vn": "PT26OCTMONTHLY (mã quà tặng)",
-      "translation_method": "machine_translation",
+      "text_vn": "PT26OCTMONTHLY",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -4932,7 +5057,8 @@
         "code quà tặng"
       ],
       "summary_vn": "Chia sẻ code quà tặng PT26OCTMONTHLY",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "PT26OCTMONTHLY (mã quà tặng)"
     },
     {
       "id": "facebook-49e5240a38379420",
@@ -4942,8 +5068,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "S***",
       "text_th": "จะหวานเกินหน้าเกินตาไปละนะ คู่นี้",
-      "text_vn": "Cặp này ngọt ngào quá đáng rồi đó",
-      "translation_method": "machine_translation",
+      "text_vn": "Cặp này ngọt quá lố rồi đó nha",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -4967,7 +5093,8 @@
       ],
       "summary_vn": "Trêu cặp đôi nhân vật quá ngọt ngào",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cặp này ngọt ngào quá đáng rồi đó"
     },
     {
       "id": "facebook-da99da41d2d3e140",
@@ -5011,8 +5138,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "ข***",
       "text_th": "เว่อร์มากกก",
-      "text_vn": "Quá đỉnh luôn",
-      "translation_method": "machine_translation",
+      "text_vn": "Đỉnh quá trời luôn",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -5036,7 +5163,8 @@
       ],
       "summary_vn": "Khen quá đỉnh",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Quá đỉnh luôn"
     },
     {
       "id": "facebook-456e7c086749f884",
@@ -5046,8 +5174,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "อะไรอ่ะ อิจฉาครับ 555",
-      "text_vn": "Gì vậy, ghen tị ghê haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Gì vậy trời, ghen tị ghê haha",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -5071,7 +5199,8 @@
       ],
       "summary_vn": "Bày tỏ ghen tị với thành quả người khác",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Gì vậy, ghen tị ghê haha"
     },
     {
       "id": "facebook-5856d1aed959be8e",
@@ -5081,8 +5210,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "พึ่งมาค่ะ",
-      "text_vn": "Vừa mới ra thôi",
-      "translation_method": "machine_translation",
+      "text_vn": "Mới ra ạ",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -5105,7 +5234,8 @@
         "cập nhật mới"
       ],
       "summary_vn": "Trả lời rằng món đồ vừa mới ra",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Vừa mới ra thôi"
     },
     {
       "id": "facebook-1c099f42fd560641",
@@ -5115,8 +5245,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "กรี๊ดดดด ขอดูดดวงหน่อยคร้าาา",
-      "text_vn": "Áaaa, cho xin hút vía may mắn với",
-      "translation_method": "machine_translation",
+      "text_vn": "Áaaa, cho hút vía may mắn với nha",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -5140,7 +5270,8 @@
       ],
       "summary_vn": "Xin hút vía may mắn từ bài khoe",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Áaaa, cho xin hút vía may mắn với"
     },
     {
       "id": "facebook-91bc1449a566b0de",
@@ -5150,8 +5281,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "น่าจะต้องใส่โค้ดก่อนมั้ยยย",
-      "text_vn": "Chắc phải nhập code trước nhỉ",
-      "translation_method": "machine_translation",
+      "text_vn": "Chắc phải nhập code trước không ta",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -5174,7 +5305,8 @@
         "code quà tặng"
       ],
       "summary_vn": "Gợi ý chắc phải nhập code trước",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Chắc phải nhập code trước nhỉ"
     },
     {
       "id": "facebook-cf9e65c380344393",
@@ -5184,8 +5316,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "ปัจจุบันเข้าได้รึยังครับ ผมเข้าได้ปกตินะ",
-      "text_vn": "Hiện tại vào được chưa? Mình vẫn vào bình thường",
-      "translation_method": "machine_translation",
+      "text_vn": "Giờ vào được chưa? Mình vẫn vào bình thường nha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -5208,7 +5340,8 @@
         "đăng nhập"
       ],
       "summary_vn": "Hỏi đã vào game được chưa, bản thân vẫn vào bình thường",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Hiện tại vào được chưa? Mình vẫn vào bình thường"
     },
     {
       "id": "facebook-4505c562f8a5f17d",
@@ -5218,8 +5351,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "PTGIANTVEGGIE  โค๊ด",
-      "text_vn": "PTGIANTVEGGIE – code",
-      "translation_method": "machine_translation",
+      "text_vn": "Code PTGIANTVEGGIE",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -5243,7 +5376,8 @@
         "rau khổng lồ"
       ],
       "summary_vn": "Chia sẻ code quà tặng PTGIANTVEGGIE",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "PTGIANTVEGGIE – code"
     },
     {
       "id": "facebook-5295dbe1c8be1553",
@@ -5253,8 +5387,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "PTGIANTVEGGIE",
-      "text_vn": "PTGIANTVEGGIE (mã quà tặng)",
-      "translation_method": "machine_translation",
+      "text_vn": "PTGIANTVEGGIE",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -5278,7 +5412,8 @@
         "rau khổng lồ"
       ],
       "summary_vn": "Chia sẻ code quà tặng PTGIANTVEGGIE",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "PTGIANTVEGGIE (mã quà tặng)"
     },
     {
       "id": "facebook-b064d1241fb8887a",
@@ -5288,8 +5423,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "พวกเหรียญจากกิจกรรมเก่าตอนนี้ไม่สามารถใช้ได้แล้วครับ เเลกเป็นเงินได้อย่างเดียวฮะ",
-      "text_vn": "Mấy đồng xu của sự kiện cũ hiện không dùng được nữa, chỉ đổi ra tiền được thôi",
-      "translation_method": "machine_translation",
+      "text_vn": "Mấy đồng xu từ sự kiện cũ giờ không dùng được nữa rồi, chỉ đổi ra tiền được thôi",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -5313,7 +5448,8 @@
         "sự kiện"
       ],
       "summary_vn": "Giải thích xu sự kiện cũ không dùng được, chỉ đổi ra tiền",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mấy đồng xu của sự kiện cũ hiện không dùng được nữa, chỉ đổi ra tiền được thôi"
     },
     {
       "id": "facebook-7315c15b0983cbed",
@@ -5323,8 +5459,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "ขอบคุณค่ะ ตอนแรกนึกว่าที่ข้างๆ เอาไว้วางของเฉยๆ",
-      "text_vn": "Cảm ơn nha, lúc đầu tưởng khu bên cạnh chỉ để đặt đồ thôi",
-      "translation_method": "machine_translation",
+      "text_vn": "Cảm ơn ạ, lúc đầu cứ tưởng khu bên cạnh chỉ để đặt đồ thôi",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -5347,7 +5483,8 @@
         "nông trại"
       ],
       "summary_vn": "Cảm ơn hướng dẫn, tưởng khu bên cạnh chỉ để đặt đồ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cảm ơn nha, lúc đầu tưởng khu bên cạnh chỉ để đặt đồ thôi"
     },
     {
       "id": "facebook-ca374861782ffef1",
@@ -5357,8 +5494,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "เงินหมดก่อนนน5555",
-      "text_vn": "Hết tiền trước rồi haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Hết tiền trước rồi hahaha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -5382,7 +5519,8 @@
         "gacha"
       ],
       "summary_vn": "Đùa hết tiền trước khi quay ra đồ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Hết tiền trước rồi haha"
     },
     {
       "id": "facebook-09361563724a15b2",
@@ -5426,8 +5564,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "T***",
       "text_th": "สะสมเพชรกว่าจะได้ งื้อออ",
-      "text_vn": "Tích kim cương mãi mới có, huhu",
-      "translation_method": "machine_translation",
+      "text_vn": "Tích kim cương mãi mới đủ, huhu",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -5451,7 +5589,8 @@
       ],
       "summary_vn": "Than tích kim cương mãi mới đủ",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tích kim cương mãi mới có, huhu"
     },
     {
       "id": "facebook-c3937e5b2e69e4ca",
@@ -5461,8 +5600,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "จริงคับ ผมเปิดหมดทุกช่องน่าจะ120m+ไม่ได้นับเหมือนกันกดรัวๆ",
-      "text_vn": "Đúng vậy, mình mở hết các ô chắc hơn 120 triệu, cũng không đếm, bấm liên tục",
-      "translation_method": "machine_translation",
+      "text_vn": "Thật đó, mình mở hết tất cả ô chắc tốn hơn 120M, cũng không đếm, cứ bấm liên tục",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -5486,7 +5625,8 @@
         "kiếm tiền trong game"
       ],
       "summary_vn": "Kể mở hết ô nông trại tốn hơn 120 triệu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Đúng vậy, mình mở hết các ô chắc hơn 120 triệu, cũng không đếm, bấm liên tục"
     },
     {
       "id": "facebook-6a64518f7550fc8e",
@@ -5496,8 +5636,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "M***",
       "text_th": "เราไม่รู้ กดใช้แต่เพชร เศร้ามากค่ะ 5555",
-      "text_vn": "Mình không biết, cứ bấm dùng kim cương thôi, buồn ghê haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Mình không biết, toàn bấm dùng kim cương, buồn ghê haha",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -5521,7 +5661,8 @@
       ],
       "summary_vn": "Than không biết nên cứ dùng kim cương, buồn",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mình không biết, cứ bấm dùng kim cương thôi, buồn ghê haha"
     },
     {
       "id": "facebook-3d5d20262aab45a5",
@@ -5531,8 +5672,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ดวงมากก",
-      "text_vn": "May quá trời",
-      "translation_method": "machine_translation",
+      "text_vn": "Hên quá trời",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -5556,7 +5697,8 @@
       ],
       "summary_vn": "Khen người khác may mắn",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "May quá trời"
     },
     {
       "id": "facebook-ead6001fb3080cae",
@@ -5566,8 +5708,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ผมได้ทั้งคู่เลย ดวงดีเวอร์",
-      "text_vn": "Mình được cả hai luôn, may dã man",
-      "translation_method": "machine_translation",
+      "text_vn": "Mình ra cả hai luôn, hên dữ",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -5591,7 +5733,8 @@
       ],
       "summary_vn": "Khoe quay được cả hai món, rất may",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mình được cả hai luôn, may dã man"
     },
     {
       "id": "facebook-97468d8d8874f4af",
@@ -5601,8 +5744,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "B***",
       "text_th": "เหมาทุกตู้เลยเศร้า",
-      "text_vn": "Bao trọn mọi máy luôn, buồn",
-      "translation_method": "machine_translation",
+      "text_vn": "Bao trọn hết mọi máy quay luôn, buồn",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -5626,7 +5769,8 @@
       ],
       "summary_vn": "Than quay bao trọn mọi máy gacha mà vẫn buồn",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bao trọn mọi máy luôn, buồn"
     },
     {
       "id": "facebook-42ce688459eca75c",
@@ -5636,8 +5780,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "อยากรู้ว่าการันตี /200 อยู่กี่วันหรอครับ",
-      "text_vn": "Muốn biết bảo hiểm /200 kéo dài bao nhiêu ngày vậy?",
-      "translation_method": "machine_translation",
+      "text_vn": "Muốn hỏi bảo hiểm /200 kéo dài mấy ngày vậy ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -5660,7 +5804,8 @@
         "gacha"
       ],
       "summary_vn": "Hỏi bảo hiểm gacha /200 kéo dài bao nhiêu ngày",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Muốn biết bảo hiểm /200 kéo dài bao nhiêu ngày vậy?"
     },
     {
       "id": "facebook-ffd2985c42692429",
@@ -5670,8 +5815,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "แพทนี้มาเท่5555",
-      "text_vn": "Bản cập nhật này ngầu quá haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Bản cập nhật này ngầu ghê haha",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -5695,7 +5840,8 @@
       ],
       "summary_vn": "Khen bản cập nhật này ngầu",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bản cập nhật này ngầu quá haha"
     },
     {
       "id": "facebook-f6c4808f25bf6b3e",
@@ -5739,8 +5885,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "รวมร่างแบบ สาดไปสมาชิก5555",
-      "text_vn": "Hợp thể kiểu tung hết các thành viên haha",
-      "translation_method": "machine_translation",
+      "text_vn": "Hợp thể luôn các thành viên ơi hahaha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -5763,7 +5909,8 @@
         "trang phục"
       ],
       "summary_vn": "Đùa kiểu hợp thể siêu nhân",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Hợp thể kiểu tung hết các thành viên haha"
     },
     {
       "id": "facebook-9d4ac58cf99ba585",
@@ -5773,8 +5920,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "D***",
       "text_th": "กรี๊ดดดดดดดดดดดดดดดด ชุด ผช เติมอีกแล้วววววววววววว",
-      "text_vn": "Áaaaaa, đồ nam lại có gói nạp nữa rồiiii",
-      "translation_method": "machine_translation",
+      "text_vn": "Áaaaaa, lại có bộ đồ nam nạp tiền nữa rồiiii",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -5799,7 +5946,8 @@
       ],
       "summary_vn": "Phấn khích vì có gói nạp đồ nam mới",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Áaaaaa, đồ nam lại có gói nạp nữa rồiiii"
     },
     {
       "id": "facebook-a5ae419b1fed70fd",
@@ -5809,8 +5957,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "K***",
       "text_th": "อายุไม่ถึงเข้าได้มั้ยคะ🫪",
-      "text_vn": "Chưa đủ tuổi vào được không ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Chưa đủ tuổi có vào được không ạ? 🫪",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -5833,7 +5981,8 @@
         "đăng nhập"
       ],
       "summary_vn": "Hỏi chưa đủ tuổi có vào được không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Chưa đủ tuổi vào được không ạ?"
     },
     {
       "id": "facebook-1f627eb8193d85d6",
@@ -5843,8 +5992,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "K***",
       "text_th": "สจ ครับพี่",
-      "text_vn": "Gửi tin nhắn riêng nhé anh/chị",
-      "translation_method": "machine_translation",
+      "text_vn": "Inbox rồi nha anh",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -5867,7 +6016,8 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Nhắn sẽ gửi tin nhắn riêng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Gửi tin nhắn riêng nhé anh/chị"
     },
     {
       "id": "facebook-993d09e9160be0dd",
@@ -5877,8 +6027,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "สุ่มกาชาบ่อย ๆ ครับ",
-      "text_vn": "Quay gacha thường xuyên nha",
-      "translation_method": "machine_translation",
+      "text_vn": "Quay gacha thường xuyên vào nha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -5901,7 +6051,8 @@
         "gacha"
       ],
       "summary_vn": "Khuyên quay gacha thường xuyên",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Quay gacha thường xuyên nha"
     },
     {
       "id": "facebook-713093d7396674e2",
@@ -5911,8 +6062,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ตัวเองต้องไปอีกโซนค่ะ โซนที่มีพวกน้ำตาลค่ะ",
-      "text_vn": "Bạn phải sang khu khác nha, khu có mấy thứ màu nâu",
-      "translation_method": "machine_translation",
+      "text_vn": "Bạn phải qua khu khác nha, khu có mấy món màu nâu đó",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -5935,7 +6086,8 @@
         "nông trại"
       ],
       "summary_vn": "Chỉ cần sang khu khác có vật màu nâu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bạn phải sang khu khác nha, khu có mấy thứ màu nâu"
     },
     {
       "id": "facebook-f2e0cde90f7d1cc0",
@@ -5945,8 +6097,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "ต้องไปโหลดตัวเกมเก่ากลับมาก่อนค่ะ ไปเอาโค้ดมาใส่ของตัวนี้ถึงจะเข้าได้คั้บ",
-      "text_vn": "Phải tải lại bản game cũ trước, lấy mã rồi nhập vào bản này mới vào được nha",
-      "translation_method": "machine_translation",
+      "text_vn": "Phải tải lại bản game cũ về trước, lấy mã rồi nhập vào bản này mới vào được nha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -5970,7 +6122,8 @@
         "phiên bản cũ"
       ],
       "summary_vn": "Hướng dẫn tải lại bản cũ lấy mã để vào bản VNG",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phải tải lại bản game cũ trước, lấy mã rồi nhập vào bản này mới vào được nha"
     },
     {
       "id": "facebook-2b04d247b041f202",
@@ -5980,8 +6133,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "S***",
       "text_th": "มีแบบที่เธอมีอีก3ตัวแล้วเอามาผสม",
-      "text_vn": "Có thêm 3 con giống bạn rồi đem ghép lại",
-      "translation_method": "machine_translation",
+      "text_vn": "Kiếm thêm 3 con giống con bạn đang có rồi đem ghép",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -6004,7 +6157,8 @@
         "thú cưng"
       ],
       "summary_vn": "Hướng dẫn kiếm thêm 3 con giống nhau để ghép",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Có thêm 3 con giống bạn rồi đem ghép lại"
     },
     {
       "id": "facebook-8934c6d9552b9f61",
@@ -6049,8 +6203,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "อ้าวตอนแรกก็หลงคิดว่าเอารถมาแข่งกันจบเลย",
-      "text_vn": "Ơ, lúc đầu tưởng đem xe ra đua nhau là xong",
-      "translation_method": "machine_translation",
+      "text_vn": "Ơ, lúc đầu cứ tưởng đem xe ra đua với nhau là xong luôn",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -6073,7 +6227,8 @@
         "phương tiện"
       ],
       "summary_vn": "Tưởng chỉ cần đem xe ra đua là xong",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Ơ, lúc đầu tưởng đem xe ra đua nhau là xong"
     },
     {
       "id": "facebook-6aaa05d7bd1d667e",
@@ -6083,8 +6238,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "ชุดอาบน้ำ??",
-      "text_vn": "Đồ tắm??",
-      "translation_method": "machine_translation",
+      "text_vn": "Đồ tắm hả??",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -6107,7 +6262,8 @@
         "trang phục"
       ],
       "summary_vn": "Thắc mắc đó có phải đồ tắm không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Đồ tắm??"
     },
     {
       "id": "facebook-f884fa247050c1c7",
@@ -6117,7 +6273,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "O***",
       "text_th": "สวัสดีฤดูใบไม้ร่วงค้าบ ทุกคนนนIGN : oofza123",
-      "text_vn": "Chào mùa thu mọi ngườiii IGN: oofza123",
+      "text_vn": "Chào mùa thu nha mọi người ơi! IGN: oofza123",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -6137,7 +6293,7 @@
         "comment_count": "4"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "mùa thu",
@@ -6146,7 +6302,8 @@
       ],
       "summary_vn": "Đăng ảnh chào mùa thu tham gia sự kiện, kèm IGN",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Chào mùa thu mọi ngườiii IGN: oofza123"
     },
     {
       "id": "facebook-3d910a2d3f8ffb9a",
@@ -6156,7 +6313,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "T***",
       "text_th": "สวัสดีฤดูใบไม้ร่วงค้าบ ทุกคนนนIGN : Panlimin",
-      "text_vn": "Chào mùa thu mọi ngườiii IGN: Panlimin",
+      "text_vn": "Chào mùa thu nha mọi người ơi! IGN: Panlimin",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -6177,7 +6334,7 @@
         "comment_count": "4"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "mùa thu",
@@ -6186,7 +6343,8 @@
       ],
       "summary_vn": "Đăng ảnh chào mùa thu tham gia sự kiện, kèm IGN",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Chào mùa thu mọi ngườiii IGN: Panlimin"
     },
     {
       "id": "facebook-5bca12efca78df47",
@@ -6196,7 +6354,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "จะทำยังไงก็ไม่ยักกกกกกกก IGN : βυиичρℓчˇᴴᴾ",
-      "text_vn": "Làm thế nào cũng không khổng lồ đượccc IGN: βυиичρℓчˇᴴᴾ",
+      "text_vn": "Làm kiểu gì cũng không khổng lồ hết trơnnn IGN: βυиичρℓчˇᴴᴾ",
       "sentiment": "Mixed",
       "topic": "Other",
       "topic_secondary": [],
@@ -6217,7 +6375,7 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "rau khổng lồ",
@@ -6226,7 +6384,8 @@
       ],
       "summary_vn": "Đăng ảnh dự thi, than làm mãi cây không khổng lồ",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Làm thế nào cũng không khổng lồ đượccc IGN: βυиичρℓчˇᴴᴾ"
     },
     {
       "id": "facebook-b82faee43d36ee21",
@@ -6271,7 +6430,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "สวนดอกไม้ กับเหล่าสัตว์เลี้ยงจอมซนค่าชอบมารุมมากๆ โดยเฉพาะตอนลงเมล็ด บังจนมองไม่เห็นอะไรเลย IGN : SummerXIX",
-      "text_vn": "Vườn hoa với đám thú cưng nghịch ngợm, rất hay xúm lại, nhất là lúc gieo hạt, che kín không thấy gì luôn IGN: SummerXIX",
+      "text_vn": "Vườn hoa với đám thú cưng nghịch ngợm, tụi nó thích xúm lại lắm, nhất là lúc gieo hạt, che kín không thấy gì luôn. IGN: SummerXIX",
       "sentiment": "Positive",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -6291,7 +6450,7 @@
         "comment_count": "6"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "nông trại",
@@ -6299,7 +6458,8 @@
         "cuộc thi ảnh"
       ],
       "summary_vn": "Khoe vườn hoa với thú cưng xúm lại, tham gia sự kiện",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Vườn hoa với đám thú cưng nghịch ngợm, rất hay xúm lại, nhất là lúc gieo hạt, che kín không thấy gì luôn IGN: SummerXIX"
     },
     {
       "id": "facebook-67deac3d4584a46d",
@@ -6346,7 +6506,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "ต้าวววเกาลั๊ดดดดดดดด  IGN : Lullabela",
-      "text_vn": "Bé hạt dẻeeee IGN: Lullabela",
+      "text_vn": "Hạt dẻ đâyyyyy IGN: Lullabela",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -6366,7 +6526,7 @@
         "comment_count": "1"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "mùa thu",
@@ -6375,7 +6535,8 @@
       ],
       "summary_vn": "Khoe hạt dẻ trong nông trại tham gia sự kiện",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bé hạt dẻeeee IGN: Lullabela"
     },
     {
       "id": "facebook-a570e3767ad4af0c",
@@ -6385,7 +6546,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "E***",
       "text_th": "เกาลัดพันธ์อึ่งไข่ค่ะ IGN :  ᴥペンギンᴥ",
-      "text_vn": "Hạt dẻ giống ếch ương đầy trứng ạ IGN: ᴥペンギンᴥ",
+      "text_vn": "Hạt dẻ sai trĩu quả luôn ạ. IGN: ᴥペンギンᴥ",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -6406,7 +6567,7 @@
         "comment_count": "6"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "mùa thu",
@@ -6415,7 +6576,8 @@
       ],
       "summary_vn": "Khoe hạt dẻ đầy trái tham gia sự kiện",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Hạt dẻ giống ếch ương đầy trứng ạ IGN: ᴥペンギンᴥ"
     },
     {
       "id": "facebook-b0c80f8b0c2b05fb",
@@ -6425,7 +6587,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "E***",
       "text_th": "พาเด็กๆมาทักทายงานกิจกรรมค่ะIGN: ᙏfUyUnOiᴿⁱ",
-      "text_vn": "Dẫn các bé đến chào sự kiện ạ IGN: ᙏfUyUnOiᴿⁱ",
+      "text_vn": "Dẫn tụi nhỏ đến chào sự kiện nè. IGN: ᙏfUyUnOiᴿⁱ",
       "sentiment": "Positive",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -6446,7 +6608,7 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "mùa thu",
@@ -6455,7 +6617,8 @@
       ],
       "summary_vn": "Dẫn thú cưng đến chào sự kiện mùa thu",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Dẫn các bé đến chào sự kiện ạ IGN: ᙏfUyUnOiᴿⁱ"
     },
     {
       "id": "facebook-5a263d386f47a9b4",
@@ -6465,7 +6628,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "เกาลัดลูกนี้ดำจังละIGN : ᴜꜱʜɪᴏɴᴏᴀ",
-      "text_vn": "Hạt dẻ này đen ghê IGN: ᴜꜱʜɪᴏɴᴏᴀ",
+      "text_vn": "Quả hạt dẻ này đen ghê. IGN: ᴜꜱʜɪᴏɴᴏᴀ",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -6487,7 +6650,7 @@
         "comment_count": "11"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "mùa thu",
@@ -6495,7 +6658,8 @@
         "cuộc thi ảnh"
       ],
       "summary_vn": "Đăng ảnh hạt dẻ màu đen tham gia sự kiện",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Hạt dẻ này đen ghê IGN: ᴜꜱʜɪᴏɴᴏᴀ"
     },
     {
       "id": "facebook-09bb429ff486b282",
@@ -6505,7 +6669,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "T***",
       "text_th": "รักเทศกาลนี้มากก เกาลัดลูกโตๆจ้า",
-      "text_vn": "Yêu lễ hội này lắm, hạt dẻ to đùng nè",
+      "text_vn": "Yêu lễ hội này lắm luôn, hạt dẻ quả to bự nè",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -6526,7 +6690,7 @@
         "comment_count": "4"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "mùa thu",
@@ -6534,7 +6698,8 @@
         "cuộc thi ảnh"
       ],
       "summary_vn": "Khoe hạt dẻ to, bày tỏ yêu lễ hội mùa thu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Yêu lễ hội này lắm, hạt dẻ to đùng nè"
     },
     {
       "id": "facebook-510d6ce03b78b850",
@@ -6544,7 +6709,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "M***",
       "text_th": "I LOVE's ต้นเกาลัค IGN : Ｒᴥｓｅｍａｒｙ",
-      "text_vn": "Mình YÊU cây hạt dẻ IGN: Ｒᴥｓｅｍａｒｙ",
+      "text_vn": "Yêu cây hạt dẻ lắm luôn. IGN: Ｒᴥｓｅｍａｒｙ",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -6565,7 +6730,7 @@
         "comment_count": "4"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "mùa thu",
@@ -6573,7 +6738,8 @@
         "cuộc thi ảnh"
       ],
       "summary_vn": "Khoe yêu cây hạt dẻ, tham gia sự kiện",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mình YÊU cây hạt dẻ IGN: Ｒᴥｓｅｍａｒｙ"
     },
     {
       "id": "facebook-2fdc79e714b9ed29",
@@ -6583,7 +6749,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "ลุ้นทุกชั่วโมง เกาลัดดดดด",
-      "text_vn": "Hồi hộp từng giờ, hạt dẻeee",
+      "text_vn": "Hồi hộp từng giờ luôn, hạt dẻ ơiii",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -6604,7 +6770,7 @@
         "comment_count": "7"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "mùa thu",
@@ -6613,7 +6779,8 @@
       ],
       "summary_vn": "Khoe hạt dẻ, hồi hộp chờ từng giờ",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Hồi hộp từng giờ, hạt dẻeee"
     },
     {
       "id": "facebook-53a2a8cd68fee41e",
@@ -6662,7 +6829,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "ฤดูใบไม้ร่วงมาถึงเกาะไกอาแล้ววว! ถึงเวลาที่ฟาร์มของคุณนั้นจะได้เฉิดฉายล้าววว  เพียงแค่ถ่ายรูปฟาร์มของคุณโพสต์ลงในกลุ่ม Play Together VNG Thailand Official แล้วกรอกแบบฟอร์มเพื่อยืนยันการเข้าร่วมกิจกรรมแค่นี้ก็มีสิทธิ์ลุ้นรับของรางวัลกันแล้ว!แจกทั้งหมดถึง 250 รางวัล!  ส่งแบบฟอร์มเข้าร่วมกิจกรรม: https://forms.gle/mNCsy7qjVYEA72pX6 หมดเขตกิจกรรม: 13/10/2026 เวลา 23:59 น.มาอวดฟาร์มในฤดูใบไม้ร่วงของทุกคนกันเยอะ ๆ น้า",
-      "text_vn": "Mùa thu đã đến đảo Kaia rồiii! Đến lúc nông trại của bạn tỏa sáng rồi! Chỉ cần chụp ảnh nông trại của bạn, đăng vào nhóm Play Together VNG Thailand Official rồi điền form xác nhận tham gia là có cơ hội nhận quà! Tổng cộng 250 phần quà! Gửi form tham gia: https://forms.gle/mNCsy7qjVYEA72pX6 Hạn chót: 13/10/2026 lúc 23:59. Mọi người khoe nông trại mùa thu thật nhiều nhé",
+      "text_vn": "Mùa thu đã đến đảo Kaia rồi! Đến lúc nông trại của bạn toả sáng rồi đây! Chỉ cần chụp ảnh nông trại của bạn đăng vào group Play Together VNG Thailand Official, rồi điền form xác nhận tham gia sự kiện là có cơ hội nhận quà rồi! Tổng cộng có đến 250 phần quà! Gửi form tham gia sự kiện: https://forms.gle/mNCsy7qjVYEA72pX6 Hạn chót: 13/10/2026 lúc 23:59. Mọi người vào khoe nông trại mùa thu thật nhiều nha!",
       "sentiment": "Positive",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -6683,7 +6850,7 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "mùa thu",
@@ -6693,7 +6860,8 @@
       ],
       "summary_vn": "Thông báo sự kiện khoe nông trại mùa thu, 250 phần quà",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mùa thu đã đến đảo Kaia rồiii! Đến lúc nông trại của bạn tỏa sáng rồi! Chỉ cần chụp ảnh nông trại của bạn, đăng vào nhóm Play Together VNG Thailand Official rồi điền form xác nhận tham gia là có cơ hội nhận quà! Tổng cộng 250 phần quà! Gửi form tham gia: https://forms.gle/mNCsy7qjVYEA72pX6 Hạn chót: 13/10/2026 lúc 23:59. Mọi người khoe nông trại mùa thu thật nhiều nhé"
     },
     {
       "id": "facebook-16b71900feccd58b",
@@ -6703,7 +6871,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "S***",
       "text_th": "ลงรัวๆค่า 50+ ได้ตอนนี้",
-      "text_vn": "Đăng liên tục luôn, giờ được 50+ rồi",
+      "text_vn": "Trồng liên tục luôn, giờ được hơn 50 rồi",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -6721,14 +6889,15 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "share",
       "keywords": [
         "nông trại",
         "trồng trọt"
       ],
       "summary_vn": "Kể trồng liên tục, đã được hơn 50",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Đăng liên tục luôn, giờ được 50+ rồi"
     },
     {
       "id": "facebook-33c0ece009e494ac",
@@ -6772,7 +6941,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "PT26OCTMONTHLY",
-      "text_vn": "PT26OCTMONTHLY (mã quà tặng)",
+      "text_vn": "PT26OCTMONTHLY",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -6790,13 +6959,14 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "code quà tặng"
       ],
       "summary_vn": "Chia sẻ code quà tặng PT26OCTMONTHLY",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "PT26OCTMONTHLY (mã quà tặng)"
     },
     {
       "id": "facebook-35ec9929d4055750",
@@ -6806,7 +6976,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "เค้าลบโหลดใหม่ 55555",
-      "text_vn": "Người ta xóa tải lại haha",
+      "text_vn": "Người ta xoá rồi tải lại đó hahaha",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -6824,13 +6994,14 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "answer",
       "keywords": [
         "tải game"
       ],
       "summary_vn": "Đùa rằng người ta xoá game tải lại",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Người ta xóa tải lại haha"
     },
     {
       "id": "facebook-35963745a4736495",
@@ -6840,7 +7011,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "แก้ปัญหาได้อ้ะยัง ปกติแล้วแอปจะสามารถโหลดกลับมาจากประวัติดาวโหลดได้ครับ",
-      "text_vn": "Giải quyết được chưa? Bình thường app có thể tải lại từ lịch sử tải xuống mà",
+      "text_vn": "Xử lý được chưa? Bình thường app có thể tải lại từ lịch sử tải xuống được nha",
       "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -6858,14 +7029,15 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "answer",
       "keywords": [
         "tải game"
       ],
       "summary_vn": "Hỏi đã xử lý chưa, chỉ cách tải lại app từ lịch sử",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Giải quyết được chưa? Bình thường app có thể tải lại từ lịch sử tải xuống mà"
     },
     {
       "id": "facebook-cdca376739ee6d60",
@@ -6875,7 +7047,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "ห***",
       "text_th": "PTGIANTVEGGIE",
-      "text_vn": "PTGIANTVEGGIE (mã quà tặng)",
+      "text_vn": "PTGIANTVEGGIE",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -6893,14 +7065,15 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "code quà tặng",
         "rau khổng lồ"
       ],
       "summary_vn": "Chia sẻ code quà tặng PTGIANTVEGGIE",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "PTGIANTVEGGIE (mã quà tặng)"
     },
     {
       "id": "facebook-326185fee183c9c7",
@@ -6910,7 +7083,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "ก***",
       "text_th": "ผสมยังไงค่ะ",
-      "text_vn": "Phối thế nào vậy ạ?",
+      "text_vn": "Ghép kiểu gì vậy ạ?",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -6928,13 +7101,14 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "question",
       "keywords": [
         "thú cưng"
       ],
       "summary_vn": "Hỏi cách ghép thú cưng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phối thế nào vậy ạ?"
     },
     {
       "id": "facebook-0957dff882fe8e1a",
@@ -6944,7 +7118,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "S***",
       "text_th": "They are so cute<3",
-      "text_vn": "Chúng dễ thương quá <3",
+      "text_vn": "Tụi nó dễ thương quá <3",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -6962,13 +7136,14 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "praise",
       "keywords": [
         "thú cưng"
       ],
       "summary_vn": "Khen thú cưng dễ thương",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Chúng dễ thương quá <3"
     },
     {
       "id": "facebook-fbdca7f812b421e6",

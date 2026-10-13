@@ -124,7 +124,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "แ***",
       "text_th": "อัปเดต. เกมดีมาก แต่อยากให้มีหลอดแสดงสถานะ การกิน การนอน อาบน้ำ \nแล้วก็มีก็มีงานทำเพิ่มขึ้น",
-      "text_vn": "Game rất tốt. Mong có thanh trạng thái ăn, ngủ, tắm và thêm nhiều công việc.",
+      "text_vn": "Cập nhật. Game hay lắm, nhưng mong có thanh trạng thái ăn, ngủ, tắm, rồi có thêm việc làm nữa.",
       "sentiment": "Positive",
       "confidence": 0.86,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
@@ -141,7 +141,9 @@
       ],
       "summary_vn": "Mong có thanh trạng thái ăn, ngủ, tắm và thêm việc làm",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Game rất tốt. Mong có thanh trạng thái ăn, ngủ, tắm và thêm nhiều công việc.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-bb4fb50c33e7283d",
@@ -149,7 +151,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "M***",
       "text_th": "เคยลบไปไหม่แล้วอยากกลับไปเล่นพอโหลดมาอีกครั้งก็โหลดข้อมูลไม่ได้เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุเราเสียใจมากเสียดายของพื้นที่เก็บข้อมูลก็มีเยอะลบแอปแล้วโหลดไหม่ก็ไม่ได้ผลรีเครื่องแล้วก็ไม่ได้อยากเล่นมากแต่ไม่รู้มีวิธีแก้ยังไง",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Từng xoá game, giờ muốn quay lại chơi, tải về lại thì không tải được dữ liệu, báo lỗi không rõ nguyên nhân. Mình buồn lắm, tiếc đồ. Bộ nhớ còn nhiều, xoá app tải lại cũng không được, khởi động lại máy cũng không được. Muốn chơi lắm mà không biết cách khắc phục.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -166,7 +168,9 @@
         "tải game"
       ],
       "summary_vn": "Tải lại game không tải được dữ liệu, báo lỗi không rõ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-ccffa01fe2816c41",
@@ -174,7 +178,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "L***",
       "text_th": "omggggg",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Trời ơiiiii (omg)",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -190,7 +194,9 @@
         "bình luận ngắn"
       ],
       "summary_vn": "Bình luận cảm thán ngắn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

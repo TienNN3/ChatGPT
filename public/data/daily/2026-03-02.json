@@ -106,7 +106,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "L***",
       "text_th": "ความสุข. ชอบในความเป็นกันเองและภาพสวยอีกอย่างมีอะไรน่าเล่นมากมายให้เราได้เล่น",
-      "text_vn": "Người chơi thích không khí thân thiện, hình ảnh đẹp và có nhiều hoạt động để chơi.",
+      "text_vn": "Hạnh phúc. Thích sự thân thiện gần gũi, hình ảnh đẹp, lại có rất nhiều thứ hay ho cho mình chơi",
       "sentiment": "Positive",
       "confidence": 0.86,
       "topic": "Other",
@@ -121,7 +121,9 @@
         "đồ họa"
       ],
       "summary_vn": "Khen không khí thân thiện, hình ảnh đẹp, nhiều hoạt động",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Người chơi thích không khí thân thiện, hình ảnh đẹp và có nhiều hoạt động để chơi.",
+      "translation_method": "ai_contextual"
     }
   ],
   "ratings": [

@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "O***",
       "text_th": "ก่อนหน้านั้นสนุกกว่านี้",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Trước đây vui hơn bây giờ",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -24,7 +24,9 @@
         "độ vui giảm"
       ],
       "summary_vn": "Cho rằng game trước đây vui hơn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

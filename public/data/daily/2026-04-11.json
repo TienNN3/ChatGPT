@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "p***",
       "text_th": "น่ารักมากก",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Dễ thương quáá.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -24,7 +24,9 @@
         "ngoại hình nhân vật"
       ],
       "summary_vn": "Khen game dễ thương",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-98701d57f3736e0d",
@@ -32,7 +34,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "พ***",
       "text_th": "เกมน่ารักมากก",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game dễ thương quáá.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -48,7 +50,9 @@
         "ngoại hình nhân vật"
       ],
       "summary_vn": "Khen game rất dễ thương",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-c8a03a9c653cec21",
@@ -56,7 +60,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "J***",
       "text_th": "สนุกมากๆ",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui lắm luôn.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -72,7 +76,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game rất vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

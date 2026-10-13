@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "S***",
       "text_th": "เป็นเกมที่สนุกมากเลยฉันชอบมากๆ",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game vui lắm, mình rất thích.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -24,7 +24,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game rất vui, rất thích",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-b7a2c5476efac7d6",
@@ -32,7 +34,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ก***",
       "text_th": "เกมดีสนุกมากกเงินเพชรก้ได้มาง่ายๆไม่ต้องหาอ่ะไรมากของฟรีเยอะแนะนำเรยเกมนี้สนุกมากกก",
-      "text_vn": "Phản hồi tích cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game hay, vui lắm, tiền với kim cương kiếm dễ, không phải tìm tòi gì nhiều, đồ miễn phí nhiều. Recommend luôn, game này vui cực!",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Gacha / Shop / Pricing",
@@ -48,7 +50,9 @@
         "kim cương"
       ],
       "summary_vn": "Khen dễ kiếm tiền, kim cương, nhiều đồ miễn phí",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-07f277c07f77887a",
@@ -56,7 +60,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "d***",
       "text_th": "ให้อัปเดตเยอะเกินไปบางครั้งจะเล่นแล้วกำลังทำความสะอาดอย่างอื่นสนุกค่ะ",
-      "text_vn": "Phản hồi trái chiều về sự kiện và nội dung cập nhật. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Bắt cập nhật nhiều quá, có lúc định vào chơi thì lại đang bận dọn dẹp việc khác (?). Game vui ạ.",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Event & Update content",
@@ -72,7 +76,9 @@
         "cập nhật mới"
       ],
       "summary_vn": "Khen vui nhưng phàn nàn cập nhật quá nhiều",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về sự kiện và nội dung cập nhật. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

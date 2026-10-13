@@ -146,8 +146,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "ไปห้องไหนก็เจอ Med noon มีกลัวบ้างแหละ",
-      "text_vn": "Đi đến bất kỳ phòng nào và bạn sẽ tìm thấy Med buổi trưa. Một số người sợ hãi.",
-      "translation_method": "machine_translation",
+      "text_vn": "Vào phòng nào cũng gặp Med noon, cũng hơi sợ đấy.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -170,7 +170,8 @@
         "minigame"
       ],
       "summary_vn": "Nói vào phòng nào cũng gặp Med noon, hơi sợ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Đi đến bất kỳ phòng nào và bạn sẽ tìm thấy Med buổi trưa. Một số người sợ hãi."
     },
     {
       "id": "facebook-8c355a675880b03c",
@@ -180,8 +181,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "เล่น 12 id แค่ขยันกว่าชาวบ้าน ไม่ใช่โปรจ้าาา",
-      "text_vn": "Chơi 12 id chỉ là chăm chỉ hơn người khác thôi. Không phải là một chương trình khuyến mãi.",
-      "translation_method": "machine_translation",
+      "text_vn": "Chơi 12 tài khoản, chỉ là chăm hơn người khác thôi, không phải hack đâu nhaaa",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -204,7 +205,8 @@
         "kiếm tiền trong game"
       ],
       "summary_vn": "Khẳng định chơi 12 tài khoản do chăm chỉ, không phải hack",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Chơi 12 id chỉ là chăm chỉ hơn người khác thôi. Không phải là một chương trình khuyến mãi."
     },
     {
       "id": "facebook-59e06236aa84c54d",
@@ -214,7 +216,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "ของในพาสจะมีวนมาให้ซื้อบ้างไหมคะ ซีที่แล้วไม่ทัน",
-      "text_vn": "Người chơi hỏi vật phẩm của pass cũ có quay lại để mua hay không vì đã bỏ lỡ mùa trước.",
+      "text_vn": "Đồ trong pass có quay lại cho mua không ạ? Mùa trước mình không kịp.",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [
@@ -240,7 +242,9 @@
         "cửa hàng"
       ],
       "summary_vn": "Hỏi vật phẩm pass cũ có quay lại bán không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Người chơi hỏi vật phẩm của pass cũ có quay lại để mua hay không vì đã bỏ lỡ mùa trước.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "facebook-0bae01ab04fbe6f1",
@@ -250,8 +254,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "จะมีมาในรูปแบบของกล่องสุ่มครับ",
-      "text_vn": "Nó sẽ có dạng một hộp ngẫu nhiên.",
-      "translation_method": "machine_translation",
+      "text_vn": "Sẽ quay lại dưới dạng hộp quay nha.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -275,7 +279,8 @@
         "gacha"
       ],
       "summary_vn": "Trả lời đồ pass cũ sẽ quay lại dạng hộp ngẫu nhiên",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nó sẽ có dạng một hộp ngẫu nhiên."
     },
     {
       "id": "facebook-464a92d92a2cb883",
@@ -285,8 +290,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "ทางนี้กดซื้อแล้วว $20.95 5555",
-      "text_vn": "Bằng cách này, bấm vào để mua. $20,95 5555",
-      "translation_method": "machine_translation",
+      "text_vn": "Bên này bấm mua rồi nha, $20.95 haha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -310,7 +315,8 @@
         "nạp tiền"
       ],
       "summary_vn": "Khoe đã bấm mua giá 20.95 đô",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bằng cách này, bấm vào để mua. $20,95 5555"
     },
     {
       "id": "facebook-656f6e5492d99cfb",
@@ -320,8 +326,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "ถ้าเชื่อม VNG มันเข้าในสตรีมได้อยู่ไหม",
-      "text_vn": "Nếu mình kết nối VNG thì có cắm vào streaming được không?",
-      "translation_method": "machine_translation",
+      "text_vn": "Nếu liên kết VNG rồi thì vẫn vào chơi bằng Steam được không?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -347,7 +353,8 @@
         "đăng nhập"
       ],
       "summary_vn": "Hỏi liên kết VNG rồi có đăng nhập qua Steam được không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nếu mình kết nối VNG thì có cắm vào streaming được không?"
     },
     {
       "id": "facebook-6e7a6c235b8b05f1",
@@ -357,8 +364,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "เอฟเฟ็คเบ็ด ของคอลเลคชั่นการ์ดฤดูนี้ค่ะน่ารักดีตรีม ฮาโลวีน ส่วนออฟชั่นเบ็ด เหมือนไว้ตกปลาจิ๋ว",
-      "text_vn": "Hiệu ứng móc câu của bộ sưu tập thẻ mùa này rất dễ thương và hoàn hảo cho Halloween. Đối với tùy chọn lưỡi câu, Nó giống như câu cá nhỏ.",
-      "translation_method": "machine_translation",
+      "text_vn": "Hiệu ứng cần câu của bộ sưu tập thẻ mùa này nè, dễ thương ghê, chủ đề Halloween. Còn chỉ số cần câu thì như kiểu để câu cá tí hon.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -387,7 +394,8 @@
         "halloween"
       ],
       "summary_vn": "Khoe hiệu ứng cần câu bộ thẻ Halloween dễ thương",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Hiệu ứng móc câu của bộ sưu tập thẻ mùa này rất dễ thương và hoàn hảo cho Halloween. Đối với tùy chọn lưỡi câu, Nó giống như câu cá nhỏ."
     },
     {
       "id": "facebook-5f5081501953a7b7",
@@ -397,8 +405,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "ถ้าเป็นบัญชีเก่าที่ย้ายมา vng เล่นได้￼ทุกช่องทางที่เราเชื่อมไว้ ￼ สตรีม วีเอ็นจี โกบอล",
-      "text_vn": "Nếu là tài khoản cũ đã chuyển sang vng, bạn có thể phát￼tất cả các kênh mà chúng tôi đã kết nối￼stream VNG Global.",
-      "translation_method": "machine_translation",
+      "text_vn": "Nếu là tài khoản cũ đã chuyển sang VNG thì chơi được trên mọi kênh mình đã liên kết: Steam, VNG, Google.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -422,7 +430,8 @@
         "đăng nhập"
       ],
       "summary_vn": "Giải thích tài khoản cũ chuyển VNG chơi được mọi kênh đã liên kết",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nếu là tài khoản cũ đã chuyển sang vng, bạn có thể phát￼tất cả các kênh mà chúng tôi đã kết nối￼stream VNG Global."
     },
     {
       "id": "facebook-35ab19965eb01b12",
@@ -432,8 +441,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "ถ้าสมัครผ่านตัวเกม Vng จะผูกกับสตรีมหรืออย่างอื่นไม่ได้เลยคับ",
-      "text_vn": "Nếu bạn đăng ký thông qua trò chơi, Vng không thể bị ràng buộc với luồng hoặc bất cứ thứ gì khác.",
-      "translation_method": "machine_translation",
+      "text_vn": "Nếu đăng ký qua game bản VNG thì không liên kết với Steam hay cái khác được đâu.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -458,7 +467,8 @@
       ],
       "summary_vn": "Giải thích tài khoản tạo mới trong VNG không liên kết Steam được",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nếu bạn đăng ký thông qua trò chơi, Vng không thể bị ràng buộc với luồng hoặc bất cứ thứ gì khác."
     },
     {
       "id": "facebook-6be1d4c42b02cf80",
@@ -468,8 +478,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "เตมทุกใบเรวเว่อร์",
-      "text_vn": "Điền vào mỗi tờ rất nhanh chóng.",
-      "translation_method": "machine_translation",
+      "text_vn": "Lấp đầy hết thẻ nhanh dữ vậy",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -493,7 +503,8 @@
       ],
       "summary_vn": "Nhận xét điền đầy thẻ rất nhanh",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Điền vào mỗi tờ rất nhanh chóng."
     },
     {
       "id": "facebook-72196d771732f9e5",
@@ -503,8 +514,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "โหหห",
-      "text_vn": "Ồ!",
-      "translation_method": "machine_translation",
+      "text_vn": "Woaaa",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -527,7 +538,8 @@
         "phản ứng"
       ],
       "summary_vn": "Bình luận cảm thán ngắn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Ồ!"
     },
     {
       "id": "facebook-bf6ab8200015a693",
@@ -537,8 +549,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "คนไทยคนแรกเลยป่ะคะ",
-      "text_vn": "Bạn có phải là người Thái đầu tiên?",
-      "translation_method": "machine_translation",
+      "text_vn": "Người Thái đầu tiên luôn hả?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -561,7 +573,8 @@
         "bộ sưu tập thẻ"
       ],
       "summary_vn": "Hỏi có phải người Thái đầu tiên đạt được không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bạn có phải là người Thái đầu tiên?"
     },
     {
       "id": "facebook-946cdcc54c3d4eaf",
@@ -571,8 +584,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "พลังเหมือนเบ็ดค้อน แต่ด๋อยกว่า",
-      "text_vn": "Quyền lực giống như một chiếc móc búa nhưng yếu hơn.",
-      "translation_method": "machine_translation",
+      "text_vn": "Sức mạnh giống cần câu búa nhưng yếu hơn.",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -597,7 +610,8 @@
       ],
       "summary_vn": "Chê hiệu ứng cần câu giống cần búa nhưng yếu hơn",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Quyền lực giống như một chiếc móc búa nhưng yếu hơn."
     },
     {
       "id": "facebook-4f9169b550d1da6d",
@@ -607,8 +621,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "เหมือนกันคับ ตอนนี้ถอนทิ้งหมดละ",
-      "text_vn": "Điều tương tự, bây giờ tôi đã loại bỏ tất cả.",
-      "translation_method": "machine_translation",
+      "text_vn": "Mình cũng vậy, giờ nhổ bỏ hết rồi.",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -632,7 +646,8 @@
       ],
       "summary_vn": "Đồng tình và cho biết đã nhổ bỏ hết",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Điều tương tự, bây giờ tôi đã loại bỏ tất cả."
     },
     {
       "id": "facebook-b785e652c3519170",
@@ -642,8 +657,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "แต่ถ้าเชื่อมข้อมูลไปก่อน เราจะยังสามารถกลับมาเล่นเวอร์ชั่นเดิมได้อยู่เหมือนเดิมนะครับ",
-      "text_vn": "Nhưng nếu bạn kết nối dữ liệu trước Chúng tôi vẫn có thể quay lại và chơi phiên bản gốc như trước.",
-      "translation_method": "machine_translation",
+      "text_vn": "Nhưng nếu liên kết dữ liệu trước thì mình vẫn có thể quay lại chơi phiên bản cũ như bình thường nha.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -667,7 +682,8 @@
         "phiên bản cũ"
       ],
       "summary_vn": "Giải thích liên kết dữ liệu trước vẫn chơi lại bản cũ được",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nhưng nếu bạn kết nối dữ liệu trước Chúng tôi vẫn có thể quay lại và chơi phiên bản gốc như trước."
     },
     {
       "id": "facebook-a6073a2d4ccf4cbd",
@@ -677,8 +693,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "อัพเดต บริการกดสภาพอากาศ ของขวัญ และเมล็ด Play together \nสภาพอากาศทุกอัน 10 บาท \nเมล็ดราคาตามภาพ ยอดนิยม\nเมล็ดที่ใช้ทองไม่สามารถกิฟได้นะครับ \nอาจจะมีการปรับราคาเล็กน้อยโปรดติดตามโพสต์ล่าสุดของอุ๋งๆเลย \nแอดแล้วทักได้เลย รับทั้งวอเล็ต และ ธนาคาร สต็อกมีเพิ่มเรื่อยๆ สอบถามแพ็คเพิ่มเติมได้เลยอุ๋งๆ",
-      "text_vn": "Cập nhật dịch vụ thời tiết, quà tặng và hạt giống Chơi cùng nhau \nMọi điều kiện thời tiết 10 baht \nCác loại hạt phổ biến có giá như trong hình\nHạt giống sử dụng vàng không thể được tặng. \nCó thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. \nThêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
-      "translation_method": "machine_translation",
+      "text_vn": "Cập nhật dịch vụ đổi thời tiết, quà tặng và hạt giống Play together\n- Đổi thời tiết: loại nào cũng 10 baht\n- Hạt giống: giá theo ảnh, loại phổ biến\n- Hạt giống mua bằng vàng thì không tặng (gift) được nhé\nCó thể điều chỉnh giá chút ít, theo dõi bài đăng mới nhất của mình nha\nAdd rồi inbox luôn, nhận cả ví điện tử và chuyển khoản ngân hàng, hàng liên tục bổ sung, hỏi thêm các gói khác thoải mái nha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -704,7 +720,8 @@
       ],
       "summary_vn": "Quảng cáo dịch vụ đổi thời tiết 10 baht, bán hạt giống, quà",
       "sentiment_rule": "Mixed",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cập nhật dịch vụ thời tiết, quà tặng và hạt giống Chơi cùng nhau \nMọi điều kiện thời tiết 10 baht \nCác loại hạt phổ biến có giá như trong hình\nHạt giống sử dụng vàng không thể được tặng. \nCó thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. \nThêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung."
     },
     {
       "id": "facebook-f31e43109cbf6563",
@@ -891,8 +908,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "อยากทราบว่า ถ้าไม่เชื่อมเป็นแบบ Vng จะเป็นอะไรไหมคะถ้ายังเล่นแบบ เดิมอยู่",
-      "text_vn": "Muốn hỏi nếu không liên kết sang bản VNG mà vẫn chơi như cũ thì có sao không ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho mình hỏi nếu không liên kết sang VNG mà vẫn chơi bản cũ thì có sao không ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -916,7 +933,8 @@
         "phiên bản cũ"
       ],
       "summary_vn": "Hỏi không liên kết VNG mà chơi bản cũ có sao không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Muốn hỏi nếu không liên kết sang bản VNG mà vẫn chơi như cũ thì có sao không ạ?"
     },
     {
       "id": "facebook-675d0255ed93a2f5",
@@ -960,7 +978,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "แวะมาดันครับ",
-      "text_vn": "Ghé vào ủng hộ ạ",
+      "text_vn": "Ghé vào đẩy bài nè",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -978,13 +996,14 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "chat",
       "keywords": [
         "sự kiện"
       ],
       "summary_vn": "Ghé vào ủng hộ bài đăng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Ghé vào ủng hộ ạ"
     }
   ],
   "ratings": [

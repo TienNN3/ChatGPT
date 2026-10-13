@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ส***",
       "text_th": "เกมถือว่าดีมากตอนนี้ฉันเล่นอยู่ 2 สัปดาห์ติดกันแล้วและฉันไม่ได้เติมเงินเลยแต่ฉันก็สามารถเก็บสะสมเพชรจนเกือบจะมี 1,000 เพชรแล้ว",
-      "text_vn": "Phản hồi tích cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game khá hay, giờ mình chơi liên tục được 2 tuần rồi, không nạp đồng nào mà vẫn tích được gần 1,000 kim cương.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Topup & Payment",
@@ -24,7 +24,9 @@
         "kim cương"
       ],
       "summary_vn": "Chơi 2 tuần không nạp vẫn tích được gần 1000 kim cương",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "facebook-d01b0d4082b793b8",
@@ -34,8 +36,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "5 ดาว = 5 ฿4 ดาว = 4 ฿ใบดาวต่ำกว่าอื่นๆติดต่อสอบถามได้ค้าบ(มีเครดิตเช็คได้หน้าโปรไฟล์)",
-      "text_vn": "5 sao = 5 ฿4 sao = 4 ฿ Các mức sao thấp hơn khác vui lòng liên hệ và hỏi thăm (có tín dụng, kiểm tra trên trang hồ sơ)",
-      "translation_method": "machine_translation",
+      "text_vn": "Thẻ 5 sao = 5 baht, 4 sao = 4 baht. Thẻ sao thấp hơn và loại khác thì liên hệ hỏi nhé (có uy tín, xem ở trang cá nhân).",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -62,7 +64,8 @@
       ],
       "summary_vn": "Bán thẻ 5 sao giá 5 baht, 4 sao giá 4 baht",
       "sentiment_rule": "Positive",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "5 sao = 5 ฿4 sao = 4 ฿ Các mức sao thấp hơn khác vui lòng liên hệ và hỏi thăm (có tín dụng, kiểm tra trên trang hồ sơ)"
     },
     {
       "id": "facebook-365e357874485df5",
@@ -72,8 +75,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "L***",
       "text_th": "ร้าน ลิตเติ้ลมุด รับทำอีเว้นท์ ซุปเวทมนตร์แบบเหรียญ - 1,500 เหรียญ 35.-- 5,000 เหรียญ 110.-แบบเหมาเวล - เวล 1-50 ปิดจบ 250 (รวมกิจประลองเวทย์) ฟรี!!- เวลอื่นๆ - 50 ทักมาสอบถามได้(รวมกิจประลองเวทย์) ฟรี!!รับทุกช่องทาง Facebook เมลฟ้า (แอพเก่า)เมล+รหัสผ่าน (แอพvng) เสร็จงานลบบช.ออกให้สตรีม (สแกนผ่านคิวอาร์โค้ดในคอม)มีเครดิตเช็คได้ หน้าโปรไฟล์นะคะ",
-      "text_vn": "Little Mut Shop nhận sự kiện. Súp ma thuật xu - 1.500 xu 35.-- 5.000 xu 110.- Loại toàn cấp - Cấp 1-50, kết thúc 250 (bao gồm các hoạt động giải đấu ma thuật) Miễn phí!!- Các cấp độ khác - 50, bạn có thể nói chuyện với chúng tôi để hỏi (tập hợp giải đấu ma thuật) Miễn phí!! Nhận tất cả các kênh Facebook, Fah mail (app cũ), mail+password (vng app) Xong việc, xóa tài khoản để streaming. (Quét qua mã QR trên máy tính) Có sẵn séc tín dụng. Trang hồ sơ",
-      "translation_method": "machine_translation",
+      "text_vn": "Shop Little Mood nhận cày sự kiện Súp phép thuật. Gói xu: 1,500 xu 35 baht; 5,000 xu 110 baht. Gói trọn level: level 1-50 trọn gói 250 baht (tặng kèm nhiệm vụ Đấu phép miễn phí!!); level khác - 50 inbox hỏi (tặng kèm nhiệm vụ Đấu phép miễn phí!!). Nhận mọi kiểu đăng nhập: Facebook, mail xanh (app cũ), mail + mật khẩu (app VNG), xong việc sẽ xoá tài khoản ra giúp. Có stream (quét QR trên máy tính). Uy tín xem ở trang cá nhân nhé.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -99,7 +102,8 @@
         "sự kiện"
       ],
       "summary_vn": "Shop nhận cày sự kiện súp phép thuật và cày cấp thuê",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Little Mut Shop nhận sự kiện. Súp ma thuật xu - 1.500 xu 35.-- 5.000 xu 110.- Loại toàn cấp - Cấp 1-50, kết thúc 250 (bao gồm các hoạt động giải đấu ma thuật) Miễn phí!!- Các cấp độ khác - 50, bạn có thể nói chuyện với chúng tôi để hỏi (tập hợp giải đấu ma thuật) Miễn phí!! Nhận tất cả các kênh Facebook, Fah mail (app cũ), mail+password (vng app) Xong việc, xóa tài khoản để streaming. (Quét qua mã QR trên máy tính) Có sẵn séc tín dụng. Trang hồ sơ"
     },
     {
       "id": "facebook-3b2cedacc11cc07b",
@@ -109,8 +113,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "รับทุเรียนออโรร่า1ลูกด่วนก่อน7โมง ทักแชทได้เลยครับ",
-      "text_vn": "Nhận gấp 1 Sầu riêng Aurora trước 7h sáng. Bạn có thể trò chuyện với chúng tôi.",
-      "translation_method": "machine_translation",
+      "text_vn": "Cần mua gấp 1 quả sầu riêng cực quang trước 7 giờ sáng, nhắn tin luôn nhé.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -136,7 +140,8 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Cần mua gấp 1 quả sầu riêng Aurora trước 7 giờ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nhận gấp 1 Sầu riêng Aurora trước 7h sáng. Bạn có thể trò chuyện với chúng tôi."
     },
     {
       "id": "facebook-7dfc3fe57e8a9f81",
@@ -146,8 +151,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "T***",
       "text_th": "ขายโสมธรรมดา10฿ มีสถานะล่ะ25฿โปรไฟล์มีเครดิตครับ",
-      "text_vn": "Bán nhân sâm bình thường 10฿ Có trạng thái 25฿ cho mỗi hồ sơ và tín dụng.",
-      "translation_method": "machine_translation",
+      "text_vn": "Bán nhân sâm thường 10 baht, loại có hiệu ứng 25 baht. Uy tín xem ở trang cá nhân.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -171,7 +176,8 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Bán nhân sâm thường 10 baht, có trạng thái 25 baht",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bán nhân sâm bình thường 10฿ Có trạng thái 25฿ cho mỗi hồ sơ và tín dụng."
     }
   ],
   "metrics": {

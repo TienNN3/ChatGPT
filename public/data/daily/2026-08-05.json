@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "อ***",
       "text_th": "กลับมาดูแลต่อได้ไหม ตอนนี้ผู้เล่นส่วนใหญ่ประสบปัญหาเยอะมาก อยากให้เกาหลีกลับมาดูแลเหมือนเดิม จะขอบคุณมากๆค่ะ",
-      "text_vn": "Phản hồi trái chiều về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Quay lại quản lý tiếp được không? Giờ phần lớn người chơi gặp rất nhiều vấn đề. Mong Hàn Quốc quay lại vận hành như trước, cảm ơn nhiều ạ.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Social / Scam / Harassment / Toxic",
@@ -26,7 +26,9 @@
       ],
       "summary_vn": "Mong Hàn Quốc quay lại vận hành vì người chơi gặp nhiều vấn đề",
       "sentiment_rule": "Mixed",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

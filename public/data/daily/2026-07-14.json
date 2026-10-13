@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "P***",
       "text_th": "เกมดีมากเลยคะ สนุกมากกกกเเต่เรื่องกิจกรรมเบาๆลงหน่อยได้ไหมคะ เหนื่อยมา 1 เดือนมา1ครั้งก็ได้ ทำกิจกรรมไม่ไหว ยิ่งเปิดเรียนไม่มีเวลาเล่นเลย เเต่ไม่เล่นก็ไม่ได้ออกไปเเค่1อาทิตย์เดียวตามคนอื่นไม่ทันเลย ไม่เล่นก็เสียดายของกิจกรรม บ้างที่อยากเล่นฟิวๆเดินเล่นๆเเต่ไม่ได้เลย",
-      "text_vn": "Phản hồi trái chiều về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game hay lắm ạ, vui lắm, nhưng sự kiện giảm bớt chút được không ạ, mệt quá, 1 tháng ra 1 lần thôi cũng được. Làm sự kiện không nổi, nhất là vào năm học không có thời gian chơi. Nhưng không chơi thì không được, nghỉ có 1 tuần thôi là theo không kịp người khác. Không chơi thì tiếc đồ sự kiện. Nhiều khi chỉ muốn chơi chill chill đi dạo thôi mà không được.",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
@@ -25,7 +25,9 @@
         "nhiệm vụ"
       ],
       "summary_vn": "Khen game nhưng mong giảm tần suất sự kiện vì quá mệt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "K***",
       "text_th": "บัญชีโดนระงับถาวรบอกว่าใช้โปรแกรมผิดกฎหมายโดยที่พึ่เนได้แค่ 2 วัน และก็ไม่ได้ทำอะไรเลยนอกจากเติมเงิน แถมเติมไปเยอะพอประมาณด้วย โหลดมาเล่นเพราะอยากเลี้ยงหมาตกแต่งบ้านกับตกปลา ทำไมมันยากเย้กแบบนี้😭",
-      "text_vn": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Tài khoản bị khóa vĩnh viễn, bảo là dùng phần mềm trái phép trong khi mới chơi được có 2 ngày, chẳng làm gì ngoài nạp tiền, mà còn nạp khá nhiều nữa. Tải về chơi vì muốn nuôi chó, trang trí nhà với câu cá thôi, sao mà khó khăn dữ vậy 😭",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Topup & Payment",
@@ -25,7 +25,9 @@
         "nạp tiền"
       ],
       "summary_vn": "Tài khoản bị khóa vĩnh viễn vì nghi dùng hack dù chỉ nạp tiền",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-b25a4a6a3923c51c",
@@ -33,7 +35,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "S***",
       "text_th": "อร่อยจัด",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Ngon dữ",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -49,7 +51,9 @@
         "bình luận ngắn"
       ],
       "summary_vn": "Bình luận đùa 'ngon tuyệt'",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

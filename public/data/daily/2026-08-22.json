@@ -10,7 +10,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "H***",
       "text_th": "Trend Egyptฉันสามารถแนะนำคุณได้",
-      "text_vn": "Trend Ai Cập, mình có thể gợi ý cho bạn",
+      "text_vn": "Trend Egypt, mình có thể chỉ cho bạn.",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -30,14 +30,15 @@
         "comment_count": "2"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "share",
       "keywords": [
         "trang phục",
         "trend ai cập"
       ],
       "summary_vn": "Gợi ý phối đồ theo trend Ai Cập",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Trend Ai Cập, mình có thể gợi ý cho bạn"
     }
   ],
   "metrics": {

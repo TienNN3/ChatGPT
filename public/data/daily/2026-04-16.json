@@ -132,7 +132,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "พ***",
       "text_th": "เกมดีมากค่ะ. เกมเล่นสนุกมากค่ะแต่อยากให้มีมินิเกมเพิ่มมาอีกก็น่าจะดีนะคะ",
-      "text_vn": "Game rất vui. Mong có thêm nhiều minigame.",
+      "text_vn": "Game hay lắm ạ. Game chơi vui lắm ạ, nhưng có thêm minigame nữa thì chắc tốt hơn.",
       "sentiment": "Positive",
       "confidence": 0.86,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
@@ -147,7 +147,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game vui, mong thêm minigame",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Game rất vui. Mong có thêm nhiều minigame.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-e8400a016f0d28f3",
@@ -155,7 +157,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ว***",
       "text_th": "สนุกมากขอแผนที่เช่นเรื่องอวาตาร เณรน้อยเจ้าอภิหารเมือง4ธาตุสถานีที่อัศคี,อาณาจักรดิน,เผ่าวารีใต้ เหนือ ,เผ่าวายุเป็นโรงเรียนเมืองแบบใหม่เอเชียให้10ดาว",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui lắm. Xin bản đồ kiểu Avatar: Tiết Khí Sư, thành phố 4 nguyên tố: Hoả Quốc, Thổ Quốc, Thuỷ Tộc phương Nam và phương Bắc, Khí Tộc; làm thành trường học kiểu thành phố châu Á mới. Cho 10 sao.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -172,7 +174,9 @@
         "trường học"
       ],
       "summary_vn": "Đề xuất bản đồ chủ đề Avatar bốn nguyên tố",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-2e1666e0e0424f19",
@@ -180,7 +184,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "P***",
       "text_th": "ส่วนตัวเราเล่นตั้งแต่เกมเปิดเลยค่ะ รู้สึกว่าเกมนี้สนุกแบบเป็นเกมจอยๆไม่เครียด",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Cá nhân mình chơi từ hồi game mới mở luôn ạ, thấy game này vui kiểu chơi thư giãn, không căng thẳng.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -196,7 +200,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game vui, nhẹ nhàng không căng thẳng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-d0a115e9fcd3ddb5",
@@ -204,7 +210,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ก***",
       "text_th": "เกมดีมากไม่มีบัคเลยดีสุดดดด",
-      "text_vn": "Phản hồi tích cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game rất hay, không có lỗi gì, tuyệt nhấtttt.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -220,7 +226,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game không có lỗi, rất tốt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-d6fd4a307593d3f9",
@@ -228,7 +236,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "น***",
       "text_th": "คิดถึงคนเล่นด้วยเมื่อก่อน🥲",
-      "text_vn": "Phản hồi trung tính về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Nhớ những người từng chơi cùng hồi trước 🥲",
       "sentiment": "Neutral",
       "confidence": 0.72,
       "topic": "Other",
@@ -244,7 +252,9 @@
         "tìm bạn"
       ],
       "summary_vn": "Nhớ những người từng chơi cùng trước đây",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trung tính về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-423c68916bffd65d",
@@ -252,7 +262,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "N***",
       "text_th": "สนุกมากกกได้มีเพื่อนเยอะๆๆเลยละก็ชอบเล่นเเบบโรงเรียนด้วยง่าาสนุกดี",
-      "text_vn": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui lắmmm, có được nhiều bạn lắm luôn, còn thích chơi kiểu trường học nữa, vui ghê.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Social / Scam / Harassment / Toxic",
@@ -269,7 +279,9 @@
         "tìm bạn"
       ],
       "summary_vn": "Khen game vui, có nhiều bạn, thích chơi trường học",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "み***",
       "text_th": "เกมภาพสวยน่ารักมากแต่ สุ่มของแต่งตัวนะ ยากให้ของที่สุ่มได้แล้วไม่ได้อีก ของซ้ำเอาไปทำอะไรไม่ได้นอกจากเกลือ🥹",
-      "text_vn": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game hình đẹp dễ thương lắm, nhưng vụ quay đồ thời trang ấy, mong đồ đã quay được rồi thì không ra lại nữa. Đồ trùng chẳng làm gì được ngoài bán lấy muối 🥹",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Gacha / Shop / Pricing",
@@ -25,7 +25,9 @@
         "trang phục"
       ],
       "summary_vn": "Mong gacha trang phục không ra đồ trùng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-742107098f8338e9",
@@ -33,7 +35,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "C***",
       "text_th": "ทำไมโหลดมาแล้วล็อคอินเข้าเกมส์ไม่ได้คะ มันขึ้นว่า เกิดข้อผิดพลาดชั่วคราว เซ็งมากเลยนะ",
-      "text_vn": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Sao tải về rồi mà đăng nhập vào game không được ạ? Nó hiện \"Đã xảy ra lỗi tạm thời\", chán ghê",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Login / Account / Data",
@@ -50,7 +52,9 @@
         "người chơi mới"
       ],
       "summary_vn": "Mới tải không đăng nhập được, báo lỗi tạm thời",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

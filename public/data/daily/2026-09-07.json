@@ -10,7 +10,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "ถึงชาว Kaia ที่รักทุกท่าน ทีมงานอยากชวนทุกท่านมาแชร์ประสบการณ์ ความคิดเห็น และมุมมองเกี่ยวกับการเล่นเกมผ่านแบบสอบถามของทีมงานและส่วนหนึ่งของท่านจะถูกเชิญเข้าร่วมสัมภาษณ์ Onsite เพื่อพูดคุยและแชร์ความคิดเห็นเพิ่มเติมอย่างละเอียดความคิดเห็นของทุกท่านจะช่วยให้เราเข้าใจผู้เล่นได้ดียิ่งขึ้น และนำไปพัฒนาตัวเกมในอนาคต ทำแบบสอบถามได้ที่: https://forms.gle/mDgD5e5PL1m8dtVo7ผู้ที่ได้รับการคัดเลือก ทีมงานจะติดต่อกลับโดยตรงหลังจากตรวจสอบแบบสอบถามเรียบร้อยแล้วหมายเหตุ: ข้อมูลที่เก็บรวบรวมจะนำไปใช้เพื่อวัตถุประสงค์ด้านการวิจัยและการพัฒนาประสบการณ์ของผู้เล่นเท่านั้น และข้อมูลทั้งหมดจะถูกเก็บรักษาเป็นความลับและไม่เปิดเผยต่อบุคคลภายนอก#playtogether #playtogethervng #playtogetherTH",
-      "text_vn": "Gửi tất cả cư dân Kaia thân mến, đội ngũ muốn mời mọi người chia sẻ trải nghiệm, ý kiến và góc nhìn về việc chơi game qua bảng khảo sát của đội ngũ, và một số bạn sẽ được mời tham gia phỏng vấn Onsite để trao đổi và chia sẻ ý kiến chi tiết hơn. Ý kiến của mọi người sẽ giúp chúng tôi hiểu người chơi hơn và dùng để phát triển game trong tương lai. Làm khảo sát tại: https://forms.gle/mDgD5e5PL1m8dtVo7 Đội ngũ sẽ liên hệ trực tiếp với những bạn được chọn sau khi kiểm tra khảo sát xong. Lưu ý: Dữ liệu thu thập chỉ dùng cho mục đích nghiên cứu và cải thiện trải nghiệm người chơi, toàn bộ thông tin được bảo mật và không tiết lộ cho bên ngoài. #playtogether #playtogethervng #playtogetherTH",
+      "text_vn": "Gửi các bạn Kaia thân mến, đội ngũ muốn mời mọi người chia sẻ trải nghiệm, ý kiến và góc nhìn về việc chơi game qua bảng khảo sát. Một số bạn sẽ được mời tham gia phỏng vấn Onsite để trao đổi chi tiết hơn. Ý kiến của mọi người sẽ giúp chúng tôi hiểu người chơi hơn và phát triển game trong tương lai. Làm khảo sát tại: https://forms.gle/mDgD5e5PL1m8dtVo7. Người được chọn sẽ được đội ngũ liên hệ trực tiếp sau khi duyệt khảo sát. Lưu ý: dữ liệu thu thập chỉ dùng cho mục đích nghiên cứu và cải thiện trải nghiệm người chơi, được bảo mật và không tiết lộ cho bên ngoài. #playtogether #playtogethervng #playtogetherTH",
       "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -31,7 +31,7 @@
         "comment_count": "3"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "khảo sát",
@@ -39,7 +39,8 @@
       ],
       "summary_vn": "Đội ngũ mời người chơi làm khảo sát, có thể phỏng vấn onsite",
       "sentiment_rule": "Positive",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Gửi tất cả cư dân Kaia thân mến, đội ngũ muốn mời mọi người chia sẻ trải nghiệm, ý kiến và góc nhìn về việc chơi game qua bảng khảo sát của đội ngũ, và một số bạn sẽ được mời tham gia phỏng vấn Onsite để trao đổi và chia sẻ ý kiến chi tiết hơn. Ý kiến của mọi người sẽ giúp chúng tôi hiểu người chơi hơn và dùng để phát triển game trong tương lai. Làm khảo sát tại: https://forms.gle/mDgD5e5PL1m8dtVo7 Đội ngũ sẽ liên hệ trực tiếp với những bạn được chọn sau khi kiểm tra khảo sát xong. Lưu ý: Dữ liệu thu thập chỉ dùng cho mục đích nghiên cứu và cải thiện trải nghiệm người chơi, toàn bộ thông tin được bảo mật và không tiết lộ cho bên ngoài. #playtogether #playtogethervng #playtogetherTH"
     }
   ],
   "metrics": {

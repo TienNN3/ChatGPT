@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "G***",
       "text_th": "กิจโคตรจะง่อย ลำพังกิจตกปลาว่ายากว่าน่าเบื่อแล้ว มาเจอตกปลารอบนี้ง่อยมาก คราฟเหยื่อใช้ 100 อัน= ใช้ปลาพื้นธรรมดา 500 ตัว ออโรร่ามาทีนึง5นาที ตกได้ตัวเดียว สภาพมากอยากเห็นคนคิดกิจนี้จัง โคตรง่อย",
-      "text_vn": "Phản hồi tiêu cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Sự kiện dở tệ. Riêng nhiệm vụ câu cá vốn đã khó và chán rồi, mà đợt câu cá lần này còn dở hơn nữa. Craft 100 mồi = tốn 500 con cá thường, cá cực quang 5 phút mới xuất hiện một lần, câu được có một con. Thảm thật, muốn gặp người nghĩ ra sự kiện này quá, dở tệ hại.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
@@ -26,7 +26,9 @@
         "mồi câu"
       ],
       "summary_vn": "Chê nhiệm vụ câu cá sự kiện quá khó, chế mồi tốn 500 cá",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

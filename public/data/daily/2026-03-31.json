@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "C***",
       "text_th": "เกมนี้ได้อยู่ มีชุดน่ารัก อยากให้มีแพคชุดแบบใช้เพชรสวยๆ มาน้อยมาก อยากให้มี เยอะกว่านี้ 😊 ให้ ลดราคาพวกของใน แพ็กชุด + อยากให้แหวน ลดราคาให้ถูกกว่านี้หน่อย และก็เปลี่ยนแนวอีเว้นหน่อย และให้มีการส่งแพ็กชุด-อื่นๆ ให้เพื่อนได้แบบไม่ต้องใช้แหวน + อยากให้โฆษณาสั้นกว่านี้หรือแจกพรีเมี่ยม 7 วันก็ได้:D / อยากให้มีโค้ดสุ่มเก็บ 7 อันใน 1 สัปดาห์ ถ้ามีแบบเก็บการ์ดซ้ำได้รวม 1000 ดาว สามารถแลก การ์ดทองแบบเลือกได้จะดีมาก ถ้ามีทั้งหมดจะดีมากกก💖🙌🏻",
-      "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game cũng được, có đồ dễ thương. Mong có thêm gói trang phục mua bằng kim cương đẹp đẹp, giờ ra ít quá, muốn có nhiều hơn 😊. Giảm giá đồ trong gói trang phục + mong nhẫn giảm giá rẻ hơn chút, đổi kiểu sự kiện chút, và cho tặng gói trang phục/đồ khác cho bạn bè mà không cần dùng nhẫn + mong quảng cáo ngắn hơn hoặc tặng Premium 7 ngày cũng được :D / Mong có code quay, gom 7 cái trong 1 tuần; nếu có kiểu thẻ trùng gom đủ 1000 sao đổi được thẻ vàng tự chọn thì quá tuyệt. Có hết thì tuyệt vờiii 💖🙌🏻",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Other",
@@ -26,7 +26,9 @@
         "quảng cáo"
       ],
       "summary_vn": "Đề xuất thêm gói đồ bằng kim cương, giảm giá, quảng cáo ngắn hơn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-80aa8eb63e3b892a",
@@ -34,7 +36,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "L***",
       "text_th": "มันน่าเล่นตรงไหนวะเนี่ย เห้อ แค่เห็นการออกแบบตัวละคร อยากลบทิ้งตั้งแต่ยังไม่ได้โหลด",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Có gì đáng chơi đâu trời. Haizz, mới thấy thiết kế nhân vật là muốn xoá luôn từ lúc chưa tải.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -50,7 +52,9 @@
         "ngoại hình nhân vật"
       ],
       "summary_vn": "Chê thiết kế nhân vật, muốn xoá game",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

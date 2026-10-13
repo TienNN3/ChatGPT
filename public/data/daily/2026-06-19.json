@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ค***",
       "text_th": "เกมสนุกมากเล่นมา 2 ปีแล้ว แต่อยากให้มีแลกของกันได้ที่เล่นมา 2 ปีของมันอยู่ในอีกเครื่องแล้วเปลี่ยน iPad",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game vui lắm, chơi 2 năm rồi, nhưng muốn có chức năng trao đổi đồ với nhau. Đồ chơi 2 năm của mình nằm ở máy khác rồi, giờ đổi sang iPad.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -25,7 +25,9 @@
         "chuyển thiết bị"
       ],
       "summary_vn": "Khen game, mong có tính năng trao đổi đồ giữa người chơi",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-35af6e859389629c",
@@ -33,7 +35,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "N***",
       "text_th": "สนุกคะ",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui ạ",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -49,7 +51,9 @@
         "khen game"
       ],
       "summary_vn": "Khen game vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-7db0136ce4bb24ca",
@@ -57,7 +61,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "S***",
       "text_th": "สนุก",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -73,7 +77,9 @@
         "khen game"
       ],
       "summary_vn": "Khen game vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

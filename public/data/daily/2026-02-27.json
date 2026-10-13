@@ -126,7 +126,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "เ***",
       "text_th": "แก้บัคเกมส์. ช่วยแก้บัคเกมส์อีเว้นหน่อยค่ะ ค้าง เล่นไม่ได้เลย กดออกจากเกมส์แล้วเข้าใหม่ก็กดอะไรไม่ได้เลย",
-      "text_vn": "Mong sửa lỗi sự kiện vì game bị treo, không thể chơi và vào lại vẫn không thao tác được.",
+      "text_vn": "Sửa lỗi game. Sửa giúp lỗi minigame sự kiện với ạ, bị đơ, không chơi được luôn, thoát game vào lại cũng không bấm được gì hết",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Bug / Crash / Lag / Performance",
@@ -142,7 +142,9 @@
         "minigame"
       ],
       "summary_vn": "Báo minigame sự kiện bị treo, vào lại không thao tác được",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mong sửa lỗi sự kiện vì game bị treo, không thể chơi và vào lại vẫn không thao tác được.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-1f3be87626eb9509",
@@ -150,7 +152,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ส***",
       "text_th": "เป็นเกมที่เล่นตั้งแต่เด็กจนถึงปัจจุบันสนุกมากเต็ม 10 ให้ 9.9เพราะว่ารู้สึกว่ายังมีแบบค้างอยุ่นิดนึง",
-      "text_vn": "Phản hồi tích cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Là game chơi từ nhỏ tới giờ, vui lắm, thang 10 cho 9.9 vì thấy vẫn còn hơi đơ chút xíu",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -167,7 +169,9 @@
       ],
       "summary_vn": "Chơi từ nhỏ, chấm 9.9/10 vì còn hơi giật",
       "sentiment_rule": "Positive",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

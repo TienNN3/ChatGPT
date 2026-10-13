@@ -10,8 +10,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "หาเเมนเดรก ค่ะ",
-      "text_vn": "Đang tìm kiếm một cây nhân sâm.",
-      "translation_method": "machine_translation",
+      "text_vn": "Tìm mua Mandrake ạ.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -37,7 +37,8 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Đăng tìm mua cây mandrake",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Đang tìm kiếm một cây nhân sâm."
     }
   ],
   "metrics": {

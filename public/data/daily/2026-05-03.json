@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "S***",
       "text_th": "อยากให้มีระบบอาชีพเยอะกว่านี้ มีความหลากหลายมากขึ้น มีงานอดิเรกเพิ่มมาหน่อย เพราะตัวเกมน่ารักมาก ถ้ามีอะไรใหม่ๆเพิ่มขึ้น ก็สามารถ ดึงดูดผู้เล่นคนอื่นๆได้มากขึ้น อยากให้นักพัฒนาเกมใส่ใจเรื่องเล็กๆน้อยๆนี่สักนิ้ดหนึ่ง ไหนๆระบบปลูกผักก็มีแล้ว อยากจะให้มีการทำอาหารขายบ้างเหมือนกันค่ะ🙏🙏 ชอบเกมนี้มากค่ะ",
-      "text_vn": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Mong có hệ thống nghề nghiệp nhiều hơn, đa dạng hơn, thêm sở thích nữa. Vì game dễ thương lắm, có thêm cái mới thì sẽ thu hút được nhiều người chơi khác hơn. Mong nhà phát triển để tâm chút xíu tới mấy chuyện nhỏ này. Đã có hệ thống trồng rau rồi thì cũng muốn có nấu ăn để bán nữa ạ 🙏🙏 Rất thích game này ạ.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Social / Scam / Harassment / Toxic",
@@ -25,7 +25,9 @@
         "nấu ăn"
       ],
       "summary_vn": "Mong thêm nhiều nghề, sở thích và tính năng nấu ăn bán",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

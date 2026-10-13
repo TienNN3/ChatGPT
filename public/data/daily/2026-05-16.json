@@ -115,7 +115,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "อ***",
       "text_th": "ดีมาก. สนุกมากแงง เล่นเปนเด่กเลยค่ะ แต่ของแอบแพงไปหน่อย ลดเถอะขอร้องงง ม่ายมีตังงั 😭",
-      "text_vn": "Game rất vui và gợi lại cảm giác tuổi thơ, nhưng vật phẩm hơi đắt. Mong giảm giá.",
+      "text_vn": "Rất hay. Vui lắm huhu, chơi như con nít luôn ạ. Nhưng đồ hơi đắt chút, giảm đi mà xin đó, hông có tiền 😭",
       "sentiment": "Mixed",
       "confidence": 0.86,
       "topic": "Gacha / Shop / Pricing",
@@ -130,7 +130,9 @@
         "giá vật phẩm"
       ],
       "summary_vn": "Khen game vui nhưng vật phẩm đắt, mong giảm giá",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Game rất vui và gợi lại cảm giác tuổi thơ, nhưng vật phẩm hơi đắt. Mong giảm giá.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-e18879f155011551",
@@ -138,7 +140,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "p***",
       "text_th": "เมลล่าเสียใจมากคะเมลล่าไม่ได้เป็นสายเตอม เมลล่าเก็บเพรชไม่ค่อยเก่งเพราะติดสั่มเเต่ว่าครั้งนี้เมลล่าเก็บเพรชคะ ดอเอาไปสุ่ม200+กล่องสั่ม10ครั้ง เมลล่าไม่ได้อะไรเลยคะอีกอย่างเพรชของเมลล่าก็หมดไปเเลเวด้วยเมลล่าเสียใจมากเลยคะ ถ้าเเก้ได้เเก้นะคะเมลล่าเสียใจคะ เมลล่าสุ่มของเเต่ทำไมไม่ได้อะไรดลยคะ? เป็นเพราะดวงของเมลหรอคะ??",
-      "text_vn": "Phản hồi tiêu cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Mella buồn lắm ạ. Mella không phải dân nạp, Mella gom kim cương không giỏi vì nghiện quay, nhưng lần này Mella gom được kim cương rồi đem quay hơn 200, hộp quay 10 lần mà Mella không được gì hết ạ. Thêm nữa kim cương của Mella cũng hết sạch luôn rồi, Mella buồn lắm. Sửa được thì sửa giúp nhé, Mella buồn lắm. Mella quay đồ mà sao không được gì hết vậy ạ? Có phải do Mella xui không ạ??",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Gacha / Shop / Pricing",
@@ -155,7 +157,9 @@
         "kim cương"
       ],
       "summary_vn": "Dùng hơn 200 kim cương quay 10 lần không được gì",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

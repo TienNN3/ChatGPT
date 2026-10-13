@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "W***",
       "text_th": "ดีมากเกมส์เข้าไม่ได้",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game hay lắm, nhưng không vào được.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -24,7 +24,9 @@
         "đăng nhập"
       ],
       "summary_vn": "Báo không vào được game",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-c18438a69975ac65",
@@ -32,7 +34,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "R***",
       "text_th": "เกมดีมาก",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game rất hay.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -48,7 +50,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game rất tốt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-fbc3d141c0a1e887",
@@ -56,7 +60,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "h***",
       "text_th": "ดีเกือบหมดเเต่ มันติดตรงตอนให้เล่นเกมที่เป็นปาร์ตี้เกมอะค่ะ คือเวลากระโดดมันไม่รู้เป็นอะไรคือต้องกระโดดพลาดตลอดแล้วเกือบจะชนะเเล้ว เเล้วตอนวิ่งก็เบียดกันทำให้ตัวละครผลักกันค่ะเลยตกลงไป เเล้วต้องเริ่มใหม่ด้วยแอบท้อ ไปแก้ด้วยน้าา เชื่อว่าทุกคนก็ไม่ชอบเหมือนเราเเหละ เเต่โดยรวมๆ เเล้วก็ถือว่าดีค่ะ เต็ม10ให้7ค่ะ🙏🏻🌟",
-      "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Ổn gần hết, nhưng bị vướng ở phần chơi party game ạ. Lúc nhảy không biết bị sao mà cứ nhảy trượt hoài, trong khi sắp thắng rồi. Rồi lúc chạy thì chen nhau làm nhân vật đẩy nhau rơi xuống, phải chơi lại từ đầu, hơi nản. Sửa giúp nha, tin là ai cũng không thích giống mình thôi. Nhưng nhìn chung thì vẫn ổn ạ, thang 10 cho 7 ạ 🙏🏻🌟",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Other",
@@ -73,7 +77,9 @@
         "tiệc"
       ],
       "summary_vn": "Minigame tiệc nhảy hay hụt, nhân vật đẩy nhau rơi, mong sửa",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

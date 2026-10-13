@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "D***",
       "text_th": "สนุกมากไม่บังเลยค่ะ",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui lắm, không lỗi chút nào ạ",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -24,7 +24,9 @@
         "giải trí"
       ],
       "summary_vn": "Khen game rất vui, không lỗi",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-899ec15fbbf01a70",
@@ -32,7 +34,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "A***",
       "text_th": "สนุกสุดๆไม่มีโฆษณาเลยแถมเพื่อนเยอะด้วยสร้างบ้านได้เองสนุกสุดๆดีมาก",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui cực, không có quảng cáo, lại còn nhiều bạn, tự xây nhà được, vui cực, rất tốt",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -49,7 +51,9 @@
         "tìm bạn"
       ],
       "summary_vn": "Khen không quảng cáo, nhiều bạn, tự xây nhà",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-4ed953cbb1ef721b",
@@ -57,7 +61,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "เ***",
       "text_th": "ไม่รู้เป็นอะเพราะโทรหรือเกมเดียวก็เด้งออกอยู่นั้น หัวร้อนจนไม่อยากเล่นเลยลบเกมทิ้ง",
-      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Không biết do điện thoại hay do game mà cứ bị văng ra hoài, cay quá không muốn chơi nữa nên xóa game luôn",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -74,7 +78,9 @@
         "xoá game"
       ],
       "summary_vn": "Game liên tục văng, bực mình nên xoá game",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

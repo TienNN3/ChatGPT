@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "i***",
       "text_th": "เพิ่งกลับมาเล่นเกมนี้และเราก็มีปัญหาเกี่ยวกับการเติมเงินเราเติมเงินซื้อไอเทมในเกมไม่ได้",
-      "text_vn": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Mới quay lại chơi game này và mình gặp vấn đề nạp tiền, không nạp tiền mua vật phẩm trong game được.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Topup & Payment",
@@ -24,7 +24,9 @@
         "nạp tiền"
       ],
       "summary_vn": "Báo không nạp tiền mua vật phẩm được sau khi quay lại",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

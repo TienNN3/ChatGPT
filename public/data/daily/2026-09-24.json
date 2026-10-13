@@ -10,8 +10,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "R***",
       "text_th": "หาไอดีหลักครับเน้นชายของเยอะๆ",
-      "text_vn": "Tìm mua ID chính, ưu tiên nhân vật nam có nhiều đồ",
-      "translation_method": "machine_translation",
+      "text_vn": "Tìm mua ID chính, ưu tiên nhân vật nam nhiều đồ.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -34,7 +34,8 @@
         "mua bán tài khoản"
       ],
       "summary_vn": "Tìm mua ID chính nhân vật nam nhiều đồ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tìm mua ID chính, ưu tiên nhân vật nam có nhiều đồ"
     },
     {
       "id": "facebook-e2c9354d894270ef",
@@ -44,8 +45,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "T***",
       "text_th": "บริการกดสภาพอากาศ ของขวัญ และเมล็ด Play together สภาพอากาศทุกอัน 10 บาท เมล็ดราคาตามภาพ ยอดนิยมเมล็ดที่ใช้ทองไม่สามารถกิฟได้นะครับ อาจจะมีการปรับราคาเล็กน้อยโปรดติดตามโพสต์ล่าสุดของอุ๋งๆเลย แอดแล้วทักได้เลย รับทั้งวอเล็ต และ ธนาคาร สต็อกมีเพิ่มเรื่อยๆ สอบถามแพ็คเพิ่มเติมได้เลยอุ๋งๆ",
-      "text_vn": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
-      "translation_method": "machine_translation",
+      "text_vn": "Dịch vụ đổi thời tiết, tặng quà và hạt giống Play Together. Đổi thời tiết loại nào cũng 10 baht. Hạt giống giá theo ảnh. Lưu ý: hạt giống phổ biến mua bằng vàng thì không tặng (gift) được nhé. Giá có thể điều chỉnh chút ít, theo dõi bài mới nhất của Ủng Ủng nha. Kết bạn rồi nhắn tin luôn. Nhận cả ví điện tử và chuyển khoản ngân hàng. Hàng liên tục bổ sung, hỏi thêm về các gói cứ inbox Ủng Ủng nha.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -73,7 +74,8 @@
       ],
       "summary_vn": "Rao dịch vụ đổi thời tiết 10 baht, tặng quà và bán hạt giống",
       "sentiment_rule": "Mixed",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung."
     },
     {
       "id": "facebook-4ed9c3bf1bda85ba",
@@ -83,8 +85,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "สอบถามครับ พึ่งเริ่มเล่นจากไอดี Steam แต่ถ้าอยากย้ายมาเซิฟ vng แบบไอดีเดิม ของเหมือนเดิม ต้องทำอย่างไรบ้างครับสอบถามครับ พึ่งเริ่มเล่นจากไอดี Steam แต่ถ้าอยากย้ายมาเซิฟ vng แบบไอดีเดิม ของเหมือนเดิม ต้องทำอย่างไรบ้างครับ",
-      "text_vn": "Cho hỏi, mình mới bắt đầu chơi bằng ID Steam, nếu muốn chuyển sang server VNG mà giữ nguyên ID, đồ đạc như cũ thì phải làm thế nào ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho mình hỏi, mình mới bắt đầu chơi bằng ID Steam, giờ muốn chuyển sang server VNG mà giữ nguyên ID cũ, đồ đạc như cũ thì phải làm sao ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -110,7 +112,8 @@
         "steam"
       ],
       "summary_vn": "Hỏi cách chuyển ID Steam sang server VNG giữ nguyên đồ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho hỏi, mình mới bắt đầu chơi bằng ID Steam, nếu muốn chuyển sang server VNG mà giữ nguyên ID, đồ đạc như cũ thì phải làm thế nào ạ?"
     },
     {
       "id": "facebook-c060238e227a94ad",
@@ -120,8 +123,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "แวะมาแชร์วิธีเปลี่ยนชุดให้น้องสำหรับใครที่กำลังตามหาอยู่ครับบ",
-      "text_vn": "Ghé chia sẻ cách thay đồ cho bé dành cho ai đang tìm nhé",
-      "translation_method": "machine_translation",
+      "text_vn": "Ghé chia sẻ cách thay đồ cho bé (thú cưng) cho ai đang tìm nha.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -150,7 +153,8 @@
       ],
       "summary_vn": "Chia sẻ cách thay đồ cho thú cưng",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Ghé chia sẻ cách thay đồ cho bé dành cho ai đang tìm nhé"
     },
     {
       "id": "facebook-6658a480edca72d0",
@@ -160,8 +164,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "สอบถาม เราไม่ได้เล่นนานจนมีสกิลหายตัวแล้วหรอเนี่ยเค้าหาจากไหนครับ",
-      "text_vn": "Cho hỏi, mình nghỉ chơi lâu đến mức giờ có cả kỹ năng tàng hình rồi à? Người ta lấy ở đâu vậy?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho hỏi, mình nghỉ chơi lâu quá giờ có cả kỹ năng tàng hình rồi à? Mọi người kiếm ở đâu vậy?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -187,7 +191,8 @@
         "kỹ năng tàng hình"
       ],
       "summary_vn": "Quay lại sau thời gian dài, hỏi lấy kỹ năng tàng hình ở đâu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho hỏi, mình nghỉ chơi lâu đến mức giờ có cả kỹ năng tàng hình rồi à? Người ta lấy ở đâu vậy?"
     },
     {
       "id": "facebook-95b41631a9867799",
@@ -197,8 +202,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "เมล็ดพันธุ์แครอทที่เอามาเลี้ยงกระต่ายหาได้จากไหนมั่งคะ หรือต้องรอวนมาขายอย่างเดียวเลย",
-      "text_vn": "Hạt giống cà rốt để nuôi thỏ kiếm ở đâu vậy ạ? Hay chỉ có cách chờ đến lượt bán lại thôi?",
-      "translation_method": "machine_translation",
+      "text_vn": "Hạt giống cà rốt để nuôi thỏ kiếm ở đâu vậy mọi người? Hay chỉ có cách chờ shop xoay vòng bán lại thôi?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -225,7 +230,8 @@
         "thú cưng"
       ],
       "summary_vn": "Hỏi kiếm hạt giống cà rốt nuôi thỏ ở đâu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Hạt giống cà rốt để nuôi thỏ kiếm ở đâu vậy ạ? Hay chỉ có cách chờ đến lượt bán lại thôi?"
     },
     {
       "id": "facebook-5b6fafce38e6e0de",
@@ -235,8 +241,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "K***",
       "text_th": "หยุดเล่นไปนาน ลองมือดูที่อยากได้ไม่ออก ออกแต่ที่ไม่อยากได้…..รางวัลค่ากลับมาเล่นเกมหรอคะเนี่ย",
-      "text_vn": "Nghỉ chơi lâu, thử quay thì không ra cái muốn, toàn ra cái không muốn... đây là phần thưởng quay lại game hả trời",
-      "translation_method": "machine_translation",
+      "text_vn": "Nghỉ chơi lâu, thử vận quay xem, cái muốn thì không ra, toàn ra cái không muốn… Đây là phần thưởng cho việc quay lại chơi game hả trời?",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -263,7 +269,8 @@
       ],
       "summary_vn": "Than quay lại chơi quay toàn ra đồ không muốn",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nghỉ chơi lâu, thử quay thì không ra cái muốn, toàn ra cái không muốn... đây là phần thưởng quay lại game hả trời"
     },
     {
       "id": "facebook-7bdc628f72ff3a17",
@@ -310,8 +317,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "แจกโค้ดใหม่ครับบบ",
-      "text_vn": "Tặng code mới đâyyy",
-      "translation_method": "machine_translation",
+      "text_vn": "Phát code mới nè mọi người!",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -338,7 +345,8 @@
       ],
       "summary_vn": "Chia sẻ code quà tặng mới",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tặng code mới đâyyy"
     },
     {
       "id": "facebook-71fe6ee7af9fd908",
@@ -384,7 +392,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "วิธีเปลี่ยนชุดน้องกระต่ายยักษ์",
-      "text_vn": "Cách thay đồ cho thỏ khổng lồ",
+      "text_vn": "Cách thay đồ cho bé thỏ khổng lồ",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -404,14 +412,15 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "question",
       "keywords": [
         "thú cưng",
         "trang phục"
       ],
       "summary_vn": "Hỏi cách thay đồ cho thú cưng thỏ khổng lồ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cách thay đồ cho thỏ khổng lồ"
     },
     {
       "id": "facebook-66314a3298a780f1",
@@ -421,7 +430,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "มาต้อนรับน้องสัตว์เลี้ยงกระบองเพชรที่กำลังจะบุก Play Together กันเถอะ! Coupon code: PTCACTUSPET แลกรับโค้ดได้ที่: https://giftcode.vnggames.com/th/redeem/ptg ยังไม่รู้วิธีแลกโค้ด? ดูคู่มือฉบับเต็มได้ที่โพสต์ก่อนหน้าของเรา: https://www.facebook.com/share/p/1DDUdeC7cT/รีบกรอกโค้ดเพื่อรับของรางวัลสุดปังกันเลย! #playtogether #playtogethervng #playtogetherTH",
-      "text_vn": "Cùng chào đón thú cưng xương rồng sắp đổ bộ Play Together nào! Coupon code: PTCACTUSPET Đổi code tại: https://giftcode.vnggames.com/th/redeem/ptg Chưa biết cách đổi code? Xem hướng dẫn đầy đủ ở bài viết trước: https://www.facebook.com/share/p/1DDUdeC7cT/ Nhanh tay nhập code nhận quà xịn nhé! #playtogether #playtogethervng #playtogetherTH",
+      "text_vn": "Cùng chào đón bé thú cưng xương rồng sắp đổ bộ Play Together nào! Coupon code: PTCACTUSPET. Đổi code tại: https://giftcode.vnggames.com/th/redeem/ptg. Chưa biết cách đổi code? Xem hướng dẫn đầy đủ ở bài trước: https://www.facebook.com/share/p/1DDUdeC7cT/ Nhanh tay nhập code để nhận quà cực đỉnh nhé! #playtogether #playtogethervng #playtogetherTH",
       "sentiment": "Positive",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -441,7 +450,7 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "code quà tặng",
@@ -449,7 +458,8 @@
       ],
       "summary_vn": "Chia sẻ code PTCACTUSPET nhận thú cưng xương rồng và hướng dẫn đổi",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cùng chào đón thú cưng xương rồng sắp đổ bộ Play Together nào! Coupon code: PTCACTUSPET Đổi code tại: https://giftcode.vnggames.com/th/redeem/ptg Chưa biết cách đổi code? Xem hướng dẫn đầy đủ ở bài viết trước: https://www.facebook.com/share/p/1DDUdeC7cT/ Nhanh tay nhập code nhận quà xịn nhé! #playtogether #playtogethervng #playtogetherTH"
     }
   ],
   "metrics": {

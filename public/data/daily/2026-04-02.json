@@ -173,7 +173,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "ฃ***",
       "text_th": "ลดราคาของหน่อย. อยากให้ลดราคาของหน่อยค่ะมันแพงเกินเพิ่มของน่ารักๆกว่านี้หน่อย เกมดีมากๆแล้วค่ะแค่อยากให้เปลี่ยนนิดหน่อยอย่างอื่นก็โอเคน่ารักมาก ของตกแต่งบ้านอยากให้มีเพิ่ม ของที่ต้องซื้อขอลดราคาลงหน่อยแพงมาก",
-      "text_vn": "Mong giảm giá vật phẩm, thêm đồ dễ thương và thêm đồ trang trí nhà. Các phần khác của game đều ổn.",
+      "text_vn": "Giảm giá đồ chút đi. Mong giảm giá đồ chút ạ, đắt quá, thêm đồ dễ thương nữa. Game hay lắm rồi, chỉ muốn đổi chút thôi, còn lại ok, dễ thương lắm. Mong có thêm đồ trang trí nhà, đồ phải mua thì xin giảm giá xuống, đắt lắm.",
       "sentiment": "Mixed",
       "confidence": 0.86,
       "topic": "Gacha / Shop / Pricing",
@@ -190,7 +190,9 @@
       ],
       "summary_vn": "Mong giảm giá vật phẩm và thêm đồ trang trí nhà",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mong giảm giá vật phẩm, thêm đồ dễ thương và thêm đồ trang trí nhà. Các phần khác của game đều ổn.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "ios-dcddac162c255a6f",
@@ -198,7 +200,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "T***",
       "text_th": "สุ่มของ. เวลาสุ่มของ เกมจะออกเองตลอดเลย ทำให้ไม่ได้รับของที่สุ่มไป      ส่วนอย่างอื่นไม่มีปัญหาอะไรค่ะ",
-      "text_vn": "Game thường tự thoát khi quay vật phẩm, khiến người chơi không nhận được vật phẩm đã quay.",
+      "text_vn": "Quay đồ. Mỗi lần quay đồ game cứ tự thoát ra, nên không nhận được món đã quay. Còn lại thì không có vấn đề gì ạ.",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Gacha / Shop / Pricing",
@@ -214,7 +216,9 @@
         "văng game"
       ],
       "summary_vn": "Game tự thoát khi quay gacha, không nhận vật phẩm",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Game thường tự thoát khi quay vật phẩm, khiến người chơi không nhận được vật phẩm đã quay.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "ios-df7976c4b200af97",
@@ -222,7 +226,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "เ***",
       "text_th": "โฆษณา. เป็นเกมที่ดูโฆษณาเยอะเกิน จนเอียนจนไม่อยากทำอะไร จนไม่อยากเล่น",
-      "text_vn": "Game có quá nhiều quảng cáo đến mức người chơi không còn muốn chơi.",
+      "text_vn": "Quảng cáo. Game bắt xem quảng cáo nhiều quá, ngán tới mức chẳng muốn làm gì, chẳng muốn chơi nữa.",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Other",
@@ -237,7 +241,9 @@
         "quảng cáo"
       ],
       "summary_vn": "Game có quá nhiều quảng cáo đến mức không muốn chơi",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Game có quá nhiều quảng cáo đến mức người chơi không còn muốn chơi.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "ios-95f77e331fb8fd18",
@@ -245,7 +251,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "L***",
       "text_th": "Review game. สนุกมากมีมินิเกมให้ด้วย เพชรหาง่ายดี ชุดฟรีสวยๆมีเยอะ มีระบบสัตว์เลี้ยง เลี้ยงเด็ก ปลูกพืช ตกปลาจับแมลง ส่วนตัวชอบมากๆค่ะ กิจกรรมเยอะมาก",
-      "text_vn": "Game rất vui, có nhiều minigame, trang phục miễn phí đẹp, thú cưng, trồng trọt, câu cá và nhiều hoạt động.",
+      "text_vn": "Review game. Vui lắm, có cả minigame, kim cương dễ kiếm, nhiều đồ miễn phí đẹp, có hệ thống thú cưng, nuôi em bé, trồng cây, câu cá bắt côn trùng. Cá nhân mình rất thích ạ, sự kiện nhiều lắm.",
       "sentiment": "Positive",
       "confidence": 0.86,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
@@ -263,7 +269,9 @@
         "câu cá"
       ],
       "summary_vn": "Khen nhiều minigame, đồ miễn phí, thú cưng, trồng trọt, câu cá",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Game rất vui, có nhiều minigame, trang phục miễn phí đẹp, thú cưng, trồng trọt, câu cá và nhiều hoạt động.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "ios-60b75bcb1eeeddf4",
@@ -271,7 +279,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "พ***",
       "text_th": "ขออาชีพ. เห็นด้วยกับความคิดเห็นที่บอกว่าไม่มีอาชีพค่ะเพราะว่าเราจะได้หาเงินมีแล้วก็เราจะได้แบบสนุก กับอาชีพ",
-      "text_vn": "Mong game bổ sung nghề nghiệp để kiếm tiền và tăng sự thú vị.",
+      "text_vn": "Xin thêm nghề nghiệp. Đồng ý với bình luận nói là không có nghề nghiệp ạ, vì có nghề thì mình kiếm được tiền và chơi vui hơn với nghề nghiệp.",
       "sentiment": "Neutral",
       "confidence": 0.86,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
@@ -287,7 +295,9 @@
         "kiếm tiền trong game"
       ],
       "summary_vn": "Mong game bổ sung nghề nghiệp để kiếm tiền",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mong game bổ sung nghề nghiệp để kiếm tiền và tăng sự thú vị.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-73e98eb11c2e4517",
@@ -295,7 +305,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "A***",
       "text_th": "สนุกมาก",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui lắm.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -311,7 +321,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game rất vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-bfdc50dec2e96f71",
@@ -319,7 +331,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "น***",
       "text_th": "สนุกเล่นเพลินมากคะ",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui, chơi cuốn lắm ạ.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -335,7 +347,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game vui, chơi cuốn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-eef9cefe32a33a5d",
@@ -343,7 +357,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "S***",
       "text_th": "เล่นมาตั้งแต่เกมมาใหม่ แต่ไม่ค่อยชอบที่สุ่มได้เกิบติดกัน3คู่ ลบทิ้งแล้วนอย",
-      "text_vn": "Phản hồi tiêu cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Chơi từ hồi game mới ra, nhưng không thích việc quay ra giày liền 3 đôi. Xoá game rồi, chán.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Gacha / Shop / Pricing",
@@ -359,7 +373,9 @@
         "gacha"
       ],
       "summary_vn": "Không thích quay gacha ra giày trùng ba lần, đã xoá game",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-aaf0912a4c5c5f78",
@@ -367,7 +383,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ก***",
       "text_th": "เล่นสนุกมาก",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Chơi vui lắm.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -383,7 +399,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game chơi rất vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

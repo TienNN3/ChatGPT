@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "p***",
       "text_th": "good",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Tốt",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -24,7 +24,9 @@
         "giải trí"
       ],
       "summary_vn": "Khen game tốt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-cc78e5fcb71d6808",
@@ -32,7 +34,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ส***",
       "text_th": "อยากเล่นมาก แต่ดันเข้าไม่ได้ ก่อนหน้านี้ก็เข้าเล่นได้ปกติเลย แต่พอกลับมาเล่นอีกทีก็เล่นไม่ได้ #sstads9",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Rất muốn chơi mà lại không vào được. Trước đây vẫn vào chơi bình thường, nhưng quay lại chơi thì không chơi được nữa #sstads9",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -48,7 +50,9 @@
         "đăng nhập"
       ],
       "summary_vn": "Trước chơi bình thường, giờ không vào được game",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-3eb042b720ede705",
@@ -56,7 +60,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "N***",
       "text_th": "เบื่อรกมากเข้ายาก",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Chán, rườm rà quá, khó vào",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -72,7 +76,9 @@
         "đăng nhập"
       ],
       "summary_vn": "Chê game chán, rối, khó vào",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

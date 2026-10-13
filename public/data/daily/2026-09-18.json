@@ -10,8 +10,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "5 ดาว = 5 ฿4 ดาว = 4 ฿ใบดาวต่ำกว่าอื่นๆติดต่อสอบถามได้ค้าบ(มีเครดิตเช็คได้หน้าโปรไฟล์)",
-      "text_vn": "5 sao = 5 ฿4 sao = 4 ฿ Các mức sao thấp hơn khác vui lòng liên hệ và hỏi thăm (có tín dụng, kiểm tra trên trang hồ sơ)",
-      "translation_method": "machine_translation",
+      "text_vn": "Thẻ 5 sao = 5 baht, 4 sao = 4 baht, thẻ sao thấp hơn và loại khác nhắn hỏi nhé (có uy tín, xem ở trang cá nhân).",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -36,7 +36,8 @@
       ],
       "summary_vn": "Rao bán thẻ 5 sao 5 baht, 4 sao 4 baht",
       "sentiment_rule": "Positive",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "5 sao = 5 ฿4 sao = 4 ฿ Các mức sao thấp hơn khác vui lòng liên hệ và hỏi thăm (có tín dụng, kiểm tra trên trang hồ sơ)"
     },
     {
       "id": "facebook-a259cdf70f3266ee",
@@ -46,8 +47,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "โสมธรรมดา 12 ต้น  ชุดละ100บาท",
-      "text_vn": "Nhân sâm thông thường, 12 cây, 100 baht một bộ",
-      "translation_method": "machine_translation",
+      "text_vn": "Nhân sâm thường 12 cây, 100 baht/bộ.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -71,7 +72,8 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Rao bán nhân sâm thường 12 cây 100 baht/bộ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nhân sâm thông thường, 12 cây, 100 baht một bộ"
     },
     {
       "id": "facebook-0fd069a9c3e3f4eb",
@@ -81,8 +83,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "สอบถามค่ะ ต้องอัพสถานะอะไรเพิ่มหรอคะ พอดีเบ็ดขาด หลายรอบมาก",
-      "text_vn": "Tôi có một câu hỏi. Tôi có cần nâng cấp trạng thái của mình không? Tôi đã bị đứt móc nhiều lần.",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho hỏi cần nâng chỉ số gì thêm vậy ạ? Cần câu bị đứt dây nhiều lần quá.",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -108,7 +110,8 @@
       ],
       "summary_vn": "Hỏi cần nâng chỉ số gì vì bị đứt cần câu nhiều lần",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tôi có một câu hỏi. Tôi có cần nâng cấp trạng thái của mình không? Tôi đã bị đứt móc nhiều lần."
     },
     {
       "id": "facebook-7940999bf4e7bffa",
@@ -118,8 +121,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "L***",
       "text_th": "มีใครเป็นเหมือนกันมั้ยคะะ เต็มทุกเซิฟเวอร์เลยบ่",
-      "text_vn": "Có ai gặp vấn đề tương tự không? Tất cả các máy chủ đều đầy đủ.",
-      "translation_method": "machine_translation",
+      "text_vn": "Có ai bị giống vậy không ạ? Server nào cũng đầy hết.",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -144,7 +147,8 @@
         "máy chủ đầy"
       ],
       "summary_vn": "Báo tất cả máy chủ đều đầy, không vào được",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Có ai gặp vấn đề tương tự không? Tất cả các máy chủ đều đầy đủ."
     },
     {
       "id": "facebook-8ef6f0e93cb74218",
@@ -192,8 +196,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "เกมนี้สามารถเล่นทั้งใน Pc และ มือถือ เชื่อมบัญชีเดียวกันได้มั้ยคะเกมนี้สามารถเล่นทั้งใน Pc และ มือถือ เชื่อมบัญชีเดียวกันได้มั้ยคะ",
-      "text_vn": "Trò chơi này có thể chơi trên cả PC và điện thoại di động, có thể liên kết cùng một tài khoản không? Trò chơi này có thể chơi trên cả PC và điện thoại di động được không, có thể liên kết cùng một tài khoản không?",
-      "translation_method": "machine_translation",
+      "text_vn": "Game này có chơi được cả trên PC và điện thoại, liên kết chung một tài khoản được không ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -217,7 +221,8 @@
         "tải game"
       ],
       "summary_vn": "Hỏi chơi được trên PC và điện thoại cùng tài khoản không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Trò chơi này có thể chơi trên cả PC và điện thoại di động, có thể liên kết cùng một tài khoản không? Trò chơi này có thể chơi trên cả PC và điện thoại di động được không, có thể liên kết cùng một tài khoản không?"
     },
     {
       "id": "facebook-8f0aeb92120fe340",
@@ -227,8 +232,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "เคยไหม มีเพื่อนแบบนี้",
-      "text_vn": "Bạn đã từng có một người bạn như thế này chưa?",
-      "translation_method": "machine_translation",
+      "text_vn": "Đã bao giờ có người bạn như thế này chưa?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -255,7 +260,8 @@
         "tìm bạn"
       ],
       "summary_vn": "Đăng vui hỏi ai từng có người bạn như thế này",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bạn đã từng có một người bạn như thế này chưa?"
     },
     {
       "id": "facebook-27f49faf6212f6f6",
@@ -265,8 +271,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "NEW VVIP PASS",
-      "text_vn": "THẺ VVIP MỚI",
-      "translation_method": "machine_translation",
+      "text_vn": "VVIP Pass mới",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -292,7 +298,8 @@
         "vvip pass"
       ],
       "summary_vn": "Chia sẻ thông tin VVIP Pass mới",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "THẺ VVIP MỚI"
     },
     {
       "id": "facebook-bc5d524bea40695b",
@@ -302,8 +309,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "L***",
       "text_th": "น้องมินิมีจับมาให้ด้วย",
-      "text_vn": "Little Mini cũng đã mang nó đến cho bạn.",
-      "translation_method": "machine_translation",
+      "text_vn": "Bé Mini còn bắt giúp nữa nè.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -330,7 +337,8 @@
       ],
       "summary_vn": "Khoe thú cưng Mini bắt giúp đồ",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Little Mini cũng đã mang nó đến cho bạn."
     },
     {
       "id": "facebook-2636d7ff40fb503b",
@@ -340,8 +348,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "D***",
       "text_th": "ได้แบบนี้ปกติไหมคะ",
-      "text_vn": "Điều này có bình thường không?",
-      "translation_method": "machine_translation",
+      "text_vn": "Có kiểu này là bình thường không ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -368,7 +376,8 @@
         "gacha"
       ],
       "summary_vn": "Hỏi kết quả nhận được như thế này có bình thường không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Điều này có bình thường không?"
     },
     {
       "id": "facebook-d20a9ba7398df6cf",
@@ -378,8 +387,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "K***",
       "text_th": "4ฟอง พอดีจบกิจ เอาแค่นี้พอ",
-      "text_vn": "4 quả trứng, vừa đủ để hoàn thành công việc, cứ lấy cái này đi.",
-      "translation_method": "machine_translation",
+      "text_vn": "4 quả trứng, vừa xong nhiệm vụ, nhiêu đây đủ rồi.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -408,7 +417,8 @@
       ],
       "summary_vn": "Khoe được 4 quả trứng, vừa đủ hoàn thành nhiệm vụ",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "4 quả trứng, vừa đủ để hoàn thành công việc, cứ lấy cái này đi."
     },
     {
       "id": "facebook-cd041105c6ff06b4",
@@ -418,8 +428,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "B***",
       "text_th": "เกมดีๆ",
-      "text_vn": "Trò chơi hay",
-      "translation_method": "machine_translation",
+      "text_vn": "Game hay.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -445,7 +455,8 @@
       ],
       "summary_vn": "Khen game hay",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Trò chơi hay"
     },
     {
       "id": "facebook-12c10ae481714827",
@@ -455,8 +466,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "เย่ๆ",
-      "text_vn": "Đúng!",
-      "translation_method": "machine_translation",
+      "text_vn": "Yeah yeah.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -484,7 +495,8 @@
       ],
       "summary_vn": "Bình luận reo vui ngắn",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Đúng!"
     },
     {
       "id": "facebook-67da0df43f8ac360",
@@ -494,8 +506,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "G***",
       "text_th": "ชิบหายคับ ตูดติดเบาะ ลงรถไม่ได้ ขับลงน้ำก็อภินิหารอีก หดหู่",
-      "text_vn": "Thật là khủng khiếp. Mông tôi dính chặt vào ghế. Tôi không thể ra khỏi xe được. Lái xe xuống nước là một điều kỳ diệu khác. Chán nản.",
-      "translation_method": "machine_translation",
+      "text_vn": "Toang thật sự, mông dính chặt vào ghế, không xuống xe được, lái xuống nước cũng bị bug kỳ quặc nữa. Chán ghê.",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -522,7 +534,8 @@
         "phương tiện"
       ],
       "summary_vn": "Báo nhân vật bị kẹt trong xe, không xuống được",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Thật là khủng khiếp. Mông tôi dính chặt vào ghế. Tôi không thể ra khỏi xe được. Lái xe xuống nước là một điều kỳ diệu khác. Chán nản."
     },
     {
       "id": "facebook-2caf4d9e3d554408",
@@ -532,8 +545,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "H***",
       "text_th": "ถ้าในเกมมีการเอาชุดไทยเข้ามาจริง ๆ ฉันคงจินตนาการภาพตัวเองถ่ายรูปกับน้องเหมียว NIAO ในบ้านของฉัน พร้อมกับข้อความว่า “WE ARE THAILAND” เลยอะ!!",
-      "text_vn": "Nếu trang phục Thái Lan thực sự được đưa vào game, tôi sẽ tưởng tượng mình chụp ảnh cùng chú mèo NIAO trong nhà với thông điệp “CHÚNG TÔI LÀ THÁI LAN”!!",
-      "translation_method": "machine_translation",
+      "text_vn": "Nếu game thật sự đưa trang phục truyền thống Thái vào, chắc mình sẽ tưởng tượng cảnh chụp ảnh với bé mèo NIAO trong nhà mình kèm dòng chữ “WE ARE THAILAND” luôn á!!",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -560,7 +573,8 @@
       ],
       "summary_vn": "Mong game thêm trang phục Thái Lan để chụp ảnh với mèo",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nếu trang phục Thái Lan thực sự được đưa vào game, tôi sẽ tưởng tượng mình chụp ảnh cùng chú mèo NIAO trong nhà với thông điệp “CHÚNG TÔI LÀ THÁI LAN”!!"
     },
     {
       "id": "facebook-c53b0782c8cd41ff",
@@ -570,8 +584,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "S***",
       "text_th": "เบื่อจังเป็นลูกรักสุ่มอะไรก็ออกง่ายอยากเหมาอะ",
-      "text_vn": "Tôi quá chán việc phải là một đứa trẻ được yêu thương ngẫu nhiên. Bất cứ điều gì đi ra dễ dàng. Tôi muốn trộn nó lên.",
-      "translation_method": "machine_translation",
+      "text_vn": "Chán ghê, làm con cưng quay gì cũng dễ ra, muốn quay bao luôn á.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -598,7 +612,8 @@
       ],
       "summary_vn": "Khoe đùa chán vì quay gì cũng dễ ra",
       "sentiment_rule": "Mixed",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tôi quá chán việc phải là một đứa trẻ được yêu thương ngẫu nhiên. Bất cứ điều gì đi ra dễ dàng. Tôi muốn trộn nó lên."
     },
     {
       "id": "facebook-3ed4aa70589eb455",
@@ -608,8 +623,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "T***",
       "text_th": "ลิ้งค์ผ่านเฟสบุ๊คไม่ได้เลย โหลดทั้งตัวเก่าเพื่อจะคัดลอกโค้ด แต่เข้าไม่ได้เลยครับ มีใครพอทราบไหมครับ",
-      "text_vn": "Không thể liên kết qua Facebook. Tải phiên bản cũ để sao chép mã. Nhưng mình không vào được. Có ai biết không?",
-      "translation_method": "machine_translation",
+      "text_vn": "Không liên kết qua Facebook được, mình tải cả bản cũ để copy code nhưng không vào được luôn. Có ai biết không ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -636,7 +651,8 @@
         "chuyển tài khoản vng"
       ],
       "summary_vn": "Không liên kết được Facebook, tải bản cũ lấy mã cũng không vào được",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Không thể liên kết qua Facebook. Tải phiên bản cũ để sao chép mã. Nhưng mình không vào được. Có ai biết không?"
     },
     {
       "id": "facebook-55d67c12dd6151f7",
@@ -646,8 +662,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "มีใครพอทราบมั้ยคะว่าน้องกระต่ายถ้าจะผสมจำเป็นต้องสีเดียวกันมั้ยคะ",
-      "text_vn": "Có ai biết thỏ có cần phải cùng màu nếu muốn nuôi chung không?",
-      "translation_method": "machine_translation",
+      "text_vn": "Có ai biết thỏ muốn lai có cần cùng màu không ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -673,7 +689,8 @@
         "thỏ mặt trăng"
       ],
       "summary_vn": "Hỏi lai tạo thỏ có cần cùng màu không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Có ai biết thỏ có cần phải cùng màu nếu muốn nuôi chung không?"
     },
     {
       "id": "facebook-25306875aa915706",
@@ -683,7 +700,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "POV : เมื่อเพื่อนชวนตกปลา*หมายเหตุคลิปนี้เป็นแค่การแสดงเท่านั้นไม่ใช่เหตุการณ์ที่เกิดขึ้นจริงแต่อย่างใด",
-      "text_vn": "POV: Khi bạn rủ đi câu cá *Lưu ý: clip chỉ là diễn, không phải sự việc có thật",
+      "text_vn": "POV: Khi bạn bè rủ đi câu cá. *Lưu ý: clip này chỉ là diễn thôi, không phải chuyện thật.",
       "sentiment": "Positive",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -705,14 +722,15 @@
         "comment_count": "1"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "share",
       "keywords": [
         "câu cá"
       ],
       "summary_vn": "Đăng clip diễn vui POV khi bạn rủ đi câu cá",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "POV: Khi bạn rủ đi câu cá *Lưu ý: clip chỉ là diễn, không phải sự việc có thật"
     },
     {
       "id": "facebook-cb6064a9542079ac",
@@ -722,7 +740,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "H***",
       "text_th": "ถ้าในเกมมีการเอาชุดไทยเข้ามาจริง ๆ ฉันคงจินตนาการภาพตัวเองถ่ายรูปกับน้องเหมียว NIAO ในบ้านของฉัน พร้อมกับข้อความว่า “WE ARE THAILAND” เลยอะ!!",
-      "text_vn": "Nếu trang phục Thái Lan thực sự được đưa vào game, tôi sẽ tưởng tượng mình chụp ảnh cùng chú mèo NIAO trong nhà với thông điệp “CHÚNG TÔI LÀ THÁI LAN”!!",
+      "text_vn": "Nếu game thật sự đưa trang phục truyền thống Thái vào, chắc mình sẽ tưởng tượng cảnh chụp ảnh với bé mèo NIAO trong nhà mình kèm dòng chữ “WE ARE THAILAND” luôn á!!",
       "sentiment": "Positive",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -743,14 +761,15 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "suggestion",
       "keywords": [
         "trang phục"
       ],
       "summary_vn": "Mong game thêm trang phục Thái Lan để chụp ảnh với mèo",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nếu trang phục Thái Lan thực sự được đưa vào game, tôi sẽ tưởng tượng mình chụp ảnh cùng chú mèo NIAO trong nhà với thông điệp “CHÚNG TÔI LÀ THÁI LAN”!!"
     }
   ],
   "metrics": {

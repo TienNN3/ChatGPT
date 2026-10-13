@@ -17,7 +17,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "N***",
       "text_th": "จะเติมแพ็คเกจยังไงคะ มันขึ้นว่าไม่รับรองในประเทศของคุณ🥹😭 อยู่มาตั้งแต่เปิดตัวใหม่ๆเสียดายถ้าต้องย้ายเซิร์ฟเวอร์",
-      "text_vn": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Nạp gói thế nào vậy ạ? Nó báo là không hỗ trợ ở quốc gia của bạn 🥹😭 Chơi từ hồi mới ra mắt, phải chuyển server thì tiếc lắm.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Topup & Payment",
@@ -34,7 +34,9 @@
         "chuyển tài khoản vng"
       ],
       "summary_vn": "Hỏi cách nạp gói vì báo không hỗ trợ tại quốc gia",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "facebook-aede22e2ce884fcd",
@@ -44,8 +46,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "T***",
       "text_th": "บริการกดสภาพอากาศ ของขวัญ และเมล็ด Play together สภาพอากาศทุกอัน 10 บาท เมล็ดราคาตามภาพ ยอดนิยมเมล็ดที่ใช้ทองไม่สามารถกิฟได้นะครับ อาจจะมีการปรับราคาเล็กน้อยโปรดติดตามโพสต์ล่าสุดของอุ๋งๆเลย แอดแล้วทักได้เลย รับทั้งวอเล็ต และ ธนาคาร สต็อกมีเพิ่มเรื่อยๆ สอบถามแพ็คเพิ่มเติมได้เลยอุ๋งๆ",
-      "text_vn": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
-      "translation_method": "machine_translation",
+      "text_vn": "Dịch vụ đổi thời tiết, tặng quà và hạt giống Play Together. Thời tiết loại nào cũng 10 baht, hạt giống giá theo hình. Lưu ý hạt giống mua bằng vàng không tặng được nhé. Giá có thể điều chỉnh chút, theo dõi bài mới nhất của Ủng Ủng nha. Add rồi nhắn tin luôn. Nhận cả ví điện tử và ngân hàng, hàng liên tục bổ sung, hỏi thêm các gói khác nhé.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -71,7 +73,8 @@
       ],
       "summary_vn": "Dịch vụ đổi thời tiết 10 baht, tặng quà và bán hạt giống",
       "sentiment_rule": "Mixed",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung."
     },
     {
       "id": "facebook-2f0c759370aebe27",
@@ -81,8 +84,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "โสมธรรมดา 11 ต้น  ชุดละ100บาทโสมน้ำค้าง โสมแสงจันทร์ โสมออโรร่า ต้นละ25บาทโสมทราย โสมแห้งแล้ง โสมลม ต้นละ20บาทโสมเปียกชื้น โสมไฟฟ้าช็อต ต้นละ18บาทสนใจทักได้นะครับ",
-      "text_vn": "Nhân sâm thông thường, 11 cây, 100 baht một bộ, sâm sương, sâm ánh trăng, nhân sâm cực quang, mỗi loại 25 baht, sâm cát, sâm khô, sâm gió, mỗi loại 20 baht, sâm ướt, sâm điện giật, mỗi loại 18 baht. Nếu quan tâm, bạn có thể nói chuyện với chúng tôi.",
-      "translation_method": "machine_translation",
+      "text_vn": "Nhân sâm thường 11 cây: 100 baht/bộ. Nhân sâm sương, nhân sâm ánh trăng, nhân sâm cực quang: 25 baht/cây. Nhân sâm cát, nhân sâm khô hạn, nhân sâm gió: 20 baht/cây. Nhân sâm ẩm ướt, nhân sâm điện giật: 18 baht/cây. Quan tâm inbox nhé.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -107,7 +110,8 @@
       ],
       "summary_vn": "Bán nhiều loại nhân sâm giá 18–25 baht/cây, bộ 100 baht",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nhân sâm thông thường, 11 cây, 100 baht một bộ, sâm sương, sâm ánh trăng, nhân sâm cực quang, mỗi loại 25 baht, sâm cát, sâm khô, sâm gió, mỗi loại 20 baht, sâm ướt, sâm điện giật, mỗi loại 18 baht. Nếu quan tâm, bạn có thể nói chuyện với chúng tôi."
     }
   ],
   "metrics": {

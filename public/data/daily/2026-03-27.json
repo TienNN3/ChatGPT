@@ -114,7 +114,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "S***",
       "text_th": "พัฒนาหน่อย. เกมไม่ค่อยพัฒนา มีแต่อันเดิมๆ ปลา มังกร เปลี่ยนสีวนไป ไม่ึิดจะเอาสัตว์อื่นมาบ้างเลยมั้ง",
-      "text_vn": "Nội dung game ít đổi mới, chủ yếu lặp lại cá và rồng đổi màu. Mong có thêm loài vật mới.",
+      "text_vn": "Phát triển chút đi. Game chẳng mấy phát triển, toàn mấy cái cũ, cá, rồng, đổi màu xoay vòng, không tính đưa con vật khác vào luôn hả.",
       "sentiment": "Mixed",
       "confidence": 0.86,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
@@ -131,7 +131,9 @@
         "cập nhật mới"
       ],
       "summary_vn": "Chê nội dung lặp lại cá, rồng đổi màu, mong thêm loài mới",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nội dung game ít đổi mới, chủ yếu lặp lại cá và rồng đổi màu. Mong có thêm loài vật mới.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-68cd35b7057e4b30",
@@ -139,7 +141,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "k***",
       "text_th": "แก้ไขด่วนนนนนนนน ดูโฆษนาแล้วหลุดบ่อยมากกแถมไม่ได้รางวัลอีก เป็นเหี้ยอะไรไม่รู้ ละเกมเป็นเหี้ยไรสร้างมินิมี ได้คนผิวดำ 12 ตัว มันไม่ควรได้ซ้ำ มึงแก้ด่วนเลยนะ",
-      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Sửa gấppppp! Xem quảng cáo xong văng game liên tục mà còn không được thưởng. Bị cái quái gì không biết. Rồi game bị cái mẹ gì mà tạo Minime ra 12 con da đen, lẽ ra không được trùng chứ. Sửa gấp đi nhé.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -157,7 +159,9 @@
         "thú cưng"
       ],
       "summary_vn": "Xem quảng cáo hay văng, không nhận thưởng, minime ra trùng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

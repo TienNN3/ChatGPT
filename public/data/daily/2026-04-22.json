@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ฐ***",
       "text_th": "ขอเเก้ไขเข้าเเล้วเด้งเกิดไรขึ้นทำเข้าเกมไม่ได้😭😭😭ชอบเกมนี้มากรู้สึกเสียดายอะที่ระบบมันเเย่เเบบนี้เเต่บางคนก็เล่นได้ใช่ไหมอย่าพึงตัดสินคนที่ให้คะเเนนเเย่เพราะเค้าเจอมากับตัวส่วนคนที่เล่นได้อันนี้ก็นะเเต่บางคนอะเล่นไม่ได้บางคนก็เชื่อหรือบางคนก็ไม่เชื่อเเล้วเเต่คนนะอย่าเอางี้ดีกว่าพี่ผู้สร้างเกมค่าหนูอยากบอกว่าหนูขอโทษที่ต้องพูดเเบบนี้เเต่หนูอะก็เป็นเล่นเกมคนหนึ่งใช่ไหมค่ะหนูก็รู้สึกเสียใจที่อยู่ดีๆเกมที่หนูรักเเละพูกพันธ์มาตั้งเเเต่ป.6เล่นไม่ได้หนูก็ใจหายนะค่ะเเต่อย่างไรช่วยเเก้ไข้ให้หน่อยนะค่ะ",
-      "text_vn": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Xin sửa giúp, vào là văng, bị gì vậy, không vào game được 😭😭😭. Rất thích game này, tiếc lắm khi hệ thống tệ thế này. Nhưng chắc có người vẫn chơi được đúng không, đừng vội phán xét người đánh giá thấp vì họ gặp thật. Người chơi được thì thôi, nhưng có người không chơi được, người tin người không tin, tuỳ mỗi người. Thôi thế này đi: anh chị nhà làm game ơi, em xin lỗi vì phải nói vậy, nhưng em cũng là một người chơi đúng không ạ. Em buồn lắm khi tự nhiên game em yêu và gắn bó từ lớp 6 lại không chơi được, em hụt hẫng lắm ạ. Dù sao cũng sửa giúp em nhé.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Login / Account / Data",
@@ -24,7 +24,9 @@
         "văng game"
       ],
       "summary_vn": "Vào game bị văng, không thể chơi, mong sửa",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-4ad7549b42072850",
@@ -32,7 +34,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "S***",
       "text_th": "สนุก",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -48,7 +50,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

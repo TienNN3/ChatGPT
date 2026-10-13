@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "N***",
       "text_th": "ช่วยแก้เรื่องดู โฆษณา ในเกมแล้วไม่ผ่าน แล้วขึ้นบอกให้ดูใหม่ ให้หน่อยครับ",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Sửa giúp vụ xem quảng cáo trong game mà không được tính, rồi báo bắt xem lại với ạ.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -24,7 +24,9 @@
         "quảng cáo"
       ],
       "summary_vn": "Xem quảng cáo không được tính, bắt xem lại, mong sửa",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-5d1bdc93d6d52fca",
@@ -32,7 +34,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "อ***",
       "text_th": "แย่มากภาพไม่สวยฝากบอกถึงผู้พัฒนาเกมด้วยนะคะทั้งที่เซิร์ฟเวอร์คนมันเยอะจนมันแลคแล้วก็ยังจะเอาคนมาใส่อีกคำพูดตัวละครก็น่ารำคาญและพูดมากอีกถ้าทำให้ก็จะแก้รีวิวให้เหมือนกันค่ะขอบคุณค่ะ",
-      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Tệ lắm, hình không đẹp. Nhờ nhắn tới nhà phát triển game giúp: máy chủ đông người tới mức lag rồi mà còn nhét thêm người vào. Lời thoại nhân vật cũng phiền và nói nhiều nữa. Nếu sửa thì mình cũng sẽ sửa lại review ạ, cảm ơn.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -49,7 +51,9 @@
         "quảng cáo"
       ],
       "summary_vn": "Chê đồ họa, server đông gây lag, lời thoại nhân vật phiền",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-9e42255b24209ad4",
@@ -57,7 +61,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "p***",
       "text_th": "เกมดีมากก สังคมดีแต่ส่วนใหญ่จะคุยด้วยเพราะการแต่งตัว ซื้อแพ็คเกจตัวละครไม่คุ้ม ใช้ชีวิตยังไงก็ได้เกมดีแต่เรื่องเงินไม่คุ้ม",
-      "text_vn": "Phản hồi trái chiều về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game hay lắm, cộng đồng tốt nhưng đa số người ta nói chuyện với mình là vì cách ăn mặc. Mua gói nhân vật không đáng. Sống kiểu gì cũng được, game hay nhưng chuyện tiền bạc thì không đáng.",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Topup & Payment",
@@ -74,7 +78,9 @@
         "trang phục"
       ],
       "summary_vn": "Khen cộng đồng nhưng chê gói nhân vật đắt, không đáng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

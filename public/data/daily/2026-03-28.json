@@ -128,7 +128,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "N***",
       "text_th": "แก้ไขหน่อยค่ะ. มีโทรศัพท์ 2 เครื่อง  แอนดรอย กับ iOS พอเข้าผ่าน iOS แล้ว กลับมาล็อกผ่านแอนดรอยไม่ได้อีก ช่วยดูให้หน่อยค่ะ",
-      "text_vn": "Sau khi đăng nhập trên iOS, người chơi không thể đăng nhập lại trên thiết bị Android.",
+      "text_vn": "Sửa giúp với ạ. Mình có 2 máy, Android và iOS. Đăng nhập trên iOS rồi thì quay lại đăng nhập bằng Android không được nữa. Kiểm tra giúp mình với ạ.",
       "sentiment": "Neutral",
       "confidence": 0.86,
       "topic": "Login / Account / Data",
@@ -144,7 +144,9 @@
       ],
       "summary_vn": "Đăng nhập iOS xong không thể đăng nhập lại trên Android",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Sau khi đăng nhập trên iOS, người chơi không thể đăng nhập lại trên thiết bị Android.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-4922b44f74554841",
@@ -152,7 +154,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "F***",
       "text_th": "กว่าจะเข้าเกมได้โคตรช้าอ่ะ",
-      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vào được game chậm kinh khủng.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -168,7 +170,9 @@
         "tải game"
       ],
       "summary_vn": "Phàn nàn vào game quá chậm",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-3496fecea253b044",
@@ -176,7 +180,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "อ***",
       "text_th": "สนุกมากเลยค่ะเคยเล่นแล้วเราก็โหลดมาแล้วก็ได้ตัวผู้หญิงน่ารักมากเลยค่ะสมชื่อกับเกมนี้จริงๆ เกมนี้สนุกมากๆเลยอยากเล่นอีกแต่ไม่อยากโหลดอ่ะเพราะว่ากลัวมันจะค้าง เพราะว่าโทรศัพท์เราอ่ะมันกรอกข้อมูลได้ไม่เยอะ อยากโหลดจังเลย อยากเล่นก็อยากเล่นแต่ก็ไม่เล่นไม่ได้อยากโหลดแล้วหนูก็อยากเล่นอันนี้เหมือนกันนี่",
-      "text_vn": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui lắm ạ, từng chơi rồi, tải về được nhân vật nữ dễ thương cực, đúng như tên game luôn. Game này vui lắm, muốn chơi lại mà không dám tải vì sợ bị đơ, do điện thoại mình bộ nhớ ít. Muốn tải ghê, muốn chơi lắm mà không chơi được, em cũng muốn chơi game này nữa.",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -193,7 +197,9 @@
         "tải game"
       ],
       "summary_vn": "Thích game nhưng ngại tải vì máy yếu, sợ đơ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "น***",
       "text_th": "ยกให้เกมนี้เป็นเดอะเบสเลย รักเกมนี้มากๆๆๆ",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game này là nhất luôn, yêu game này lắm lắm.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -24,7 +24,9 @@
         "minigame"
       ],
       "summary_vn": "Yêu game, coi đây là game hay nhất",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-7b744d73c4eeef11",
@@ -32,7 +34,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ธ***",
       "text_th": "ชอบเกมนี้มากกกกกเล่นเกือบเดือนเเล้วชอบระบบมินินีมากด้วยเเต่เเบบตอนให้น้องเเยกอิสระขอให้สามารถเจอน้องอีกได้ไหมคะ ทำใจไม่ได้รักน้อง😭",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Thích game này lắmmm, chơi gần một tháng rồi, rất thích hệ thống Minime nữa. Nhưng lúc cho bé ra ở riêng, xin cho được gặp lại bé được không ạ, không chịu nổi, thương bé quá 😭",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -48,7 +50,9 @@
         "thú cưng"
       ],
       "summary_vn": "Thích hệ thống minime, mong gặp lại minime đã thả đi",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-175058eccc5a2c70",
@@ -56,7 +60,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "N***",
       "text_th": "เติมเงินซื้อไข่สุนัขตัวใหญ่ไม่ได้เติมรอบสองถึงจะได้เติมซื้อชุดไปอีกก็ไม่ได้คงไม่เติมอีกแล้ว",
-      "text_vn": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Nạp tiền mua trứng chó lớn không được, nạp lần hai mới được. Nạp mua trang phục nữa cũng không được, chắc không nạp nữa đâu.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Topup & Payment",
@@ -73,7 +77,9 @@
         "thú cưng"
       ],
       "summary_vn": "Nạp tiền mua trứng chó lớn và trang phục nhưng không nhận",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

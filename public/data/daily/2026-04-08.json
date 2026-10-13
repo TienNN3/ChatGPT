@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "จ***",
       "text_th": "บักเยอะมากไม่สนุกเลย",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Lỗi nhiều quá, chẳng vui gì cả.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -24,7 +24,9 @@
         "lỗi hiển thị"
       ],
       "summary_vn": "Phàn nàn game nhiều lỗi, không vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-8dfe9f9dd1c07694",
@@ -32,7 +34,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "p***",
       "text_th": "good",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Hay.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -48,7 +50,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game tốt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-719bf408cb9da7c6",
@@ -56,7 +60,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "J***",
       "text_th": "สนุกมากเลยค่ะ",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui lắm luôn ạ.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -72,7 +76,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game rất vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-4e896a47f7dc0325",
@@ -80,7 +86,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "พ***",
       "text_th": "ชอบมากเล่นทุกวันเหมือนใช้ชีวิตจริงมากและก็สามารถเล่นกับเพื่อนได้",
-      "text_vn": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Rất thích, chơi mỗi ngày, giống sống đời thật lắm, lại chơi được với bạn bè.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Social / Scam / Harassment / Toxic",
@@ -96,7 +102,9 @@
         "tìm bạn"
       ],
       "summary_vn": "Thích game giống đời thực, chơi cùng bạn bè mỗi ngày",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-23dba9f3259be0a7",
@@ -104,7 +112,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "K***",
       "text_th": "รักเกมนี้มากก เล่นตั้งแต่สมัยอยู่ประถมปลายจนตอนนี้ขึ้นมอปลายแล้ว เล่นเพลินสุดๆ ชอบมากกกกกก",
-      "text_vn": "Phản hồi tích cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Yêu game này lắm, chơi từ hồi cuối cấp 1 tới giờ lên cấp 3 rồi, chơi cuốn cực, thích lắmmmm.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
@@ -120,7 +128,9 @@
         "minigame"
       ],
       "summary_vn": "Yêu game, chơi từ tiểu học đến cấp ba",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

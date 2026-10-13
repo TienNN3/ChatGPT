@@ -264,6 +264,30 @@
     details.notes[open] > summary, details.pending-list[open] > summary { margin-bottom:10px; }
     @media(max-width:1100px) { .kpi-band { grid-template-columns:repeat(3,minmax(0,1fr)); } }
     @media(max-width:760px) { .kpi-band { grid-template-columns:1fr 1fr; gap:10px; } .kpi-card { padding:12px 12px 8px; } .kpi-value { font-size:24px; } .highlight-head .btn.sm { margin-left:0; } .heatmap .hm-kw { min-width:110px; } }
+    .kpi-band.kpi-4 { grid-template-columns:repeat(4,minmax(0,1fr)); } .kpi-band.kpi-3 { grid-template-columns:repeat(3,minmax(0,1fr)); }
+    .kpi-card:not([data-kpi-action]) { cursor:default; }
+    .kpi-band .source-card.static { padding:16px; border-top:0; border-radius:16px; box-shadow:0 1px 2px rgba(20,33,61,.05),0 4px 14px rgba(20,33,61,.05); position:relative; }
+    .kpi-band .source-card.static::before { content:""; position:absolute; left:0; top:14px; bottom:14px; width:3px; border-radius:0 3px 3px 0; background:var(--brand); }
+    .kpi-band .source-card .label { text-transform:uppercase; letter-spacing:.04em; font-size:12px; }
+    .kpi-band .source-card .value { font-size:26px; }
+    .ellipsis { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .section-title h2 { display:flex; align-items:center; gap:6px; font-size:16px; }
+    .explorer-tools h2 { display:flex; align-items:center; gap:6px; margin-bottom:2px; }
+    .explorer-actions { display:flex; align-items:center; gap:12px; flex-wrap:wrap; } .explorer-actions .checkline { margin:0; } .btn.sm { padding:6px 12px; font-size:13px; }
+    .quick-sent { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:12px; }
+    .quick-sent button { border:1px solid var(--line); background:var(--surface); color:var(--muted); border-radius:999px; padding:5px 12px; font-size:13px; }
+    .quick-sent button.active { background:var(--brand); border-color:var(--brand); color:#fff; } [data-theme="dark"] .quick-sent button.active { color:#0e1420; }
+    .feed-list { display:grid; gap:10px; }
+    .feed-item { border:1px solid var(--line); border-left:4px solid var(--neutral); border-radius:12px; padding:12px 14px; background:var(--surface); }
+    .feed-item.Positive { border-left-color:var(--positive); } .feed-item.Negative { border-left-color:var(--negative); } .feed-item.Mixed { border-left-color:var(--mixed); }
+    .feed-meta { display:flex; flex-wrap:wrap; align-items:center; gap:6px 8px; margin-bottom:6px; } .feed-link { margin-left:auto; white-space:nowrap; }
+    .feed-summary { font-weight:600; font-size:14px; margin-bottom:3px; }
+    .feed-text { font-size:14px; line-height:1.55; white-space:pre-line; }
+    .feed-orig { margin-top:6px; } .feed-orig summary { cursor:pointer; font-size:12px; color:var(--brand); } .feed-orig .thai { margin-top:4px; font-size:13px; color:var(--muted); white-space:pre-line; overflow-wrap:anywhere; }
+    .feed-foot { display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin-top:8px; }
+    .kw-chip { border:1px solid var(--line); background:var(--surface-2); color:var(--text); border-radius:999px; padding:2px 9px; font-size:12px; } .kw-chip:hover { border-color:var(--brand); color:var(--brand); }
+    @media(max-width:1100px) { .kpi-band.kpi-4 { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media(max-width:760px) { .kpi-band.kpi-3 { grid-template-columns:1fr 1fr; } .feed-link { margin-left:0; } }
     .loading { opacity:.55; pointer-events:none; }
     dialog { width:min(720px,calc(100% - 24px)); max-height:82vh; overflow:auto; background:var(--surface); color:var(--text); border:1px solid var(--line); border-radius:18px; padding:20px; }
     dialog::backdrop { background:rgba(5,8,15,.6); }
@@ -381,12 +405,16 @@
 
     <!-- TAB 2: Theo nguồn — mỗi group/fanpage/store có bao nhiêu phản hồi và cảm xúc ra sao -->
     <div class="tab-panel" data-panel="sources" hidden>
+      <section id="sourceKpis" class="kpi-band kpi-4" aria-label="Chỉ số theo nguồn"></section>
+      <section class="grid">
+        <article class="card span-5"><div class="card-head"><h2>Thị phần thảo luận <span class="info" title="Mỗi nguồn chiếm bao nhiêu % phản hồi có ngày đăng trong kỳ. Bấm để lọc danh sách.">ⓘ</span></h2></div><div class="donut-wrap"><canvas id="shareDonut" aria-label="Thị phần thảo luận theo nguồn"></canvas><div id="shareCenter" class="donut-center"></div></div><div id="shareLegend" class="donut-legend"></div></article>
+        <article class="card span-7"><div class="card-head"><h2>Tỷ lệ cảm xúc theo nguồn <span class="info" title="So sánh nhanh nguồn nào tích cực hơn, nguồn nào có nhiều phản hồi tiêu cực">ⓘ</span></h2></div><div id="sourceMix" class="mix-list"></div><div class="legend" style="margin-top:10px"><span><i class="dot positive-bg"></i>Tích cực</span><span><i class="dot negative-bg"></i>Tiêu cực</span><span><i class="dot mixed-bg"></i>Đan xen</span><span><i class="dot neutral-bg"></i>Trung tính</span></div></article>
+      </section>
       <p id="sourceCoverage" class="coverage-note"></p>
       <section id="sourceCards" class="source-cards"></section>
       <details id="sourcePending" class="card pending-list" hidden></details>
       <section class="grid">
-        <article class="card span-12"><div class="card-head"><h2>Tỷ lệ cảm xúc theo nguồn</h2><p>So sánh nhanh nguồn nào tích cực hơn, nguồn nào có nhiều phản hồi tiêu cực</p></div><div id="sourceMix" class="mix-list"></div><div class="legend" style="margin-top:10px"><span><i class="dot positive-bg"></i>Tích cực</span><span><i class="dot negative-bg"></i>Tiêu cực</span><span><i class="dot mixed-bg"></i>Đan xen</span><span><i class="dot neutral-bg"></i>Trung tính</span></div></article>
-        <article class="card span-12"><div class="card-head"><h2>Phản hồi theo nguồn</h2><p>Mỗi group, fanpage và store đóng góp bao nhiêu phản hồi · bấm tên nguồn để lọc danh sách</p></div>
+        <article class="card span-12"><div class="card-head"><h2>Phản hồi theo nguồn <span class="info" title="Mỗi group, fanpage, kênh YouTube và store đóng góp bao nhiêu phản hồi · bấm tên nguồn để lọc danh sách">ⓘ</span></h2></div>
           <div class="scroll"><table class="responsive-table"><thead><tr><th>Nguồn</th><th class="num">Phản hồi</th><th class="num">Tích cực</th><th class="num">Tiêu cực</th><th>Loại nội dung chính</th><th>Từ khoá nổi bật</th></tr></thead><tbody id="sourceSummary"></tbody></table></div>
           <details class="more"><summary>Chi tiết số lượng theo ngày và nguồn</summary><p class="muted small">Chỉ tính nội dung xác định được ngày đăng trong kỳ đã chọn.</p><div class="scroll"><table class="responsive-table"><thead><tr><th>Ngày</th><th>Nguồn</th><th class="num">Tổng</th><th class="num">Tích cực</th><th class="num">Tiêu cực</th><th class="num">Trung tính</th><th class="num">Đan xen</th></tr></thead><tbody id="sourceRows"></tbody></table></div></details>
         </article>
@@ -395,19 +423,14 @@
 
     <!-- TAB 3: Đánh giá store — điểm rating Sensor Tower theo app và review có nội dung trong kỳ -->
     <div class="tab-panel" data-panel="store" hidden>
-      <div class="section-title"><h2>Điểm rating trên store</h2><p class="muted small">Sensor Tower cập nhật theo tuần · ưu tiên app <strong>Play Together VNG</strong>; app Global (HAEGIN) chỉ để tham chiếu</p></div>
-      <section id="ratingCards" class="source-cards"></section>
+      <div class="section-title"><h2>Điểm rating trên store <span class="info" title="Sensor Tower cập nhật theo tuần · tính riêng app Play Together VNG; app Global (HAEGIN) chỉ để tham chiếu">ⓘ</span></h2></div>
+      <section id="ratingCards" class="kpi-band kpi-3"></section>
       <section class="grid">
-        <article class="card span-8"><div class="card-head"><h2>Điểm rating Play Together VNG theo tuần</h2><p id="ratingCaption"></p></div><div class="chart-wrap"><canvas id="ratingChart" aria-label="Biểu đồ điểm rating Google Play và App Store theo tuần"></canvas></div></article>
-        <article class="card span-4"><div class="card-head"><h2>Cách đọc</h2></div><ul class="plain-list">
-          <li><strong>Điểm tích lũy</strong>: điểm trung bình của toàn bộ lượt đánh giá từ trước đến nay, thay đổi rất chậm.</li>
-          <li><strong>Điểm lượt mới</strong>: điểm trung bình của các lượt đánh giá mới trong tuần, phản ánh cảm nhận gần đây.</li>
-          <li>Lượt mới thấp hơn điểm tích lũy trong nhiều tuần liền là dấu hiệu điểm store sẽ giảm.</li>
-          <li>Số lượt mới của Google Play là ước tính của Sensor Tower nên có thể lẻ.</li></ul></article>
-        <article class="card span-12"><div class="card-head"><h2>Điểm theo ứng dụng</h2><p id="ratingTableCaption"></p></div><div class="scroll"><table class="responsive-table"><thead><tr><th>Ứng dụng</th><th>Nền tảng</th><th class="num">Điểm tích lũy</th><th class="num">Tổng lượt</th><th class="num">Điểm lượt mới</th><th class="num">Lượt mới</th><th>Cập nhật</th></tr></thead><tbody id="ratingRows"></tbody></table></div></article>
+        <article class="card span-12"><div class="card-head"><h2>Điểm rating Play Together VNG theo tuần <span class="info" title="Điểm tích lũy (đường liền): trung bình mọi lượt đánh giá từ trước đến nay, thay đổi chậm. Điểm lượt mới (đường đứt): trung bình lượt đánh giá mới trong tuần, phản ánh cảm nhận gần đây. Lượt mới thấp hơn tích lũy nhiều tuần liền là dấu hiệu điểm sẽ giảm. Số lượt mới Google Play là ước tính nên có thể lẻ.">ⓘ</span></h2><p id="ratingCaption" class="caption"></p></div><div class="chart-wrap"><canvas id="ratingChart" aria-label="Biểu đồ điểm rating Google Play và App Store theo tuần"></canvas></div></article>
+        <article class="card span-12"><div class="card-head"><h2>Điểm theo ứng dụng <span class="info" id="ratingTableInfo" title="">ⓘ</span></h2><p id="ratingTableCaption" class="caption" hidden></p></div><div class="scroll"><table class="responsive-table"><thead><tr><th>Ứng dụng</th><th>Nền tảng</th><th class="num">Điểm tích lũy</th><th class="num">Tổng lượt</th><th class="num">Điểm lượt mới</th><th class="num">Lượt mới</th><th>Cập nhật</th></tr></thead><tbody id="ratingRows"></tbody></table></div></article>
       </section>
-      <div class="section-title"><h2>Review có nội dung</h2><p id="storeReviewScope" class="muted small">Review Google Play / App Store có ngày đăng trong kỳ đang chọn</p></div>
-      <section id="storeKpis" class="source-cards"></section>
+      <div class="section-title"><h2>Review có nội dung <span class="info" title="Review Google Play / App Store có ngày đăng trong kỳ đang chọn">ⓘ</span></h2><p id="storeReviewScope" class="caption"></p></div>
+      <section id="storeKpis" class="kpi-band kpi-4"></section>
       <div id="storeEmpty"></div>
       <section id="storeLists" class="grid">
         <article class="card span-4"><div class="card-head"><h2>Phân bố số sao</h2><p>Review có ngày đăng trong kỳ</p></div><div id="starDist" class="bar-list"></div></article>
@@ -420,12 +443,13 @@
     <!-- TAB 4: Danh sách phản hồi — đọc bản dịch và nguyên văn -->
     <div class="tab-panel" data-panel="feedback" hidden>
     <section id="explorer" class="card">
-      <div class="explorer-tools"><div><h2>Danh sách phản hồi</h2><p class="muted small" style="margin:0">Mới nhất trước · Bản dịch tiếng Việt được đặt trước nguyên văn</p><label class="checkline"><input id="includeUndated" type="checkbox"> Hiển thị cả <span id="undatedCount">0</span> nội dung chưa rõ ngày đăng (thu thập trong kỳ này, không tính vào số liệu)</label></div><button id="exportCsv" class="btn">Tải CSV</button></div>
+      <div class="explorer-tools"><div><h2>Danh sách phản hồi <span class="info" title="Mới nhất trước · Bản dịch tiếng Việt được đặt trước nguyên văn · bấm “Nguyên văn” để xem tiếng Thái">ⓘ</span></h2><span id="pageInfoTop" class="muted small"></span></div><div class="explorer-actions"><label class="checkline"><input id="includeUndated" type="checkbox"> Gồm <span id="undatedCount">0</span> mục chưa rõ ngày</label><button id="exportCsv" class="btn sm">Tải CSV</button></div></div>
+      <div class="quick-sent" role="group" aria-label="Lọc nhanh theo cảm xúc"><button data-quick-sent="" class="active">Tất cả</button><button data-quick-sent="Positive">Tích cực</button><button data-quick-sent="Negative">Tiêu cực</button><button data-quick-sent="Mixed">Đan xen</button><button data-quick-sent="Neutral">Trung tính</button></div>
       <div class="filters">
-        <label>Ngày<select id="dateFilter"></select></label><label>Nguồn<select id="sourceFilter"></select></label><label>Cảm xúc<select id="sentimentFilter"></select></label><label>Loại nội dung<select id="activityFilter"></select></label><label>Từ khoá<select id="themeFilter"></select></label><label class="search">Tìm nội dung<input id="keywordFilter" type="search" placeholder="Tìm trong bản dịch hoặc nguyên văn"></label>
+        <label>Ngày<select id="dateFilter"></select></label><label>Nguồn<select id="sourceFilter"></select></label><label>Cảm xúc<select id="sentimentFilter"></select></label><label>Loại nội dung<select id="activityFilter"></select></label><label>Từ khoá<select id="themeFilter"></select></label><label class="search">Tìm nội dung<input id="keywordFilter" type="search" placeholder="Tìm trong bản dịch, nguyên văn, tóm tắt, từ khoá"></label>
       </div>
       <div id="activeFilters" class="active-filters" hidden></div>
-      <div class="scroll"><table class="feedback-table responsive-table"><thead><tr><th>Thời gian</th><th>Nguồn</th><th>Cảm xúc</th><th>Bản dịch tiếng Việt</th><th>Nguyên văn</th><th>Loại nội dung / từ khoá</th><th>Tương tác</th><th>Link</th></tr></thead><tbody id="feedbackRows"></tbody></table></div>
+      <div id="feedbackRows" class="feed-list"></div>
       <div class="pagination"><span id="pageInfo" class="muted small"></span><div><button id="prevPage" class="btn">Trước</button> <button id="nextPage" class="btn">Sau</button></div></div>
     </section>
     </div>
@@ -581,7 +605,7 @@
       $('#summaryTitle').textContent=`Nhận định cho kỳ ${periodLabel()}`;
       $('#undatedCount').textContent=fmt.format(undated);
       $('#includeUndated').disabled=!undated;
-      renderSummary(items,previous,alerts,undated);renderKpis(items,previous);renderVoice(items,previous,alerts);renderCharts();renderDonut(items);renderIntents(items);renderKeywords(items,previous);renderSourceCards(items,previous);renderSourceSummary(items);renderSources();renderStore(items,previous);renderNotes(items,undated);setupFilters(items);renderFeedback();
+      renderSummary(items,previous,alerts,undated);renderKpis(items,previous);renderVoice(items,previous,alerts);renderCharts();renderDonut(items);renderIntents(items);renderKeywords(items,previous);renderSourceKpis(items,previous);renderSourceCards(items,previous);renderSourceSummary(items);renderSources();renderStore(items,previous);renderNotes(items,undated);setupFilters(items);renderFeedback();
       $('#alertBadge').hidden=!alerts.length;$('#alertBadge').textContent=`${alerts.length} cảnh báo cần xem`;
     }
     function renderSummary(items,previous,alerts,undated){
@@ -721,6 +745,24 @@
     }
     function sourceKind(name,items){if(STORES.includes(name))return'Store · đánh giá';if(name==='YouTube'){const v=items.filter(i=>i.content_kind==='video').length;return`YouTube · ${v} video, ${items.length-v} bình luận`}if(/^Facebook Fanpage/.test(name))return'Fanpage · bình luận người dùng';const posts=items.filter(i=>i.content_kind==='post').length;return`Group · ${posts} bài đăng, ${items.length-posts} bình luận`}
     function spark(values,color){const max=Math.max(1,...values),step=values.length>1?100/(values.length-1):0,points=values.map((v,i)=>`${(i*step).toFixed(1)},${(30-v/max*26-2).toFixed(1)}`).join(' ');return`<svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="${points}" fill="none" stroke="${color}" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>`}
+    function renderSourceKpis(items,previous){
+      const groups=countBy(items,channelName),n=items.length,typeOf=name=>name==='YouTube'?'YouTube':STORES.includes(name)?'Store':'Facebook';
+      const byType=t=>items.filter(i=>typeOf(channelName(i))===t).length;
+      const negRate=groups.filter(([,c])=>c>=10).map(([name,c])=>[name,items.filter(i=>channelName(i)===name&&i.sentiment==='Negative').length/c]).sort((a,b)=>b[1]-a[1])[0];
+      const tracked=roster().filter(r=>!['pending','not_collected','inactive'].includes(r.status)).length;
+      const card=(label,value,sub,cls='')=>`<article class="kpi-card ${cls}"><span class="kpi-label">${label}</span><span class="kpi-value">${value}</span><span class="kpi-sub">${sub}</span></article>`;
+      $('#sourceKpis').innerHTML=[
+        card('Nguồn có phản hồi',`${groups.length}<small>/${roster().length}</small>`,`${tracked} nguồn đang thu thập được`),
+        card('Nguồn lớn nhất',groups[0]?pct(groups[0][1],n):'–',groups[0]?esc(sourceLabel(groups[0][0])):'Chưa có dữ liệu'),
+        card('Facebook · YouTube · Store',`${byType('Facebook')}<small> · ${byType('YouTube')} · ${byType('Store')}</small>`,`${pct(byType('Facebook'),n)} từ Facebook`),
+        card('Tiêu cực cao nhất',negRate?pct(Math.round(negRate[1]*1000),1000):'–',negRate?`${esc(sourceLabel(negRate[0]))} (nguồn ≥10 phản hồi)`:'Chưa đủ dữ liệu',negRate&&negRate[1]>.15?'neg':'')
+      ].join('');
+      const palette=['#2257d8','#11966a','#e59a2f','#8e5cf7','#14a3b8','#e8495c','#8d9ab0'];
+      $('#shareCenter').innerHTML=`<b>${groups.length}</b><span>nguồn</span>`;
+      $('#shareLegend').innerHTML=groups.map(([name,c],i)=>`<button class="legend-row" data-share-src="${esc(name)}"><i class="dot" style="background:${palette[i%palette.length]}"></i><span class="ellipsis">${esc(sourceLabel(name))}</span><b>${fmt.format(c)}</b><small>${pct(c,n)}</small></button>`).join('')||'<p class="empty-note">Chưa có dữ liệu trong kỳ.</p>';
+      document.querySelectorAll('[data-share-src]').forEach(b=>b.onclick=()=>focusExplorer({sourceFilter:b.dataset.shareSrc}));
+      chart('shareDonut','doughnut',{labels:groups.map(([name])=>sourceLabel(name)),datasets:[{data:groups.map(([,c])=>c),backgroundColor:groups.map((_,i)=>palette[i%palette.length]),borderWidth:0}]},{cutout:'70%',plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>` ${ctx.label}: ${ctx.parsed} (${pct(ctx.parsed,n)})`}}},scales:{x:{display:false},y:{display:false}},onClick:(e,els)=>{ if(els.length) focusExplorer({sourceFilter:groups[els[0].index][0]}) }});
+    }
     function renderSourceCards(items,previous){
       const undated=rawSelectedItems().filter(i=>i.date_basis==='observed_at');
       const order={full:0,partial:1,youtube:1.5,store:2,inactive:3,not_collected:4,pending:5};
@@ -758,7 +800,7 @@
         +(()=>{const rows=STORES.map(p=>newRatings(p,true,start,end)),n=rows.reduce((sum,r)=>sum+r.count,0),avg=n?rows.reduce((sum,r)=>sum+(r.avg||0)*r.count,0)/n:null;return card('Lượt đánh giá mới (VNG, cả 2 store)',`${count(n)} <small class="muted">lượt · ${stars(avg)}</small>`,rows.some(r=>r.fallback)?'Kỳ ngắn hơn chu kỳ cập nhật tuần, đang dùng tuần gần nhất':'Tổng hợp các snapshot tuần trong kỳ')})();
       const apps=[...new Map(state.ratingDays.flatMap(d=>(d.ratings||[]).map(r=>[`${r.platform}|${r.app_id}`,r]))).values()].sort((a,b)=>isVngApp(b)-isVngApp(a)||a.platform.localeCompare(b.platform));
       $('#ratingRows').innerHTML=apps.map(app=>{const vng=isVngApp(app),last=latestSnapshot(app.platform,vng),now=newRatings(app.platform,vng,start,end);return`<tr><td data-label="Ứng dụng">${esc(vng?'Play Together VNG':'Play Together (Global · HAEGIN)')}</td><td data-label="Nền tảng">${esc(app.platform)}</td><td class="num" data-label="Điểm tích lũy">${stars(last?.total_avg_rating)}</td><td class="num" data-label="Tổng lượt">${count(last?.total_rating_count)}</td><td class="num" data-label="Điểm lượt mới">${stars(now.avg)}</td><td class="num" data-label="Lượt mới">${count(now.count)}</td><td data-label="Cập nhật">${last?esc(dateLabel(last.date)):'–'}${now.fallback?' <span class="muted small">(tuần gần nhất)</span>':''}</td></tr>`}).join('')||'<tr><td colspan="7" class="empty">Chưa có dữ liệu rating trong 90 ngày gần nhất.</td></tr>';
-      $('#ratingTableCaption').textContent='Điểm tích lũy lấy từ snapshot mới nhất trong 90 ngày; điểm lượt mới tính theo kỳ đang chọn.';
+      $('#ratingTableInfo').title=$('#ratingTableCaption').textContent='Điểm tích lũy lấy từ snapshot mới nhất trong 90 ngày; điểm lượt mới tính theo kỳ đang chọn.';
       $('#storeKpis').innerHTML=[
         card('Review trong kỳ',fmt.format(n),`Google Play ${reviews.filter(i=>i.source==='Google Play').length} · App Store ${reviews.filter(i=>i.source==='App Store').length} · kỳ trước ${prev.length}`),
         card('Số sao trung bình (review trong kỳ)',avgStar===null?'–':`${avgStar.toFixed(2)}★`,prevAvg===null?'Kỳ trước không có review':`Kỳ trước ${prevAvg.toFixed(2)}★`),
@@ -835,7 +877,16 @@
     function renderActiveFilters(){const labels={dateFilter:'Ngày',sourceFilter:'Nguồn',sentimentFilter:'Cảm xúc',activityFilter:'Loại nội dung',themeFilter:'Từ khoá'},active=Object.keys(labels).filter(id=>$(`#${id}`).value);$('#activeFilters').hidden=!active.length;$('#activeFilters').innerHTML=active.length?`Đang lọc: ${active.map(id=>`<strong>${labels[id]}: ${esc($(`#${id}`).selectedOptions[0]?.textContent||'')}</strong>`).join(' · ')} <button id="clearFilters" class="link-btn">Bỏ lọc</button>`:'';if(active.length)$('#clearFilters').onclick=()=>{const undated=$('#includeUndated').checked;resetExplorer();$('#includeUndated').checked=undated;setupFilters(explorerItems());renderFeedback()}}
     function renderFeedback(){
       filterItems();renderActiveFilters();const size=30,total=Math.max(1,Math.ceil(state.filtered.length/size));state.page=Math.min(state.page,total);const rows=state.filtered.slice((state.page-1)*size,state.page*size);
-      $('#feedbackRows').innerHTML=rows.map(i=>`<tr><td data-label="Thời gian"><span>${esc(dateLabel(i.date))}${i.published_label?`<br><small class="muted">${esc(i.published_label)}</small>`:''}${i.date_basis==='observed_at'?'<br><small class="muted">Chưa rõ ngày đăng; đây là ngày thu thập</small>':''}</span></td><td data-label="Nguồn"><span>${esc(sourceLabel(channelName(i)))}<br><small class="muted">${esc(kindLabel(i))}</small></span></td><td data-label="Cảm xúc"><span><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span></span></td><td class="text" data-label="Bản dịch"><span>${i.summary_vn?`<span class="summary-line">${esc(i.summary_vn)}</span><br>`:''}<strong>${esc(i.text_vn)}</strong>${i.translation_method==='machine_translation'?'<br><small class="muted">Bản dịch tự động</small>':isSummaryText(i)?'<br><small class="muted">Tóm tắt phân loại, chưa phải bản dịch</small>':''}</span></td><td class="thai" data-label="Nguyên văn">${esc(i.text_th)}</td><td class="meta" data-label="Loại nội dung"><span><span class="intent-tag">${esc(intentLabel(i))}</span>${keywordsOf(i).length?`<br><small class="muted">${keywordsOf(i).map(esc).join(' · ')}</small>`:''}</span></td><td class="meta" data-label="Tương tác"${engagementText(i)?'':' data-empty'}>${esc(engagementText(i))}</td><td class="nowrap" data-label="Link"><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở ↗</a></td></tr>`).join('')||'<tr><td colspan="8" class="empty">Không có phản hồi phù hợp.</td></tr>';
+      $('#feedbackRows').innerHTML=rows.map(i=>`<article class="feed-item ${esc(i.sentiment)}">
+        <div class="feed-meta"><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span><span class="intent-tag">${esc(intentLabel(i))}</span><span class="muted small">${esc(dateLabel(i.date))}${i.date_basis==='observed_at'?' · chưa rõ ngày đăng (ngày thu thập)':''} · ${esc(sourceLabel(channelName(i)))} · ${esc(kindLabel(i))}${Number.isFinite(i.rating)?` · ${'★'.repeat(i.rating)}`:''}</span><a class="feed-link small" href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn ↗</a></div>
+        ${i.summary_vn?`<div class="feed-summary">${esc(i.summary_vn)}</div>`:''}
+        <div class="feed-text">${esc(i.text_vn)}${i.translation_method==='machine_translation'?' <small class="muted">(dịch máy)</small>':isSummaryText(i)?' <small class="muted">(tóm tắt, chưa phải bản dịch)</small>':''}</div>
+        <details class="feed-orig"><summary>Nguyên văn</summary><div class="thai">${esc(i.text_th)}</div></details>
+        <div class="feed-foot">${keywordsOf(i).map(k=>`<button class="kw-chip" data-feed-kw="${esc(k)}">${esc(k)}</button>`).join('')}${engagementText(i)?`<span class="muted small">${esc(engagementText(i))}</span>`:''}</div>
+      </article>`).join('')||'<div class="empty">Không có phản hồi phù hợp.</div>';
+      document.querySelectorAll('[data-feed-kw]').forEach(b=>b.onclick=()=>{$('#themeFilter').value=b.dataset.feedKw;state.page=1;renderFeedback()});
+      document.querySelectorAll('[data-quick-sent]').forEach(b=>b.classList.toggle('active',b.dataset.quickSent===$('#sentimentFilter').value));
+      $('#pageInfoTop').textContent=`${fmt.format(state.filtered.length)} phản hồi`;
       $('#pageInfo').textContent=`${fmt.format(state.filtered.length)} phản hồi · Trang ${state.page}/${total}`;$('#feedbackTabCount').textContent=fmt.format(state.filtered.length);$('#prevPage').disabled=state.page<=1;$('#nextPage').disabled=state.page>=total;
     }
     function exportCsv(){filterItems();const keys=['date','date_basis','source','community','content_kind','intent','keywords','summary_vn','activity_type','engagement','sentiment','topic','theme','text_th','text_vn','link'],quote=value=>`"${String(value??'').replaceAll('"','""')}"`,csv=[keys.join(','),...state.filtered.map(i=>keys.map(key=>quote(key==='engagement'?engagementText(i):key==='intent'?intentLabel(i):key==='keywords'?keywordsOf(i).join('; '):i[key])).join(','))].join('\n'),blob=new Blob(['﻿'+csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=`ptg-feedback-${selectedDates()[0]||'export'}-${selectedDates().at(-1)||''}.csv`;link.click();URL.revokeObjectURL(url)}
@@ -847,6 +898,7 @@
     document.querySelectorAll('.filters select,.filters input').forEach(el=>el.addEventListener(el.type==='search'?'input':'change',()=>{state.page=1;renderFeedback()}));
     $('#includeUndated').onchange=()=>{state.page=1;setupFilters(explorerItems());renderFeedback()};
     $('#copyReport').onclick=copyReport;
+    document.querySelectorAll('[data-quick-sent]').forEach(b=>b.onclick=()=>{const sel=$('#sentimentFilter');sel.value=[...sel.options].some(o=>o.value===b.dataset.quickSent)?b.dataset.quickSent:'';state.page=1;renderFeedback()});
     $('#customToggle').onclick=()=>{const c=document.querySelector('.controls');c.classList.toggle('open');$('#customToggle').setAttribute('aria-expanded',c.classList.contains('open'))};
     // Tài liệu "Cách hoạt động" (public/how-it-works.md) hiển thị trong hộp thoại; Markdown đơn giản được chuyển sang HTML tại chỗ.
     function markdownToHtml(md){

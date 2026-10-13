@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "N***",
       "text_th": "อัพเดทบ่าสุดวันที่ 5/2/2026 เข้าเกมแล้วจอดำ เล่นไม่ได้ พยายามเข้าแล้วออกใหม่ก็ยังเป็นอยุ่ แก้ไขเมื่อไหร่จะมาเพิ่มดาวให้",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Update mới nhất ngày 5/2/2026 vào game là màn hình đen, không chơi được, thử thoát ra vào lại vẫn bị. Khi nào sửa xong sẽ quay lại tăng sao",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -25,7 +25,9 @@
         "cập nhật mới"
       ],
       "summary_vn": "Cập nhật 5/2/2026 vào game màn hình đen, không chơi được",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

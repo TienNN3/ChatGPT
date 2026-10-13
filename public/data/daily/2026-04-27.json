@@ -137,7 +137,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "E***",
       "text_th": "สนุกกแนะนำ. เล่นดีนะคะแต่ต้องเหมาะกะคนเน็ตแรงงๆหน่อยค่ะะ ไม่รู้ว่าเกี่ยวรึป่าวว",
-      "text_vn": "Game vui nhưng có vẻ cần kết nối mạng mạnh.",
+      "text_vn": "Vui, recommend. Chơi hay ạ nhưng phải hợp với người có mạng mạnh chút ạ, không biết có liên quan không nữa.",
       "sentiment": "Mixed",
       "confidence": 0.86,
       "topic": "Other",
@@ -154,7 +154,9 @@
       ],
       "summary_vn": "Khen game vui nhưng cần mạng mạnh mới chơi tốt",
       "sentiment_rule": "Positive",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Game vui nhưng có vẻ cần kết nối mạng mạnh.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-10ca1c06cb3b06a5",
@@ -162,7 +164,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "1***",
       "text_th": "อยากให้มีคอนเทนต์เกี่ยวกับอาหารมากกว่านี้",
-      "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Mong có thêm nội dung về đồ ăn hơn nữa.",
       "sentiment": "Neutral",
       "confidence": 0.72,
       "topic": "Other",
@@ -179,7 +181,9 @@
       ],
       "summary_vn": "Mong có thêm nội dung về đồ ăn",
       "sentiment_rule": "Mixed",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-4ded7a1760bf2ec1",
@@ -187,7 +191,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "O***",
       "text_th": "ฉันไม่ได้อยากเล่นแต่มันมาในโทรศัพท์ของฉันได้ไง",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Tôi đâu có muốn chơi, sao nó lại có trong điện thoại tôi được?",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -203,7 +207,9 @@
         "tải game"
       ],
       "summary_vn": "Phàn nàn game tự xuất hiện trên điện thoại",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-9629ec8065bbd347",
@@ -211,7 +217,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ม***",
       "text_th": "พอดูโฆษณาจบก็ไม่ได้รางวัล งงมาก ดูตั้งนาน ใจคอจะให้ซื้อพรีเมี่ยมอย่างเดีวเลยหรอ เกมเห็นแก่ตัว",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Xem quảng cáo xong mà không được thưởng, khó hiểu ghê, xem lâu vậy. Định bắt mua Premium thôi hả? Game ích kỷ.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -227,7 +233,9 @@
         "quảng cáo"
       ],
       "summary_vn": "Xem hết quảng cáo không nhận thưởng, chê ép mua premium",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "ratings": [

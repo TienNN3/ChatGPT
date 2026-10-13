@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "พ***",
       "text_th": "กลับมาเล่นอีกทีคือเกมแจกของให้เยอะมากแบบสายฟรีก็เล่นได้",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Quay lại chơi thì thấy game phát quà nhiều lắm, kiểu người chơi miễn phí cũng chơi được.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -24,7 +24,9 @@
         "vật phẩm miễn phí"
       ],
       "summary_vn": "Quay lại chơi thấy game tặng nhiều đồ, chơi miễn phí được",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

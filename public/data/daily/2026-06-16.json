@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "T***",
       "text_th": "ให้โอกาสอัพเดตใหม่ ดูโฆษณาเเล้วเด้งเข้าเเอพอื่นโดยที่ยังไม่เเตะเเล้วหลังจากนั้นต้องเข้าใหม่อยู่อย่างนั้น บอกเลยเล่นไม่สนุกถ้าจะให้กดเข้าเกมเด้งเข้า-ออกอ่ะ จากใจคนเล่นมาตั้งเเต่ปี2021 ไม่เคยเป็นอย่างนี้เลย ถ้ายังไม่อัพเดตในเร็ววัน จะให้1ดาว เเละจะรายงานเกมรัวๆ",
-      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Cho cơ hội cập nhật lại. Xem quảng cáo xong thì tự nhảy sang app khác dù chưa chạm vào, sau đó phải vào lại game hoài như vậy. Nói thật chơi không vui nổi nếu cứ bấm vào game là bị văng ra vào thế này. Từ tận đáy lòng người chơi từ năm 2021, chưa bao giờ bị như vậy. Nếu không sớm cập nhật sửa thì sẽ cho 1 sao và report game liên tục.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -25,7 +25,9 @@
         "văng game"
       ],
       "summary_vn": "Báo xem quảng cáo bị nhảy sang app khác, phải vào lại game liên tục",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-5f14a111a7d1ac5b",
@@ -33,7 +35,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "เ***",
       "text_th": "สุดยอดดดดดด",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Tuyệt vờiiiii",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -49,7 +51,9 @@
         "khen game"
       ],
       "summary_vn": "Khen game tuyệt vời",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

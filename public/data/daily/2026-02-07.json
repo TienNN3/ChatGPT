@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ธ***",
       "text_th": "จะโหลดได้ไหมอ่ะค่ะโหลดช้า",
-      "text_vn": "Phản hồi trung tính về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Tải được không vậy ạ, tải chậm quá",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -25,7 +25,9 @@
       ],
       "summary_vn": "Phàn nàn tải game quá chậm",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trung tính về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-4ea5356488115ed2",
@@ -33,7 +35,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "I***",
       "text_th": "I don't really know what's the problem is but the game always crashed every time I go in even my band new IPad and the whole screen turn in to black or red and I already updated",
-      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Tôi không biết vấn đề là gì nhưng lần nào vào game cũng bị crash, kể cả trên iPad mới tinh, cả màn hình chuyển sang đen hoặc đỏ, mà tôi đã update rồi",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -50,7 +52,9 @@
         "màn hình đen"
       ],
       "summary_vn": "Game văng mỗi lần vào trên iPad mới, màn hình đen hoặc đỏ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-6af823b9e1aa2446",
@@ -58,7 +62,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "S***",
       "text_th": "ดีมาก",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Rất tốt",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -74,7 +78,9 @@
         "giải trí"
       ],
       "summary_vn": "Khen game rất tốt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-85e8f12ab0c017d1",
@@ -82,7 +88,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "C***",
       "text_th": "อยู่ด้วยกันมา4ปีเเล้ว พัฒนาต่อไป",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Gắn bó với nhau 4 năm rồi, tiếp tục phát triển nhé",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -98,7 +104,9 @@
         "người chơi lâu năm"
       ],
       "summary_vn": "Đã chơi 4 năm, mong game tiếp tục phát triển",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "M***",
       "text_th": "สนุกมากๆมีหลายอย่างให้ทำไม่น่าเบื่อเลยค่ะส่วนตัวเราชอบทำสวนมากๆสายฟรีอยู่ไม่ยากเกมมีแจกเพชรแจกโค้ดตลอด",
-      "text_vn": "Phản hồi tích cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui lắm, có nhiều thứ để làm, không chán chút nào ạ. Cá nhân mình rất thích làm vườn. Chơi free cũng không khó, game phát kim cương phát code liên tục",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Gacha / Shop / Pricing",
@@ -26,7 +26,9 @@
         "kim cương"
       ],
       "summary_vn": "Khen nhiều hoạt động, người chơi free dễ sống nhờ phát code",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

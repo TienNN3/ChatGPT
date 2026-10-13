@@ -124,7 +124,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "m***",
       "text_th": "เด้งออก. เล่นไม่ได้เลยเด้งออกตลอดเลย หงุดหงิดมาก",
-      "text_vn": "Không thể chơi vì game liên tục bị văng. Người chơi cảm thấy rất khó chịu.",
+      "text_vn": "Văng game. Không chơi được luôn, văng ra suốt, bực mình lắm.",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Bug / Crash / Lag / Performance",
@@ -139,7 +139,9 @@
         "văng game"
       ],
       "summary_vn": "Không chơi được vì game liên tục văng, rất bực",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Không thể chơi vì game liên tục bị văng. Người chơi cảm thấy rất khó chịu.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-f08df5e974f75d34",
@@ -147,7 +149,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ว***",
       "text_th": "ดีมาก",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Rất tốt",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -163,7 +165,9 @@
         "khen game"
       ],
       "summary_vn": "Khen game rất tốt dù chấm 1 sao",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

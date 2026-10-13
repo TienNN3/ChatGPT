@@ -174,7 +174,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "T***",
       "text_th": "งกเกิ้น. เพชรฟ้า ออกยากมากค่ะ ทุบหินเป็นเดือนๆละ",
-      "text_vn": "Ngọc xanh rất khó xuất hiện dù người chơi đã đập đá suốt một tháng.",
+      "text_vn": "Keo kiệt quá thể. Kim cương xanh ra khó lắm ạ, đập đá cả tháng trời luôn",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Gacha / Shop / Pricing",
@@ -190,7 +190,9 @@
         "kim cương"
       ],
       "summary_vn": "Chê ngọc xanh khó ra dù đập đá cả tháng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Ngọc xanh rất khó xuất hiện dù người chơi đã đập đá suốt một tháng.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "ios-d0941571e9eb27c9",
@@ -198,7 +200,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "L***",
       "text_th": "Review game. สนุกมากมีมินิเกมให้ด้วย เพชรหาง่ายดี ชุดฟรีสวยๆมีเยอะ มีระบบสัตว์เลี้ยง เลี้ยงเด็ก ปลูกพืช ตกปลาจับแมลง ส่วนตัวชอบมากๆค่ะ",
-      "text_vn": "Game rất vui, có nhiều minigame, trang phục miễn phí đẹp, thú cưng, trồng trọt, câu cá và nhiều hoạt động.",
+      "text_vn": "Review game. Vui lắm, có cả minigame, kim cương kiếm dễ, đồ free đẹp cũng nhiều. Có hệ thống thú cưng, nuôi em bé, trồng cây, câu cá, bắt côn trùng. Cá nhân mình thích lắm ạ",
       "sentiment": "Positive",
       "confidence": 0.86,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
@@ -216,7 +218,9 @@
         "câu cá"
       ],
       "summary_vn": "Khen nhiều minigame, đồ miễn phí đẹp, nhiều hoạt động",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Game rất vui, có nhiều minigame, trang phục miễn phí đẹp, thú cưng, trồng trọt, câu cá và nhiều hoạt động.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "ios-61d000346ff209a0",
@@ -224,7 +228,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "O***",
       "text_th": "ปรับเปลี่ยน. อยากให้แก้ไข วงปลาริงบาร์คูหน่อยค่ะ ออกยากเกินไป ยิ่งเล่นยิ่งเริ่มเบื่อไม่อยากตกปลาเเล้ว คือบางทีไปวงทั้งวันยังไม่ออก เริ่มหมดแพทชั่นในการเล่นแล้วค่ะ",
-      "text_vn": "Cá vòng hiếm xuất hiện quá khó, khiến người chơi chán và mất hứng câu cá.",
+      "text_vn": "Điều chỉnh. Mong sửa lại vòng bóng cá Ring Barracuda giúp với ạ, ra khó quá. Càng chơi càng chán, không muốn câu cá nữa. Có khi canh vòng cả ngày vẫn không ra, bắt đầu hết động lực chơi rồi ạ",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
@@ -240,7 +244,9 @@
         "cá hiếm"
       ],
       "summary_vn": "Cá vòng barracuda quá khó ra, mất hứng câu cá",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cá vòng hiếm xuất hiện quá khó, khiến người chơi chán và mất hứng câu cá.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-fbd37385dd7219fc",
@@ -248,7 +254,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "K***",
       "text_th": "เกมนี้ชอบครับ สนุกดีครับ เล่น 6ปีแล้วครับ เกมนี้ไม่เบื่อ",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Thích game này, vui lắm ạ. Chơi 6 năm rồi mà không chán",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -264,7 +270,9 @@
         "người chơi lâu năm"
       ],
       "summary_vn": "Chơi 6 năm vẫn thích, không thấy chán",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-1e93b99fb5e05b3c",
@@ -272,7 +280,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "B***",
       "text_th": "เรื่องอื่นพอทนโฆษณาไม่ได้ค้างเองละไม่ได้ของพอเลย แม่งเงินก็หายากที่นึงแบ้วของแม่งก็แพงอีกพอจะซื้อของโอ้โห150บาท ได้≈70เพชรในเกมหน้าเลือดเกินนนนของในเกมเก้ากี้≈37เพรชแล้ว คนที่ไม่มีตังมากพอเล่นไม่ได้จริงๆอ่ะละจะซื้อของเป็นชุดมาใส่ก็ดูไม่คุ้นเอาเสียเลยอ่ะ50บาทยังแต่หมวกทรงน่าเกลียดกับชุุดยีนเสื้อแขนกุดโง่ๆ เห็นละท้อ อัปเดตบ่อยชิปหายแต่ไม่ไรดีขึ้นเลย ปิดเกมไปเถอะถ้าจะหน้าด้านอย่างงี้ สังคมในเกมอย่างดีต่างจากคนทําเลยวันๆไม่ทําไรแล้วฟาร์มเงินอย่างเดียว",
-      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Mấy cái khác còn chịu được chứ quảng cáo thì không: tự đơ rồi không nhận được đồ luôn. Tiền thì đã khó kiếm, đồ thì lại đắt, định mua đồ thì trời ơi 150 baht được khoảng 70 kim cương, cắt cổ quááá, một cái ghế trong game đã khoảng 37 kim cương rồi. Người không có nhiều tiền thật sự không chơi nổi. Mua nguyên bộ đồ về mặc cũng chẳng đáng chút nào, 50 baht mà chỉ được cái mũ dáng xấu với bộ jean áo ba lỗ ngớ ngẩn, nhìn mà nản. Update liên tục mà chẳng có gì tốt lên. Đóng game luôn đi nếu cứ trơ trẽn kiểu này. Cộng đồng trong game thì tốt, khác hẳn đám làm game, suốt ngày không làm gì ngoài cày tiền",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -290,7 +298,9 @@
         "kim cương"
       ],
       "summary_vn": "Chê quảng cáo, kim cương đắt, đồ trong game quá mắc",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-9619bddd74945b5a",
@@ -298,7 +308,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "m***",
       "text_th": "บัคโคตรเยอะ อัพแล้วก็บัคเหมือนเดิม เกมเอาแต่พวกเติมเยอะๆเติมบ่อยๆ พวกเติมจะดวงดีมากสังเกตมาหลายคนล่ะ โฆษณานานมากกก แถมเกมหลุดไปหน้าเซิฟโคตรบ่อย ยักตัวนึงกว่าจะออกพอออกก็เบ็ดขาด แล้วเจอพวกคนต่างปท.ชอบโปร ชอบปั่นน่ารำคาญทำให้ไม่อยากเล่น ออกไปเข้าแอพอื่นแปปเดียวหลุด น่าเบื่อ",
-      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Lỗi nhiều kinh khủng, update xong vẫn lỗi y như cũ. Game chỉ ưu ái mấy người nạp nhiều nạp thường xuyên, mấy người nạp toàn hên lắm, để ý nhiều người rồi. Quảng cáo lâu quááá. Lại còn văng game về màn hình chọn server thường xuyên kinh khủng. Con cá khổng lồ mãi mới ra, ra rồi thì đứt cần. Rồi gặp mấy người nước ngoài hay xài hack, hay phá, phiền phức làm không muốn chơi. Chuyển qua app khác một chút là văng. Chán",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -316,7 +326,9 @@
         "văng game"
       ],
       "summary_vn": "Chê nhiều lỗi, ưu ái người nạp, quảng cáo dài, hay rớt mạng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-39995822c1e65b8e",
@@ -324,7 +336,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "C***",
       "text_th": "สนุก แต่บางทีแอบน่าเบื่อนิดหน่อย",
-      "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui, nhưng đôi khi hơi chán chút xíu",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Other",
@@ -340,7 +352,9 @@
         "giải trí"
       ],
       "summary_vn": "Game vui nhưng đôi khi hơi chán",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

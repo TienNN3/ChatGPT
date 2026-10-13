@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "น***",
       "text_th": "I heard that the game used to have a microphone for talking to friends, but now it's gone, only the message microphone is available. I really want the voice chat microphone back. I'm a new player, 15 years old. Please, can you bring it back? I want to make new friends and chat with people using the microphone.",
-      "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Mình nghe nói game từng có micro để nói chuyện với bạn bè, nhưng giờ mất rồi, chỉ còn micro gửi tin nhắn thoại. Mình rất muốn có lại micro voice chat. Mình là người chơi mới, 15 tuổi. Làm ơn cho nó quay lại được không? Mình muốn kết bạn mới và trò chuyện với mọi người bằng micro.",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Other",
@@ -26,7 +26,9 @@
         "người chơi mới"
       ],
       "summary_vn": "Người chơi mới mong mang lại micro trò chuyện bằng giọng nói",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

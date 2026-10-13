@@ -117,7 +117,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "ผ***",
       "text_th": "แก้ไขหน่อย. เรทกาชาห่วยเกิน เล่นชิวนะๆพอได้ แต่เวลาดูโฆษณาคือบัคตลอดจะบังคับให้เติมตลอดเลยหรอก็เกินไป นี่ก็เติมไปเยอะอยู่นะแก้บัคหน่อย โปรก็เยอะหัดแบนส่ะบ้างนะ",
-      "text_vn": "Tỷ lệ gacha quá thấp, quảng cáo thường bị lỗi và game thúc ép nạp tiền. Mong xử lý người chơi gian lận.",
+      "text_vn": "Sửa giúp với. Tỉ lệ gacha tệ quá. Chơi chill chill thì cũng tạm, nhưng xem quảng cáo là lỗi hoài, định ép nạp hoài à, quá đáng thật. Mình cũng nạp nhiều rồi đó, sửa lỗi đi. Hack cũng nhiều, chịu khó ban bớt đi chứ.",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Bug / Crash / Lag / Performance",
@@ -134,7 +134,9 @@
         "nạp tiền"
       ],
       "summary_vn": "Chê tỷ lệ gacha thấp, quảng cáo lỗi, ép nạp, mong cấm hack",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tỷ lệ gacha quá thấp, quảng cáo thường bị lỗi và game thúc ép nạp tiền. Mong xử lý người chơi gian lận.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-1852c6178992eaf2",
@@ -142,7 +144,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "S***",
       "text_th": "may khing way",
-      "text_vn": "Phản hồi trung tính về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "may khing way (?)",
       "sentiment": "Neutral",
       "confidence": 0.72,
       "topic": "Other",
@@ -158,7 +160,9 @@
         "bình luận ngắn"
       ],
       "summary_vn": "Bình luận ngắn không rõ nghĩa",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trung tính về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

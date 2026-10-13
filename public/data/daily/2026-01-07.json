@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "K***",
       "text_th": "ปรัปปรุงหน่อยค่ะเข้าแล้วมันก็เด้งออกลองเข้าหลายรอบแล้วแต่ถ้ารวมๆเกมก็สนุกถ้ามันไม่บัค",
-      "text_vn": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Cải thiện chút đi ạ, vào là bị văng ra, thử vào mấy lần rồi. Nhưng nói chung game cũng vui nếu nó không bị lỗi",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -24,7 +24,9 @@
         "văng game"
       ],
       "summary_vn": "Game văng ra khi vào, nhưng nhìn chung vẫn vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

@@ -127,7 +127,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "ห***",
       "text_th": ".. เพิ่งกลับมาเล่นจากความทรงจำเมื่อก่อนสนุกมากค่ะ",
-      "text_vn": "Người chơi vừa quay lại vì ký ức trước đây và thấy game rất vui.",
+      "text_vn": ".. Mới quay lại chơi vì kỷ niệm hồi trước, vui lắm ạ.",
       "sentiment": "Positive",
       "confidence": 0.86,
       "topic": "Other",
@@ -142,7 +142,9 @@
         "người chơi mới"
       ],
       "summary_vn": "Quay lại chơi vì kỷ niệm cũ, thấy rất vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Người chơi vừa quay lại vì ký ức trước đây và thấy game rất vui.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-5c7f59579d9f98b3",
@@ -150,7 +152,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "R***",
       "text_th": "ซื้อไอเทมแล้วจ่ายตังแล้วไอเทมไม่เข้าคือไรอะแล้วซื้อมาหลายรอบแล้วด้วยไม่ไกวนะแบบนี้",
-      "text_vn": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Mua vật phẩm, trả tiền rồi mà vật phẩm không vào là sao? Mua mấy lần rồi nữa, thế này không ổn đâu.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Topup & Payment",
@@ -166,7 +168,9 @@
         "nạp tiền"
       ],
       "summary_vn": "Trả tiền mua vật phẩm nhiều lần nhưng không nhận được",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

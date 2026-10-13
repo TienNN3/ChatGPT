@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "H***",
       "text_th": "สุ่มเกลือเกิน",
-      "text_vn": "Phản hồi tiêu cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Quay đen quá.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Gacha / Shop / Pricing",
@@ -24,7 +24,9 @@
         "gacha"
       ],
       "summary_vn": "Phàn nàn gacha quá đen",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

@@ -10,8 +10,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "ขายเท 30 m 200b",
-      "text_vn": "Cần bán 30m 200b",
-      "translation_method": "machine_translation",
+      "text_vn": "Bán xả 30m (triệu) giá 200 baht",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -34,7 +34,8 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Rao bán vật phẩm 30m giá 200 baht",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cần bán 30m 200b"
     },
     {
       "id": "facebook-5b6f2d0a2b7073ab",
@@ -44,8 +45,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "M***",
       "text_th": "ผลไม้ มีทุกชนิด ทุกสถานะ[ขาย] โสม (มีทุกสถานะ) [ขาย] เงินสวน เหรียญฟาร์ม [ขาย] เมล็ดพันธุ์ (เฉพาะที่ซื้อด้วยเพชร) [ขาย] เปลี่ยนสภาพอากาศ [ขาย] การ์ด ดาวละ 1฿.- [ขาย] รับส่งของขวัญในเมส () [รับ] กระโดดหอคอย ถ้วยละ 1฿.-ตรวจสอบเครดิตได้ที่หน้าโปรไฟล์น้าา",
-      "text_vn": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé",
-      "translation_method": "machine_translation",
+      "text_vn": "Trái cây đủ loại, đủ hiệu ứng. [Bán] Nhân sâm (đủ hiệu ứng). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn (). [Nhận cày] Nhảy tháp, 1 baht/cúp. Xem uy tín ở trang cá nhân nha.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -73,7 +74,8 @@
         "cày thuê"
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, thẻ, đổi thời tiết và nhận cày nhảy tháp",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé"
     },
     {
       "id": "facebook-4de6e18cff2a6739",
@@ -83,8 +85,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "โสมธรรมดา 12 ต้น  ชุดละ100บาท สนใจทักเลยครับ",
-      "text_vn": "Nhân sâm thường 12 cây, 100 baht một bộ, ai quan tâm nhắn mình nhé",
-      "translation_method": "machine_translation",
+      "text_vn": "Nhân sâm thường 12 cây, 100 baht/bộ. Quan tâm inbox luôn nha.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -108,7 +110,8 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Rao bán 12 cây nhân sâm thường giá 100 baht",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nhân sâm thường 12 cây, 100 baht một bộ, ai quan tâm nhắn mình nhé"
     },
     {
       "id": "facebook-a4c1d38516830f03",
@@ -118,8 +121,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "สอบถามหน่อยครับ พอดีดูโฆษณาจะเอาของ แต่พอกดปิดโฆษณาเกมก็เด้ง พอเข้าเกมใหม่ของก็ไม่เข้าให้ดูใหม่แบบนั้นหลายรอบ ปกติไหมครับ (ไม่มีอากาศค้างอะไรเลย เป็นช่วงๆ แต่เป็นก็ยาวครับ)",
-      "text_vn": "Cho hỏi, mình xem quảng cáo để nhận đồ nhưng tắt quảng cáo thì game văng, vào lại thì không nhận được đồ, bắt xem lại, bị như vậy nhiều lần. Có bình thường không ạ? (Mạng không lag gì cả, bị từng đợt nhưng mỗi lần bị thì kéo dài)",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho mình hỏi chút, mình xem quảng cáo để nhận đồ, nhưng bấm tắt quảng cáo là game văng, vào lại thì không nhận được đồ, bắt xem lại, bị vậy nhiều lần rồi. Có bình thường không ạ? (Không bị đơ gì cả, bị từng lúc thôi nhưng mà bị thì lâu lắm)",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -145,7 +148,8 @@
         "quảng cáo"
       ],
       "summary_vn": "Báo game văng khi tắt quảng cáo, không nhận được đồ thưởng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho hỏi, mình xem quảng cáo để nhận đồ nhưng tắt quảng cáo thì game văng, vào lại thì không nhận được đồ, bắt xem lại, bị như vậy nhiều lần. Có bình thường không ạ? (Mạng không lag gì cả, bị từng đợt nhưng mỗi lần bị thì kéo dài)"
     },
     {
       "id": "facebook-269d887800f3721f",
@@ -155,8 +159,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "ฝนไม่ยอมหยุดตกเลย ทางนี้เองก็น้ำเริ่มท่วมบ้านแล้วครับ ขอเป็นกำลังใจให้ชาวไกอาทุกคนที่กำลังประสบภัยเดียวกันขอให้น้ำลดกลับสู่ภาวะปกติโดยเร็วนะครับ",
-      "text_vn": "Mưa mãi không ngừng, chỗ mình nước cũng bắt đầu ngập nhà rồi. Xin gửi lời động viên đến mọi người dân Kaia đang gặp cảnh tương tự, mong nước sớm rút, trở lại bình thường",
-      "translation_method": "machine_translation",
+      "text_vn": "Mưa mãi không chịu tạnh, chỗ mình nước cũng bắt đầu ngập nhà rồi. Gửi lời động viên tới tất cả dân Kaia đang gặp cảnh tương tự, mong nước sớm rút, mọi thứ trở lại bình thường nhé.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -183,7 +187,8 @@
         "lũ lụt"
       ],
       "summary_vn": "Kể nhà bị ngập nước, gửi lời động viên người chơi gặp lũ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mưa mãi không ngừng, chỗ mình nước cũng bắt đầu ngập nhà rồi. Xin gửi lời động viên đến mọi người dân Kaia đang gặp cảnh tương tự, mong nước sớm rút, trở lại bình thường"
     },
     {
       "id": "facebook-27f000945f4e8641",
@@ -193,8 +198,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ไหนบอกเกิดบนพื้น!!",
-      "text_vn": "Đã bảo là xuất hiện trên mặt đất cơ mà!!",
-      "translation_method": "machine_translation",
+      "text_vn": "Bảo là xuất hiện trên mặt đất cơ mà!!",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -221,7 +226,8 @@
       ],
       "summary_vn": "Than vật được bảo xuất hiện trên mặt đất nhưng không thấy",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Đã bảo là xuất hiện trên mặt đất cơ mà!!"
     },
     {
       "id": "facebook-8c70e758a38adcd1",
@@ -231,8 +237,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "เบ็ดไหนเงายักษ์โผล่เยอะๆมั่งครับเบ็ดเติม เบ็ดมังกรตกไป4ชั่วโมงไม่มาสักเงา",
-      "text_vn": "Cần câu nào ra bóng cá khổng lồ nhiều vậy ạ? Cần câu nạp, cần câu rồng câu 4 tiếng mà không thấy bóng nào",
-      "translation_method": "machine_translation",
+      "text_vn": "Cần câu nào ra bóng cá khổng lồ nhiều vậy mọi người? Mình dùng cần nạp, cần rồng câu 4 tiếng rồi mà chẳng thấy bóng nào.",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -259,7 +265,8 @@
       ],
       "summary_vn": "Hỏi cần câu nào ra bóng cá khổng lồ, câu 4 tiếng không thấy",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cần câu nào ra bóng cá khổng lồ nhiều vậy ạ? Cần câu nạp, cần câu rồng câu 4 tiếng mà không thấy bóng nào"
     },
     {
       "id": "facebook-94806af2ea53134b",
@@ -306,8 +313,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "สอบถามหน่อยครับ ถ้าเล่นผ่านสตรีมจะเล่นกับเพื่อนที่อยู่มือถือเซิร์ฟไทย VNG ได้ไหมครับสอบถามหน่อยครับ ถ้าเล่นผ่านสตรีมจะเล่นกับเพื่อนที่อยู่มือถือเซิร์ฟไทย VNG ได้ไหมครับ",
-      "text_vn": "Cho hỏi, nếu chơi qua stream thì có chơi cùng bạn đang chơi trên điện thoại ở server Thái VNG được không ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho mình hỏi, nếu chơi qua stream thì có chơi chung được với bạn đang chơi trên điện thoại server Thái VNG không ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
@@ -331,7 +338,8 @@
         "tìm bạn"
       ],
       "summary_vn": "Hỏi chơi qua stream có chơi chung với bạn server Thái VNG không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho hỏi, nếu chơi qua stream thì có chơi cùng bạn đang chơi trên điện thoại ở server Thái VNG được không ạ?"
     },
     {
       "id": "facebook-423ed209e43fc6dc",
@@ -341,8 +349,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "เกมจะเปิดรับ Content Creator คนไทยเพิ่มคุณคนไหนชอบทำคอนเท้น หรือ มีช่องเป็นของตัวเองเกียมพอร์ตไว้มาสมัครกันได้ฮะ",
-      "text_vn": "Game sắp tuyển thêm Content Creator người Thái, ai thích làm content hoặc có kênh riêng thì chuẩn bị portfolio rồi đăng ký nhé",
-      "translation_method": "machine_translation",
+      "text_vn": "Game sắp tuyển thêm Content Creator người Thái, ai thích làm content hoặc có kênh riêng thì chuẩn bị portfolio rồi đăng ký nhé.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -368,7 +376,8 @@
         "content creator"
       ],
       "summary_vn": "Thông báo game sắp tuyển Content Creator người Thái",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Game sắp tuyển thêm Content Creator người Thái, ai thích làm content hoặc có kênh riêng thì chuẩn bị portfolio rồi đăng ký nhé"
     },
     {
       "id": "facebook-0ce30a95c8a543ff",
@@ -452,8 +461,8 @@
       "link": "https://www.youtube.com/watch?v=-AV3gTwwwIs",
       "author_masked": "N***",
       "text_th": "#playtogether #play #newtrend",
-      "text_vn": "Shorts Play Together theo trend mới (chỉ có hashtag)",
-      "translation_method": "machine_translation",
+      "text_vn": "#playtogether #play #newtrend",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -479,7 +488,8 @@
         "video ngắn"
       ],
       "summary_vn": "Đăng video Shorts Play Together theo trend mới",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Shorts Play Together theo trend mới (chỉ có hashtag)"
     },
     {
       "id": "youtube-c424c56a4d9fc1e8",
@@ -488,8 +498,8 @@
       "link": "https://www.youtube.com/watch?v=G55qxNRRolA",
       "author_masked": "N***",
       "text_th": "ก็ทำอยู่แค่เนี่ย #Play together #Play togetherVNG",
-      "text_vn": "Thì cũng chỉ làm có vậy thôi (Shorts Play Together VNG)",
-      "translation_method": "machine_translation",
+      "text_vn": "Cũng chỉ làm có vậy thôi #Play together #Play togetherVNG",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -515,7 +525,8 @@
         "video ngắn"
       ],
       "summary_vn": "Đăng video Shorts gameplay Play Together VNG",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Thì cũng chỉ làm có vậy thôi (Shorts Play Together VNG)"
     },
     {
       "id": "youtube-25d1df7f030b39d6",
@@ -524,8 +535,8 @@
       "link": "https://www.youtube.com/watch?v=NrGAUV_BxzQ",
       "author_masked": "N***",
       "text_th": "#Play together #Play together VNG",
-      "text_vn": "Shorts Play Together VNG (chỉ có hashtag, không có mô tả)",
-      "translation_method": "machine_translation",
+      "text_vn": "#Play together #Play together VNG",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -551,7 +562,8 @@
         "video ngắn"
       ],
       "summary_vn": "Đăng video Shorts Play Together VNG không mô tả",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Shorts Play Together VNG (chỉ có hashtag, không có mô tả)"
     },
     {
       "id": "youtube-98d8d938e37e8f3a",
@@ -560,8 +572,8 @@
       "link": "https://www.youtube.com/watch?v=sJzlUWEkzwk",
       "author_masked": "N***",
       "text_th": "บัคอะไรร #Play together #Playtogether VNG",
-      "text_vn": "Lỗi gì thế này?! (Shorts quay lại lỗi trong Play Together VNG)",
-      "translation_method": "machine_translation",
+      "text_vn": "Lỗi gì vậy trời #Play together #Playtogether VNG",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -587,7 +599,8 @@
         "lỗi hiển thị"
       ],
       "summary_vn": "Đăng Shorts quay lại lỗi gặp phải trong game",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Lỗi gì thế này?! (Shorts quay lại lỗi trong Play Together VNG)"
     }
   ],
   "metrics": {

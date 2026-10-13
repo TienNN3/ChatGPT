@@ -153,7 +153,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "ร***",
       "text_th": "เฟอร์นีเจอร์ เครื่องแต่งกาย. ช่วยลดราคาหน่อยแพงมากก💗",
-      "text_vn": "Mong giảm giá nội thất và trang phục vì đang quá đắt.",
+      "text_vn": "Nội thất, trang phục. Giảm giá chút đi, đắt quááá 💗",
       "sentiment": "Neutral",
       "confidence": 0.86,
       "topic": "Gacha / Shop / Pricing",
@@ -171,7 +171,9 @@
       ],
       "summary_vn": "Mong giảm giá nội thất và trang phục vì quá đắt",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mong giảm giá nội thất và trang phục vì đang quá đắt.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "ios-f090c8dc7a5000f3",
@@ -179,7 +181,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "P***",
       "text_th": "ภาษา. ทำไมไม่ทำภาษาไทยบ้าง เดี๋ยวไทยเดี๋ยวอังกฤษ เวลาทำเควสก็อยากอ่านเนื้อเรื่องบ้าง",
-      "text_vn": "Ngôn ngữ trong game không nhất quán, lúc tiếng Thái lúc tiếng Anh. Người chơi muốn đọc cốt truyện nhiệm vụ bằng tiếng Thái.",
+      "text_vn": "Ngôn ngữ. Sao không làm tiếng Thái cho đủ, lúc tiếng Thái lúc tiếng Anh. Lúc làm nhiệm vụ cũng muốn đọc cốt truyện chứ",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Localization (Thai text, wrong translation)",
@@ -196,7 +198,9 @@
       ],
       "summary_vn": "Chê ngôn ngữ lẫn Thái-Anh, muốn đọc nhiệm vụ tiếng Thái",
       "sentiment_rule": "Mixed",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Ngôn ngữ trong game không nhất quán, lúc tiếng Thái lúc tiếng Anh. Người chơi muốn đọc cốt truyện nhiệm vụ bằng tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-2024c007c038b0ba",
@@ -204,7 +208,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "T***",
       "text_th": "เกมหรอยอย่างแรงครับ เล่นสบายๆเรื่อยๆไม่คิดมากครับ แล็คด้วย แต่สนุกดีให้อภัย🤣",
-      "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game ngon lành cành đào luôn ạ, chơi thong thả nhẹ nhàng không phải nghĩ nhiều. Có lag nữa, nhưng vui nên bỏ qua 🤣",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Other",
@@ -220,7 +224,9 @@
         "lag"
       ],
       "summary_vn": "Khen game thư giãn, có lag nhưng vẫn vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-f21ce2384b498063",
@@ -228,7 +234,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ส***",
       "text_th": "ชอบนะสนุกแต่พออัพเดทล่าสุดเข้าได้แต่เกมเหมือนจะหลุดตลอดเลยช่วยแก้ไขหน่อยคะ",
-      "text_vn": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Thích lắm, vui, nhưng từ bản update mới nhất vào được mà game cứ như sắp văng suốt, sửa giúp với ạ",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -245,7 +251,9 @@
         "cập nhật mới"
       ],
       "summary_vn": "Thích game nhưng sau cập nhật mới hay bị văng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-8bfc10a73b737681",
@@ -253,7 +261,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "s***",
       "text_th": "อัปเดตใหม่เข้าเกมแล้วจอดำ บัคบ่อยมาก ก่อนอัปไม่เป็นเลยค่ะ",
-      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Update mới vào game là màn hình đen, lỗi thường xuyên lắm, trước khi update không bị vậy ạ",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -270,7 +278,9 @@
         "cập nhật mới"
       ],
       "summary_vn": "Sau cập nhật vào game bị màn hình đen, lỗi nhiều",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-0e68989e4274217d",
@@ -278,7 +288,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "N***",
       "text_th": "อัพเดททีไรมีแต่บัค เข้าเกมส์แล้วจอมืดแก้ไม่หาย เล่นไม่ได้ทั้งวัน",
-      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Lần nào update cũng toàn lỗi, vào game màn hình tối đen sửa không được, cả ngày không chơi được",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -295,7 +305,9 @@
         "cập nhật mới"
       ],
       "summary_vn": "Mỗi lần cập nhật đều lỗi, màn hình tối cả ngày",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-51f6cd7f5e308780",
@@ -303,7 +315,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "Y***",
       "text_th": "แก้อัพเดตล่าสุดด้วยเล่นแล้วจอดำ",
-      "text_vn": "Phản hồi tiêu cực về sự kiện và nội dung cập nhật. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Sửa bản update mới nhất đi, chơi bị màn hình đen",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Event & Update content",
@@ -320,7 +332,9 @@
         "cập nhật mới"
       ],
       "summary_vn": "Yêu cầu sửa lỗi màn hình đen sau cập nhật mới nhất",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về sự kiện và nội dung cập nhật. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-1dffaa90de4645a9",
@@ -328,7 +342,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "อ***",
       "text_th": "อัพเดตกิจกรรมสัตว์เลี้ยงม้าบัคเยอะโครตเน่าเล่นได้สักพักจอดำบ้างภาพค้างบ้างทั้งที่กดอย่างอื่นได้ปกติแก้ด้วยครับ",
-      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Bản update sự kiện thú cưng ngựa lỗi nhiều tệ hại vãi, chơi được một lúc là lúc thì màn hình đen, lúc thì hình đơ, trong khi bấm cái khác vẫn bình thường. Sửa đi ạ",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -346,7 +360,9 @@
         "cập nhật mới"
       ],
       "summary_vn": "Cập nhật thú cưng ngựa nhiều lỗi, màn hình đen, đứng hình",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-3a7c127f641eb383",
@@ -354,7 +370,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ด***",
       "text_th": "แก้ไขปัญหาด้วยเข้าเกมแล้วจอดำ",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Sửa lỗi giúp với, vào game là màn hình đen",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -370,7 +386,9 @@
         "màn hình đen"
       ],
       "summary_vn": "Vào game bị màn hình đen, yêu cầu sửa",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-48bf33f7cac9710e",
@@ -378,7 +396,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ต***",
       "text_th": "สนุกมาเล่นเพลินๆเลยแต่ช่วงหลังๆนี้หน้าจอค้างเป็นภาพแตกๆอ่ะคะช่วยแก้ให้ด้วยนะคะ",
-      "text_vn": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui lắm, chơi cuốn luôn, nhưng dạo gần đây màn hình bị đơ, hình bị vỡ ấy ạ, sửa giúp với nhé",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -394,7 +412,9 @@
         "lỗi hiển thị"
       ],
       "summary_vn": "Game vui nhưng gần đây màn hình bị đứng, vỡ hình",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-17078d6b7f8d8301",
@@ -402,7 +422,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "น***",
       "text_th": "หลังจากอัพเดทมาคือมีแต่บัค เล่นไม่ได้เลย เข้าเกมแล้วมันเป็นจอดำ ทำอะไรก็ไม่ได้",
-      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Từ sau update là toàn lỗi, không chơi được luôn, vào game là màn hình đen, làm gì cũng không được",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -419,7 +439,9 @@
         "cập nhật mới"
       ],
       "summary_vn": "Sau cập nhật vào game màn hình đen, không thao tác được",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-3ab0c9bb944cb9be",
@@ -427,7 +449,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "F***",
       "text_th": "ตอนนี้จอดำค่ะแก้ไขด่วน!!!",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Giờ đang bị màn hình đen ạ, sửa gấp!!!",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -443,7 +465,9 @@
         "màn hình đen"
       ],
       "summary_vn": "Báo màn hình đen, yêu cầu sửa gấp",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

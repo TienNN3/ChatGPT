@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "K***",
       "text_th": "รู้สึกว่าเกมจำกัดยี้ห้อมากอ่ะรุ่นhuwaie mate pad11.5 2025เล่นไม่ได้อ่ะมันไม่น่ารองรับแต่โหลดได้เข้าเกมอยู่แต่หน้าโหลดทรัพยากรอยู่อย่างง้้นปรับด้วยโหลดมาหลายรอบแล้วก็เหมือนเดิม",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Cảm giác game giới hạn hãng máy quá. Máy Huawei MatePad 11.5 2025 chơi không được, chắc không hỗ trợ, nhưng tải được, vào game được mà cứ đứng ở màn hình tải tài nguyên mãi. Sửa giúp với, tải lại nhiều lần rồi vẫn y vậy.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -24,7 +24,9 @@
         "tải game"
       ],
       "summary_vn": "Máy Huawei MatePad kẹt ở màn tải tài nguyên, không vào được",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-e3fd088dc7ba1ae6",
@@ -32,7 +34,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ณ***",
       "text_th": "สนุกม๊ากกกก",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vuiii quááá.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -48,7 +50,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game rất vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-aaa44430deeb26b6",
@@ -56,7 +60,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ส***",
       "text_th": "สนุกดีอยากให้มีขายของเก็บผักผลไม้เก็บปลามาทำอาหารไปขายแบบสวยๆภาพดูสมจริง",
-      "text_vn": "Phản hồi tích cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui. Mong có tính năng bán đồ, hái rau trái cây, câu cá về nấu ăn đem bán, kiểu đẹp đẹp, hình ảnh chân thật.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
@@ -74,7 +78,9 @@
         "câu cá"
       ],
       "summary_vn": "Mong có tính năng nấu ăn từ rau, cá để bán",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

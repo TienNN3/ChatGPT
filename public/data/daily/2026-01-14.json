@@ -111,7 +111,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "p***",
       "text_th": "เด้งออกบ่อย. เกมเด้งออกบ่อยมากค่ะ ช่วยแก้หน่อยนะคะ",
-      "text_vn": "Game bị văng rất thường xuyên. Mong đội ngũ sửa lỗi.",
+      "text_vn": "Hay văng game. Game văng ra thường xuyên lắm ạ, sửa giúp với nhé",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Bug / Crash / Lag / Performance",
@@ -126,7 +126,9 @@
         "văng game"
       ],
       "summary_vn": "Báo game văng rất thường xuyên, mong sửa",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Game bị văng rất thường xuyên. Mong đội ngũ sửa lỗi.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "S***",
       "text_th": "ชอบมากกแต่ก็เล่นนานๆแอบน่าเบื่อถ้าไม่มีกิจกรรมให้ทำ",
-      "text_vn": "Phản hồi trái chiều về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Thích lắm, nhưng chơi lâu thì hơi chán nếu không có sự kiện gì để làm.",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
@@ -24,7 +24,9 @@
         "sự kiện"
       ],
       "summary_vn": "Thích game nhưng chơi lâu chán khi không có hoạt động",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-72dc14c24fe0922d",
@@ -32,7 +34,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "N***",
       "text_th": "ขอหักดาว ฉันตั้งใจเลี้ยงมินิมีหลายคนเพราะอยากสะสมการ์ด เลี้ยงปล่อยไปกี่คนก็ให้แต่การ์ดผู้ช่วยการเกษตรซ้ำๆ",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Xin trừ sao. Mình cố ý nuôi nhiều Mini vì muốn sưu tầm thẻ, nhưng nuôi rồi thả đi bao nhiêu đứa cũng chỉ toàn ra thẻ Trợ lý nông nghiệp trùng lặp.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -49,7 +51,9 @@
         "bộ sưu tập thẻ"
       ],
       "summary_vn": "Nuôi nhiều minime chỉ nhận trùng thẻ trợ lý nông nghiệp",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

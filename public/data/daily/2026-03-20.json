@@ -126,7 +126,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "อ***",
       "text_th": "โค้ด. อยากให้มีโค้ดไหม",
-      "text_vn": "Người chơi mong game có mã quà tặng.",
+      "text_vn": "Code. Có code quà tặng không vậy, muốn có code",
       "sentiment": "Neutral",
       "confidence": 0.86,
       "topic": "Other",
@@ -141,7 +141,9 @@
         "code quà tặng"
       ],
       "summary_vn": "Mong game có thêm code quà tặng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Người chơi mong game có mã quà tặng.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-b35fb3f96650d2fe",
@@ -149,7 +151,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "N***",
       "text_th": "ดีมากแบบเกินเบอร์",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Tốt vượt mong đợi luôn",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -165,7 +167,9 @@
         "giải trí"
       ],
       "summary_vn": "Khen game cực kỳ tốt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-ab4738758d7dabe6",
@@ -173,7 +177,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "อ***",
       "text_th": "สนุกดีไม่เติมก็เล่นสนุกนะ",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui, không nạp cũng chơi vui nha",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -189,7 +193,9 @@
         "nạp tiền"
       ],
       "summary_vn": "Khen không nạp tiền vẫn chơi vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-9e8217a646427e56",
@@ -197,7 +203,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "P***",
       "text_th": "ตอนนี้ก็เกมสนุกมากแต่ตอนอัตเดตมันนานมาก ช่วยแก้ไขด้วยค่ะ",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Giờ game vui lắm nhưng lúc update lâu quá, sửa giúp với ạ",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Other",
@@ -215,7 +221,9 @@
       ],
       "summary_vn": "Game vui nhưng tải cập nhật rất lâu",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

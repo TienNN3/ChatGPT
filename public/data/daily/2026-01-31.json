@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ณ***",
       "text_th": "สนุกมากค่ะะ",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui lắm ạaa",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -24,7 +24,9 @@
         "giải trí"
       ],
       "summary_vn": "Khen game rất vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-f0fdb7a98d32e9df",
@@ -32,7 +34,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "C***",
       "text_th": "ใส่ไอดีเมล์ที่เล่นทุกวัน มันส่งรหัสไปทางเมลล์ คัดลอกมาใส่ก็เเล้ว จดจำพิมใส่เองก็เเล้ว ขึ้นล็อคอินไม่สำเร็จ เป็น10รอบ เกมส์หมาาา น่าเบื่อ ลดอีก1ดาว เกมส์ห่วยเเตก",
-      "text_vn": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Nhập ID email chơi hằng ngày, nó gửi mã qua mail, copy dán vào cũng rồi, nhớ rồi tự gõ cũng rồi, vẫn báo đăng nhập không thành công, cả 10 lần. Game chó má, chán. Trừ thêm 1 sao, game tệ hại",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Login / Account / Data",
@@ -48,7 +50,9 @@
         "đăng nhập"
       ],
       "summary_vn": "Nhập mã gửi qua email vẫn đăng nhập thất bại 10 lần",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

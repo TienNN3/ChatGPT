@@ -131,7 +131,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "H***",
       "text_th": "สุ่มดาบขุดแร่ 150 ครั้งไม่ออก ฟาย แพงจัด. สุ่มดาบขุดแร่ 150 ครั้งไม่ออก ฟาย แพงจัด",
-      "text_vn": "Quay 150 lần vẫn không nhận được kiếm đào khoáng. Người chơi cho rằng giá quá đắt.",
+      "text_vn": "Quay kiếm đào quặng 150 lần không ra, ngu, đắt kinh. Quay kiếm đào quặng 150 lần không ra, ngu, đắt kinh",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Gacha / Shop / Pricing",
@@ -147,7 +147,9 @@
         "giá vật phẩm"
       ],
       "summary_vn": "Quay 150 lần không ra kiếm đào khoáng, chê quá đắt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Quay 150 lần vẫn không nhận được kiếm đào khoáng. Người chơi cho rằng giá quá đắt.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-ba95e278ca3a27ee",
@@ -155,7 +157,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "n***",
       "text_th": "สภาพ พึ่งโหลดมาวันแรก ล๊อคอินแล้ว เข้าเกมไปขึ้นให้ล้อคอินอีก เป้นไรก่อน",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Cái gì vậy trời, mới tải ngày đầu, đăng nhập rồi, vào game lại bắt đăng nhập nữa, bị gì vậy",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -172,7 +174,9 @@
         "người chơi mới"
       ],
       "summary_vn": "Mới tải, đăng nhập xong vào game lại bắt đăng nhập lại",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

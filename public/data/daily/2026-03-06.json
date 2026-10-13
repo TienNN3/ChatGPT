@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "P***",
       "text_th": "เกมนี้สนุกมากคะแต่ในสนามเด็กเล่นกระโดดยากเกินไปค่ะกระปางทีก็ตกลงมาสนามเด็กเล่นอยากให้เกมนี้ทำสนามเด็กเล่นอันใหม่และเล่นง่ายกว่านี้ค่ะแต่ตอนนี้เล่นไม่ได้แล้วไม่รู้ว่าเป็นเพราะอะไร",
-      "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game này vui lắm ạ, nhưng ở sân chơi nhảy khó quá, mấy lần bị rớt xuống. Mong game làm sân chơi mới, dễ chơi hơn ạ. Nhưng giờ thì không chơi được nữa, không biết vì sao",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Other",
@@ -25,7 +25,9 @@
         "minigame"
       ],
       "summary_vn": "Sân chơi nhảy quá khó, mong làm sân chơi mới dễ hơn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

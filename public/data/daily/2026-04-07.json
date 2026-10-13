@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ส***",
       "text_th": "ปัจจุบันอัพเดตมาหลายอย่างแล้วอยากให้มีการทำอาหารขายโดยเอาวัตถุดิบต่างๆมาทำอาหาร ปลาบางชนิดได้จนเบื่อขายก็ได้ไม่แพง เอามาแปลงเป็นอาหารแล้วมีมินิเกมเล็กๆเป็นการกดจังหวะน่าจะทำให้เกมสนุกขึ้นไปอีกครับ อีกอย่างคือปลากลายพันธุ์ อยากให้ราคามากกว่านี้ไม่ใช่เพียงแค่เพิ่มขนาดตัวให้ใหญ่ขึ้น",
-      "text_vn": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Hiện tại cập nhật nhiều thứ rồi, mong có thêm tính năng nấu ăn để bán, dùng các nguyên liệu để nấu. Có loại cá câu hoài tới chán mà bán chẳng được bao nhiêu, đem chế biến thành món ăn rồi có minigame nhỏ kiểu bấm theo nhịp chắc sẽ vui hơn nữa. Thêm nữa là cá đột biến, mong giá cao hơn, chứ không chỉ là to con hơn.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Gacha / Shop / Pricing",
@@ -27,7 +27,9 @@
       ],
       "summary_vn": "Đề xuất nấu ăn bán từ nguyên liệu, tăng giá cá đột biến",
       "sentiment_rule": "Mixed",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

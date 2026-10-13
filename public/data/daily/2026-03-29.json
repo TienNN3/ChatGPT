@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "S***",
       "text_th": "คือตอนสมัยก่อนๆที่ยังไม่มี ยูไอ ใหม่มันสนุกกว่าเราคิดว่า พอมันมี ยูไอ ใหม่ มันงงๆ แล้วตอนที่โรงเรียนมีซอมบี้เราคิดว่ามันสนุกกว่า แต่พอมันมาใหม่มันให้เรียนทั้งวันทั้งคืน แล้วเวลามีอีเว้นท์ชอบแบบเก็บเหรียญแล้วเอาไปแลกของตกแต่งบ้านมากก โดยเฉพาะอีเว้นท์เอเลี่ยน คือพอมันเป็นแบบใหม่เราคิดว่ามันไม่ค่อยดีเท่าไหร่ ชอบแบบสมัยก่อนมากกว่าเวลามีกิจกรรม คือถ้าเจ้าของเกมมาเห็นช่วยแก้หน่อยนะคะพอดีคิดว่าแบบเดิมสนุกกว่า...แต่ให้5ดาวไปก่อน",
-      "text_vn": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Hồi trước lúc chưa có UI mới mình thấy vui hơn, có UI mới rồi thấy rối rối. Rồi hồi trường học có zombie mình thấy vui hơn, giờ bản mới thì bắt học cả ngày lẫn đêm. Mỗi lần có sự kiện mình rất thích kiểu gom xu rồi đổi đồ trang trí nhà, nhất là sự kiện Alien. Kiểu mới mình thấy không hay lắm, thích kiểu sự kiện hồi trước hơn. Nếu nhà phát hành thấy thì sửa giúp nhé, mình nghĩ kiểu cũ vui hơn... nhưng tạm cho 5 sao trước.",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Gacha / Shop / Pricing",
@@ -26,7 +26,9 @@
         "trang trí nhà"
       ],
       "summary_vn": "Thích giao diện, trường học và sự kiện cũ hơn, mong quay lại kiểu cũ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-7005540422bca78c",
@@ -34,7 +36,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "แ***",
       "text_th": "เกมนี้ดีมากๆ",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game này hay lắm.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -50,7 +52,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game rất hay",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-c072f39eca9f83ba",
@@ -58,7 +62,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "K***",
       "text_th": "เข้าไม่ได้",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Không vào được.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -74,7 +78,9 @@
         "đăng nhập"
       ],
       "summary_vn": "Báo không vào được game",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

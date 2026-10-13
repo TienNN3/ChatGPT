@@ -10,8 +10,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "เจอกันตอน5 โมงค้าบ",
-      "text_vn": "Hẹn gặp bạn lúc 5 giờ chiều.",
-      "translation_method": "machine_translation",
+      "text_vn": "Gặp nhau lúc 5 giờ chiều nha",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -34,7 +34,8 @@
         "tìm bạn"
       ],
       "summary_vn": "Hẹn gặp bạn chơi lúc 5 giờ chiều",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Hẹn gặp bạn lúc 5 giờ chiều."
     },
     {
       "id": "facebook-df87885a82c9a2d0",
@@ -44,8 +45,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "ตอนนี้มันกดซื้อได้มั้ยคะ กดแล้วไม่ขึ้นอะไรเลย บัครึเปล่า",
-      "text_vn": "Bạn có thể nhấn mua ngay bây giờ được không? Khi tôi nhấn nó, không có gì xảy ra. Đây có phải là một lỗi không?",
-      "translation_method": "machine_translation",
+      "text_vn": "Giờ bấm mua được chưa ạ? Bấm rồi mà không hiện gì hết, bị lỗi hả?",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -68,7 +69,8 @@
         "cửa hàng"
       ],
       "summary_vn": "Hỏi bấm mua không phản hồi, nghi bị lỗi",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bạn có thể nhấn mua ngay bây giờ được không? Khi tôi nhấn nó, không có gì xảy ra. Đây có phải là một lỗi không?"
     }
   ],
   "metrics": {

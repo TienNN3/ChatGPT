@@ -10,8 +10,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "รับผ่อนมั้ยคะ",
-      "text_vn": "Bạn có chấp nhận trả góp không?",
-      "translation_method": "machine_translation",
+      "text_vn": "Có nhận trả góp không ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -35,7 +35,8 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Hỏi người bán có nhận trả góp không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bạn có chấp nhận trả góp không?"
     },
     {
       "id": "facebook-b77d2ddbc1700c93",
@@ -45,8 +46,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "สนลมดีจังครับ",
-      "text_vn": "Gió rất tốt.",
-      "translation_method": "machine_translation",
+      "text_vn": "Cây thông hiệu ứng gió đẹp ghê.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -71,7 +72,8 @@
       ],
       "summary_vn": "Khen cây thông gió đẹp",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Gió rất tốt."
     },
     {
       "id": "facebook-4cccc736db73e973",
@@ -117,8 +119,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "อ***",
       "text_th": "ขายรหัสเชื่อมเมล (ล็อคอินเซิร์ฟใหม่เรียบร้อย)มี ชุด เสื้อ กางเกง หน้าตา และ ผม เยอะมากค่ะส่วนมากจะมาจากเติมพาส สนใจสอบถามเพิ่มเติมได้ค่ะราคาในใจเค้า 500 ค่ะ แต่ลดให้ได้อีกนิดหน่อย",
-      "text_vn": "Bán mã link email (Đăng nhập server mới hoàn tất) Có rất nhiều trang phục, áo, quần, mặt, tóc. Hầu hết trong số họ đến từ việc thêm một đường chuyền. Nếu quan tâm, bạn có thể hỏi thêm thông tin. Giá trong đầu là 500, nhưng có thể giảm thêm một chút.",
-      "translation_method": "machine_translation",
+      "text_vn": "Bán tài khoản liên kết mail (đã đăng nhập server mới xong). Có rất nhiều bộ đồ, áo, quần, khuôn mặt và tóc, phần lớn từ nạp Pass. Quan tâm hỏi thêm nhé. Giá mong muốn 500, nhưng bớt được chút ạ.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -144,7 +146,8 @@
         "trang phục"
       ],
       "summary_vn": "Bán tài khoản liên kết email nhiều trang phục, giá khoảng 500 baht",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bán mã link email (Đăng nhập server mới hoàn tất) Có rất nhiều trang phục, áo, quần, mặt, tóc. Hầu hết trong số họ đến từ việc thêm một đường chuyền. Nếu quan tâm, bạn có thể hỏi thêm thông tin. Giá trong đầu là 500, nhưng có thể giảm thêm một chút."
     },
     {
       "id": "facebook-06d239927d630e4d",
@@ -154,8 +157,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "M***",
       "text_th": "ผลไม้ มีทุกชนิด ทุกสถานะ[ขาย] โสม (มีทุกสถานะ) [ขาย] เงินสวน เหรียญฟาร์ม [ขาย] เมล็ดพันธุ์ (เฉพาะที่ซื้อด้วยเพชร) [ขาย] เปลี่ยนสภาพอากาศ",
-      "text_vn": "Đủ loại trái cây, đủ trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, xu nông trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết.",
-      "translation_method": "machine_translation",
+      "text_vn": "[Bán] Trái cây đủ loại, đủ hiệu ứng. [Bán] Nhân sâm (đủ hiệu ứng). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -180,7 +183,8 @@
         "đổi thời tiết"
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống và đổi thời tiết",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Đủ loại trái cây, đủ trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, xu nông trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết."
     },
     {
       "id": "facebook-e36d2e6af94ae2f7",
@@ -190,8 +194,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "​ขายแมนเดรก5ต้น30฿ออโรร่า8฿ (มี1)",
-      "text_vn": "Bán 5 cây nhân sâm 30฿ Aurora 8฿ (có sẵn 1)",
-      "translation_method": "machine_translation",
+      "text_vn": "Bán Mandrake 5 cây 30 baht, loại cực quang 8 baht (có 1 cây).",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -217,7 +221,8 @@
         "trái cây"
       ],
       "summary_vn": "Bán 5 cây mandrake 30 baht, Aurora 8 baht",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bán 5 cây nhân sâm 30฿ Aurora 8฿ (có sẵn 1)"
     },
     {
       "id": "facebook-beff8883f61ed9bf",
@@ -227,8 +232,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "เบ็ดนี้ตกปลายักษ์ได้มั้ยคะ",
-      "text_vn": "Cần câu này có bắt được cá khổng lồ không?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cần câu này câu được cá khổng lồ không ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -254,7 +259,8 @@
         "cần câu"
       ],
       "summary_vn": "Hỏi cần câu này có câu được cá khổng lồ không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cần câu này có bắt được cá khổng lồ không?"
     },
     {
       "id": "facebook-9ccd0d1624012de4",
@@ -264,8 +270,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "จะหาซื้อเมล็ดต้นแมนเดรกหาซื้อที่ไหนได้บ้างคะ",
-      "text_vn": "Tôi có thể mua hạt giống mandrake ở đâu?",
-      "translation_method": "machine_translation",
+      "text_vn": "Muốn mua hạt giống cây Mandrake thì mua ở đâu được ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -291,7 +297,8 @@
         "trồng trọt"
       ],
       "summary_vn": "Hỏi mua hạt giống mandrake ở đâu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tôi có thể mua hạt giống mandrake ở đâu?"
     },
     {
       "id": "facebook-1eb595ebccc982c9",
@@ -301,8 +308,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "S***",
       "text_th": "มังกรดำในภาพนี้ดรอปในกิจกรรมนี้ด้วยหรือป่าว ทำไมผมดรอปแต่โทรล",
-      "text_vn": "Con rồng đen trong hình này có rớt ra trong sự kiện này hay không? Tại sao tôi chỉ thả troll?",
-      "translation_method": "machine_translation",
+      "text_vn": "Rồng đen trong hình này có rơi ở sự kiện này không vậy? Sao mình toàn rơi ra Troll.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -328,7 +335,8 @@
         "phần thưởng sự kiện"
       ],
       "summary_vn": "Hỏi rồng đen có rơi trong sự kiện không vì chỉ ra troll",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Con rồng đen trong hình này có rớt ra trong sự kiện này hay không? Tại sao tôi chỉ thả troll?"
     },
     {
       "id": "facebook-bf8dac6a4521f52b",
@@ -338,8 +346,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "อันนี้ทำตรงไหนบ้างหรอคะ",
-      "text_vn": "Việc này được thực hiện ở đâu?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cái này làm ở đâu vậy ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -364,7 +372,8 @@
         "nhiệm vụ"
       ],
       "summary_vn": "Hỏi nhiệm vụ này làm ở đâu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Việc này được thực hiện ở đâu?"
     },
     {
       "id": "facebook-a5a731cdbeac998e",
@@ -374,8 +383,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "เ***",
       "text_th": "หม่ำพาสต้าในรร.ไม่ได้แล้วหรอคะ เห็นมีแต่ระบบตักอาหาร ไม่มีคนรับออเดอร์แล้ว",
-      "text_vn": "Bạn không thể ăn mì ống ở trường? Tôi chỉ thấy một hệ thống xúc thức ăn. Không có ai nhận lệnh.",
-      "translation_method": "machine_translation",
+      "text_vn": "Không ăn mì Ý ở trường được nữa hả mọi người? Thấy chỉ còn hệ thống tự lấy đồ ăn, không còn người nhận order nữa.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -402,7 +411,8 @@
       ],
       "summary_vn": "Hỏi sao không ăn mì ống ở trường được, không ai nhận order",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bạn không thể ăn mì ống ở trường? Tôi chỉ thấy một hệ thống xúc thức ăn. Không có ai nhận lệnh."
     },
     {
       "id": "facebook-23a9b3a9826b27a8",
@@ -412,8 +422,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "รายละเอียดแพทช์มาแล้วว",
-      "text_vn": "Chi tiết bản vá đã đến.",
-      "translation_method": "machine_translation",
+      "text_vn": "Chi tiết bản cập nhật ra rồiii",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -438,7 +448,8 @@
         "cập nhật mới"
       ],
       "summary_vn": "Chia sẻ chi tiết bản vá mới",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Chi tiết bản vá đã đến."
     },
     {
       "id": "facebook-dbe567a8fad5ae44",
@@ -448,8 +459,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "อัปเดตกำลังจะมาพรุ่งนี้แล้ว",
-      "text_vn": "Cập nhật sẽ đến vào ngày mai.",
-      "translation_method": "machine_translation",
+      "text_vn": "Mai là có cập nhật rồi.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -476,7 +487,8 @@
         "cập nhật mới"
       ],
       "summary_vn": "Thông báo bản cập nhật sẽ ra vào ngày mai",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cập nhật sẽ đến vào ngày mai."
     },
     {
       "id": "facebook-7a282613ae161606",
@@ -486,8 +498,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "มีใครใส่เสื้อตัวนี้กับชุดผช.ไมครับ อยากเห็นว่าเป็นยังไงครับ",
-      "text_vn": "Có ai mặc áo này với quần áo nam không? Tôi muốn xem nó như thế nào.",
-      "translation_method": "machine_translation",
+      "text_vn": "Có ai mặc cái áo này với bộ đồ nam không ạ? Muốn xem trông thế nào.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -512,7 +524,8 @@
         "trang phục"
       ],
       "summary_vn": "Hỏi ai phối áo này với đồ nam để xem thử",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Có ai mặc áo này với quần áo nam không? Tôi muốn xem nó như thế nào."
     },
     {
       "id": "facebook-68f3e2673c21b920",
@@ -522,8 +535,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ธนาคารฝากตังไม่ได้แล้วหร๊อ: นานๆเข้ามาเล่น",
-      "text_vn": "Ngân hàng không gửi tiền được nữa?: Lâu lắm rồi tôi mới đến chơi.",
-      "translation_method": "machine_translation",
+      "text_vn": "Ngân hàng không gửi tiền được nữa hả? Lâu lâu mới vào chơi.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -549,7 +562,8 @@
         "ngân hàng"
       ],
       "summary_vn": "Lâu mới chơi lại, hỏi ngân hàng không gửi tiền được nữa à",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Ngân hàng không gửi tiền được nữa?: Lâu lắm rồi tôi mới đến chơi."
     },
     {
       "id": "facebook-c0b3808a7f052873",
@@ -559,8 +573,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "สวัสดีวันพุธครับบ พรุ่งนี้อัพเดตใหม่กำลังจะมาแว้วว",
-      "text_vn": "Xin chào thứ Tư. Ngày mai sẽ có bản cập nhật mới.",
-      "translation_method": "machine_translation",
+      "text_vn": "Chào thứ Tư nhaa, mai có cập nhật mới rồi nèee",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -586,7 +600,8 @@
       ],
       "summary_vn": "Chào thứ Tư, báo ngày mai có bản cập nhật mới",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Xin chào thứ Tư. Ngày mai sẽ có bản cập nhật mới."
     },
     {
       "id": "facebook-7b895fc7cefe8731",
@@ -596,7 +611,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "ส่งต่อความปรารถนาดีสวัสดีวันพุธครับ",
-      "text_vn": "Gửi lời chúc tốt đẹp, chào thứ Tư nhé",
+      "text_vn": "Gửi lời chúc tốt đẹp, chào thứ Tư ạ.",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -617,13 +632,14 @@
         "comment_count": "1"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "social",
       "keywords": [
         "lời chúc"
       ],
       "summary_vn": "Gửi lời chúc tốt đẹp, chào thứ Tư",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Gửi lời chúc tốt đẹp, chào thứ Tư nhé"
     }
   ],
   "metrics": {

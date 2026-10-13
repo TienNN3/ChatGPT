@@ -10,8 +10,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "U***",
       "text_th": "ขายเหมาโสมธรรมดา 20 ต้น 200บาท สนใจทักครับ",
-      "text_vn": "Bán 20 cây nhân sâm bình thường với giá 200 baht. Nếu quan tâm, hãy nói chuyện với chúng tôi.",
-      "translation_method": "machine_translation",
+      "text_vn": "Bán trọn 20 cây nhân sâm thường 200 baht, ai quan tâm inbox nhé.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -35,7 +35,8 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Bán 20 cây nhân sâm thường giá 200 baht",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bán 20 cây nhân sâm bình thường với giá 200 baht. Nếu quan tâm, hãy nói chuyện với chúng tôi."
     }
   ],
   "metrics": {

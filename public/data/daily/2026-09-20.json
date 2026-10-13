@@ -10,8 +10,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "สอบถามค่ะ ขาดการ์ดทอง2ใบต้องหาจากไหนคะ",
-      "text_vn": "Tôi có một câu hỏi. Tôi đang thiếu 2 thẻ vàng. Tôi tìm thấy chúng ở đâu?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho hỏi mình thiếu 2 thẻ vàng, phải kiếm ở đâu ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -36,7 +36,8 @@
         "bộ sưu tập thẻ"
       ],
       "summary_vn": "Hỏi thiếu 2 thẻ vàng thì tìm ở đâu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tôi có một câu hỏi. Tôi đang thiếu 2 thẻ vàng. Tôi tìm thấy chúng ở đâu?"
     },
     {
       "id": "facebook-175aea8ba86d6649",
@@ -46,8 +47,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "M***",
       "text_th": "ผลไม้ มีทุกชนิด ทุกสถานะ[ขาย] โสม (มีทุกสถานะ) [ขาย] เงินสวน เหรียญฟาร์ม [ขาย] เมล็ดพันธุ์ (เฉพาะที่ซื้อด้วยเพชร) [ขาย] เปลี่ยนสภาพอากาศ [ขาย] การ์ด ดาวละ 1฿.- [ขาย] ของขวัญในเมส [รับ] กระโดดหอคอย ถ้วยละ 1฿.- รับชำระทั้งธนาคารและวอเลต ตรวจสอบเครดิตได้ที่หน้าโปรไฟล์น้าา",
-      "text_vn": "Tất cả các loại trái cây, mọi trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, tiền xu trang trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết [Bán] Thẻ, 1฿.- mỗi sao [Bán] Quà tặng trong tình trạng lộn xộn [Chấp nhận] Nhảy tháp, 1฿.- mỗi cốc, chấp nhận cả thanh toán qua ngân hàng và ví. Kiểm tra tín dụng của bạn trên trang hồ sơ của bạn.",
-      "translation_method": "machine_translation",
+      "text_vn": "Trái cây có đủ loại, đủ hiệu ứng. [Bán] Nhân sâm (đủ hiệu ứng) [Bán] Tiền vườn, xu nông trại [Bán] Hạt giống (chỉ loại mua bằng kim cương) [Bán] Đổi thời tiết [Bán] Thẻ 1 baht/sao [Bán] Quà trong Messenger [Nhận] Nhảy tháp 1 baht/cúp. Nhận thanh toán qua ngân hàng và ví điện tử, uy tín xem ở trang cá nhân nha.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -75,7 +76,8 @@
         "nhân sâm"
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống, đổi thời tiết, thẻ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tất cả các loại trái cây, mọi trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, tiền xu trang trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết [Bán] Thẻ, 1฿.- mỗi sao [Bán] Quà tặng trong tình trạng lộn xộn [Chấp nhận] Nhảy tháp, 1฿.- mỗi cốc, chấp nhận cả thanh toán qua ngân hàng và ví. Kiểm tra tín dụng của bạn trên trang hồ sơ của bạn."
     },
     {
       "id": "facebook-67683fb6e577b5cb",
@@ -85,8 +87,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "โสมธรรมดา 12 ต้น  ชุดละ100บาท",
-      "text_vn": "Nhân sâm thông thường, 12 cây, 100 baht một bộ",
-      "translation_method": "machine_translation",
+      "text_vn": "Nhân sâm thường 12 cây, 100 baht/bộ.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -110,7 +112,8 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Rao bán nhân sâm thường 12 cây 100 baht/bộ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nhân sâm thông thường, 12 cây, 100 baht một bộ"
     },
     {
       "id": "facebook-11eccc64f30581d8",
@@ -120,8 +123,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "R***",
       "text_th": "หาไอดีครับเน้นของชุด",
-      "text_vn": "Tìm ID. Tập trung vào bộ.",
-      "translation_method": "machine_translation",
+      "text_vn": "Tìm mua acc, ưu tiên nhiều trang phục.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -147,7 +150,8 @@
         "trang phục"
       ],
       "summary_vn": "Tìm mua ID có nhiều trang phục",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tìm ID. Tập trung vào bộ."
     },
     {
       "id": "facebook-52b15ffe84ef7476",
@@ -157,8 +161,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "B***",
       "text_th": "มีแครอทดวงจันทร์ชิ้นละ2฿ โสมธรรมดาชิ้นละ10฿ แมนเดรกชิ้นละ5฿",
-      "text_vn": "Có cà rốt mặt trăng với giá 2 ฿ mỗi cái. Nhân sâm thông thường 10฿ mỗi loại Nhân sâm 5฿ mỗi loại",
-      "translation_method": "machine_translation",
+      "text_vn": "Có cà rốt Mặt Trăng 2 baht/cái, nhân sâm thường 10 baht/cái, mandrake 5 baht/cái.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -185,7 +189,8 @@
         "thỏ mặt trăng"
       ],
       "summary_vn": "Rao bán cà rốt mặt trăng 2 baht, nhân sâm 10 baht",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Có cà rốt mặt trăng với giá 2 ฿ mỗi cái. Nhân sâm thông thường 10฿ mỗi loại Nhân sâm 5฿ mỗi loại"
     },
     {
       "id": "facebook-4237c2a6189c96c8",
@@ -195,8 +200,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "C***",
       "text_th": "ทุกคนครับผมไม่ได้เล่นนานกลับมา พอจะอัพเดตมันขึ้นว่าไม่สามารถดาวน์โหลดได้ในประเทศของคุณ ตอนนี้ประเทศไทยยังสามารถเล่นได้มั้ยครับ￼",
-      "text_vn": "Mọi người ơi lâu rồi mình không chơi. Khi tôi cập nhật thì nó báo không thể tải xuống ở quốc gia của bạn. Thái Lan bây giờ còn chơi được không?",
-      "translation_method": "machine_translation",
+      "text_vn": "Mọi người ơi, mình lâu rồi không chơi giờ quay lại, định cập nhật thì báo không tải được ở quốc gia của bạn. Giờ Thái Lan còn chơi được không ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -222,7 +227,8 @@
         "cập nhật mới"
       ],
       "summary_vn": "Báo cập nhật thì bị chặn tải ở quốc gia, hỏi Thái còn chơi được không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mọi người ơi lâu rồi mình không chơi. Khi tôi cập nhật thì nó báo không thể tải xuống ở quốc gia của bạn. Thái Lan bây giờ còn chơi được không?"
     },
     {
       "id": "facebook-34b9643f04548097",
@@ -232,8 +238,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "สอบถามค่ะ พึ่งกลับมาเล่น ในรอบปี ไม่ย้ายในโทรศัพท์ได้ไหมคะ ปกติเล่นแค่ในสตรีม",
-      "text_vn": "Tôi có một câu hỏi. Tôi mới trở lại thi đấu sau một năm. Tôi có thể không di chuyển nó trên điện thoại của tôi không? Thông thường tôi chỉ chơi trong luồng.",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho hỏi mình mới quay lại chơi sau cả năm, không chuyển sang điện thoại được không ạ? Bình thường mình chỉ chơi trên Steam.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -260,7 +266,8 @@
         "người chơi mới"
       ],
       "summary_vn": "Quay lại sau một năm, hỏi có phải chuyển tài khoản không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tôi có một câu hỏi. Tôi mới trở lại thi đấu sau một năm. Tôi có thể không di chuyển nó trên điện thoại của tôi không? Thông thường tôi chỉ chơi trong luồng."
     },
     {
       "id": "facebook-189878524cdbf40f",
@@ -270,8 +277,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "K***",
       "text_th": "ขออนุญาตค่ะ ใครตกปลาตัวนี้ที่อยู่ข้างปลาอาทิตย์ ขอดูรูปเต็มๆได้ไหมคะ",
-      "text_vn": "Xin vui lòng cho phép tôi. Ai đã câu cá này bên cạnh cá mặt trời? Tôi có thể xem hình ảnh đầy đủ không?",
-      "translation_method": "machine_translation",
+      "text_vn": "Xin phép ạ, ai câu được con cá này nằm cạnh cá mặt trời, cho xem ảnh đầy đủ được không ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -299,7 +306,8 @@
       ],
       "summary_vn": "Xin xem ảnh đầy đủ con cá cạnh cá mặt trời",
       "sentiment_rule": "Positive",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Xin vui lòng cho phép tôi. Ai đã câu cá này bên cạnh cá mặt trời? Tôi có thể xem hình ảnh đầy đủ không?"
     },
     {
       "id": "facebook-f4a94d4ce7ea2c25",
@@ -309,8 +317,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "K***",
       "text_th": "ลุกแม่",
-      "text_vn": "Dậy đi mẹ.",
-      "translation_method": "machine_translation",
+      "text_vn": "Trời đất ơi. (?)",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -337,7 +345,8 @@
         "phản ứng"
       ],
       "summary_vn": "Bình luận đùa ngắn gọi mẹ dậy",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Dậy đi mẹ."
     },
     {
       "id": "facebook-1ab4d15fe345f4b9",
@@ -347,8 +356,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "สอบถามค่ะ การ์ดทองหาจากที่ไหนขาดอยู่2ใบ",
-      "text_vn": "Tôi muốn hỏi, bạn tìm thấy thẻ vàng ở đâu? Còn thiếu 2 món.",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho hỏi thẻ vàng kiếm ở đâu ạ, đang thiếu 2 thẻ.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -373,7 +382,8 @@
         "bộ sưu tập thẻ"
       ],
       "summary_vn": "Hỏi thẻ vàng tìm ở đâu, còn thiếu 2 thẻ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tôi muốn hỏi, bạn tìm thấy thẻ vàng ở đâu? Còn thiếu 2 món."
     },
     {
       "id": "facebook-ab2f5fe4458d0970",
@@ -383,8 +393,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ทำไงง่ะ",
-      "text_vn": "Tôi nên làm gì?",
-      "translation_method": "machine_translation",
+      "text_vn": "Làm sao đây trời?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -409,7 +419,8 @@
         "hỗ trợ"
       ],
       "summary_vn": "Hỏi ngắn phải làm sao",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tôi nên làm gì?"
     },
     {
       "id": "facebook-0525d7d556d63c77",
@@ -419,8 +430,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "เพิ่งเริ่มเล่นไม่นาน อยากถามวิธีอัพเบ็ดครับ อยากไปตกปลาใหญ่ เอาค่าไหนบ้าง ขอแนวทางหน่อยครับเพิ่งเริ่มเล่นไม่นาน อยากถามวิธีอัพเบ็ดครับ อยากไปตกปลาใหญ่ เอาค่าไหนบ้าง ขอแนวทางหน่อยครับ",
-      "text_vn": "Mới bắt đầu chơi gần đây tôi muốn hỏi cách nâng cấp. Tôi muốn đi câu cá. Bạn lấy những giá trị nào? Mong các bác hướng dẫn dùm, em mới chơi gần đây. Tôi muốn hỏi cách nâng cấp. Tôi muốn đi câu cá. Bạn lấy những giá trị nào? Xin vui lòng cho tôi một số hướng.",
-      "translation_method": "machine_translation",
+      "text_vn": "Mới chơi chưa lâu, muốn hỏi cách nâng cấp cần câu ạ. Muốn đi câu cá lớn thì nâng chỉ số nào? Xin hướng dẫn với.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -447,7 +458,8 @@
       ],
       "summary_vn": "Người mới hỏi cách nâng cấp cần để câu cá lớn",
       "sentiment_rule": "Positive",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mới bắt đầu chơi gần đây tôi muốn hỏi cách nâng cấp. Tôi muốn đi câu cá. Bạn lấy những giá trị nào? Mong các bác hướng dẫn dùm, em mới chơi gần đây. Tôi muốn hỏi cách nâng cấp. Tôi muốn đi câu cá. Bạn lấy những giá trị nào? Xin vui lòng cho tôi một số hướng."
     },
     {
       "id": "facebook-e112f4e0dbffccd1",
@@ -457,8 +469,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "กระต่ายต้องใช้น้ำยาสีม่วงกี่ขวด ถึงจะพอดีเวลแมก5 งับ",
-      "text_vn": "Một con thỏ cần bao nhiêu chai chất lỏng màu tím? Ngay cả khi nó phù hợp với cấp độ 5.",
-      "translation_method": "machine_translation",
+      "text_vn": "Thỏ cần bao nhiêu chai thuốc tím mới đủ lên level max 5 ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -484,7 +496,8 @@
         "thỏ mặt trăng"
       ],
       "summary_vn": "Hỏi cần bao nhiêu chai thuốc tím để thỏ đạt cấp 5",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Một con thỏ cần bao nhiêu chai chất lỏng màu tím? Ngay cả khi nó phù hợp với cấp độ 5."
     },
     {
       "id": "facebook-372816fffd34b132",
@@ -531,8 +544,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "หูแมวอันนี้ สายหูแมวควรมีน้าาเพราะหูแมว ปรับตามสีผมได้ด้วยยยย",
-      "text_vn": "Tai mèo này, dây đeo tai mèo nên có vì tai mèo. Bạn cũng có thể điều chỉnh nó theo màu tóc của mình.",
-      "translation_method": "machine_translation",
+      "text_vn": "Tai mèo này, hội mê tai mèo nên có nha, vì tai mèo đổi màu theo màu tóc được nữa.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -560,7 +573,8 @@
       ],
       "summary_vn": "Đề nghị nên có tai mèo đổi màu theo tóc",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Tai mèo này, dây đeo tai mèo nên có vì tai mèo. Bạn cũng có thể điều chỉnh nó theo màu tóc của mình."
     },
     {
       "id": "facebook-9dd62b13e20ef33a",
@@ -570,8 +584,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "เผื่อใครกำลังตัดสินใจว่าจะผสมสีไหนดีทำกระต่ายแบบผสมทุกสีมาให้แล้วน้าา",
-      "text_vn": "Trong trường hợp bất cứ ai đang quyết định nên trộn màu nào, tôi đã tạo một hỗn hợp tất cả các màu của thỏ cho bạn.",
-      "translation_method": "machine_translation",
+      "text_vn": "Ai đang phân vân không biết lai màu nào thì mình đã lai thỏ đủ các màu rồi đây nha.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -599,7 +613,8 @@
       ],
       "summary_vn": "Chia sẻ hình tất cả màu thỏ lai để mọi người tham khảo",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Trong trường hợp bất cứ ai đang quyết định nên trộn màu nào, tôi đã tạo một hỗn hợp tất cả các màu của thỏ cho bạn."
     },
     {
       "id": "facebook-f0392de3f89d10fb",
@@ -609,8 +624,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "F***",
       "text_th": "แวะมารีวิวน้องกระต่ายลูน่าพื้นม่วงอีกตัวแบบผสมค่ะ ปลดบิน 60 เพชร ผสมกระต่ายไม่ต้องพื้นหรือสีเดียวกันได้ ค่าผสม 200 เพชร",
-      "text_vn": "Dừng lại để review một chú thỏ khác là Luna với nền màu tím, phiên bản hỗn hợp. Bạn có thể mở khóa nó với 60 viên kim cương. Bạn có thể trộn những con thỏ không có nền hoặc màu giống nhau. Chi phí trộn là 200 viên kim cương.",
-      "translation_method": "machine_translation",
+      "text_vn": "Ghé review thêm một bé thỏ Luna nền tím bản lai. Mở khoá bay 60 kim cương, lai thỏ không cần cùng nền hay cùng màu, phí lai 200 kim cương.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -639,7 +654,8 @@
       ],
       "summary_vn": "Review thỏ Luna nền tím, mở bay 60 kim cương, lai 200",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Dừng lại để review một chú thỏ khác là Luna với nền màu tím, phiên bản hỗn hợp. Bạn có thể mở khóa nó với 60 viên kim cương. Bạn có thể trộn những con thỏ không có nền hoặc màu giống nhau. Chi phí trộn là 200 viên kim cương."
     },
     {
       "id": "facebook-8120c91a9286e03c",
@@ -649,7 +665,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "สวัสดีวันหยุด",
-      "text_vn": "Chào ngày nghỉ",
+      "text_vn": "Chào ngày nghỉ.",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -670,13 +686,14 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "event_entry",
       "keywords": [
         "chào ngày nghỉ"
       ],
       "summary_vn": "Đăng ảnh chào ngày nghỉ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Chào ngày nghỉ"
     },
     {
       "id": "facebook-21b7b7f1494603bf",
@@ -686,7 +703,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "กระต่ายแบบผสมทุกสี",
-      "text_vn": "Thỏ phối đủ màu",
+      "text_vn": "Thỏ lai đủ các màu.",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -707,7 +724,7 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "share",
       "keywords": [
         "thú cưng",
@@ -715,7 +732,8 @@
       ],
       "summary_vn": "Khoe thỏ lai đủ màu",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Thỏ phối đủ màu"
     },
     {
       "id": "youtube-6dc71770732a4291",
@@ -724,8 +742,8 @@
       "link": "https://www.youtube.com/watch?v=2Az3GOiNMJw",
       "author_masked": "T***",
       "text_th": "Play together : [Review] VVIP PASS ซีซั่นกระต่ายหมู่บ้านกาแล๊คซี่✓สวยมากๆ#Playtogether#Playtogether",
-      "text_vn": "Play Together: [Review] VVIP Pass mùa Thỏ làng Galaxy ✓ Rất đẹp",
-      "translation_method": "machine_translation",
+      "text_vn": "Play Together: [Review] VVIP Pass mùa Thỏ làng Galaxy ✓ Đẹp lắm #Playtogether",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -752,7 +770,8 @@
         "thỏ mặt trăng"
       ],
       "summary_vn": "Video review VVIP Pass mùa thỏ làng Galaxy, khen rất đẹp",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Play Together: [Review] VVIP Pass mùa Thỏ làng Galaxy ✓ Rất đẹp"
     }
   ],
   "metrics": {

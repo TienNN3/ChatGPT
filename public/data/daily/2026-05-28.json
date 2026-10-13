@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "F***",
       "text_th": "ลดราคาสินค้าบางอย่างลงหน่อย อาจจะดี เพราะบางอันเลทค่อนข้างสูงเกินไป โดยรวมทุกอย่างโอเค และเล่นเกมนี้ทุกวัน ตัวอย่างเช่นกิจตกปลา ควรจะมีเลทออกให้บ้าง ไม่ได้ปลาในกิจกรรมเลย",
-      "text_vn": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Giảm giá vài món xuống chút chắc sẽ tốt hơn, vì có món tỉ lệ (ra) khá cao quá (?). Nhìn chung mọi thứ ổn, ngày nào cũng chơi game này. Ví dụ như sự kiện câu cá, nên có tỉ lệ ra cho người ta chút, câu mãi không được cá sự kiện luôn.",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Gacha / Shop / Pricing",
@@ -26,7 +26,9 @@
         "sự kiện"
       ],
       "summary_vn": "Mong giảm giá vài món, tăng tỷ lệ cá trong sự kiện câu cá",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

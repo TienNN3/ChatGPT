@@ -134,7 +134,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "ก***",
       "text_th": "อยากให้เชิญเพื่อนมาอยู่บ้านเดียวกันได้. เหตุผลคือ จะได้อยู่ด้วยกัน ตกแต่งบ้านร่วมกันได้้",
-      "text_vn": "Mong có thể mời bạn bè sống chung và cùng trang trí một ngôi nhà.",
+      "text_vn": "Mong có thể mời bạn bè về ở chung một nhà. Lý do là để được sống cùng nhau, cùng nhau trang trí nhà.",
       "sentiment": "Positive",
       "confidence": 0.86,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
@@ -150,7 +150,9 @@
         "tìm bạn"
       ],
       "summary_vn": "Mong mời bạn sống chung, cùng trang trí nhà",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mong có thể mời bạn bè sống chung và cùng trang trí một ngôi nhà.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-1b8c8fffd893df21",
@@ -158,7 +160,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "V***",
       "text_th": "เกมดี ภาพสวยนะคะ แต่เวลาเข้าที่รับเลี้ยงสัตว์หรืออื่นๆเกมเราจะหมุนและไม่สามารถเข้าไปเดินได้เลย เราไม่รู้ว่าเป็นที่เกมหรือเป็นที่เราเพราะใช้Facebookสมัคร พอเดินเข้าที่รับเลี้ยงสัตว์หรืออันอื่นๆมันจะหมุนตลอดและไม่หาย พอสมัครด้วยอีเมล ก็เข้าเดินเล่นได้ปกติไม่หมุน ถ้าเป็นที่เซิร์ฟหรือตัวเกม แก้ไขด้วยนะคะ",
-      "text_vn": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game hay, hình đẹp, nhưng mỗi lần vào trại nhận nuôi thú cưng hay mấy chỗ khác thì game cứ xoay vòng vòng, không đi vào được luôn. Mình không biết là do game hay do mình vì mình đăng ký bằng Facebook. Cứ bước vào trại nhận nuôi thú cưng hay chỗ khác là nó xoay mãi không hết. Còn khi đăng ký bằng email thì vào đi dạo bình thường, không bị xoay. Nếu là do máy chủ hay do game thì sửa giúp nhé.",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Login / Account / Data",
@@ -176,7 +178,9 @@
       ],
       "summary_vn": "Vào khu nhận nuôi thú cưng bị xoay màn hình khi dùng tài khoản Facebook",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-f2c30a837205b8b8",
@@ -184,7 +188,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "N***",
       "text_th": "เคยเล่นแล้วสนุกมากๆค่ะ",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Từng chơi rồi, vui lắm ạ.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -200,7 +204,9 @@
         "giải trí"
       ],
       "summary_vn": "Từng chơi và thấy rất vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "ratings": [

@@ -10,7 +10,7 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "End of the Desert Oasis Event",
-      "text_vn": "Kết thúc sự kiện Ốc Đảo Sa Mạc",
+      "text_vn": "Kết thúc sự kiện Desert Oasis",
       "sentiment": "Neutral",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -31,14 +31,15 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation",
+      "translation_method": "ai_contextual",
       "intent": "share",
       "keywords": [
         "sự kiện",
         "ốc đảo sa mạc"
       ],
       "summary_vn": "Chia sẻ thông tin kết thúc sự kiện Ốc Đảo Sa Mạc",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Kết thúc sự kiện Ốc Đảo Sa Mạc"
     }
   ],
   "metrics": {

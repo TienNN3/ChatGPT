@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "R***",
       "text_th": "ชอบมากๆ เล่นตั้งแต่7-8 ขวบมั้ง จนตอนนี้12 ยังชอบเล่นอยู่ ได้มีเพื่อนใหม่ เล่นกับเพื่อน คือตรงๆ สนุก ชอบ รักเกมนี้มากกก",
-      "text_vn": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Thích lắm luôn, chơi từ hồi 7-8 tuổi gì đó tới giờ 12 tuổi rồi vẫn còn mê. Có thêm bạn mới, chơi với bạn bè, nói thật là vui, thích, yêu game này lắmmm",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Social / Scam / Harassment / Toxic",
@@ -24,7 +24,9 @@
         "tìm bạn"
       ],
       "summary_vn": "Chơi từ 7-8 tuổi đến 12 tuổi, vẫn rất yêu game",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

@@ -111,7 +111,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "B***",
       "text_th": "เล่นๆอยู่ดีๆเข้าเกมส์ไม่ได้พร้อมกัน3เครื่องบอกเครื่ งค่ายไม่สเถียร. ติดต่อที่ใคร",
-      "text_vn": "Ba thiết bị cùng lúc không thể vào game và hệ thống báo mạng không ổn định. Người chơi không biết liên hệ ai.",
+      "text_vn": "Đang chơi bình thường tự nhiên không vào game được, cả 3 máy cùng lúc, báo mạng nhà mạng không ổn định. Liên hệ ai đây?",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Login / Account / Data",
@@ -127,7 +127,9 @@
         "chăm sóc khách hàng"
       ],
       "summary_vn": "Ba thiết bị không vào được game, báo mạng không ổn định",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Ba thiết bị cùng lúc không thể vào game và hệ thống báo mạng không ổn định. Người chơi không biết liên hệ ai.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

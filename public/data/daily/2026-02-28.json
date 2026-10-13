@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "K***",
       "text_th": "เกมสนุกแต่ของตกแต่งในบ้านแพงเกินไป อยากให้มันลดราคาสักนิดหน่อยแต่อยากให้ของฟรีมาเยอะๆและก็สวย",
-      "text_vn": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game vui nhưng đồ trang trí nhà đắt quá, mong giảm giá chút xíu, và mong có nhiều đồ free mà đẹp",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Gacha / Shop / Pricing",
@@ -25,7 +25,9 @@
         "giá vật phẩm"
       ],
       "summary_vn": "Game vui nhưng đồ trang trí nhà quá đắt, mong thêm đồ free",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-5e3f17fbee9d3d22",
@@ -33,7 +35,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "B***",
       "text_th": "fun.",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -49,7 +51,9 @@
         "giải trí"
       ],
       "summary_vn": "Khen game vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

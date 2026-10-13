@@ -43,8 +43,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "T***",
       "text_th": "บริการกดสภาพอากาศ ของขวัญ และเมล็ด Play together สภาพอากาศทุกอัน 10 บาท เมล็ดราคาตามภาพ ยอดนิยมเมล็ดที่ใช้ทองไม่สามารถกิฟได้นะครับ อาจจะมีการปรับราคาเล็กน้อยโปรดติดตามโพสต์ล่าสุดของอุ๋งๆเลย แอดแล้วทักได้เลย รับทั้งวอเล็ต และ ธนาคาร สต็อกมีเพิ่มเรื่อยๆ สอบถามแพ็คเพิ่มเติมได้เลยอุ๋งๆ",
-      "text_vn": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
-      "translation_method": "machine_translation",
+      "text_vn": "Dịch vụ đổi thời tiết, tặng quà và hạt giống Play Together. Đổi thời tiết loại nào cũng 10 baht, hạt giống giá theo ảnh. Lưu ý hạt giống mua bằng vàng không tặng được nhé. Giá có thể điều chỉnh chút ít, theo dõi bài đăng mới nhất của shop nha. Kết bạn rồi nhắn tin luôn, nhận cả ví điện tử và ngân hàng. Hàng liên tục về thêm, hỏi thêm các gói khác thoải mái nhé.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -70,7 +70,8 @@
       ],
       "summary_vn": "Rao dịch vụ đổi thời tiết 10 baht, tặng quà, bán hạt giống",
       "sentiment_rule": "Mixed",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung."
     },
     {
       "id": "facebook-209290f0ed99eab6",
@@ -80,8 +81,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "5 ดาว = 5 ฿4 ดาว = 4 ฿1-3ดาวมีครบคับติดต่อสอบถามได้ค้าบ (มีเครดิตเช็คได้หน้าโปรไฟล์)",
-      "text_vn": "5 sao = 5 baht, 4 sao = 4 baht, 1-3 sao có đủ hết nha, liên hệ hỏi được ạ (có uy tín, xem ở trang cá nhân)",
-      "translation_method": "machine_translation",
+      "text_vn": "Thẻ 5 sao = 5 baht, 4 sao = 4 baht, 1-3 sao có đủ, nhắn tin hỏi nhé (có uy tín, xem ở trang cá nhân).",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -107,7 +108,8 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Rao bán thẻ 5 sao 5 baht, 4 sao 4 baht, đủ 1-3 sao",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "5 sao = 5 baht, 4 sao = 4 baht, 1-3 sao có đủ hết nha, liên hệ hỏi được ạ (có uy tín, xem ở trang cá nhân)"
     },
     {
       "id": "facebook-564b1010e904bdae",
@@ -117,8 +119,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "ก***",
       "text_th": "สอบถามค่ะ ใช้ไม้ไหนจับค่ะ  หรือซื้อไม้ที่ไหนได้ค่ะ",
-      "text_vn": "Cho hỏi dùng cần nào để bắt ạ, hoặc mua cần ở đâu được ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho hỏi dùng vợt nào để bắt ạ, hoặc mua vợt ở đâu ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -143,7 +145,8 @@
         "bắt côn trùng"
       ],
       "summary_vn": "Hỏi dùng vợt nào để bắt, mua ở đâu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho hỏi dùng cần nào để bắt ạ, hoặc mua cần ở đâu được ạ?"
     },
     {
       "id": "facebook-4ba420f710288818",
@@ -153,8 +156,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "I***",
       "text_th": "มีใครได้ซื้อชุดแพคใหม่แล้วบ้างงทางนี้พึ่งมาเห็น ชุดแอบเท่อยู่นะ",
-      "text_vn": "Có ai mua bộ gói mới chưa, mình mới thấy. Bộ đồ trông khá ngầu đó",
-      "translation_method": "machine_translation",
+      "text_vn": "Có ai mua bộ đồ gói mới chưa? Mình mới thấy, bộ đồ nhìn cũng ngầu phết.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -181,7 +184,8 @@
       ],
       "summary_vn": "Hỏi ai mua bộ gói mới chưa, khen trang phục ngầu",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Có ai mua bộ gói mới chưa, mình mới thấy. Bộ đồ trông khá ngầu đó"
     },
     {
       "id": "facebook-074d4564c03d3719",
@@ -191,8 +195,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ล็อกไอดีกับแอปเปิ้ล ถ้าจะล็อกเชื่อมเฟสทำยังไง",
-      "text_vn": "ID đang liên kết với Apple, muốn liên kết với Facebook thì làm thế nào?",
-      "translation_method": "machine_translation",
+      "text_vn": "Tài khoản đang liên kết với Apple, muốn liên kết thêm Facebook thì làm sao?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -217,7 +221,8 @@
         "đăng nhập"
       ],
       "summary_vn": "Hỏi cách chuyển liên kết ID từ Apple sang Facebook",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "ID đang liên kết với Apple, muốn liên kết với Facebook thì làm thế nào?"
     },
     {
       "id": "facebook-5ca6985ee90d15cb",
@@ -227,8 +232,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "ไกด์สอนเลี้ยงน้องกระต่ายครับใครพึ่งกลับมาเล่น หรือ ไม่รู้ว่าหาส่วนผสมอาหารให้น้องยังไงดูคลิปนี้ได้เลยน้า",
-      "text_vn": "Hướng dẫn nuôi thỏ nè, ai mới quay lại chơi hoặc không biết tìm nguyên liệu thức ăn cho thỏ thế nào thì xem clip này nhé",
-      "translation_method": "machine_translation",
+      "text_vn": "Hướng dẫn nuôi thỏ nè. Ai mới quay lại chơi hoặc chưa biết tìm nguyên liệu nấu thức ăn cho thỏ thì xem clip này nha.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -256,7 +261,8 @@
       ],
       "summary_vn": "Chia sẻ clip hướng dẫn nuôi thỏ, tìm nguyên liệu thức ăn",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Hướng dẫn nuôi thỏ nè, ai mới quay lại chơi hoặc không biết tìm nguyên liệu thức ăn cho thỏ thế nào thì xem clip này nhé"
     },
     {
       "id": "facebook-e1c31eb9e9f0f5f4",
@@ -266,8 +272,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "ว***",
       "text_th": "ขอสอบถามนะคะเหรียญตรามงกุฎอันนี้ตอนที่ได้เกมไม่ได้ให้โล่ไปประดับบ้านเหมือนเหรียญตราอันอื่นหรอคะ รึว่าให้อยู่แต่เราหาไม่เจอเอง",
-      "text_vn": "Cho hỏi huy hiệu vương miện này lúc nhận trong game không được tặng khiên để trang trí nhà như các huy hiệu khác hả? Hay là có mà mình tìm không thấy",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho mình hỏi huy hiệu vương miện này lúc nhận trong game không tặng khiên để trang trí nhà giống các huy hiệu khác hả ạ? Hay là có tặng mà mình tìm không ra?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -294,7 +300,8 @@
       ],
       "summary_vn": "Hỏi huy hiệu vương miện có tặng khiên trang trí nhà không",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho hỏi huy hiệu vương miện này lúc nhận trong game không được tặng khiên để trang trí nhà như các huy hiệu khác hả? Hay là có mà mình tìm không thấy"
     },
     {
       "id": "facebook-fb64049f6db9a239",
@@ -304,8 +311,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "สอบถามหน่อยค่ะ น้องหมาที่ใช้ดมกลิ่นหาของ ต้องพื้นสีอะไรขึ้นไปคะ น้องถึงหาของให้ ของเราพื้นฟ้าน้องไม่หาให้เลย วิ่งตามอย่างเดียว ไม่ดม ไม่มีเอฟเฟคอะไรเลย หรือ เราทำผิดวิธีไหมคะ",
-      "text_vn": "Cho hỏi chó dùng để đánh hơi tìm đồ phải từ nền màu nào trở lên thì mới tìm đồ được ạ? Của mình nền xanh dương mà nó không tìm gì cả, chỉ chạy theo, không đánh hơi, không có hiệu ứng gì. Hay mình làm sai cách ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho hỏi chó đánh hơi tìm đồ phải nền màu gì trở lên mới tìm đồ ạ? Con mình nền xanh dương mà không tìm gì cả, chỉ chạy theo thôi, không đánh hơi, không có hiệu ứng gì luôn. Hay mình làm sai cách ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -332,7 +339,8 @@
         "đào kho báu"
       ],
       "summary_vn": "Hỏi chó đánh hơi cần nền màu nào mới tìm đồ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho hỏi chó dùng để đánh hơi tìm đồ phải từ nền màu nào trở lên thì mới tìm đồ được ạ? Của mình nền xanh dương mà nó không tìm gì cả, chỉ chạy theo, không đánh hơi, không có hiệu ứng gì. Hay mình làm sai cách ạ?"
     },
     {
       "id": "facebook-b2e9d91273056388",
@@ -342,8 +350,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "M***",
       "text_th": "คืออะไร???ใครรู้ตอบเค้าที",
-      "text_vn": "Cái này là gì??? Ai biết trả lời giúp với",
-      "translation_method": "machine_translation",
+      "text_vn": "Cái gì vậy??? Ai biết trả lời giúp mình với.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -369,7 +377,8 @@
         "hỗ trợ"
       ],
       "summary_vn": "Hỏi món này là gì, nhờ người biết trả lời",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cái này là gì??? Ai biết trả lời giúp với"
     },
     {
       "id": "facebook-687bcaad65194145",
@@ -379,8 +388,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "เหตุเกิดจากหาตะพาบกระต่ายมงตัวเดียว",
-      "text_vn": "Mọi chuyện bắt đầu từ việc đi tìm đúng một con rùa thỏ vương miện",
-      "translation_method": "machine_translation",
+      "text_vn": "Chuyện bắt đầu từ việc đi tìm một con ba ba thỏ vương miện.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -407,7 +416,8 @@
         "sự kiện"
       ],
       "summary_vn": "Đăng vui chuyện đi tìm một con rùa thỏ vương miện",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mọi chuyện bắt đầu từ việc đi tìm đúng một con rùa thỏ vương miện"
     },
     {
       "id": "facebook-c581867ec50caa46",
@@ -417,8 +427,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "ไ***",
       "text_th": "อยากดูเเมทกับชุดอื่นน่ารักไหม",
-      "text_vn": "Muốn xem phối với bộ khác có dễ thương không",
-      "translation_method": "machine_translation",
+      "text_vn": "Muốn xem bé mèo mặc bộ khác có dễ thương không?",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -443,7 +453,8 @@
         "trang phục"
       ],
       "summary_vn": "Khoe phối đồ với bộ khác, hỏi có dễ thương không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Muốn xem phối với bộ khác có dễ thương không"
     },
     {
       "id": "facebook-2eb0d38af1254a4c",
@@ -453,8 +464,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "M***",
       "text_th": "ตอนแรกบินไม่เป็นหัวทิ่มบ่อยมาก พอเริ่มคล่องแล้วบินชมวิวฉ่ำเลยค่ะ น้องน่ารักมากกก",
-      "text_vn": "Lúc đầu bay chưa quen, cắm đầu suốt. Khi bắt đầu thạo rồi thì bay ngắm cảnh đã luôn. Bé dễ thương quá",
-      "translation_method": "machine_translation",
+      "text_vn": "Lúc đầu chưa biết bay toàn cắm đầu, quen tay rồi thì bay ngắm cảnh đã luôn, bé dễ thương lắm.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -481,7 +492,8 @@
         "thỏ mặt trăng"
       ],
       "summary_vn": "Khoe bay ngắm cảnh với thỏ, lúc đầu hay cắm đầu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Lúc đầu bay chưa quen, cắm đầu suốt. Khi bắt đầu thạo rồi thì bay ngắm cảnh đã luôn. Bé dễ thương quá"
     },
     {
       "id": "facebook-1b634b7f132f173e",
@@ -491,8 +503,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "ศ***",
       "text_th": "สอบถามหน่อยคับ จะเอาไอดีรหัสเก่ามาเล่นต้องทำไงคับ",
-      "text_vn": "Cho hỏi muốn lấy ID/mật khẩu cũ vào chơi thì làm sao ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho hỏi muốn chơi lại tài khoản cũ thì phải làm sao ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -516,7 +528,8 @@
         "mất dữ liệu"
       ],
       "summary_vn": "Hỏi cách lấy lại ID mật khẩu cũ để chơi",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho hỏi muốn lấy ID/mật khẩu cũ vào chơi thì làm sao ạ?"
     },
     {
       "id": "facebook-bd62f90119c1afb0",
@@ -526,8 +539,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "M***",
       "text_th": "สอบถามหน่อยค่ะกระต่ายพื้นม่วงถ้าเราจะอัพ ต้องใช้กระต่าย แบบเดียวกัน 4 ตัวเลยไหมคะคนละแบบก็ได้",
-      "text_vn": "Cho hỏi thỏ nền tím nếu muốn nâng cấp thì phải dùng 4 con thỏ cùng loại không, hay khác loại cũng được?",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho hỏi muốn nâng cấp thỏ nền tím có cần dùng 4 con thỏ giống nhau không, hay khác loại cũng được ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -551,7 +564,8 @@
         "thỏ mặt trăng"
       ],
       "summary_vn": "Hỏi nâng cấp thỏ nền tím có cần 4 con cùng loại không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho hỏi thỏ nền tím nếu muốn nâng cấp thì phải dùng 4 con thỏ cùng loại không, hay khác loại cũng được?"
     },
     {
       "id": "facebook-c45dd668a76e93d2",
@@ -561,8 +575,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ขอสอบถามมีค้าบ ทำไมถึงล็อกอินเมลเดิมแต่ว่ามันให้สร้างรหัสใหม่หรอคะ เคยเล่นเมื่อ2-3ปีก่อนค่ะ ตอนแรกเล่นในแอนดรอยด์ แต่ตอนนี้เปลี่ยนมาเป็นiosแล้วค่ะ",
-      "text_vn": "Cho hỏi sao đăng nhập email cũ mà nó lại bắt tạo nhân vật mới ạ? Mình từng chơi 2-3 năm trước, lúc đầu chơi trên Android, giờ đổi sang iOS rồi",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho mình hỏi sao đăng nhập bằng mail cũ mà nó bắt tạo nhân vật mới vậy ạ? Mình từng chơi 2-3 năm trước, lúc đầu chơi trên Android, giờ đổi sang iOS rồi.",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -589,7 +603,8 @@
       ],
       "summary_vn": "Đăng nhập email cũ nhưng bị bắt tạo nhân vật mới",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho hỏi sao đăng nhập email cũ mà nó lại bắt tạo nhân vật mới ạ? Mình từng chơi 2-3 năm trước, lúc đầu chơi trên Android, giờ đổi sang iOS rồi"
     },
     {
       "id": "facebook-2aec5399989722d3",
@@ -599,8 +614,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "ชุดนี้แปลกๆคุ้นๆนะเหมือนเคยเห็นที่ไหนเห็นทุกวันด้วยดิ",
-      "text_vn": "Bộ này lạ mà quen quen, hình như thấy ở đâu rồi, thấy mỗi ngày luôn ấy",
-      "translation_method": "machine_translation",
+      "text_vn": "Bộ đồ này nhìn quen quen nha, như từng thấy ở đâu đó, mà ngày nào cũng thấy luôn.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -626,7 +641,8 @@
         "trang phục"
       ],
       "summary_vn": "Đùa bộ đồ mới trông quen như thấy mỗi ngày",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Bộ này lạ mà quen quen, hình như thấy ở đâu rồi, thấy mỗi ngày luôn ấy"
     },
     {
       "id": "facebook-6ace02b9dc3f9712",
@@ -636,8 +652,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "K***",
       "text_th": "ใช้เวลา 2วัน ครบทุกอย่าง",
-      "text_vn": "Mất 2 ngày là xong hết mọi thứ",
-      "translation_method": "machine_translation",
+      "text_vn": "Mất 2 ngày, đủ hết mọi thứ.",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
@@ -665,7 +681,8 @@
       ],
       "summary_vn": "Khoe mất 2 ngày là hoàn thành hết mọi thứ",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mất 2 ngày là xong hết mọi thứ"
     }
   ],
   "alerts": [],

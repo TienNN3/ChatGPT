@@ -98,7 +98,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "ฃ***",
       "text_th": "ลดราคาของหน่อย. อยากให้ลดราคาของหน่อยค่ะมันแพงเกินเพิ่มของน่ารักๆกว่านี้หน่อย เกมดีมากๆแล้วค่ะแค่อยากให้เปลี่ยนนิดหน่อยอย่างอื่นก็โอเคน่ารักมาก ของตกแต่งบ้านอยากให้มีเพิ่ม ของที่ต้องซื้อขอลดราคาลงหน่อยแพงมาก\n\n\nอีกอย่างโฆษณาเยอะมากใครจะโหลดมาเล่นคิดดีดีเสียเวลาชีวิต",
-      "text_vn": "Mong giảm giá vật phẩm, thêm đồ dễ thương và đồ trang trí nhà. Game nhìn chung rất tốt nhưng quảng cáo quá nhiều, gây mất thời gian.",
+      "text_vn": "Giảm giá đồ chút đi. Mong giảm giá đồ chút ạ, đắt quá, thêm nhiều đồ dễ thương hơn nữa. Game hay lắm rồi ạ, chỉ muốn thay đổi chút thôi, còn lại đều ổn, dễ thương lắm. Muốn có thêm đồ trang trí nhà, đồ phải mua thì giảm giá giúp, đắt lắm. Thêm nữa là quảng cáo nhiều quá, ai định tải về chơi thì suy nghĩ kỹ, phí thời gian cuộc đời.",
       "sentiment": "Mixed",
       "confidence": 0.86,
       "topic": "Other",
@@ -115,7 +115,9 @@
         "quảng cáo"
       ],
       "summary_vn": "Khen game nhưng mong giảm giá đồ, thêm đồ trang trí, bớt quảng cáo",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Mong giảm giá vật phẩm, thêm đồ dễ thương và đồ trang trí nhà. Game nhìn chung rất tốt nhưng quảng cáo quá nhiều, gây mất thời gian.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

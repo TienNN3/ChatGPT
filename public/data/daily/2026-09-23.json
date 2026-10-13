@@ -10,8 +10,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "U***",
       "text_th": "โสมธรรมดา 12 ต้น  ชุดละ100บาท สนใจทักเลยครับ",
-      "text_vn": "Nhân sâm thường 12 cây, 100 baht một bộ, ai quan tâm nhắn mình nhé",
-      "translation_method": "machine_translation",
+      "text_vn": "Nhân sâm thường 12 cây, mỗi bộ 100 baht, ai quan tâm inbox nhé.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -35,7 +35,8 @@
         "nhân sâm"
       ],
       "summary_vn": "Rao bán 12 nhân sâm thường, 100 baht một bộ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nhân sâm thường 12 cây, 100 baht một bộ, ai quan tâm nhắn mình nhé"
     },
     {
       "id": "facebook-dc0d0d00976feebf",
@@ -45,8 +46,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "ขึ้นแบบนี้เกิดจากสาเหตุอะไรได้บ้างคะ",
-      "text_vn": "Hiện lên thế này thì có thể do nguyên nhân gì vậy ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Hiện lên như này là do nguyên nhân gì vậy ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -72,7 +73,8 @@
       ],
       "summary_vn": "Hỏi thông báo hiện lên như vậy do nguyên nhân gì",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Hiện lên thế này thì có thể do nguyên nhân gì vậy ạ?"
     },
     {
       "id": "facebook-5ab373dc3116d2d1",
@@ -82,8 +84,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "W***",
       "text_th": "รู้อ้ะป่าว",
-      "text_vn": "Có biết không ta",
-      "translation_method": "machine_translation",
+      "text_vn": "Biết không?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -109,7 +111,8 @@
         "thắc mắc"
       ],
       "summary_vn": "Đăng câu hỏi vu vơ có biết không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Có biết không ta"
     },
     {
       "id": "facebook-8f02cdcfdbe2df24",
@@ -119,8 +122,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "กลุ่มนี้มีแนะนำสำหรับผู้เล่นใหม่ไหมครับแบบ ไกด์อะไรประมาณนั้น คือผมเป็นผู้เล่นใหม่แล้วหาอุปกรณ์ปกติไม่ค่อยเจอเท่าไหร่ (ไม่ใช่พวกไกด์กิจกรรมแค่เป็นไกด์พื้นฐานของผู้เล่นใหม่ๆ จริงๆ)",
-      "text_vn": "Nhóm này có hướng dẫn cho người chơi mới không ạ, kiểu guide gì đó. Mình là người mới, tìm dụng cụ cơ bản mãi không thấy (không phải guide sự kiện, chỉ là hướng dẫn cơ bản cho người mới thật sự)",
-      "translation_method": "machine_translation",
+      "text_vn": "Group mình có hướng dẫn cho người chơi mới không ạ, kiểu guide gì đó? Mình là người mới, tìm mấy dụng cụ cơ bản không ra lắm (không phải guide sự kiện, chỉ là hướng dẫn cơ bản cho người mới thôi).",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -146,7 +149,8 @@
         "hướng dẫn"
       ],
       "summary_vn": "Hỏi nhóm có hướng dẫn cơ bản cho người chơi mới",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Nhóm này có hướng dẫn cho người chơi mới không ạ, kiểu guide gì đó. Mình là người mới, tìm dụng cụ cơ bản mãi không thấy (không phải guide sự kiện, chỉ là hướng dẫn cơ bản cho người mới thật sự)"
     },
     {
       "id": "facebook-9a61d376353dd6eb",
@@ -156,8 +160,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "G***",
       "text_th": "มีรถสปอร์ตน้องบอกอยากนั่งบัส กูเหนื่อยว่ะ",
-      "text_vn": "Có xe thể thao mà bé bảo muốn đi xe buýt, mệt thật sự",
-      "translation_method": "machine_translation",
+      "text_vn": "Có xe thể thao mà em nó bảo muốn đi xe buýt, mệt thật sự.",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -183,7 +187,8 @@
         "phương tiện"
       ],
       "summary_vn": "Đùa có xe thể thao mà bé đòi đi xe buýt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Có xe thể thao mà bé bảo muốn đi xe buýt, mệt thật sự"
     },
     {
       "id": "facebook-d4aef7cd6ba98744",
@@ -266,8 +271,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "น***",
       "text_th": "สอบถามค่ะเพิ่งกลับมาเล่น เลยสงสัยว่าพวกมังกร โทล คืออะไรเหรอคะยิงไปได้ของแต่ไม่รู้ว่าใช้ตรงไหนทำไมมีกิจซ้อนงงไปหมด",
-      "text_vn": "Cho hỏi, mình mới quay lại chơi, mấy cái rồng, troll là gì vậy ạ? Bắn được đồ mà không biết dùng ở đâu, sao có nhiệm vụ chồng chéo, rối hết cả lên",
-      "translation_method": "machine_translation",
+      "text_vn": "Cho mình hỏi, mình mới quay lại chơi nên thắc mắc mấy con rồng, troll là gì vậy? Bắn ra được đồ mà không biết dùng ở đâu, sao lại có nhiệm vụ chồng chéo, rối hết cả lên.",
+      "translation_method": "ai_contextual",
       "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
@@ -296,7 +301,8 @@
       ],
       "summary_vn": "Mới quay lại, hỏi rồng, troll là gì, nhiệm vụ rối",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Cho hỏi, mình mới quay lại chơi, mấy cái rồng, troll là gì vậy ạ? Bắn được đồ mà không biết dùng ở đâu, sao có nhiệm vụ chồng chéo, rối hết cả lên"
     },
     {
       "id": "facebook-323c9ba7644f4865",
@@ -306,8 +312,8 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "มีกี่วันค่ะ โปรนี้",
-      "text_vn": "Gói khuyến mãi này có mấy ngày vậy ạ?",
-      "translation_method": "machine_translation",
+      "text_vn": "Gói khuyến mãi này kéo dài mấy ngày vậy ạ?",
+      "translation_method": "ai_contextual",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
@@ -331,7 +337,8 @@
         "nạp tiền"
       ],
       "summary_vn": "Hỏi gói khuyến mãi này kéo dài mấy ngày",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Gói khuyến mãi này có mấy ngày vậy ạ?"
     },
     {
       "id": "youtube-04357320eb5b2fc6",
@@ -340,8 +347,8 @@
       "link": "https://www.youtube.com/watch?v=w1QQloSO6GQ",
       "author_masked": "T***",
       "text_th": "Play Together : กิจกรรมมินิเกมส์(สะสมดวงดาววิบวับ)✓กระต่ายน้อย✓น่ารักมาก#playtogether#playtogether",
-      "text_vn": "Play Together: sự kiện minigame (Sưu tầm sao lấp lánh) ✓ Thỏ nhỏ ✓ Rất dễ thương",
-      "translation_method": "machine_translation",
+      "text_vn": "Play Together: Minigame sự kiện (sưu tầm sao lấp lánh) ✓ Thỏ con ✓ Dễ thương lắm #playtogether #playtogether",
+      "translation_method": "ai_contextual",
       "sentiment": "Positive",
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -369,7 +376,8 @@
         "sự kiện"
       ],
       "summary_vn": "Video chơi minigame sưu tầm sao lấp lánh sự kiện thỏ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Play Together: sự kiện minigame (Sưu tầm sao lấp lánh) ✓ Thỏ nhỏ ✓ Rất dễ thương"
     }
   ],
   "metrics": {

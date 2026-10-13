@@ -162,7 +162,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "P***",
       "text_th": "ค้าง. เล่นบนไอแพด ค้างและเด้งบ่อยมากเลย",
-      "text_vn": "Chơi trên iPad thường xuyên bị treo và văng.",
+      "text_vn": "Đơ. Chơi trên iPad bị đơ và văng game liên tục.",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Bug / Crash / Lag / Performance",
@@ -178,7 +178,9 @@
         "văng game"
       ],
       "summary_vn": "Chơi trên iPad thường xuyên bị treo và văng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Chơi trên iPad thường xuyên bị treo và văng.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "ios-2ba0ff24c9687cd9",
@@ -186,7 +188,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "K***",
       "text_th": "เค็มๆ. สนุกดี แต่โคตรจะเกลือเล่นมาตั้งแต่เกมเปิดยังไม่เคยสุ่มได้ของสีรุ้งเลย5ปีกว่าละมั้ง",
-      "text_vn": "Game vui nhưng gacha rất đen. Chơi hơn 5 năm vẫn chưa từng quay được vật phẩm cầu vồng.",
+      "text_vn": "Đen đủi. Vui, nhưng đen kinh khủng. Chơi từ hồi game mở tới giờ chưa từng quay ra đồ cầu vồng lần nào, chắc hơn 5 năm rồi.",
       "sentiment": "Mixed",
       "confidence": 0.86,
       "topic": "Gacha / Shop / Pricing",
@@ -202,7 +204,9 @@
       ],
       "summary_vn": "Game vui nhưng chơi 5 năm chưa quay được đồ cầu vồng",
       "sentiment_rule": "Negative",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Game vui nhưng gacha rất đen. Chơi hơn 5 năm vẫn chưa từng quay được vật phẩm cầu vồng.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "ios-97d42d1d1715b422",
@@ -210,7 +214,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "k***",
       "text_th": "ทำไมมันขึ้นล็อคอินผืดกฎหมายคะ ทั้งที่ล็อคอินผ่านเฟสตลอด นอย เก็บพาทแล้วไม่ทันอีก. แก้ยังไงดีคะ",
-      "text_vn": "Game báo đăng nhập không hợp lệ dù luôn đăng nhập bằng Facebook. Người chơi lo lắng và bị lỡ tiến độ pass.",
+      "text_vn": "Sao nó báo đăng nhập trái phép vậy ạ, trong khi mình luôn đăng nhập qua Facebook. Chán ghê, lại không kịp cày Pass nữa. Giờ khắc phục sao ạ?",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Login / Account / Data",
@@ -226,7 +230,9 @@
         "vvip pass"
       ],
       "summary_vn": "Bị báo đăng nhập trái phép dù dùng Facebook, lỡ tiến độ pass",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Game báo đăng nhập không hợp lệ dù luôn đăng nhập bằng Facebook. Người chơi lo lắng và bị lỡ tiến độ pass.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-d06ccbb3bcb4c39e",
@@ -234,7 +240,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "M***",
       "text_th": "สนุกดี สร้างสรรค์",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui, sáng tạo.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -250,7 +256,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game vui, sáng tạo",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-12d85bc1f0e512a4",
@@ -258,7 +266,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "N***",
       "text_th": "ส่วนตัวชอบมาก",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Cá nhân rất thích.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -274,7 +282,9 @@
         "minigame"
       ],
       "summary_vn": "Rất thích game",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-cec6c1be328edcbc",
@@ -282,7 +292,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "P***",
       "text_th": "เกมเป็นไรก่อนดูโฆษณาไม่ได้",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game bị gì vậy, không xem quảng cáo được.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -298,7 +308,9 @@
         "quảng cáo"
       ],
       "summary_vn": "Báo không xem được quảng cáo trong game",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-649fb46380fac3d7",
@@ -306,7 +318,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "น***",
       "text_th": "เกมหลุดทุกรอบ เข้ากี่รอบก็หลุด",
-      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game văng hoài, vào bao nhiêu lần cũng văng.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
@@ -322,7 +334,9 @@
         "văng game"
       ],
       "summary_vn": "Game văng mỗi lần vào",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

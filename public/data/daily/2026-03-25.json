@@ -127,7 +127,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "a***",
       "text_th": "More info please. Love the Daily Special Prices events. But could you please add more info about the items? Sometimes it&#39;s hard to tell if an item is for home decor or if it&#39;s wearable. Also, for the draws, I can&#39;t always remember what&#39;s inside. A preview feature or a small description would be super helpful!!!",
-      "text_vn": "Thích sự kiện giá đặc biệt hằng ngày nhưng mong có mô tả và bản xem trước để phân biệt đồ trang trí, đồ mặc và vật phẩm trong lượt quay.",
+      "text_vn": "Cho thêm thông tin với. Mình rất thích sự kiện Daily Special Prices. Nhưng có thể thêm thông tin về vật phẩm được không? Nhiều khi khó biết món đó là đồ trang trí nhà hay đồ mặc được. Còn với các lượt quay, mình không phải lúc nào cũng nhớ bên trong có gì. Có tính năng xem trước hoặc mô tả ngắn thì sẽ hữu ích lắm!!!",
       "sentiment": "Positive",
       "confidence": 0.86,
       "topic": "Gacha / Shop / Pricing",
@@ -145,7 +145,9 @@
       ],
       "summary_vn": "Thích sự kiện giá đặc biệt, mong thêm mô tả và xem trước vật phẩm",
       "sentiment_rule": "Mixed",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Thích sự kiện giá đặc biệt hằng ngày nhưng mong có mô tả và bản xem trước để phân biệt đồ trang trí, đồ mặc và vật phẩm trong lượt quay.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-699f07a3c66690ea",
@@ -153,7 +155,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "d***",
       "text_th": "สนุกกมากกก",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vuiii quááá",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -169,7 +171,9 @@
         "minigame"
       ],
       "summary_vn": "Khen game rất vui",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-36249e4aeedf8c89",
@@ -177,7 +181,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "K***",
       "text_th": "เล่นเหมือนชีวิตจริงมากๆเลยครับ! 🎉⚡💯⚡🎉",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Chơi giống đời thật lắm luôn! 🎉⚡💯⚡🎉",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -193,7 +197,9 @@
         "ngoại hình nhân vật"
       ],
       "summary_vn": "Khen game chơi giống đời thực",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-fb9854f7edb201ce",
@@ -201,7 +207,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "T***",
       "text_th": "เติมแพ็คแล้วไม่เข้าให้ โปรดคืนเงินด้วย",
-      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Nạp gói rồi mà không nhận được, làm ơn hoàn tiền.",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Other",
@@ -217,7 +223,9 @@
         "nạp tiền"
       ],
       "summary_vn": "Nạp gói nhưng không nhận được, yêu cầu hoàn tiền",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-015c9add48c4bca2",
@@ -225,7 +233,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "น***",
       "text_th": "เกมนี้คือภาพสวยมากและเล่นสนุกเล่นเพลินตัวละครก็สวย",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game này hình rất đẹp, chơi vui, chơi cuốn, nhân vật cũng đẹp.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -241,7 +249,9 @@
         "ngoại hình nhân vật"
       ],
       "summary_vn": "Khen đồ họa đẹp, nhân vật đẹp, chơi cuốn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "W***",
       "text_th": "ตัวเกมน่ารัก สนุก เล่นง่าย แต่อะไรไม่รู้สัญาณเน็ตมี เน็ตพึ่งสมัครพอเข้าเล่นแต่ให้เชื่อมต่ออีกครั้ง",
-      "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game dễ thương, vui, dễ chơi, nhưng không biết bị gì, có sóng mạng, mạng mới đăng ký, vào chơi được mà cứ bắt kết nối lại.",
       "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Other",
@@ -25,7 +25,9 @@
         "đăng nhập"
       ],
       "summary_vn": "Khen game nhưng có mạng vẫn bị yêu cầu kết nối lại",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {

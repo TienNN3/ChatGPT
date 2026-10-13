@@ -124,7 +124,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "เ***",
       "text_th": "เค. ดูโฆษณานานไปเด้งออก แต่โฆษณาที่ให้ดูนานมากดูจบกดแล้วยังเด้งออก ระบบคิดคำนวนไม่มีเลยหรอ",
-      "text_vn": "Quảng cáo quá dài và làm game bị văng sau khi xem xong. Người chơi cho rằng hệ thống xử lý chưa hợp lý.",
+      "text_vn": "OK. Xem quảng cáo lâu quá thì bị văng, mà quảng cáo bắt xem thì dài lắm, xem xong bấm vẫn bị văng. Hệ thống không tính toán gì hết à?",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Bug / Crash / Lag / Performance",
@@ -140,7 +140,9 @@
         "văng game"
       ],
       "summary_vn": "Quảng cáo quá dài khiến game bị văng sau khi xem",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Quảng cáo quá dài và làm game bị văng sau khi xem xong. Người chơi cho rằng hệ thống xử lý chưa hợp lý.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-a5b5880e4eef4ca4",
@@ -148,7 +150,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "W***",
       "text_th": "เป็นเกมที่มีอัปเดทเยอะทำให้มีอีเวนท์เยอะมากๆ เลยครับ",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game cập nhật nhiều nên có rất nhiều sự kiện luôn.",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -165,7 +167,9 @@
         "sự kiện"
       ],
       "summary_vn": "Khen game cập nhật nhiều, có nhiều sự kiện",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

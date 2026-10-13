@@ -129,7 +129,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "ช***",
       "text_th": "เด้ง. อัปเดตล่าสุดเด้งบ่อยมากค่ะ",
-      "text_vn": "Sau bản cập nhật mới nhất, game bị văng rất thường xuyên.",
+      "text_vn": "Văng game. Update mới nhất văng thường xuyên lắm ạ",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Bug / Crash / Lag / Performance",
@@ -145,7 +145,9 @@
         "cập nhật mới"
       ],
       "summary_vn": "Sau cập nhật mới nhất game văng rất thường xuyên",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Sau bản cập nhật mới nhất, game bị văng rất thường xuyên.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "ios-345bca56343f1f0c",
@@ -153,7 +155,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "N***",
       "text_th": "Nah. I got kick out the game every time and im deleting this game bye",
-      "text_vn": "Người chơi bị văng khỏi game mỗi lần vào và quyết định xóa game.",
+      "text_vn": "Thôi. Lần nào cũng bị đá ra khỏi game, tôi xóa game đây, bye",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Bug / Crash / Lag / Performance",
@@ -169,7 +171,9 @@
         "xoá game"
       ],
       "summary_vn": "Bị văng mỗi lần vào, quyết định xoá game",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Người chơi bị văng khỏi game mỗi lần vào và quyết định xóa game.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "ios-fd8cbe2cec8bd359",
@@ -177,7 +181,7 @@
       "link": "https://apps.apple.com/th/app/id1402384531",
       "author_masked": "ใ***",
       "text_th": "บัค. เกมเด้งออกเองบ่อยมากกกก",
-      "text_vn": "Game tự văng ra rất thường xuyên.",
+      "text_vn": "Lỗi. Game tự văng ra thường xuyên lắmmmm",
       "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Bug / Crash / Lag / Performance",
@@ -192,7 +196,9 @@
         "văng game"
       ],
       "summary_vn": "Game tự văng rất thường xuyên",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Game tự văng ra rất thường xuyên.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-105610d0f0e4e28b",
@@ -200,7 +206,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ธ***",
       "text_th": "ดี",
-      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Tốt",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
@@ -216,7 +222,9 @@
         "giải trí"
       ],
       "summary_vn": "Khen game tốt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ]
 }

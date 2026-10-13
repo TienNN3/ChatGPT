@@ -8,7 +8,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "ภ***",
       "text_th": "สนุก อีเว้นอัพเดทเรื่อยๆไม่เบื่อ",
-      "text_vn": "Phản hồi tích cực về sự kiện và nội dung cập nhật. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Vui, sự kiện cập nhật đều đặn nên không chán",
       "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Event & Update content",
@@ -25,7 +25,9 @@
         "cập nhật mới"
       ],
       "summary_vn": "Khen sự kiện cập nhật thường xuyên, không chán",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tích cực về sự kiện và nội dung cập nhật. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     },
     {
       "id": "android-246420e6bd6cb64a",
@@ -33,7 +35,7 @@
       "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
       "author_masked": "C***",
       "text_th": "เกมคุณภาพต่ำ เวลาตกเบ็ดปลากินแล้วก้บอกยังไม่กิน ปญอ จัดอย่าโหลดนะ",
-      "text_vn": "Phản hồi tiêu cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "text_vn": "Game chất lượng thấp, lúc thả câu cá cắn rồi mà nó báo chưa cắn. Thiểu năng thật sự, đừng tải nha",
       "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
@@ -49,7 +51,9 @@
         "câu cá"
       ],
       "summary_vn": "Báo lỗi câu cá: cá cắn câu nhưng báo chưa cắn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_vn_machine": "Phản hồi tiêu cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {
