@@ -318,13 +318,13 @@
           <li>Số lượt mới của Google Play là ước tính của Sensor Tower nên có thể lẻ.</li></ul></article>
         <article class="card span-12"><div class="card-head"><h2>Điểm theo ứng dụng</h2><p id="ratingTableCaption"></p></div><div class="scroll"><table class="responsive-table"><thead><tr><th>Ứng dụng</th><th>Nền tảng</th><th class="num">Điểm tích lũy</th><th class="num">Tổng lượt</th><th class="num">Điểm lượt mới</th><th class="num">Lượt mới</th><th>Cập nhật</th></tr></thead><tbody id="ratingRows"></tbody></table></div></article>
       </section>
-      <div class="section-title"><h2>Review có nội dung</h2><p class="muted small">Review Google Play / App Store có ngày đăng trong kỳ đang chọn</p></div>
+      <div class="section-title"><h2>Review có nội dung</h2><p id="storeReviewScope" class="muted small">Review Google Play / App Store có ngày đăng trong kỳ đang chọn</p></div>
       <section id="storeKpis" class="source-cards"></section>
       <div id="storeEmpty"></div>
       <section id="storeLists" class="grid">
         <article class="card span-4"><div class="card-head"><h2>Phân bố số sao</h2><p>Review có ngày đăng trong kỳ</p></div><div id="starDist" class="bar-list"></div></article>
-        <article class="card span-4 voice-card like"><div class="card-head"><h2>Review khen gần đây (4–5★)</h2><p>Mới nhất trước</p></div><div id="storePraise"></div></article>
-        <article class="card span-4 voice-card dislike"><div class="card-head"><h2>Review chê gần đây (1–2★)</h2><p>Mới nhất trước</p></div><div id="storeCriticism"></div></article>
+        <article class="card span-4 voice-card like"><div class="card-head"><h2>Review 4–5★ gần đây</h2><p>Mới nhất trước</p></div><div id="storePraise"></div></article>
+        <article class="card span-4 voice-card dislike"><div class="card-head"><h2>Review 1–2★ gần đây</h2><p>Mới nhất trước</p></div><div id="storeCriticism"></div></article>
         <article class="card span-12 voice-card action"><div class="card-head"><h2>Số sao và nội dung không khớp</h2><p>Ví dụ 5★ nhưng nội dung phàn nàn, hoặc 1★ nhưng nội dung khen · nên đọc lại để xác nhận phân loại</p></div><div id="storeMismatch"></div></article>
       </section>
     </div>
@@ -603,10 +603,12 @@
       $('#sourceSummary').innerHTML=rows.map(([name,count])=>{const group=items.filter(i=>channelName(i)===name),s=bySentiment(group),top=rankThemes(group)[0],act=countBy(group,activityLabel)[0];return`<tr><td data-label="Nguồn"><button class="link-btn" data-filter-source="${esc(name)}">${esc(sourceLabel(name))}</button></td><td class="num" data-label="Phản hồi">${count} <span class="muted small">(${pct(count,items.length)})</span></td><td class="num" data-label="Tích cực">${s.Positive}</td><td class="num" data-label="Tiêu cực">${s.Negative}</td><td data-label="Hoạt động chính">${act?`${esc(act[0])} (${act[1]})`:''}</td><td data-label="Chủ đề nhiều nhất">${top?esc(themeLabel(top[0])):''}</td></tr>`}).join('')||'<tr><td colspan="6" class="empty">Không có phản hồi xác định được ngày đăng trong kỳ.</td></tr>';
       document.querySelectorAll('[data-filter-source]').forEach(button=>button.onclick=()=>focusExplorer({sourceFilter:button.dataset.filterSource}));
     }
-    function reviewRow(i){return`<div class="review"><div class="review-head"><span class="stars">${'★'.repeat(i.rating||0)}<span class="muted">${'★'.repeat(5-(i.rating||0))}</span></span><span class="muted small">${esc(dateLabel(i.date))} · ${esc(i.source)}</span><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span></div>${isSummaryText(i)?`<div class="thai">${esc(i.text_th)}</div><span class="muted small">Tóm tắt: ${esc(i.text_vn.replace(/\s*Đây là tóm tắt phân loại.*$/i,''))}</span>`:`<div><strong>${esc(i.text_vn)}</strong></div>${i.text_th&&i.text_th!==i.text_vn?`<span class="thai muted small">${esc(i.text_th)}</span>`:''}`}${i.link?` <a class="small" href="${esc(i.link)}" target="_blank" rel="noopener">Mở store ↗</a>`:''}</div>`}
+    function reviewRow(i){return`<div class="review"><div class="review-head"><span class="stars">${'★'.repeat(i.rating||0)}<span class="muted">${'★'.repeat(5-(i.rating||0))}</span></span><span class="muted small">${esc(dateLabel(i.date))} · ${esc(i.source)}</span><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span></div>${isSummaryText(i)?`<div><strong>${esc(i.text_vn.replace(/\s*Đây là tóm tắt phân loại.*$/i,''))}</strong></div><span class="thai muted small">Nguyên văn: ${esc(i.text_th)}</span>`:`<div><strong>${esc(i.text_vn)}</strong></div>${i.text_th&&i.text_th!==i.text_vn?`<span class="thai muted small">${esc(i.text_th)}</span>`:''}`}${i.link?` <a class="small" href="${esc(i.link)}" target="_blank" rel="noopener">Mở store ↗</a>`:''}</div>`}
     function renderStore(items,previous){
       const reviews=items.filter(isStore).filter(i=>Number.isFinite(i.rating)).sort((a,b)=>itemTime(b)-itemTime(a)),prev=previous.filter(isStore).filter(i=>Number.isFinite(i.rating)),n=reviews.length;
-      const avgStar=n?reviews.reduce((sum,i)=>sum+i.rating,0)/n:null,prevAvg=prev.length?prev.reduce((sum,i)=>sum+i.rating,0)/prev.length:null,good=reviews.filter(i=>i.rating>=4),bad=reviews.filter(i=>i.rating<=2);
+      const recentReviews=state.ratingDays.flatMap(d=>(d.items||[]).filter(isStore).filter(i=>Number.isFinite(i.rating)).map(i=>({...i,date:i.date||d.date}))).sort((a,b)=>itemTime(b)-itemTime(a));
+      const shownReviews=n?reviews:recentReviews,shownN=shownReviews.length,scope=n?'trong kỳ':'gần nhất trong 90 ngày';
+      const avgStar=n?reviews.reduce((sum,i)=>sum+i.rating,0)/n:null,prevAvg=prev.length?prev.reduce((sum,i)=>sum+i.rating,0)/prev.length:null,currentGood=reviews.filter(i=>i.rating>=4),currentBad=reviews.filter(i=>i.rating<=2),shownGood=shownReviews.filter(i=>i.rating>=4),shownBad=shownReviews.filter(i=>i.rating<=2);
       const card=(label,value,sub)=>`<div class="card source-card static"><span class="label">${label}</span><span class="value">${value}</span><span class="sub">${sub}</span></div>`;
       const dates=selectedDates(),start=dates[0],end=dates.at(-1),prevDates=state.previous.map(d=>d.date);
       const stars=v=>v===null||v===undefined?'–':`${v.toFixed(2)}★`,count=v=>fmt.format(Math.max(0,Math.round(v||0)));
@@ -619,18 +621,20 @@
       $('#storeKpis').innerHTML=[
         card('Review trong kỳ',fmt.format(n),`Google Play ${reviews.filter(i=>i.source==='Google Play').length} · App Store ${reviews.filter(i=>i.source==='App Store').length} · kỳ trước ${prev.length}`),
         card('Số sao trung bình (review trong kỳ)',avgStar===null?'–':`${avgStar.toFixed(2)}★`,prevAvg===null?'Kỳ trước không có review':`Kỳ trước ${prevAvg.toFixed(2)}★`),
-        card('Review 4–5★',n?pct(good.length,n):'–',`${good.length} review`),
-        card('Review 1–2★',n?pct(bad.length,n):'–',`${bad.length} review`)
+        card('Review 4–5★',n?pct(currentGood.length,n):'–',`${currentGood.length} review trong kỳ`),
+        card('Review 1–2★',n?pct(currentBad.length,n):'–',`${currentBad.length} review trong kỳ`)
       ].join('');
-      const latest=n?null:state.ratingDays.flatMap(d=>(d.items||[]).filter(isStore).map(i=>({...i,date:d.date}))).sort((a,b)=>b.date.localeCompare(a.date))[0];
-      $('#storeEmpty').innerHTML=n?'':`<div class="card notice">Kỳ này chưa có review store mới.${latest?` Review gần nhất trong 90 ngày: <strong>${esc(dateLabel(latest.date))}</strong> (${esc(latest.source)}).`:' Không có review nào trong 90 ngày gần nhất.'} <button id="storeWiden" class="link-btn">Xem 90 ngày gần nhất</button></div>`;
-      if(!n)$('#storeWiden').onclick=()=>{const latestDate=state.index.latest_with_data||state.index.dates.at(-1);clearPresets();setMode('range');$('#toDate').value=latestDate;$('#fromDate').value=dateAdd(latestDate,-89);apply()};
-      $('#storeLists').hidden=!n;
-      $('#starDist').innerHTML=[5,4,3,2,1].map(star=>{const c=reviews.filter(i=>i.rating===star).length;return`<div class="bar-row static"><span class="name">${star}★</span><span class="bar-track" style="width:${Math.max(4,n?c/Math.max(...[5,4,3,2,1].map(s=>reviews.filter(i=>i.rating===s).length))*100:4)}%"><span class="${star>=4?'positive':star===3?'mixed':'negative'}-bg" style="width:100%"></span></span><span class="num">${c} <small>${pct(c,n)}</small></span></div>`}).join('');
+      const latest=recentReviews[0];
+      $('#storeReviewScope').textContent=n?'Review Google Play / App Store có ngày đăng trong kỳ đang chọn':shownN?`Kỳ đang chọn chưa có review mới; đang hiển thị ${shownN} review gần nhất trong 90 ngày`:'Không có review Google Play / App Store trong 90 ngày gần nhất';
+      $('#storeEmpty').innerHTML=n?'':`<div class="card notice">Kỳ này chưa có review store mới.${latest?` Phần nội dung bên dưới đang dùng ${fmt.format(shownN)} review gần nhất trong 90 ngày; review mới nhất là <strong>${esc(dateLabel(latest.date))}</strong> (${esc(latest.source)}).`:' Không có review nào trong 90 ngày gần nhất.'}${shownN?' <button id="storeWiden" class="link-btn">Dùng kỳ 90 ngày này</button>':''}</div>`;
+      if(!n&&shownN)$('#storeWiden').onclick=()=>{const latestDate=state.index.latest_with_data||state.index.dates.at(-1);clearPresets();setMode('range');$('#toDate').value=latestDate;$('#fromDate').value=dateAdd(latestDate,-89);apply()};
+      $('#storeLists').hidden=!shownN;
+      $('#starDist').previousElementSibling.querySelector('p').textContent=`Review có ngày đăng ${scope}`;
+      $('#starDist').innerHTML=[5,4,3,2,1].map(star=>{const c=shownReviews.filter(i=>i.rating===star).length,max=Math.max(...[5,4,3,2,1].map(s=>shownReviews.filter(i=>i.rating===s).length),1);return`<div class="bar-row static"><span class="name">${star}★</span><span class="bar-track" style="width:${Math.max(4,c/max*100)}%"><span class="${star>=4?'positive':star===3?'mixed':'negative'}-bg" style="width:100%"></span></span><span class="num">${c} <small>${pct(c,shownN)}</small></span></div>`}).join('');
       const list=(rows,empty)=>rows.slice(0,6).map(reviewRow).join('')||`<p class="empty-note">${empty}</p>`;
-      $('#storePraise').innerHTML=list(good,'Không có review 4–5★ trong kỳ.');
-      $('#storeCriticism').innerHTML=list(bad,'Không có review 1–2★ trong kỳ.');
-      $('#storeMismatch').innerHTML=list(reviews.filter(i=>(i.rating>=4&&i.sentiment==='Negative')||(i.rating<=2&&i.sentiment==='Positive')),'Không có review lệch giữa số sao và nội dung.');
+      $('#storePraise').innerHTML=list(shownGood,`Không có review 4–5★ ${scope}.`);
+      $('#storeCriticism').innerHTML=list(shownBad,`Không có review 1–2★ ${scope}.`);
+      $('#storeMismatch').innerHTML=list(shownReviews.filter(i=>(i.rating>=4&&i.sentiment==='Negative')||(i.rating<=2&&i.sentiment==='Positive')),'Không có review lệch giữa số sao và nội dung.');
     }
     // Báo cáo dạng chữ thuần để dán vào chat: dùng đúng số liệu của kỳ đang chọn.
     function reportText(){

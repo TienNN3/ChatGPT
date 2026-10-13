@@ -70,6 +70,11 @@ test("splits the report into overview, sources, store reviews and feedback tabs"
   assert.match(html, /data-scale="share"/);
   // Review store: cột tiếng Việt là tóm tắt phân loại, không được trình bày như bản dịch.
   assert.match(html, /const isSummaryText = item =>/);
+  // Nếu kỳ đang chọn không có review mới, phần nội dung vẫn phải hiển thị review gần nhất
+  // trong 90 ngày và ghi rõ phạm vi; KPI của kỳ vẫn giữ nguyên.
+  assert.match(html, /const shownReviews=n\?reviews:recentReviews/);
+  assert.match(html, /Phần nội dung bên dưới đang dùng/);
+  assert.match(html, /Dùng kỳ 90 ngày này/);
 });
 
 test("uses neutral topic names on screen and offers a copyable text report", async () => {
