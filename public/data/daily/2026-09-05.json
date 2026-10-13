@@ -5,6 +5,7 @@
     {
       "id": "facebook-10dfd500a83c445f",
       "source": "Facebook Fanpage",
+      "community": "Facebook Fanpage · @PlayTogetherGame",
       "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid0g9ZpJ96DLk2ChF54oSBdKdtEPGTgLpT9pnZAGANvainy8ow2eQ2Yyvd93WZ24Fcal?comment_id=1727784398482740",
       "link_quality": "canonical_permalink",
       "author_masked": "H***",
@@ -117,6 +118,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:02:49.783Z",
+  "generated_at": "2026-10-13T08:10:21.231Z",
   "data_mode": "production"
 }

@@ -5,6 +5,7 @@
     {
       "id": "facebook-e49c020bc88b4ad8",
       "source": "Facebook Group",
+      "community": "Facebook Group · 562362538882428",
       "link": "https://www.facebook.com/groups/562362538882428/posts/591042899347725/?comment_id=591738145944867",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -31,6 +32,7 @@
     {
       "id": "facebook-f4f8697f3283ea91",
       "source": "Facebook Group",
+      "community": "Facebook Group · 562362538882428",
       "link": "https://www.facebook.com/groups/562362538882428/posts/591042899347725/?comment_id=591663232619025",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -143,6 +145,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:02:49.783Z",
+  "generated_at": "2026-10-13T08:10:21.231Z",
   "data_mode": "production"
 }

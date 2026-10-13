@@ -5,6 +5,7 @@
     {
       "id": "facebook-61322a7f605c7942",
       "source": "Facebook Fanpage",
+      "community": "Facebook Fanpage · @PlayTogetherGame",
       "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid0KNDQHJ5evbWZ5He1koNjxxkvYWPkqU2WThNpiCCrJad3Vf3PHM3Kr9fJedKpePx8l",
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
@@ -34,6 +35,7 @@
     {
       "id": "facebook-977b4747f7b3f300",
       "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
       "link": "https://www.facebook.com/groups/815754622673816/posts/2135783914004207/?comment_id=2143704906545441",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -60,6 +62,7 @@
     {
       "id": "facebook-d1188b7c9f83964b",
       "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
       "link": "https://www.facebook.com/groups/815754622673816/posts/2140496040199661/?comment_id=2143577999891465",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -86,6 +89,7 @@
     {
       "id": "facebook-e67f457ac92f1104",
       "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
       "link": "https://www.facebook.com/groups/815754622673816/posts/2140496040199661/?comment_id=2143500596565872",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -112,6 +116,7 @@
     {
       "id": "facebook-bb1c5f645407e1f3",
       "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
       "link": "https://www.facebook.com/groups/815754622673816/posts/2120453642203901/?comment_id=2143588336557098",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -226,6 +231,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:02:49.783Z",
+  "generated_at": "2026-10-13T08:10:21.231Z",
   "data_mode": "production"
 }

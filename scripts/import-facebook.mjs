@@ -72,6 +72,14 @@ function activityType(raw, classification) {
   return "Thảo luận";
 }
 
+function communityName(link, source) {
+  const url = new URL(link);
+  const group = url.pathname.match(/^\/groups\/([^/]+)/i);
+  if (group) return `Facebook Group · ${decodeURIComponent(group[1])}`;
+  const page = url.pathname.split("/").filter(Boolean)[0];
+  return page ? `Facebook Fanpage · @${page}` : source;
+}
+
 function buildReport(items, date, collection, importStats) {
   const positive = Map.groupBy(items.filter((item) => item.sentiment === "Positive"), (item) => item.theme);
   const pain = Map.groupBy(items.filter((item) => item.sentiment === "Negative" || item.sentiment === "Mixed"), (item) => item.theme);
@@ -131,7 +139,7 @@ for (const raw of staging.observations) {
   const classification = classify(text);
   staged.push({
     id: `facebook-${createHash("sha256").update(key).digest("hex").slice(0, 16)}`,
-    source: raw.source, link: linkInfo.link, link_quality: linkInfo.link_quality, author_masked: raw.author_masked,
+    source: raw.source, community: communityName(linkInfo.link, raw.source), link: linkInfo.link, link_quality: linkInfo.link_quality, author_masked: raw.author_masked,
     text_th: text, text_vn: previous?.text_vn || fallbackVietnamese(raw.kind, text), sentiment: previous?.sentiment || "Neutral",
     topic: previous?.topic || classification.topic, topic_secondary: previous?.topic_secondary || [], theme: previous?.theme || classification.theme,
     segment: previous?.segment || "unknown", severity: previous?.severity ?? null, confidence: previous?.confidence ?? 0.45,

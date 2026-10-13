@@ -43,6 +43,7 @@ for (const file of files.filter((name) => name.endsWith(".json"))) {
       const capturedComment = item.content_kind === "comment" && item.link_quality === "captured_comment_reference" && /[?&]comment_id=/.test(item.link);
       if (!canonical && !capturedComment) errors.push(`${file}/${item.id}: Facebook link is not a valid captured post/comment reference`);
       if (!new Set(["post", "comment"]).has(item.content_kind)) errors.push(`${file}/${item.id}: missing/invalid Facebook content_kind`);
+      if (!item.community) errors.push(`${file}/${item.id}: missing Facebook community identifier`);
       if (!item.activity_type) errors.push(`${file}/${item.id}: missing Facebook activity_type`);
       if (!new Set(["published_at", "observed_at"]).has(item.date_basis)) errors.push(`${file}/${item.id}: missing/invalid Facebook date_basis`);
       if (!item.engagement || !Array.isArray(item.engagement.reactions)) errors.push(`${file}/${item.id}: missing Facebook engagement metadata`);

@@ -17,4 +17,6 @@ test("exposes daily intelligence shortcuts and separates uncertain dates", async
   assert.match(html, /i\.date_basis!==['"]observed_at['"]/);
   assert.match(html, /id="activityFilter"/);
   assert.match(html, /NSS = % phản hồi tích cực . % phản hồi tiêu cực/);
+  assert.match(html, /Thảo luận theo cộng đồng \/ nguồn/);
+  assert.match(html, /function channelName\(item\)/);
 });

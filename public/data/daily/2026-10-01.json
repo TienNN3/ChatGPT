@@ -5,6 +5,7 @@
     {
       "id": "facebook-3511ec1611d07914",
       "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
       "link": "https://www.facebook.com/groups/815754622673816/posts/2122230632026202/?comment_id=2145011983081400",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -31,6 +32,7 @@
     {
       "id": "facebook-996204f0e51e5de8",
       "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
       "link": "https://www.facebook.com/groups/815754622673816/posts/2130260874556511/?comment_id=2145010986414833",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -57,6 +59,7 @@
     {
       "id": "facebook-e424418558f2aedc",
       "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
       "link": "https://www.facebook.com/groups/815754622673816/posts/2144467236469208/?comment_id=2144508299798435",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -83,6 +86,7 @@
     {
       "id": "facebook-e72731dac91224b0",
       "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
       "link": "https://www.facebook.com/groups/815754622673816/posts/2144467236469208/?comment_id=2144487789800486",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -196,6 +200,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:02:49.783Z",
+  "generated_at": "2026-10-13T08:10:21.231Z",
   "data_mode": "production"
 }

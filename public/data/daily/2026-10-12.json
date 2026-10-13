@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "generated_at": "2026-10-13T15:02:49.963+07:00",
+  "generated_at": "2026-10-13T15:10:21.426+07:00",
   "data_mode": "production",
   "metrics": {
     "volume": 17,
@@ -99,6 +99,7 @@
     {
       "id": "facebook-ec0ffcdb46ea75ac",
       "source": "Facebook Fanpage",
+      "community": "Facebook Fanpage · @PlayTogetherGame",
       "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid035oa7ZoHbBD8EErCSQtEuZnRpFitrbnRvL71WL3qFcYtmharUMwDPPX4B7qpq4z7fl",
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
@@ -128,6 +129,7 @@
     {
       "id": "facebook-b68f5c66cdec7018",
       "source": "Facebook Fanpage",
+      "community": "Facebook Fanpage · @PlayTogetherGame",
       "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid035oa7ZoHbBD8EErCSQtEuZnRpFitrbnRvL71WL3qFcYtmharUMwDPPX4B7qpq4z7fl?comment_id=841130785748360",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -154,6 +156,7 @@
     {
       "id": "facebook-d68b8daa347deb62",
       "source": "Facebook Fanpage",
+      "community": "Facebook Fanpage · @PlayTogetherGame",
       "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid035oa7ZoHbBD8EErCSQtEuZnRpFitrbnRvL71WL3qFcYtmharUMwDPPX4B7qpq4z7fl?comment_id=1576086193714211",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -180,6 +183,7 @@
     {
       "id": "facebook-b1b8706ff5952d72",
       "source": "Facebook Fanpage",
+      "community": "Facebook Fanpage · @PlayTogetherGame",
       "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid035oa7ZoHbBD8EErCSQtEuZnRpFitrbnRvL71WL3qFcYtmharUMwDPPX4B7qpq4z7fl?comment_id=1628556568949358",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -206,6 +210,7 @@
     {
       "id": "facebook-8b88aeacd5d4e638",
       "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
       "link": "https://www.facebook.com/groups/playtogetherth/posts/28596091873335288/?comment_id=28596116963332779",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -232,6 +237,7 @@
     {
       "id": "facebook-8c355a675880b03c",
       "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
       "link": "https://www.facebook.com/groups/playtogetherth/posts/28596091873335288/?comment_id=28596125589998583",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -258,6 +264,7 @@
     {
       "id": "facebook-0bae01ab04fbe6f1",
       "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
       "link": "https://www.facebook.com/groups/playtogetherth/posts/28577642705180205/?comment_id=28582034081407734",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -284,6 +291,7 @@
     {
       "id": "facebook-464a92d92a2cb883",
       "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
       "link": "https://www.facebook.com/groups/playtogetherth/posts/28577642705180205/?comment_id=28582540841357058",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -310,6 +318,7 @@
     {
       "id": "facebook-5f5081501953a7b7",
       "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
       "link": "https://www.facebook.com/groups/playtogetherth/posts/28581062044838271/?comment_id=28582113421399800",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -336,6 +345,7 @@
     {
       "id": "facebook-35ab19965eb01b12",
       "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
       "link": "https://www.facebook.com/groups/playtogetherth/posts/28581062044838271/?comment_id=28582352408042568",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -362,6 +372,7 @@
     {
       "id": "facebook-6be1d4c42b02cf80",
       "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
       "link": "https://www.facebook.com/groups/playtogetherth/posts/28584311031180039/?comment_id=28586312787646530",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -388,6 +399,7 @@
     {
       "id": "facebook-72196d771732f9e5",
       "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
       "link": "https://www.facebook.com/groups/playtogetherth/posts/28584311031180039/?comment_id=28586308527646956",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -414,6 +426,7 @@
     {
       "id": "facebook-bf6ab8200015a693",
       "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
       "link": "https://www.facebook.com/groups/playtogetherth/posts/28578941515050324/?comment_id=28585067981104344",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -440,6 +453,7 @@
     {
       "id": "facebook-946cdcc54c3d4eaf",
       "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
       "link": "https://www.facebook.com/groups/playtogetherth/posts/28578941515050324/?comment_id=28579561834988292",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -466,6 +480,7 @@
     {
       "id": "facebook-4f9169b550d1da6d",
       "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
       "link": "https://www.facebook.com/groups/playtogetherth/posts/28565769519700857/?comment_id=28581520948125714",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -492,6 +507,7 @@
     {
       "id": "facebook-b785e652c3519170",
       "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
       "link": "https://www.facebook.com/groups/playtogetherth/posts/28576656351945507/?comment_id=28578642755080200",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -518,6 +534,7 @@
     {
       "id": "facebook-a6073a2d4ccf4cbd",
       "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
       "link": "https://www.facebook.com/groups/815754622673816/posts/2154316675484264/",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",

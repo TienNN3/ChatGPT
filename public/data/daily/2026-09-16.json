@@ -5,6 +5,7 @@
     {
       "id": "facebook-adeb3c7e140db73a",
       "source": "Facebook Fanpage",
+      "community": "Facebook Fanpage · @PlayTogetherGame",
       "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid0VhT4J6fw3rmg7NiFFqxuXBx2nt3dfvDmJgQDJ7nvjZ5e4LppjYiuBnvcb7GEuqoXl",
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
@@ -31,6 +32,7 @@
     {
       "id": "facebook-d823cc740526266c",
       "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
       "link": "https://www.facebook.com/groups/815754622673816/posts/2131136777802254/?comment_id=2131187257797206",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -57,6 +59,7 @@
     {
       "id": "facebook-b77d2ddbc1700c93",
       "source": "Facebook Group",
+      "community": "Facebook Group · 815754622673816",
       "link": "https://www.facebook.com/groups/815754622673816/posts/2129994817916450/?comment_id=2130699341179331",
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
@@ -170,6 +173,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:02:49.783Z",
+  "generated_at": "2026-10-13T08:10:21.231Z",
   "data_mode": "production"
 }
