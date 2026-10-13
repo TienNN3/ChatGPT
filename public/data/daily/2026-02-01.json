@@ -1,0 +1,128 @@
+{
+  "date": "2026-02-01",
+  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "data_mode": "production",
+  "metrics": {
+    "volume": 1,
+    "noise": 0,
+    "by_source": {
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Gacha / Shop / Pricing": 1
+    },
+    "by_segment": {
+      "payer": 1
+    },
+    "nss": -100,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": 1,
+      "star_1": 1,
+      "star_5": 0
+    }
+  },
+  "alerts": [],
+  "report": {
+    "overview": "Có 1 review iOS và NSS -100. Dữ liệu mỏng. Chưa có dữ liệu D-1. Chưa đủ dữ liệu trung bình 7 ngày.",
+    "bright_spots": [],
+    "pain_points": [
+      {
+        "issue": "Giá trị phần thưởng gacha",
+        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
+        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "สุ่มดาบขุดแร่ 150 ครั้งไม่ออก ฟาย แพงจัด. สุ่มดาบขุดแร่ 150 ครั้งไม่ออก ฟาย แพงจัด",
+            "text_vn": "Quay 150 lần vẫn không nhận được kiếm đào khoáng. Người chơi cho rằng giá quá đắt.",
+            "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Có 1 phản hồi thuộc nhóm payer.",
+        "links": [
+          "https://apps.apple.com/th/app/id1402384531"
+        ]
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower iOS TH: đã nhập 1 review đã che tên cho ngày này.",
+      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
+      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+    ]
+  },
+  "items": [
+    {
+      "id": "ios-c7c4871d740a2bbb",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "H***",
+      "text_th": "สุ่มดาบขุดแร่ 150 ครั้งไม่ออก ฟาย แพงจัด. สุ่มดาบขุดแร่ 150 ครั้งไม่ออก ฟาย แพงจัด",
+      "text_vn": "Quay 150 lần vẫn không nhận được kiếm đào khoáng. Người chơi cho rằng giá quá đắt.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "payer",
+      "severity": "P2",
+      "needs_review": false,
+      "rating": 1
+    }
+  ]
+}

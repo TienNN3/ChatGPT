@@ -1,0 +1,126 @@
+{
+  "date": "2026-02-14",
+  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "data_mode": "production",
+  "metrics": {
+    "volume": 1,
+    "noise": 0,
+    "by_source": {
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Social / Scam / Harassment / Toxic": 1
+    },
+    "by_segment": {
+      "unknown": 1
+    },
+    "nss": -100,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": 1,
+      "star_1": 1,
+      "star_5": 0
+    }
+  },
+  "alerts": [],
+  "report": {
+    "overview": "Có 1 review iOS và NSS -100. Dữ liệu mỏng. Chưa có dữ liệu D-1. Chưa đủ dữ liệu trung bình 7 ngày.",
+    "bright_spots": [],
+    "pain_points": [
+      {
+        "issue": "Tương tác xã hội tiêu cực",
+        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
+        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P3",
+        "quotes": [
+          {
+            "text_th": "Very bad. In iPad it gave me only little things and doesn’t even let me change my name what a scam",
+            "text_vn": "Trên iPad, người chơi chỉ nhận được ít lựa chọn và không thể đổi tên nên cảm thấy bị lừa.",
+            "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower iOS TH: đã nhập 1 review đã che tên cho ngày này.",
+      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
+      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+    ]
+  },
+  "items": [
+    {
+      "id": "ios-ba59a92f0f3932f0",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "A***",
+      "text_th": "Very bad. In iPad it gave me only little things and doesn’t even let me change my name what a scam",
+      "text_vn": "Trên iPad, người chơi chỉ nhận được ít lựa chọn và không thể đổi tên nên cảm thấy bị lừa.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Social / Scam / Harassment / Toxic",
+      "topic_secondary": [],
+      "theme": "Tương tác xã hội tiêu cực",
+      "segment": "unknown",
+      "severity": "P3",
+      "needs_review": false,
+      "rating": 1
+    }
+  ]
+}

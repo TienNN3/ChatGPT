@@ -1,0 +1,188 @@
+{
+  "date": "2026-01-08",
+  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "data_mode": "production",
+  "metrics": {
+    "volume": 3,
+    "noise": 0,
+    "by_source": {
+      "App Store": 3
+    },
+    "by_sentiment": {
+      "Positive": 1,
+      "Neutral": 0,
+      "Negative": 2,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Gacha / Shop / Pricing": 1,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2
+    },
+    "by_segment": {
+      "unknown": 1,
+      "midgame": 2
+    },
+    "nss": -33.3,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": 2.67,
+      "star_1": 1,
+      "star_5": 1
+    }
+  },
+  "alerts": [],
+  "report": {
+    "overview": "Có 3 review iOS và NSS -33.3. Dữ liệu mỏng. Chưa có dữ liệu D-1. Chưa đủ dữ liệu trung bình 7 ngày.",
+    "bright_spots": [
+      {
+        "title": "Hoạt động và tính năng trong game",
+        "count": 1,
+        "quote": {
+          "text_th": "Review game. สนุกมากมีมินิเกมให้ด้วย เพชรหาง่ายดี ชุดฟรีสวยๆมีเยอะ มีระบบสัตว์เลี้ยง เลี้ยงเด็ก ปลูกพืช ตกปลาจับแมลง ส่วนตัวชอบมากๆค่ะ",
+          "text_vn": "Game rất vui, có nhiều minigame, trang phục miễn phí đẹp, thú cưng, trồng trọt, câu cá và nhiều hoạt động.",
+          "link": "https://apps.apple.com/th/app/id1402384531"
+        }
+      }
+    ],
+    "pain_points": [
+      {
+        "issue": "Giá trị phần thưởng gacha",
+        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
+        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "งกเกิ้น. เพชรฟ้า ออกยากมากค่ะ ทุบหินเป็นเดือนๆละ",
+            "text_vn": "Ngọc xanh rất khó xuất hiện dù người chơi đã đập đá suốt một tháng.",
+            "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      },
+      {
+        "issue": "Hoạt động và tính năng trong game",
+        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
+        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "ปรับเปลี่ยน. อยากให้แก้ไข วงปลาริงบาร์คูหน่อยค่ะ ออกยากเกินไป ยิ่งเล่นยิ่งเริ่มเบื่อไม่อยากตกปลาเเล้ว คือบางทีไปวงทั้งวันยังไม่ออก เริ่มหมดแพทชั่นในการเล่นแล้วค่ะ",
+            "text_vn": "Cá vòng hiếm xuất hiện quá khó, khiến người chơi chán và mất hứng câu cá.",
+            "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Có 2 phản hồi thuộc nhóm midgame.",
+        "links": [
+          "https://apps.apple.com/th/app/id1402384531"
+        ]
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower iOS TH: đã nhập 3 review đã che tên cho ngày này.",
+      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
+      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+    ]
+  },
+  "items": [
+    {
+      "id": "ios-935fd9dcbb769066",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "T***",
+      "text_th": "งกเกิ้น. เพชรฟ้า ออกยากมากค่ะ ทุบหินเป็นเดือนๆละ",
+      "text_vn": "Ngọc xanh rất khó xuất hiện dù người chơi đã đập đá suốt một tháng.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": "P2",
+      "needs_review": false,
+      "rating": 1
+    },
+    {
+      "id": "ios-d0941571e9eb27c9",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "L***",
+      "text_th": "Review game. สนุกมากมีมินิเกมให้ด้วย เพชรหาง่ายดี ชุดฟรีสวยๆมีเยอะ มีระบบสัตว์เลี้ยง เลี้ยงเด็ก ปลูกพืช ตกปลาจับแมลง ส่วนตัวชอบมากๆค่ะ",
+      "text_vn": "Game rất vui, có nhiều minigame, trang phục miễn phí đẹp, thú cưng, trồng trọt, câu cá và nhiều hoạt động.",
+      "sentiment": "Positive",
+      "confidence": 0.86,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "midgame",
+      "severity": null,
+      "needs_review": false,
+      "rating": 5
+    },
+    {
+      "id": "ios-61d000346ff209a0",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "O***",
+      "text_th": "ปรับเปลี่ยน. อยากให้แก้ไข วงปลาริงบาร์คูหน่อยค่ะ ออกยากเกินไป ยิ่งเล่นยิ่งเริ่มเบื่อไม่อยากตกปลาเเล้ว คือบางทีไปวงทั้งวันยังไม่ออก เริ่มหมดแพทชั่นในการเล่นแล้วค่ะ",
+      "text_vn": "Cá vòng hiếm xuất hiện quá khó, khiến người chơi chán và mất hứng câu cá.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "midgame",
+      "severity": "P2",
+      "needs_review": false,
+      "rating": 2
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "date": "2026-04-02",
+  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "data_mode": "production",
+  "metrics": {
+    "volume": 5,
+    "noise": 0,
+    "by_source": {
+      "App Store": 5
+    },
+    "by_sentiment": {
+      "Positive": 1,
+      "Neutral": 1,
+      "Negative": 3,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Gacha / Shop / Pricing": 2,
+      "Other": 1,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2
+    },
+    "by_segment": {
+      "payer": 2,
+      "unknown": 1,
+      "midgame": 2
+    },
+    "nss": -40,
+    "nss_d1": -100,
+    "nss_7d_avg": -66.7,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": 4,
+      "star_1": 1,
+      "star_5": 3
+    }
+  },
+  "alerts": [],
+  "report": {
+    "overview": "Có 5 review iOS và NSS -40. Dữ liệu mỏng. NSS D-1 là -100. NSS trung bình 7 ngày là -66.7.",
+    "bright_spots": [
+      {
+        "title": "Hoạt động và tính năng trong game",
+        "count": 1,
+        "quote": {
+          "text_th": "Review game. สนุกมากมีมินิเกมให้ด้วย เพชรหาง่ายดี ชุดฟรีสวยๆมีเยอะ มีระบบสัตว์เลี้ยง เลี้ยงเด็ก ปลูกพืช ตกปลาจับแมลง ส่วนตัวชอบมากๆค่ะ กิจกรรมเยอะมาก",
+          "text_vn": "Game rất vui, có nhiều minigame, trang phục miễn phí đẹp, thú cưng, trồng trọt, câu cá và nhiều hoạt động.",
+          "link": "https://apps.apple.com/th/app/id1402384531"
+        }
+      }
+    ],
+    "pain_points": [
+      {
+        "issue": "Giá vật phẩm quá cao",
+        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
+        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "ลดราคาของหน่อย. อยากให้ลดราคาของหน่อยค่ะมันแพงเกินเพิ่มของน่ารักๆกว่านี้หน่อย เกมดีมากๆแล้วค่ะแค่อยากให้เปลี่ยนนิดหน่อยอย่างอื่นก็โอเคน่ารักมาก ของตกแต่งบ้านอยากให้มีเพิ่ม ของที่ต้องซื้อขอลดราคาลงหน่อยแพงมาก",
+            "text_vn": "Mong giảm giá vật phẩm, thêm đồ dễ thương và thêm đồ trang trí nhà. Các phần khác của game đều ổn.",
+            "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      },
+      {
+        "issue": "Giá trị phần thưởng gacha",
+        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
+        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "สุ่มของ. เวลาสุ่มของ เกมจะออกเองตลอดเลย ทำให้ไม่ได้รับของที่สุ่มไป      ส่วนอย่างอื่นไม่มีปัญหาอะไรค่ะ",
+            "text_vn": "Game thường tự thoát khi quay vật phẩm, khiến người chơi không nhận được vật phẩm đã quay.",
+            "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      },
+      {
+        "issue": "Quảng cáo gây gián đoạn",
+        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
+        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "โฆษณา. เป็นเกมที่ดูโฆษณาเยอะเกิน จนเอียนจนไม่อยากทำอะไร จนไม่อยากเล่น",
+            "text_vn": "Game có quá nhiều quảng cáo đến mức người chơi không còn muốn chơi.",
+            "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Có 2 phản hồi thuộc nhóm midgame.",
+        "links": [
+          "https://apps.apple.com/th/app/id1402384531"
+        ]
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Có 2 phản hồi thuộc nhóm payer.",
+        "links": [
+          "https://apps.apple.com/th/app/id1402384531"
+        ]
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower iOS TH: đã nhập 5 review đã che tên cho ngày này.",
+      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
+      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+    ]
+  },
+  "items": [
+    {
+      "id": "ios-099f45cf4911a6b4",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "ฃ***",
+      "text_th": "ลดราคาของหน่อย. อยากให้ลดราคาของหน่อยค่ะมันแพงเกินเพิ่มของน่ารักๆกว่านี้หน่อย เกมดีมากๆแล้วค่ะแค่อยากให้เปลี่ยนนิดหน่อยอย่างอื่นก็โอเคน่ารักมาก ของตกแต่งบ้านอยากให้มีเพิ่ม ของที่ต้องซื้อขอลดราคาลงหน่อยแพงมาก",
+      "text_vn": "Mong giảm giá vật phẩm, thêm đồ dễ thương và thêm đồ trang trí nhà. Các phần khác của game đều ổn.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá vật phẩm quá cao",
+      "segment": "payer",
+      "severity": "P2",
+      "needs_review": false,
+      "rating": 4
+    },
+    {
+      "id": "ios-dcddac162c255a6f",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "T***",
+      "text_th": "สุ่มของ. เวลาสุ่มของ เกมจะออกเองตลอดเลย ทำให้ไม่ได้รับของที่สุ่มไป      ส่วนอย่างอื่นไม่มีปัญหาอะไรค่ะ",
+      "text_vn": "Game thường tự thoát khi quay vật phẩm, khiến người chơi không nhận được vật phẩm đã quay.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "payer",
+      "severity": "P2",
+      "needs_review": false,
+      "rating": 5
+    },
+    {
+      "id": "ios-df7976c4b200af97",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "เ***",
+      "text_th": "โฆษณา. เป็นเกมที่ดูโฆษณาเยอะเกิน จนเอียนจนไม่อยากทำอะไร จนไม่อยากเล่น",
+      "text_vn": "Game có quá nhiều quảng cáo đến mức người chơi không còn muốn chơi.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Quảng cáo gây gián đoạn",
+      "segment": "unknown",
+      "severity": "P2",
+      "needs_review": false,
+      "rating": 1
+    },
+    {
+      "id": "ios-95f77e331fb8fd18",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "L***",
+      "text_th": "Review game. สนุกมากมีมินิเกมให้ด้วย เพชรหาง่ายดี ชุดฟรีสวยๆมีเยอะ มีระบบสัตว์เลี้ยง เลี้ยงเด็ก ปลูกพืช ตกปลาจับแมลง ส่วนตัวชอบมากๆค่ะ กิจกรรมเยอะมาก",
+      "text_vn": "Game rất vui, có nhiều minigame, trang phục miễn phí đẹp, thú cưng, trồng trọt, câu cá và nhiều hoạt động.",
+      "sentiment": "Positive",
+      "confidence": 0.86,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "midgame",
+      "severity": null,
+      "needs_review": false,
+      "rating": 5
+    },
+    {
+      "id": "ios-60b75bcb1eeeddf4",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "พ***",
+      "text_th": "ขออาชีพ. เห็นด้วยกับความคิดเห็นที่บอกว่าไม่มีอาชีพค่ะเพราะว่าเราจะได้หาเงินมีแล้วก็เราจะได้แบบสนุก กับอาชีพ",
+      "text_vn": "Mong game bổ sung nghề nghiệp để kiếm tiền và tăng sự thú vị.",
+      "sentiment": "Neutral",
+      "confidence": 0.86,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "midgame",
+      "severity": null,
+      "needs_review": false,
+      "rating": 5
+    }
+  ]
+}

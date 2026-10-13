@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "themes": [
     {
       "id": "event-rewards",
@@ -25,6 +25,51 @@
       "id": "thai-localization",
       "label": "Bản địa hóa tiếng Thái",
       "topic": "Localization (Thai text, wrong translation)"
+    },
+    {
+      "id": "imported-8e2dc07b",
+      "label": "Quảng cáo gây gián đoạn",
+      "topic": "Other"
+    },
+    {
+      "id": "imported-c836d2a3",
+      "label": "Game bị văng và treo",
+      "topic": "Bug / Crash / Lag / Performance"
+    },
+    {
+      "id": "imported-16d0576d",
+      "label": "Trải nghiệm game tích cực",
+      "topic": "Other"
+    },
+    {
+      "id": "imported-3b931936",
+      "label": "Không nhận vật phẩm sau thanh toán",
+      "topic": "Topup & Payment"
+    },
+    {
+      "id": "imported-e92b8ee2",
+      "label": "Giá vật phẩm quá cao",
+      "topic": "Gacha / Shop / Pricing"
+    },
+    {
+      "id": "imported-8dd941be",
+      "label": "Lỗi đăng nhập đa thiết bị",
+      "topic": "Login / Account / Data"
+    },
+    {
+      "id": "imported-4306e67a",
+      "label": "Hoạt động và tính năng trong game",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)"
+    },
+    {
+      "id": "imported-b839eddd",
+      "label": "Tương tác xã hội tiêu cực",
+      "topic": "Social / Scam / Harassment / Toxic"
+    },
+    {
+      "id": "imported-e9b795bc",
+      "label": "Góp ý trải nghiệm chung",
+      "topic": "Other"
     }
   ]
 }

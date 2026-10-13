@@ -1,0 +1,193 @@
+{
+  "date": "2026-05-14",
+  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "data_mode": "production",
+  "metrics": {
+    "volume": 3,
+    "noise": 0,
+    "by_source": {
+      "App Store": 3
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 3,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Bug / Crash / Lag / Performance": 1,
+      "Gacha / Shop / Pricing": 1,
+      "Login / Account / Data": 1
+    },
+    "by_segment": {
+      "unknown": 2,
+      "payer": 1
+    },
+    "nss": -100,
+    "nss_d1": null,
+    "nss_7d_avg": -50,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": 2.67,
+      "star_1": 1,
+      "star_5": 0
+    }
+  },
+  "alerts": [],
+  "report": {
+    "overview": "Có 3 review iOS và NSS -100. Dữ liệu mỏng. Chưa có dữ liệu D-1. NSS trung bình 7 ngày là -50.",
+    "bright_spots": [],
+    "pain_points": [
+      {
+        "issue": "Game bị văng và treo",
+        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
+        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "ค้าง. เล่นบนไอแพด ค้างและเด้งบ่อยมากเลย",
+            "text_vn": "Chơi trên iPad thường xuyên bị treo và văng.",
+            "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      },
+      {
+        "issue": "Giá trị phần thưởng gacha",
+        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
+        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "เค็มๆ. สนุกดี แต่โคตรจะเกลือเล่นมาตั้งแต่เกมเปิดยังไม่เคยสุ่มได้ของสีรุ้งเลย5ปีกว่าละมั้ง",
+            "text_vn": "Game vui nhưng gacha rất đen. Chơi hơn 5 năm vẫn chưa từng quay được vật phẩm cầu vồng.",
+            "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      },
+      {
+        "issue": "Lỗi đăng nhập đa thiết bị",
+        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
+        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "ทำไมมันขึ้นล็อคอินผืดกฎหมายคะ ทั้งที่ล็อคอินผ่านเฟสตลอด นอย เก็บพาทแล้วไม่ทันอีก. แก้ยังไงดีคะ",
+            "text_vn": "Game báo đăng nhập không hợp lệ dù luôn đăng nhập bằng Facebook. Người chơi lo lắng và bị lỡ tiến độ pass.",
+            "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Có 1 phản hồi thuộc nhóm payer.",
+        "links": [
+          "https://apps.apple.com/th/app/id1402384531"
+        ]
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower iOS TH: đã nhập 3 review đã che tên cho ngày này.",
+      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
+      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+    ]
+  },
+  "items": [
+    {
+      "id": "ios-eb60f3bc895b0740",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "P***",
+      "text_th": "ค้าง. เล่นบนไอแพด ค้างและเด้งบ่อยมากเลย",
+      "text_vn": "Chơi trên iPad thường xuyên bị treo và văng.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": "P2",
+      "needs_review": false,
+      "rating": 4
+    },
+    {
+      "id": "ios-2ba0ff24c9687cd9",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "K***",
+      "text_th": "เค็มๆ. สนุกดี แต่โคตรจะเกลือเล่นมาตั้งแต่เกมเปิดยังไม่เคยสุ่มได้ของสีรุ้งเลย5ปีกว่าละมั้ง",
+      "text_vn": "Game vui nhưng gacha rất đen. Chơi hơn 5 năm vẫn chưa từng quay được vật phẩm cầu vồng.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "payer",
+      "severity": "P2",
+      "needs_review": false,
+      "rating": 3
+    },
+    {
+      "id": "ios-97d42d1d1715b422",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "k***",
+      "text_th": "ทำไมมันขึ้นล็อคอินผืดกฎหมายคะ ทั้งที่ล็อคอินผ่านเฟสตลอด นอย เก็บพาทแล้วไม่ทันอีก. แก้ยังไงดีคะ",
+      "text_vn": "Game báo đăng nhập không hợp lệ dù luôn đăng nhập bằng Facebook. Người chơi lo lắng và bị lỡ tiến độ pass.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Lỗi đăng nhập đa thiết bị",
+      "segment": "unknown",
+      "severity": "P2",
+      "needs_review": false,
+      "rating": 1
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "date": "2026-04-16",
+  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "data_mode": "production",
+  "metrics": {
+    "volume": 1,
+    "noise": 0,
+    "by_source": {
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 1,
+      "Neutral": 0,
+      "Negative": 0,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1
+    },
+    "by_segment": {
+      "midgame": 1
+    },
+    "nss": 100,
+    "nss_d1": null,
+    "nss_7d_avg": -100,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": 5,
+      "star_1": 0,
+      "star_5": 1
+    }
+  },
+  "alerts": [],
+  "report": {
+    "overview": "Có 1 review iOS và NSS 100. Dữ liệu mỏng. Chưa có dữ liệu D-1. NSS trung bình 7 ngày là -100.",
+    "bright_spots": [
+      {
+        "title": "Hoạt động và tính năng trong game",
+        "count": 1,
+        "quote": {
+          "text_th": "เกมดีมากค่ะ. เกมเล่นสนุกมากค่ะแต่อยากให้มีมินิเกมเพิ่มมาอีกก็น่าจะดีนะคะ",
+          "text_vn": "Game rất vui. Mong có thêm nhiều minigame.",
+          "link": "https://apps.apple.com/th/app/id1402384531"
+        }
+      }
+    ],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Có 1 phản hồi thuộc nhóm midgame.",
+        "links": [
+          "https://apps.apple.com/th/app/id1402384531"
+        ]
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower iOS TH: đã nhập 1 review đã che tên cho ngày này.",
+      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
+      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+    ]
+  },
+  "items": [
+    {
+      "id": "ios-d1d38c918c100efa",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "พ***",
+      "text_th": "เกมดีมากค่ะ. เกมเล่นสนุกมากค่ะแต่อยากให้มีมินิเกมเพิ่มมาอีกก็น่าจะดีนะคะ",
+      "text_vn": "Game rất vui. Mong có thêm nhiều minigame.",
+      "sentiment": "Positive",
+      "confidence": 0.86,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "midgame",
+      "severity": null,
+      "needs_review": false,
+      "rating": 5
+    }
+  ]
+}

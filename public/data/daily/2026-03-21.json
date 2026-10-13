@@ -1,0 +1,165 @@
+{
+  "date": "2026-03-21",
+  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "data_mode": "production",
+  "metrics": {
+    "volume": 3,
+    "noise": 0,
+    "by_source": {
+      "App Store": 3
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 3,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Bug / Crash / Lag / Performance": 3
+    },
+    "by_segment": {
+      "unknown": 3
+    },
+    "nss": -100,
+    "nss_d1": 0,
+    "nss_7d_avg": 0,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": 2.67,
+      "star_1": 1,
+      "star_5": 0
+    }
+  },
+  "alerts": [],
+  "report": {
+    "overview": "Có 3 review iOS và NSS -100. Dữ liệu mỏng. NSS D-1 là 0. NSS trung bình 7 ngày là 0.",
+    "bright_spots": [],
+    "pain_points": [
+      {
+        "issue": "Game bị văng và treo",
+        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
+        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 3,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "เด้ง. อัปเดตล่าสุดเด้งบ่อยมากค่ะ",
+            "text_vn": "Sau bản cập nhật mới nhất, game bị văng rất thường xuyên.",
+            "link": "https://apps.apple.com/th/app/id1402384531"
+          },
+          {
+            "text_th": "Nah. I got kick out the game every time and im deleting this game bye",
+            "text_vn": "Người chơi bị văng khỏi game mỗi lần vào và quyết định xóa game.",
+            "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower iOS TH: đã nhập 3 review đã che tên cho ngày này.",
+      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
+      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+    ]
+  },
+  "items": [
+    {
+      "id": "ios-77ae5996ac1dfbed",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "ช***",
+      "text_th": "เด้ง. อัปเดตล่าสุดเด้งบ่อยมากค่ะ",
+      "text_vn": "Sau bản cập nhật mới nhất, game bị văng rất thường xuyên.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": "P2",
+      "needs_review": false,
+      "rating": 3
+    },
+    {
+      "id": "ios-345bca56343f1f0c",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "N***",
+      "text_th": "Nah. I got kick out the game every time and im deleting this game bye",
+      "text_vn": "Người chơi bị văng khỏi game mỗi lần vào và quyết định xóa game.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": "P1",
+      "needs_review": false,
+      "rating": 1
+    },
+    {
+      "id": "ios-fd8cbe2cec8bd359",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "ใ***",
+      "text_th": "บัค. เกมเด้งออกเองบ่อยมากกกก",
+      "text_vn": "Game tự văng ra rất thường xuyên.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": "P2",
+      "needs_review": false,
+      "rating": 4
+    }
+  ]
+}

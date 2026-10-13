@@ -6,13 +6,11 @@ Dashboard web tĩnh để tổng hợp tiếng nói người chơi Play Together
 
 ```bash
 npm ci
-npm run generate:mock
-npm test
-npm run validate
+npm run check
 npm run serve
 ```
 
-Mở `http://127.0.0.1:4173`. Dữ liệu đi kèm được gắn nhãn mock rõ ràng, chỉ dùng để kiểm thử giao diện.
+Mở `http://127.0.0.1:4173`.
 
 ## Cấu trúc dữ liệu
 
@@ -23,9 +21,16 @@ Mở `http://127.0.0.1:4173`. Dữ liệu đi kèm được gắn nhãn mock rõ
 
 Không ghi đè file ngày cũ trừ khi chủ động chạy lại đúng ngày đó. Không đưa service account, token, file `.p8` hoặc export chứa dữ liệu cá nhân vào Git.
 
-## Dữ liệu thật
+## Nhập dữ liệu Sensor Tower
 
-Phiên bản hiện tại là chế độ mock. Trước khi chạy production cần bổ sung collector đã được cấp quyền cho Google Play Developer API, App Store Connect, Meta Graph API và nguồn CS/export. Các collector phải chỉ đọc, tiếp tục khi một nguồn lỗi, ghi lỗi vào `data_health`, khử trùng lặp, lọc noise và loại bỏ PII trước khi ghi file public.
+File export iOS Thailand dạng UTF-16/TSV có thể nhập bằng:
+
+```bash
+node scripts/import-sensortower-ios.mjs "/path/to/Review iOS TH.csv"
+npm run check
+```
+
+Importer hiện xử lý các review năm 2026, che tên tác giả, loại PII/noise, phân loại chủ đề và cập nhật index production. Không commit file CSV gốc vì có thể chứa dữ liệu cá nhân. Google Play, Facebook group, fanpage và nguồn CS cần collector hoặc export riêng; nguồn chưa có phải được ghi rõ trong `data_health`.
 
 ## Public bằng GitHub Pages
 

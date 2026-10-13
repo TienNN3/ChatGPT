@@ -1,0 +1,111 @@
+{
+  "date": "2026-03-20",
+  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "data_mode": "production",
+  "metrics": {
+    "volume": 1,
+    "noise": 0,
+    "by_source": {
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 1,
+      "Negative": 0,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Other": 1
+    },
+    "by_segment": {
+      "unknown": 1
+    },
+    "nss": 0,
+    "nss_d1": 0,
+    "nss_7d_avg": 0,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": 4,
+      "star_1": 0,
+      "star_5": 0
+    }
+  },
+  "alerts": [],
+  "report": {
+    "overview": "Có 1 review iOS và NSS 0. Dữ liệu mỏng. NSS D-1 là 0. NSS trung bình 7 ngày là 0.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower iOS TH: đã nhập 1 review đã che tên cho ngày này.",
+      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
+      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+    ]
+  },
+  "items": [
+    {
+      "id": "ios-59b4bf00de344e50",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "อ***",
+      "text_th": "โค้ด. อยากให้มีโค้ดไหม",
+      "text_vn": "Người chơi mong game có mã quà tặng.",
+      "sentiment": "Neutral",
+      "confidence": 0.86,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": false,
+      "rating": 4
+    }
+  ]
+}

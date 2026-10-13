@@ -1,0 +1,113 @@
+{
+  "date": "2026-03-25",
+  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "data_mode": "production",
+  "metrics": {
+    "volume": 1,
+    "noise": 0,
+    "by_source": {
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 0,
+      "Mixed": 1
+    },
+    "by_topic": {
+      "Gacha / Shop / Pricing": 1
+    },
+    "by_segment": {
+      "payer": 1
+    },
+    "nss": 0,
+    "nss_d1": null,
+    "nss_7d_avg": 0,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": 5,
+      "star_1": 0,
+      "star_5": 1
+    }
+  },
+  "alerts": [],
+  "report": {
+    "overview": "Có 1 review iOS và NSS 0. Dữ liệu mỏng. Chưa có dữ liệu D-1. NSS trung bình 7 ngày là 0.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Có 1 phản hồi thuộc nhóm payer.",
+        "links": [
+          "https://apps.apple.com/th/app/id1402384531"
+        ]
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower iOS TH: đã nhập 1 review đã che tên cho ngày này.",
+      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
+      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+    ]
+  },
+  "items": [
+    {
+      "id": "ios-edc761c8ca0116be",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "a***",
+      "text_th": "More info please. Love the Daily Special Prices events. But could you please add more info about the items? Sometimes it&#39;s hard to tell if an item is for home decor or if it&#39;s wearable. Also, for the draws, I can&#39;t always remember what&#39;s inside. A preview feature or a small description would be super helpful!!!",
+      "text_vn": "Thích sự kiện giá đặc biệt hằng ngày nhưng mong có mô tả và bản xem trước để phân biệt đồ trang trí, đồ mặc và vật phẩm trong lượt quay.",
+      "sentiment": "Mixed",
+      "confidence": 0.86,
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "payer",
+      "severity": null,
+      "needs_review": false,
+      "rating": 5
+    }
+  ]
+}

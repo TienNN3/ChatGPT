@@ -1,0 +1,113 @@
+{
+  "date": "2026-01-09",
+  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "data_mode": "production",
+  "metrics": {
+    "volume": 1,
+    "noise": 0,
+    "by_source": {
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 0,
+      "Mixed": 1
+    },
+    "by_topic": {
+      "Gacha / Shop / Pricing": 1
+    },
+    "by_segment": {
+      "payer": 1
+    },
+    "nss": 0,
+    "nss_d1": -33.3,
+    "nss_7d_avg": -33.3,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": 3,
+      "star_1": 0,
+      "star_5": 0
+    }
+  },
+  "alerts": [],
+  "report": {
+    "overview": "Có 1 review iOS và NSS 0. Dữ liệu mỏng. NSS D-1 là -33.3. NSS trung bình 7 ngày là -33.3.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Có 1 phản hồi thuộc nhóm payer.",
+        "links": [
+          "https://apps.apple.com/th/app/id1402384531"
+        ]
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower iOS TH: đã nhập 1 review đã che tên cho ngày này.",
+      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
+      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+    ]
+  },
+  "items": [
+    {
+      "id": "ios-1cc4e551b163391d",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "f***",
+      "text_th": "เรื่องสวนที่ควรแก้อย่างเร่งด่วน. 1.การแต่งเฟอร์นิเจอร์ภายในสวนควรเพิ่มให้มากกว่านี้ จำกัดจำนวนแค่ 80 ชิ้นมันน้อยมากๆ สิ่งที่สำคัญและจำเป็นอย่างมากที่ควรรีบแก้ไข และควรมีเฟอร์นิเจอร์ให้สุ่มหลากหลายกว่านี้ ควรเพิ่มเฟอนิเจอร์เข้ามาใหม่บ้าง \n2.จำนวนการลงเมล็ดที่สามารถเพาะปลูกก็ควรเพิ่ม 200 มันไม่ได้เยอะอะไรเลย ถ้าเทียบกับผักที่เข้ามาใหม่ตลอด\n\nขอเสนอแนะ\nถ้าในอนาคตมีฟังชั่นล็อคพืชพันธุ์ไม่ให้ติดสถาะได้ก็คงจะดี",
+      "text_vn": "Mong tăng giới hạn 80 đồ nội thất trong vườn, tăng giới hạn 200 ô trồng và thêm đồ mới. Người chơi cũng đề xuất khóa trạng thái cây trồng.",
+      "sentiment": "Mixed",
+      "confidence": 0.86,
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "payer",
+      "severity": null,
+      "needs_review": false,
+      "rating": 3
+    }
+  ]
+}

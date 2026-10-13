@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-14",
+  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "data_mode": "production",
+  "metrics": {
+    "volume": 2,
+    "noise": 0,
+    "by_source": {
+      "App Store": 2
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 2,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Other": 1,
+      "Social / Scam / Harassment / Toxic": 1
+    },
+    "by_segment": {
+      "payer": 1,
+      "unknown": 1
+    },
+    "nss": -100,
+    "nss_d1": null,
+    "nss_7d_avg": -100,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": 3,
+      "star_1": 1,
+      "star_5": 1
+    }
+  },
+  "alerts": [],
+  "report": {
+    "overview": "Có 2 review iOS và NSS -100. Dữ liệu mỏng. Chưa có dữ liệu D-1. NSS trung bình 7 ngày là -100.",
+    "bright_spots": [],
+    "pain_points": [
+      {
+        "issue": "Quảng cáo gây gián đoạn",
+        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
+        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "โฆษณาทูเกตเตอร์. เกมกากๆ เอาโฆษณากากๆ มาให้ดู ให้หงุดหงิด ให้เติมตลอดก็ไม่ไหวหรอก",
+            "text_vn": "Quảng cáo gây khó chịu và game tạo cảm giác liên tục thúc ép nạp tiền.",
+            "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      },
+      {
+        "issue": "Tương tác xã hội tiêu cực",
+        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
+        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P3",
+        "quotes": [
+          {
+            "text_th": "ฉันไม่ชอบคนนี้ I don’t like him. I hate the guy name yawaga he was so annoying",
+            "text_vn": "Người chơi không thích một người chơi tên Yawaga vì hành vi gây phiền.",
+            "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Có 1 phản hồi thuộc nhóm payer.",
+        "links": [
+          "https://apps.apple.com/th/app/id1402384531"
+        ]
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower iOS TH: đã nhập 2 review đã che tên cho ngày này.",
+      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
+      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+    ]
+  },
+  "items": [
+    {
+      "id": "ios-8d72d6d02b28bda7",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "ผ***",
+      "text_th": "โฆษณาทูเกตเตอร์. เกมกากๆ เอาโฆษณากากๆ มาให้ดู ให้หงุดหงิด ให้เติมตลอดก็ไม่ไหวหรอก",
+      "text_vn": "Quảng cáo gây khó chịu và game tạo cảm giác liên tục thúc ép nạp tiền.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Quảng cáo gây gián đoạn",
+      "segment": "payer",
+      "severity": "P2",
+      "needs_review": false,
+      "rating": 1
+    },
+    {
+      "id": "ios-0fb2f0d80005e017",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1402384531",
+      "author_masked": "T***",
+      "text_th": "ฉันไม่ชอบคนนี้ I don’t like him. I hate the guy name yawaga he was so annoying",
+      "text_vn": "Người chơi không thích một người chơi tên Yawaga vì hành vi gây phiền.",
+      "sentiment": "Negative",
+      "confidence": 0.86,
+      "topic": "Social / Scam / Harassment / Toxic",
+      "topic_secondary": [],
+      "theme": "Tương tác xã hội tiêu cực",
+      "segment": "unknown",
+      "severity": "P3",
+      "needs_review": false,
+      "rating": 5
+    }
+  ]
+}

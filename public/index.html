@@ -133,9 +133,10 @@
       try {
         state.index=await fetchJson('data/index.json');
         const dates=[...state.index.dates].sort(); if(!dates.length) throw new Error('index.json không có ngày dữ liệu');
-        $('#dayPicker').min=dates[0]; $('#dayPicker').max=dates.at(-1); $('#dayPicker').value=dates.at(-1);
+        const initialDate=state.index.latest_with_data&&dates.includes(state.index.latest_with_data)?state.index.latest_with_data:dates.at(-1);
+        $('#dayPicker').min=dates[0]; $('#dayPicker').max=dates.at(-1); $('#dayPicker').value=initialDate;
         $('#fromDate').min=dates[0]; $('#fromDate').max=dates.at(-1); $('#toDate').min=dates[0]; $('#toDate').max=dates.at(-1);
-        $('#fromDate').value=dates[Math.max(0,dates.length-7)]; $('#toDate').value=dates.at(-1);
+        const initialIndex=dates.indexOf(initialDate); $('#fromDate').value=dates[Math.max(0,initialIndex-6)]; $('#toDate').value=initialDate;
         $('#updated').textContent=`Cập nhật lần cuối: ${new Date(state.index.last_updated).toLocaleString('vi-VN')}`;
         $('#mockBanner').style.display=state.index.data_mode==='mock'?'block':'none';
         await apply();
@@ -185,7 +186,7 @@
     function exportCsv(){filterItems();const keys=['date','source','sentiment','topic','theme','text_th','text_vn','link'];const quote=v=>`"${String(v??'').replaceAll('"','""')}"`;const csv=[keys.join(','),...state.filtered.map(i=>keys.map(k=>quote(i[k])).join(','))].join('\n');const blob=new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`ptg-sentiment-${selectedDates()[0]||'export'}-${selectedDates().at(-1)||''}.csv`;a.click();URL.revokeObjectURL(url);}
     document.querySelectorAll('[data-mode]').forEach(button=>button.onclick=async()=>{state.mode=button.dataset.mode;document.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b===button));document.querySelectorAll('.day-only').forEach(x=>x.style.display=state.mode==='day'?'grid':'none');document.querySelectorAll('.range-only').forEach(x=>x.style.display=state.mode==='range'?(x.classList.contains('presets')?'flex':'grid'):'none');await apply()});
     $('#dayPicker').onchange=apply; $('#applyRange').onclick=apply;
-    document.querySelectorAll('[data-days]').forEach(button=>button.onclick=()=>{const end=state.index.dates.at(-1);$('#toDate').value=end;$('#fromDate').value=button.dataset.days==='month'?`${end.slice(0,7)}-01`:dateAdd(end,-Number(button.dataset.days)+1)});
+    document.querySelectorAll('[data-days]').forEach(button=>button.onclick=()=>{const end=state.index.latest_with_data||state.index.dates.at(-1);$('#toDate').value=end;$('#fromDate').value=button.dataset.days==='month'?`${end.slice(0,7)}-01`:dateAdd(end,-Number(button.dataset.days)+1)});
     document.querySelectorAll('.filters select,.filters input').forEach(el=>el.addEventListener(el.type==='search'?'input':'change',()=>{state.page=1;renderFeedback()}));
     $('#prevPage').onclick=()=>{state.page--;renderFeedback()};$('#nextPage').onclick=()=>{state.page++;renderFeedback()};$('#exportCsv').onclick=exportCsv;
     $('#themeToggle').onclick=()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';localStorage.setItem('ptg-theme',dark?'dark':'light');renderCharts()};document.documentElement.dataset.theme=localStorage.getItem('ptg-theme')||'light';
