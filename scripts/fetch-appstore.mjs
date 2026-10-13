@@ -10,8 +10,9 @@ const searchUrl = "https://itunes.apple.com/search?term=Play%20Together&country=
 const searchResponse = await fetch(searchUrl);
 if (!searchResponse.ok) throw new Error(`App Store search failed: HTTP ${searchResponse.status}`);
 const search = await searchResponse.json();
-const app = search.results.find((item) => item.bundleId === "com.haegin.playtogether")
-  || search.results.find((item) => /play together/i.test(item.trackName || "") && /haegin/i.test(item.sellerName || ""));
+const app = search.results.find((item) => /play together/i.test(item.trackName || "") && /vng/i.test(`${item.sellerName || ""} ${item.artistName || ""}`))
+  || search.results.find((item) => item.bundleId === "com.haegin.playtogether")
+  || search.results.find((item) => /play together/i.test(item.trackName || ""));
 if (!app?.trackId) throw new Error("Could not resolve Play Together App Store ID");
 
 const rssUrl = `https://itunes.apple.com/th/rss/customerreviews/id=${app.trackId}/sortBy=mostRecent/json`;
