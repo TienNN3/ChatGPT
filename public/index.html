@@ -11,165 +11,271 @@
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;600&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" referrerpolicy="no-referrer"></script>
   <style>
-    :root { color-scheme:light; --bg:#f2f6fc; --surface:#fff; --surface-2:#f3f6fb; --surface-3:#e9f0fb; --text:#14213d; --muted:#64718a; --line:#dbe4f0; --brand:#2257d8; --brand-2:#f04456; --brand-soft:#eaf0ff; --positive:#11966a; --negative:#e8495c; --neutral:#8190a8; --mixed:#e59a2f; --shadow:0 12px 35px rgba(29,57,104,.08),0 2px 8px rgba(29,57,104,.04); --shadow-hover:0 18px 44px rgba(29,57,104,.12),0 3px 10px rgba(29,57,104,.06); }
-    [data-theme="dark"] { color-scheme:dark; --bg:#0e1420; --surface:#182131; --surface-2:#202c3e; --surface-3:#28364b; --text:#eef4ff; --muted:#a5b2c8; --line:#304059; --brand:#79a2ff; --brand-2:#ff7b88; --brand-soft:#202e49; --shadow:0 16px 40px rgba(0,0,0,.24); --shadow-hover:0 20px 48px rgba(0,0,0,.32); }
+    :root { color-scheme:light; --bg:#f2f6fc; --surface:#fff; --surface-2:#f3f6fb; --surface-3:#e9f0fb; --text:#14213d; --muted:#64718a; --line:#dbe4f0; --brand:#2257d8; --brand-soft:#eaf0ff; --positive:#11966a; --negative:#e8495c; --neutral:#8d9ab0; --mixed:#e59a2f; --positive-soft:#e3f6ee; --negative-soft:#fdeaec; --mixed-soft:#fdf2e1; --shadow:0 12px 35px rgba(29,57,104,.08),0 2px 8px rgba(29,57,104,.04); }
+    [data-theme="dark"] { color-scheme:dark; --bg:#0e1420; --surface:#182131; --surface-2:#202c3e; --surface-3:#28364b; --text:#eef4ff; --muted:#a5b2c8; --line:#304059; --brand:#79a2ff; --brand-soft:#202e49; --positive:#34c08d; --negative:#ff6b7c; --neutral:#7d8aa1; --mixed:#f0ae4c; --positive-soft:#173a30; --negative-soft:#43222a; --mixed-soft:#3e3120; --shadow:0 16px 40px rgba(0,0,0,.24); }
     * { box-sizing:border-box; }
-    body { margin:0; background:radial-gradient(circle at 8% 0%,rgba(34,87,216,.10),transparent 28rem),radial-gradient(circle at 95% 8%,rgba(240,68,86,.08),transparent 24rem),var(--bg); color:var(--text); font-family:"Be Vietnam Pro",sans-serif; font-size:14px; }
+    html { overflow-x:hidden; }
+    body { margin:0; background:radial-gradient(circle at 8% 0%,rgba(34,87,216,.10),transparent 28rem),radial-gradient(circle at 95% 8%,rgba(240,68,86,.08),transparent 24rem),var(--bg); color:var(--text); font-family:"Be Vietnam Pro",sans-serif; font-size:14px; line-height:1.5; }
     button,input,select { font:inherit; }
     button { cursor:pointer; }
     a { color:var(--brand); }
-    .shell { max-width:1480px; margin:auto; padding:24px 28px 42px; }
-    header.hero { position:relative; overflow:hidden; display:flex; justify-content:space-between; align-items:center; gap:24px; margin-bottom:18px; padding:22px 26px; border:1px solid rgba(255,255,255,.75); border-radius:26px; background:linear-gradient(120deg,rgba(255,255,255,.96),rgba(245,249,255,.90)); box-shadow:var(--shadow); }
-    header.hero::after { content:""; position:absolute; width:300px; height:300px; right:-125px; top:-170px; border:34px solid rgba(34,87,216,.08); border-radius:50%; box-shadow:0 0 0 28px rgba(240,68,86,.05); pointer-events:none; }
-    [data-theme="dark"] header.hero { border-color:var(--line); background:linear-gradient(120deg,rgba(24,33,49,.98),rgba(30,44,67,.94)); }
-    .brand-lockup { position:relative; z-index:1; display:flex; align-items:center; gap:18px; min-width:0; }
-    .brand-logo { width:104px; height:104px; flex:0 0 104px; padding:4px; border-radius:50%; background:linear-gradient(145deg,#fff,#dfe9fa); box-shadow:0 10px 28px rgba(25,55,106,.18),0 0 0 5px rgba(255,255,255,.65); overflow:hidden; }
+    .shell { max-width:1400px; margin:auto; padding:24px 28px 42px; }
+    header.hero { position:relative; overflow:hidden; display:flex; justify-content:space-between; align-items:center; gap:24px; margin-bottom:16px; padding:18px 24px; border:1px solid var(--line); border-radius:24px; background:var(--surface); box-shadow:var(--shadow); }
+    .brand-lockup { display:flex; align-items:center; gap:16px; min-width:0; }
+    .brand-logo { width:84px; height:84px; flex:0 0 84px; padding:3px; border-radius:50%; background:linear-gradient(145deg,#fff,#dfe9fa); box-shadow:0 8px 22px rgba(25,55,106,.16); overflow:hidden; }
     .brand-logo img { display:block; width:100%; height:100%; object-fit:cover; border-radius:50%; }
     .hero-copy { min-width:0; }
-    .hero-subtitle { margin:3px 0 8px; color:var(--muted); font-size:13px; }
+    .hero-subtitle { margin:2px 0 4px; color:var(--muted); font-size:13px; }
     h1,h2,h3,p { margin-top:0; }
-    h1 { margin-bottom:2px; font-size:clamp(25px,4vw,40px); letter-spacing:-.045em; line-height:1.08; }
-    h2 { font-size:18px; margin-bottom:16px; letter-spacing:-.02em; }
-    h3 { font-size:15px; margin-bottom:8px; }
+    h1 { margin-bottom:0; font-size:clamp(22px,3.4vw,34px); letter-spacing:-.04em; line-height:1.1; }
+    h2 { font-size:17px; margin-bottom:4px; letter-spacing:-.015em; }
+    h3 { font-size:14px; margin-bottom:6px; }
     .eyebrow { color:var(--brand); text-transform:uppercase; letter-spacing:.14em; font-weight:700; font-size:11px; }
     .muted { color:var(--muted); }
-    .header-actions { position:relative; z-index:1; display:flex; align-items:center; gap:10px; }
-    .badge,.pill { display:inline-flex; align-items:center; padding:6px 10px; border-radius:999px; font-weight:600; font-size:12px; }
-    .badge { color:#fff; background:linear-gradient(135deg,var(--negative),#ff6b75); box-shadow:0 7px 18px rgba(232,73,92,.22); }
+    .small { font-size:12px; }
+    .header-actions { display:flex; align-items:center; gap:10px; flex-shrink:0; }
+    .badge { display:inline-flex; align-items:center; padding:6px 10px; border-radius:999px; font-weight:600; font-size:12px; color:#fff; background:var(--negative); border:0; }
     .mock-banner { display:none; background:#fff3d6; border:1px solid #f2cf7d; color:#614608; border-radius:12px; padding:10px 14px; margin-bottom:16px; }
     [data-theme="dark"] .mock-banner { background:#372d18; color:#ffe9ad; border-color:#765c25; }
-    .card { background:color-mix(in srgb,var(--surface) 96%,transparent); border:1px solid color-mix(in srgb,var(--line) 86%,transparent); border-radius:22px; box-shadow:var(--shadow); padding:22px; }
-    .controls { display:grid; grid-template-columns:auto 1fr auto; align-items:end; gap:18px; margin-bottom:14px; background:linear-gradient(115deg,var(--surface),color-mix(in srgb,var(--brand-soft) 44%,var(--surface))); }
+    .card { background:var(--surface); border:1px solid var(--line); border-radius:20px; box-shadow:var(--shadow); padding:20px; min-width:0; }
+    .card-head { margin-bottom:14px; }
+    .card-head p { margin:0; font-size:12px; color:var(--muted); }
+    .controls { display:flex; flex-wrap:wrap; align-items:end; justify-content:space-between; gap:14px; margin-bottom:12px; padding:16px 20px; }
+    .control-left { display:flex; flex-wrap:wrap; align-items:end; gap:12px; }
     .control-fields { display:flex; align-items:end; flex-wrap:wrap; gap:10px; }
-    .segmented { display:flex; padding:4px; background:var(--surface-3); border:1px solid var(--line); border-radius:14px; }
-    .segmented button { border:0; background:transparent; color:var(--muted); border-radius:10px; padding:9px 14px; transition:.18s ease; }
-    .segmented button.active { background:var(--surface); color:var(--brand); box-shadow:0 4px 12px rgba(29,57,104,.10); font-weight:600; }
-    label { color:var(--muted); font-size:12px; display:grid; gap:5px; }
-    input,select { min-height:40px; border:1px solid var(--line); border-radius:12px; background:var(--surface); color:var(--text); padding:8px 11px; outline:none; transition:border-color .18s,box-shadow .18s; }
+    .segmented { display:flex; padding:4px; background:var(--surface-3); border:1px solid var(--line); border-radius:12px; }
+    .segmented button { border:0; background:transparent; color:var(--muted); border-radius:9px; padding:8px 12px; }
+    .segmented button.active { background:var(--surface); color:var(--brand); box-shadow:0 3px 10px rgba(29,57,104,.10); font-weight:600; }
+    label { color:var(--muted); font-size:12px; display:grid; gap:4px; }
+    input,select { min-height:40px; border:1px solid var(--line); border-radius:10px; background:var(--surface); color:var(--text); padding:7px 10px; outline:none; min-width:0; }
     input:focus,select:focus { border-color:var(--brand); box-shadow:0 0 0 3px color-mix(in srgb,var(--brand) 16%,transparent); }
-    .btn { border:1px solid var(--line); border-radius:12px; background:var(--surface); color:var(--text); padding:10px 14px; transition:transform .16s,box-shadow .16s,border-color .16s; }
-    .btn:hover { transform:translateY(-1px); border-color:color-mix(in srgb,var(--brand) 42%,var(--line)); box-shadow:0 6px 15px rgba(29,57,104,.09); }
-    .btn.primary { border-color:var(--brand); color:#fff; background:linear-gradient(135deg,var(--brand),#4779eb); box-shadow:0 8px 18px rgba(34,87,216,.20); }
-    .presets { display:flex; flex-wrap:wrap; gap:6px; justify-content:flex-end; }
+    .btn { border:1px solid var(--line); border-radius:10px; background:var(--surface); color:var(--text); padding:9px 13px; transition:border-color .15s,box-shadow .15s; }
+    .btn:hover { border-color:color-mix(in srgb,var(--brand) 45%,var(--line)); }
+    .btn:disabled { opacity:.45; cursor:default; }
+    .btn.primary,.preset.active { border-color:var(--brand); color:#fff; background:var(--brand); }
+    [data-theme="dark"] .btn.primary,[data-theme="dark"] .preset.active { color:#0e1420; }
+    .presets { display:flex; flex-wrap:wrap; gap:6px; }
     .preset { border-radius:999px; }
-    .preset.active { border-color:var(--brand); color:#fff; background:linear-gradient(135deg,var(--brand),#4779eb); box-shadow:0 7px 16px rgba(34,87,216,.18); }
     .day-only { display:none; }
     .range-only { display:grid; }
-    .period-bar { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:18px; padding:10px 14px; border-radius:14px; background:color-mix(in srgb,var(--brand-soft) 65%,transparent); border:1px solid color-mix(in srgb,var(--brand) 14%,var(--line)); }
-    .period-title { font-weight:700; color:var(--brand); }
+    .period-bar { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:6px 12px; margin-bottom:16px; padding:0 4px; }
+    .period-title { font-weight:700; font-size:15px; }
     .scope-note { color:var(--muted); font-size:12px; }
-    .kpis { display:grid; grid-template-columns:repeat(6,minmax(140px,1fr)); gap:14px; margin-bottom:18px; }
-    .kpi { position:relative; overflow:hidden; background:var(--surface); border:1px solid var(--line); border-radius:19px; padding:18px; box-shadow:0 8px 24px rgba(29,57,104,.055); transition:transform .18s,box-shadow .18s; }
-    .kpi::before { content:""; position:absolute; inset:0 auto 0 0; width:4px; background:var(--brand); }
-    .kpi:nth-child(3)::before { background:var(--positive); }.kpi:nth-child(4)::before { background:var(--negative); }.kpi:nth-child(6)::before { background:var(--mixed); }
-    .kpi:hover { transform:translateY(-2px); box-shadow:var(--shadow-hover); }
-    .kpi .value { display:block; font-size:25px; font-weight:700; margin:9px 0 3px; letter-spacing:-.035em; }
-    .kpi .delta { font-size:11px; color:var(--muted); }
-    .insight-card { min-height:170px; background:linear-gradient(155deg,var(--surface),color-mix(in srgb,var(--surface-2) 52%,var(--surface))); }
-    .insight-card .big { font-size:24px; font-weight:700; display:block; margin-bottom:8px; }
-    .insight-list { display:grid; gap:8px; }
-    .insight-line { display:flex; justify-content:space-between; gap:12px; padding-bottom:7px; border-bottom:1px solid var(--line); }
-    .grid { display:grid; grid-template-columns:repeat(12,1fr); gap:18px; margin-bottom:20px; }
-    .span-3 { grid-column:span 3; } .span-4 { grid-column:span 4; } .span-6 { grid-column:span 6; } .span-8 { grid-column:span 8; } .span-12 { grid-column:span 12; }
-    .chart-wrap { height:285px; }
-    .chart-heading { display:flex; justify-content:space-between; align-items:flex-start; gap:14px; margin-bottom:8px; }
-    .chart-heading h2 { margin-bottom:4px; }
-    .chart-heading p { margin-bottom:0; font-size:12px; }
-    .source-table,.feedback-table { width:100%; border-collapse:collapse; }
-    th,td { text-align:left; border-bottom:1px solid var(--line); padding:10px 8px; vertical-align:top; }
-    th { color:var(--muted); background:var(--surface-2); font-size:11px; text-transform:uppercase; letter-spacing:.05em; }
-    tbody tr { transition:background .15s; } tbody tr:hover { background:color-mix(in srgb,var(--brand-soft) 42%,transparent); }
-    .scroll { overflow:auto; }
-    .theme-list { display:grid; gap:8px; }
-    .theme-row { display:grid; grid-template-columns:minmax(130px,1.2fr) 2fr 55px; align-items:center; gap:10px; border:0; width:100%; text-align:left; color:var(--text); background:transparent; padding:7px 0; }
-    .theme-bar { display:flex; height:9px; border-radius:8px; overflow:hidden; background:var(--surface-2); }
-    .theme-bar span { min-width:2px; }
-    .positive { background:var(--positive); } .negative { background:var(--negative); } .neutral { background:var(--neutral); } .mixed { background:var(--mixed); }
-    .report-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
-    .report-block { background:linear-gradient(145deg,var(--surface-2),color-mix(in srgb,var(--brand-soft) 38%,var(--surface-2))); border:1px solid color-mix(in srgb,var(--line) 78%,transparent); border-radius:17px; padding:17px; }
-    .report-block ul { margin:8px 0 0; padding-left:20px; }
-    .report-block p:last-child { margin-bottom:0; }
-    .report-block .metric { display:block; font-size:22px; font-weight:700; margin:4px 0 8px; }
-    .supporting { font-size:12px; color:var(--muted); }
-    .quote { border-left:3px solid var(--brand); padding-left:11px; margin:9px 0; }
+    .grid { display:grid; grid-template-columns:repeat(12,minmax(0,1fr)); gap:16px; margin-bottom:16px; }
+    .span-4 { grid-column:span 4; } .span-5 { grid-column:span 5; } .span-7 { grid-column:span 7; } .span-8 { grid-column:span 8; } .span-12 { grid-column:span 12; }
+    /* Summary */
+    .summary { margin-bottom:16px; }
+    .summary-top { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(0,1fr); gap:20px; align-items:start; }
+    .headline { font-size:13px; color:var(--muted); margin-bottom:6px; }
+    .summary-list { margin:0; padding-left:18px; display:grid; gap:6px; }
+    .summary-list li::marker { color:var(--brand); }
+    .kpis { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+    .kpi { background:var(--surface-2); border:1px solid var(--line); border-radius:14px; padding:12px 14px; min-width:0; }
+    .kpi.wide { grid-column:span 2; }
+    .kpi .label { color:var(--muted); font-size:12px; }
+    .kpi .value { display:block; font-size:24px; font-weight:700; letter-spacing:-.03em; line-height:1.25; margin:2px 0; }
+    .kpi .value.text { font-size:19px; }
+    .kpi .sub { font-size:12px; color:var(--muted); }
+    .kpi.positive .value { color:var(--positive); } .kpi.negative .value { color:var(--negative); }
+    .up { color:var(--negative); } .down { color:var(--positive); }
+    .kpi.positive .up { color:var(--positive); } .kpi.positive .down { color:var(--negative); }
+    .sent-bar { display:flex; height:10px; border-radius:6px; overflow:hidden; background:var(--surface-3); margin:8px 0 6px; }
+    .sent-bar span { display:block; height:100%; }
+    .legend { display:flex; flex-wrap:wrap; gap:4px 12px; font-size:12px; color:var(--muted); }
+    .dot { display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:5px; vertical-align:middle; }
+    .positive-bg { background:var(--positive); } .negative-bg { background:var(--negative); } .neutral-bg { background:var(--neutral); } .mixed-bg { background:var(--mixed); }
+    .rating-pair { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:4px; }
+    .rating-pair strong { display:block; font-size:22px; letter-spacing:-.03em; }
+    /* Voice of player */
+    .voice-card { border-top:4px solid var(--brand); }
+    .voice-card.like { border-top-color:var(--positive); } .voice-card.dislike { border-top-color:var(--negative); } .voice-card.action { border-top-color:var(--mixed); }
+    .theme-item { border-bottom:1px solid var(--line); padding:11px 0; }
+    .theme-item:last-child { border-bottom:0; padding-bottom:0; }
+    .theme-item:first-child { padding-top:0; }
+    .theme-title { display:flex; justify-content:space-between; align-items:baseline; gap:10px; width:100%; padding:0; border:0; background:none; color:var(--text); text-align:left; font-weight:600; }
+    .theme-title:hover span:first-child { color:var(--brand); text-decoration:underline; }
+    .theme-count { white-space:nowrap; font-size:12px; color:var(--muted); font-weight:500; }
+    .theme-count strong { color:var(--text); font-size:14px; }
+    .quote { margin:6px 0 0; padding:7px 10px; border-radius:10px; background:var(--surface-2); font-size:13px; }
+    .like .quote { background:var(--positive-soft); } .dislike .quote { background:var(--negative-soft); }
+    .quote .thai { display:block; font-size:12px; color:var(--muted); margin-top:3px; overflow-wrap:anywhere; }
+    .quote a { font-size:12px; }
+    .action-item { display:grid; grid-template-columns:auto minmax(0,1fr); gap:10px; padding:10px 0; border-bottom:1px solid var(--line); }
+    .action-item:last-child { border-bottom:0; padding-bottom:0; }
+    .action-item:first-child { padding-top:0; }
+    .level { display:inline-block; min-width:30px; text-align:center; border-radius:7px; padding:2px 6px; font-size:11px; font-weight:700; color:#fff; background:var(--mixed); height:fit-content; }
+    .level.P0 { background:var(--negative); } .level.info { background:var(--neutral); }
+    .action-item p { margin:2px 0 0; font-size:13px; }
+    .empty-note { color:var(--muted); font-size:13px; padding:6px 0; }
+    /* Charts & tables */
+    .chart-wrap { position:relative; height:280px; }
+    .bar-list { display:grid; gap:4px; }
+    .bar-row { display:grid; grid-template-columns:minmax(0,1.7fr) minmax(0,1.3fr) 64px; align-items:center; gap:10px; width:100%; padding:7px 6px; border:0; border-radius:8px; background:transparent; color:var(--text); text-align:left; }
+    .bar-row:hover { background:var(--surface-2); }
+    .bar-row .name { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .bar-track { display:flex; height:9px; border-radius:6px; overflow:hidden; background:var(--surface-3); }
+    .bar-row .num { text-align:right; font-weight:600; white-space:nowrap; }
+    .bar-row .num small { color:var(--muted); font-weight:400; }
+    table { width:100%; border-collapse:collapse; }
+    th,td { text-align:left; border-bottom:1px solid var(--line); padding:9px 8px; vertical-align:top; }
+    th { color:var(--muted); background:var(--surface-2); font-size:11px; text-transform:uppercase; letter-spacing:.04em; font-weight:600; }
+    td.num,th.num { text-align:right; white-space:nowrap; }
+    tbody tr:hover { background:color-mix(in srgb,var(--brand-soft) 45%,transparent); }
+    .link-btn { padding:0; border:0; background:none; color:var(--brand); text-align:left; }
+    .link-btn:hover { text-decoration:underline; }
+    .scroll { overflow-x:auto; }
+    details.more { margin-top:14px; border-top:1px solid var(--line); padding-top:12px; }
+    details.more summary { cursor:pointer; color:var(--brand); font-weight:600; font-size:13px; }
+    details.more[open] summary { margin-bottom:10px; }
     .thai { font-family:"Noto Sans Thai",sans-serif; }
-    .filters { display:grid; grid-template-columns:repeat(4,minmax(130px,1fr)); gap:10px; margin-bottom:14px; }
-    .filters .search { grid-column:span 2; }
-    .sentiment-tag { border-radius:999px; padding:4px 7px; font-size:11px; color:#fff; white-space:nowrap; }
-    .sentiment-tag.Positive { background:var(--positive); } .sentiment-tag.Negative { background:var(--negative); } .sentiment-tag.Neutral { background:var(--neutral); } .sentiment-tag.Mixed { background:var(--mixed); }
-    .pagination { display:flex; justify-content:space-between; align-items:center; gap:10px; margin-top:14px; }
-    .explorer-tools { display:flex; justify-content:space-between; gap:16px; align-items:flex-start; flex-wrap:wrap; }
-    .checkline { display:flex; align-items:center; gap:7px; color:var(--muted); font-size:12px; }
+    /* Explorer */
+    .explorer-tools { display:flex; justify-content:space-between; gap:12px 16px; align-items:flex-start; flex-wrap:wrap; margin-bottom:12px; }
+    .filters { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)) minmax(0,2fr); gap:10px; margin-bottom:12px; }
+    .checkline { display:flex; align-items:center; gap:7px; color:var(--muted); font-size:12px; margin-top:6px; }
     .checkline input { min-height:auto; }
+    .active-filters { display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin-bottom:10px; font-size:12px; color:var(--muted); }
+    .sentiment-tag { display:inline-block; border-radius:999px; padding:3px 8px; font-size:11px; color:#fff; white-space:nowrap; }
+    .sentiment-tag.Positive { background:var(--positive); } .sentiment-tag.Negative { background:var(--negative); } .sentiment-tag.Neutral { background:var(--neutral); } .sentiment-tag.Mixed { background:var(--mixed); }
+    .feedback-table { min-width:1080px; }
+    .feedback-table td.text { width:30%; }
+    .feedback-table td.thai { width:24%; overflow-wrap:anywhere; font-size:13px; }
+    .feedback-table td.meta { min-width:140px; }
+    .feedback-table td.nowrap,.feedback-table th { white-space:nowrap; }
+    .pagination { display:flex; justify-content:space-between; align-items:center; gap:10px; margin-top:12px; }
+    .notes { margin-top:16px; }
+    .notes ul { margin:8px 0 0; padding-left:18px; color:var(--muted); font-size:12px; display:grid; gap:4px; }
     .loading { opacity:.55; pointer-events:none; }
-    dialog { width:min(680px,calc(100% - 30px)); max-height:80vh; overflow:auto; background:var(--surface); color:var(--text); border:1px solid var(--line); border-radius:18px; padding:22px; }
-    dialog::backdrop { background:rgba(5,8,15,.66); }
+    dialog { width:min(720px,calc(100% - 24px)); max-height:82vh; overflow:auto; background:var(--surface); color:var(--text); border:1px solid var(--line); border-radius:18px; padding:20px; }
+    dialog::backdrop { background:rgba(5,8,15,.6); }
     .close { float:right; }
-    .empty { padding:30px; text-align:center; color:var(--muted); }
-    .error { border-color:var(--negative); color:var(--negative); }
-    details { border-top:1px solid var(--line); padding:12px 0; } summary { cursor:pointer; }
-    @media(max-width:980px) { .controls{grid-template-columns:1fr}.presets{justify-content:flex-start}.kpis{grid-template-columns:repeat(2,1fr)} .span-3,.span-4,.span-6,.span-8{grid-column:span 12} .filters{grid-template-columns:repeat(2,1fr)} }
-    @media(max-width:600px) { .shell{padding:12px 12px 30px}header.hero{padding:16px;border-radius:21px;align-items:flex-start}.brand-lockup{gap:12px}.brand-logo{width:72px;height:72px;flex-basis:72px;padding:3px}.hero-subtitle{display:none}.header-actions{margin-top:2px;flex-direction:column;align-items:flex-end}.badge{font-size:10px;padding:5px 8px}.kpis{grid-template-columns:1fr}.report-grid,.filters{grid-template-columns:1fr}.filters .search{grid-column:span 1}.card{padding:16px;border-radius:19px}.chart-wrap{height:240px}.feedback-table{min-width:920px}.control-fields{align-items:stretch}.control-fields label{width:100%}.control-fields input{width:100%}.period-bar{align-items:flex-start}.period-title,.scope-note{width:100%} }
+    .empty { padding:24px; text-align:center; color:var(--muted); }
+    .error { border-color:var(--negative); color:var(--negative); margin-top:16px; }
+    @media(max-width:1100px) { .span-4,.span-5,.span-7,.span-8 { grid-column:span 12; } .summary-top { grid-template-columns:1fr; } .voice-row > .span-4 { grid-column:span 6; } .voice-row > .action { grid-column:span 12; } }
+    @media(max-width:760px) {
+      .shell { padding:12px 12px 30px; }
+      header.hero { padding:14px; border-radius:18px; align-items:flex-start; }
+      .brand-logo { width:60px; height:60px; flex-basis:60px; }
+      .hero-subtitle,.eyebrow { display:none; }
+      h1 { font-size:21px; }
+      .presets { order:-1; }
+      header.hero { flex-wrap:wrap; gap:10px; }
+      .header-actions { width:100%; justify-content:space-between; }
+      .responsive-table td[data-empty] { display:none; }
+      .badge { font-size:11px; padding:4px 8px; }
+      .card { padding:15px; border-radius:16px; }
+      .controls,.control-left,.control-fields { display:grid; grid-template-columns:1fr; width:100%; }
+      .control-fields .range-only { display:grid; }
+      .voice-row > .span-4 { grid-column:span 12; }
+      .kpis { grid-template-columns:1fr 1fr; }
+      .kpi .value { font-size:21px; }
+      .chart-wrap { height:240px; }
+      .filters { grid-template-columns:1fr 1fr; }
+      .filters .search { grid-column:span 2; }
+      .bar-row { grid-template-columns:minmax(0,1fr) 70px 58px; }
+      .responsive-table thead { display:none; }
+      .feedback-table { min-width:0; }
+      .responsive-table td.text,.responsive-table td.thai { width:auto; }
+      .responsive-table tr { display:block; border-bottom:1px solid var(--line); padding:10px 0; }
+      .responsive-table td { display:grid; grid-template-columns:96px minmax(0,1fr); gap:8px; border:0; padding:3px 0; min-width:0 !important; text-align:left !important; }
+      .responsive-table td::before { content:attr(data-label); color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.03em; }
+      .responsive-table td.empty { display:block; }
+      .responsive-table td.empty::before { content:none; }
+    }
   </style>
 </head>
 <body>
   <main class="shell">
     <header class="hero">
-      <div class="brand-lockup"><div class="brand-logo"><img src="assets/vnggames-th-badge.png" alt="VNGGames Thailand Community"></div><div class="hero-copy"><div class="eyebrow">Thailand Community Intelligence</div><h1>PTG TH Player Feedback</h1><p class="hero-subtitle">Theo dõi phản hồi, chủ đề và hoạt động của cộng đồng người chơi Thái Lan</p><div id="updated" class="muted">Đang tải dữ liệu...</div></div></div>
-      <div class="header-actions"><span id="alertBadge" class="badge" hidden></span><button id="themeToggle" class="btn" aria-label="Đổi giao diện">◐</button></div>
+      <div class="brand-lockup"><div class="brand-logo"><img src="assets/vnggames-th-badge.png" alt="VNGGames Thailand Community"></div><div class="hero-copy"><div class="eyebrow">Thailand Community Intelligence</div><h1>PTG TH Player Feedback</h1><p class="hero-subtitle">Phản hồi của người chơi Play Together Thái Lan từ Facebook Group, comment fanpage và store</p><div id="updated" class="muted small">Đang tải dữ liệu...</div></div></div>
+      <div class="header-actions"><button id="themeToggle" class="btn" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối">◐</button><button id="alertBadge" class="badge" hidden></button></div>
     </header>
     <div id="mockBanner" class="mock-banner"><strong>Dữ liệu demo.</strong> Các số liệu và quote hiện tại là dữ liệu mock tổng hợp, không phải tiếng nói người chơi thật.</div>
-    <section class="card controls" aria-label="Bộ lọc thời gian">
-      <div class="segmented"><button data-mode="day">Một ngày</button><button data-mode="range" class="active">Khoảng ngày</button></div>
-      <div class="control-fields">
-        <label class="day-only">Ngày cần xem<input id="dayPicker" type="date"></label>
-        <label class="range-only">Từ ngày<input id="fromDate" type="date"></label>
-        <label class="range-only">Đến ngày<input id="toDate" type="date"></label>
-        <button id="applyRange" class="btn primary range-only">Xem khoảng ngày</button>
+
+    <section class="card controls" aria-label="Chọn kỳ xem">
+      <div class="control-left">
+        <div class="segmented"><button data-mode="day">Một ngày</button><button data-mode="range" class="active">Khoảng ngày</button></div>
+        <div class="control-fields">
+          <label class="day-only">Ngày cần xem<input id="dayPicker" type="date"></label>
+          <label class="range-only">Từ ngày<input id="fromDate" type="date"></label>
+          <label class="range-only">Đến ngày<input id="toDate" type="date"></label>
+          <button id="applyRange" class="btn primary range-only">Xem</button>
+        </div>
       </div>
       <div class="presets" aria-label="Chọn nhanh"><button class="btn preset" data-days="yesterday">Hôm qua</button><button class="btn preset active" data-days="7">7 ngày gần nhất</button><button class="btn preset" data-days="30">30 ngày gần nhất</button><button class="btn preset" data-days="month">Tháng này</button></div>
     </section>
     <div class="period-bar"><span id="periodLabel" class="period-title"></span><span id="scopeNote" class="scope-note"></span></div>
-    <section id="kpis" class="kpis"></section>
-    <section id="briefing" class="grid"></section>
-    <section id="insights" class="grid"></section>
-    <section class="grid">
-      <article class="card span-6"><div class="chart-heading"><div><h2>Diễn biến cảm xúc theo ngày</h2><p id="trendCaption" class="muted"></p></div></div><div class="chart-wrap"><canvas id="sentimentChart"></canvas></div></article>
-      <article class="card span-6"><div class="chart-heading"><div><h2>Phản hồi theo nguồn</h2><p id="sourceChartCaption" class="muted"></p></div></div><div class="chart-wrap"><canvas id="volumeChart"></canvas></div></article>
-      <article class="card span-6"><div class="chart-heading"><div><h2>Chủ đề tích cực và tiêu cực</h2><p class="muted">Chỉ sử dụng phản hồi thuộc kỳ đang chọn</p></div></div><div class="chart-wrap"><canvas id="topicChart"></canvas></div></article>
-      <article class="card span-6"><div class="chart-heading"><div><h2>Điểm đánh giá trên store</h2><p id="ratingCaption" class="muted"></p></div></div><div class="chart-wrap"><canvas id="ratingChart"></canvas></div></article>
-      <article class="card span-12"><h2>Chi tiết số lượng theo ngày và nguồn</h2><p class="muted">Bảng này chỉ tính nội dung xác định được ngày đăng trong kỳ đã chọn.</p><div class="scroll"><table class="source-table"><thead><tr><th>Ngày</th><th>Cộng đồng / nguồn</th><th>Tổng</th><th>Tích cực</th><th>Tiêu cực</th><th>Trung tính</th><th>Đan xen</th></tr></thead><tbody id="sourceRows"></tbody></table></div></article>
-    </section>
-    <section class="grid">
-      <article class="card span-4"><h2>Chủ đề được thảo luận nhiều</h2><div id="themeList" class="theme-list"></div></article>
-      <article class="card span-8"><h2>Tóm tắt và điểm cần chú ý theo ngày</h2><div id="report"></div></article>
-    </section>
-    <section class="card">
-      <div class="explorer-tools"><div><h2>Danh sách phản hồi</h2><p class="muted">Mới nhất trước · Bản dịch tiếng Việt được đặt trước nguyên văn</p><label class="checkline"><input id="includeUndated" type="checkbox"> Hiển thị cả nội dung chưa xác định được ngày đăng trong đợt thu thập thuộc kỳ này (<span id="undatedCount">0</span>)</label></div><button id="exportCsv" class="btn">Tải CSV</button></div>
-      <div class="filters">
-        <label>Cộng đồng / nguồn<select id="sourceFilter"></select></label><label>Cảm xúc<select id="sentimentFilter"></select></label><label>Hoạt động<select id="activityFilter"></select></label><label>Chủ đề<select id="themeFilter"></select></label><label class="search">Tìm nội dung<input id="keywordFilter" type="search" placeholder="Tìm trong tiếng Việt hoặc nguyên văn"></label>
+
+    <!-- 1. Tóm tắt: chuyện gì đang xảy ra -->
+    <section class="card summary">
+      <div class="card-head"><h2 id="summaryTitle">Nhận định cho kỳ</h2><p>Toàn bộ số liệu dưới đây được tính lại theo đúng kỳ đang chọn và so với kỳ liền trước có cùng số ngày.</p></div>
+      <div class="summary-top">
+        <div><div class="headline">Tóm tắt nhanh</div><ul id="summaryList" class="summary-list"></ul></div>
+        <div id="kpis" class="kpis"></div>
       </div>
-      <div class="scroll"><table class="feedback-table"><thead><tr><th>Ngày</th><th>Cộng đồng</th><th>Cảm xúc</th><th>Bản dịch tiếng Việt</th><th>Nguyên văn</th><th>Hoạt động</th><th>Chủ đề</th><th>Tương tác</th><th>Nguồn</th></tr></thead><tbody id="feedbackRows"></tbody></table></div>
-      <div class="pagination"><span id="pageInfo" class="muted"></span><div><button id="prevPage" class="btn">Trước</button> <button id="nextPage" class="btn">Sau</button></div></div>
     </section>
+
+    <!-- 2. Người chơi thích gì, không thích gì, cần xử lý gì -->
+    <section class="grid voice-row">
+      <article class="card span-4 voice-card like"><div class="card-head"><h2>Người chơi thích gì</h2><p>Chủ đề tích cực nhiều nhất · bấm tên chủ đề để đọc toàn bộ</p></div><div id="likeList"></div></article>
+      <article class="card span-4 voice-card dislike"><div class="card-head"><h2>Người chơi chưa hài lòng</h2><p>Chủ đề tiêu cực nhiều nhất · bấm tên chủ đề để đọc toàn bộ</p></div><div id="dislikeList"></div></article>
+      <article class="card span-4 voice-card action"><div class="card-head"><h2>Cần xử lý</h2><p>Cảnh báo P0/P1 và chủ đề tiêu cực đang tăng</p></div><div id="actionList"></div></article>
+    </section>
+
+    <!-- 3. Xu hướng -->
+    <section class="grid">
+      <article class="card span-8"><div class="card-head"><h2>Diễn biến cảm xúc theo ngày</h2><p id="trendCaption"></p></div><div class="chart-wrap"><canvas id="sentimentChart" aria-label="Biểu đồ số phản hồi theo cảm xúc mỗi ngày"></canvas></div></article>
+      <article class="card span-4"><div class="card-head"><h2>Điểm đánh giá trên store</h2><p id="ratingCaption"></p></div><div class="chart-wrap"><canvas id="ratingChart" aria-label="Biểu đồ điểm đánh giá Google Play và App Store"></canvas></div></article>
+    </section>
+
+    <!-- 4. Cộng đồng và nguồn -->
+    <section class="grid">
+      <article class="card span-5"><div class="card-head"><h2>Hoạt động cộng đồng</h2><p>Người chơi đang làm gì: thảo luận, bình luận, khoe, rao bán… · bấm để lọc danh sách</p></div><div id="activityList" class="bar-list"></div><div class="legend" style="margin-top:10px"><span><i class="dot positive-bg"></i>Tích cực</span><span><i class="dot negative-bg"></i>Tiêu cực</span><span><i class="dot mixed-bg"></i>Đan xen</span><span><i class="dot neutral-bg"></i>Trung tính</span></div></article>
+      <article class="card span-7"><div class="card-head"><h2>Phản hồi theo nguồn</h2><p>Mỗi group, fanpage và store đóng góp bao nhiêu phản hồi · bấm tên nguồn để lọc danh sách</p></div>
+        <div class="scroll"><table class="responsive-table"><thead><tr><th>Nguồn</th><th class="num">Phản hồi</th><th class="num">Tích cực</th><th class="num">Tiêu cực</th><th>Chủ đề nhiều nhất</th></tr></thead><tbody id="sourceSummary"></tbody></table></div>
+        <details class="more"><summary>Chi tiết số lượng theo ngày và nguồn</summary><p class="muted small">Chỉ tính nội dung xác định được ngày đăng trong kỳ đã chọn.</p><div class="scroll"><table class="responsive-table"><thead><tr><th>Ngày</th><th>Nguồn</th><th class="num">Tổng</th><th class="num">Tích cực</th><th class="num">Tiêu cực</th><th class="num">Trung tính</th><th class="num">Đan xen</th></tr></thead><tbody id="sourceRows"></tbody></table></div></details>
+      </article>
+    </section>
+
+    <!-- 5. Đọc phản hồi gốc -->
+    <section id="explorer" class="card">
+      <div class="explorer-tools"><div><h2>Danh sách phản hồi</h2><p class="muted small" style="margin:0">Mới nhất trước · Bản dịch tiếng Việt được đặt trước nguyên văn</p><label class="checkline"><input id="includeUndated" type="checkbox"> Hiển thị cả <span id="undatedCount">0</span> nội dung chưa rõ ngày đăng (thu thập trong kỳ này, không tính vào số liệu)</label></div><button id="exportCsv" class="btn">Tải CSV</button></div>
+      <div class="filters">
+        <label>Nguồn<select id="sourceFilter"></select></label><label>Cảm xúc<select id="sentimentFilter"></select></label><label>Hoạt động<select id="activityFilter"></select></label><label>Chủ đề<select id="themeFilter"></select></label><label class="search">Tìm nội dung<input id="keywordFilter" type="search" placeholder="Tìm trong bản dịch hoặc nguyên văn"></label>
+      </div>
+      <div id="activeFilters" class="active-filters" hidden></div>
+      <div class="scroll"><table class="feedback-table responsive-table"><thead><tr><th>Thời gian</th><th>Nguồn</th><th>Cảm xúc</th><th>Bản dịch tiếng Việt</th><th>Nguyên văn</th><th>Hoạt động / chủ đề</th><th>Tương tác</th><th>Link</th></tr></thead><tbody id="feedbackRows"></tbody></table></div>
+      <div class="pagination"><span id="pageInfo" class="muted small"></span><div><button id="prevPage" class="btn">Trước</button> <button id="nextPage" class="btn">Sau</button></div></div>
+    </section>
+
+    <section class="card notes"><h3>Ghi chú về dữ liệu</h3><ul id="dataNotes"></ul></section>
   </main>
   <dialog id="themeDialog"><button class="btn close" onclick="this.closest('dialog').close()">Đóng</button><div id="themeDetail"></div></dialog>
   <script>
   (() => {
     const $ = (selector) => document.querySelector(selector);
-    const state = { mode:'range', index:null, briefing:null, selected:[], context:[], previous:[], charts:{}, page:1, filtered:[] };
-    const colors = { Positive:'#159a68', Negative:'#e24a5a', Neutral:'#8190a8', Mixed:'#e49a2f' };
-    const sourceColors = ['#645cff','#a64cff','#159a68','#e49a2f','#2f80ed','#e24a5a','#8190a8'];
+    const state = { mode:'range', index:null, briefing:null, selected:[], context:[], previous:[], ratingDays:[], charts:{}, page:1, filtered:[] };
+    const cache = new Map();
+    const SENTIMENTS = ['Positive','Negative','Mixed','Neutral'];
+    const GENERIC_THEME = 'Góp ý trải nghiệm chung';
+    const STORES = ['Google Play','App Store'];
     const fmt = new Intl.NumberFormat('vi-VN');
     const esc = (value='') => String(value).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    const avg = values => { const clean=values.filter(Number.isFinite); return clean.length ? clean.reduce((a,b)=>a+b,0)/clean.length : null; };
-    const pct = (value,total) => total ? `${Math.round(value/total*100)}%` : '0%';
-    const options = values => '<option value="">Tất cả</option>'+[...new Set(values.filter(Boolean))].sort().map(v=>`<option>${esc(v)}</option>`).join('');
+    const pctNum = (value,total) => total ? Math.round(value/total*100) : 0;
+    const pct = (value,total) => `${pctNum(value,total)}%`;
+    const cssVar = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
     const timelineItems = day => (day.items||[]).filter(i=>i.date_basis!=='observed_at');
     const sentimentLabel = value => ({Positive:'Tích cực',Negative:'Tiêu cực',Neutral:'Trung tính',Mixed:'Đan xen'}[value]||value);
+    const isStore = item => STORES.includes(item.source);
     const contentKindLabel = value => ({post:'Bài đăng',comment:'Bình luận',review:'Đánh giá store'}[value]||value||'Phản hồi');
+    const kindLabel = item => isStore(item) ? 'Đánh giá store' : contentKindLabel(item.content_kind);
+    const activityLabel = item => item.activity_type || kindLabel(item);
     const channelName = item => item.community||item.source||'Chưa xác định';
+    const sourceLabel = name => String(name).replace(/^Facebook Group · /,'Group ').replace(/^Facebook Fanpage · /,'Fanpage ');
+    // Bài rao bán/trao đổi vẫn được đếm đầy đủ nhưng không phải ý kiến về game, nên không dùng để xếp hạng "thích / chưa hài lòng".
+    const isOpinion = item => item.activity_type!=='Rao bán / trao đổi';
+    const themeLabel = name => name===GENERIC_THEME ? 'Ý kiến chung (chưa rõ chủ đề)' : name;
     const countBy = (items,keyFn) => Object.entries(items.reduce((acc,item)=>{const key=keyFn(item)||'Chưa phân loại';acc[key]=(acc[key]||0)+1;return acc},{})).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));
+    const bySentiment = items => Object.fromEntries(SENTIMENTS.map(s=>[s,items.filter(i=>i.sentiment===s).length]));
     const rawSelectedItems = () => state.selected.flatMap(day=>(day.items||[]).map(item=>({...item,date:day.date})));
     const selectedItems = () => rawSelectedItems().filter(i=>i.date_basis!=='observed_at');
     const previousItems = () => state.previous.flatMap(day=>timelineItems(day).map(item=>({...item,date:day.date})));
@@ -178,21 +284,31 @@
     function dateAdd(value,days){const d=new Date(`${value}T00:00:00Z`);d.setUTCDate(d.getUTCDate()+days);return d.toISOString().slice(0,10)}
     function calendarDates(start,end){const dates=[];for(let day=start;day<=end;day=dateAdd(day,1))dates.push(day);return dates}
     function dateLabel(value){return new Date(`${value}T00:00:00Z`).toLocaleDateString('vi-VN',{day:'2-digit',month:'2-digit',year:'numeric',timeZone:'UTC'})}
+    function shortDate(value){return `${value.slice(8,10)}/${value.slice(5,7)}`}
     function periodLabel(){const dates=selectedDates();if(!dates.length)return'Kỳ chưa có dữ liệu';return dates.length===1?dateLabel(dates[0]):`${dateLabel(dates[0])} – ${dateLabel(dates.at(-1))}`}
+    function periodName(){const n=state.selected.length,active=document.querySelector('.preset.active')?.dataset.days;if(active==='yesterday')return'Hôm qua';if(active==='7')return'7 ngày qua';if(active==='30')return'30 ngày qua';if(active==='month')return'Tháng này';return n===1?`Ngày ${dateLabel(selectedDates()[0])}`:`${n} ngày đã chọn`}
+    // Nhãn xu hướng chung, dùng ngôn ngữ trực tiếp thay cho chỉ số tổng hợp.
     function moodFor(items){
       if(!items.length)return'Chưa đủ dữ liệu';
-      const pos=items.filter(i=>i.sentiment==='Positive').length,neg=items.filter(i=>i.sentiment==='Negative').length,neutral=items.filter(i=>['Neutral','Mixed'].includes(i.sentiment)).length;
-      const gap=Math.max(2,Math.ceil(items.length*.08));
-      if(pos-neg>=gap)return'Nghiêng tích cực';
-      if(neg-pos>=gap)return'Nghiêng tiêu cực';
-      return neutral/items.length>=.5?'Chủ yếu trung tính':'Cảm xúc cân bằng';
+      const s=bySentiment(items),gap=Math.max(2,Math.ceil(items.length*.08));
+      if(s.Neutral/items.length>=.5)return'Chủ yếu trung tính';
+      if(s.Positive-s.Negative>=gap)return'Chủ yếu tích cực';
+      if(s.Negative-s.Positive>=gap)return'Chủ yếu tiêu cực';
+      return'Tích cực và tiêu cực ngang nhau';
     }
-    function itemTime(item){const label=String(item.published_label||'').replaceAll('\u202f',' '),relative=label.match(/^(?:(a|an)|(\d+))\s+(minute|hour|day)s?\s+ago$/i),base=Date.parse(item.collected_at||'');if(relative&&Number.isFinite(base)){const count=relative[1]?1:Number(relative[2]),unit={minute:60000,hour:3600000,day:86400000}[relative[3].toLowerCase()];return base-count*unit}const parsed=Date.parse(label);return Number.isFinite(parsed)?parsed:Date.parse(`${item.date}T00:00:00Z`)}
+    function itemTime(item){const label=String(item.published_label||'').replaceAll(' ',' '),relative=label.match(/^(?:(a|an)|(\d+))\s+(minute|hour|day)s?\s+ago$/i),base=Date.parse(item.collected_at||'');if(relative&&Number.isFinite(base)){const count=relative[1]?1:Number(relative[2]),unit={minute:60000,hour:3600000,day:86400000}[relative[3].toLowerCase()];return base-count*unit}const parsed=Date.parse(label);return Number.isFinite(parsed)?parsed:Date.parse(`${item.date}T00:00:00Z`)}
+    function engagementScore(item){const reactions=(item.engagement?.reactions||[]).reduce((sum,value)=>sum+(Number(String(value).match(/(\d+)/)?.[1])||0),0);return reactions+(item.engagement?.comment_count||0)*2}
+    // Ưu tiên câu có nội dung, nhiều tương tác và mới hơn để làm trích dẫn đại diện.
+    function bestQuote(items){return [...items].filter(i=>i.text_vn&&!/^\[/.test(i.text_vn)).sort((a,b)=>engagementScore(b)-engagementScore(a)||itemTime(b)-itemTime(a))[0]}
+    function rankThemes(items){return countBy(items,i=>i.theme).sort((a,b)=>(a[0]===GENERIC_THEME)-(b[0]===GENERIC_THEME)||b[1]-a[1])}
     function aggregateRating(day,platform){const rows=(day.ratings||[]).filter(r=>r.platform===platform&&Number.isFinite(r.total_avg_rating)&&Number.isFinite(r.total_rating_count));const count=rows.reduce((sum,r)=>sum+r.total_rating_count,0);return count?rows.reduce((sum,r)=>sum+r.total_avg_rating*r.total_rating_count,0)/count:null}
-    function latestRating(platform){for(const day of [...state.context].reverse()){const value=aggregateRating(day,platform);if(value!==null)return value}return null}
-    function changeText(current,previous){if(!previous)return current?'Kỳ trước không ghi nhận phản hồi':'Không thay đổi so với kỳ trước';const delta=Math.round((current-previous)/previous*100);return`${delta>0?'Tăng':delta<0?'Giảm':'Không đổi'} ${Math.abs(delta)}% so với kỳ trước`}
+    function latestRating(platform){for(const day of [...state.ratingDays].reverse()){const value=aggregateRating(day,platform);if(value!==null)return{value,date:day.date}}return null}
+    // Kỳ trước quá ít dữ liệu thì so sánh bằng số tuyệt đối để tránh phần trăm gây hiểu nhầm.
+    function changeText(current,previous){if(!previous)return current?'Kỳ trước không ghi nhận phản hồi':'Không thay đổi so với kỳ trước';if(previous<10)return current===previous?'Không đổi so với kỳ trước':`${current>previous?'Tăng':'Giảm'} từ ${previous} phản hồi ở kỳ trước`;const delta=Math.round((current-previous)/previous*100);return`${delta>0?'Tăng':delta<0?'Giảm':'Không đổi'} ${Math.abs(delta)}% so với kỳ trước`}
+    function diffBadge(current,previous){const d=current-previous;if(!d)return'<span class="muted">không đổi so với kỳ trước</span>';return`<span class="${d>0?'up':'down'}">${d>0?'▲':'▼'} ${Math.abs(d)}</span> <span class="muted">so với kỳ trước (${previous})</span>`}
     async function fetchJson(path){const response=await fetch(path,{cache:'no-store'});if(!response.ok)throw new Error(`${path}: HTTP ${response.status}`);return response.json()}
-    async function loadDates(dates){const available=new Set(state.index.dates);return Promise.all(dates.map(async date=>available.has(date)?fetchJson(`data/daily/${date}.json`):{date,items:[],ratings:[],alerts:[]}))}
+    function fetchDay(date){if(!cache.has(date))cache.set(date,fetchJson(`data/daily/${date}.json`).catch(error=>{cache.delete(date);throw error}));return cache.get(date)}
+    async function loadDates(dates){const available=new Set(state.index.dates);return Promise.all(dates.map(async date=>available.has(date)?fetchDay(date):{date,items:[],ratings:[],alerts:[]}))}
 
     function setMode(mode){
       state.mode=mode;
@@ -203,6 +319,8 @@
     function chosenDays(){return state.mode==='day'?[$('#dayPicker').value]:calendarDates($('#fromDate').value,$('#toDate').value)}
     function contextDays(){const chosen=chosenDays();return chosen.length===1?calendarDates(dateAdd(chosen[0],-29),chosen[0]):chosen}
     function previousDays(current){return calendarDates(dateAdd(current[0],-current.length),dateAdd(current[0],-1))}
+    // Điểm store được cập nhật theo tuần nên luôn nhìn lại 90 ngày tính đến cuối kỳ.
+    function ratingWindow(current){return calendarDates(dateAdd(current.at(-1),-89),current.at(-1))}
     function validateSelection(){
       if(state.mode==='day'&&!$('#dayPicker').value)throw new Error('Vui lòng chọn ngày cần xem.');
       if(state.mode==='range'){
@@ -216,13 +334,13 @@
       try{
         validateSelection();document.querySelector('main').classList.add('loading');
         const current=chosenDays(),context=contextDays(),previous=previousDays(current);
-        [state.selected,state.context,state.previous]=await Promise.all([loadDates(current),loadDates(context),loadDates(previous)]);
+        [state.selected,state.context,state.previous,state.ratingDays]=await Promise.all([loadDates(current),loadDates(context),loadDates(previous),loadDates(ratingWindow(current))]);
         resetExplorer();render();
       }catch(error){alert(error.message)}finally{document.querySelector('main').classList.remove('loading')}
     }
     async function init(){
       try{
-        [state.index,state.briefing]=await Promise.all([fetchJson('data/index.json'),fetchJson('data/facebook-insights.json')]);
+        [state.index,state.briefing]=await Promise.all([fetchJson('data/index.json'),fetchJson('data/facebook-insights.json').catch(()=>null)]);
         const dates=[...state.index.dates].sort();if(!dates.length)throw new Error('index.json không có ngày dữ liệu');
         const latest=state.index.latest_with_data&&dates.includes(state.index.latest_with_data)?state.index.latest_with_data:dates.at(-1);
         const initialDate=dateAdd(latest,-1)>=dates[0]?dateAdd(latest,-1):latest,initialStart=dateAdd(latest,-6)>=dates[0]?dateAdd(latest,-6):dates[0];
@@ -232,91 +350,131 @@
         $('#updated').textContent=`Cập nhật lần cuối: ${new Date(state.index.last_updated).toLocaleString('vi-VN')}`;
         $('#mockBanner').style.display=state.index.data_mode==='mock'?'block':'none';
         await apply();
-      }catch(error){document.querySelector('main').innerHTML+=`<section class="card error"><strong>Không thể tải dữ liệu.</strong><br>${esc(error.message)}</section>`}
+      }catch(error){document.querySelector('main').insertAdjacentHTML('beforeend',`<section class="card error"><strong>Không thể tải dữ liệu.</strong><br>${esc(error.message)}</section>`)}
     }
 
     function render(){
-      const items=selectedItems(),raw=rawSelectedItems(),undated=raw.filter(i=>i.date_basis==='observed_at').length,alerts=state.selected.flatMap(d=>d.alerts||[]);
+      const items=selectedItems(),raw=rawSelectedItems(),undated=raw.length-items.length,alerts=state.selected.flatMap(d=>(d.alerts||[]).map(a=>({...a,date:d.date}))),previous=previousItems();
       $('#periodLabel').textContent=`Kỳ phân tích: ${periodLabel()}`;
       $('#scopeNote').textContent=`${fmt.format(items.length)} phản hồi có ngày đăng${undated?` · ${fmt.format(undated)} nội dung chưa rõ ngày được tách riêng`:''}`;
+      $('#summaryTitle').textContent=`Nhận định cho kỳ ${periodLabel()}`;
       $('#undatedCount').textContent=fmt.format(undated);
       $('#includeUndated').disabled=!undated;
-      renderKpis(items);renderBriefing(items,alerts);renderInsights(items,undated);renderCharts();renderSources();renderThemes(items);renderReport();setupFilters(items);renderFeedback();
+      renderSummary(items,previous,alerts,undated);renderKpis(items,previous);renderVoice(items,previous,alerts);renderCharts();renderActivities(items);renderSourceSummary(items);renderSources();renderNotes(items,undated);setupFilters(items);renderFeedback();
       $('#alertBadge').hidden=!alerts.length;$('#alertBadge').textContent=`${alerts.length} cảnh báo cần xem`;
     }
-    function renderKpis(items){
-      const positive=items.filter(i=>i.sentiment==='Positive').length,negative=items.filter(i=>i.sentiment==='Negative').length,previous=previousItems(),sources=new Set(items.map(channelName)).size;
-      const gp=latestRating('Google Play'),ios=latestRating('App Store'),ratings=[gp,ios].filter(Number.isFinite);
-      const cards=[
-        ['Phản hồi có ngày đăng',fmt.format(items.length),changeText(items.length,previous.length)],
-        ['Xu hướng cảm xúc',moodFor(items),`${pct(positive,items.length)} tích cực · ${pct(negative,items.length)} tiêu cực`],
-        ['Tích cực',fmt.format(positive),`${pct(positive,items.length)} tổng phản hồi`],
-        ['Tiêu cực',fmt.format(negative),`${pct(negative,items.length)} tổng phản hồi`],
-        ['Nguồn có phản hồi',fmt.format(sources),'Group, fanpage comment và store review'],
-        ['Điểm store gần nhất',ratings.length?avg(ratings).toFixed(2):'N/A',`Google Play ${gp===null?'N/A':gp.toFixed(2)} · iOS ${ios===null?'N/A':ios.toFixed(2)}`]
-      ];
-      $('#kpis').innerHTML=cards.map(([label,value,sub])=>`<article class="kpi"><span class="muted">${label}</span><span class="value">${value}</span><span class="delta">${sub}</span></article>`).join('');
+    function renderSummary(items,previous,alerts,undated){
+      const s=bySentiment(items),opinion=s.Positive+s.Negative+s.Mixed,topPos=rankThemes(items.filter(i=>i.sentiment==='Positive'&&isOpinion(i)))[0],topNeg=rankThemes(items.filter(i=>i.sentiment==='Negative'&&isOpinion(i)))[0],topActivity=countBy(items,activityLabel)[0],topSource=countBy(items,channelName)[0];
+      const lines=[];
+      if(!items.length){lines.push(`${periodName()} chưa ghi nhận phản hồi có ngày đăng.`);if(undated)lines.push(`Có ${fmt.format(undated)} nội dung chưa rõ ngày đăng được thu thập trong kỳ; xem ở danh sách phản hồi bên dưới.`)}
+      else{
+        lines.push(`${periodName()} có <strong>${fmt.format(items.length)}</strong> phản hồi, ${changeText(items.length,previous.length).toLocaleLowerCase('vi-VN')}${previous.length>=10?` (${fmt.format(previous.length)})`:''}.`);
+        const mood=moodFor(items);
+        lines.push(mood==='Chủ yếu trung tính'
+          ? `Xu hướng: <strong>chủ yếu trung tính</strong> (${pct(s.Neutral,items.length)} là trao đổi, hỏi đáp). Trong ${fmt.format(opinion)} ý kiến thể hiện rõ thái độ: ${fmt.format(s.Positive)} tích cực, ${fmt.format(s.Negative)} tiêu cực${s.Mixed?`, ${fmt.format(s.Mixed)} đan xen`:''}.`
+          : `Xu hướng: <strong>${mood.toLocaleLowerCase('vi-VN')}</strong> — ${pct(s.Positive,items.length)} tích cực, ${pct(s.Negative,items.length)} tiêu cực.`);
+        lines.push(topPos?`Người chơi phản hồi tốt nhất về <strong>${esc(themeLabel(topPos[0]))}</strong> (${topPos[1]} phản hồi).`:'Chưa có chủ đề tích cực nổi bật.');
+        lines.push(topNeg?`Điểm cần chú ý nhất: <strong>${esc(themeLabel(topNeg[0]))}</strong> (${topNeg[1]} phản hồi tiêu cực).`:'Không ghi nhận phản hồi tiêu cực.');
+        if(topActivity)lines.push(`Hoạt động nhiều nhất trong cộng đồng: <strong>${esc(topActivity[0])}</strong> (${topActivity[1]}); nguồn nhiều phản hồi nhất là ${esc(sourceLabel(topSource[0]))} (${topSource[1]}).`);
+      }
+      lines.push(alerts.length?`<span class="up">Có ${alerts.length} cảnh báo cần xử lý:</span> ${alerts.map(a=>`${esc(a.level||'')} ${esc(a.title)}`).join(', ')}.`:'Không có cảnh báo P0/P1 trong kỳ.');
+      $('#summaryList').innerHTML=lines.map(line=>`<li>${line}</li>`).join('');
     }
-    function renderBriefing(items,alerts){
-      const previous=previousItems(),positive=items.filter(i=>i.sentiment==='Positive'),negative=items.filter(i=>i.sentiment==='Negative');
-      const topPositive=countBy(positive,i=>i.theme).slice(0,3),topNegative=countBy(negative,i=>i.theme).slice(0,3),topActivities=countBy(items,i=>i.activity_type||contentKindLabel(i.content_kind)).slice(0,3);
-      const signal=state.briefing?.signals?.find(entry=>topNegative.some(([theme])=>(entry.themes||[]).includes(theme)));
-      const list=rows=>rows.length?`<ul>${rows.map(([name,count])=>`<li>${esc(name)}: <strong>${fmt.format(count)}</strong></li>`).join('')}</ul>`:'<p class="muted">Chưa ghi nhận nội dung nổi bật.</p>';
-      const alertText=alerts.length?`<ul>${alerts.map(a=>`<li><strong>${esc(a.level||'Cảnh báo')} · ${esc(a.title)}</strong>: ${esc(a.detail||'Cần kiểm tra thêm.')}</li>`).join('')}</ul>`:'<p>Không ghi nhận cảnh báo P0/P1 trong kỳ đã chọn.</p>';
-      $('#briefing').innerHTML=`<article class="card span-12"><h2>Nhận định cho kỳ ${esc(periodLabel())}</h2><p class="muted">Toàn bộ số liệu dưới đây được tính lại theo đúng kỳ đang chọn; kỳ trước có cùng số ngày và liền kề trước kỳ này.</p><div class="grid" style="margin-bottom:0">
-        <div class="report-block span-3"><h3>Diễn biến tổng thể</h3><span class="metric">${esc(moodFor(items))}</span><p>${fmt.format(items.length)} phản hồi, ${changeText(items.length,previous.length).toLocaleLowerCase('vi-VN')}.</p></div>
-        <div class="report-block span-3"><h3>Chủ đề tích cực</h3><span class="metric">${fmt.format(positive.length)}</span>${list(topPositive)}</div>
-        <div class="report-block span-3"><h3>Điểm cần chú ý</h3><span class="metric">${fmt.format(negative.length)}</span>${list(topNegative)}${signal?`<p class="supporting">Ngữ cảnh rà soát: ${esc(signal.context)}</p>`:''}</div>
-        <div class="report-block span-3"><h3>Cảnh báo và hành động</h3>${alertText}${!alerts.length&&topActivities.length?`<p class="supporting">Hoạt động nổi bật: ${esc(topActivities[0][0])} (${topActivities[0][1]}).</p>`:''}</div>
-      </div></article>`;
+    function renderKpis(items,previous){
+      const s=bySentiment(items),p=bySentiment(previous),gp=latestRating('Google Play'),ios=latestRating('App Store'),n=items.length;
+      const bar=SENTIMENTS.map(k=>`<span class="${k.toLowerCase()}-bg" style="width:${n?s[k]/n*100:0}%" title="${sentimentLabel(k)}: ${s[k]}"></span>`).join('');
+      const rating=r=>r?`<strong>${r.value.toFixed(2)}</strong><span class="sub">cập nhật ${shortDate(r.date)}</span>`:'<strong>–</strong><span class="sub">chưa có dữ liệu 90 ngày</span>';
+      $('#kpis').innerHTML=`
+        <article class="kpi"><span class="label">Tổng phản hồi</span><span class="value">${fmt.format(n)}</span><span class="sub">${changeText(n,previous.length)}</span></article>
+        <article class="kpi"><span class="label">Xu hướng chung</span><span class="value text">${esc(moodFor(items))}</span><span class="sub">${pct(s.Positive,n)} tích cực · ${pct(s.Negative,n)} tiêu cực</span></article>
+        <article class="kpi positive"><span class="label">Tích cực</span><span class="value">${fmt.format(s.Positive)}</span><span class="sub">${diffBadge(s.Positive,p.Positive)}</span></article>
+        <article class="kpi negative"><span class="label">Tiêu cực</span><span class="value">${fmt.format(s.Negative)}</span><span class="sub">${diffBadge(s.Negative,p.Negative)}</span></article>
+        <article class="kpi wide"><span class="label">Tỷ lệ cảm xúc</span><div class="sent-bar">${bar}</div><div class="legend">${SENTIMENTS.map(k=>`<span><i class="dot ${k.toLowerCase()}-bg"></i>${sentimentLabel(k)} ${s[k]} (${pct(s[k],n)})</span>`).join('')}</div></article>
+        <article class="kpi wide"><span class="label">Điểm store (tích lũy, gần nhất)</span><div class="rating-pair"><div><span class="sub">Google Play</span>${rating(gp)}</div><div><span class="sub">App Store</span>${rating(ios)}</div></div></article>`;
     }
-    function renderInsights(items,undated){
-      const activities=countBy(items,i=>i.activity_type||contentKindLabel(i.content_kind)).slice(0,5),themes=countBy(items,i=>i.theme).slice(0,5),sources=countBy(items,channelName).slice(0,5);
-      const reviewCount=items.filter(i=>i.needs_review).length,machine=items.filter(i=>i.translation_method==='machine_translation').length;
-      const lines=rows=>rows.length?rows.map(([name,count])=>`<div class="insight-line"><span>${esc(name)}</span><strong>${fmt.format(count)}</strong></div>`).join(''):'<span class="muted">Chưa có dữ liệu trong kỳ.</span>';
-      $('#insights').innerHTML=`
-        <article class="card span-3 insight-card"><h2>Hoạt động cộng đồng</h2><div class="insight-list">${lines(activities)}</div></article>
-        <article class="card span-3 insight-card"><h2>Chủ đề được nói nhiều</h2><div class="insight-list">${lines(themes)}</div></article>
-        <article class="card span-3 insight-card"><h2>Nguồn có nhiều phản hồi</h2><div class="insight-list">${lines(sources)}</div></article>
-        <article class="card span-3 insight-card"><h2>Chất lượng dữ liệu</h2><div class="insight-list"><div class="insight-line"><span>Cần rà soát thủ công</span><strong>${fmt.format(reviewCount)}</strong></div><div class="insight-line"><span>Bản dịch tự động</span><strong>${fmt.format(machine)}</strong></div><div class="insight-line"><span>Chưa rõ ngày đăng</span><strong>${fmt.format(undated)}</strong></div></div></article>`;
+    function themeBlock(items,previous,sentiment){
+      const subset=items.filter(i=>i.sentiment===sentiment&&isOpinion(i)),prev=previous.filter(i=>i.sentiment===sentiment&&isOpinion(i)),ranked=rankThemes(subset).slice(0,4);
+      if(!ranked.length)return`<p class="empty-note">${sentiment==='Positive'?'Chưa ghi nhận phản hồi tích cực trong kỳ.':'Không ghi nhận phản hồi tiêu cực trong kỳ.'}</p>`;
+      return ranked.map(([theme,count])=>{const rows=subset.filter(i=>i.theme===theme),q=bestQuote(rows),before=prev.filter(i=>i.theme===theme).length,trend=count>before?`<span class="${sentiment==='Negative'?'up':'down'}">▲${count-before}</span>`:count<before?`<span class="muted">▼${before-count}</span>`:'';
+        return`<div class="theme-item"><button class="theme-title" data-theme-name="${esc(theme)}" data-sentiment="${sentiment}"><span>${esc(themeLabel(theme))}</span><span class="theme-count"><strong>${count}</strong> phản hồi ${trend}</span></button>${q?`<div class="quote">“${esc(q.text_vn)}”<span class="thai">${esc(q.text_th)}</span><a href="${esc(q.link)}" target="_blank" rel="noopener">${esc(sourceLabel(channelName(q)))} · Mở nguồn ↗</a></div>`:''}</div>`}).join('');
     }
-    function chart(id,type,data,opts={}){if(state.charts[id])state.charts[id].destroy();if(!window.Chart){$(`#${id}`).parentElement.innerHTML='<div class="empty">Không tải được thư viện biểu đồ.</div>';return}state.charts[id]=new Chart($(`#${id}`),{type,data,options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{labels:{color:getComputedStyle(document.body).color}}},scales:{x:{ticks:{color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'}},y:{ticks:{color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'},beginAtZero:true}},...opts}})}
+    function renderVoice(items,previous,alerts){
+      $('#likeList').innerHTML=themeBlock(items,previous,'Positive');
+      $('#dislikeList').innerHTML=themeBlock(items,previous,'Negative');
+      const actions=alerts.map(a=>`<div class="action-item"><span class="level ${esc(a.level)}">${esc(a.level||'!')}</span><div><strong>${esc(a.title)}</strong> <span class="muted small">${esc(shortDate(a.date))}</span><p>${esc(a.detail||'Cần kiểm tra thêm.')}</p>${(a.links||[]).slice(0,3).map((link,i)=>`<a class="small" href="${esc(link)}" target="_blank" rel="noopener">Mở nguồn${a.links.length>1?` ${i+1}`:''} ↗</a>`).join(' · ')}</div></div>`);
+      const neg=items.filter(i=>i.sentiment==='Negative'&&isOpinion(i)),prevNeg=previous.filter(i=>i.sentiment==='Negative'&&isOpinion(i)),alertTitles=new Set(alerts.map(a=>a.title));
+      // Chủ đề tiêu cực tăng so với kỳ trước (bỏ qua chủ đề đã có cảnh báo và nhóm ý kiến chung).
+      rankThemes(neg).filter(([theme,count])=>theme!==GENERIC_THEME&&!alertTitles.has(theme)&&count>prevNeg.filter(i=>i.theme===theme).length).slice(0,3).forEach(([theme,count])=>{
+        const before=prevNeg.filter(i=>i.theme===theme).length,signal=state.briefing?.signals?.find(entry=>(entry.themes||[]).includes(theme));
+        actions.push(`<div class="action-item"><span class="level info">Theo dõi</span><div><button class="link-btn" data-theme-name="${esc(theme)}" data-sentiment="Negative"><strong>${esc(theme)}</strong></button> <span class="muted small">${count} tiêu cực, kỳ trước ${before}</span>${signal?.suggested_action?`<p>${esc(signal.suggested_action)}</p>`:''}</div></div>`);
+      });
+      $('#actionList').innerHTML=actions.join('')||'<p class="empty-note">Không có cảnh báo P0/P1 và không có chủ đề tiêu cực nào tăng so với kỳ trước.</p>';
+      document.querySelectorAll('[data-theme-name]').forEach(button=>button.onclick=()=>showTheme(button.dataset.themeName,button.dataset.sentiment));
+    }
+    function showTheme(name,sentiment){
+      const rows=selectedItems().filter(i=>i.theme===name&&(!sentiment||(i.sentiment===sentiment&&isOpinion(i)))).sort((a,b)=>itemTime(b)-itemTime(a));
+      $('#themeDetail').innerHTML=`<h2>${esc(themeLabel(name))}</h2><p class="muted">${rows.length} phản hồi ${sentiment?sentimentLabel(sentiment).toLocaleLowerCase('vi-VN'):''} · ${esc(periodLabel())}</p>`+rows.map(i=>`<div class="quote"><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span> <span class="muted small">${esc(dateLabel(i.date))} · ${esc(sourceLabel(channelName(i)))}</span><div style="margin-top:4px"><strong>${esc(i.text_vn)}</strong></div><span class="thai">Nguyên văn: ${esc(i.text_th)}</span><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn ↗</a></div>`).join('');
+      $('#themeDialog').showModal();
+    }
+    function chart(id,type,data,opts={}){
+      if(state.charts[id])state.charts[id].destroy();
+      if(!window.Chart){$(`#${id}`).parentElement.innerHTML='<div class="empty">Không tải được thư viện biểu đồ.</div>';return}
+      const text=cssVar('--muted'),grid='rgba(129,144,168,.15)';
+      state.charts[id]=new Chart($(`#${id}`),{type,data,options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{position:'bottom',labels:{color:text,boxWidth:12,boxHeight:12}}},scales:{x:{ticks:{color:text,maxRotation:0,autoSkipPadding:8},grid:{display:false}},y:{ticks:{color:text,precision:0},grid:{color:grid},beginAtZero:true}},...opts}});
+    }
     function renderCharts(){
-      const days=state.context,labels=days.map(d=>d.date.slice(5)),contextLabel=`${dateLabel(days[0].date)} – ${dateLabel(days.at(-1).date)}`;
-      $('#trendCaption').textContent=`Khung biểu đồ: ${contextLabel}${state.selected.length===1?' (30 ngày kết thúc tại ngày đang xem)':''}`;
-      $('#sourceChartCaption').textContent=`Số lượng theo ngày đăng · ${contextLabel}`;
-      $('#ratingCaption').textContent=`Lịch sử điểm tích lũy trong khung ${contextLabel}`;
-      chart('sentimentChart','bar',{labels,datasets:Object.keys(colors).map(s=>({label:sentimentLabel(s),data:days.map(d=>timelineItems(d).filter(i=>i.sentiment===s).length),backgroundColor:colors[s]}))},{scales:{x:{stacked:true,ticks:{color:'#8190a8'},grid:{display:false}},y:{stacked:true,beginAtZero:true,ticks:{color:'#8190a8',precision:0},grid:{color:'rgba(129,144,168,.12)'}}}});
-      const contextItems=days.flatMap(d=>timelineItems(d)),sources=countBy(contextItems,channelName).slice(0,7).map(([name])=>name);
-      chart('volumeChart','bar',{labels,datasets:sources.map((source,index)=>({label:source,data:days.map(d=>timelineItems(d).filter(i=>channelName(i)===source).length),backgroundColor:sourceColors[index%sourceColors.length]}))},{scales:{x:{stacked:true,ticks:{color:'#8190a8'},grid:{display:false}},y:{stacked:true,beginAtZero:true,ticks:{color:'#8190a8',precision:0},grid:{color:'rgba(129,144,168,.12)'}}}});
-      const items=selectedItems(),topics=countBy(items.filter(i=>['Positive','Negative'].includes(i.sentiment)),i=>i.theme).slice(0,10).map(([name])=>name);
-      chart('topicChart','bar',{labels:topics,datasets:[{label:'Tích cực',data:topics.map(t=>items.filter(i=>i.theme===t&&i.sentiment==='Positive').length),backgroundColor:colors.Positive},{label:'Tiêu cực',data:topics.map(t=>-items.filter(i=>i.theme===t&&i.sentiment==='Negative').length),backgroundColor:colors.Negative}]},{indexAxis:'y',scales:{x:{stacked:true,ticks:{color:'#8190a8',precision:0},grid:{color:'rgba(129,144,168,.12)'}},y:{stacked:true,ticks:{color:'#8190a8'},grid:{display:false}}}});
-      chart('ratingChart','line',{labels,datasets:['Google Play','App Store'].map((source,index)=>({label:source,data:days.map(d=>aggregateRating(d,source)),borderColor:index?'#a64cff':'#645cff',backgroundColor:index?'#a64cff':'#645cff',tension:.3,spanGaps:true}))},{scales:{y:{min:1,max:5,ticks:{stepSize:1,color:'#8190a8'},grid:{color:'rgba(129,144,168,.12)'}},x:{ticks:{color:'#8190a8'},grid:{display:false}}}});
+      const days=state.context,selected=new Set(selectedDates()),single=state.selected.length===1,labels=days.map(d=>shortDate(d.date)),contextLabel=`${dateLabel(days[0].date)} – ${dateLabel(days.at(-1).date)}`;
+      $('#trendCaption').textContent=single?`30 ngày tính đến ngày đang xem (${contextLabel}) · cột đậm là ngày đang xem`:`Số phản hồi có ngày đăng mỗi ngày · ${contextLabel}`;
+      const fade=color=>days.map(d=>single&&!selected.has(d.date)?`${color}59`:color);
+      chart('sentimentChart','bar',{labels,datasets:SENTIMENTS.map(s=>({label:sentimentLabel(s),data:days.map(d=>timelineItems(d).filter(i=>i.sentiment===s).length),backgroundColor:fade(cssVar(`--${s.toLowerCase()}`)),borderRadius:2}))},{scales:{x:{stacked:true,ticks:{color:cssVar('--muted'),maxRotation:0,autoSkipPadding:8},grid:{display:false}},y:{stacked:true,beginAtZero:true,ticks:{color:cssVar('--muted'),precision:0},grid:{color:'rgba(129,144,168,.15)'}}}});
+      const ratingDays=state.ratingDays.filter(d=>STORES.some(p=>aggregateRating(d,p)!==null));
+      $('#ratingCaption').textContent=ratingDays.length?`Điểm trung bình tích lũy · 90 ngày tính đến ${dateLabel(state.ratingDays.at(-1).date)}`:'Chưa có dữ liệu điểm store trong 90 ngày gần nhất';
+      chart('ratingChart','line',{labels:ratingDays.map(d=>shortDate(d.date)),datasets:STORES.map((platform,index)=>({label:platform,data:ratingDays.map(d=>aggregateRating(d,platform)),borderColor:index?'#a64cff':'#2f80ed',backgroundColor:index?'#a64cff':'#2f80ed',tension:.3,spanGaps:true,pointRadius:3}))},{scales:{y:{min:1,max:5,ticks:{stepSize:1,color:cssVar('--muted')},grid:{color:'rgba(129,144,168,.15)'}},x:{ticks:{color:cssVar('--muted'),maxRotation:0,autoSkipPadding:8},grid:{display:false}}}});
+    }
+    function renderActivities(items){
+      const rows=countBy(items,activityLabel),max=rows[0]?.[1]||1;
+      $('#activityList').innerHTML=rows.map(([name,count])=>{const group=items.filter(i=>activityLabel(i)===name),s=bySentiment(group);return`<button class="bar-row" data-filter-activity="${esc(name)}" title="Lọc danh sách: ${esc(name)}"><span class="name">${esc(name)}</span><span class="bar-track" style="width:${Math.max(8,count/max*100)}%">${SENTIMENTS.map(k=>`<span class="${k.toLowerCase()}-bg" style="width:${s[k]/count*100}%"></span>`).join('')}</span><span class="num">${count} <small>${pct(count,items.length)}</small></span></button>`}).join('')||'<p class="empty-note">Chưa có hoạt động trong kỳ.</p>';
+      document.querySelectorAll('[data-filter-activity]').forEach(button=>button.onclick=()=>focusExplorer({activityFilter:button.dataset.filterActivity}));
+    }
+    function renderSourceSummary(items){
+      const rows=countBy(items,channelName);
+      $('#sourceSummary').innerHTML=rows.map(([name,count])=>{const group=items.filter(i=>channelName(i)===name),s=bySentiment(group),top=rankThemes(group)[0];return`<tr><td data-label="Nguồn"><button class="link-btn" data-filter-source="${esc(name)}">${esc(sourceLabel(name))}</button></td><td class="num" data-label="Phản hồi">${count} <span class="muted small">(${pct(count,items.length)})</span></td><td class="num" data-label="Tích cực">${s.Positive}</td><td class="num" data-label="Tiêu cực">${s.Negative}</td><td data-label="Chủ đề nhiều nhất">${top?esc(themeLabel(top[0])):''}</td></tr>`}).join('')||'<tr><td colspan="5" class="empty">Không có phản hồi xác định được ngày đăng trong kỳ.</td></tr>';
+      document.querySelectorAll('[data-filter-source]').forEach(button=>button.onclick=()=>focusExplorer({sourceFilter:button.dataset.filterSource}));
     }
     function renderSources(){
-      const rows=state.selected.flatMap(day=>{const items=timelineItems(day).map(item=>({...item,date:day.date})),sources=[...new Set(items.map(channelName))];return sources.map(source=>({date:day.date,source,rows:items.filter(i=>channelName(i)===source)}))}).sort((a,b)=>b.date.localeCompare(a.date)||b.rows.length-a.rows.length);
-      $('#sourceRows').innerHTML=rows.map(({date,source,rows})=>`<tr><td>${esc(dateLabel(date))}</td><td>${esc(source)}</td><td>${rows.length}</td><td>${rows.filter(i=>i.sentiment==='Positive').length}</td><td>${rows.filter(i=>i.sentiment==='Negative').length}</td><td>${rows.filter(i=>i.sentiment==='Neutral').length}</td><td>${rows.filter(i=>i.sentiment==='Mixed').length}</td></tr>`).join('')||'<tr><td colspan="7" class="empty">Không có phản hồi xác định được ngày đăng trong kỳ.</td></tr>';
+      const rows=state.selected.flatMap(day=>{const items=timelineItems(day),sources=[...new Set(items.map(channelName))];return sources.map(source=>({date:day.date,source,rows:items.filter(i=>channelName(i)===source)}))}).sort((a,b)=>b.date.localeCompare(a.date)||b.rows.length-a.rows.length);
+      $('#sourceRows').innerHTML=rows.map(({date,source,rows})=>{const s=bySentiment(rows);return`<tr><td data-label="Ngày">${esc(dateLabel(date))}</td><td data-label="Nguồn">${esc(sourceLabel(source))}</td><td class="num" data-label="Tổng">${rows.length}</td><td class="num" data-label="Tích cực">${s.Positive}</td><td class="num" data-label="Tiêu cực">${s.Negative}</td><td class="num" data-label="Trung tính">${s.Neutral}</td><td class="num" data-label="Đan xen">${s.Mixed}</td></tr>`}).join('')||'<tr><td colspan="7" class="empty">Không có phản hồi xác định được ngày đăng trong kỳ.</td></tr>';
     }
-    function renderThemes(items){
-      const grouped={};items.forEach(i=>{grouped[i.theme]??=[];grouped[i.theme].push(i)});const previous=previousItems();
-      $('#themeList').innerHTML=Object.entries(grouped).sort((a,b)=>b[1].length-a[1].length).slice(0,10).map(([name,rows])=>{const pos=rows.filter(i=>i.sentiment==='Positive').length/rows.length*100,neg=rows.filter(i=>i.sentiment==='Negative').length/rows.length*100,prev=previous.filter(i=>i.theme===name).length,trend=rows.length>prev?'↑':rows.length<prev?'↓':'→';return`<button class="theme-row" data-theme-name="${esc(name)}" title="So với kỳ trước: ${prev} phản hồi"><span>${esc(name)}</span><span class="theme-bar"><span class="positive" style="width:${pos}%"></span><span class="negative" style="width:${neg}%"></span></span><strong>${rows.length} ${trend}</strong></button>`}).join('')||'<div class="empty">Không có chủ đề trong kỳ.</div>';
-      document.querySelectorAll('[data-theme-name]').forEach(button=>button.onclick=()=>showTheme(button.dataset.themeName,items));
-    }
-    function showTheme(name,items){const rows=items.filter(i=>i.theme===name);$('#themeDetail').innerHTML=`<h2>${esc(name)}</h2><p class="muted">${rows.length} phản hồi trong kỳ ${esc(periodLabel())}</p>`+rows.map(i=>`<div class="quote"><strong>${esc(i.text_vn)}</strong><div class="thai muted">Nguyên văn: ${esc(i.text_th)}</div><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn</a></div>`).join('');$('#themeDialog').showModal()}
-    function renderReport(){
-      const days=[...state.selected].reverse().filter(day=>timelineItems(day).length||(day.alerts||[]).length);
-      if(!days.length){$('#report').innerHTML='<div class="empty">Không có phản hồi xác định được ngày đăng trong kỳ này.</div>';return}
-      $('#report').innerHTML=days.map(day=>{const rows=timelineItems(day),positive=rows.filter(i=>i.sentiment==='Positive'),negative=rows.filter(i=>i.sentiment==='Negative'),top=group=>countBy(group,i=>i.theme)[0],liked=top(positive),disliked=top(negative),alerts=day.alerts||[];return`<details ${state.selected.length===1?'open':''}><summary><strong>${esc(dateLabel(day.date))}</strong> · ${rows.length} phản hồi · <strong>${esc(moodFor(rows))}</strong></summary><div class="report-grid" style="margin-top:12px"><div class="report-block"><h3>Chủ đề tích cực</h3>${liked?`${esc(liked[0])}: ${liked[1]} phản hồi`:'Chưa ghi nhận chủ đề tích cực nổi bật.'}</div><div class="report-block"><h3>Điểm cần chú ý</h3>${disliked?`${esc(disliked[0])}: ${disliked[1]} phản hồi`:'Chưa ghi nhận phản hồi tiêu cực nổi bật.'}</div></div>${alerts.length?`<p><strong>Cảnh báo được phát hiện:</strong> ${alerts.map(a=>esc(a.title)).join(', ')}</p>`:''}</details>`}).join('');
+    function renderNotes(items,undated){
+      const machine=items.filter(i=>i.translation_method==='machine_translation').length,review=items.filter(i=>i.needs_review).length;
+      $('#dataNotes').innerHTML=[
+        'Facebook Group: tính cả bài đăng và bình luận (thảo luận, khoe, rao bán, trao đổi). Fanpage: chỉ tính bình luận của người dùng trên fanpage Thái Lan, không tính bài đăng chính thức.',
+        `Nội dung chưa rõ ngày đăng được tách riêng, không cộng vào số liệu theo ngày${undated?` (kỳ này: ${fmt.format(undated)})`:''}.`,
+        `Trong kỳ có ${fmt.format(machine)} phản hồi dùng bản dịch tự động và ${fmt.format(review)} phản hồi được đánh dấu cần rà soát lại phân loại.`,
+        'Mục “Người chơi thích gì / chưa hài lòng” chỉ xếp hạng ý kiến về game; bài rao bán, trao đổi vẫn được tính trong tổng phản hồi, hoạt động cộng đồng và danh sách.',
+        'Điểm store là điểm trung bình tích lũy do Sensor Tower cập nhật, không phụ thuộc vào số phản hồi trong kỳ.'
+      ].map(text=>`<li>${esc(text)}</li>`).join('');
     }
     function explorerItems(){return $('#includeUndated').checked?rawSelectedItems():selectedItems()}
     function setupFilters(items){
-      const map={sentimentFilter:'sentiment',themeFilter:'theme',activityFilter:'activity_type'},source=$('#sourceFilter');source.innerHTML=options(items.map(channelName));
-      for(const[id,key]of Object.entries(map)){const el=$(`#${id}`);if(id==='sentimentFilter')el.innerHTML='<option value="">Tất cả</option>'+[...new Set(items.map(i=>i.sentiment).filter(Boolean))].map(v=>`<option value="${esc(v)}">${esc(sentimentLabel(v))}</option>`).join('');else el.innerHTML=options(items.map(i=>i[key]||contentKindLabel(i.content_kind)))}
+      const keep=Object.fromEntries(['sourceFilter','sentimentFilter','activityFilter','themeFilter'].map(id=>[id,$(`#${id}`).value]));
+      const opts=(values,label=v=>v)=>'<option value="">Tất cả</option>'+[...new Set(values.filter(Boolean))].sort().map(v=>`<option value="${esc(v)}">${esc(label(v))}</option>`).join('');
+      $('#sourceFilter').innerHTML=opts(items.map(channelName),sourceLabel);
+      $('#sentimentFilter').innerHTML='<option value="">Tất cả</option>'+SENTIMENTS.filter(s=>items.some(i=>i.sentiment===s)).map(v=>`<option value="${v}">${sentimentLabel(v)}</option>`).join('');
+      $('#activityFilter').innerHTML=opts(items.map(activityLabel));
+      $('#themeFilter').innerHTML=opts(items.map(i=>i.theme),themeLabel);
+      for(const[id,value]of Object.entries(keep))if([...$(`#${id}`).options].some(o=>o.value===value))$(`#${id}`).value=value;
     }
-    function filterItems(){const selectors={sentimentFilter:'sentiment',themeFilter:'theme'},query=$('#keywordFilter').value.trim().toLocaleLowerCase();state.filtered=explorerItems().filter(item=>(!$('#sourceFilter').value||channelName(item)===$('#sourceFilter').value)&&(!$('#activityFilter').value||(item.activity_type||contentKindLabel(item.content_kind))===$('#activityFilter').value)&&Object.entries(selectors).every(([id,key])=>!$(`#${id}`).value||item[key]===$(`#${id}`).value)&&(!query||`${item.text_th||''} ${item.text_vn||''}`.toLocaleLowerCase().includes(query))).sort((a,b)=>itemTime(b)-itemTime(a))}
-    function engagementText(item){if(!item.engagement)return'';const parts=(item.engagement.reactions||[]).map(value=>String(value).replace(/people|person/gi,'người'));if(item.engagement.comment_count)parts.push(`${item.engagement.comment_count} bình luận`);return parts.join('; ')}
-    function renderFeedback(){filterItems();const size=50,total=Math.max(1,Math.ceil(state.filtered.length/size));state.page=Math.min(state.page,total);const rows=state.filtered.slice((state.page-1)*size,state.page*size);$('#feedbackRows').innerHTML=rows.map(i=>`<tr><td>${esc(i.date)}${i.published_label?`<br><small class="muted">${esc(i.published_label)}</small>`:''}${i.date_basis==='observed_at'?'<br><small class="muted">Chưa rõ ngày đăng; đây là ngày thu thập</small>':''}</td><td>${esc(channelName(i))}<br><small class="muted">${esc(contentKindLabel(i.content_kind))}</small></td><td><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span></td><td><strong>${esc(i.text_vn)}</strong>${i.translation_method==='machine_translation'?'<br><small class="muted">Bản dịch tự động</small>':''}</td><td class="thai">${esc(i.text_th)}</td><td>${esc(i.activity_type||contentKindLabel(i.content_kind))}</td><td>${esc(i.theme)}</td><td>${esc(engagementText(i))}</td><td><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở</a></td></tr>`).join('')||'<tr><td colspan="9" class="empty">Không có phản hồi phù hợp.</td></tr>';$('#pageInfo').textContent=`${state.filtered.length} dòng · Trang ${state.page}/${total}`;$('#prevPage').disabled=state.page<=1;$('#nextPage').disabled=state.page>=total}
-    function exportCsv(){filterItems();const keys=['date','date_basis','source','community','content_kind','activity_type','engagement','sentiment','topic','theme','text_th','text_vn','link'],quote=value=>`"${String(value??'').replaceAll('"','""')}"`,csv=[keys.join(','),...state.filtered.map(i=>keys.map(key=>quote(key==='engagement'?engagementText(i):i[key])).join(','))].join('\n'),blob=new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=`ptg-feedback-${selectedDates()[0]||'export'}-${selectedDates().at(-1)||''}.csv`;link.click();URL.revokeObjectURL(url)}
+    function focusExplorer(filters){resetExplorer();setupFilters(explorerItems());for(const[id,value]of Object.entries(filters))$(`#${id}`).value=value;renderFeedback();$('#explorer').scrollIntoView({behavior:'smooth',block:'start'})}
+    function filterItems(){const query=$('#keywordFilter').value.trim().toLocaleLowerCase();state.filtered=explorerItems().filter(item=>(!$('#sourceFilter').value||channelName(item)===$('#sourceFilter').value)&&(!$('#activityFilter').value||activityLabel(item)===$('#activityFilter').value)&&(!$('#sentimentFilter').value||item.sentiment===$('#sentimentFilter').value)&&(!$('#themeFilter').value||item.theme===$('#themeFilter').value)&&(!query||`${item.text_th||''} ${item.text_vn||''}`.toLocaleLowerCase().includes(query))).sort((a,b)=>itemTime(b)-itemTime(a))}
+    function engagementText(item){if(!item.engagement)return item.rating?`${item.rating}★`:'';const parts=(item.engagement.reactions||[]).map(value=>String(value).replace(/people|person/gi,'người'));if(item.engagement.comment_count)parts.push(`${item.engagement.comment_count} bình luận`);return parts.join('; ')}
+    function renderActiveFilters(){const labels={sourceFilter:'Nguồn',sentimentFilter:'Cảm xúc',activityFilter:'Hoạt động',themeFilter:'Chủ đề'},active=Object.keys(labels).filter(id=>$(`#${id}`).value);$('#activeFilters').hidden=!active.length;$('#activeFilters').innerHTML=active.length?`Đang lọc: ${active.map(id=>`<strong>${labels[id]}: ${esc($(`#${id}`).selectedOptions[0]?.textContent||'')}</strong>`).join(' · ')} <button id="clearFilters" class="link-btn">Bỏ lọc</button>`:'';if(active.length)$('#clearFilters').onclick=()=>{const undated=$('#includeUndated').checked;resetExplorer();$('#includeUndated').checked=undated;setupFilters(explorerItems());renderFeedback()}}
+    function renderFeedback(){
+      filterItems();renderActiveFilters();const size=30,total=Math.max(1,Math.ceil(state.filtered.length/size));state.page=Math.min(state.page,total);const rows=state.filtered.slice((state.page-1)*size,state.page*size);
+      $('#feedbackRows').innerHTML=rows.map(i=>`<tr><td data-label="Thời gian"><span>${esc(dateLabel(i.date))}${i.published_label?`<br><small class="muted">${esc(i.published_label)}</small>`:''}${i.date_basis==='observed_at'?'<br><small class="muted">Chưa rõ ngày đăng; đây là ngày thu thập</small>':''}</span></td><td data-label="Nguồn"><span>${esc(sourceLabel(channelName(i)))}<br><small class="muted">${esc(kindLabel(i))}</small></span></td><td data-label="Cảm xúc"><span><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span></span></td><td class="text" data-label="Bản dịch"><span><strong>${esc(i.text_vn)}</strong>${i.translation_method==='machine_translation'?'<br><small class="muted">Bản dịch tự động</small>':''}</span></td><td class="thai" data-label="Nguyên văn">${esc(i.text_th)}</td><td class="meta" data-label="Hoạt động"><span>${esc(activityLabel(i))}<br><small class="muted">${esc(themeLabel(i.theme))}</small></span></td><td class="meta" data-label="Tương tác"${engagementText(i)?'':' data-empty'}>${esc(engagementText(i))}</td><td class="nowrap" data-label="Link"><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở ↗</a></td></tr>`).join('')||'<tr><td colspan="8" class="empty">Không có phản hồi phù hợp.</td></tr>';
+      $('#pageInfo').textContent=`${fmt.format(state.filtered.length)} phản hồi · Trang ${state.page}/${total}`;$('#prevPage').disabled=state.page<=1;$('#nextPage').disabled=state.page>=total;
+    }
+    function exportCsv(){filterItems();const keys=['date','date_basis','source','community','content_kind','activity_type','engagement','sentiment','topic','theme','text_th','text_vn','link'],quote=value=>`"${String(value??'').replaceAll('"','""')}"`,csv=[keys.join(','),...state.filtered.map(i=>keys.map(key=>quote(key==='engagement'?engagementText(i):i[key])).join(','))].join('\n'),blob=new Blob(['﻿'+csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=`ptg-feedback-${selectedDates()[0]||'export'}-${selectedDates().at(-1)||''}.csv`;link.click();URL.revokeObjectURL(url)}
 
     const clearPresets=()=>document.querySelectorAll('.preset').forEach(button=>button.classList.remove('active'));
     document.querySelectorAll('[data-mode]').forEach(button=>button.onclick=async()=>{clearPresets();setMode(button.dataset.mode);await apply()});
@@ -325,7 +483,10 @@
     document.querySelectorAll('.filters select,.filters input').forEach(el=>el.addEventListener(el.type==='search'?'input':'change',()=>{state.page=1;renderFeedback()}));
     $('#includeUndated').onchange=()=>{state.page=1;setupFilters(explorerItems());renderFeedback()};
     $('#prevPage').onclick=()=>{state.page--;renderFeedback()};$('#nextPage').onclick=()=>{state.page++;renderFeedback()};$('#exportCsv').onclick=exportCsv;
-    $('#themeToggle').onclick=()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';localStorage.setItem('ptg-theme',dark?'dark':'light');renderCharts()};document.documentElement.dataset.theme=localStorage.getItem('ptg-theme')||'light';
+    $('#alertBadge').onclick=()=>document.querySelector('.voice-card.action').scrollIntoView({behavior:'smooth',block:'center'});
+    const savedTheme=(()=>{try{return localStorage.getItem('ptg-theme')}catch{return null}})();
+    document.documentElement.dataset.theme=savedTheme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+    $('#themeToggle').onclick=()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';try{localStorage.setItem('ptg-theme',dark?'dark':'light')}catch{}if(state.selected.length)renderCharts()};
     init();
   })();
   </script>

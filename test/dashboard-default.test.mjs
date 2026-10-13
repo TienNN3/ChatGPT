@@ -44,6 +44,20 @@ test("does not mistake the Thai word for bat for a frozen game", async () => {
   }
 });
 
+test("reads as a report: summary, likes, dislikes and actions for the selected period", async () => {
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  for (const heading of ["Tóm tắt nhanh", "Người chơi thích gì", "Người chơi chưa hài lòng", "Cần xử lý", "Hoạt động cộng đồng", "Ghi chú về dữ liệu"]) {
+    assert.ok(html.includes(heading), `missing section: ${heading}`);
+  }
+  for (const label of ["Chủ yếu tích cực", "Chủ yếu tiêu cực", "Chủ yếu trung tính"]) assert.ok(html.includes(label));
+  // Bài rao bán vẫn được đếm nhưng không dùng để xếp hạng chủ đề thích / chưa hài lòng.
+  assert.match(html, /const isOpinion = item => item\.activity_type!=='Rao bán \/ trao đổi'/);
+  // Tránh phần trăm gây hiểu nhầm khi kỳ trước quá ít dữ liệu.
+  assert.match(html, /if\(previous<10\)/);
+  // Điểm store cập nhật theo tuần nên luôn nhìn lại 90 ngày.
+  assert.match(html, /function ratingWindow\(current\)\{return calendarDates\(dateAdd\(current\.at\(-1\),-89\),current\.at\(-1\)\)\}/);
+});
+
 test("uses calendar days and validates manual ranges", async () => {
   const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
   assert.match(html, /function calendarDates\(start,end\)/);
