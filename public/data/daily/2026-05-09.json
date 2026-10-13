@@ -1,0 +1,113 @@
+{
+  "date": "2026-05-09",
+  "alerts": [],
+  "items": [
+    {
+      "id": "android-177e9fefa47d2a20",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "N***",
+      "text_th": "เกมดีของเเจกหน่อยไปหน่อย",
+      "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Mixed",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    }
+  ],
+  "metrics": {
+    "volume": 1,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 0,
+      "Mixed": 1
+    },
+    "by_topic": {
+      "Other": 1
+    },
+    "by_segment": {
+      "unknown": 1
+    },
+    "nss": 0,
+    "nss_d1": 0,
+    "nss_7d_avg": 4.8,
+    "store": {
+      "gp_avg": 5,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 1
+    }
+  },
+  "report": {
+    "overview": "Có 1 review store và NSS 0. Dữ liệu gồm Google Play.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower Android TH: đã nhập 1 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
+    ]
+  },
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
+  "data_mode": "production"
+}

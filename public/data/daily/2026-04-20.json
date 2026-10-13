@@ -1,0 +1,223 @@
+{
+  "date": "2026-04-20",
+  "alerts": [],
+  "items": [
+    {
+      "id": "android-a01f41d6b5082514",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "K***",
+      "text_th": "สนุกให้เพชรฟรีเยอะ",
+      "text_vn": "Phản hồi tích cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "payer",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-d1cea0b14c3a23b5",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "ป***",
+      "text_th": "ชอบมากคะเล่นสนุกดี",
+      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-ff87f9ed8ff562b0",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "จ***",
+      "text_th": "สนุกดี",
+      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-c2218448ffcce2c8",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "ม***",
+      "text_th": "กดเข้าไม่ได้นอยว่ะ",
+      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": "P3",
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-3daa34ea67d71549",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "S***",
+      "text_th": "ดีมาก",
+      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    }
+  ],
+  "metrics": {
+    "volume": 5,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 5
+    },
+    "by_sentiment": {
+      "Positive": 4,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Gacha / Shop / Pricing": 1,
+      "Other": 4
+    },
+    "by_segment": {
+      "payer": 1,
+      "unknown": 4
+    },
+    "nss": 60,
+    "nss_d1": 0,
+    "nss_7d_avg": 25,
+    "store": {
+      "gp_avg": 4.2,
+      "ios_avg": null,
+      "star_1": 1,
+      "star_5": 4
+    }
+  },
+  "report": {
+    "overview": "Có 5 review store và NSS 60. Dữ liệu gồm Google Play.",
+    "bright_spots": [
+      {
+        "title": "Giá trị phần thưởng gacha",
+        "count": 1,
+        "quote": {
+          "text_th": "สนุกให้เพชรฟรีเยอะ",
+          "text_vn": "Phản hồi tích cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+          "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        }
+      },
+      {
+        "title": "Trải nghiệm game tích cực",
+        "count": 3,
+        "quote": {
+          "text_th": "ชอบมากคะเล่นสนุกดี",
+          "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+          "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        }
+      }
+    ],
+    "pain_points": [
+      {
+        "issue": "Góp ý trải nghiệm chung",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P3",
+        "quotes": [
+          {
+            "text_th": "กดเข้าไม่ได้นอยว่ะ",
+            "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Có 1 phản hồi thuộc nhóm payer.",
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        ]
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower Android TH: đã nhập 5 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
+    ]
+  },
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
+  "data_mode": "production"
+}

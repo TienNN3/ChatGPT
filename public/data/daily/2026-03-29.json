@@ -1,0 +1,178 @@
+{
+  "date": "2026-03-29",
+  "alerts": [],
+  "items": [
+    {
+      "id": "android-147119632569c550",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "S***",
+      "text_th": "คือตอนสมัยก่อนๆที่ยังไม่มี ยูไอ ใหม่มันสนุกกว่าเราคิดว่า พอมันมี ยูไอ ใหม่ มันงงๆ แล้วตอนที่โรงเรียนมีซอมบี้เราคิดว่ามันสนุกกว่า แต่พอมันมาใหม่มันให้เรียนทั้งวันทั้งคืน แล้วเวลามีอีเว้นท์ชอบแบบเก็บเหรียญแล้วเอาไปแลกของตกแต่งบ้านมากก โดยเฉพาะอีเว้นท์เอเลี่ยน คือพอมันเป็นแบบใหม่เราคิดว่ามันไม่ค่อยดีเท่าไหร่ ชอบแบบสมัยก่อนมากกว่าเวลามีกิจกรรม คือถ้าเจ้าของเกมมาเห็นช่วยแก้หน่อยนะคะพอดีคิดว่าแบบเดิมสนุกกว่า...แต่ให้5ดาวไปก่อน",
+      "text_vn": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Mixed",
+      "confidence": 0.72,
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá vật phẩm quá cao",
+      "segment": "payer",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-7005540422bca78c",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "แ***",
+      "text_th": "เกมนี้ดีมากๆ",
+      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-c072f39eca9f83ba",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "K***",
+      "text_th": "เข้าไม่ได้",
+      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": "P3",
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
+    }
+  ],
+  "metrics": {
+    "volume": 3,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 3
+    },
+    "by_sentiment": {
+      "Positive": 1,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 1
+    },
+    "by_topic": {
+      "Gacha / Shop / Pricing": 1,
+      "Other": 2
+    },
+    "by_segment": {
+      "payer": 1,
+      "unknown": 2
+    },
+    "nss": 0,
+    "nss_d1": -66.7,
+    "nss_7d_avg": -15.3,
+    "store": {
+      "gp_avg": 3.67,
+      "ios_avg": null,
+      "star_1": 1,
+      "star_5": 2
+    }
+  },
+  "report": {
+    "overview": "Có 3 review store và NSS 0. Dữ liệu gồm Google Play.",
+    "bright_spots": [
+      {
+        "title": "Trải nghiệm game tích cực",
+        "count": 1,
+        "quote": {
+          "text_th": "เกมนี้ดีมากๆ",
+          "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+          "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        }
+      }
+    ],
+    "pain_points": [
+      {
+        "issue": "Góp ý trải nghiệm chung",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P3",
+        "quotes": [
+          {
+            "text_th": "เข้าไม่ได้",
+            "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Có 1 phản hồi thuộc nhóm payer.",
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        ]
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower Android TH: đã nhập 3 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
+    ]
+  },
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
+  "data_mode": "production"
+}

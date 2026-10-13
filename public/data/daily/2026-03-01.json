@@ -1,0 +1,157 @@
+{
+  "date": "2026-03-01",
+  "alerts": [],
+  "items": [
+    {
+      "id": "android-51fc335ed519f123",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "N***",
+      "text_th": "เกมดีแล้วค่ะ แต่ว่าเควสล่าสุดที่ให้ทำยาฟื้นฟูมันทำเควสไม่ได้ค่ะแก้ไขด้วยเป็นกันทุกคน เควสไปต่อไม่ได้ถ้าแก้ไขบัคจะกลับมาให้ห้าดาว",
+      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 4,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-6cb41fc496f30712",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "ม***",
+      "text_th": "ผีเล่นสนุกมากๆเลยแถมมีบ้านให้ด้วย",
+      "text_vn": "Phản hồi tích cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    }
+  ],
+  "metrics": {
+    "volume": 2,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 2
+    },
+    "by_sentiment": {
+      "Positive": 1,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Bug / Crash / Lag / Performance": 1,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1
+    },
+    "by_segment": {
+      "unknown": 2
+    },
+    "nss": 0,
+    "nss_d1": 50,
+    "nss_7d_avg": 50,
+    "store": {
+      "gp_avg": 4.5,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 1
+    }
+  },
+  "report": {
+    "overview": "Có 2 review store và NSS 0. Dữ liệu gồm Google Play.",
+    "bright_spots": [
+      {
+        "title": "Hoạt động và tính năng trong game",
+        "count": 1,
+        "quote": {
+          "text_th": "ผีเล่นสนุกมากๆเลยแถมมีบ้านให้ด้วย",
+          "text_vn": "Phản hồi tích cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+          "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        }
+      }
+    ],
+    "pain_points": [
+      {
+        "issue": "Game bị văng và treo",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "เกมดีแล้วค่ะ แต่ว่าเควสล่าสุดที่ให้ทำยาฟื้นฟูมันทำเควสไม่ได้ค่ะแก้ไขด้วยเป็นกันทุกคน เควสไปต่อไม่ได้ถ้าแก้ไขบัคจะกลับมาให้ห้าดาว",
+            "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower Android TH: đã nhập 2 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
+    ]
+  },
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
+  "data_mode": "production"
+}

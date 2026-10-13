@@ -1,0 +1,184 @@
+{
+  "date": "2026-01-24",
+  "alerts": [],
+  "items": [
+    {
+      "id": "android-532e36f8a7efc91b",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "D***",
+      "text_th": "สนุกมากไม่บังเลยค่ะ",
+      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-899ec15fbbf01a70",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "A***",
+      "text_th": "สนุกสุดๆไม่มีโฆษณาเลยแถมเพื่อนเยอะด้วยสร้างบ้านได้เองสนุกสุดๆดีมาก",
+      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Quảng cáo gây gián đoạn",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-4ed953cbb1ef721b",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "เ***",
+      "text_th": "ไม่รู้เป็นอะเพราะโทรหรือเกมเดียวก็เด้งออกอยู่นั้น หัวร้อนจนไม่อยากเล่นเลยลบเกมทิ้ง",
+      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
+    }
+  ],
+  "metrics": {
+    "volume": 3,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 3
+    },
+    "by_sentiment": {
+      "Positive": 2,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Other": 2,
+      "Bug / Crash / Lag / Performance": 1
+    },
+    "by_segment": {
+      "unknown": 3
+    },
+    "nss": 33.3,
+    "nss_d1": -100,
+    "nss_7d_avg": -25,
+    "store": {
+      "gp_avg": 3.67,
+      "ios_avg": null,
+      "star_1": 1,
+      "star_5": 2
+    }
+  },
+  "report": {
+    "overview": "Có 3 review store và NSS 33.3. Dữ liệu gồm Google Play.",
+    "bright_spots": [
+      {
+        "title": "Trải nghiệm game tích cực",
+        "count": 1,
+        "quote": {
+          "text_th": "สนุกมากไม่บังเลยค่ะ",
+          "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+          "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        }
+      },
+      {
+        "title": "Quảng cáo gây gián đoạn",
+        "count": 1,
+        "quote": {
+          "text_th": "สนุกสุดๆไม่มีโฆษณาเลยแถมเพื่อนเยอะด้วยสร้างบ้านได้เองสนุกสุดๆดีมาก",
+          "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+          "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        }
+      }
+    ],
+    "pain_points": [
+      {
+        "issue": "Game bị văng và treo",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "ไม่รู้เป็นอะเพราะโทรหรือเกมเดียวก็เด้งออกอยู่นั้น หัวร้อนจนไม่อยากเล่นเลยลบเกมทิ้ง",
+            "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower Android TH: đã nhập 3 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
+    ]
+  },
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
+  "data_mode": "production"
+}

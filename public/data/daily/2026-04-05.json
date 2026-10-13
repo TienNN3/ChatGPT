@@ -1,38 +1,42 @@
 {
   "date": "2026-04-05",
-  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
   "data_mode": "production",
   "metrics": {
-    "volume": 1,
+    "volume": 4,
     "noise": 0,
     "by_source": {
-      "App Store": 1
+      "App Store": 1,
+      "Google Play": 3
     },
     "by_sentiment": {
       "Positive": 1,
       "Neutral": 0,
-      "Negative": 0,
-      "Mixed": 0
+      "Negative": 2,
+      "Mixed": 1
     },
     "by_topic": {
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2,
+      "Bug / Crash / Lag / Performance": 1,
+      "Other": 1
     },
     "by_segment": {
-      "unknown": 1
+      "unknown": 2,
+      "payer": 2
     },
-    "nss": 100,
-    "nss_d1": null,
-    "nss_7d_avg": -70,
+    "nss": -25,
+    "nss_d1": 100,
+    "nss_7d_avg": 7.1,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 2,
       "ios_avg": 5,
-      "star_1": 0,
+      "star_1": 1,
       "star_5": 1
     }
   },
   "alerts": [],
   "report": {
-    "overview": "Có 1 review iOS và NSS 100. Dữ liệu mỏng. Chưa có dữ liệu D-1. NSS trung bình 7 ngày là -70.",
+    "overview": "Có 4 review store và NSS -25. Dữ liệu gồm Google Play và App Store.",
     "bright_spots": [
       {
         "title": "Hoạt động và tính năng trong game",
@@ -44,7 +48,36 @@
         }
       }
     ],
-    "pain_points": [],
+    "pain_points": [
+      {
+        "issue": "Hoạt động và tính năng trong game",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "ก็อปดีไซน์จากนัดวาดคนอื่นมามันดีแล้วหรอครับเกมไม่คิดจะขอโทษแล้วแก้ดีไซน์เลยงั้นหรอรึทำอะไรต่อเลยหรอครับ เกมห่วยแค่คิดคอนเซ็ปต์การออกแบบชุดก็ต้องไปหากินจากนักวาดคนหนึ่งเลยหรอ?",
+            "text_vn": "Phản hồi tiêu cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      },
+      {
+        "issue": "Góp ý trải nghiệm chung",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P3",
+        "quotes": [
+          {
+            "text_th": "อยู่ดีๆก็โดนแบนค่ะ มันบอกว่าใช้โปรแกรมผิดกฎหมาย งงมากพึ่งเล่นได้สามวันแถวยังพึ่งเติมเกมไปอีก เสียตังฟรีๆแบบงงๆเลย👎",
+            "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      }
+    ],
     "segments": {
       "new": {
         "summary": "Không đủ dữ liệu.",
@@ -59,44 +92,47 @@
         "links": []
       },
       "payer": {
-        "summary": "Không đủ dữ liệu.",
-        "links": []
+        "summary": "Có 2 phản hồi thuộc nhóm payer.",
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        ]
       }
     },
     "next_actions": {
       "new": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "midgame": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "veteran": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "payer": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ]
     },
     "data_health": [
-      "Sensor Tower iOS TH: đã nhập 1 review đã che tên cho ngày này.",
-      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
-      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+      "Sensor Tower Android TH: đã nhập 3 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
     ]
   },
   "items": [
@@ -116,6 +152,60 @@
       "severity": null,
       "needs_review": false,
       "rating": 5
+    },
+    {
+      "id": "android-dc819b8c18c3730f",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "C***",
+      "text_th": "(ความเห็นส่วนตัวนะะ) เกมนี้เล่นเพลินมากกก ภาพน่ารักโดนตก 💖 ชุดดี แต่แพ็กเพชรยังน้อย อยากให้เพิ่มอีก ราคาก็แอบแรง ถ้าลดแพ็กชุดกับแหวนคือพร้อมซื้อ 😭 อีเว้นอยากให้หลากหลาย + ส่งของให้เพื่อนได้แบบไม่ใช้แหวน จะได้เล่นสนุกขึ้น ไม่ค่อยชอบแนวกดสุ่มเดา ๆ เพราะเปลืองเหรียญ 🥲 โฆษณายาวไปจนหลุดออกจากเกม ถ้าสั้นลงหรือแจกพรีเมี่ยม 7 วันคือดี อยากให้สายฟรีไม่เสียเปรียบสายเติม + มีโค้ดสุ่ม / การ์ดซ้ำแลกการ์ดทอง / เควสเลือกของฟรี 2 แพ็กหรือแลก Pass ได้ ถ้าได้ทั้งหมดคือเริ่ดมากกก✨️✨️",
+      "text_vn": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Mixed",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "payer",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-06e3217ab5277b14",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "B***",
+      "text_th": "ก็อปดีไซน์จากนัดวาดคนอื่นมามันดีแล้วหรอครับเกมไม่คิดจะขอโทษแล้วแก้ดีไซน์เลยงั้นหรอรึทำอะไรต่อเลยหรอครับ เกมห่วยแค่คิดคอนเซ็ปต์การออกแบบชุดก็ต้องไปหากินจากนักวาดคนหนึ่งเลยหรอ?",
+      "text_vn": "Phản hồi tiêu cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": "P2",
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-57a2b9d3ff898d02",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "K***",
+      "text_th": "อยู่ดีๆก็โดนแบนค่ะ มันบอกว่าใช้โปรแกรมผิดกฎหมาย งงมากพึ่งเล่นได้สามวันแถวยังพึ่งเติมเกมไปอีก เสียตังฟรีๆแบบงงๆเลย👎",
+      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "payer",
+      "severity": "P3",
+      "needs_review": true,
+      "rating": 2,
+      "translation_status": "summary_only"
     }
   ]
 }

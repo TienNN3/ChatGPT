@@ -1,38 +1,41 @@
 {
   "date": "2026-03-23",
-  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
   "data_mode": "production",
   "metrics": {
-    "volume": 1,
+    "volume": 3,
     "noise": 0,
     "by_source": {
-      "App Store": 1
+      "App Store": 1,
+      "Google Play": 2
     },
     "by_sentiment": {
-      "Positive": 1,
+      "Positive": 2,
       "Neutral": 0,
-      "Negative": 0,
+      "Negative": 1,
       "Mixed": 0
     },
     "by_topic": {
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1,
+      "Login / Account / Data": 1,
+      "Other": 1
     },
     "by_segment": {
-      "unknown": 1
+      "unknown": 3
     },
-    "nss": 100,
-    "nss_d1": null,
-    "nss_7d_avg": -33.3,
+    "nss": 33.3,
+    "nss_d1": -33.3,
+    "nss_7d_avg": -15.8,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 3.5,
       "ios_avg": 4,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 1
     }
   },
   "alerts": [],
   "report": {
-    "overview": "Có 1 review iOS và NSS 100. Dữ liệu mỏng. Chưa có dữ liệu D-1. NSS trung bình 7 ngày là -33.3.",
+    "overview": "Có 3 review store và NSS 33.3. Dữ liệu gồm Google Play và App Store.",
     "bright_spots": [
       {
         "title": "Hoạt động và tính năng trong game",
@@ -42,9 +45,33 @@
           "text_vn": "Mong có thể mời bạn bè sống chung và cùng trang trí một ngôi nhà.",
           "link": "https://apps.apple.com/th/app/id1402384531"
         }
+      },
+      {
+        "title": "Trải nghiệm game tích cực",
+        "count": 1,
+        "quote": {
+          "text_th": "เคยเล่นแล้วสนุกมากๆค่ะ",
+          "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+          "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        }
       }
     ],
-    "pain_points": [],
+    "pain_points": [
+      {
+        "issue": "Đăng nhập tài khoản",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "เกมดี ภาพสวยนะคะ แต่เวลาเข้าที่รับเลี้ยงสัตว์หรืออื่นๆเกมเราจะหมุนและไม่สามารถเข้าไปเดินได้เลย เราไม่รู้ว่าเป็นที่เกมหรือเป็นที่เราเพราะใช้Facebookสมัคร พอเดินเข้าที่รับเลี้ยงสัตว์หรืออันอื่นๆมันจะหมุนตลอดและไม่หาย พอสมัครด้วยอีเมล ก็เข้าเดินเล่นได้ปกติไม่หมุน ถ้าเป็นที่เซิร์ฟหรือตัวเกม แก้ไขด้วยนะคะ",
+            "text_vn": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      }
+    ],
     "segments": {
       "new": {
         "summary": "Không đủ dữ liệu.",
@@ -66,37 +93,38 @@
     "next_actions": {
       "new": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "midgame": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "veteran": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "payer": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ]
     },
     "data_health": [
-      "Sensor Tower iOS TH: đã nhập 1 review đã che tên cho ngày này.",
-      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
-      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+      "Sensor Tower Android TH: đã nhập 2 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
     ]
   },
   "items": [
@@ -116,6 +144,42 @@
       "severity": null,
       "needs_review": false,
       "rating": 4
+    },
+    {
+      "id": "android-1b8c8fffd893df21",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "V***",
+      "text_th": "เกมดี ภาพสวยนะคะ แต่เวลาเข้าที่รับเลี้ยงสัตว์หรืออื่นๆเกมเราจะหมุนและไม่สามารถเข้าไปเดินได้เลย เราไม่รู้ว่าเป็นที่เกมหรือเป็นที่เราเพราะใช้Facebookสมัคร พอเดินเข้าที่รับเลี้ยงสัตว์หรืออันอื่นๆมันจะหมุนตลอดและไม่หาย พอสมัครด้วยอีเมล ก็เข้าเดินเล่นได้ปกติไม่หมุน ถ้าเป็นที่เซิร์ฟหรือตัวเกม แก้ไขด้วยนะคะ",
+      "text_vn": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 2,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-f2c30a837205b8b8",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "N***",
+      "text_th": "เคยเล่นแล้วสนุกมากๆค่ะ",
+      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
     }
   ]
 }

@@ -1,0 +1,178 @@
+{
+  "date": "2026-04-18",
+  "alerts": [],
+  "items": [
+    {
+      "id": "android-1d1c7f7c9eec7122",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "น***",
+      "text_th": "ยกให้เกมนี้เป็นเดอะเบสเลย รักเกมนี้มากๆๆๆ",
+      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-7b744d73c4eeef11",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "ธ***",
+      "text_th": "ชอบเกมนี้มากกกกกเล่นเกือบเดือนเเล้วชอบระบบมินินีมากด้วยเเต่เเบบตอนให้น้องเเยกอิสระขอให้สามารถเจอน้องอีกได้ไหมคะ ทำใจไม่ได้รักน้อง😭",
+      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-175058eccc5a2c70",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "N***",
+      "text_th": "เติมเงินซื้อไข่สุนัขตัวใหญ่ไม่ได้เติมรอบสองถึงจะได้เติมซื้อชุดไปอีกก็ไม่ได้คงไม่เติมอีกแล้ว",
+      "text_vn": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Topup & Payment",
+      "topic_secondary": [],
+      "theme": "Không nhận vật phẩm sau thanh toán",
+      "segment": "payer",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
+    }
+  ],
+  "metrics": {
+    "volume": 3,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 3
+    },
+    "by_sentiment": {
+      "Positive": 2,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Other": 2,
+      "Topup & Payment": 1
+    },
+    "by_segment": {
+      "unknown": 2,
+      "payer": 1
+    },
+    "nss": 33.3,
+    "nss_d1": 33.3,
+    "nss_7d_avg": 27.8,
+    "store": {
+      "gp_avg": 3.67,
+      "ios_avg": null,
+      "star_1": 1,
+      "star_5": 2
+    }
+  },
+  "report": {
+    "overview": "Có 3 review store và NSS 33.3. Dữ liệu gồm Google Play.",
+    "bright_spots": [
+      {
+        "title": "Trải nghiệm game tích cực",
+        "count": 2,
+        "quote": {
+          "text_th": "ยกให้เกมนี้เป็นเดอะเบสเลย รักเกมนี้มากๆๆๆ",
+          "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+          "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        }
+      }
+    ],
+    "pain_points": [
+      {
+        "issue": "Không nhận vật phẩm sau thanh toán",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "เติมเงินซื้อไข่สุนัขตัวใหญ่ไม่ได้เติมรอบสองถึงจะได้เติมซื้อชุดไปอีกก็ไม่ได้คงไม่เติมอีกแล้ว",
+            "text_vn": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Có 1 phản hồi thuộc nhóm payer.",
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        ]
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower Android TH: đã nhập 3 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
+    ]
+  },
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
+  "data_mode": "production"
+}

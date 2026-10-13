@@ -1,44 +1,46 @@
 {
   "date": "2026-03-28",
-  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
   "data_mode": "production",
   "metrics": {
-    "volume": 1,
+    "volume": 3,
     "noise": 0,
     "by_source": {
-      "App Store": 1
+      "App Store": 1,
+      "Google Play": 2
     },
     "by_sentiment": {
       "Positive": 0,
       "Neutral": 0,
-      "Negative": 1,
-      "Mixed": 0
+      "Negative": 2,
+      "Mixed": 1
     },
     "by_topic": {
-      "Login / Account / Data": 1
+      "Login / Account / Data": 1,
+      "Bug / Crash / Lag / Performance": 2
     },
     "by_segment": {
-      "unknown": 1
+      "unknown": 3
     },
-    "nss": -100,
-    "nss_d1": 0,
-    "nss_7d_avg": 0,
+    "nss": -66.7,
+    "nss_d1": -50,
+    "nss_7d_avg": -12,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 3.5,
       "ios_avg": 4,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 1
     }
   },
   "alerts": [],
   "report": {
-    "overview": "Có 1 review iOS và NSS -100. Dữ liệu mỏng. NSS D-1 là 0. NSS trung bình 7 ngày là 0.",
+    "overview": "Có 3 review store và NSS -66.7. Dữ liệu gồm Google Play và App Store.",
     "bright_spots": [],
     "pain_points": [
       {
         "issue": "Lỗi đăng nhập đa thiết bị",
-        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
-        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
         "count": 1,
         "severity": "P2",
         "quotes": [
@@ -46,6 +48,20 @@
             "text_th": "แก้ไขหน่อยค่ะ. มีโทรศัพท์ 2 เครื่อง  แอนดรอย กับ iOS พอเข้าผ่าน iOS แล้ว กลับมาล็อกผ่านแอนดรอยไม่ได้อีก ช่วยดูให้หน่อยค่ะ",
             "text_vn": "Sau khi đăng nhập trên iOS, người chơi không thể đăng nhập lại trên thiết bị Android.",
             "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      },
+      {
+        "issue": "Game bị văng và treo",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "กว่าจะเข้าเกมได้โคตรช้าอ่ะ",
+            "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
           }
         ]
       }
@@ -71,37 +87,38 @@
     "next_actions": {
       "new": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "midgame": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "veteran": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "payer": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ]
     },
     "data_health": [
-      "Sensor Tower iOS TH: đã nhập 1 review đã che tên cho ngày này.",
-      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
-      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+      "Sensor Tower Android TH: đã nhập 2 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
     ]
   },
   "items": [
@@ -121,6 +138,42 @@
       "severity": "P2",
       "needs_review": false,
       "rating": 4
+    },
+    {
+      "id": "android-4922b44f74554841",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "F***",
+      "text_th": "กว่าจะเข้าเกมได้โคตรช้าอ่ะ",
+      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 2,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-3496fecea253b044",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "อ***",
+      "text_th": "สนุกมากเลยค่ะเคยเล่นแล้วเราก็โหลดมาแล้วก็ได้ตัวผู้หญิงน่ารักมากเลยค่ะสมชื่อกับเกมนี้จริงๆ เกมนี้สนุกมากๆเลยอยากเล่นอีกแต่ไม่อยากโหลดอ่ะเพราะว่ากลัวมันจะค้าง เพราะว่าโทรศัพท์เราอ่ะมันกรอกข้อมูลได้ไม่เยอะ อยากโหลดจังเลย อยากเล่นก็อยากเล่นแต่ก็ไม่เล่นไม่ได้อยากโหลดแล้วหนูก็อยากเล่นอันนี้เหมือนกันนี่",
+      "text_vn": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Mixed",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
     }
   ]
 }

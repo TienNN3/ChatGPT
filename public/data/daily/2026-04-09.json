@@ -1,0 +1,128 @@
+{
+  "date": "2026-04-09",
+  "alerts": [],
+  "items": [
+    {
+      "id": "android-3dd125c46e23665d",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "T***",
+      "text_th": "เข้าเกมไม่ได้ ระบบบอกว่า error เครียด แล้วต้องทำอย่างไรอะ ซอยข่อยแน!!!",
+      "text_vn": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
+    }
+  ],
+  "metrics": {
+    "volume": 1,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Login / Account / Data": 1
+    },
+    "by_segment": {
+      "unknown": 1
+    },
+    "nss": -100,
+    "nss_d1": 60,
+    "nss_7d_avg": 33.6,
+    "store": {
+      "gp_avg": 1,
+      "ios_avg": null,
+      "star_1": 1,
+      "star_5": 0
+    }
+  },
+  "report": {
+    "overview": "Có 1 review store và NSS -100. Dữ liệu gồm Google Play.",
+    "bright_spots": [],
+    "pain_points": [
+      {
+        "issue": "Đăng nhập tài khoản",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "เข้าเกมไม่ได้ ระบบบอกว่า error เครียด แล้วต้องทำอย่างไรอะ ซอยข่อยแน!!!",
+            "text_vn": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower Android TH: đã nhập 1 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
+    ]
+  },
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
+  "data_mode": "production"
+}

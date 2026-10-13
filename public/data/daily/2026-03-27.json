@@ -1,40 +1,57 @@
 {
   "date": "2026-03-27",
-  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
   "data_mode": "production",
   "metrics": {
-    "volume": 1,
+    "volume": 2,
     "noise": 0,
     "by_source": {
-      "App Store": 1
+      "App Store": 1,
+      "Google Play": 1
     },
     "by_sentiment": {
       "Positive": 0,
       "Neutral": 0,
-      "Negative": 0,
+      "Negative": 1,
       "Mixed": 1
     },
     "by_topic": {
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1,
+      "Bug / Crash / Lag / Performance": 1
     },
     "by_segment": {
-      "unknown": 1
+      "unknown": 2
     },
-    "nss": 0,
+    "nss": -50,
     "nss_d1": null,
-    "nss_7d_avg": 0,
+    "nss_7d_avg": 3,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 1,
       "ios_avg": 3,
-      "star_1": 0,
+      "star_1": 1,
       "star_5": 0
     }
   },
   "alerts": [],
   "report": {
-    "overview": "Có 1 review iOS và NSS 0. Dữ liệu mỏng. Chưa có dữ liệu D-1. NSS trung bình 7 ngày là 0.",
+    "overview": "Có 2 review store và NSS -50. Dữ liệu gồm Google Play và App Store.",
     "bright_spots": [],
-    "pain_points": [],
+    "pain_points": [
+      {
+        "issue": "Game bị văng và treo",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "แก้ไขด่วนนนนนนนน ดูโฆษนาแล้วหลุดบ่อยมากกแถมไม่ได้รางวัลอีก เป็นเหี้ยอะไรไม่รู้ ละเกมเป็นเหี้ยไรสร้างมินิมี ได้คนผิวดำ 12 ตัว มันไม่ควรได้ซ้ำ มึงแก้ด่วนเลยนะ",
+            "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      }
+    ],
     "segments": {
       "new": {
         "summary": "Không đủ dữ liệu.",
@@ -56,37 +73,38 @@
     "next_actions": {
       "new": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "midgame": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "veteran": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "payer": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ]
     },
     "data_health": [
-      "Sensor Tower iOS TH: đã nhập 1 review đã che tên cho ngày này.",
-      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
-      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+      "Sensor Tower Android TH: đã nhập 1 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
     ]
   },
   "items": [
@@ -106,6 +124,24 @@
       "severity": null,
       "needs_review": false,
       "rating": 3
+    },
+    {
+      "id": "android-68cd35b7057e4b30",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "k***",
+      "text_th": "แก้ไขด่วนนนนนนนน ดูโฆษนาแล้วหลุดบ่อยมากกแถมไม่ได้รางวัลอีก เป็นเหี้ยอะไรไม่รู้ ละเกมเป็นเหี้ยไรสร้างมินิมี ได้คนผิวดำ 12 ตัว มันไม่ควรได้ซ้ำ มึงแก้ด่วนเลยนะ",
+      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
     }
   ]
 }

@@ -1,0 +1,149 @@
+{
+  "date": "2026-03-31",
+  "alerts": [],
+  "items": [
+    {
+      "id": "android-54240fbf5af835a1",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "C***",
+      "text_th": "เกมนี้ได้อยู่ มีชุดน่ารัก อยากให้มีแพคชุดแบบใช้เพชรสวยๆ มาน้อยมาก อยากให้มี เยอะกว่านี้ 😊 ให้ ลดราคาพวกของใน แพ็กชุด + อยากให้แหวน ลดราคาให้ถูกกว่านี้หน่อย และก็เปลี่ยนแนวอีเว้นหน่อย และให้มีการส่งแพ็กชุด-อื่นๆ ให้เพื่อนได้แบบไม่ต้องใช้แหวน + อยากให้โฆษณาสั้นกว่านี้หรือแจกพรีเมี่ยม 7 วันก็ได้:D / อยากให้มีโค้ดสุ่มเก็บ 7 อันใน 1 สัปดาห์ ถ้ามีแบบเก็บการ์ดซ้ำได้รวม 1000 ดาว สามารถแลก การ์ดทองแบบเลือกได้จะดีมาก ถ้ามีทั้งหมดจะดีมากกก💖🙌🏻",
+      "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Mixed",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Quảng cáo gây gián đoạn",
+      "segment": "payer",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-80aa8eb63e3b892a",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "L***",
+      "text_th": "มันน่าเล่นตรงไหนวะเนี่ย เห้อ แค่เห็นการออกแบบตัวละคร อยากลบทิ้งตั้งแต่ยังไม่ได้โหลด",
+      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": "P3",
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
+    }
+  ],
+  "metrics": {
+    "volume": 2,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 2
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 1
+    },
+    "by_topic": {
+      "Other": 2
+    },
+    "by_segment": {
+      "payer": 1,
+      "unknown": 1
+    },
+    "nss": -50,
+    "nss_d1": -100,
+    "nss_7d_avg": -35.3,
+    "store": {
+      "gp_avg": 2,
+      "ios_avg": null,
+      "star_1": 1,
+      "star_5": 0
+    }
+  },
+  "report": {
+    "overview": "Có 2 review store và NSS -50. Dữ liệu gồm Google Play.",
+    "bright_spots": [],
+    "pain_points": [
+      {
+        "issue": "Góp ý trải nghiệm chung",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P3",
+        "quotes": [
+          {
+            "text_th": "มันน่าเล่นตรงไหนวะเนี่ย เห้อ แค่เห็นการออกแบบตัวละคร อยากลบทิ้งตั้งแต่ยังไม่ได้โหลด",
+            "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Có 1 phản hồi thuộc nhóm payer.",
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        ]
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower Android TH: đã nhập 2 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
+    ]
+  },
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
+  "data_mode": "production"
+}

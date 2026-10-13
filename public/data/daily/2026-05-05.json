@@ -1,0 +1,180 @@
+{
+  "date": "2026-05-05",
+  "alerts": [],
+  "items": [
+    {
+      "id": "android-de3ad873159c036c",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "N***",
+      "text_th": "ช่วยแก้เรื่องดู โฆษณา ในเกมแล้วไม่ผ่าน แล้วขึ้นบอกให้ดูใหม่ ให้หน่อยครับ",
+      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Quảng cáo gây gián đoạn",
+      "segment": "unknown",
+      "severity": "P2",
+      "needs_review": true,
+      "rating": 3,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-5d1bdc93d6d52fca",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "อ***",
+      "text_th": "แย่มากภาพไม่สวยฝากบอกถึงผู้พัฒนาเกมด้วยนะคะทั้งที่เซิร์ฟเวอร์คนมันเยอะจนมันแลคแล้วก็ยังจะเอาคนมาใส่อีกคำพูดตัวละครก็น่ารำคาญและพูดมากอีกถ้าทำให้ก็จะแก้รีวิวให้เหมือนกันค่ะขอบคุณค่ะ",
+      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-9e42255b24209ad4",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "p***",
+      "text_th": "เกมดีมากก สังคมดีแต่ส่วนใหญ่จะคุยด้วยเพราะการแต่งตัว ซื้อแพ็คเกจตัวละครไม่คุ้ม ใช้ชีวิตยังไงก็ได้เกมดีแต่เรื่องเงินไม่คุ้ม",
+      "text_vn": "Phản hồi trái chiều về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Mixed",
+      "confidence": 0.72,
+      "topic": "Topup & Payment",
+      "topic_secondary": [],
+      "theme": "Không nhận vật phẩm sau thanh toán",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "translation_status": "summary_only"
+    }
+  ],
+  "metrics": {
+    "volume": 3,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 3
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 2,
+      "Mixed": 1
+    },
+    "by_topic": {
+      "Other": 1,
+      "Bug / Crash / Lag / Performance": 1,
+      "Topup & Payment": 1
+    },
+    "by_segment": {
+      "unknown": 3
+    },
+    "nss": -66.7,
+    "nss_d1": -100,
+    "nss_7d_avg": -57.1,
+    "store": {
+      "gp_avg": 2.33,
+      "ios_avg": null,
+      "star_1": 1,
+      "star_5": 0
+    }
+  },
+  "report": {
+    "overview": "Có 3 review store và NSS -66.7. Dữ liệu gồm Google Play.",
+    "bright_spots": [],
+    "pain_points": [
+      {
+        "issue": "Quảng cáo gây gián đoạn",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "ช่วยแก้เรื่องดู โฆษณา ในเกมแล้วไม่ผ่าน แล้วขึ้นบอกให้ดูใหม่ ให้หน่อยครับ",
+            "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      },
+      {
+        "issue": "Game bị văng và treo",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "แย่มากภาพไม่สวยฝากบอกถึงผู้พัฒนาเกมด้วยนะคะทั้งที่เซิร์ฟเวอร์คนมันเยอะจนมันแลคแล้วก็ยังจะเอาคนมาใส่อีกคำพูดตัวละครก็น่ารำคาญและพูดมากอีกถ้าทำให้ก็จะแก้รีวิวให้เหมือนกันค่ะขอบคุณค่ะ",
+            "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower Android TH: đã nhập 3 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
+    ]
+  },
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
+  "data_mode": "production"
+}

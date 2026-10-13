@@ -1,40 +1,44 @@
 {
   "date": "2026-01-08",
-  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
   "data_mode": "production",
   "metrics": {
-    "volume": 3,
+    "volume": 7,
     "noise": 0,
     "by_source": {
-      "App Store": 3
+      "App Store": 3,
+      "Google Play": 4
     },
     "by_sentiment": {
-      "Positive": 1,
+      "Positive": 2,
       "Neutral": 0,
-      "Negative": 2,
-      "Mixed": 0
+      "Negative": 4,
+      "Mixed": 1
     },
     "by_topic": {
       "Gacha / Shop / Pricing": 1,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2,
+      "Other": 2,
+      "Bug / Crash / Lag / Performance": 2
     },
     "by_segment": {
-      "unknown": 1,
-      "midgame": 2
+      "unknown": 3,
+      "midgame": 2,
+      "payer": 2
     },
-    "nss": -33.3,
-    "nss_d1": null,
-    "nss_7d_avg": null,
+    "nss": -28.6,
+    "nss_d1": 0,
+    "nss_7d_avg": 31.3,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 2.75,
       "ios_avg": 2.67,
-      "star_1": 1,
-      "star_5": 1
+      "star_1": 3,
+      "star_5": 2
     }
   },
   "alerts": [],
   "report": {
-    "overview": "Có 3 review iOS và NSS -33.3. Dữ liệu mỏng. Chưa có dữ liệu D-1. Chưa đủ dữ liệu trung bình 7 ngày.",
+    "overview": "Có 7 review store và NSS -28.6. Dữ liệu gồm Google Play và App Store.",
     "bright_spots": [
       {
         "title": "Hoạt động và tính năng trong game",
@@ -44,13 +48,22 @@
           "text_vn": "Game rất vui, có nhiều minigame, trang phục miễn phí đẹp, thú cưng, trồng trọt, câu cá và nhiều hoạt động.",
           "link": "https://apps.apple.com/th/app/id1402384531"
         }
+      },
+      {
+        "title": "Trải nghiệm game tích cực",
+        "count": 1,
+        "quote": {
+          "text_th": "เกมนี้ชอบครับ สนุกดีครับ เล่น 6ปีแล้วครับ เกมนี้ไม่เบื่อ",
+          "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+          "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        }
       }
     ],
     "pain_points": [
       {
         "issue": "Giá trị phần thưởng gacha",
-        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
-        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
         "count": 1,
         "severity": "P2",
         "quotes": [
@@ -63,8 +76,8 @@
       },
       {
         "issue": "Hoạt động và tính năng trong game",
-        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
-        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
         "count": 1,
         "severity": "P2",
         "quotes": [
@@ -72,6 +85,25 @@
             "text_th": "ปรับเปลี่ยน. อยากให้แก้ไข วงปลาริงบาร์คูหน่อยค่ะ ออกยากเกินไป ยิ่งเล่นยิ่งเริ่มเบื่อไม่อยากตกปลาเเล้ว คือบางทีไปวงทั้งวันยังไม่ออก เริ่มหมดแพทชั่นในการเล่นแล้วค่ะ",
             "text_vn": "Cá vòng hiếm xuất hiện quá khó, khiến người chơi chán và mất hứng câu cá.",
             "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      },
+      {
+        "issue": "Game bị văng và treo",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 2,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "เรื่องอื่นพอทนโฆษณาไม่ได้ค้างเองละไม่ได้ของพอเลย แม่งเงินก็หายากที่นึงแบ้วของแม่งก็แพงอีกพอจะซื้อของโอ้โห150บาท ได้≈70เพชรในเกมหน้าเลือดเกินนนนของในเกมเก้ากี้≈37เพรชแล้ว คนที่ไม่มีตังมากพอเล่นไม่ได้จริงๆอ่ะละจะซื้อของเป็นชุดมาใส่ก็ดูไม่คุ้นเอาเสียเลยอ่ะ50บาทยังแต่หมวกทรงน่าเกลียดกับชุุดยีนเสื้อแขนกุดโง่ๆ เห็นละท้อ อัปเดตบ่อยชิปหายแต่ไม่ไรดีขึ้นเลย ปิดเกมไปเถอะถ้าจะหน้าด้านอย่างงี้ สังคมในเกมอย่างดีต่างจากคนทําเลยวันๆไม่ทําไรแล้วฟาร์มเงินอย่างเดียว",
+            "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          },
+          {
+            "text_th": "บัคโคตรเยอะ อัพแล้วก็บัคเหมือนเดิม เกมเอาแต่พวกเติมเยอะๆเติมบ่อยๆ พวกเติมจะดวงดีมากสังเกตมาหลายคนล่ะ โฆษณานานมากกก แถมเกมหลุดไปหน้าเซิฟโคตรบ่อย ยักตัวนึงกว่าจะออกพอออกก็เบ็ดขาด แล้วเจอพวกคนต่างปท.ชอบโปร ชอบปั่นน่ารำคาญทำให้ไม่อยากเล่น ออกไปเข้าแอพอื่นแปปเดียวหลุด น่าเบื่อ",
+            "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
           }
         ]
       }
@@ -92,44 +124,47 @@
         "links": []
       },
       "payer": {
-        "summary": "Không đủ dữ liệu.",
-        "links": []
+        "summary": "Có 2 phản hồi thuộc nhóm payer.",
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        ]
       }
     },
     "next_actions": {
       "new": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "midgame": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "veteran": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "payer": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ]
     },
     "data_health": [
-      "Sensor Tower iOS TH: đã nhập 3 review đã che tên cho ngày này.",
-      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
-      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+      "Sensor Tower Android TH: đã nhập 4 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
     ]
   },
   "items": [
@@ -183,6 +218,78 @@
       "severity": "P2",
       "needs_review": false,
       "rating": 2
+    },
+    {
+      "id": "android-fbd37385dd7219fc",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "K***",
+      "text_th": "เกมนี้ชอบครับ สนุกดีครับ เล่น 6ปีแล้วครับ เกมนี้ไม่เบื่อ",
+      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-1e93b99fb5e05b3c",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "B***",
+      "text_th": "เรื่องอื่นพอทนโฆษณาไม่ได้ค้างเองละไม่ได้ของพอเลย แม่งเงินก็หายากที่นึงแบ้วของแม่งก็แพงอีกพอจะซื้อของโอ้โห150บาท ได้≈70เพชรในเกมหน้าเลือดเกินนนนของในเกมเก้ากี้≈37เพรชแล้ว คนที่ไม่มีตังมากพอเล่นไม่ได้จริงๆอ่ะละจะซื้อของเป็นชุดมาใส่ก็ดูไม่คุ้นเอาเสียเลยอ่ะ50บาทยังแต่หมวกทรงน่าเกลียดกับชุุดยีนเสื้อแขนกุดโง่ๆ เห็นละท้อ อัปเดตบ่อยชิปหายแต่ไม่ไรดีขึ้นเลย ปิดเกมไปเถอะถ้าจะหน้าด้านอย่างงี้ สังคมในเกมอย่างดีต่างจากคนทําเลยวันๆไม่ทําไรแล้วฟาร์มเงินอย่างเดียว",
+      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "payer",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-9619bddd74945b5a",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "m***",
+      "text_th": "บัคโคตรเยอะ อัพแล้วก็บัคเหมือนเดิม เกมเอาแต่พวกเติมเยอะๆเติมบ่อยๆ พวกเติมจะดวงดีมากสังเกตมาหลายคนล่ะ โฆษณานานมากกก แถมเกมหลุดไปหน้าเซิฟโคตรบ่อย ยักตัวนึงกว่าจะออกพอออกก็เบ็ดขาด แล้วเจอพวกคนต่างปท.ชอบโปร ชอบปั่นน่ารำคาญทำให้ไม่อยากเล่น ออกไปเข้าแอพอื่นแปปเดียวหลุด น่าเบื่อ",
+      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "payer",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-39995822c1e65b8e",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "C***",
+      "text_th": "สนุก แต่บางทีแอบน่าเบื่อนิดหน่อย",
+      "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Mixed",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 4,
+      "translation_status": "summary_only"
     }
   ]
 }

@@ -32,6 +32,15 @@ npm run check
 
 Importer hiện xử lý các review năm 2026, che tên tác giả, loại PII/noise, phân loại chủ đề và cập nhật index production. Không commit file CSV gốc vì có thể chứa dữ liệu cá nhân. Google Play, Facebook group, fanpage và nguồn CS cần collector hoặc export riêng; nguồn chưa có phải được ghi rõ trong `data_health`.
 
+File export Android Thailand năm 2026 có thể nhập bằng:
+
+```bash
+node scripts/import-sensortower-android.mjs "/path/to/Android TH 2026.csv"
+npm run check
+```
+
+Importer Android gộp dữ liệu với iOS theo ngày. Cột tiếng Việt là tóm tắt phân loại có đánh dấu `needs_review`, không được xem là bản dịch nguyên văn.
+
 ## Public bằng GitHub Pages
 
 URL preview công khai qua CDN bên thứ ba, không cần cấu hình hosting:

@@ -1,35 +1,37 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
   "data_mode": "production",
   "metrics": {
-    "volume": 3,
+    "volume": 4,
     "noise": 0,
     "by_source": {
-      "App Store": 3
+      "App Store": 3,
+      "Google Play": 1
     },
     "by_sentiment": {
       "Positive": 0,
-      "Neutral": 0,
+      "Neutral": 1,
       "Negative": 3,
       "Mixed": 0
     },
     "by_topic": {
       "Bug / Crash / Lag / Performance": 2,
-      "Topup & Payment": 1
+      "Topup & Payment": 1,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1
     },
     "by_segment": {
-      "unknown": 1,
+      "unknown": 2,
       "payer": 2
     },
-    "nss": -100,
+    "nss": -75,
     "nss_d1": null,
-    "nss_7d_avg": null,
+    "nss_7d_avg": 29.2,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 5,
       "ios_avg": 3.67,
       "star_1": 0,
-      "star_5": 1
+      "star_5": 2
     }
   },
   "alerts": [
@@ -43,13 +45,13 @@
     }
   ],
   "report": {
-    "overview": "Có 3 review iOS và NSS -100. Dữ liệu mỏng. Chưa có dữ liệu D-1. Chưa đủ dữ liệu trung bình 7 ngày.",
+    "overview": "Có 4 review store và NSS -75. Dữ liệu gồm Google Play và App Store.",
     "bright_spots": [],
     "pain_points": [
       {
         "issue": "Game bị văng và treo",
-        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
-        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
         "count": 2,
         "severity": "P2",
         "quotes": [
@@ -67,8 +69,8 @@
       },
       {
         "issue": "Không nhận vật phẩm sau thanh toán",
-        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
-        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
         "count": 1,
         "severity": "P0",
         "quotes": [
@@ -103,37 +105,38 @@
     "next_actions": {
       "new": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "midgame": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "veteran": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "payer": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ]
     },
     "data_health": [
-      "Sensor Tower iOS TH: đã nhập 3 review đã che tên cho ngày này.",
-      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
-      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+      "Sensor Tower Android TH: đã nhập 1 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
     ]
   },
   "items": [
@@ -187,6 +190,24 @@
       "severity": "P0",
       "needs_review": false,
       "rating": 4
+    },
+    {
+      "id": "android-538e183dcb8275a3",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "P***",
+      "text_th": "ขอให้ปลาหายากด้วยๆน้า",
+      "text_vn": "Phản hồi trung tính về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Neutral",
+      "confidence": 0.72,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
     }
   ]
 }

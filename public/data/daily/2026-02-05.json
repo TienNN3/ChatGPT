@@ -1,46 +1,50 @@
 {
   "date": "2026-02-05",
-  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
   "data_mode": "production",
   "metrics": {
-    "volume": 2,
+    "volume": 12,
     "noise": 0,
     "by_source": {
-      "App Store": 2
+      "App Store": 2,
+      "Google Play": 10
     },
     "by_sentiment": {
       "Positive": 0,
       "Neutral": 0,
-      "Negative": 1,
-      "Mixed": 1
+      "Negative": 8,
+      "Mixed": 4
     },
     "by_topic": {
       "Gacha / Shop / Pricing": 1,
-      "Localization (Thai text, wrong translation)": 1
+      "Localization (Thai text, wrong translation)": 1,
+      "Other": 3,
+      "Bug / Crash / Lag / Performance": 6,
+      "Event & Update content": 1
     },
     "by_segment": {
       "payer": 1,
-      "unknown": 1
+      "unknown": 11
     },
-    "nss": -50,
-    "nss_d1": null,
-    "nss_7d_avg": -100,
+    "nss": -66.7,
+    "nss_d1": 0,
+    "nss_7d_avg": -20,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 2.9,
       "ios_avg": 3.5,
-      "star_1": 0,
-      "star_5": 0
+      "star_1": 3,
+      "star_5": 4
     }
   },
   "alerts": [],
   "report": {
-    "overview": "Có 2 review iOS và NSS -50. Dữ liệu mỏng. Chưa có dữ liệu D-1. NSS trung bình 7 ngày là -100.",
+    "overview": "Có 12 review store và NSS -66.7. Dữ liệu gồm Google Play và App Store.",
     "bright_spots": [],
     "pain_points": [
       {
         "issue": "Giá vật phẩm quá cao",
-        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
-        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
         "count": 1,
         "severity": "P2",
         "quotes": [
@@ -48,6 +52,39 @@
             "text_th": "เฟอร์นีเจอร์ เครื่องแต่งกาย. ช่วยลดราคาหน่อยแพงมากก💗",
             "text_vn": "Mong giảm giá nội thất và trang phục vì đang quá đắt.",
             "link": "https://apps.apple.com/th/app/id1402384531"
+          }
+        ]
+      },
+      {
+        "issue": "Game bị văng và treo",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 4,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "อัปเดตใหม่เข้าเกมแล้วจอดำ บัคบ่อยมาก ก่อนอัปไม่เป็นเลยค่ะ",
+            "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          },
+          {
+            "text_th": "อัพเดททีไรมีแต่บัค เข้าเกมส์แล้วจอมืดแก้ไม่หาย เล่นไม่ได้ทั้งวัน",
+            "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      },
+      {
+        "issue": "Phần thưởng sự kiện",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P2",
+        "quotes": [
+          {
+            "text_th": "แก้อัพเดตล่าสุดด้วยเล่นแล้วจอดำ",
+            "text_vn": "Phản hồi tiêu cực về sự kiện và nội dung cập nhật. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
           }
         ]
       }
@@ -75,37 +112,38 @@
     "next_actions": {
       "new": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "midgame": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "veteran": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "payer": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ]
     },
     "data_health": [
-      "Sensor Tower iOS TH: đã nhập 2 review đã che tên cho ngày này.",
-      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
-      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+      "Sensor Tower Android TH: đã nhập 10 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
     ]
   },
   "items": [
@@ -142,6 +180,186 @@
       "severity": "P2",
       "needs_review": false,
       "rating": 3
+    },
+    {
+      "id": "android-2024c007c038b0ba",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "T***",
+      "text_th": "เกมหรอยอย่างแรงครับ เล่นสบายๆเรื่อยๆไม่คิดมากครับ แล็คด้วย แต่สนุกดีให้อภัย🤣",
+      "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Mixed",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-f21ce2384b498063",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "ส***",
+      "text_th": "ชอบนะสนุกแต่พออัพเดทล่าสุดเข้าได้แต่เกมเหมือนจะหลุดตลอดเลยช่วยแก้ไขหน่อยคะ",
+      "text_vn": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Mixed",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-8bfc10a73b737681",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "s***",
+      "text_th": "อัปเดตใหม่เข้าเกมแล้วจอดำ บัคบ่อยมาก ก่อนอัปไม่เป็นเลยค่ะ",
+      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 2,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-0e68989e4274217d",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "N***",
+      "text_th": "อัพเดททีไรมีแต่บัค เข้าเกมส์แล้วจอมืดแก้ไม่หาย เล่นไม่ได้ทั้งวัน",
+      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-51f6cd7f5e308780",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "Y***",
+      "text_th": "แก้อัพเดตล่าสุดด้วยเล่นแล้วจอดำ",
+      "text_vn": "Phản hồi tiêu cực về sự kiện và nội dung cập nhật. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": "P2",
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-1dffaa90de4645a9",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "อ***",
+      "text_th": "อัพเดตกิจกรรมสัตว์เลี้ยงม้าบัคเยอะโครตเน่าเล่นได้สักพักจอดำบ้างภาพค้างบ้างทั้งที่กดอย่างอื่นได้ปกติแก้ด้วยครับ",
+      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 2,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-3a7c127f641eb383",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "ด***",
+      "text_th": "แก้ไขปัญหาด้วยเข้าเกมแล้วจอดำ",
+      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": "P3",
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-48bf33f7cac9710e",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "ต***",
+      "text_th": "สนุกมาเล่นเพลินๆเลยแต่ช่วงหลังๆนี้หน้าจอค้างเป็นภาพแตกๆอ่ะคะช่วยแก้ให้ด้วยนะคะ",
+      "text_vn": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Mixed",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-17078d6b7f8d8301",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "น***",
+      "text_th": "หลังจากอัพเดทมาคือมีแต่บัค เล่นไม่ได้เลย เข้าเกมแล้วมันเป็นจอดำ ทำอะไรก็ไม่ได้",
+      "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 2,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-3ab0c9bb944cb9be",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "F***",
+      "text_th": "ตอนนี้จอดำค่ะแก้ไขด่วน!!!",
+      "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": "P3",
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
     }
   ]
 }

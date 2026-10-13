@@ -1,38 +1,43 @@
 {
   "date": "2026-04-16",
-  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
   "data_mode": "production",
   "metrics": {
-    "volume": 1,
+    "volume": 6,
     "noise": 0,
     "by_source": {
-      "App Store": 1
+      "App Store": 1,
+      "Google Play": 5
     },
     "by_sentiment": {
-      "Positive": 1,
-      "Neutral": 0,
+      "Positive": 5,
+      "Neutral": 1,
       "Negative": 0,
       "Mixed": 0
     },
     "by_topic": {
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1,
+      "Other": 3,
+      "Bug / Crash / Lag / Performance": 1,
+      "Social / Scam / Harassment / Toxic": 1
     },
     "by_segment": {
-      "midgame": 1
+      "midgame": 1,
+      "unknown": 5
     },
-    "nss": 100,
+    "nss": 83.3,
     "nss_d1": null,
-    "nss_7d_avg": -100,
+    "nss_7d_avg": -10,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 5,
       "ios_avg": 5,
       "star_1": 0,
-      "star_5": 1
+      "star_5": 6
     }
   },
   "alerts": [],
   "report": {
-    "overview": "Có 1 review iOS và NSS 100. Dữ liệu mỏng. Chưa có dữ liệu D-1. NSS trung bình 7 ngày là -100.",
+    "overview": "Có 6 review store và NSS 83.3. Dữ liệu gồm Google Play và App Store.",
     "bright_spots": [
       {
         "title": "Hoạt động và tính năng trong game",
@@ -41,6 +46,24 @@
           "text_th": "เกมดีมากค่ะ. เกมเล่นสนุกมากค่ะแต่อยากให้มีมินิเกมเพิ่มมาอีกก็น่าจะดีนะคะ",
           "text_vn": "Game rất vui. Mong có thêm nhiều minigame.",
           "link": "https://apps.apple.com/th/app/id1402384531"
+        }
+      },
+      {
+        "title": "Trải nghiệm game tích cực",
+        "count": 2,
+        "quote": {
+          "text_th": "สนุกมากขอแผนที่เช่นเรื่องอวาตาร เณรน้อยเจ้าอภิหารเมือง4ธาตุสถานีที่อัศคี,อาณาจักรดิน,เผ่าวารีใต้ เหนือ ,เผ่าวายุเป็นโรงเรียนเมืองแบบใหม่เอเชียให้10ดาว",
+          "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+          "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        }
+      },
+      {
+        "title": "Game bị văng và treo",
+        "count": 1,
+        "quote": {
+          "text_th": "เกมดีมากไม่มีบัคเลยดีสุดดดด",
+          "text_vn": "Phản hồi tích cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+          "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
         }
       }
     ],
@@ -68,37 +91,38 @@
     "next_actions": {
       "new": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "midgame": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "veteran": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "payer": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ]
     },
     "data_health": [
-      "Sensor Tower iOS TH: đã nhập 1 review đã che tên cho ngày này.",
-      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
-      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+      "Sensor Tower Android TH: đã nhập 5 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
     ]
   },
   "items": [
@@ -118,6 +142,96 @@
       "severity": null,
       "needs_review": false,
       "rating": 5
+    },
+    {
+      "id": "android-e8400a016f0d28f3",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "ว***",
+      "text_th": "สนุกมากขอแผนที่เช่นเรื่องอวาตาร เณรน้อยเจ้าอภิหารเมือง4ธาตุสถานีที่อัศคี,อาณาจักรดิน,เผ่าวารีใต้ เหนือ ,เผ่าวายุเป็นโรงเรียนเมืองแบบใหม่เอเชียให้10ดาว",
+      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-2e1666e0e0424f19",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "P***",
+      "text_th": "ส่วนตัวเราเล่นตั้งแต่เกมเปิดเลยค่ะ รู้สึกว่าเกมนี้สนุกแบบเป็นเกมจอยๆไม่เครียด",
+      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-d0a115e9fcd3ddb5",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "ก***",
+      "text_th": "เกมดีมากไม่มีบัคเลยดีสุดดดด",
+      "text_vn": "Phản hồi tích cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-d6fd4a307593d3f9",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "น***",
+      "text_th": "คิดถึงคนเล่นด้วยเมื่อก่อน🥲",
+      "text_vn": "Phản hồi trung tính về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Neutral",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
+    },
+    {
+      "id": "android-423c68916bffd65d",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "N***",
+      "text_th": "สนุกมากกกได้มีเพื่อนเยอะๆๆเลยละก็ชอบเล่นเเบบโรงเรียนด้วยง่าาสนุกดี",
+      "text_vn": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Social / Scam / Harassment / Toxic",
+      "topic_secondary": [],
+      "theme": "Tương tác xã hội tiêu cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "translation_status": "summary_only"
     }
   ]
 }

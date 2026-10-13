@@ -1,30 +1,33 @@
 {
   "date": "2026-05-02",
-  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
   "data_mode": "production",
   "metrics": {
-    "volume": 1,
+    "volume": 2,
     "noise": 0,
     "by_source": {
-      "App Store": 1
+      "App Store": 1,
+      "Google Play": 1
     },
     "by_sentiment": {
       "Positive": 1,
       "Neutral": 0,
-      "Negative": 0,
+      "Negative": 1,
       "Mixed": 0
     },
     "by_topic": {
-      "Other": 1
+      "Other": 1,
+      "Topup & Payment": 1
     },
     "by_segment": {
-      "veteran": 1
+      "veteran": 1,
+      "unknown": 1
     },
-    "nss": 100,
+    "nss": 0,
     "nss_d1": -100,
-    "nss_7d_avg": -25,
+    "nss_7d_avg": -62.5,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 4,
       "ios_avg": 5,
       "star_1": 0,
       "star_5": 1
@@ -32,7 +35,7 @@
   },
   "alerts": [],
   "report": {
-    "overview": "Có 1 review iOS và NSS 100. Dữ liệu mỏng. NSS D-1 là -100. NSS trung bình 7 ngày là -25.",
+    "overview": "Có 2 review store và NSS 0. Dữ liệu gồm Google Play và App Store.",
     "bright_spots": [
       {
         "title": "Trải nghiệm game tích cực",
@@ -44,7 +47,22 @@
         }
       }
     ],
-    "pain_points": [],
+    "pain_points": [
+      {
+        "issue": "Không nhận vật phẩm sau thanh toán",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "ซื้อไอเทมแล้วจ่ายตังแล้วไอเทมไม่เข้าคือไรอะแล้วซื้อมาหลายรอบแล้วด้วยไม่ไกวนะแบบนี้",
+            "text_vn": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      }
+    ],
     "segments": {
       "new": {
         "summary": "Không đủ dữ liệu.",
@@ -68,37 +86,38 @@
     "next_actions": {
       "new": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "midgame": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "veteran": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "payer": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ]
     },
     "data_health": [
-      "Sensor Tower iOS TH: đã nhập 1 review đã che tên cho ngày này.",
-      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
-      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+      "Sensor Tower Android TH: đã nhập 1 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
     ]
   },
   "items": [
@@ -118,6 +137,24 @@
       "severity": null,
       "needs_review": false,
       "rating": 5
+    },
+    {
+      "id": "android-5c7f59579d9f98b3",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "R***",
+      "text_th": "ซื้อไอเทมแล้วจ่ายตังแล้วไอเทมไม่เข้าคือไรอะแล้วซื้อมาหลายรอบแล้วด้วยไม่ไกวนะแบบนี้",
+      "text_vn": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Topup & Payment",
+      "topic_secondary": [],
+      "theme": "Không nhận vật phẩm sau thanh toán",
+      "segment": "unknown",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 4,
+      "translation_status": "summary_only"
     }
   ]
 }

@@ -1,0 +1,130 @@
+{
+  "date": "2026-08-29",
+  "alerts": [],
+  "items": [
+    {
+      "id": "android-03f2195c4845cc3a",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "i***",
+      "text_th": "เพิ่งกลับมาเล่นเกมนี้และเราก็มีปัญหาเกี่ยวกับการเติมเงินเราเติมเงินซื้อไอเทมในเกมไม่ได้",
+      "text_vn": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Negative",
+      "confidence": 0.72,
+      "topic": "Topup & Payment",
+      "topic_secondary": [],
+      "theme": "Không nhận vật phẩm sau thanh toán",
+      "segment": "payer",
+      "severity": "P1",
+      "needs_review": true,
+      "rating": 2,
+      "translation_status": "summary_only"
+    }
+  ],
+  "metrics": {
+    "volume": 1,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Topup & Payment": 1
+    },
+    "by_segment": {
+      "payer": 1
+    },
+    "nss": -100,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": 2,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 0
+    }
+  },
+  "report": {
+    "overview": "Có 1 review store và NSS -100. Dữ liệu gồm Google Play.",
+    "bright_spots": [],
+    "pain_points": [
+      {
+        "issue": "Không nhận vật phẩm sau thanh toán",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "count": 1,
+        "severity": "P1",
+        "quotes": [
+          {
+            "text_th": "เพิ่งกลับมาเล่นเกมนี้และเราก็มีปัญหาเกี่ยวกับการเติมเงินเราเติมเงินซื้อไอเทมในเกมไม่ได้",
+            "text_vn": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+            "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+          }
+        ]
+      }
+    ],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Có 1 phản hồi thuộc nhóm payer.",
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        ]
+      }
+    },
+    "next_actions": {
+      "new": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "midgame": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "veteran": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ],
+      "payer": [
+        {
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
+          "owner": "Community",
+          "priority": "P2"
+        }
+      ]
+    },
+    "data_health": [
+      "Sensor Tower Android TH: đã nhập 1 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
+    ]
+  },
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
+  "data_mode": "production"
+}

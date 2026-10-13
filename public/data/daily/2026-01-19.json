@@ -1,6 +1,6 @@
 {
   "date": "2026-01-19",
-  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
   "data_mode": "production",
   "metrics": {
     "volume": 1,
@@ -21,8 +21,8 @@
       "unknown": 1
     },
     "nss": 100,
-    "nss_d1": null,
-    "nss_7d_avg": -100,
+    "nss_d1": -100,
+    "nss_7d_avg": -75,
     "store": {
       "gp_avg": null,
       "ios_avg": 5,

@@ -1,44 +1,56 @@
 {
   "date": "2026-06-18",
-  "generated_at": "2026-10-13T13:20:24.731+07:00",
+  "generated_at": "2026-10-13T13:45:57.094+07:00",
   "data_mode": "production",
   "metrics": {
-    "volume": 1,
+    "volume": 2,
     "noise": 0,
     "by_source": {
-      "App Store": 1
+      "App Store": 1,
+      "Google Play": 1
     },
     "by_sentiment": {
-      "Positive": 0,
+      "Positive": 1,
       "Neutral": 0,
       "Negative": 1,
       "Mixed": 0
     },
     "by_topic": {
-      "Bug / Crash / Lag / Performance": 1
+      "Bug / Crash / Lag / Performance": 1,
+      "Other": 1
     },
     "by_segment": {
-      "unknown": 1
+      "unknown": 2
     },
-    "nss": -100,
-    "nss_d1": null,
-    "nss_7d_avg": -33.3,
+    "nss": 0,
+    "nss_d1": -100,
+    "nss_7d_avg": -35,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 1,
       "ios_avg": 1,
-      "star_1": 1,
+      "star_1": 2,
       "star_5": 0
     }
   },
   "alerts": [],
   "report": {
-    "overview": "Có 1 review iOS và NSS -100. Dữ liệu mỏng. Chưa có dữ liệu D-1. NSS trung bình 7 ngày là -33.3.",
-    "bright_spots": [],
+    "overview": "Có 2 review store và NSS 0. Dữ liệu gồm Google Play và App Store.",
+    "bright_spots": [
+      {
+        "title": "Trải nghiệm game tích cực",
+        "count": 1,
+        "quote": {
+          "text_th": "ดีมาก",
+          "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+          "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th"
+        }
+      }
+    ],
     "pain_points": [
       {
         "issue": "Game bị văng và treo",
-        "cause": "Có thể do trải nghiệm hoặc hệ thống chưa đáp ứng kỳ vọng trong tình huống được mô tả.",
-        "effect": "Nếu kéo dài, vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng và tỷ lệ quay lại.",
         "count": 1,
         "severity": "P1",
         "quotes": [
@@ -71,37 +83,38 @@
     "next_actions": {
       "new": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "midgame": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "veteran": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ],
       "payer": [
         {
-          "task": "Kiểm tra thêm dữ liệu từ nhiều nguồn trước khi thực hiện thay đổi.",
+          "task": "Đối chiếu review gốc và gom thêm tín hiệu trước khi thay đổi sản phẩm.",
           "owner": "Community",
           "priority": "P2"
         }
       ]
     },
     "data_health": [
-      "Sensor Tower iOS TH: đã nhập 1 review đã che tên cho ngày này.",
-      "Google Play, Facebook group, fanpage và CS chưa có trong lần backfill này.",
-      "Toàn bộ export có 0 item bị loại vì PII và 0 item noise."
+      "Sensor Tower Android TH: đã nhập 1 review đã che tên cho ngày này.",
+      "Bản tiếng Việt của Android là tóm tắt phân loại và được đánh dấu cần review, không phải bản dịch nguyên văn.",
+      "Toàn bộ export có 0 item bị loại vì PII/rỗng và 0 item noise.",
+      "Facebook group, fanpage và CS chưa có trong lần backfill này."
     ]
   },
   "items": [
@@ -121,6 +134,24 @@
       "severity": "P1",
       "needs_review": false,
       "rating": 1
+    },
+    {
+      "id": "android-f08df5e974f75d34",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=th",
+      "author_masked": "ว***",
+      "text_th": "ดีมาก",
+      "text_vn": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
+      "sentiment": "Positive",
+      "confidence": 0.72,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "translation_status": "summary_only"
     }
   ]
 }
