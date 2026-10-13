@@ -1,82 +1,19 @@
 {
   "date": "2026-09-20",
   "alerts": [],
-  "items": [
-    {
-      "id": "facebook-0da936812cf77d44",
-      "source": "Facebook Fanpage",
-      "community": "Facebook Fanpage · @PlayTogetherGame",
-      "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid0VhT4J6fw3rmg7NiFFqxuXBx2nt3dfvDmJgQDJ7nvjZ5e4LppjYiuBnvcb7GEuqoXl?comment_id=1958675964814612",
-      "link_quality": "canonical_permalink",
-      "author_masked": "Ẩ***",
-      "text_th": "Khi nào game ra bốt thỏ bằng kc ik ad ơi",
-      "text_vn": "Khi nào game ra bốt thỏ bằng kc ik ad ơi",
-      "translation_method": "machine_translation",
-      "sentiment": "Neutral",
-      "topic": "Other",
-      "topic_secondary": [],
-      "theme": "Góp ý trải nghiệm chung",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.6,
-      "needs_review": true,
-      "content_kind": "comment",
-      "activity_type": "Bình luận",
-      "date_basis": "published_at",
-      "published_label": "Sunday, September 20, 2026 at 4:12 PM",
-      "engagement": {
-        "reactions": [],
-        "comment_count": null
-      },
-      "collected_at": "2026-10-13T14:30:00+07:00"
-    },
-    {
-      "id": "facebook-6eb5810aa916007a",
-      "source": "Facebook Fanpage",
-      "community": "Facebook Fanpage · @PlayTogetherGame",
-      "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid02ZYtmUmbkuEzpAqo8PiRee1f5PbG4v8fSxG5yEohbbV8yRRifZuvisNWLVhLHsTz7l?comment_id=1958675964814612",
-      "link_quality": "canonical_permalink",
-      "author_masked": "b***",
-      "text_th": "Khi nào game ra bốt thỏ bằng kc ik ad ơi",
-      "text_vn": "Khi nào game ra bốt thỏ bằng kc ik ad ơi",
-      "translation_method": "machine_translation",
-      "sentiment": "Neutral",
-      "topic": "Other",
-      "topic_secondary": [],
-      "theme": "Góp ý trải nghiệm chung",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.6,
-      "needs_review": true,
-      "content_kind": "comment",
-      "activity_type": "Bình luận",
-      "date_basis": "published_at",
-      "published_label": "Sunday, September 20, 2026 at 4:12 PM",
-      "engagement": {
-        "reactions": [],
-        "comment_count": null
-      },
-      "collected_at": "2026-10-13T14:30:00+07:00"
-    }
-  ],
+  "items": [],
   "metrics": {
-    "volume": 2,
+    "volume": 0,
     "noise": 0,
-    "by_source": {
-      "Facebook Fanpage": 2
-    },
+    "by_source": {},
     "by_sentiment": {
       "Positive": 0,
-      "Neutral": 2,
+      "Neutral": 0,
       "Negative": 0,
       "Mixed": 0
     },
-    "by_topic": {
-      "Other": 2
-    },
-    "by_segment": {
-      "unknown": 2
-    },
+    "by_topic": {},
+    "by_segment": {},
     "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
@@ -88,7 +25,7 @@
     }
   },
   "report": {
-    "overview": "Có 2 feedback trong ngày từ Facebook Fanpage. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
+    "overview": "Có 0 feedback trong ngày từ các nguồn đã cấu hình. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
     "bright_spots": [],
     "pain_points": [],
     "segments": {
@@ -140,13 +77,14 @@
       ]
     },
     "data_health": [
-      "Facebook ngày 2026-09-20: 2 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
-      "Lần thu thập 2026-10-13T14:30:00+07:00: 233 quan sát duy nhất (128 post, 105 comment), gồm 41 bài chỉ có hình/không có chữ truy cập được và 70 post có reaction metadata.",
-      "103 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Facebook ngày 2026-09-20: 0 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
+      "Lần thu thập 2026-10-13T14:30:00+07:00: 206 quan sát duy nhất (116 post, 90 comment), gồm 41 bài chỉ có hình/không có chữ truy cập được và 59 post có reaction metadata.",
+      "93 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Fanpage chỉ giữ bình luận từ facebook.com/playtogetherthailandofficial; đã loại 12 bài fanpage và 15 bình luận không thuộc fanpage Thái.",
       "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
-      "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
+      "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:23:39.689Z",
+  "generated_at": "2026-10-13T08:37:59.960Z",
   "data_mode": "production"
 }

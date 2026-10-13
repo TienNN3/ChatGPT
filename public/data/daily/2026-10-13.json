@@ -12,37 +12,6 @@
   ],
   "items": [
     {
-      "id": "facebook-cf0f63d0b94ecbb9",
-      "source": "Facebook Fanpage",
-      "community": "Facebook Fanpage · @PlayTogetherGame",
-      "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid02rzj1AVDgFFhRryne2buQtLMvWUmAq8igzvzMAsKZ75XTY1Y7Z886eUPiochacRd2l",
-      "link_quality": "canonical_permalink",
-      "author_masked": "P***",
-      "text_th": "What You Get When You Transfer to PLAY TOGETHER VNG \n… See more",
-      "text_vn": "Bạn Nhận Được Gì Khi Chuyển Sang PLAY TOGETHER VNG \n… Xem thêm",
-      "translation_method": "machine_translation",
-      "sentiment": "Neutral",
-      "topic": "Login / Account / Data",
-      "topic_secondary": [],
-      "theme": "Đăng nhập tài khoản",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.6,
-      "needs_review": true,
-      "content_kind": "post",
-      "activity_type": "Nội dung chính thức",
-      "date_basis": "observed_at",
-      "published_label": null,
-      "engagement": {
-        "reactions": [
-          "Like: 65 people",
-          "Love: 10 people"
-        ],
-        "comment_count": "16"
-      },
-      "collected_at": "2026-10-13T14:30:00+07:00"
-    },
-    {
       "id": "facebook-ba20e40b260bc504",
       "source": "Facebook Group",
       "community": "Facebook Group · 1772363333745643",
@@ -2318,283 +2287,6 @@
       "collected_at": "2026-10-13T14:30:00+07:00"
     },
     {
-      "id": "facebook-8e00c1deac7dbb6b",
-      "source": "Facebook Fanpage",
-      "community": "Facebook Fanpage · @PlayTogetherGame",
-      "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid02ZYtmUmbkuEzpAqo8PiRee1f5PbG4v8fSxG5yEohbbV8yRRifZuvisNWLVhLHsTz7l",
-      "link_quality": "canonical_permalink",
-      "author_masked": "P***",
-      "text_th": "Get ready to welcome an adorable Moon Rabbit friend!\nF… See more",
-      "text_vn": "Hãy sẵn sàng chào đón một người bạn Thỏ Mặt Trăng đáng yêu!\nF… Xem thêm",
-      "translation_method": "machine_translation",
-      "sentiment": "Positive",
-      "topic": "Other",
-      "topic_secondary": [],
-      "theme": "Góp ý trải nghiệm chung",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.68,
-      "needs_review": true,
-      "content_kind": "post",
-      "activity_type": "Nội dung chính thức",
-      "date_basis": "observed_at",
-      "published_label": null,
-      "engagement": {
-        "reactions": [
-          "Like: 199 people",
-          "Love: 28 people"
-        ],
-        "comment_count": "42"
-      },
-      "collected_at": "2026-10-13T14:30:00+07:00"
-    },
-    {
-      "id": "facebook-e8b9a8c682a188e2",
-      "source": "Facebook Fanpage",
-      "community": "Facebook Fanpage · @PlayTogetherGame",
-      "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid02gfVJHDMCSfST9deUC6Q6xoJJ4rWTFZwJmNi5uitzs1qsR84RNijbkPeJQ8emtPjBl",
-      "link_quality": "canonical_permalink",
-      "author_masked": "P***",
-      "text_th": "https://youtube.com/shorts/u3BEyhz6hYo… See more",
-      "text_vn": "https://youtube.com/shorts/u3BEyhz6hYo… Xem thêm",
-      "translation_method": "machine_translation",
-      "sentiment": "Neutral",
-      "topic": "Other",
-      "topic_secondary": [],
-      "theme": "Góp ý trải nghiệm chung",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.6,
-      "needs_review": true,
-      "content_kind": "post",
-      "activity_type": "Nội dung chính thức",
-      "date_basis": "observed_at",
-      "published_label": null,
-      "engagement": {
-        "reactions": [
-          "Like: 8 people",
-          "Love: 2 people"
-        ],
-        "comment_count": "3"
-      },
-      "collected_at": "2026-10-13T14:30:00+07:00"
-    },
-    {
-      "id": "facebook-ba4ed678f84830e7",
-      "source": "Facebook Fanpage",
-      "community": "Facebook Fanpage · @PlayTogetherGame",
-      "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid0nBFrbr7U99JGGs4RrsrVebH6xiLGgC7HsVBipewb1fCYh2runMJswJ4VghEnK9pkl",
-      "link_quality": "canonical_permalink",
-      "author_masked": "P***",
-      "text_th": "Pick your fit\nWhich one’s your vibe? \n… See more",
-      "text_vn": "Chọn sự phù hợp của bạn\nĐâu là sự rung cảm của bạn? \n… Xem thêm",
-      "translation_method": "machine_translation",
-      "sentiment": "Neutral",
-      "topic": "Other",
-      "topic_secondary": [],
-      "theme": "Góp ý trải nghiệm chung",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.6,
-      "needs_review": true,
-      "content_kind": "post",
-      "activity_type": "Nội dung chính thức",
-      "date_basis": "observed_at",
-      "published_label": null,
-      "engagement": {
-        "reactions": [
-          "Like: 562 people",
-          "Love: 104 people"
-        ],
-        "comment_count": "57"
-      },
-      "collected_at": "2026-10-13T14:30:00+07:00"
-    },
-    {
-      "id": "facebook-3962f617a11ebf27",
-      "source": "Facebook Fanpage",
-      "community": "Facebook Fanpage · @PlayTogetherGame",
-      "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid02dzxT3g3Ce1d4PoSR5wLTbDzfSJog9tKBBWUB7mf8xpSiv3vHRbzj2s5qhBWvkPmQl",
-      "link_quality": "canonical_permalink",
-      "author_masked": "P***",
-      "text_th": "Pick your fit\nWhich one’s your vibe? \n… See more",
-      "text_vn": "Chọn sự phù hợp của bạn\nĐâu là sự rung cảm của bạn? \n… Xem thêm",
-      "translation_method": "machine_translation",
-      "sentiment": "Neutral",
-      "topic": "Other",
-      "topic_secondary": [],
-      "theme": "Góp ý trải nghiệm chung",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.6,
-      "needs_review": true,
-      "content_kind": "post",
-      "activity_type": "Nội dung chính thức",
-      "date_basis": "observed_at",
-      "published_label": null,
-      "engagement": {
-        "reactions": [
-          "Like: 185 people",
-          "Love: 38 people"
-        ],
-        "comment_count": "27"
-      },
-      "collected_at": "2026-10-13T14:30:00+07:00"
-    },
-    {
-      "id": "facebook-e365fb4c858eb855",
-      "source": "Facebook Fanpage",
-      "community": "Facebook Fanpage · @PlayTogetherGame",
-      "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid0g9ZpJ96DLk2ChF54oSBdKdtEPGTgLpT9pnZAGANvainy8ow2eQ2Yyvd93WZ24Fcal",
-      "link_quality": "canonical_permalink",
-      "author_masked": "P***",
-      "text_th": "Upgradite Boost Week is coming soon!\nLog in to PLAY TOGETHER every day and grab special rewards!\n… See more",
-      "text_vn": "Tuần tăng cường nâng cấp sắp diễn ra!\nĐăng nhập để CHƠI CÙNG NHAU mỗi ngày và nhận phần thưởng đặc biệt!\n… Xem thêm",
-      "translation_method": "machine_translation",
-      "sentiment": "Neutral",
-      "topic": "Login / Account / Data",
-      "topic_secondary": [],
-      "theme": "Đăng nhập tài khoản",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.6,
-      "needs_review": true,
-      "content_kind": "post",
-      "activity_type": "Nội dung chính thức",
-      "date_basis": "observed_at",
-      "published_label": null,
-      "engagement": {
-        "reactions": [
-          "Like: 45 people",
-          "Love: 5 people"
-        ],
-        "comment_count": "4"
-      },
-      "collected_at": "2026-10-13T14:30:00+07:00"
-    },
-    {
-      "id": "facebook-e256aaedd75e5216",
-      "source": "Facebook Fanpage",
-      "community": "Facebook Fanpage · @PlayTogetherGame",
-      "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid02RrDvNd6S2iAXFVE68BFYMANBEWvdD6zuVB8Vhg2pdUVv4Ure5drVFzU7N4VCms8Hl",
-      "link_quality": "canonical_permalink",
-      "author_masked": "P***",
-      "text_th": "New rewards are coming to the Forgotten Island’s Golden Box!\nFollow the signal around the island and discover hidden Golden Boxes.… See more",
-      "text_vn": "Phần thưởng mới đang đến với Hộp Vàng của Đảo Bị Lãng Quên!\nĐi theo tín hiệu quanh đảo và khám phá những Hộp Vàng ẩn giấu.… Xem thêm",
-      "translation_method": "machine_translation",
-      "sentiment": "Neutral",
-      "topic": "Event & Update content",
-      "topic_secondary": [],
-      "theme": "Phần thưởng sự kiện",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.6,
-      "needs_review": true,
-      "content_kind": "post",
-      "activity_type": "Nội dung chính thức",
-      "date_basis": "observed_at",
-      "published_label": null,
-      "engagement": {
-        "reactions": [
-          "Like: 96 people",
-          "Love: 12 people",
-          "Haha: 6 people"
-        ],
-        "comment_count": "12"
-      },
-      "collected_at": "2026-10-13T14:30:00+07:00"
-    },
-    {
-      "id": "facebook-2555fe3312d8caea",
-      "source": "Facebook Fanpage",
-      "community": "Facebook Fanpage · @holly.brammer.3",
-      "link": "https://www.facebook.com/holly.brammer.3?comment_id=Y29tbWVudDoxNjk3NDI1MzA1NzIzNDY3XzE3NDU4MjEyMjk5NzY1MjQ%3D",
-      "link_quality": "captured_comment_reference",
-      "author_masked": "H***",
-      "text_th": "I still can’t upload a house or club photo … it says uploaded successfully then doesn’t show on my profile or club ??",
-      "text_vn": "Tôi vẫn không thể tải lên ảnh ngôi nhà hoặc câu lạc bộ… nó báo đã tải lên thành công nhưng không hiển thị trên hồ sơ hoặc câu lạc bộ của tôi ??",
-      "translation_method": "machine_translation",
-      "sentiment": "Negative",
-      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
-      "topic_secondary": [],
-      "theme": "Hoạt động và tính năng trong game",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.68,
-      "needs_review": true,
-      "content_kind": "comment",
-      "activity_type": "Bình luận",
-      "date_basis": "observed_at",
-      "published_label": null,
-      "engagement": {
-        "reactions": [],
-        "comment_count": null
-      },
-      "collected_at": "2026-10-13T14:30:00+07:00"
-    },
-    {
-      "id": "facebook-2914dced05442f72",
-      "source": "Facebook Fanpage",
-      "community": "Facebook Fanpage · @PlayTogetherGame",
-      "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid033sQuRfB3jxBwJ8Tv4K6yhDvmA42qLEirapkwCBo2gDqiMrKB3nETTcG5GAZLSs8Dl",
-      "link_quality": "canonical_permalink",
-      "author_masked": "P***",
-      "text_th": "Summer's Over, School's In!\nCheck out various school fashion items!… See more",
-      "text_vn": "Mùa hè kết thúc, trường học bắt đầu!\nTham khảo nhiều món đồ thời trang học đường khác nhau!… Xem thêm",
-      "translation_method": "machine_translation",
-      "sentiment": "Neutral",
-      "topic": "Other",
-      "topic_secondary": [],
-      "theme": "Góp ý trải nghiệm chung",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.6,
-      "needs_review": true,
-      "content_kind": "post",
-      "activity_type": "Nội dung chính thức",
-      "date_basis": "observed_at",
-      "published_label": null,
-      "engagement": {
-        "reactions": [
-          "Like: 623 people",
-          "Love: 163 people"
-        ],
-        "comment_count": "94"
-      },
-      "collected_at": "2026-10-13T14:30:00+07:00"
-    },
-    {
-      "id": "facebook-0c0d05d017cc7b00",
-      "source": "Facebook Fanpage",
-      "community": "Facebook Fanpage · @PlayTogetherGame",
-      "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid0wfZqzKrv2yx2jx9fJ7sRpU2uQYktEH4nrKZqeeQZJAPnmbWHN13Nu4pAVkeK93hJl",
-      "link_quality": "canonical_permalink",
-      "author_masked": "P***",
-      "text_th": "In order to celebrate the Play Together update and to thank our dear residents for their warm support and love, we have prepared the following coupons.\n※ For details,… See more",
-      "text_vn": "Để chào mừng bản cập nhật Play Together và để cảm ơn những cư dân thân yêu vì sự ủng hộ và yêu thương nồng nhiệt của họ, chúng tôi đã chuẩn bị các phiếu giảm giá sau.\n※ Để biết chi tiết,… Xem thêm",
-      "translation_method": "machine_translation",
-      "sentiment": "Positive",
-      "topic": "Event & Update content",
-      "topic_secondary": [],
-      "theme": "Phần thưởng sự kiện",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.68,
-      "needs_review": true,
-      "content_kind": "post",
-      "activity_type": "Nội dung chính thức",
-      "date_basis": "observed_at",
-      "published_label": null,
-      "engagement": {
-        "reactions": [
-          "Like: 377 people",
-          "Love: 50 people"
-        ],
-        "comment_count": "50"
-      },
-      "collected_at": "2026-10-13T14:30:00+07:00"
-    },
-    {
       "id": "facebook-da660357d826ad4e",
       "source": "Facebook Group",
       "community": "Facebook Group · 815754622673816",
@@ -3431,33 +3123,32 @@
     }
   ],
   "metrics": {
-    "volume": 116,
+    "volume": 106,
     "noise": 0,
     "by_source": {
-      "Facebook Fanpage": 10,
       "Facebook Group": 106
     },
     "by_sentiment": {
-      "Positive": 6,
-      "Neutral": 101,
-      "Negative": 8,
+      "Positive": 4,
+      "Neutral": 94,
+      "Negative": 7,
       "Mixed": 1
     },
     "by_topic": {
-      "Login / Account / Data": 6,
-      "Other": 85,
-      "Event & Update content": 7,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 4,
+      "Other": 80,
+      "Event & Update content": 5,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 3,
       "Gacha / Shop / Pricing": 10,
+      "Login / Account / Data": 4,
       "Bug / Crash / Lag / Performance": 4
     },
     "by_segment": {
-      "unknown": 112,
+      "unknown": 102,
       "midgame": 2,
       "payer": 1,
       "veteran": 1
     },
-    "nss": -1.7,
+    "nss": -2.8,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
@@ -3468,7 +3159,7 @@
     }
   },
   "report": {
-    "overview": "Có 116 feedback trong ngày từ Facebook Fanpage, Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
+    "overview": "Có 106 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
     "bright_spots": [
       {
         "title": "Hoạt động và tính năng trong game",
@@ -3536,18 +3227,13 @@
         "issue": "Hoạt động và tính năng trong game",
         "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
         "effect": "Vấn đề có thể làm giảm mức hài lòng hoặc cản trở tiếp tục chơi.",
-        "count": 2,
+        "count": 1,
         "severity": "P2",
         "quotes": [
           {
             "text_th": "อยากได้หูกับหน้าเวร้ย \n ชั้นไม่ชอบตกปลาา สมาธิสั้นน",
             "text_vn": "Người chơi muốn nhận phụ kiện tai và mặt nhưng không thích phải câu cá, vì hoạt động này không phù hợp với khả năng tập trung của họ.",
             "link": "https://www.facebook.com/groups/playtogetherth/posts/28567451379532671/"
-          },
-          {
-            "text_th": "I still can’t upload a house or club photo … it says uploaded successfully then doesn’t show on my profile or club ??",
-            "text_vn": "Tôi vẫn không thể tải lên ảnh ngôi nhà hoặc câu lạc bộ… nó báo đã tải lên thành công nhưng không hiển thị trên hồ sơ hoặc câu lạc bộ của tôi ??",
-            "link": "https://www.facebook.com/holly.brammer.3?comment_id=Y29tbWVudDoxNjk3NDI1MzA1NzIzNDY3XzE3NDU4MjEyMjk5NzY1MjQ%3D"
           }
         ]
       }
@@ -3607,13 +3293,14 @@
       ]
     },
     "data_health": [
-      "Facebook ngày 2026-10-13: 116 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
-      "Lần thu thập 2026-10-13T14:30:00+07:00: 233 quan sát duy nhất (128 post, 105 comment), gồm 41 bài chỉ có hình/không có chữ truy cập được và 70 post có reaction metadata.",
-      "103 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Facebook ngày 2026-10-13: 106 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
+      "Lần thu thập 2026-10-13T14:30:00+07:00: 206 quan sát duy nhất (116 post, 90 comment), gồm 41 bài chỉ có hình/không có chữ truy cập được và 59 post có reaction metadata.",
+      "93 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Fanpage chỉ giữ bình luận từ facebook.com/playtogetherthailandofficial; đã loại 12 bài fanpage và 15 bình luận không thuộc fanpage Thái.",
       "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
-      "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
+      "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:23:39.689Z",
+  "generated_at": "2026-10-13T08:37:59.960Z",
   "data_mode": "production"
 }

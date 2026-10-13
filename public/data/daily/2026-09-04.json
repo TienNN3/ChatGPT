@@ -29,57 +29,27 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T14:30:00+07:00"
-    },
-    {
-      "id": "facebook-fde2aca484fddd12",
-      "source": "Facebook Fanpage",
-      "community": "Facebook Fanpage · @PlayTogetherGame",
-      "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid02RrDvNd6S2iAXFVE68BFYMANBEWvdD6zuVB8Vhg2pdUVv4Ure5drVFzU7N4VCms8Hl?comment_id=1745946066618990",
-      "link_quality": "canonical_permalink",
-      "author_masked": "N***",
-      "text_th": "Haha hài quá",
-      "text_vn": "Haha hài quá",
-      "translation_method": "machine_translation",
-      "sentiment": "Neutral",
-      "topic": "Other",
-      "topic_secondary": [],
-      "theme": "Góp ý trải nghiệm chung",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.6,
-      "needs_review": true,
-      "content_kind": "comment",
-      "activity_type": "Bình luận",
-      "date_basis": "published_at",
-      "published_label": "Friday, September 4, 2026 at 2:40 PM",
-      "engagement": {
-        "reactions": [],
-        "comment_count": null
-      },
-      "collected_at": "2026-10-13T14:30:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 2,
+    "volume": 1,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 1,
-      "Facebook Fanpage": 1
+      "Facebook Group": 1
     },
     "by_sentiment": {
       "Positive": 1,
-      "Neutral": 1,
+      "Neutral": 0,
       "Negative": 0,
       "Mixed": 0
     },
     "by_topic": {
-      "Gacha / Shop / Pricing": 1,
-      "Other": 1
+      "Gacha / Shop / Pricing": 1
     },
     "by_segment": {
-      "unknown": 2
+      "unknown": 1
     },
-    "nss": 50,
+    "nss": 100,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
@@ -90,7 +60,7 @@
     }
   },
   "report": {
-    "overview": "Có 2 feedback trong ngày từ Facebook Group, Facebook Fanpage. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
+    "overview": "Có 1 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
     "bright_spots": [
       {
         "title": "Giá trị phần thưởng gacha",
@@ -152,13 +122,14 @@
       ]
     },
     "data_health": [
-      "Facebook ngày 2026-09-04: 2 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
-      "Lần thu thập 2026-10-13T14:30:00+07:00: 233 quan sát duy nhất (128 post, 105 comment), gồm 41 bài chỉ có hình/không có chữ truy cập được và 70 post có reaction metadata.",
-      "103 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Facebook ngày 2026-09-04: 1 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
+      "Lần thu thập 2026-10-13T14:30:00+07:00: 206 quan sát duy nhất (116 post, 90 comment), gồm 41 bài chỉ có hình/không có chữ truy cập được và 59 post có reaction metadata.",
+      "93 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
+      "Fanpage chỉ giữ bình luận từ facebook.com/playtogetherthailandofficial; đã loại 12 bài fanpage và 15 bình luận không thuộc fanpage Thái.",
       "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
-      "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
+      "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:23:39.689Z",
+  "generated_at": "2026-10-13T08:37:59.960Z",
   "data_mode": "production"
 }

@@ -13,11 +13,13 @@ test("opens with yesterday selected", async () => {
 test("exposes daily intelligence shortcuts and separates uncertain dates", async () => {
   const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
   assert.match(html, /data-days="yesterday">Hôm qua/);
-  assert.match(html, /Số feedback theo ngày/);
+  assert.match(html, /Xu hướng số lượng phản hồi/);
   assert.match(html, /i\.date_basis!==['"]observed_at['"]/);
   assert.match(html, /id="activityFilter"/);
   assert.doesNotMatch(html, /NSS/);
-  assert.match(html, /Mỗi ngày, mỗi cộng đồng có bao nhiêu feedback/);
+  assert.match(html, /Số lượng phản hồi theo ngày và cộng đồng/);
   assert.match(html, /function channelName\(item\)/);
   assert.match(html, /Bản dịch tiếng Việt được đặt trước nguyên văn/);
+  assert.match(html, /start=dateAdd\(end,-29\)/);
+  assert.match(html, /data\/facebook-insights\.json/);
 });

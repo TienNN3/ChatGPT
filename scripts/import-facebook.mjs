@@ -14,6 +14,7 @@ const normalize = (value) => String(value || "").normalize("NFKC").replace(/\s+/
 const legacyKey = (item) => `${item.link}|${normalize(item.text_th ?? item.text)}|${item.author_masked}`;
 const itemKey = (item) => `${item.link}|${normalize(item.text_th ?? item.text)}|${item.author_masked}|${item.content_kind ?? item.kind ?? ""}`;
 const generatedAt = new Date().toISOString();
+const thaiFanpageHandle = "playtogetherthailandofficial";
 const quote = (item) => ({ text_th: item.text_th, text_vn: item.text_vn, link: item.link });
 const maxSeverity = (values) => values.filter(Boolean).sort((a, b) => Number(a.slice(1)) - Number(b.slice(1)))[0] || null;
 
@@ -98,6 +99,7 @@ function buildReport(items, date, collection, importStats) {
       `Facebook ngày ${date}: ${items.filter((item) => item.source?.startsWith("Facebook")).length} quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.`,
       `Lần thu thập ${collection.collected_at}: ${importStats.total} quan sát duy nhất (${importStats.posts} post, ${importStats.comments} comment), gồm ${importStats.imageOnly} bài chỉ có hình/không có chữ truy cập được và ${importStats.withReactions} post có reaction metadata.`,
       `${importStats.observedDate} mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.`,
+      `Fanpage chỉ giữ bình luận từ facebook.com/${thaiFanpageHandle}; đã loại ${importStats.filteredFanpagePosts} bài fanpage và ${importStats.filteredNonThaiFanpageComments} bình luận không thuộc fanpage Thái.`,
       `Phạm vi truy cập: ${collection.accessible_groups}/8 group đọc được; ${collection.locked_groups}/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.`,
       `Có ${importStats.nonCanonical} comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review.`
     ]
@@ -124,10 +126,17 @@ for (const file of files) {
 
 const staged = [];
 const dedupe = new Set();
+let filteredFanpagePosts = 0;
+let filteredNonThaiFanpageComments = 0;
 for (const raw of staging.observations) {
   if (!allowedSources.has(raw.source)) throw new Error(`Invalid Facebook source: ${raw.source}`);
   if (!/^.{1}\*\*\*$/u.test(raw.author_masked)) throw new Error(`Author must already be masked: ${raw.author_masked}`);
   if (!new Set(["post", "comment"]).has(raw.kind)) throw new Error(`Invalid content kind: ${raw.kind}`);
+  if (raw.source === "Facebook Fanpage") {
+    if (raw.kind !== "comment") { filteredFanpagePosts++; continue; }
+    const page = new URL(raw.link).pathname.split("/").filter(Boolean)[0]?.toLowerCase();
+    if (page !== thaiFanpageHandle) { filteredNonThaiFanpageComments++; continue; }
+  }
   const text = String(raw.text || "").trim();
   if (!text) throw new Error(`Missing text for ${raw.link}`);
   const linkInfo = cleanLink(raw.link, raw.kind);
@@ -156,7 +165,9 @@ const importStats = {
   imageOnly: staged.filter((item) => /^\[(?:Image post|Post without accessible text)/i.test(item.text_th)).length,
   withReactions: staged.filter((item) => item.content_kind === "post" && item.engagement.reactions.length).length,
   observedDate: staged.filter((item) => item.date_basis === "observed_at").length,
-  nonCanonical: staged.filter((item) => item.link_quality !== "canonical_permalink").length
+  nonCanonical: staged.filter((item) => item.link_quality !== "canonical_permalink").length,
+  filteredFanpagePosts,
+  filteredNonThaiFanpageComments
 };
 for (const payload of payloads.values()) payload.items = (payload.items || []).filter((item) => !item.source?.startsWith("Facebook"));
 for (const [date, incoming] of byDate) {

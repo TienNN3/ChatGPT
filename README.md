@@ -53,6 +53,8 @@ npm run check
 
 Importer tạo ID ổn định, chuẩn hóa permalink, chống trùng theo permalink + nội dung + tác giả đã che + loại nội dung, định danh từng group/fanpage trong `community`, gộp với review store theo ngày và cập nhật metrics/report/index. Mọi post/comment truy cập được đều được giữ lại, gồm bài khoe ảnh, rao bán và thảo luận chung; reaction và số comment được lưu trong `engagement`. Mục không có ngày đăng hiển thị được dùng ngày quan sát với `date_basis=observed_at`, không tự suy đoán ngày đăng.
 
+Phạm vi fanpage được giới hạn ở **comment** trên `facebook.com/playtogetherthailandofficial`. Bài đăng fanpage và nội dung từ `PlayTogetherGame` global bị loại; group vẫn giữ cả post và comment.
+
 Script dịch thay các câu trạng thái `cần dịch` bằng tiếng Việt để Feedback Explorer luôn ưu tiên nội dung người vận hành đọc được. Bản dịch máy được đánh dấu bằng `translation_method=machine_translation`; bài chỉ có hình được ghi rõ là không có chữ để dịch.
 
 ## Nhập rating Sensor Tower

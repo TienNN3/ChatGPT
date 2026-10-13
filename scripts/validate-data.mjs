@@ -46,6 +46,7 @@ for (const file of files.filter((name) => name.endsWith(".json"))) {
       if (!item.community) errors.push(`${file}/${item.id}: missing Facebook community identifier`);
       if (!item.activity_type) errors.push(`${file}/${item.id}: missing Facebook activity_type`);
       if (/cần dịch|cần review thủ công/iu.test(item.text_vn)) errors.push(`${file}/${item.id}: Facebook feedback still lacks Vietnamese content`);
+      if (item.source === "Facebook Fanpage" && (item.content_kind !== "comment" || !/^https:\/\/(?:www\.)?facebook\.com\/playtogetherthailandofficial\//i.test(item.link))) errors.push(`${file}/${item.id}: fanpage data must be a comment from the Thailand official fanpage`);
       if (!new Set(["published_at", "observed_at"]).has(item.date_basis)) errors.push(`${file}/${item.id}: missing/invalid Facebook date_basis`);
       if (!item.engagement || !Array.isArray(item.engagement.reactions)) errors.push(`${file}/${item.id}: missing Facebook engagement metadata`);
     }
