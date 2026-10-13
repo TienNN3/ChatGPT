@@ -41,15 +41,15 @@
       "text_vn": "Mã mới Nông Bát sắp ra mắt.\nPT26BATPET",
       "translation_method": "machine_translation",
       "sentiment": "Neutral",
-      "topic": "Bug / Crash / Lag / Performance",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
-      "theme": "Game bị văng và treo",
+      "theme": "Hoạt động và tính năng trong game",
       "segment": "unknown",
       "severity": null,
       "confidence": 0.6,
       "needs_review": true,
       "content_kind": "post",
-      "activity_type": "Hỏi đáp / báo lỗi",
+      "activity_type": "Thảo luận",
       "date_basis": "published_at",
       "published_label": "2 days ago",
       "engagement": {
@@ -527,9 +527,8 @@
     },
     "by_topic": {
       "Other": 12,
-      "Bug / Crash / Lag / Performance": 1,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2,
       "Event & Update content": 2,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1,
       "Login / Account / Data": 2
     },
     "by_segment": {
@@ -671,6 +670,6 @@
       "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:37:59.960Z",
+  "generated_at": "2026-10-13T09:06:38.590Z",
   "data_mode": "production"
 }

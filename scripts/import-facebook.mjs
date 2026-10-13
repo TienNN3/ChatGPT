@@ -49,8 +49,9 @@ function observationDate(label, collectedAt) {
 
 function classify(text) {
   const value = normalize(text);
+  if (/(ค้างคาว|\bbats?\b)/iu.test(value)) return { topic: "Activities (fishing, bugs, pets, housing, jobs, minigames)", theme: "Hoạt động và tính năng trong game" };
   if (/(login|log in|account|role id|transfer|vng|บัญชี|เข้าสู่ระบบ)/iu.test(value)) return { topic: "Login / Account / Data", theme: "Đăng nhập tài khoản" };
-  if (/(lag|crash|freeze|bug|error|can't|cannot|ไม่ได้|ปัญหา|หลุด|ค้าง)/iu.test(value)) return { topic: "Bug / Crash / Lag / Performance", theme: "Game bị văng và treo" };
+  if (/(lag|crash|freeze|bug|error|can't|cannot|ไม่ได้|ปัญหา|หลุด|ค้าง(?!คาว))/iu.test(value)) return { topic: "Bug / Crash / Lag / Performance", theme: "Game bị văng và treo" };
   if (/(gacha|สุ่ม|ราคา|ขาย|sell|buy|บาท|฿|gem|เพชร)/iu.test(value)) return { topic: "Gacha / Shop / Pricing", theme: "Giá trị phần thưởng gacha" };
   if (/(event|กิจกรรม|coupon|code|reward|รางวัล)/iu.test(value)) return { topic: "Event & Update content", theme: "Phần thưởng sự kiện" };
   if (/(fish|fishing|pet|house|home|farm|ตกปลา|สัตว์|บ้าน|ฟาร์ม|minigame)/iu.test(value)) return { topic: "Activities (fishing, bugs, pets, housing, jobs, minigames)", theme: "Hoạt động và tính năng trong game" };
@@ -146,11 +147,12 @@ for (const raw of staging.observations) {
   dedupe.add(key);
   const previous = manual.get(key) || manual.get(`${linkInfo.link}|${normalize(text)}|${raw.author_masked}`);
   const classification = classify(text);
+  const batFalsePositive = previous?.theme === "Game bị văng và treo" && /(ค้างคาว|\bbats?\b)/iu.test(normalize(text));
   staged.push({
     id: `facebook-${createHash("sha256").update(key).digest("hex").slice(0, 16)}`,
     source: raw.source, community: communityName(linkInfo.link, raw.source), link: linkInfo.link, link_quality: linkInfo.link_quality, author_masked: raw.author_masked,
     text_th: text, text_vn: previous?.text_vn || fallbackVietnamese(raw.kind, text), translation_method: previous?.translation_method, sentiment: previous?.sentiment || "Neutral",
-    topic: previous?.topic || classification.topic, topic_secondary: previous?.topic_secondary || [], theme: previous?.theme || classification.theme,
+    topic: batFalsePositive ? classification.topic : previous?.topic || classification.topic, topic_secondary: previous?.topic_secondary || [], theme: batFalsePositive ? classification.theme : previous?.theme || classification.theme,
     segment: previous?.segment || "unknown", severity: previous?.severity ?? null, confidence: previous?.confidence ?? 0.45,
     needs_review: previous?.needs_review ?? true, content_kind: raw.kind, activity_type: activityType(raw, classification), date_basis: dateInfo.date_basis, published_label: raw.timestamp || null,
     engagement: { reactions: Array.isArray(raw.engagement?.reactions) ? raw.engagement.reactions : [], comment_count: raw.engagement?.comment_count ?? null },

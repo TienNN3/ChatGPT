@@ -2,12 +2,13 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
-test("opens in a clear one-day view for yesterday", async () => {
+test("opens with the latest seven-day range selected", async () => {
   const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
-  assert.match(html, /const state = \{ mode:'day'/);
-  assert.match(html, /data-mode="day" class="active"/);
-  assert.match(html, /const initialDate=dateAdd\(latest,-1\)/);
-  assert.match(html, /Ngày cần xem/);
+  assert.match(html, /const state = \{ mode:'range'/);
+  assert.match(html, /data-mode="range" class="active"/);
+  assert.match(html, /data-days="7">7 ngày gần nhất/);
+  assert.match(html, /initialStart=dateAdd\(latest,-6\)/);
+  assert.match(html, /setMode\('range'\)/);
 });
 
 test("keeps the selected period authoritative and separates uncertain dates", async () => {
@@ -26,6 +27,21 @@ test("keeps the selected period authoritative and separates uncertain dates", as
   assert.match(html, /calendarDates\(dateAdd\(chosen\[0\],-29\),chosen\[0\]\)/);
   assert.match(html, /previousDays\(current\)/);
   assert.match(html, /data\/facebook-insights\.json/);
+});
+
+test("shows the supplied Thailand community badge", async () => {
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  assert.match(html, /assets\/vnggames-th-badge\.png/);
+  assert.match(html, /alt="VNGGames Thailand Community"/);
+});
+
+test("does not mistake the Thai word for bat for a frozen game", async () => {
+  for (const date of ["2026-10-11", "2026-10-13"]) {
+    const day = JSON.parse(await readFile(new URL(`../public/data/daily/${date}.json`, import.meta.url), "utf8"));
+    const batItems = day.items.filter((item) => /ค้างคาว/iu.test(item.text_th || ""));
+    assert.ok(batItems.length > 0, `expected a bat-related item on ${date}`);
+    assert.ok(batItems.every((item) => item.theme !== "Game bị văng và treo"));
+  }
 });
 
 test("uses calendar days and validates manual ranges", async () => {

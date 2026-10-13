@@ -697,9 +697,9 @@
       "text_vn": "Và tất cả những con dơi đều dễ thương.",
       "translation_method": "machine_translation",
       "sentiment": "Positive",
-      "topic": "Bug / Crash / Lag / Performance",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
-      "theme": "Game bị văng và treo",
+      "theme": "Hoạt động và tính năng trong game",
       "segment": "unknown",
       "severity": null,
       "confidence": 0.68,
@@ -3137,10 +3137,10 @@
     "by_topic": {
       "Other": 80,
       "Event & Update content": 5,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 3,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 4,
       "Gacha / Shop / Pricing": 10,
       "Login / Account / Data": 4,
-      "Bug / Crash / Lag / Performance": 4
+      "Bug / Crash / Lag / Performance": 3
     },
     "by_segment": {
       "unknown": 102,
@@ -3163,20 +3163,11 @@
     "bright_spots": [
       {
         "title": "Hoạt động và tính năng trong game",
-        "count": 2,
+        "count": 3,
         "quote": {
           "text_th": "Happy autumn, ฟาร์มในฤดูใบไม้ร่วง \n \n[redacted]",
           "text_vn": "Mùa thu vui vẻ, trang trại mùa thu \n \n[đã được biên tập lại]",
           "link": "https://www.facebook.com/groups/1772363333745643/posts/1894199681562007/"
-        }
-      },
-      {
-        "title": "Game bị văng và treo",
-        "count": 1,
-        "quote": {
-          "text_th": "แล้วค้างคาวน่ารักทุกตัว เหอะๆ",
-          "text_vn": "Và tất cả những con dơi đều dễ thương.",
-          "link": "https://www.facebook.com/groups/playtogetherth/posts/28570921359185673/?comment_id=28593228313621644"
         }
       },
       {
@@ -3301,6 +3292,6 @@
       "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:37:59.960Z",
+  "generated_at": "2026-10-13T09:06:38.590Z",
   "data_mode": "production"
 }
