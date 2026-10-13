@@ -18,7 +18,13 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "account",
+      "keywords": [
+        "đăng nhập"
+      ],
+      "summary_vn": "Báo không vào được game",
+      "label_method": "ai_review"
     },
     {
       "id": "android-c18438a69975ac65",
@@ -36,7 +42,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Khen game rất tốt",
+      "label_method": "ai_review"
     },
     {
       "id": "android-fbc3d141c0a1e887",
@@ -54,7 +66,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "minigame",
+        "tiệc"
+      ],
+      "summary_vn": "Minigame tiệc nhảy hay hụt, nhân vật đẩy nhau rơi, mong sửa",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -76,8 +95,8 @@
       "unknown": 3
     },
     "nss": 0,
-    "nss_d1": -25,
-    "nss_7d_avg": 3.6,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 3.33,
       "ios_avg": null,

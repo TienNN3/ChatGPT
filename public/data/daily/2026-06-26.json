@@ -18,7 +18,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "vật phẩm miễn phí"
+      ],
+      "summary_vn": "Quay lại chơi thấy game tặng nhiều đồ, chơi miễn phí được",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -40,8 +46,8 @@
       "veteran": 1
     },
     "nss": 100,
-    "nss_d1": 0,
-    "nss_7d_avg": 50,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 5,
       "ios_avg": null,

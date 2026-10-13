@@ -10,8 +10,8 @@
       "Google Play": 3
     },
     "by_sentiment": {
-      "Positive": 1,
-      "Neutral": 0,
+      "Positive": 0,
+      "Neutral": 1,
       "Negative": 2,
       "Mixed": 1
     },
@@ -21,9 +21,9 @@
     "by_segment": {
       "unknown": 4
     },
-    "nss": -25,
+    "nss": -50,
     "nss_d1": null,
-    "nss_7d_avg": 15,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 2,
       "ios_avg": 5,
@@ -138,15 +138,23 @@
       "author_masked": "E***",
       "text_th": "สนุกกแนะนำ. เล่นดีนะคะแต่ต้องเหมาะกะคนเน็ตแรงงๆหน่อยค่ะะ ไม่รู้ว่าเกี่ยวรึป่าวว",
       "text_vn": "Game vui nhưng có vẻ cần kết nối mạng mạnh.",
-      "sentiment": "Positive",
+      "sentiment": "Mixed",
       "confidence": 0.86,
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Trải nghiệm game tích cực",
       "segment": "unknown",
       "severity": null,
-      "needs_review": false,
-      "rating": 5
+      "needs_review": true,
+      "rating": 5,
+      "intent": "performance",
+      "keywords": [
+        "tải game",
+        "lag"
+      ],
+      "summary_vn": "Khen game vui nhưng cần mạng mạnh mới chơi tốt",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     },
     {
       "id": "android-10ca1c06cb3b06a5",
@@ -155,7 +163,7 @@
       "author_masked": "1***",
       "text_th": "อยากให้มีคอนเทนต์เกี่ยวกับอาหารมากกว่านี้",
       "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Mixed",
+      "sentiment": "Neutral",
       "confidence": 0.72,
       "topic": "Other",
       "topic_secondary": [],
@@ -164,7 +172,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "nấu ăn"
+      ],
+      "summary_vn": "Mong có thêm nội dung về đồ ăn",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     },
     {
       "id": "android-4ded7a1760bf2ec1",
@@ -182,7 +197,13 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "tải game"
+      ],
+      "summary_vn": "Phàn nàn game tự xuất hiện trên điện thoại",
+      "label_method": "ai_review"
     },
     {
       "id": "android-9629ec8065bbd347",
@@ -200,7 +221,13 @@
       "severity": "P2",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "quảng cáo"
+      ],
+      "summary_vn": "Xem hết quảng cáo không nhận thưởng, chê ép mua premium",
+      "label_method": "ai_review"
     }
   ],
   "ratings": [

@@ -18,7 +18,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Khen game vui",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -40,8 +46,8 @@
       "unknown": 1
     },
     "nss": 100,
-    "nss_d1": 100,
-    "nss_7d_avg": -16.7,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 5,
       "ios_avg": null,

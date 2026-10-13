@@ -28,7 +28,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Rao bán vật phẩm 30m giá 200 baht",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-5b6f2d0a2b7073ab",
@@ -58,7 +64,16 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mua bán vật phẩm",
+        "nhân sâm",
+        "đổi thời tiết",
+        "cày thuê"
+      ],
+      "summary_vn": "Rao bán trái cây, nhân sâm, thẻ, đổi thời tiết và nhận cày nhảy tháp",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-4de6e18cff2a6739",
@@ -86,7 +101,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "nhân sâm",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Rao bán 12 cây nhân sâm thường giá 100 baht",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-a4c1d38516830f03",
@@ -116,7 +138,14 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "performance",
+      "keywords": [
+        "văng game",
+        "quảng cáo"
+      ],
+      "summary_vn": "Báo game văng khi tắt quảng cáo, không nhận được đồ thưởng",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-269d887800f3721f",
@@ -148,7 +177,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "social",
+      "keywords": [
+        "lũ lụt"
+      ],
+      "summary_vn": "Kể nhà bị ngập nước, gửi lời động viên người chơi gặp lũ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-27f000945f4e8641",
@@ -160,7 +195,7 @@
       "text_th": "ไหนบอกเกิดบนพื้น!!",
       "text_vn": "Đã bảo là xuất hiện trên mặt đất cơ mà!!",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -179,7 +214,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "bắt côn trùng"
+      ],
+      "summary_vn": "Than vật được bảo xuất hiện trên mặt đất nhưng không thấy",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-8c70e758a38adcd1",
@@ -191,7 +233,7 @@
       "text_th": "เบ็ดไหนเงายักษ์โผล่เยอะๆมั่งครับเบ็ดเติม เบ็ดมังกรตกไป4ชั่วโมงไม่มาสักเงา",
       "text_vn": "Cần câu nào ra bóng cá khổng lồ nhiều vậy ạ? Cần câu nạp, cần câu rồng câu 4 tiếng mà không thấy bóng nào",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -209,7 +251,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "câu cá",
+        "cá hiếm"
+      ],
+      "summary_vn": "Hỏi cần câu nào ra bóng cá khổng lồ, câu 4 tiếng không thấy",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-94806af2ea53134b",
@@ -221,7 +271,7 @@
       "text_th": "อัปเดตพรีวิวมาแว้ววว",
       "text_vn": "Có preview cập nhật rồi nèee",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -239,7 +289,14 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "cập nhật mới"
+      ],
+      "summary_vn": "Chia sẻ hình preview bản cập nhật mới",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-df2550df7f5088e8",
@@ -267,7 +324,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "đăng nhập",
+        "tìm bạn"
+      ],
+      "summary_vn": "Hỏi chơi qua stream có chơi chung với bạn server Thái VNG không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-423ed209e43fc6dc",
@@ -298,7 +362,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "content creator"
+      ],
+      "summary_vn": "Thông báo game sắp tuyển Content Creator người Thái",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-0ce30a95c8a543ff",
@@ -328,7 +398,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "ngoại hình nhân vật",
+        "nạp tiền"
+      ],
+      "summary_vn": "Hỏi kiểu mắt này đến từ gói nào",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-2aff5d8af5e69641",
@@ -339,7 +416,7 @@
       "author_masked": "P***",
       "text_th": "เร็วๆ นี้! เตรียมพบกับ CONTENT CREATOR PROGRAM",
       "text_vn": "Sắp ra mắt! Đón chờ CONTENT CREATOR PROGRAM",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -359,7 +436,14 @@
         "comment_count": "1"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "share",
+      "keywords": [
+        "content creator"
+      ],
+      "summary_vn": "Thông báo sắp ra mắt chương trình Content Creator",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "youtube-7dcbd1cbd75131af",
@@ -389,7 +473,13 @@
         "comment_count": null,
         "video_title": null
       },
-      "collected_at": "2026-10-13T22:30:00+07:00"
+      "collected_at": "2026-10-13T22:30:00+07:00",
+      "intent": "share",
+      "keywords": [
+        "video ngắn"
+      ],
+      "summary_vn": "Đăng video Shorts Play Together theo trend mới",
+      "label_method": "ai_review"
     },
     {
       "id": "youtube-c424c56a4d9fc1e8",
@@ -419,7 +509,13 @@
         "comment_count": null,
         "video_title": null
       },
-      "collected_at": "2026-10-13T22:30:00+07:00"
+      "collected_at": "2026-10-13T22:30:00+07:00",
+      "intent": "share",
+      "keywords": [
+        "video ngắn"
+      ],
+      "summary_vn": "Đăng video Shorts gameplay Play Together VNG",
+      "label_method": "ai_review"
     },
     {
       "id": "youtube-25d1df7f030b39d6",
@@ -449,7 +545,13 @@
         "comment_count": null,
         "video_title": null
       },
-      "collected_at": "2026-10-13T22:30:00+07:00"
+      "collected_at": "2026-10-13T22:30:00+07:00",
+      "intent": "share",
+      "keywords": [
+        "video ngắn"
+      ],
+      "summary_vn": "Đăng video Shorts Play Together VNG không mô tả",
+      "label_method": "ai_review"
     },
     {
       "id": "youtube-98d8d938e37e8f3a",
@@ -479,7 +581,13 @@
         "comment_count": null,
         "video_title": null
       },
-      "collected_at": "2026-10-13T22:30:00+07:00"
+      "collected_at": "2026-10-13T22:30:00+07:00",
+      "intent": "bug",
+      "keywords": [
+        "lỗi hiển thị"
+      ],
+      "summary_vn": "Đăng Shorts quay lại lỗi gặp phải trong game",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -490,9 +598,9 @@
       "YouTube": 4
     },
     "by_sentiment": {
-      "Positive": 1,
-      "Neutral": 13,
-      "Negative": 2,
+      "Positive": 3,
+      "Neutral": 9,
+      "Negative": 4,
       "Mixed": 0
     },
     "by_topic": {

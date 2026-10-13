@@ -22,8 +22,8 @@
       "payer": 2
     },
     "nss": -50,
-    "nss_d1": 0,
-    "nss_7d_avg": 31.4,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 3,
       "ios_avg": 5,
@@ -123,8 +123,14 @@
       "theme": "Giá vật phẩm quá cao",
       "segment": "payer",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 5
+      "needs_review": true,
+      "rating": 5,
+      "intent": "complaint",
+      "keywords": [
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Khen game vui nhưng vật phẩm đắt, mong giảm giá",
+      "label_method": "ai_review"
     },
     {
       "id": "android-e18879f155011551",
@@ -142,7 +148,14 @@
       "severity": "P2",
       "needs_review": true,
       "rating": 3,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "gacha",
+        "kim cương"
+      ],
+      "summary_vn": "Dùng hơn 200 kim cương quay 10 lần không được gì",
+      "label_method": "ai_review"
     }
   ]
 }

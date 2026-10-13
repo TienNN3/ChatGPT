@@ -12,7 +12,7 @@
       "text_th": "ใกล้เปิดให้เล่นแล้ววว",
       "text_vn": "Nó gần như mở cửa để chơi.",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -28,7 +28,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "ra mắt game"
+      ],
+      "summary_vn": "Hào hứng vì game sắp mở cho chơi",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -38,8 +45,8 @@
       "Facebook Group": 1
     },
     "by_sentiment": {
-      "Positive": 0,
-      "Neutral": 1,
+      "Positive": 1,
+      "Neutral": 0,
       "Negative": 0,
       "Mixed": 0
     },
@@ -49,7 +56,7 @@
     "by_segment": {
       "unknown": 1
     },
-    "nss": 0,
+    "nss": 100,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

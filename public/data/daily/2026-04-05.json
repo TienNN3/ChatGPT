@@ -25,8 +25,8 @@
       "payer": 2
     },
     "nss": -25,
-    "nss_d1": 100,
-    "nss_7d_avg": 7.1,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 2,
       "ios_avg": 5,
@@ -150,8 +150,15 @@
       "theme": "Hoạt động và tính năng trong game",
       "segment": "unknown",
       "severity": null,
-      "needs_review": false,
-      "rating": 5
+      "needs_review": true,
+      "rating": 5,
+      "intent": "suggestion",
+      "keywords": [
+        "thú cưng",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Yêu game, mong có thêm Mitra, Makara, Cottee và Eos",
+      "label_method": "ai_review"
     },
     {
       "id": "android-dc819b8c18c3730f",
@@ -169,7 +176,15 @@
       "severity": null,
       "needs_review": true,
       "rating": 3,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "giá vật phẩm",
+        "trang phục",
+        "quảng cáo"
+      ],
+      "summary_vn": "Thích game nhưng mong giảm giá gói đồ, nhẫn, quảng cáo ngắn hơn",
+      "label_method": "ai_review"
     },
     {
       "id": "android-06e3217ab5277b14",
@@ -187,7 +202,13 @@
       "severity": "P2",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "trang phục"
+      ],
+      "summary_vn": "Tố game sao chép thiết kế trang phục của họa sĩ khác",
+      "label_method": "ai_review"
     },
     {
       "id": "android-57a2b9d3ff898d02",
@@ -205,7 +226,14 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 2,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "nạp tiền"
+      ],
+      "summary_vn": "Bị cấm tài khoản vì phần mềm trái phép dù mới chơi, vừa nạp",
+      "label_method": "ai_review"
     }
   ]
 }

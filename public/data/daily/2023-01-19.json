@@ -12,7 +12,7 @@
       "text_th": "How to GOI !!!\nปุ่ม  WASD  = เดิน\nปุ่ม E = คุย\n ทีวี = ปรับท่าทาง สติ๊กเกอร์ กด เลข12345678 แล้วจะแสดงท่าทางหรือ ส่งสติกเกอร์ \n สมุด = ตั้งชื่อตัวละคร / วิธีเล่น how to goi/ เควสรายวัน homework *ทำเควสแล้วรับเหรียญไปเปิดกาชาได้เลยนะะ อย่าลืมเข้าไปกดรับบ*\nประตู = หาห้อง และ มีเข้าเล่นโหมดสอนเล่นด้วย ตรงคำว่า tutorial\nโต๊ะแต่งหน้า กับตู้เสื้อผ้า = แต่งหน้าแต่งตัว ชุดน่ารักมาก\nถ้าเดินเลยไปทางขวา จะมีคุณยายอยู่ มีตู้กาชาด้วย\n#goi",
       "text_vn": "Làm sao để ĐI!!!\nPhím WASD = Đi bộ\nNút E = Nói chuyện\n TV = Điều chỉnh cử chỉ nhãn dán. Nhấn số 12345678 và bạn sẽ thực hiện cử chỉ hoặc gửi nhãn dán. \n Sách = Đặt tên cho nhân vật của bạn / Cách chơi cách goi / Bài tập về nhiệm vụ hàng ngày *Làm nhiệm vụ và nhận xu để mở gacha. Đừng quên nhấn chấp nhận*\nCửa = Tìm phòng và truy cập vào chế độ hướng dẫn, trong từ hướng dẫn.\nBàn trang điểm và tủ quần áo = trang điểm và mặc quần áo, những bộ trang phục rất dễ thương\nNếu bạn đi bên phải Sẽ có bà. Ngoài ra còn có một ấm trà.\n#goi",
       "translation_method": "machine_translation",
-      "sentiment": "Positive",
+      "sentiment": "Neutral",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
       "theme": "Hoạt động và tính năng trong game",
@@ -28,7 +28,16 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "người chơi mới",
+        "nhiệm vụ",
+        "gacha"
+      ],
+      "summary_vn": "Hướng dẫn phím điều khiển và nhiệm vụ hằng ngày trong GOI",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -38,8 +47,8 @@
       "Facebook Group": 1
     },
     "by_sentiment": {
-      "Positive": 1,
-      "Neutral": 0,
+      "Positive": 0,
+      "Neutral": 1,
       "Negative": 0,
       "Mixed": 0
     },
@@ -49,7 +58,7 @@
     "by_segment": {
       "unknown": 1
     },
-    "nss": 100,
+    "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

@@ -24,7 +24,7 @@
     },
     "nss": -50,
     "nss_d1": null,
-    "nss_7d_avg": 3,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 1,
       "ios_avg": 3,
@@ -122,8 +122,16 @@
       "theme": "Hoạt động và tính năng trong game",
       "segment": "unknown",
       "severity": null,
-      "needs_review": false,
-      "rating": 3
+      "needs_review": true,
+      "rating": 3,
+      "intent": "suggestion",
+      "keywords": [
+        "câu cá",
+        "thú cưng",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Chê nội dung lặp lại cá, rồng đổi màu, mong thêm loài mới",
+      "label_method": "ai_review"
     },
     {
       "id": "android-68cd35b7057e4b30",
@@ -141,7 +149,15 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "performance",
+      "keywords": [
+        "quảng cáo",
+        "văng game",
+        "thú cưng"
+      ],
+      "summary_vn": "Xem quảng cáo hay văng, không nhận thưởng, minime ra trùng",
+      "label_method": "ai_review"
     }
   ]
 }

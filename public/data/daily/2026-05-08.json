@@ -24,8 +24,8 @@
       "unknown": 1
     },
     "nss": 0,
-    "nss_d1": 0,
-    "nss_7d_avg": -9.5,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 5,
       "ios_avg": 3,
@@ -135,8 +135,15 @@
       "theme": "Giá vật phẩm quá cao",
       "segment": "payer",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 3
+      "needs_review": true,
+      "rating": 3,
+      "intent": "complaint",
+      "keywords": [
+        "kiếm tiền trong game",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Kiếm tiền trong game quá ít, vật phẩm đều đắt",
+      "label_method": "ai_review"
     },
     {
       "id": "android-6d814480d6da85f5",
@@ -154,7 +161,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Khen game tuyệt vời",
+      "label_method": "ai_review"
     }
   ]
 }

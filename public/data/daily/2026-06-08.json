@@ -18,7 +18,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "sự kiện"
+      ],
+      "summary_vn": "Thích game nhưng chơi lâu chán khi không có hoạt động",
+      "label_method": "ai_review"
     },
     {
       "id": "android-72dc14c24fe0922d",
@@ -36,7 +42,14 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 3,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "thú cưng",
+        "bộ sưu tập thẻ"
+      ],
+      "summary_vn": "Nuôi nhiều minime chỉ nhận trùng thẻ trợ lý nông nghiệp",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -59,8 +72,8 @@
       "unknown": 2
     },
     "nss": -50,
-    "nss_d1": 66.7,
-    "nss_7d_avg": 33.4,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 4,
       "ios_avg": null,

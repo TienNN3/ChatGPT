@@ -18,7 +18,14 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "quảng cáo",
+        "văng game"
+      ],
+      "summary_vn": "Chê quảng cáo xuất hiện lại, thoát quảng cáo bị văng game",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -40,8 +47,8 @@
       "unknown": 1
     },
     "nss": -100,
-    "nss_d1": -100,
-    "nss_7d_avg": -16.7,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 1,
       "ios_avg": null,

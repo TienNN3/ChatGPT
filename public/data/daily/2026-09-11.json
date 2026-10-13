@@ -30,7 +30,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mandrake",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Đăng tìm mua cây mandrake",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {

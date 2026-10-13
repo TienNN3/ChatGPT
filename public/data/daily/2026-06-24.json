@@ -9,7 +9,7 @@
       "author_masked": "l***",
       "text_th": "กิจกรรมนี้ ลงรูปหลอดฉีดยาพืชในเควส สามารถทำให้คุณเข้าใจผิดได้ว่าต้องทำหลอดฉีดยาพืช 5 อัน จริงๆแล้วแค่ทำหลอดสภาพอากาศห้าอันน่าจะได้ล่ะ",
       "text_vn": "Phản hồi trái chiều về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Mixed",
+      "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -18,7 +18,16 @@
       "severity": null,
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "nhiệm vụ",
+        "lỗi hiển thị",
+        "lỗi sự kiện"
+      ],
+      "summary_vn": "Báo hình nhiệm vụ sự kiện gây hiểu nhầm phải làm ống tiêm cây",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     },
     {
       "id": "android-0c68ebaca34a9324",
@@ -36,7 +45,13 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 3,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "performance",
+      "keywords": [
+        "dung lượng bộ nhớ"
+      ],
+      "summary_vn": "Phàn nàn game chiếm tới 7GB bộ nhớ máy",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -48,8 +63,8 @@
     "by_sentiment": {
       "Positive": 0,
       "Neutral": 0,
-      "Negative": 1,
-      "Mixed": 1
+      "Negative": 2,
+      "Mixed": 0
     },
     "by_topic": {
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1,
@@ -58,9 +73,9 @@
     "by_segment": {
       "unknown": 2
     },
-    "nss": -50,
+    "nss": -100,
     "nss_d1": null,
-    "nss_7d_avg": 40,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 2,
       "ios_avg": null,

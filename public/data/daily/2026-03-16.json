@@ -18,7 +18,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "gacha",
+        "trang phục"
+      ],
+      "summary_vn": "Mong gacha trang phục không ra đồ trùng",
+      "label_method": "ai_review"
     },
     {
       "id": "android-742107098f8338e9",
@@ -36,7 +43,14 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "người chơi mới"
+      ],
+      "summary_vn": "Mới tải không đăng nhập được, báo lỗi tạm thời",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -60,8 +74,8 @@
       "unknown": 1
     },
     "nss": -50,
-    "nss_d1": 0,
-    "nss_7d_avg": 60,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 3,
       "ios_avg": null,

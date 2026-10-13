@@ -9,7 +9,7 @@
       "author_masked": "แ***",
       "text_th": "น่าสนุกนะแต่กุจะบ้าเวลาโหลดพอๆปแอปอื่นสะเออะต้องติดตั้งใหม่หมด",
       "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Negative",
+      "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Other",
       "topic_secondary": [],
@@ -18,7 +18,14 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 2,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "performance",
+      "keywords": [
+        "tải game"
+      ],
+      "summary_vn": "Game có vẻ vui nhưng tải lâu, phải cài lại",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -30,8 +37,8 @@
     "by_sentiment": {
       "Positive": 0,
       "Neutral": 0,
-      "Negative": 1,
-      "Mixed": 0
+      "Negative": 0,
+      "Mixed": 1
     },
     "by_topic": {
       "Other": 1
@@ -39,9 +46,9 @@
     "by_segment": {
       "unknown": 1
     },
-    "nss": -100,
+    "nss": 0,
     "nss_d1": null,
-    "nss_7d_avg": -52.8,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 2,
       "ios_avg": null,

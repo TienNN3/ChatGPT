@@ -10,9 +10,9 @@
       "Google Play": 2
     },
     "by_sentiment": {
-      "Positive": 1,
-      "Neutral": 0,
-      "Negative": 1,
+      "Positive": 0,
+      "Neutral": 2,
+      "Negative": 0,
       "Mixed": 1
     },
     "by_topic": {
@@ -25,8 +25,8 @@
       "unknown": 1
     },
     "nss": 0,
-    "nss_d1": -28.6,
-    "nss_7d_avg": 19.3,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 4.5,
       "ios_avg": 3,
@@ -129,15 +129,24 @@
       "author_masked": "f***",
       "text_th": "เรื่องสวนที่ควรแก้อย่างเร่งด่วน. 1.การแต่งเฟอร์นิเจอร์ภายในสวนควรเพิ่มให้มากกว่านี้ จำกัดจำนวนแค่ 80 ชิ้นมันน้อยมากๆ สิ่งที่สำคัญและจำเป็นอย่างมากที่ควรรีบแก้ไข และควรมีเฟอร์นิเจอร์ให้สุ่มหลากหลายกว่านี้ ควรเพิ่มเฟอนิเจอร์เข้ามาใหม่บ้าง \n2.จำนวนการลงเมล็ดที่สามารถเพาะปลูกก็ควรเพิ่ม 200 มันไม่ได้เยอะอะไรเลย ถ้าเทียบกับผักที่เข้ามาใหม่ตลอด\n\nขอเสนอแนะ\nถ้าในอนาคตมีฟังชั่นล็อคพืชพันธุ์ไม่ให้ติดสถาะได้ก็คงจะดี",
       "text_vn": "Mong tăng giới hạn 80 đồ nội thất trong vườn, tăng giới hạn 200 ô trồng và thêm đồ mới. Người chơi cũng đề xuất khóa trạng thái cây trồng.",
-      "sentiment": "Mixed",
+      "sentiment": "Neutral",
       "confidence": 0.86,
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
       "segment": "payer",
       "severity": null,
-      "needs_review": false,
-      "rating": 3
+      "needs_review": true,
+      "rating": 3,
+      "intent": "suggestion",
+      "keywords": [
+        "nội thất",
+        "trồng trọt",
+        "nông trại"
+      ],
+      "summary_vn": "Đề xuất tăng giới hạn 80 nội thất vườn và 200 ô trồng",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     },
     {
       "id": "android-395fccc4a3dfd44b",
@@ -146,7 +155,7 @@
       "author_masked": "ส***",
       "text_th": "อยากให้ทำแบบตัวละครเป็นสัตว์แล้วแบบเป็นโลกสลับกันน่ะแบบเป็นสัตว์ตัวละครหลักของเราที่เล่นกันเนี่ยจะเป็นสัตว์อะไรก็ได้แบบนี้มันน่าจะสนุกดีนะ",
       "text_vn": "Phản hồi tích cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Positive",
+      "sentiment": "Neutral",
       "confidence": 0.72,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -155,7 +164,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "ngoại hình nhân vật"
+      ],
+      "summary_vn": "Đề xuất cho nhân vật biến thành động vật",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     },
     {
       "id": "android-b9fbbe9dcbc75c84",
@@ -164,7 +180,7 @@
       "author_masked": "P***",
       "text_th": "โดยรวมถือว่าดี แต่ตัวเกมทำระบบตังค์ที่ต้องเติมถึงจะมีสิทธิ์ซื้อของดี",
       "text_vn": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Negative",
+      "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Other",
       "topic_secondary": [],
@@ -173,7 +189,14 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "nạp tiền"
+      ],
+      "summary_vn": "Game ổn nhưng phải nạp tiền mới mua được đồ tốt",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     }
   ]
 }

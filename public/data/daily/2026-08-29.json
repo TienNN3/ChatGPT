@@ -18,7 +18,13 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 2,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "nạp tiền"
+      ],
+      "summary_vn": "Báo không nạp tiền mua vật phẩm được sau khi quay lại",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {

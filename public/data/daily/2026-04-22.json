@@ -18,7 +18,13 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 2,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "performance",
+      "keywords": [
+        "văng game"
+      ],
+      "summary_vn": "Vào game bị văng, không thể chơi, mong sửa",
+      "label_method": "ai_review"
     },
     {
       "id": "android-4ad7549b42072850",
@@ -36,7 +42,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Khen game vui",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -60,7 +72,7 @@
     },
     "nss": 0,
     "nss_d1": null,
-    "nss_7d_avg": 42,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 3.5,
       "ios_avg": null,

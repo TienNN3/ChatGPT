@@ -18,7 +18,13 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "chat",
+      "keywords": [
+        "chửi thề"
+      ],
+      "summary_vn": "Bình luận chửi thề, không có nội dung",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -41,7 +47,7 @@
     },
     "nss": -100,
     "nss_d1": null,
-    "nss_7d_avg": 20,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 1,
       "ios_avg": null,

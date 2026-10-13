@@ -18,7 +18,13 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "account",
+      "keywords": [
+        "đăng nhập"
+      ],
+      "summary_vn": "Báo hoàn toàn không vào được game",
+      "label_method": "ai_review"
     },
     {
       "id": "android-d07ebe47cc6d9176",
@@ -36,7 +42,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "performance",
+      "keywords": [
+        "tải game"
+      ],
+      "summary_vn": "Khen game nhưng kiểm tra địa chỉ nhà khi vào game rất lâu",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -60,7 +72,7 @@
     },
     "nss": -50,
     "nss_d1": null,
-    "nss_7d_avg": 25.3,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 2.5,
       "ios_avg": null,

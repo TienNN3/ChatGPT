@@ -18,7 +18,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "chat",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Bình luận ngắn không rõ nghĩa",
+      "label_method": "ai_review"
     },
     {
       "id": "android-1d9cab1d23403e16",
@@ -36,7 +42,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "giải trí"
+      ],
+      "summary_vn": "Khen game rất vui, cuốn hút",
+      "label_method": "ai_review"
     },
     {
       "id": "android-376261cf977d8c6c",
@@ -45,7 +57,7 @@
       "author_masked": "น***",
       "text_th": "อยากให้ห้องสมุดเข้าได้~~",
       "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Mixed",
+      "sentiment": "Neutral",
       "confidence": 0.72,
       "topic": "Other",
       "topic_secondary": [],
@@ -54,7 +66,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "thư viện"
+      ],
+      "summary_vn": "Mong mở cho vào được thư viện",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     },
     {
       "id": "android-214c7bf39b6c6e98",
@@ -63,7 +82,7 @@
       "author_masked": "จ***",
       "text_th": "ชอบมากอ่ะ😍แต่คิดถึงตอนซอมบี้บุกอ่ะ😭😭😭😭😭😭😭😭",
       "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Mixed",
+      "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
       "topic_secondary": [],
@@ -72,7 +91,15 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "sự kiện",
+        "zombie"
+      ],
+      "summary_vn": "Rất thích game, nhớ sự kiện zombie tấn công",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -82,10 +109,10 @@
       "Google Play": 4
     },
     "by_sentiment": {
-      "Positive": 1,
-      "Neutral": 1,
+      "Positive": 2,
+      "Neutral": 2,
       "Negative": 0,
-      "Mixed": 2
+      "Mixed": 0
     },
     "by_topic": {
       "Other": 4
@@ -93,9 +120,9 @@
     "by_segment": {
       "unknown": 4
     },
-    "nss": 25,
-    "nss_d1": 100,
-    "nss_7d_avg": 100,
+    "nss": 50,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 5,
       "ios_avg": null,

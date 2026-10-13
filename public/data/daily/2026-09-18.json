@@ -12,7 +12,7 @@
       "text_th": "5 ดาว = 5 ฿4 ดาว = 4 ฿ใบดาวต่ำกว่าอื่นๆติดต่อสอบถามได้ค้าบ(มีเครดิตเช็คได้หน้าโปรไฟล์)",
       "text_vn": "5 sao = 5 ฿4 sao = 4 ฿ Các mức sao thấp hơn khác vui lòng liên hệ và hỏi thăm (có tín dụng, kiểm tra trên trang hồ sơ)",
       "translation_method": "machine_translation",
-      "sentiment": "Positive",
+      "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
@@ -28,7 +28,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "bộ sưu tập thẻ",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Rao bán thẻ 5 sao 5 baht, 4 sao 4 baht",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-a259cdf70f3266ee",
@@ -56,7 +64,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "nhân sâm",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Rao bán nhân sâm thường 12 cây 100 baht/bộ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-0fd069a9c3e3f4eb",
@@ -68,7 +83,7 @@
       "text_th": "สอบถามค่ะ ต้องอัพสถานะอะไรเพิ่มหรอคะ พอดีเบ็ดขาด หลายรอบมาก",
       "text_vn": "Tôi có một câu hỏi. Tôi có cần nâng cấp trạng thái của mình không? Tôi đã bị đứt móc nhiều lần.",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -86,7 +101,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "câu cá"
+      ],
+      "summary_vn": "Hỏi cần nâng chỉ số gì vì bị đứt cần câu nhiều lần",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-7940999bf4e7bffa",
@@ -116,7 +138,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "performance",
+      "keywords": [
+        "máy chủ đầy"
+      ],
+      "summary_vn": "Báo tất cả máy chủ đều đầy, không vào được",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-8ef6f0e93cb74218",
@@ -148,7 +176,13 @@
         ],
         "comment_count": "6"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "ảnh"
+      ],
+      "summary_vn": "Đăng bài chỉ có hình ảnh",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-ac83e7b251dcf2cf",
@@ -176,7 +210,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "đăng nhập",
+        "tải game"
+      ],
+      "summary_vn": "Hỏi chơi được trên PC và điện thoại cùng tài khoản không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-8f0aeb92120fe340",
@@ -208,7 +249,13 @@
         ],
         "comment_count": "5"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "tìm bạn"
+      ],
+      "summary_vn": "Đăng vui hỏi ai từng có người bạn như thế này",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-27f49faf6212f6f6",
@@ -239,7 +286,13 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "vvip pass"
+      ],
+      "summary_vn": "Chia sẻ thông tin VVIP Pass mới",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-bc5d524bea40695b",
@@ -251,7 +304,7 @@
       "text_th": "น้องมินิมีจับมาให้ด้วย",
       "text_vn": "Little Mini cũng đã mang nó đến cho bạn.",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -269,7 +322,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "thú cưng",
+        "bắt côn trùng"
+      ],
+      "summary_vn": "Khoe thú cưng Mini bắt giúp đồ",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-2636d7ff40fb503b",
@@ -301,7 +362,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Hỏi kết quả nhận được như thế này có bình thường không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-d20a9ba7398df6cf",
@@ -313,7 +380,7 @@
       "text_th": "4ฟอง พอดีจบกิจ เอาแค่นี้พอ",
       "text_vn": "4 quả trứng, vừa đủ để hoàn thành công việc, cứ lấy cái này đi.",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -333,7 +400,15 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "nhiệm vụ",
+        "sự kiện"
+      ],
+      "summary_vn": "Khoe được 4 quả trứng, vừa đủ hoàn thành nhiệm vụ",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-cd041105c6ff06b4",
@@ -345,7 +420,7 @@
       "text_th": "เกมดีๆ",
       "text_vn": "Trò chơi hay",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -363,7 +438,14 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "praise",
+      "keywords": [
+        "đánh giá chung"
+      ],
+      "summary_vn": "Khen game hay",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-12c10ae481714827",
@@ -375,7 +457,7 @@
       "text_th": "เย่ๆ",
       "text_vn": "Đúng!",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -395,7 +477,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "phản ứng"
+      ],
+      "summary_vn": "Bình luận reo vui ngắn",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-67da0df43f8ac360",
@@ -426,7 +515,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "bug",
+      "keywords": [
+        "kẹt nhân vật",
+        "phương tiện"
+      ],
+      "summary_vn": "Báo nhân vật bị kẹt trong xe, không xuống được",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-2caf4d9e3d554408",
@@ -438,7 +534,7 @@
       "text_th": "ถ้าในเกมมีการเอาชุดไทยเข้ามาจริง ๆ ฉันคงจินตนาการภาพตัวเองถ่ายรูปกับน้องเหมียว NIAO ในบ้านของฉัน พร้อมกับข้อความว่า “WE ARE THAILAND” เลยอะ!!",
       "text_vn": "Nếu trang phục Thái Lan thực sự được đưa vào game, tôi sẽ tưởng tượng mình chụp ảnh cùng chú mèo NIAO trong nhà với thông điệp “CHÚNG TÔI LÀ THÁI LAN”!!",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
       "theme": "Hoạt động và tính năng trong game",
@@ -457,7 +553,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "suggestion",
+      "keywords": [
+        "trang phục"
+      ],
+      "summary_vn": "Mong game thêm trang phục Thái Lan để chụp ảnh với mèo",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-c53b0782c8cd41ff",
@@ -469,7 +572,7 @@
       "text_th": "เบื่อจังเป็นลูกรักสุ่มอะไรก็ออกง่ายอยากเหมาอะ",
       "text_vn": "Tôi quá chán việc phải là một đứa trẻ được yêu thương ngẫu nhiên. Bất cứ điều gì đi ra dễ dàng. Tôi muốn trộn nó lên.",
       "translation_method": "machine_translation",
-      "sentiment": "Mixed",
+      "sentiment": "Positive",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
@@ -488,7 +591,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Khoe đùa chán vì quay gì cũng dễ ra",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-3ed4aa70589eb455",
@@ -518,7 +628,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "phiên bản cũ",
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Không liên kết được Facebook, tải bản cũ lấy mã cũng không vào được",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-55d67c12dd6151f7",
@@ -548,7 +666,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "thú cưng",
+        "thỏ mặt trăng"
+      ],
+      "summary_vn": "Hỏi lai tạo thỏ có cần cùng màu không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-25306875aa915706",
@@ -559,7 +684,7 @@
       "author_masked": "W***",
       "text_th": "POV : เมื่อเพื่อนชวนตกปลา*หมายเหตุคลิปนี้เป็นแค่การแสดงเท่านั้นไม่ใช่เหตุการณ์ที่เกิดขึ้นจริงแต่อย่างใด",
       "text_vn": "POV: Khi bạn rủ đi câu cá *Lưu ý: clip chỉ là diễn, không phải sự việc có thật",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
       "theme": "Hoạt động và tính năng trong game",
@@ -580,7 +705,14 @@
         "comment_count": "1"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "share",
+      "keywords": [
+        "câu cá"
+      ],
+      "summary_vn": "Đăng clip diễn vui POV khi bạn rủ đi câu cá",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-cb6064a9542079ac",
@@ -591,7 +723,7 @@
       "author_masked": "H***",
       "text_th": "ถ้าในเกมมีการเอาชุดไทยเข้ามาจริง ๆ ฉันคงจินตนาการภาพตัวเองถ่ายรูปกับน้องเหมียว NIAO ในบ้านของฉัน พร้อมกับข้อความว่า “WE ARE THAILAND” เลยอะ!!",
       "text_vn": "Nếu trang phục Thái Lan thực sự được đưa vào game, tôi sẽ tưởng tượng mình chụp ảnh cùng chú mèo NIAO trong nhà với thông điệp “CHÚNG TÔI LÀ THÁI LAN”!!",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
       "theme": "Hoạt động và tính năng trong game",
@@ -611,7 +743,14 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "suggestion",
+      "keywords": [
+        "trang phục"
+      ],
+      "summary_vn": "Mong game thêm trang phục Thái Lan để chụp ảnh với mèo",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -621,10 +760,10 @@
       "Facebook Group": 20
     },
     "by_sentiment": {
-      "Positive": 1,
-      "Neutral": 15,
-      "Negative": 3,
-      "Mixed": 1
+      "Positive": 8,
+      "Neutral": 8,
+      "Negative": 4,
+      "Mixed": 0
     },
     "by_topic": {
       "Gacha / Shop / Pricing": 3,
@@ -636,7 +775,7 @@
     "by_segment": {
       "unknown": 20
     },
-    "nss": -10,
+    "nss": 20,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

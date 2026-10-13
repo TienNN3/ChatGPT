@@ -28,7 +28,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mua bán tài khoản"
+      ],
+      "summary_vn": "Tìm mua ID chính nhân vật nam nhiều đồ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e2c9354d894270ef",
@@ -40,7 +46,7 @@
       "text_th": "บริการกดสภาพอากาศ ของขวัญ และเมล็ด Play together สภาพอากาศทุกอัน 10 บาท เมล็ดราคาตามภาพ ยอดนิยมเมล็ดที่ใช้ทองไม่สามารถกิฟได้นะครับ อาจจะมีการปรับราคาเล็กน้อยโปรดติดตามโพสต์ล่าสุดของอุ๋งๆเลย แอดแล้วทักได้เลย รับทั้งวอเล็ต และ ธนาคาร สต็อกมีเพิ่มเรื่อยๆ สอบถามแพ็คเพิ่มเติมได้เลยอุ๋งๆ",
       "text_vn": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
       "translation_method": "machine_translation",
-      "sentiment": "Mixed",
+      "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
@@ -58,7 +64,16 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "đổi thời tiết",
+        "tặng quà",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Rao dịch vụ đổi thời tiết 10 baht, tặng quà và bán hạt giống",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-4ed9c3bf1bda85ba",
@@ -88,7 +103,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "account",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "steam"
+      ],
+      "summary_vn": "Hỏi cách chuyển ID Steam sang server VNG giữ nguyên đồ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-c060238e227a94ad",
@@ -100,7 +122,7 @@
       "text_th": "แวะมาแชร์วิธีเปลี่ยนชุดให้น้องสำหรับใครที่กำลังตามหาอยู่ครับบ",
       "text_vn": "Ghé chia sẻ cách thay đồ cho bé dành cho ai đang tìm nhé",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -120,7 +142,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "thú cưng",
+        "trang phục"
+      ],
+      "summary_vn": "Chia sẻ cách thay đồ cho thú cưng",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-6658a480edca72d0",
@@ -151,7 +181,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "kỹ năng tàng hình"
+      ],
+      "summary_vn": "Quay lại sau thời gian dài, hỏi lấy kỹ năng tàng hình ở đâu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-95b41631a9867799",
@@ -181,7 +217,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trồng trọt",
+        "thỏ mặt trăng",
+        "thú cưng"
+      ],
+      "summary_vn": "Hỏi kiếm hạt giống cà rốt nuôi thỏ ở đâu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-5b6fafce38e6e0de",
@@ -193,7 +237,7 @@
       "text_th": "หยุดเล่นไปนาน ลองมือดูที่อยากได้ไม่ออก ออกแต่ที่ไม่อยากได้…..รางวัลค่ากลับมาเล่นเกมหรอคะเนี่ย",
       "text_vn": "Nghỉ chơi lâu, thử quay thì không ra cái muốn, toàn ra cái không muốn... đây là phần thưởng quay lại game hả trời",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Event & Update content",
       "topic_secondary": [],
       "theme": "Phần thưởng sự kiện",
@@ -212,7 +256,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Than quay lại chơi quay toàn ra đồ không muốn",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-7bdc628f72ff3a17",
@@ -243,7 +294,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "cập nhật mới"
+      ],
+      "summary_vn": "Đăng bài sắp ra mắt",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-d2c2785c82d25b62",
@@ -255,7 +312,7 @@
       "text_th": "แจกโค้ดใหม่ครับบบ",
       "text_vn": "Tặng code mới đâyyy",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -274,7 +331,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "code quà tặng"
+      ],
+      "summary_vn": "Chia sẻ code quà tặng mới",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-71fe6ee7af9fd908",
@@ -304,7 +368,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "ảnh mẫu"
+      ],
+      "summary_vn": "Hỏi ai có ảnh mẫu không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-a14e52e116adff8e",
@@ -334,7 +404,14 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "question",
+      "keywords": [
+        "thú cưng",
+        "trang phục"
+      ],
+      "summary_vn": "Hỏi cách thay đồ cho thú cưng thỏ khổng lồ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-66314a3298a780f1",
@@ -345,7 +422,7 @@
       "author_masked": "P***",
       "text_th": "มาต้อนรับน้องสัตว์เลี้ยงกระบองเพชรที่กำลังจะบุก Play Together กันเถอะ! Coupon code: PTCACTUSPET แลกรับโค้ดได้ที่: https://giftcode.vnggames.com/th/redeem/ptg ยังไม่รู้วิธีแลกโค้ด? ดูคู่มือฉบับเต็มได้ที่โพสต์ก่อนหน้าของเรา: https://www.facebook.com/share/p/1DDUdeC7cT/รีบกรอกโค้ดเพื่อรับของรางวัลสุดปังกันเลย! #playtogether #playtogethervng #playtogetherTH",
       "text_vn": "Cùng chào đón thú cưng xương rồng sắp đổ bộ Play Together nào! Coupon code: PTCACTUSPET Đổi code tại: https://giftcode.vnggames.com/th/redeem/ptg Chưa biết cách đổi code? Xem hướng dẫn đầy đủ ở bài viết trước: https://www.facebook.com/share/p/1DDUdeC7cT/ Nhanh tay nhập code nhận quà xịn nhé! #playtogether #playtogethervng #playtogetherTH",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
       "theme": "Đăng nhập tài khoản",
@@ -364,7 +441,15 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "code quà tặng",
+        "thú cưng"
+      ],
+      "summary_vn": "Chia sẻ code PTCACTUSPET nhận thú cưng xương rồng và hướng dẫn đổi",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -374,10 +459,10 @@
       "Facebook Group": 12
     },
     "by_sentiment": {
-      "Positive": 0,
-      "Neutral": 11,
-      "Negative": 0,
-      "Mixed": 1
+      "Positive": 3,
+      "Neutral": 8,
+      "Negative": 1,
+      "Mixed": 0
     },
     "by_topic": {
       "Other": 6,
@@ -389,7 +474,7 @@
     "by_segment": {
       "unknown": 12
     },
-    "nss": 0,
+    "nss": 16.7,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

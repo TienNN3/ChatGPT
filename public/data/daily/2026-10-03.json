@@ -28,7 +28,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "xổ số",
+        "quảng cáo"
+      ],
+      "summary_vn": "Quảng cáo bán vé số kỹ thuật số không liên quan game",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-74ff9bf1c2de74b0",
@@ -40,7 +47,7 @@
       "text_th": "คิวว่างนะคะ\n รับฟาร์มกิจกรรม \n1,000 เหรียญ 20฿\n10,000 เหรียญ 180฿\nเหมา เวล 1-50 500฿\n•ขอคนไม่เร่ง •ล็อคเมลฟ้า\n•เครดิตหน้าโปรไฟล์",
       "text_vn": "Hàng đợi là miễn phí.\n Nhận trang trại hoạt động \n1.000 xu 20฿\n10.000 xu 180฿\nMua cấp 1-50 500฿\n•Yêu cầu mọi người đừng vội vàng •Khóa sky mail\nTín dụng trang hồ sơ",
       "translation_method": "machine_translation",
-      "sentiment": "Positive",
+      "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
@@ -56,7 +63,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "cày thuê",
+        "nông trại"
+      ],
+      "summary_vn": "Nhận cày xu nông trại sự kiện và cày cấp có giá",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-47d92411b96adbfd",
@@ -84,7 +99,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Hỏi ngắn đã ra chưa",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-012ecf0a64081972",
@@ -112,7 +133,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mua bán tài khoản"
+      ],
+      "summary_vn": "Tìm mua tài khoản giá không cao",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-aa9d8d4ab78e609d",
@@ -140,7 +167,16 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "trái cây",
+        "nhân sâm",
+        "đổi thời tiết",
+        "bộ sưu tập thẻ"
+      ],
+      "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống, đổi thời tiết, thẻ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-7634eeba733da9b9",
@@ -168,7 +204,16 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "trái cây",
+        "nhân sâm",
+        "đổi thời tiết",
+        "bộ sưu tập thẻ"
+      ],
+      "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống, đổi thời tiết, thẻ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-2bdb473129f80de2",
@@ -196,7 +241,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "nhân sâm",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Rao bán nhân sâm 10 cây giá 100 mỗi bộ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-43c1ed156c0393b4",
@@ -208,7 +260,7 @@
       "text_th": "เกมดี",
       "text_vn": "Game hay",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -226,7 +278,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "praise",
+      "keywords": [
+        "đánh giá chung"
+      ],
+      "summary_vn": "Khen game hay",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-061d254571535f04",
@@ -254,7 +313,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "câu cá",
+        "cá hiếm",
+        "người chơi mới"
+      ],
+      "summary_vn": "Người mới hỏi vì sao đứt cần khi câu cá vua, xin mẹo",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-38e87ce66ae8ba76",
@@ -266,7 +333,7 @@
       "text_th": "ตอนแรกก็ไม่เชื่อว่ามันจะออกง่าย จนมาเห็นกันตา",
       "text_vn": "Ban đầu cũng không tin là nó dễ ra vậy, cho tới khi tận mắt thấy",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -284,7 +351,14 @@
         ],
         "comment_count": "4"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Khoe vật phẩm ra dễ hơn mình tưởng",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e49b18864c22a1db",
@@ -296,7 +370,7 @@
       "text_th": "คือสมัครแข่งอวดเกาลัดไปแล้ว พอไปเก็บ อันดับไม่อัพเดท มีใครเป็นเหมือนกันมั้ยคับ",
       "text_vn": "Đã đăng ký thi khoe hạt dẻ rồi, nhưng khi thu hoạch thì thứ hạng không cập nhật, có ai bị giống vậy không ạ?",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -314,7 +388,16 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "bug",
+      "keywords": [
+        "hạt dẻ",
+        "cuộc thi",
+        "lỗi sự kiện"
+      ],
+      "summary_vn": "Đã đăng ký thi khoe hạt dẻ nhưng thứ hạng không cập nhật",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e0ec773b54345b5f",
@@ -342,7 +425,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "mbti"
+      ],
+      "summary_vn": "Hỏi vui người chơi thuộc MBTI gì",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-2b4ae547927ab568",
@@ -372,7 +461,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "kỳ lạ"
+      ],
+      "summary_vn": "Hỏi mọi người thấy điều gì đó có kỳ lạ không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-1ce46c4bb4425721",
@@ -403,7 +498,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "rau khổng lồ",
+        "hướng dẫn"
+      ],
+      "summary_vn": "Chia sẻ hướng dẫn đào rau",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-650a843182ddc536",
@@ -431,7 +533,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "thú cưng",
+        "xương rồng",
+        "hướng dẫn"
+      ],
+      "summary_vn": "Chia sẻ hướng dẫn nuôi xương rồng",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-16210b7c0db064c5",
@@ -443,7 +553,7 @@
       "text_th": "แกก็ยักพร่ำเพื่อโพดนึกว่าจะออกยากที่มือ5.29ที่พื้นยังโตไม่สุด",
       "text_vn": "Trời ơi khổ sở vì nó, tưởng khó ra, ở tay 5.29 mà trên đất còn chưa lớn hết cỡ",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -462,7 +572,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "hạt dẻ",
+        "rau khổng lồ"
+      ],
+      "summary_vn": "Khoe ra hạt dẻ 5.29 dù tưởng khó",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-45f1529e54d8a947",
@@ -492,7 +610,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mua bán vật phẩm",
+        "hạt dẻ"
+      ],
+      "summary_vn": "Đùa mọi người thi hạt dẻ còn mình vẫn bán rau",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-49e25b82a8ce522e",
@@ -520,7 +645,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "hạt dẻ",
+        "trồng trọt"
+      ],
+      "summary_vn": "Hỏi hạt dẻ cần đợi bao lâu để thu lượt tiếp",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-08eb6d30704efbad",
@@ -550,7 +682,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "hạt dẻ",
+        "rau khổng lồ"
+      ],
+      "summary_vn": "Hỏi cách có hạt dẻ khổng lồ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-27d905e6c0ca452c",
@@ -581,7 +720,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Bình luận đùa tung ra cho chói mắt",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-22e7b04ec142c6e2",
@@ -609,7 +754,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "rau khổng lồ",
+        "dụng cụ"
+      ],
+      "summary_vn": "Hỏi kiếm dụng cụ xịn để đập rau ở đâu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-030244b0c9808242",
@@ -639,7 +791,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "hạt dẻ",
+        "cuộc thi"
+      ],
+      "summary_vn": "Hỏi hạt dẻ to nhất hiện tại là bao nhiêu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-cc4777549ff92bb4",
@@ -651,7 +810,7 @@
       "text_th": "รองเท้าแบบนี้มีอยู่จริงๆมั้ยคะ ถ้ามีเป็นของเซตไหน ขอบคุณล่วงหน้าค่ะ",
       "text_vn": "Đôi giày như này có thật không ạ? Nếu có thì thuộc bộ nào, cảm ơn trước ạ",
       "translation_method": "machine_translation",
-      "sentiment": "Positive",
+      "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -669,7 +828,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trang phục"
+      ],
+      "summary_vn": "Hỏi đôi giày này có thật và thuộc bộ nào",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-5e2468d2a655f4a6",
@@ -697,7 +863,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "account",
+      "keywords": [
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Hỏi còn chuyển ID phụ được không khi đã xóa app cũ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-c632e3c98fbea9ec",
@@ -728,7 +900,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "hạt dẻ",
+        "cuộc thi"
+      ],
+      "summary_vn": "Hỏi cách gửi thi hạt dẻ vì thứ hạng không lên",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-1c418ff220ec5f74",
@@ -740,7 +919,7 @@
       "text_th": "รบกวนสอบถามนิดนึงค่ะ กิจใหม่ที่ประกวดเกาลัดยักษ์ ทำยังไงให้ขนาดของเกาลัดที่ใหญ่ที่สุดของเราขึ้นในบอร์ดหรอคะ พอดีลงทะเบียนแล้ว เก็บเกี่ยวก็แล้ว อวดก็แล้ว เหมือนข้อมูลของเกาลัดที่ใหญ่ที่สุดของเราที่เราเก็บก็ยังไม่ขึ้นในบอร์ดของกิจที่ประกวดกัน แต่เห็นมีบางคนข้อมูลขึ้นแล้ว",
       "text_vn": "Cho hỏi chút ạ, nhiệm vụ mới thi hạt dẻ khổng lồ, làm sao để kích thước hạt dẻ to nhất của mình hiện lên bảng xếp hạng ạ? Mình đã đăng ký, đã thu hoạch, đã khoe rồi mà dữ liệu hạt dẻ to nhất vẫn chưa hiện lên bảng, trong khi thấy có người đã hiện rồi",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -758,7 +937,16 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "hạt dẻ",
+        "cuộc thi",
+        "lỗi sự kiện"
+      ],
+      "summary_vn": "Hỏi sao hạt dẻ to nhất chưa hiện lên bảng xếp hạng",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-f663292bae7d9e25",
@@ -770,7 +958,7 @@
       "text_th": "รอบนี้เป็นลูกรักGM",
       "text_vn": "Lần này là con cưng của GM",
       "translation_method": "machine_translation",
-      "sentiment": "Positive",
+      "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -788,7 +976,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Đùa mình là con cưng của GM lần này",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e4d6277b67e65a58",
@@ -819,7 +1014,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "trồng trọt"
+      ],
+      "summary_vn": "Đùa nhắc ai quên mang trạng thái thì mang theo",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-1e1bf2f83c0725ff",
@@ -849,7 +1050,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "rau khổng lồ",
+        "giới hạn"
+      ],
+      "summary_vn": "Hỏi thông báo không nhận được nữa, không đào tiếp được",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-a1f93bce6322e1f6",
@@ -879,7 +1087,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "câu cá",
+        "đổi thời tiết"
+      ],
+      "summary_vn": "Hỏi cần câu tăng tỉ lệ cá có trạng thái thời tiết",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-081b5285383c6d06",
@@ -911,7 +1126,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "gacha",
+        "phương tiện"
+      ],
+      "summary_vn": "Khoe quay gacha dễ ra xe và dụng cụ đào",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-cd7d0da786d09033",
@@ -942,7 +1164,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trồng trọt",
+        "trái cây"
+      ],
+      "summary_vn": "Hỏi cây hồng trụi lá có bình thường không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-60dee3d2eb99d82f",
@@ -953,7 +1182,7 @@
       "author_masked": "P***",
       "text_th": "คู่มือขุดผัก ฉบับครบจบในโพสต์เดียว!ขุดที่ไหน? ขุดได้กี่ครั้ง? แล้วผักที่ขุดมาเอาไปทำอะไรได้บ้าง? รวมคำตอบไว้ให้แล้วในโพสต์นี้! เพื่อนใครกำลังสับสนงง ๆ ไม่รู้จะเริ่มจากตรงไหน แชร์ให้เขาดูได้นะ ! #playtogether #playtogethervng #playtogetherTH",
       "text_vn": "Hướng dẫn đào rau đầy đủ trong một bài! Đào ở đâu? Đào được bao nhiêu lần? Rau đào được dùng làm gì? Tổng hợp câu trả lời trong bài này! Bạn nào đang bối rối không biết bắt đầu từ đâu thì chia sẻ cho họ xem nhé! #playtogether #playtogethervng #playtogetherTH",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
       "theme": "Đăng nhập tài khoản",
@@ -972,7 +1201,15 @@
         "comment_count": "3"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "answer",
+      "keywords": [
+        "rau khổng lồ",
+        "hướng dẫn"
+      ],
+      "summary_vn": "Đăng hướng dẫn đầy đủ về đào rau",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -982,9 +1219,9 @@
       "Facebook Group": 33
     },
     "by_sentiment": {
-      "Positive": 4,
-      "Neutral": 28,
-      "Negative": 1,
+      "Positive": 5,
+      "Neutral": 25,
+      "Negative": 3,
       "Mixed": 0
     },
     "by_topic": {
@@ -997,7 +1234,7 @@
     "by_segment": {
       "unknown": 33
     },
-    "nss": 9.1,
+    "nss": 6.1,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

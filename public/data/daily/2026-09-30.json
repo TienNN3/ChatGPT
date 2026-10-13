@@ -28,7 +28,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Bình luận quan tâm món đang rao",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-d1188b7c9f83964b",
@@ -56,7 +62,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Nhờ người bán nhắn tin",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e67f457ac92f1104",
@@ -84,7 +96,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Quan tâm món rao bán, nhờ nhắn qua Facebook",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-bb1c5f645407e1f3",
@@ -112,7 +130,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "cày thuê"
+      ],
+      "summary_vn": "Hỏi người nhận dịch vụ còn trống lịch không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-915e7e1a45084ab7",
@@ -140,7 +164,16 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "trái cây",
+        "nhân sâm",
+        "đổi thời tiết",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Rao bán trái cây, nhân sâm, xu nông trại, đổi thời tiết, thẻ 1 baht/sao",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-77e8e88554dd053b",
@@ -171,7 +204,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "sự kiện",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Nói rồng và troll chỉ ở lại tới bản cập nhật ngày mai",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-edb8408fe3e54a7e",
@@ -183,7 +223,7 @@
       "text_th": "แวะมาพรีวิวไอเทมกิจกรรมต่อไปครับรอท่าเต้นอยู่ครับ ปล่อยมาได้ยังอะ555",
       "text_vn": "Ghé xem trước vật phẩm sự kiện tiếp theo. Đang chờ điệu nhảy, ra được chưa haha",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Event & Update content",
       "topic_secondary": [],
       "theme": "Phần thưởng sự kiện",
@@ -201,7 +241,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "sự kiện",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Xem trước vật phẩm sự kiện tới, mong điệu nhảy mới",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-94fd22cd2791942d",
@@ -233,7 +281,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "bộ sưu tập thẻ",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Mời vào nhóm lập ra để trao đổi thẻ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-c66138ab4fc3b48d",
@@ -263,7 +318,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "social",
+      "keywords": [
+        "tìm bạn"
+      ],
+      "summary_vn": "Mới quay lại chơi, tìm bạn chơi cùng",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-9d4824066fb97f84",
@@ -293,7 +354,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trang trí nhà",
+        "câu cá",
+        "bắt côn trùng"
+      ],
+      "summary_vn": "Hỏi có nên giữ căn nhà, có câu cá bắt bọ trong đó được không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-11f36498e339f5cd",
@@ -323,7 +392,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "nấu ăn",
+        "cửa hàng"
+      ],
+      "summary_vn": "Hỏi chai trắng có phải muối, mua rồi không thấy muối đâu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-82bf79417dc82f1a",
@@ -353,7 +429,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "thông báo lỗi"
+      ],
+      "summary_vn": "Hỏi hiện thông báo như ảnh thì phải làm sao",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -363,8 +445,8 @@
       "Facebook Group": 12
     },
     "by_sentiment": {
-      "Positive": 0,
-      "Neutral": 12,
+      "Positive": 1,
+      "Neutral": 11,
       "Negative": 0,
       "Mixed": 0
     },
@@ -377,7 +459,7 @@
     "by_segment": {
       "unknown": 12
     },
-    "nss": 0,
+    "nss": 8.3,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

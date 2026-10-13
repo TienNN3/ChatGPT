@@ -18,7 +18,13 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "lỗi điều khiển"
+      ],
+      "summary_vn": "Chê game tệ, bấm gì cũng không được",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -40,8 +46,8 @@
       "unknown": 1
     },
     "nss": -100,
-    "nss_d1": 50,
-    "nss_7d_avg": 22.1,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 1,
       "ios_avg": null,

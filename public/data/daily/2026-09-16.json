@@ -28,7 +28,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "trả góp",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Hỏi người bán có nhận trả góp không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-b77d2ddbc1700c93",
@@ -40,7 +47,7 @@
       "text_th": "สนลมดีจังครับ",
       "text_vn": "Gió rất tốt.",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -56,7 +63,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "cây thông gió",
+        "trồng trọt"
+      ],
+      "summary_vn": "Khen cây thông gió đẹp",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-4cccc736db73e973",
@@ -86,7 +101,13 @@
         ],
         "comment_count": "9"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "chia sẻ ảnh"
+      ],
+      "summary_vn": "Đăng ảnh kèm biểu tượng cảm xúc nhăn mặt",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-cbaa0ebd3e81c4f7",
@@ -116,7 +137,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "bán tài khoản",
+        "trang phục"
+      ],
+      "summary_vn": "Bán tài khoản liên kết email nhiều trang phục, giá khoảng 500 baht",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-06d239927d630e4d",
@@ -144,7 +172,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "trái cây",
+        "nhân sâm",
+        "đổi thời tiết"
+      ],
+      "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống và đổi thời tiết",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e36d2e6af94ae2f7",
@@ -174,7 +210,14 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mandrake",
+        "trái cây"
+      ],
+      "summary_vn": "Bán 5 cây mandrake 30 baht, Aurora 8 baht",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-beff8883f61ed9bf",
@@ -204,7 +247,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "câu cá",
+        "cần câu"
+      ],
+      "summary_vn": "Hỏi cần câu này có câu được cá khổng lồ không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-9ccd0d1624012de4",
@@ -234,7 +284,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "mandrake",
+        "trồng trọt"
+      ],
+      "summary_vn": "Hỏi mua hạt giống mandrake ở đâu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-1eb595ebccc982c9",
@@ -264,7 +321,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "sự kiện",
+        "phần thưởng sự kiện"
+      ],
+      "summary_vn": "Hỏi rồng đen có rơi trong sự kiện không vì chỉ ra troll",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-bf8dac6a4521f52b",
@@ -294,7 +358,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "nhiệm vụ"
+      ],
+      "summary_vn": "Hỏi nhiệm vụ này làm ở đâu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-a5a731cdbeac998e",
@@ -306,7 +376,7 @@
       "text_th": "หม่ำพาสต้าในรร.ไม่ได้แล้วหรอคะ เห็นมีแต่ระบบตักอาหาร ไม่มีคนรับออเดอร์แล้ว",
       "text_vn": "Bạn không thể ăn mì ống ở trường? Tôi chỉ thấy một hệ thống xúc thức ăn. Không có ai nhận lệnh.",
       "translation_method": "machine_translation",
-      "sentiment": "Negative",
+      "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
       "theme": "Game bị văng và treo",
@@ -324,7 +394,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trường học",
+        "nấu ăn"
+      ],
+      "summary_vn": "Hỏi sao không ăn mì ống ở trường được, không ai nhận order",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-23a9b3a9826b27a8",
@@ -354,7 +432,13 @@
         ],
         "comment_count": "5"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "cập nhật mới"
+      ],
+      "summary_vn": "Chia sẻ chi tiết bản vá mới",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-dbe567a8fad5ae44",
@@ -386,7 +470,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "cập nhật mới"
+      ],
+      "summary_vn": "Thông báo bản cập nhật sẽ ra vào ngày mai",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-7a282613ae161606",
@@ -416,7 +506,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trang phục"
+      ],
+      "summary_vn": "Hỏi ai phối áo này với đồ nam để xem thử",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-68f3e2673c21b920",
@@ -447,7 +543,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "ngân hàng"
+      ],
+      "summary_vn": "Lâu mới chơi lại, hỏi ngân hàng không gửi tiền được nữa à",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-c0b3808a7f052873",
@@ -459,7 +561,7 @@
       "text_th": "สวัสดีวันพุธครับบ พรุ่งนี้อัพเดตใหม่กำลังจะมาแว้วว",
       "text_vn": "Xin chào thứ Tư. Ngày mai sẽ có bản cập nhật mới.",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -477,7 +579,14 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "cập nhật mới"
+      ],
+      "summary_vn": "Chào thứ Tư, báo ngày mai có bản cập nhật mới",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-7b895fc7cefe8731",
@@ -508,7 +617,13 @@
         "comment_count": "1"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "social",
+      "keywords": [
+        "lời chúc"
+      ],
+      "summary_vn": "Gửi lời chúc tốt đẹp, chào thứ Tư",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -518,9 +633,9 @@
       "Facebook Group": 17
     },
     "by_sentiment": {
-      "Positive": 0,
-      "Neutral": 16,
-      "Negative": 1,
+      "Positive": 3,
+      "Neutral": 14,
+      "Negative": 0,
       "Mixed": 0
     },
     "by_topic": {
@@ -533,7 +648,7 @@
     "by_segment": {
       "unknown": 17
     },
-    "nss": -5.9,
+    "nss": 17.6,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

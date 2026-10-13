@@ -28,7 +28,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "trái cây",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Bày tỏ muốn mua quả na",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-f61f84460d3c4150",
@@ -58,7 +65,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "nhân sâm",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Rao bán nhân sâm thường 10 baht, có trạng thái 12 baht/cây",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-22e4af4a317c8ec1",
@@ -88,7 +102,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "ảnh"
+      ],
+      "summary_vn": "Đăng bài chỉ có ảnh, không có nội dung chữ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-66fe8966862affa5",
@@ -116,7 +136,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Hỏi đã bán chưa, muốn nhận về chăm sóc tiếp",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-2f202acedd16eadb",
@@ -144,7 +170,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "tìm bạn"
+      ],
+      "summary_vn": "Hỏi đã đi chưa",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-9386b94f8547f425",
@@ -172,7 +204,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "trái cây",
+        "nông trại"
+      ],
+      "summary_vn": "Đăng ảnh các loại trái cây thu hoạch được",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-4de9d634bb227366",
@@ -184,7 +223,7 @@
       "text_th": "อ่าว เสียดายยย",
       "text_vn": "Ôi, thật đáng xấu hổ.",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -200,7 +239,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "tiếc nuối"
+      ],
+      "summary_vn": "Bày tỏ tiếc nuối",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-3256d8f9bca6fcad",
@@ -228,7 +274,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "đổi thời tiết",
+        "tặng quà",
+        "cày thuê"
+      ],
+      "summary_vn": "Quảng cáo dịch vụ đổi thời tiết, gửi quà và hạt giống",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-61ae1fb6d8b302b0",
@@ -256,7 +310,16 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "trái cây",
+        "nhân sâm",
+        "đổi thời tiết",
+        "cày thuê"
+      ],
+      "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống, thẻ và dịch vụ cày tháp",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-6c2a0d257f9f8ff4",
@@ -286,7 +349,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "thú cưng"
+      ],
+      "summary_vn": "Hỏi quả trứng này lấy ở đâu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-607fe800390bffc0",
@@ -316,7 +385,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "rau khổng lồ",
+        "trồng trọt"
+      ],
+      "summary_vn": "Hỏi khoai tây 2.30kg đã được tính là khổng lồ chưa",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-1f28be222a1cb356",
@@ -346,7 +422,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "tải game"
+      ],
+      "summary_vn": "Hỏi người chơi trên máy tính tải game ở đâu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-fa765591a77200e6",
@@ -377,7 +459,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trồng trọt",
+        "hạt dẻ"
+      ],
+      "summary_vn": "Hỏi có ai gặp hạt dẻ lớn hơn 5.40 chưa",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-0eec6f9a63df5ac4",
@@ -408,7 +497,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "đùa"
+      ],
+      "summary_vn": "Bình luận ngắn mang tính đùa vui",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-9148f803a8a61c97",
@@ -436,7 +531,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "trồng trọt"
+      ],
+      "summary_vn": "Đùa về cà rốt già",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-82bfcdfdb01e594e",
@@ -448,7 +549,7 @@
       "text_th": "แวบแรก ตกใจ ไม่เห็นคำว่าแกง",
       "text_vn": "Thoáng nhìn giật mình, không thấy chữ \"cà ri\"",
       "translation_method": "machine_translation",
-      "sentiment": "Negative",
+      "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -464,7 +565,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "nấu ăn"
+      ],
+      "summary_vn": "Đùa giật mình vì không thấy chữ cà ri",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-0bde58f1f5419909",
@@ -496,7 +604,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "bộ sưu tập thẻ",
+        "golden chain"
+      ],
+      "summary_vn": "Than reset mãi không ra thẻ vàng cuối cùng",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-d10b6201868e110e",
@@ -508,7 +623,7 @@
       "text_th": "สุดท้ายเหมือนกัน ท้อละ",
       "text_vn": "Cũng thiếu cái cuối cùng y vậy, nản rồi",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -524,7 +639,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "bộ sưu tập thẻ"
+      ],
+      "summary_vn": "Cũng thiếu thẻ cuối cùng, cảm thấy nản",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-aae841236b716600",
@@ -555,7 +677,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "trường học"
+      ],
+      "summary_vn": "Đùa hỏi nhân vật muốn vào trường nào",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-6f1e730368a562da",
@@ -583,7 +711,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "thú cưng",
+        "tặng quà"
+      ],
+      "summary_vn": "Đùa thú cưng đỏng đảnh, chỉ tặng kiến và cành cây",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-27452e895f2d7bda",
@@ -613,7 +748,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "đăng nhập",
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Hỏi đăng nhập bằng Apple có mã tài khoản không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-2e6dae097e64a6d6",
@@ -641,7 +783,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "code quà tặng",
+        "nạp tiền"
+      ],
+      "summary_vn": "Hướng dẫn bản VNG phải nhập code nạp trên web",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-00e211f8ca6709fc",
@@ -653,7 +802,7 @@
       "text_th": "หลังจากเป็นกิจกรรมผู้เล่นจัดกันเองมานานในกลุ่มไทยตอนนี้ได้อฟชช่วยสนับสนุนจัดกิจกรรมแล้วครับบแวะไปเล่นกันเยอะ ๆ น้า ถ้ามีคนเล่นเยอะๆ จะทำให้มีกิจกรรมแบบนี้อีกต่อไปเรื่อย ๆ เลยครับ",
       "text_vn": "Sau thời gian dài là sự kiện người chơi tự tổ chức trong nhóm Thái, giờ đã được phía chính thức hỗ trợ tổ chức rồi. Mọi người ghé chơi đông vào nhé, nếu đông người chơi thì sẽ có những sự kiện như thế này tiếp tục mãi",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Event & Update content",
       "topic_secondary": [],
       "theme": "Phần thưởng sự kiện",
@@ -672,7 +821,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "praise",
+      "keywords": [
+        "sự kiện",
+        "tiệc"
+      ],
+      "summary_vn": "Thông báo sự kiện cộng đồng được chính thức hỗ trợ, mời tham gia",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-80a00e389ece96c6",
@@ -684,7 +841,7 @@
       "text_th": "เริ่ดๆ",
       "text_vn": "Đỉnh đỉnh",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -700,7 +857,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "praise",
+      "keywords": [
+        "sự kiện"
+      ],
+      "summary_vn": "Khen đỉnh",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-dd5dcb9a1a869c12",
@@ -712,7 +876,7 @@
       "text_th": "ทั้งนั่งเฝ้า นอนเฝ้า โหลดแอพเตือนกว่าจะเจอแต่ละต้น มินิมีคงสงสารโถ่วลูกรักของแมร่",
       "text_vn": "Ngồi canh, nằm canh, tải app nhắc nhở mới gặp được từng cây, Minimi chắc thương lắm, tội con cưng của mẹ",
       "translation_method": "machine_translation",
-      "sentiment": "Positive",
+      "sentiment": "Mixed",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -731,7 +895,15 @@
         ],
         "comment_count": "9"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "rau khổng lồ",
+        "trồng trọt"
+      ],
+      "summary_vn": "Kể canh mãi mới gặp cây khổng lồ, thương minimi",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-f34e755598015fad",
@@ -759,7 +931,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "đồng cảm"
+      ],
+      "summary_vn": "Đồng tình mình cũng vậy",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-49993ed602731b69",
@@ -787,7 +965,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "đồng cảm"
+      ],
+      "summary_vn": "Cho biết mình cũng gặp tình trạng giống vậy",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-47995398552c4f93",
@@ -815,7 +999,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "nông trại",
+        "trồng trọt"
+      ],
+      "summary_vn": "Giải thích ở trong map nông trại vẫn có cơ hội dính trạng thái",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-0b68642cbd71829d",
@@ -827,7 +1018,7 @@
       "text_th": "คนนี้ดูลูกรักมาก",
       "text_vn": "Người này trông giống con cưng lắm",
       "translation_method": "machine_translation",
-      "sentiment": "Positive",
+      "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -843,7 +1034,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "thú cưng"
+      ],
+      "summary_vn": "Đùa người này trông như con cưng",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-56018858f9e1ca57",
@@ -871,7 +1069,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "đùa"
+      ],
+      "summary_vn": "Đùa kêu gọi các thành viên tung ra",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-4b8a67b3a7308ea9",
@@ -883,7 +1087,7 @@
       "text_th": "มีประโยชน์",
       "text_vn": "Hữu ích",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -899,7 +1103,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "praise",
+      "keywords": [
+        "hướng dẫn"
+      ],
+      "summary_vn": "Khen bài viết hữu ích",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-7e3d269aa722309c",
@@ -927,7 +1138,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "minigame",
+        "nhảy tháp"
+      ],
+      "summary_vn": "Chỉ mẹo chơi tháp, warp ra vào lại để lặp đến hết lượt",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-20af044e436875cf",
@@ -955,7 +1173,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "đồng tình"
+      ],
+      "summary_vn": "Đồng tình đúng rồi",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-d9bb5988fe2b739d",
@@ -983,7 +1207,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "đồng tình"
+      ],
+      "summary_vn": "Đồng tình đúng đúng",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e74bceaa16e61512",
@@ -1011,7 +1241,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "trồng trọt"
+      ],
+      "summary_vn": "Trả lời là ở gốc cây",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-f50208c06aa76887",
@@ -1039,7 +1275,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "trồng trọt",
+        "rau khổng lồ"
+      ],
+      "summary_vn": "Hướng dẫn dùng vòi phun đỏ để cây dính trạng thái rồi dời ra",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-50b4165f53a5546d",
@@ -1067,7 +1310,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "trồng trọt",
+        "trái cây"
+      ],
+      "summary_vn": "Khuyên để nguyên cây, lâu nhanh tùy số trái cây trong vườn",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-da1b8822ea674509",
@@ -1079,7 +1329,7 @@
       "text_th": "ชุดออกยากก5555",
       "text_vn": "Bộ đồ khó ra quá, haha",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -1095,7 +1345,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "trang phục",
+        "gacha"
+      ],
+      "summary_vn": "Than bộ đồ khó ra",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-74863bb7454def30",
@@ -1107,7 +1365,7 @@
       "text_th": "ไอดีลูกรัก gm",
       "text_vn": "ID con cưng GM",
       "translation_method": "machine_translation",
-      "sentiment": "Positive",
+      "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -1123,7 +1381,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "thú cưng"
+      ],
+      "summary_vn": "Đùa ID là con cưng của GM",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-fe105ff90167083b",
@@ -1135,7 +1400,7 @@
       "text_th": "ที่ขุดหายยย5555",
       "text_vn": "Dụng cụ đào mất tiêu, haha",
       "translation_method": "machine_translation",
-      "sentiment": "Negative",
+      "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -1151,7 +1416,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "đào kho báu"
+      ],
+      "summary_vn": "Đùa dụng cụ đào bị mất",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-959a8890478404a5",
@@ -1179,7 +1451,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "lừa đảo",
+        "hack"
+      ],
+      "summary_vn": "Cho rằng đó là hack chứ không phải bug, khuyên report",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-0fd57c55e5cbb468",
@@ -1207,7 +1486,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "cập nhật mới"
+      ],
+      "summary_vn": "Hỏi nội dung ra ngày nào",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-6d9368b0222bd1f6",
@@ -1235,7 +1520,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "động viên"
+      ],
+      "summary_vn": "Đùa phải tiếp tục thôi",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-fdb08f7b65f5650c",
@@ -1247,7 +1538,7 @@
       "text_th": "อย่ายอมแพ้",
       "text_vn": "Đừng bỏ cuộc",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -1263,7 +1554,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "động viên"
+      ],
+      "summary_vn": "Động viên đừng bỏ cuộc",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-c89892c19d26a6d6",
@@ -1275,7 +1573,7 @@
       "text_th": "กลุ่มเรานน.เท่านี้อยู่อันดับ10คับ 555555",
       "text_vn": "Nhóm mình cân nặng có nhiêu đây mà đứng hạng 10, hahaha",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -1291,7 +1589,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "sự kiện",
+        "rau khổng lồ"
+      ],
+      "summary_vn": "Khoe nhóm đứng hạng 10 trong bảng xếp hạng cân nặng",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-85897ba8aac307cd",
@@ -1303,7 +1609,7 @@
       "text_th": "เกินอะเจ้หนูไม่ออกยักเลย",
       "text_vn": "Quá đáng, chị ơi em không ra khổng lồ luôn",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -1319,7 +1625,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "rau khổng lồ",
+        "trồng trọt"
+      ],
+      "summary_vn": "Than không ra được quả khổng lồ nào",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-313a2ba4c00fd0f7",
@@ -1347,7 +1661,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "nấu ăn",
+        "sự kiện"
+      ],
+      "summary_vn": "Chỉ bàn cạnh sân sự kiện có thể nấu ăn",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-4504bbbe555c143d",
@@ -1375,7 +1696,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "tải game",
+        "phiên bản cũ"
+      ],
+      "summary_vn": "Hướng dẫn tải lại game qua App Store hoặc lịch sử ứng dụng",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-00ff76371f091eed",
@@ -1387,7 +1715,7 @@
       "text_th": "ทางนี้ 2 กล่องออกครบ พอเลยค่ะ5555",
       "text_vn": "Mình đây 2 hộp ra đủ, đủ rồi ạ, haha",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -1403,7 +1731,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Khoe mở 2 hộp đã ra đủ đồ",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-5e337c55fb5bb998",
@@ -1431,7 +1766,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "thú cưng"
+      ],
+      "summary_vn": "Hỏi lai ghép xong thì thế nào",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-4452dd93d791da94",
@@ -1459,7 +1800,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "đào kho báu"
+      ],
+      "summary_vn": "Hỏi cách đào",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-5ffb347c7b369949",
@@ -1487,7 +1834,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "rau khổng lồ",
+        "trồng trọt"
+      ],
+      "summary_vn": "Khuyên chăm thu hoạch thường xuyên thì sẽ ra",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-ccd5d4927d45f30e",
@@ -1499,7 +1853,7 @@
       "text_th": "เก็บบ่อยๆงั๊บสู้ๆ",
       "text_vn": "Thu hoạch thường xuyên nhé, cố lên",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -1515,7 +1869,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "trồng trọt"
+      ],
+      "summary_vn": "Khuyên thu hoạch thường xuyên, động viên cố lên",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-10901e6c5ab9628b",
@@ -1543,7 +1904,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "đồng cảm"
+      ],
+      "summary_vn": "Cho biết mình cũng bị y vậy",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-0061eee89281a4d1",
@@ -1571,7 +1938,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "câu cá",
+        "cá hiếm"
+      ],
+      "summary_vn": "Giải thích đứt cần khi câu cá khổng lồ do kỹ năng hoặc cần yếu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-9e11353dcddf6f5d",
@@ -1599,7 +1973,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "bug",
+      "keywords": [
+        "lỗi sự kiện",
+        "trồng trọt"
+      ],
+      "summary_vn": "Báo thu hoạch quả 1.04, 1.05 mà điểm không lên, nghi bug",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-96cb17751cf892cc",
@@ -1627,7 +2008,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "lỗi sự kiện",
+        "trồng trọt"
+      ],
+      "summary_vn": "Giải thích chỉ quả mọc mới khi có nhiệm vụ thi mới được tính",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-845abb89297d6f47",
@@ -1639,7 +2027,7 @@
       "text_th": "ทุบจนท้ออ55555",
       "text_vn": "Đập tới nản luôn, hahaha",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -1655,7 +2043,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "rau khổng lồ"
+      ],
+      "summary_vn": "Than đập rau đến nản",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-b765226052ea18c2",
@@ -1683,7 +2078,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "thú cưng"
+      ],
+      "summary_vn": "Hỏi lần này phải cùng một con mới lai được phải không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-b17f9cae3d90ff2d",
@@ -1711,7 +2112,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "thú cưng",
+        "sự kiện cao bồi"
+      ],
+      "summary_vn": "Hỏi con thú nào đội mũ cao bồi, tưởng là mèo",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-af123f1fe8b5769c",
@@ -1739,7 +2147,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trồng trọt"
+      ],
+      "summary_vn": "Hỏi bao nhiêu tiếng mới thu hoạch được một lần",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-262ab354eb5bed21",
@@ -1767,7 +2181,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "rau khổng lồ",
+        "trồng trọt"
+      ],
+      "summary_vn": "Hỏi khổng lồ ra ngẫu nhiên hay cần đặt vòi phun",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-478cbb37ffaeda11",
@@ -1779,7 +2200,7 @@
       "text_th": "เหมือนกันเลยค่ะมีหลายต้นมากแต่ไม่ติดยักษ์สักลูกเลย",
       "text_vn": "Mình cũng y vậy, có rất nhiều cây mà không ra quả khổng lồ nào",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -1795,7 +2216,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "rau khổng lồ",
+        "trồng trọt"
+      ],
+      "summary_vn": "Than trồng nhiều cây mà không ra quả khổng lồ nào",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-902a59610e6ffce0",
@@ -1823,7 +2252,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "trồng trọt"
+      ],
+      "summary_vn": "Trả lời 1 tiếng thu hoạch một lần",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-42296f3ae4381ca3",
@@ -1851,7 +2286,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "đùa"
+      ],
+      "summary_vn": "Phản ứng cảm thán, cười",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-15cfc7d38d139d55",
@@ -1879,7 +2320,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "đào kho báu"
+      ],
+      "summary_vn": "Chỉ đến lều xanh lá để chế tạo dụng cụ đào tốt hơn",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-6fcf987f62d04a4b",
@@ -1907,7 +2354,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "hạt dẻ"
+      ],
+      "summary_vn": "Bình luận con số 5.29",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-17afcb4816d8f0c4",
@@ -1935,7 +2388,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "trang phục",
+        "sự kiện"
+      ],
+      "summary_vn": "Cho biết đó là đồ bộ thỏ vừa quay lại sự kiện trước",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e4de8b12c6b592d3",
@@ -1963,7 +2423,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "cảm ơn"
+      ],
+      "summary_vn": "Cảm ơn",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-3f06a724512f05de",
@@ -1991,7 +2457,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "phiên bản cũ",
+        "tải game"
+      ],
+      "summary_vn": "Hướng dẫn tải lại app cũ từ lịch sử tải xuống",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-90cb0afd940b2da1",
@@ -2003,7 +2476,7 @@
       "text_th": "ผลจะนับ หลังจากลงกิจคั้บ ผลที่งอกก่อนลงกิจ เก็บแล้วจะไม่นับ",
       "text_vn": "Quả chỉ được tính sau khi đăng ký sự kiện thôi, quả mọc trước khi đăng ký thì thu hoạch sẽ không được tính",
       "translation_method": "machine_translation",
-      "sentiment": "Negative",
+      "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -2019,7 +2492,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "lỗi sự kiện",
+        "trồng trọt"
+      ],
+      "summary_vn": "Giải thích chỉ quả mọc sau khi đăng ký sự kiện mới được tính",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-fbc11cea1a4c715a",
@@ -2031,7 +2512,7 @@
       "text_th": "เหมือนกันค่า ลงแข่งแล้ว เก็บแต่คะแนนไม่ขึ้นเลยค่ะ",
       "text_vn": "Mình cũng vậy, đã đăng ký thi rồi, thu hoạch mà điểm không tăng gì cả",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -2047,7 +2528,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "bug",
+      "keywords": [
+        "lỗi sự kiện",
+        "trồng trọt"
+      ],
+      "summary_vn": "Báo đã đăng ký thi, thu hoạch mà điểm không tăng",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-406f9fa08e8a73fe",
@@ -2059,7 +2548,7 @@
       "text_th": "ลูกที่เก็บเป็นลูกที่ทิ้งไว้ในต้นก่อนกิจมามั้ยคะ เหมือนกิจก่อนๆที่เคยทำ เราเคยปลูกไว้รอกิจมาแล้วค่อยเก็งมันก็ไม่นับให้ มันนับให…",
       "text_vn": "Quả bạn thu hoạch có phải là quả để sẵn trên cây từ trước khi sự kiện bắt đầu không? Giống mấy sự kiện trước mình từng làm, trồng sẵn chờ sự kiện tới rồi mới thu thì không được tính, nó chỉ tính…",
       "translation_method": "machine_translation",
-      "sentiment": "Negative",
+      "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -2075,7 +2564,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "lỗi sự kiện",
+        "trồng trọt"
+      ],
+      "summary_vn": "Giải thích quả có sẵn trước sự kiện không được tính điểm",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-28c5d2ff1ae6451d",
@@ -2103,7 +2600,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "sự kiện",
+        "trồng trọt"
+      ],
+      "summary_vn": "Hỏi khi đăng ký thi có thu hoạch liên tục được không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-be75c8e7b32d0b02",
@@ -2115,7 +2619,7 @@
       "text_th": "สุดเกินนนนน",
       "text_vn": "Đỉnh quá điiii",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -2131,7 +2635,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "praise",
+      "keywords": [
+        "sự kiện"
+      ],
+      "summary_vn": "Khen đỉnh quá",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-45d7256391ccec45",
@@ -2159,7 +2670,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "sự kiện"
+      ],
+      "summary_vn": "Bình luận lâu lâu mới có một lần",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-00621554af7ed0b0",
@@ -2187,7 +2704,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "đào kho báu",
+        "vvip pass"
+      ],
+      "summary_vn": "Giải thích không nạp gói tên tím thì đào bị giới hạn mỗi ngày",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-546ab45e3ab619dc",
@@ -2199,7 +2723,7 @@
       "text_th": "ของเราหัวม่วงมันก็ไม่ให้ขุด เป็นมาสองวันแล้ว ไม่รู้เพราะอะไรเหมือนกัน",
       "text_vn": "Mình có tên tím mà vẫn không cho đào, bị hai ngày rồi, không biết tại sao luôn",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -2215,7 +2739,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "bug",
+      "keywords": [
+        "đào kho báu",
+        "vvip pass"
+      ],
+      "summary_vn": "Báo có tên tím mà vẫn không đào được suốt hai ngày",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-728b885a94e4b1a2",
@@ -2243,7 +2775,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "câu cá",
+        "trang phục"
+      ],
+      "summary_vn": "Liệt kê các cần câu cho trạng thái băng giá, ánh trăng, ẩm ướt",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-dc2aca4f35622bcc",
@@ -2271,7 +2810,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "social",
+      "keywords": [
+        "tìm bạn"
+      ],
+      "summary_vn": "Xin kết bạn",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-8c12fbbc0ece33e5",
@@ -2283,7 +2828,7 @@
       "text_th": "ออกเกมไปเลย ได้ตลอด น่าสงสัยจริง",
       "text_vn": "Thoát game ra là được luôn, đáng ngờ thật",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -2299,7 +2844,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "bug",
+      "keywords": [
+        "lỗi sự kiện"
+      ],
+      "summary_vn": "Cho biết thoát game ra là được, thấy đáng ngờ",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-93f10ff803075b03",
@@ -2327,7 +2879,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "trồng trọt"
+      ],
+      "summary_vn": "Kể tra Google thấy cây thật giống lá khô",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-7e198d487c0d47f7",
@@ -2339,7 +2897,7 @@
       "text_th": "ใบม่ายมีหมดปัญหาใบรกรุงรังเหมือนทุเรียน",
       "text_vn": "Lá mới không còn bị rối rắm như sầu riêng nữa",
       "translation_method": "machine_translation",
-      "sentiment": "Negative",
+      "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
       "theme": "Game bị văng và treo",
@@ -2355,7 +2913,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "trồng trọt",
+        "trái cây"
+      ],
+      "summary_vn": "Bình luận lá cây mới không rối như sầu riêng",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-f68e951e5e9dc7b5",
@@ -2383,7 +2949,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "đùa"
+      ],
+      "summary_vn": "Than tối qua ngủ sớm lúc 11 rưỡi",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-09660fa5a153a3d6",
@@ -2411,7 +2983,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Trả lời giá 250.000",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-a26898707dc4ddaf",
@@ -2439,7 +3017,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "bình luận trống"
+      ],
+      "summary_vn": "Bình luận trống, không có nội dung",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e99cf57ce9109718",
@@ -2467,7 +3051,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "giá vật phẩm",
+        "trồng trọt"
+      ],
+      "summary_vn": "Hỏi giá cây bao nhiêu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e44102d4c73cf45f",
@@ -2495,7 +3086,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "đùa"
+      ],
+      "summary_vn": "Đùa để nói chuyện với người ta cho hiểu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-cfb7f51744ae67ca",
@@ -2523,7 +3120,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trang trí nhà",
+        "trang phục"
+      ],
+      "summary_vn": "Hỏi món này đặt ở vườn hay trên nhân vật",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-1346243c3933e1f8",
@@ -2551,7 +3155,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Hỏi đã tốn bao nhiêu để nâng cấp",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-1e8e53e9b6df6dae",
@@ -2579,7 +3189,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "thú cưng"
+      ],
+      "summary_vn": "Hỏi bé ngựa lấy ở đâu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e50f4b785bd5719b",
@@ -2607,7 +3223,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Trả lời giá 250.000",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-7c1dfd87683e0440",
@@ -2635,7 +3257,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "nội thất",
+        "thú cưng"
+      ],
+      "summary_vn": "Chỉ có thể chế tạo nội thất với trứng xương rồng",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-7cb948385007547e",
@@ -2663,7 +3292,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "nhiệm vụ"
+      ],
+      "summary_vn": "Gợi ý có thể do cấp độ nhân vật chưa đủ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-7c5a5c6d04aab3c3",
@@ -2691,7 +3326,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "trồng trọt",
+        "cửa hàng"
+      ],
+      "summary_vn": "Chỉ mua xẻng cán ngắn ở cửa hàng dụng cụ để dời cây",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-b396cd741af9f8b0",
@@ -2719,7 +3361,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "trái cây",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Giải thích quả rơi dưới đất, nhặt liên tục, giá ngang dừa",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-8fb31c91eda04f25",
@@ -2747,7 +3396,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "trái cây"
+      ],
+      "summary_vn": "Giải thích quả nhặt dưới đất, nhặt được nhiều lần",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-17dacc8981001383",
@@ -2775,7 +3430,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "trồng trọt"
+      ],
+      "summary_vn": "Cho biết xuất hiện bình thường",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-b82190982b418deb",
@@ -2803,7 +3464,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "giá vật phẩm",
+        "trồng trọt"
+      ],
+      "summary_vn": "Trả lời giá 250.000, ra 1–2 hạt",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e477654cec2f7869",
@@ -2831,7 +3499,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "rau khổng lồ",
+        "trồng trọt"
+      ],
+      "summary_vn": "Cho rằng cây có thể khổng lồ, chắc sẽ rất đẹp",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-c8dc89e3fdcac674",
@@ -2859,7 +3534,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trồng trọt",
+        "sự kiện"
+      ],
+      "summary_vn": "Hỏi có bao nhiêu loại rau, chưa thấy bông cải xanh",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-f8a4d9074aaeea40",
@@ -2887,7 +3569,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "rau khổng lồ",
+        "sự kiện"
+      ],
+      "summary_vn": "Chỉ giờ rau xuất hiện ở Plaza và Downtown",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-65eb627acc1195da",
@@ -2915,7 +3604,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trái cây",
+        "trồng trọt"
+      ],
+      "summary_vn": "Hỏi có quả nào khác gợi ý không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-198051b2a2fda9ad",
@@ -2943,7 +3639,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "lừa đảo"
+      ],
+      "summary_vn": "Đồng tình, khuyên báo cáo luôn",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-fb0f2d6d32ef9811",
@@ -2971,7 +3673,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "lừa đảo"
+      ],
+      "summary_vn": "Kể gặp trực tiếp người chơi này, rất tệ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-982624ee8581f726",
@@ -2999,7 +3707,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "vvip pass"
+      ],
+      "summary_vn": "Hỏi bạn có nạp tên tím không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-b3b72bf4200e6a98",
@@ -3027,7 +3741,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "câu cá",
+        "bắt côn trùng",
+        "khai thác đá"
+      ],
+      "summary_vn": "Giải thích sang server nước khác bị giới hạn số lần hoạt động",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-827cc5814ca035e1",
@@ -3055,7 +3777,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "rau khổng lồ",
+        "sự kiện"
+      ],
+      "summary_vn": "Bổ sung rau xuất hiện ở Downtown phút 10, 30, 50",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-7b0f4f8cc85cec37",
@@ -3083,7 +3812,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "rau khổng lồ",
+        "sự kiện"
+      ],
+      "summary_vn": "Cho biết phút 00, 20, 40 theo giờ thực",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-f484255aa823ed9b",
@@ -3094,34 +3830,6 @@
       "author_masked": "M***",
       "text_th": "ละอะไรแบบนี้ชอบเป็นบี๋ตลอดเลยอ่ะ55555555555",
       "text_vn": "Mấy vụ kiểu này lúc nào cũng bị lỗi hoài haha",
-      "translation_method": "machine_translation",
-      "sentiment": "Mixed",
-      "topic": "Other",
-      "topic_secondary": [],
-      "theme": "Góp ý trải nghiệm chung",
-      "segment": "unknown",
-      "severity": null,
-      "confidence": 0.68,
-      "needs_review": true,
-      "content_kind": "comment",
-      "activity_type": "Bình luận",
-      "date_basis": "published_at",
-      "published_label": "October 6, 2026",
-      "engagement": {
-        "reactions": [],
-        "comment_count": null
-      },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
-    },
-    {
-      "id": "facebook-b9ffeb68d83d604b",
-      "source": "Facebook Group",
-      "community": "Facebook Group · playtogetherth",
-      "link": "https://www.facebook.com/groups/playtogetherth/posts/28442289592048851/?comment_id=28445101765100967",
-      "link_quality": "canonical_permalink",
-      "author_masked": "I***",
-      "text_th": "บัคแน่ๆ555",
-      "text_vn": "Chắc chắn là bug rồi haha",
       "translation_method": "machine_translation",
       "sentiment": "Negative",
       "topic": "Other",
@@ -3139,7 +3847,49 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "lỗi sự kiện"
+      ],
+      "summary_vn": "Than mấy vụ kiểu này lúc nào cũng lỗi",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
+    },
+    {
+      "id": "facebook-b9ffeb68d83d604b",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28442289592048851/?comment_id=28445101765100967",
+      "link_quality": "canonical_permalink",
+      "author_masked": "I***",
+      "text_th": "บัคแน่ๆ555",
+      "text_vn": "Chắc chắn là bug rồi haha",
+      "translation_method": "machine_translation",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.68,
+      "needs_review": true,
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "date_basis": "published_at",
+      "published_label": "October 6, 2026",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "lỗi sự kiện"
+      ],
+      "summary_vn": "Cho rằng chắc chắn là bug",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-35befea437e89b1d",
@@ -3167,7 +3917,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "nội thất",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Chê chỉ thêm mỗi nội thất bên cạnh mà giá đắt",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-b269ca109b7d3ce5",
@@ -3179,7 +3936,7 @@
       "text_th": "คนรวยเอาเลยค่ะ ทางนี้จน",
       "text_vn": "Người giàu cứ chơi đi, bên này nghèo",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -3195,7 +3952,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "giá vật phẩm",
+        "nạp tiền"
+      ],
+      "summary_vn": "Than chỉ người giàu mới chơi được, mình nghèo",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-63cf3166dba4651c",
@@ -3223,7 +3988,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trồng trọt"
+      ],
+      "summary_vn": "Hỏi lấy cà rốt tím ở đâu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e44d8f359bf04ace",
@@ -3251,7 +4022,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Hỏi giá bao nhiêu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-c5fc1131ca3ea1e1",
@@ -3279,7 +4056,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "trái cây"
+      ],
+      "summary_vn": "Kể bay tìm quả mãi, hóa ra rơi dưới đất",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-6d7d3c151815367b",
@@ -3307,7 +4090,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "rau khổng lồ",
+        "đào kho báu"
+      ],
+      "summary_vn": "Chỉ dùng dụng cụ đào để đập",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-7051152aeeb7c17d",
@@ -3319,7 +4109,7 @@
       "text_th": "ขอเล่นด้วยค่ะๆๆๆ",
       "text_vn": "Cho mình chơi với nha nha",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -3335,7 +4125,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "social",
+      "keywords": [
+        "tìm bạn"
+      ],
+      "summary_vn": "Xin được chơi cùng",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-9d91a6d22660d1b2",
@@ -3347,7 +4144,7 @@
       "text_th": "มาๆค่า",
       "text_vn": "Tới đây nào",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -3363,7 +4160,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "social",
+      "keywords": [
+        "tìm bạn"
+      ],
+      "summary_vn": "Mời mọi người tới chơi",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-9c3c66bf33031a49",
@@ -3375,7 +4179,7 @@
       "text_th": "มาไวมาก ผม สงสัยว่ากล่องม่วงๆ กับกรวยจราจร ที่เป็นเหมือนปีศาจ ที่ให้จับได้ตอนนี้มันของกิจนี้เหรอดูไม่เข้าเลย หรือเป็นของกิจหน้า",
       "text_vn": "Ra nhanh quá. Mình thắc mắc mấy hộp tím với cọc giao thông kiểu quái vật đang bắt được bây giờ là đồ của sự kiện này à, nhìn không hợp gì cả, hay là của sự kiện sau",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Mixed",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -3391,7 +4195,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "sự kiện",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Thắc mắc hộp tím, cọc giao thông quái vật thuộc sự kiện nào",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-210d0178d4db8a38",
@@ -3419,7 +4231,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "sự kiện",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Bất ngờ sự kiện mới vừa ra đã lộ spoil sự kiện sau",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-33cbf2bfd8197545",
@@ -3447,7 +4266,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "động viên"
+      ],
+      "summary_vn": "Khuyến khích làm luôn, đừng sợ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-a4ea9de64b5290aa",
@@ -3475,7 +4300,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "gacha",
+        "sự kiện"
+      ],
+      "summary_vn": "Cho biết đồ sự kiện cũ quay lại thường dễ ra",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-9a4ebe5ac79b071b",
@@ -3503,7 +4335,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "trồng trọt"
+      ],
+      "summary_vn": "Cho biết chỉ được có 2 cây",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-70af7c4e78014d7b",
@@ -3531,7 +4369,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "câu cá",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Hỏi cần câu cá mập tốn bao nhiêu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-72d5cda19cc2876e",
@@ -3543,7 +4388,7 @@
       "text_th": "สุ่มไป70ละได้แต่เก้าอี้55+",
       "text_vn": "Quay 70 lần rồi mà toàn ra ghế haha",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
@@ -3559,7 +4404,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "gacha",
+        "nội thất"
+      ],
+      "summary_vn": "Than quay gacha 70 lần mà toàn ra ghế",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-23bb53102c2d46cd",
@@ -3587,7 +4440,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "praise",
+      "keywords": [
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Khen rất tốt, quá hời",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-10ec44252f66bd67",
@@ -3599,7 +4458,7 @@
       "text_th": "เบ็ดที่ขาดได้ขาดดีอัพดีแค่ใหนก็ขาดสนั่นยกให้เบ็ดนี้แหละ",
       "text_vn": "Cần hay đứt thì vẫn đứt, nâng cấp cỡ nào cũng đứt tung, phải nói là cần này luôn",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -3615,7 +4474,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "câu cá"
+      ],
+      "summary_vn": "Chê cần câu này nâng cấp cỡ nào cũng đứt",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-8c71c09e0a5c90a4",
@@ -3643,7 +4509,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "đăng nhập"
+      ],
+      "summary_vn": "Chia sẻ xoá VNG nhiều lần vẫn đăng nhập tài khoản liên kết bình thường",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-ce342ff09b619e9c",
@@ -3655,7 +4528,7 @@
       "text_th": "เกินปายยย",
       "text_vn": "Quá đỉnh luôn",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -3671,7 +4544,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "phản ứng"
+      ],
+      "summary_vn": "Khen bài đăng quá đỉnh",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-9e539c08c1085a68",
@@ -3699,7 +4579,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Khoe kết quả quay gacha 250 lần mong ra đồ hiếm",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-a77110dbf4997693",
@@ -3727,7 +4613,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "trồng trọt",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Nhận xét cây lúa bán được giá tốt",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-9c5c1610f6274185",
@@ -3755,7 +4648,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trồng trọt",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Hỏi giá bán từng loại cây trồng có tốt không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-87d75fe811ef2d4a",
@@ -3783,7 +4683,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "nông trại",
+        "trồng trọt"
+      ],
+      "summary_vn": "Hỏi nâng cấp nông trại xong nên trồng gì",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-19bba8842bc0ca43",
@@ -3811,7 +4718,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "nông trại",
+        "trồng trọt"
+      ],
+      "summary_vn": "Đùa tạm biệt 17 quả bánh mì đỏ 5 trạng thái",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-5487c87911121da7",
@@ -3839,7 +4753,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "vật phẩm"
+      ],
+      "summary_vn": "Hỏi món đồ này có công dụng gì",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-cab39480e1c4757c",
@@ -3851,7 +4771,7 @@
       "text_th": "ขิงอันโตๆๆ5555",
       "text_vn": "Khoe cái to bự haha",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -3867,7 +4787,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "rau khổng lồ"
+      ],
+      "summary_vn": "Đùa khen quả khổng lồ to bự",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-2f8315868010af19",
@@ -3895,7 +4822,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "social",
+      "keywords": [
+        "máy chủ siam"
+      ],
+      "summary_vn": "Hỏi bạn có ở server Siam không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-13157917a4620084",
@@ -3907,7 +4840,7 @@
       "text_th": "คนไทยชอบเล่นเซิฟสยามมมทาว",
       "text_vn": "Người Thái thích chơi server Siam Town",
       "translation_method": "machine_translation",
-      "sentiment": "Positive",
+      "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -3923,7 +4856,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "máy chủ siam"
+      ],
+      "summary_vn": "Nhận xét người Thái thích chơi server Siam Town",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-44a3193c4ecb72cb",
@@ -3951,7 +4891,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "đào kho báu",
+        "sự kiện"
+      ],
+      "summary_vn": "Hỏi nên dùng dụng cụ đào nào tốt nhất cho sự kiện",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-c4bab29b3ae990be",
@@ -3979,7 +4926,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "event_entry",
+      "keywords": [
+        "code quà tặng"
+      ],
+      "summary_vn": "Chia sẻ code quà tặng PT26OCTMONTHLY",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-49e5240a38379420",
@@ -3991,7 +4944,7 @@
       "text_th": "จะหวานเกินหน้าเกินตาไปละนะ คู่นี้",
       "text_vn": "Cặp này ngọt ngào quá đáng rồi đó",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -4007,7 +4960,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "ngoại hình nhân vật"
+      ],
+      "summary_vn": "Trêu cặp đôi nhân vật quá ngọt ngào",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-da99da41d2d3e140",
@@ -4035,7 +4995,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "phản ứng"
+      ],
+      "summary_vn": "Khen tuyệt vời",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-8910400886ec2d50",
@@ -4047,7 +5013,7 @@
       "text_th": "เว่อร์มากกก",
       "text_vn": "Quá đỉnh luôn",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -4063,7 +5029,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "phản ứng"
+      ],
+      "summary_vn": "Khen quá đỉnh",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-456e7c086749f884",
@@ -4075,7 +5048,7 @@
       "text_th": "อะไรอ่ะ อิจฉาครับ 555",
       "text_vn": "Gì vậy, ghen tị ghê haha",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -4091,7 +5064,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "phản ứng"
+      ],
+      "summary_vn": "Bày tỏ ghen tị với thành quả người khác",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-5856d1aed959be8e",
@@ -4119,7 +5099,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "cập nhật mới"
+      ],
+      "summary_vn": "Trả lời rằng món đồ vừa mới ra",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-1c099f42fd560641",
@@ -4131,7 +5117,7 @@
       "text_th": "กรี๊ดดดด ขอดูดดวงหน่อยคร้าาา",
       "text_vn": "Áaaa, cho xin hút vía may mắn với",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -4147,7 +5133,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Xin hút vía may mắn từ bài khoe",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-91bc1449a566b0de",
@@ -4175,7 +5168,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "code quà tặng"
+      ],
+      "summary_vn": "Gợi ý chắc phải nhập code trước",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-cf9e65c380344393",
@@ -4203,7 +5202,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "đăng nhập"
+      ],
+      "summary_vn": "Hỏi đã vào game được chưa, bản thân vẫn vào bình thường",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-4505c562f8a5f17d",
@@ -4231,7 +5236,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "event_entry",
+      "keywords": [
+        "code quà tặng",
+        "rau khổng lồ"
+      ],
+      "summary_vn": "Chia sẻ code quà tặng PTGIANTVEGGIE",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-5295dbe1c8be1553",
@@ -4259,7 +5271,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "event_entry",
+      "keywords": [
+        "code quà tặng",
+        "rau khổng lồ"
+      ],
+      "summary_vn": "Chia sẻ code quà tặng PTGIANTVEGGIE",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-b064d1241fb8887a",
@@ -4287,7 +5306,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "phần thưởng sự kiện",
+        "sự kiện"
+      ],
+      "summary_vn": "Giải thích xu sự kiện cũ không dùng được, chỉ đổi ra tiền",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-7315c15b0983cbed",
@@ -4315,7 +5341,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "nông trại"
+      ],
+      "summary_vn": "Cảm ơn hướng dẫn, tưởng khu bên cạnh chỉ để đặt đồ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-ca374861782ffef1",
@@ -4343,7 +5375,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "nạp tiền",
+        "gacha"
+      ],
+      "summary_vn": "Đùa hết tiền trước khi quay ra đồ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-09361563724a15b2",
@@ -4371,7 +5410,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "phản ứng"
+      ],
+      "summary_vn": "Đồng cảm, nói mình cũng giống vậy",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-9ce6ac09d1e75238",
@@ -4383,7 +5428,7 @@
       "text_th": "สะสมเพชรกว่าจะได้ งื้อออ",
       "text_vn": "Tích kim cương mãi mới có, huhu",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
@@ -4399,7 +5444,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "kim cương"
+      ],
+      "summary_vn": "Than tích kim cương mãi mới đủ",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-c3937e5b2e69e4ca",
@@ -4427,7 +5479,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "nông trại",
+        "kiếm tiền trong game"
+      ],
+      "summary_vn": "Kể mở hết ô nông trại tốn hơn 120 triệu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-6a64518f7550fc8e",
@@ -4439,7 +5498,7 @@
       "text_th": "เราไม่รู้ กดใช้แต่เพชร เศร้ามากค่ะ 5555",
       "text_vn": "Mình không biết, cứ bấm dùng kim cương thôi, buồn ghê haha",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
@@ -4455,7 +5514,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "kim cương"
+      ],
+      "summary_vn": "Than không biết nên cứ dùng kim cương, buồn",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-3d5d20262aab45a5",
@@ -4467,7 +5533,7 @@
       "text_th": "ดวงมากก",
       "text_vn": "May quá trời",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -4483,7 +5549,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Khen người khác may mắn",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-ead6001fb3080cae",
@@ -4495,7 +5568,7 @@
       "text_th": "ผมได้ทั้งคู่เลย ดวงดีเวอร์",
       "text_vn": "Mình được cả hai luôn, may dã man",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -4511,7 +5584,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Khoe quay được cả hai món, rất may",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-97468d8d8874f4af",
@@ -4523,7 +5603,7 @@
       "text_th": "เหมาทุกตู้เลยเศร้า",
       "text_vn": "Bao trọn mọi máy luôn, buồn",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -4539,7 +5619,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Than quay bao trọn mọi máy gacha mà vẫn buồn",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-42ce688459eca75c",
@@ -4567,7 +5654,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Hỏi bảo hiểm gacha /200 kéo dài bao nhiêu ngày",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-ffd2985c42692429",
@@ -4579,7 +5672,7 @@
       "text_th": "แพทนี้มาเท่5555",
       "text_vn": "Bản cập nhật này ngầu quá haha",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -4595,7 +5688,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "praise",
+      "keywords": [
+        "cập nhật mới"
+      ],
+      "summary_vn": "Khen bản cập nhật này ngầu",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-f6c4808f25bf6b3e",
@@ -4623,7 +5723,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "trang phục"
+      ],
+      "summary_vn": "Đùa trang phục giống siêu nhân phần nào",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-4c8e27050054f7f7",
@@ -4651,7 +5757,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "trang phục"
+      ],
+      "summary_vn": "Đùa kiểu hợp thể siêu nhân",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-9d4ac58cf99ba585",
@@ -4663,7 +5775,7 @@
       "text_th": "กรี๊ดดดดดดดดดดดดดดดด ชุด ผช เติมอีกแล้วววววววววววว",
       "text_vn": "Áaaaaa, đồ nam lại có gói nạp nữa rồiiii",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -4679,7 +5791,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "praise",
+      "keywords": [
+        "trang phục",
+        "nạp tiền"
+      ],
+      "summary_vn": "Phấn khích vì có gói nạp đồ nam mới",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-a5ae419b1fed70fd",
@@ -4707,7 +5827,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "đăng nhập"
+      ],
+      "summary_vn": "Hỏi chưa đủ tuổi có vào được không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-1f627eb8193d85d6",
@@ -4735,7 +5861,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Nhắn sẽ gửi tin nhắn riêng",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-993d09e9160be0dd",
@@ -4763,7 +5895,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Khuyên quay gacha thường xuyên",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-713093d7396674e2",
@@ -4791,7 +5929,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "nông trại"
+      ],
+      "summary_vn": "Chỉ cần sang khu khác có vật màu nâu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-f2e0cde90f7d1cc0",
@@ -4819,7 +5963,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "phiên bản cũ"
+      ],
+      "summary_vn": "Hướng dẫn tải lại bản cũ lấy mã để vào bản VNG",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-2b04d247b041f202",
@@ -4847,7 +5998,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "thú cưng"
+      ],
+      "summary_vn": "Hướng dẫn kiếm thêm 3 con giống nhau để ghép",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-8934c6d9552b9f61",
@@ -4859,7 +6016,7 @@
       "text_th": "อย่างเท่",
       "text_vn": "Ngầu ghê",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -4875,7 +6032,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "phản ứng"
+      ],
+      "summary_vn": "Khen ngầu ghê",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-393d7d5762a8e9eb",
@@ -4903,7 +6067,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "phương tiện"
+      ],
+      "summary_vn": "Tưởng chỉ cần đem xe ra đua là xong",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-6aaa05d7bd1d667e",
@@ -4931,7 +6101,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "trang phục"
+      ],
+      "summary_vn": "Thắc mắc đó có phải đồ tắm không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-f884fa247050c1c7",
@@ -4942,7 +6118,7 @@
       "author_masked": "O***",
       "text_th": "สวัสดีฤดูใบไม้ร่วงค้าบ ทุกคนนนIGN : oofza123",
       "text_vn": "Chào mùa thu mọi ngườiii IGN: oofza123",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -4961,7 +6137,16 @@
         "comment_count": "4"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "mùa thu",
+        "cuộc thi ảnh",
+        "nông trại"
+      ],
+      "summary_vn": "Đăng ảnh chào mùa thu tham gia sự kiện, kèm IGN",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-3d910a2d3f8ffb9a",
@@ -4972,7 +6157,7 @@
       "author_masked": "T***",
       "text_th": "สวัสดีฤดูใบไม้ร่วงค้าบ ทุกคนนนIGN : Panlimin",
       "text_vn": "Chào mùa thu mọi ngườiii IGN: Panlimin",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -4992,7 +6177,16 @@
         "comment_count": "4"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "mùa thu",
+        "cuộc thi ảnh",
+        "nông trại"
+      ],
+      "summary_vn": "Đăng ảnh chào mùa thu tham gia sự kiện, kèm IGN",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-5bca12efca78df47",
@@ -5003,7 +6197,7 @@
       "author_masked": "A***",
       "text_th": "จะทำยังไงก็ไม่ยักกกกกกกก IGN : βυиичρℓчˇᴴᴾ",
       "text_vn": "Làm thế nào cũng không khổng lồ đượccc IGN: βυиичρℓчˇᴴᴾ",
-      "sentiment": "Neutral",
+      "sentiment": "Mixed",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -5023,7 +6217,16 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "rau khổng lồ",
+        "cuộc thi ảnh",
+        "mùa thu"
+      ],
+      "summary_vn": "Đăng ảnh dự thi, than làm mãi cây không khổng lồ",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-b82faee43d36ee21",
@@ -5034,7 +6237,7 @@
       "author_masked": "N***",
       "text_th": "โว",
       "text_vn": "Wow",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -5051,7 +6254,14 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "chat",
+      "keywords": [
+        "phản ứng"
+      ],
+      "summary_vn": "Bình luận wow",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-24c8a2aea8584d9f",
@@ -5081,7 +6291,15 @@
         "comment_count": "6"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "nông trại",
+        "thú cưng",
+        "cuộc thi ảnh"
+      ],
+      "summary_vn": "Khoe vườn hoa với thú cưng xúm lại, tham gia sự kiện",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-67deac3d4584a46d",
@@ -5111,7 +6329,14 @@
         "comment_count": "8"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "cuộc thi ảnh",
+        "nông trại"
+      ],
+      "summary_vn": "Đăng ảnh nông trại tham gia sự kiện, chỉ kèm IGN",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-68368f9505b567d3",
@@ -5122,7 +6347,7 @@
       "author_masked": "C***",
       "text_th": "ต้าวววเกาลั๊ดดดดดดดด  IGN : Lullabela",
       "text_vn": "Bé hạt dẻeeee IGN: Lullabela",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -5141,7 +6366,16 @@
         "comment_count": "1"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "mùa thu",
+        "nông trại",
+        "cuộc thi ảnh"
+      ],
+      "summary_vn": "Khoe hạt dẻ trong nông trại tham gia sự kiện",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-a570e3767ad4af0c",
@@ -5152,7 +6386,7 @@
       "author_masked": "E***",
       "text_th": "เกาลัดพันธ์อึ่งไข่ค่ะ IGN :  ᴥペンギンᴥ",
       "text_vn": "Hạt dẻ giống ếch ương đầy trứng ạ IGN: ᴥペンギンᴥ",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -5172,7 +6406,16 @@
         "comment_count": "6"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "mùa thu",
+        "nông trại",
+        "cuộc thi ảnh"
+      ],
+      "summary_vn": "Khoe hạt dẻ đầy trái tham gia sự kiện",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-b0c80f8b0c2b05fb",
@@ -5183,7 +6426,7 @@
       "author_masked": "E***",
       "text_th": "พาเด็กๆมาทักทายงานกิจกรรมค่ะIGN: ᙏfUyUnOiᴿⁱ",
       "text_vn": "Dẫn các bé đến chào sự kiện ạ IGN: ᙏfUyUnOiᴿⁱ",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Event & Update content",
       "topic_secondary": [],
       "theme": "Phần thưởng sự kiện",
@@ -5203,7 +6446,16 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "mùa thu",
+        "thú cưng",
+        "cuộc thi ảnh"
+      ],
+      "summary_vn": "Dẫn thú cưng đến chào sự kiện mùa thu",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-5a263d386f47a9b4",
@@ -5235,7 +6487,15 @@
         "comment_count": "11"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "mùa thu",
+        "nông trại",
+        "cuộc thi ảnh"
+      ],
+      "summary_vn": "Đăng ảnh hạt dẻ màu đen tham gia sự kiện",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-09bb429ff486b282",
@@ -5266,7 +6526,15 @@
         "comment_count": "4"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "mùa thu",
+        "rau khổng lồ",
+        "cuộc thi ảnh"
+      ],
+      "summary_vn": "Khoe hạt dẻ to, bày tỏ yêu lễ hội mùa thu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-510d6ce03b78b850",
@@ -5297,7 +6565,15 @@
         "comment_count": "4"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "mùa thu",
+        "nông trại",
+        "cuộc thi ảnh"
+      ],
+      "summary_vn": "Khoe yêu cây hạt dẻ, tham gia sự kiện",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-2fdc79e714b9ed29",
@@ -5308,7 +6584,7 @@
       "author_masked": "C***",
       "text_th": "ลุ้นทุกชั่วโมง เกาลัดดดดด",
       "text_vn": "Hồi hộp từng giờ, hạt dẻeee",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -5328,7 +6604,16 @@
         "comment_count": "7"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "mùa thu",
+        "rau khổng lồ",
+        "cuộc thi ảnh"
+      ],
+      "summary_vn": "Khoe hạt dẻ, hồi hộp chờ từng giờ",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-53a2a8cd68fee41e",
@@ -5360,7 +6645,14 @@
         "comment_count": "6"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "mùa thu",
+        "cuộc thi ảnh"
+      ],
+      "summary_vn": "Đăng ảnh bày tỏ yêu mùa thu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-dfc2a89c94d52b0b",
@@ -5371,7 +6663,7 @@
       "author_masked": "P***",
       "text_th": "ฤดูใบไม้ร่วงมาถึงเกาะไกอาแล้ววว! ถึงเวลาที่ฟาร์มของคุณนั้นจะได้เฉิดฉายล้าววว  เพียงแค่ถ่ายรูปฟาร์มของคุณโพสต์ลงในกลุ่ม Play Together VNG Thailand Official แล้วกรอกแบบฟอร์มเพื่อยืนยันการเข้าร่วมกิจกรรมแค่นี้ก็มีสิทธิ์ลุ้นรับของรางวัลกันแล้ว!แจกทั้งหมดถึง 250 รางวัล!  ส่งแบบฟอร์มเข้าร่วมกิจกรรม: https://forms.gle/mNCsy7qjVYEA72pX6 หมดเขตกิจกรรม: 13/10/2026 เวลา 23:59 น.มาอวดฟาร์มในฤดูใบไม้ร่วงของทุกคนกันเยอะ ๆ น้า",
       "text_vn": "Mùa thu đã đến đảo Kaia rồiii! Đến lúc nông trại của bạn tỏa sáng rồi! Chỉ cần chụp ảnh nông trại của bạn, đăng vào nhóm Play Together VNG Thailand Official rồi điền form xác nhận tham gia là có cơ hội nhận quà! Tổng cộng 250 phần quà! Gửi form tham gia: https://forms.gle/mNCsy7qjVYEA72pX6 Hạn chót: 13/10/2026 lúc 23:59. Mọi người khoe nông trại mùa thu thật nhiều nhé",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
       "theme": "Đăng nhập tài khoản",
@@ -5391,7 +6683,17 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "mùa thu",
+        "cuộc thi ảnh",
+        "nông trại",
+        "phần thưởng sự kiện"
+      ],
+      "summary_vn": "Thông báo sự kiện khoe nông trại mùa thu, 250 phần quà",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-16b71900feccd58b",
@@ -5419,7 +6721,14 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "share",
+      "keywords": [
+        "nông trại",
+        "trồng trọt"
+      ],
+      "summary_vn": "Kể trồng liên tục, đã được hơn 50",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-33c0ece009e494ac",
@@ -5447,7 +6756,13 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "question",
+      "keywords": [
+        "thú cưng"
+      ],
+      "summary_vn": "Hỏi thú cưng cũ có làm được vậy không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-cfada93f083a30e1",
@@ -5475,7 +6790,13 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "code quà tặng"
+      ],
+      "summary_vn": "Chia sẻ code quà tặng PT26OCTMONTHLY",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-35ec9929d4055750",
@@ -5503,7 +6824,13 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "answer",
+      "keywords": [
+        "tải game"
+      ],
+      "summary_vn": "Đùa rằng người ta xoá game tải lại",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-35963745a4736495",
@@ -5514,7 +6841,7 @@
       "author_masked": "W***",
       "text_th": "แก้ปัญหาได้อ้ะยัง ปกติแล้วแอปจะสามารถโหลดกลับมาจากประวัติดาวโหลดได้ครับ",
       "text_vn": "Giải quyết được chưa? Bình thường app có thể tải lại từ lịch sử tải xuống mà",
-      "sentiment": "Negative",
+      "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
       "theme": "Game bị văng và treo",
@@ -5531,7 +6858,14 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "answer",
+      "keywords": [
+        "tải game"
+      ],
+      "summary_vn": "Hỏi đã xử lý chưa, chỉ cách tải lại app từ lịch sử",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-cdca376739ee6d60",
@@ -5559,7 +6893,14 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "event_entry",
+      "keywords": [
+        "code quà tặng",
+        "rau khổng lồ"
+      ],
+      "summary_vn": "Chia sẻ code quà tặng PTGIANTVEGGIE",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-326185fee183c9c7",
@@ -5587,7 +6928,13 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "question",
+      "keywords": [
+        "thú cưng"
+      ],
+      "summary_vn": "Hỏi cách ghép thú cưng",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-0957dff882fe8e1a",
@@ -5615,7 +6962,13 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "praise",
+      "keywords": [
+        "thú cưng"
+      ],
+      "summary_vn": "Khen thú cưng dễ thương",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-fbdca7f812b421e6",
@@ -5643,7 +6996,13 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "question",
+      "keywords": [
+        "điệu nhảy"
+      ],
+      "summary_vn": "Hỏi điệu nhảy này nhận ở đâu",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -5653,10 +7012,10 @@
       "Facebook Group": 199
     },
     "by_sentiment": {
-      "Positive": 10,
-      "Neutral": 177,
-      "Negative": 11,
-      "Mixed": 1
+      "Positive": 40,
+      "Neutral": 135,
+      "Negative": 21,
+      "Mixed": 3
     },
     "by_topic": {
       "Other": 166,
@@ -5669,7 +7028,7 @@
     "by_segment": {
       "unknown": 199
     },
-    "nss": -0.5,
+    "nss": 9.5,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

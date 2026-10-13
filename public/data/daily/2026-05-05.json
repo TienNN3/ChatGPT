@@ -18,7 +18,13 @@
       "severity": "P2",
       "needs_review": true,
       "rating": 3,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "quảng cáo"
+      ],
+      "summary_vn": "Xem quảng cáo không được tính, bắt xem lại, mong sửa",
+      "label_method": "ai_review"
     },
     {
       "id": "android-5d1bdc93d6d52fca",
@@ -36,7 +42,14 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "lag",
+        "quảng cáo"
+      ],
+      "summary_vn": "Chê đồ họa, server đông gây lag, lời thoại nhân vật phiền",
+      "label_method": "ai_review"
     },
     {
       "id": "android-9e42255b24209ad4",
@@ -54,7 +67,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 3,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "giá vật phẩm",
+        "trang phục"
+      ],
+      "summary_vn": "Khen cộng đồng nhưng chê gói nhân vật đắt, không đáng",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -78,8 +98,8 @@
       "unknown": 3
     },
     "nss": -66.7,
-    "nss_d1": -100,
-    "nss_7d_avg": -57.1,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 2.33,
       "ios_avg": null,

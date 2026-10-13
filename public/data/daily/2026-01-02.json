@@ -18,7 +18,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "tìm bạn"
+      ],
+      "summary_vn": "Chơi từ 7-8 tuổi đến 12 tuổi, vẫn rất yêu game",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {

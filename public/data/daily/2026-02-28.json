@@ -18,7 +18,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "nội thất",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Game vui nhưng đồ trang trí nhà quá đắt, mong thêm đồ free",
+      "label_method": "ai_review"
     },
     {
       "id": "android-5e3f17fbee9d3d22",
@@ -36,7 +43,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "giải trí"
+      ],
+      "summary_vn": "Khen game vui",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -60,8 +73,8 @@
       "unknown": 1
     },
     "nss": 50,
-    "nss_d1": 0,
-    "nss_7d_avg": 50,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 4.5,
       "ios_avg": null,

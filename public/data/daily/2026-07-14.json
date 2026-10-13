@@ -18,7 +18,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "sự kiện",
+        "nhiệm vụ"
+      ],
+      "summary_vn": "Khen game nhưng mong giảm tần suất sự kiện vì quá mệt",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {

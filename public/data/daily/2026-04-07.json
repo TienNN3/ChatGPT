@@ -9,7 +9,7 @@
       "author_masked": "ส***",
       "text_th": "ปัจจุบันอัพเดตมาหลายอย่างแล้วอยากให้มีการทำอาหารขายโดยเอาวัตถุดิบต่างๆมาทำอาหาร ปลาบางชนิดได้จนเบื่อขายก็ได้ไม่แพง เอามาแปลงเป็นอาหารแล้วมีมินิเกมเล็กๆเป็นการกดจังหวะน่าจะทำให้เกมสนุกขึ้นไปอีกครับ อีกอย่างคือปลากลายพันธุ์ อยากให้ราคามากกว่านี้ไม่ใช่เพียงแค่เพิ่มขนาดตัวให้ใหญ่ขึ้น",
       "text_vn": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Mixed",
+      "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
@@ -18,7 +18,16 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "nấu ăn",
+        "câu cá",
+        "cá hiếm"
+      ],
+      "summary_vn": "Đề xuất nấu ăn bán từ nguyên liệu, tăng giá cá đột biến",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -28,10 +37,10 @@
       "Google Play": 1
     },
     "by_sentiment": {
-      "Positive": 0,
+      "Positive": 1,
       "Neutral": 0,
       "Negative": 0,
-      "Mixed": 1
+      "Mixed": 0
     },
     "by_topic": {
       "Gacha / Shop / Pricing": 1
@@ -39,9 +48,9 @@
     "by_segment": {
       "payer": 1
     },
-    "nss": 0,
-    "nss_d1": 0,
-    "nss_7d_avg": 17.9,
+    "nss": 100,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 5,
       "ios_avg": null,

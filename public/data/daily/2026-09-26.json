@@ -28,7 +28,16 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mua bán vật phẩm",
+        "nhân sâm",
+        "đổi thời tiết",
+        "cày thuê"
+      ],
+      "summary_vn": "Rao bán trái cây, nhân sâm, thẻ, đổi thời tiết và nhận cày nhảy tháp",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-cd5d132ec46a8618",
@@ -58,7 +67,14 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "nạp tiền",
+        "kim cương"
+      ],
+      "summary_vn": "Tìm shop nhận nạp hộ gói kim cương",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-d248a4185495fee9",
@@ -88,7 +104,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "câu cá",
+        "mồi câu"
+      ],
+      "summary_vn": "Hỏi lỡ bấm không kịp khi câu cá có được hoàn mồi không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-7bfbe0593f3393c9",
@@ -116,7 +139,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "hỗ trợ"
+      ],
+      "summary_vn": "Hỏi mọi người cách xử lý tình huống trong ảnh",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-475db3e2c5b359c7",
@@ -147,7 +176,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "praise",
+      "keywords": [
+        "lũ lụt",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Khen game bắt kịp thời sự lũ lụt, động viên người chơi bị ngập",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-6aab3c441b42dc08",
@@ -177,7 +213,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "thú cưng",
+        "cửa hàng"
+      ],
+      "summary_vn": "Hỏi mua chó đánh hơi ở đâu và trông thế nào",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-b1ac1d148de5bbe4",
@@ -189,7 +232,7 @@
       "text_th": "ขอวิธีทำให้โสมติดสถานะที่อยากได้หน่อย48ต้นไม่ติดน้ำค้างสักต้นยืนทั้งคืนก็ไม่ติดสูนแฮง",
       "text_vn": "Xin cách làm nhân sâm ra trạng thái mong muốn với, 48 cây không cây nào dính sương, đứng cả đêm cũng không ra, nản thật",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
       "theme": "Game bị văng và treo",
@@ -209,7 +252,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "nhân sâm",
+        "trồng trọt"
+      ],
+      "summary_vn": "Xin cách làm nhân sâm dính sương, 48 cây không cây nào ra",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-1429d473e705a577",
@@ -221,7 +272,7 @@
       "text_th": "ได้มาง่ายๆเเบบนี้เลยหรอ",
       "text_vn": "Có được dễ vậy luôn hả",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -241,7 +292,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "phần thưởng sự kiện"
+      ],
+      "summary_vn": "Ngạc nhiên vì nhận được vật phẩm quá dễ",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-0d7d558dc172c468",
@@ -272,7 +330,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "social",
+      "keywords": [
+        "câu cá",
+        "cá hiếm"
+      ],
+      "summary_vn": "Xin ké nhà người khác để câu cá sấu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-289977f961bc9015",
@@ -284,7 +349,7 @@
       "text_th": "อัปเดตแพทช์หน้าสัตว์เลี้ยงจะวิ่งเล่นในฟาร์มได้แล้ววว",
       "text_vn": "Bản cập nhật tới thú cưng sẽ chạy chơi trong nông trại được rồiii",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
       "theme": "Hoạt động và tính năng trong game",
@@ -303,7 +368,16 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "cập nhật mới",
+        "thú cưng",
+        "nông trại"
+      ],
+      "summary_vn": "Chia sẻ bản cập nhật tới cho thú cưng chạy chơi trong nông trại",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-49a0e2945aad3891",
@@ -315,7 +389,7 @@
       "text_th": "Coming Soonขยายพื้นที่สวนในฟาร์มและเพิ่มสัตว์เลี้ยงในฟาร์ม",
       "text_vn": "Sắp ra mắt: mở rộng diện tích vườn trong nông trại và thêm thú cưng trong nông trại",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
       "theme": "Hoạt động và tính năng trong game",
@@ -334,7 +408,16 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "cập nhật mới",
+        "nông trại",
+        "thú cưng"
+      ],
+      "summary_vn": "Thông báo sắp mở rộng vườn và thêm thú cưng trong nông trại",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-40743a6b78ac2995",
@@ -346,7 +429,7 @@
       "text_th": "การ์ดพาร์ท2ยากมากค่ะฮื่อ รีรอบที่n",
       "text_vn": "Thẻ phần 2 khó quá huhu, chơi lại lần thứ n rồi",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -364,7 +447,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "bộ sưu tập thẻ",
+        "minigame"
+      ],
+      "summary_vn": "Than thẻ phần 2 quá khó, phải chơi lại nhiều lần",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-90f94f5aee681e23",
@@ -376,7 +467,7 @@
       "text_th": "New Coupon Code PTFARMBIGGER",
       "text_vn": "Mã coupon mới: PTFARMBIGGER",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Event & Update content",
       "topic_secondary": [],
       "theme": "Phần thưởng sự kiện",
@@ -395,7 +486,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "event_entry",
+      "keywords": [
+        "code quà tặng"
+      ],
+      "summary_vn": "Chia sẻ mã coupon mới PTFARMBIGGER",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-0c47f859f2f08b75",
@@ -407,7 +505,7 @@
       "text_th": "60+ ได้พื้นชมพู(ม่วง) 1 ตัวถ้วน คุณพระ!! #เซิพใหม่จึ่งใจเกินทน",
       "text_vn": "Hơn 60 con mới được đúng 1 con nền hồng (tím), trời ơi!! #ServerMớiĐauLòngQuáSức",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -427,7 +525,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "bắt côn trùng",
+        "tỉ lệ"
+      ],
+      "summary_vn": "Than mở hơn 60 con mới ra 1 con nền hồng tím",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-390005e911e2af8f",
@@ -457,7 +563,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "bắt côn trùng",
+        "tỉ lệ"
+      ],
+      "summary_vn": "Xả bực vì mở hơn 40 thằn lằn không ra nền hồng tím",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-753ceb8d7af2ac42",
@@ -487,7 +600,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "đào kho báu",
+        "tỉ lệ"
+      ],
+      "summary_vn": "Đào kho báu 200 lần chỉ ra 1 pha lê to, nghi bị bug",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e59b6f69cc6439c2",
@@ -517,7 +637,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "account",
+      "keywords": [
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Hỏi cách kiểm tra đã chuyển tài khoản cũ sang VNG thành công chưa",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e06c980a8479c768",
@@ -529,7 +655,7 @@
       "text_th": "ออเดอร์ในแต่ละวันตั้งแต่ย้ายเซิพมา รวยไม่ไหวแล้วจ้าาาา",
       "text_vn": "Đơn hàng mỗi ngày từ khi chuyển server, giàu không nổi luôn nèee",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -547,7 +673,15 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "nông trại",
+        "kiếm tiền trong game"
+      ],
+      "summary_vn": "Khoe đơn hàng nông trại mỗi ngày nhiều từ khi chuyển server",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-70d8f25648b55a7f",
@@ -577,7 +711,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "bắt côn trùng"
+      ],
+      "summary_vn": "Hỏi con ếch này có hiếm không vì tìm mãi không thấy",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-02bbe16e70d67a3e",
@@ -589,7 +729,7 @@
       "text_th": "ไม่ได้ย้ายบัญชีเก่ามาจากเวอร์เดิม ทำไงดีคะทุกคนอยากเล่นบัญชีเดิมอ่ามีใครมีวิธีไหมคะ ไม่อยากเริ่มเล่นใหม่ พอดีลบแอพไม่ได้เล่นนาน พอจะเล่นก็ไม่ทันแล้วอ่ะค่ะ",
       "text_vn": "Mình không chuyển tài khoản cũ từ bản cũ sang, giờ làm sao đây mọi người? Muốn chơi tài khoản cũ, có ai biết cách không ạ? Không muốn chơi lại từ đầu, tại xóa app nghỉ lâu, giờ muốn chơi thì không kịp nữa rồi",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
       "theme": "Đăng nhập tài khoản",
@@ -605,7 +745,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "account",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "mất dữ liệu"
+      ],
+      "summary_vn": "Lỡ hạn chuyển tài khoản cũ sang VNG, hỏi cách lấy lại tài khoản",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-bb05f13b74d244eb",
@@ -635,7 +783,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "cập nhật mới"
+      ],
+      "summary_vn": "Hỏi bao giờ nội dung mới mới ra",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-11892f57fae61ca7",
@@ -667,7 +821,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "đào kho báu",
+        "trang phục"
+      ],
+      "summary_vn": "Chia sẻ bộ đồ đào kho báu tuần này",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-4a49a6bc861ab905",
@@ -698,7 +859,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "đào kho báu",
+        "hack",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Bực vì người hack dễ ra kim cương xanh, report không bị ban",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-fd84bedb2a02ce81",
@@ -709,7 +878,7 @@
       "author_masked": "W***",
       "text_th": "สิ่งที่รอคอยกระบองเพชร ท่าเต้น รอท่าเต้น 67 อยู่นะ",
       "text_vn": "Điều mong chờ: xương rồng, điệu nhảy. Đang chờ điệu nhảy 67 nè",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
@@ -730,7 +899,15 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "chat",
+      "keywords": [
+        "thú cưng",
+        "điệu nhảy"
+      ],
+      "summary_vn": "Mong chờ thú cưng xương rồng và điệu nhảy 67",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "youtube-c20d893f35ca14a4",
@@ -760,7 +937,15 @@
         "comment_count": null,
         "video_title": null
       },
-      "collected_at": "2026-10-13T22:30:00+07:00"
+      "collected_at": "2026-10-13T22:30:00+07:00",
+      "intent": "share",
+      "keywords": [
+        "câu cá",
+        "bắt côn trùng",
+        "livestream"
+      ],
+      "summary_vn": "Livestream câu cá và bắt côn trùng",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -771,9 +956,9 @@
       "YouTube": 1
     },
     "by_sentiment": {
-      "Positive": 1,
-      "Neutral": 21,
-      "Negative": 3,
+      "Positive": 7,
+      "Neutral": 11,
+      "Negative": 7,
       "Mixed": 0
     },
     "by_topic": {
@@ -787,7 +972,7 @@
     "by_segment": {
       "unknown": 25
     },
-    "nss": -8,
+    "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

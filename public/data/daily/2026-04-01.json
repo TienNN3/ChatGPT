@@ -23,8 +23,8 @@
       "unknown": 2
     },
     "nss": 0,
-    "nss_d1": -50,
-    "nss_7d_avg": -37.8,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 5,
       "ios_avg": 3,
@@ -132,8 +132,15 @@
       "theme": "Game bị văng và treo",
       "segment": "unknown",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 3
+      "needs_review": true,
+      "rating": 3,
+      "intent": "performance",
+      "keywords": [
+        "quảng cáo",
+        "văng game"
+      ],
+      "summary_vn": "Quảng cáo quá dài khiến game bị văng sau khi xem",
+      "label_method": "ai_review"
     },
     {
       "id": "android-a5b5880e4eef4ca4",
@@ -151,7 +158,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "cập nhật mới",
+        "sự kiện"
+      ],
+      "summary_vn": "Khen game cập nhật nhiều, có nhiều sự kiện",
+      "label_method": "ai_review"
     }
   ]
 }

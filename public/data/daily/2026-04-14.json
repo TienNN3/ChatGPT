@@ -23,8 +23,8 @@
       "unknown": 1
     },
     "nss": -100,
-    "nss_d1": 100,
-    "nss_7d_avg": 18.3,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": null,
       "ios_avg": 3,
@@ -137,8 +137,15 @@
       "theme": "Quảng cáo gây gián đoạn",
       "segment": "payer",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 1
+      "needs_review": true,
+      "rating": 1,
+      "intent": "complaint",
+      "keywords": [
+        "quảng cáo",
+        "nạp tiền"
+      ],
+      "summary_vn": "Chê quảng cáo khó chịu và game ép nạp tiền",
+      "label_method": "ai_review"
     },
     {
       "id": "ios-0fb2f0d80005e017",
@@ -154,8 +161,14 @@
       "theme": "Tương tác xã hội tiêu cực",
       "segment": "unknown",
       "severity": "P3",
-      "needs_review": false,
-      "rating": 5
+      "needs_review": true,
+      "rating": 5,
+      "intent": "complaint",
+      "keywords": [
+        "người chơi khác"
+      ],
+      "summary_vn": "Phàn nàn về một người chơi tên Yawaga gây phiền",
+      "label_method": "ai_review"
     }
   ]
 }

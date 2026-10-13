@@ -9,7 +9,7 @@
       "author_masked": "อ***",
       "text_th": "กลับมาดูแลต่อได้ไหม ตอนนี้ผู้เล่นส่วนใหญ่ประสบปัญหาเยอะมาก อยากให้เกาหลีกลับมาดูแลเหมือนเดิม จะขอบคุณมากๆค่ะ",
       "text_vn": "Phản hồi trái chiều về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Mixed",
+      "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Social / Scam / Harassment / Toxic",
       "topic_secondary": [],
@@ -18,7 +18,15 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "chăm sóc khách hàng"
+      ],
+      "summary_vn": "Mong Hàn Quốc quay lại vận hành vì người chơi gặp nhiều vấn đề",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -30,8 +38,8 @@
     "by_sentiment": {
       "Positive": 0,
       "Neutral": 0,
-      "Negative": 0,
-      "Mixed": 1
+      "Negative": 1,
+      "Mixed": 0
     },
     "by_topic": {
       "Social / Scam / Harassment / Toxic": 1
@@ -39,7 +47,7 @@
     "by_segment": {
       "unknown": 1
     },
-    "nss": 0,
+    "nss": -100,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

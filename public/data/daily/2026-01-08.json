@@ -27,8 +27,8 @@
       "payer": 2
     },
     "nss": -28.6,
-    "nss_d1": 0,
-    "nss_7d_avg": 31.3,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 2.75,
       "ios_avg": 2.67,
@@ -182,8 +182,15 @@
       "theme": "Giá trị phần thưởng gacha",
       "segment": "unknown",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 1
+      "needs_review": true,
+      "rating": 1,
+      "intent": "complaint",
+      "keywords": [
+        "khai thác đá",
+        "kim cương"
+      ],
+      "summary_vn": "Chê ngọc xanh khó ra dù đập đá cả tháng",
+      "label_method": "ai_review"
     },
     {
       "id": "ios-d0941571e9eb27c9",
@@ -199,8 +206,17 @@
       "theme": "Hoạt động và tính năng trong game",
       "segment": "midgame",
       "severity": null,
-      "needs_review": false,
-      "rating": 5
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "minigame",
+        "thú cưng",
+        "trồng trọt",
+        "câu cá"
+      ],
+      "summary_vn": "Khen nhiều minigame, đồ miễn phí đẹp, nhiều hoạt động",
+      "label_method": "ai_review"
     },
     {
       "id": "ios-61d000346ff209a0",
@@ -216,8 +232,15 @@
       "theme": "Hoạt động và tính năng trong game",
       "segment": "midgame",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 2
+      "needs_review": true,
+      "rating": 2,
+      "intent": "complaint",
+      "keywords": [
+        "câu cá",
+        "cá hiếm"
+      ],
+      "summary_vn": "Cá vòng barracuda quá khó ra, mất hứng câu cá",
+      "label_method": "ai_review"
     },
     {
       "id": "android-fbd37385dd7219fc",
@@ -235,7 +258,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "người chơi lâu năm"
+      ],
+      "summary_vn": "Chơi 6 năm vẫn thích, không thấy chán",
+      "label_method": "ai_review"
     },
     {
       "id": "android-1e93b99fb5e05b3c",
@@ -253,7 +282,15 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "quảng cáo",
+        "giá vật phẩm",
+        "kim cương"
+      ],
+      "summary_vn": "Chê quảng cáo, kim cương đắt, đồ trong game quá mắc",
+      "label_method": "ai_review"
     },
     {
       "id": "android-9619bddd74945b5a",
@@ -271,7 +308,15 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "quảng cáo",
+        "nạp tiền",
+        "văng game"
+      ],
+      "summary_vn": "Chê nhiều lỗi, ưu ái người nạp, quảng cáo dài, hay rớt mạng",
+      "label_method": "ai_review"
     },
     {
       "id": "android-39995822c1e65b8e",
@@ -289,7 +334,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "giải trí"
+      ],
+      "summary_vn": "Game vui nhưng đôi khi hơi chán",
+      "label_method": "ai_review"
     }
   ]
 }

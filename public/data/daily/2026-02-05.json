@@ -11,9 +11,9 @@
     },
     "by_sentiment": {
       "Positive": 0,
-      "Neutral": 0,
+      "Neutral": 1,
       "Negative": 8,
-      "Mixed": 4
+      "Mixed": 3
     },
     "by_topic": {
       "Gacha / Shop / Pricing": 1,
@@ -27,8 +27,8 @@
       "unknown": 11
     },
     "nss": -66.7,
-    "nss_d1": 0,
-    "nss_7d_avg": -20,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 2.9,
       "ios_avg": 3.5,
@@ -154,15 +154,24 @@
       "author_masked": "ร***",
       "text_th": "เฟอร์นีเจอร์ เครื่องแต่งกาย. ช่วยลดราคาหน่อยแพงมากก💗",
       "text_vn": "Mong giảm giá nội thất và trang phục vì đang quá đắt.",
-      "sentiment": "Negative",
+      "sentiment": "Neutral",
       "confidence": 0.86,
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá vật phẩm quá cao",
       "segment": "payer",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 4
+      "needs_review": true,
+      "rating": 4,
+      "intent": "suggestion",
+      "keywords": [
+        "nội thất",
+        "trang phục",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Mong giảm giá nội thất và trang phục vì quá đắt",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "ios-f090c8dc7a5000f3",
@@ -171,15 +180,23 @@
       "author_masked": "P***",
       "text_th": "ภาษา. ทำไมไม่ทำภาษาไทยบ้าง เดี๋ยวไทยเดี๋ยวอังกฤษ เวลาทำเควสก็อยากอ่านเนื้อเรื่องบ้าง",
       "text_vn": "Ngôn ngữ trong game không nhất quán, lúc tiếng Thái lúc tiếng Anh. Người chơi muốn đọc cốt truyện nhiệm vụ bằng tiếng Thái.",
-      "sentiment": "Mixed",
+      "sentiment": "Negative",
       "confidence": 0.86,
       "topic": "Localization (Thai text, wrong translation)",
       "topic_secondary": [],
       "theme": "Bản địa hóa tiếng Thái",
       "segment": "unknown",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 3
+      "needs_review": true,
+      "rating": 3,
+      "intent": "complaint",
+      "keywords": [
+        "ngôn ngữ",
+        "nhiệm vụ"
+      ],
+      "summary_vn": "Chê ngôn ngữ lẫn Thái-Anh, muốn đọc nhiệm vụ tiếng Thái",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     },
     {
       "id": "android-2024c007c038b0ba",
@@ -197,7 +214,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "lag"
+      ],
+      "summary_vn": "Khen game thư giãn, có lag nhưng vẫn vui",
+      "label_method": "ai_review"
     },
     {
       "id": "android-f21ce2384b498063",
@@ -215,7 +238,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "performance",
+      "keywords": [
+        "văng game",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Thích game nhưng sau cập nhật mới hay bị văng",
+      "label_method": "ai_review"
     },
     {
       "id": "android-8bfc10a73b737681",
@@ -233,7 +263,14 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 2,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "màn hình đen",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Sau cập nhật vào game bị màn hình đen, lỗi nhiều",
+      "label_method": "ai_review"
     },
     {
       "id": "android-0e68989e4274217d",
@@ -251,7 +288,14 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "màn hình đen",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Mỗi lần cập nhật đều lỗi, màn hình tối cả ngày",
+      "label_method": "ai_review"
     },
     {
       "id": "android-51f6cd7f5e308780",
@@ -269,7 +313,14 @@
       "severity": "P2",
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "màn hình đen",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Yêu cầu sửa lỗi màn hình đen sau cập nhật mới nhất",
+      "label_method": "ai_review"
     },
     {
       "id": "android-1dffaa90de4645a9",
@@ -287,7 +338,15 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 2,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "thú cưng",
+        "màn hình đen",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Cập nhật thú cưng ngựa nhiều lỗi, màn hình đen, đứng hình",
+      "label_method": "ai_review"
     },
     {
       "id": "android-3a7c127f641eb383",
@@ -305,7 +364,13 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "màn hình đen"
+      ],
+      "summary_vn": "Vào game bị màn hình đen, yêu cầu sửa",
+      "label_method": "ai_review"
     },
     {
       "id": "android-48bf33f7cac9710e",
@@ -323,7 +388,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "lỗi hiển thị"
+      ],
+      "summary_vn": "Game vui nhưng gần đây màn hình bị đứng, vỡ hình",
+      "label_method": "ai_review"
     },
     {
       "id": "android-17078d6b7f8d8301",
@@ -341,7 +412,14 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 2,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "màn hình đen",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Sau cập nhật vào game màn hình đen, không thao tác được",
+      "label_method": "ai_review"
     },
     {
       "id": "android-3ab0c9bb944cb9be",
@@ -359,7 +437,13 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "màn hình đen"
+      ],
+      "summary_vn": "Báo màn hình đen, yêu cầu sửa gấp",
+      "label_method": "ai_review"
     }
   ]
 }

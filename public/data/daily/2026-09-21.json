@@ -27,7 +27,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "event_entry",
+      "keywords": [
+        "ảnh"
+      ],
+      "summary_vn": "Đăng ảnh vẽ chữ theo hoạt động nhóm",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-cfbe2efd555c5354",
@@ -39,7 +45,7 @@
       "text_th": "บริการกดสภาพอากาศ ของขวัญ และเมล็ด Play together สภาพอากาศทุกอัน 10 บาท เมล็ดราคาตามภาพ ยอดนิยมเมล็ดที่ใช้ทองไม่สามารถกิฟได้นะครับ อาจจะมีการปรับราคาเล็กน้อยโปรดติดตามโพสต์ล่าสุดของอุ๋งๆเลย แอดแล้วทักได้เลย รับทั้งวอเล็ต และ ธนาคาร สต็อกมีเพิ่มเรื่อยๆ สอบถามแพ็คเพิ่มเติมได้เลยอุ๋งๆ",
       "text_vn": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
       "translation_method": "machine_translation",
-      "sentiment": "Mixed",
+      "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
@@ -55,7 +61,16 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "đổi thời tiết",
+        "tặng quà",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Rao dịch vụ đổi thời tiết 10 baht, tặng quà, bán hạt giống",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-209290f0ed99eab6",
@@ -85,7 +100,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "bộ sưu tập thẻ",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Rao bán thẻ 5 sao 5 baht, 4 sao 4 baht, đủ 1-3 sao",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-564b1010e904bdae",
@@ -115,7 +137,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "bắt côn trùng"
+      ],
+      "summary_vn": "Hỏi dùng vợt nào để bắt, mua ở đâu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-4ba420f710288818",
@@ -127,7 +155,7 @@
       "text_th": "มีใครได้ซื้อชุดแพคใหม่แล้วบ้างงทางนี้พึ่งมาเห็น ชุดแอบเท่อยู่นะ",
       "text_vn": "Có ai mua bộ gói mới chưa, mình mới thấy. Bộ đồ trông khá ngầu đó",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -145,7 +173,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "trang phục",
+        "cửa hàng"
+      ],
+      "summary_vn": "Hỏi ai mua bộ gói mới chưa, khen trang phục ngầu",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-074d4564c03d3719",
@@ -175,7 +211,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "đăng nhập"
+      ],
+      "summary_vn": "Hỏi cách chuyển liên kết ID từ Apple sang Facebook",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-5ca6985ee90d15cb",
@@ -187,7 +229,7 @@
       "text_th": "ไกด์สอนเลี้ยงน้องกระต่ายครับใครพึ่งกลับมาเล่น หรือ ไม่รู้ว่าหาส่วนผสมอาหารให้น้องยังไงดูคลิปนี้ได้เลยน้า",
       "text_vn": "Hướng dẫn nuôi thỏ nè, ai mới quay lại chơi hoặc không biết tìm nguyên liệu thức ăn cho thỏ thế nào thì xem clip này nhé",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -206,7 +248,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "thú cưng",
+        "thỏ mặt trăng"
+      ],
+      "summary_vn": "Chia sẻ clip hướng dẫn nuôi thỏ, tìm nguyên liệu thức ăn",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e1c31eb9e9f0f5f4",
@@ -218,7 +268,7 @@
       "text_th": "ขอสอบถามนะคะเหรียญตรามงกุฎอันนี้ตอนที่ได้เกมไม่ได้ให้โล่ไปประดับบ้านเหมือนเหรียญตราอันอื่นหรอคะ รึว่าให้อยู่แต่เราหาไม่เจอเอง",
       "text_vn": "Cho hỏi huy hiệu vương miện này lúc nhận trong game không được tặng khiên để trang trí nhà như các huy hiệu khác hả? Hay là có mà mình tìm không thấy",
       "translation_method": "machine_translation",
-      "sentiment": "Negative",
+      "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
       "theme": "Game bị văng và treo",
@@ -236,7 +286,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trang trí nhà",
+        "phần thưởng"
+      ],
+      "summary_vn": "Hỏi huy hiệu vương miện có tặng khiên trang trí nhà không",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-fb64049f6db9a239",
@@ -267,7 +325,14 @@
         ],
         "comment_count": "9"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "thú cưng",
+        "đào kho báu"
+      ],
+      "summary_vn": "Hỏi chó đánh hơi cần nền màu nào mới tìm đồ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-b2e9d91273056388",
@@ -298,7 +363,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "hỗ trợ"
+      ],
+      "summary_vn": "Hỏi món này là gì, nhờ người biết trả lời",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-687bcaad65194145",
@@ -329,7 +400,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "thỏ mặt trăng",
+        "sự kiện"
+      ],
+      "summary_vn": "Đăng vui chuyện đi tìm một con rùa thỏ vương miện",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-c581867ec50caa46",
@@ -359,7 +437,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "trang phục"
+      ],
+      "summary_vn": "Khoe phối đồ với bộ khác, hỏi có dễ thương không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-2eb0d38af1254a4c",
@@ -390,7 +474,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "thú cưng",
+        "thỏ mặt trăng"
+      ],
+      "summary_vn": "Khoe bay ngắm cảnh với thỏ, lúc đầu hay cắm đầu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-1b634b7f132f173e",
@@ -418,7 +509,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "mất dữ liệu"
+      ],
+      "summary_vn": "Hỏi cách lấy lại ID mật khẩu cũ để chơi",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-bd62f90119c1afb0",
@@ -446,7 +544,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "thú cưng",
+        "thỏ mặt trăng"
+      ],
+      "summary_vn": "Hỏi nâng cấp thỏ nền tím có cần 4 con cùng loại không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-c45dd668a76e93d2",
@@ -458,7 +563,7 @@
       "text_th": "ขอสอบถามมีค้าบ ทำไมถึงล็อกอินเมลเดิมแต่ว่ามันให้สร้างรหัสใหม่หรอคะ เคยเล่นเมื่อ2-3ปีก่อนค่ะ ตอนแรกเล่นในแอนดรอยด์ แต่ตอนนี้เปลี่ยนมาเป็นiosแล้วค่ะ",
       "text_vn": "Cho hỏi sao đăng nhập email cũ mà nó lại bắt tạo nhân vật mới ạ? Mình từng chơi 2-3 năm trước, lúc đầu chơi trên Android, giờ đổi sang iOS rồi",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -476,7 +581,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "mất dữ liệu"
+      ],
+      "summary_vn": "Đăng nhập email cũ nhưng bị bắt tạo nhân vật mới",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-2aec5399989722d3",
@@ -507,7 +620,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "trang phục"
+      ],
+      "summary_vn": "Đùa bộ đồ mới trông quen như thấy mỗi ngày",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-6ace02b9dc3f9712",
@@ -519,7 +638,7 @@
       "text_th": "ใช้เวลา 2วัน ครบทุกอย่าง",
       "text_vn": "Mất 2 ngày là xong hết mọi thứ",
       "translation_method": "machine_translation",
-      "sentiment": "Negative",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -538,7 +657,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "sự kiện",
+        "nhiệm vụ"
+      ],
+      "summary_vn": "Khoe mất 2 ngày là hoàn thành hết mọi thứ",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     }
   ],
   "alerts": [],
@@ -549,10 +676,10 @@
       "Facebook Group": 18
     },
     "by_sentiment": {
-      "Positive": 2,
-      "Neutral": 13,
-      "Negative": 2,
-      "Mixed": 1
+      "Positive": 5,
+      "Neutral": 12,
+      "Negative": 1,
+      "Mixed": 0
     },
     "by_topic": {
       "Other": 15,
@@ -562,7 +689,7 @@
     "by_segment": {
       "unknown": 18
     },
-    "nss": 0,
+    "nss": 22.2,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

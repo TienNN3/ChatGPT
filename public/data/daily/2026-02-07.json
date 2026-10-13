@@ -9,7 +9,7 @@
       "author_masked": "ธ***",
       "text_th": "จะโหลดได้ไหมอ่ะค่ะโหลดช้า",
       "text_vn": "Phản hồi trung tính về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -18,7 +18,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "performance",
+      "keywords": [
+        "tải game"
+      ],
+      "summary_vn": "Phàn nàn tải game quá chậm",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "android-4ea5356488115ed2",
@@ -36,7 +43,14 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "performance",
+      "keywords": [
+        "văng game",
+        "màn hình đen"
+      ],
+      "summary_vn": "Game văng mỗi lần vào trên iPad mới, màn hình đen hoặc đỏ",
+      "label_method": "ai_review"
     },
     {
       "id": "android-6af823b9e1aa2446",
@@ -54,7 +68,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "giải trí"
+      ],
+      "summary_vn": "Khen game rất tốt",
+      "label_method": "ai_review"
     },
     {
       "id": "android-85e8f12ab0c017d1",
@@ -72,7 +92,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "người chơi lâu năm"
+      ],
+      "summary_vn": "Đã chơi 4 năm, mong game tiếp tục phát triển",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -83,8 +109,8 @@
     },
     "by_sentiment": {
       "Positive": 2,
-      "Neutral": 1,
-      "Negative": 1,
+      "Neutral": 0,
+      "Negative": 2,
       "Mixed": 0
     },
     "by_topic": {
@@ -94,9 +120,9 @@
     "by_segment": {
       "unknown": 4
     },
-    "nss": 25,
-    "nss_d1": -100,
-    "nss_7d_avg": -53.3,
+    "nss": 0,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 3,
       "ios_avg": null,

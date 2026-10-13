@@ -28,7 +28,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "event_entry",
+      "keywords": [
+        "tặng quà"
+      ],
+      "summary_vn": "Bình luận muốn nhận quà tặng",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-f4f8697f3283ea91",
@@ -56,7 +62,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Bình luận ngắn một chữ 'chơi'",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {

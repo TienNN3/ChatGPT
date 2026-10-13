@@ -18,7 +18,13 @@
       "severity": "P2",
       "needs_review": true,
       "rating": 3,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Phàn nàn gacha quá đen",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -40,8 +46,8 @@
       "payer": 1
     },
     "nss": -100,
-    "nss_d1": 100,
-    "nss_7d_avg": -46.4,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 3,
       "ios_avg": null,

@@ -10,10 +10,10 @@
       "Google Play": 4
     },
     "by_sentiment": {
-      "Positive": 3,
+      "Positive": 4,
       "Neutral": 0,
       "Negative": 1,
-      "Mixed": 1
+      "Mixed": 0
     },
     "by_topic": {
       "Gacha / Shop / Pricing": 1,
@@ -23,9 +23,9 @@
       "payer": 2,
       "unknown": 3
     },
-    "nss": 40,
+    "nss": 60,
     "nss_d1": null,
-    "nss_7d_avg": 7.7,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 4,
       "ios_avg": 5,
@@ -128,15 +128,24 @@
       "author_masked": "a***",
       "text_th": "More info please. Love the Daily Special Prices events. But could you please add more info about the items? Sometimes it&#39;s hard to tell if an item is for home decor or if it&#39;s wearable. Also, for the draws, I can&#39;t always remember what&#39;s inside. A preview feature or a small description would be super helpful!!!",
       "text_vn": "Thích sự kiện giá đặc biệt hằng ngày nhưng mong có mô tả và bản xem trước để phân biệt đồ trang trí, đồ mặc và vật phẩm trong lượt quay.",
-      "sentiment": "Mixed",
+      "sentiment": "Positive",
       "confidence": 0.86,
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
       "segment": "payer",
       "severity": null,
-      "needs_review": false,
-      "rating": 5
+      "needs_review": true,
+      "rating": 5,
+      "intent": "suggestion",
+      "keywords": [
+        "cửa hàng",
+        "gacha",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Thích sự kiện giá đặc biệt, mong thêm mô tả và xem trước vật phẩm",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     },
     {
       "id": "android-699f07a3c66690ea",
@@ -154,7 +163,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Khen game rất vui",
+      "label_method": "ai_review"
     },
     {
       "id": "android-36249e4aeedf8c89",
@@ -172,7 +187,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "ngoại hình nhân vật"
+      ],
+      "summary_vn": "Khen game chơi giống đời thực",
+      "label_method": "ai_review"
     },
     {
       "id": "android-fb9854f7edb201ce",
@@ -190,7 +211,13 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "nạp tiền"
+      ],
+      "summary_vn": "Nạp gói nhưng không nhận được, yêu cầu hoàn tiền",
+      "label_method": "ai_review"
     },
     {
       "id": "android-015c9add48c4bca2",
@@ -208,7 +235,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "ngoại hình nhân vật"
+      ],
+      "summary_vn": "Khen đồ họa đẹp, nhân vật đẹp, chơi cuốn",
+      "label_method": "ai_review"
     }
   ]
 }

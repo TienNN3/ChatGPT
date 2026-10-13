@@ -18,7 +18,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "người chơi quay lại"
+      ],
+      "summary_vn": "Từng chơi hồi nhỏ, quay lại thấy vẫn rất vui",
+      "label_method": "ai_review"
     },
     {
       "id": "android-7003d81c612cc722",
@@ -36,7 +42,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "khen game"
+      ],
+      "summary_vn": "Khen game cực kỳ vui",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -59,8 +71,8 @@
       "unknown": 1
     },
     "nss": 100,
-    "nss_d1": 100,
-    "nss_7d_avg": 50,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 5,
       "ios_avg": null,

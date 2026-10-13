@@ -27,7 +27,7 @@
     },
     "nss": 83.3,
     "nss_d1": null,
-    "nss_7d_avg": -10,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 5,
       "ios_avg": 5,
@@ -140,8 +140,14 @@
       "theme": "Hoạt động và tính năng trong game",
       "segment": "midgame",
       "severity": null,
-      "needs_review": false,
-      "rating": 5
+      "needs_review": true,
+      "rating": 5,
+      "intent": "suggestion",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Khen game vui, mong thêm minigame",
+      "label_method": "ai_review"
     },
     {
       "id": "android-e8400a016f0d28f3",
@@ -159,7 +165,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "bản đồ mới",
+        "trường học"
+      ],
+      "summary_vn": "Đề xuất bản đồ chủ đề Avatar bốn nguyên tố",
+      "label_method": "ai_review"
     },
     {
       "id": "android-2e1666e0e0424f19",
@@ -177,7 +190,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Khen game vui, nhẹ nhàng không căng thẳng",
+      "label_method": "ai_review"
     },
     {
       "id": "android-d0a115e9fcd3ddb5",
@@ -195,7 +214,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Khen game không có lỗi, rất tốt",
+      "label_method": "ai_review"
     },
     {
       "id": "android-d6fd4a307593d3f9",
@@ -213,7 +238,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "chat",
+      "keywords": [
+        "tìm bạn"
+      ],
+      "summary_vn": "Nhớ những người từng chơi cùng trước đây",
+      "label_method": "ai_review"
     },
     {
       "id": "android-423c68916bffd65d",
@@ -231,7 +262,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "trường học",
+        "tìm bạn"
+      ],
+      "summary_vn": "Khen game vui, có nhiều bạn, thích chơi trường học",
+      "label_method": "ai_review"
     }
   ]
 }

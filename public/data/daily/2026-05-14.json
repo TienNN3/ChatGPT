@@ -12,8 +12,8 @@
     "by_sentiment": {
       "Positive": 2,
       "Neutral": 0,
-      "Negative": 5,
-      "Mixed": 0
+      "Negative": 4,
+      "Mixed": 1
     },
     "by_topic": {
       "Bug / Crash / Lag / Performance": 2,
@@ -25,9 +25,9 @@
       "unknown": 6,
       "payer": 1
     },
-    "nss": -42.9,
-    "nss_d1": 100,
-    "nss_7d_avg": 40,
+    "nss": -28.6,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 3.75,
       "ios_avg": 2.67,
@@ -170,8 +170,15 @@
       "theme": "Game bị văng và treo",
       "segment": "unknown",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 4
+      "needs_review": true,
+      "rating": 4,
+      "intent": "performance",
+      "keywords": [
+        "lag",
+        "văng game"
+      ],
+      "summary_vn": "Chơi trên iPad thường xuyên bị treo và văng",
+      "label_method": "ai_review"
     },
     {
       "id": "ios-2ba0ff24c9687cd9",
@@ -180,15 +187,22 @@
       "author_masked": "K***",
       "text_th": "เค็มๆ. สนุกดี แต่โคตรจะเกลือเล่นมาตั้งแต่เกมเปิดยังไม่เคยสุ่มได้ของสีรุ้งเลย5ปีกว่าละมั้ง",
       "text_vn": "Game vui nhưng gacha rất đen. Chơi hơn 5 năm vẫn chưa từng quay được vật phẩm cầu vồng.",
-      "sentiment": "Negative",
+      "sentiment": "Mixed",
       "confidence": 0.86,
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
       "segment": "payer",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 3
+      "needs_review": true,
+      "rating": 3,
+      "intent": "complaint",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Game vui nhưng chơi 5 năm chưa quay được đồ cầu vồng",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "ios-97d42d1d1715b422",
@@ -204,8 +218,15 @@
       "theme": "Lỗi đăng nhập đa thiết bị",
       "segment": "unknown",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 1
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "vvip pass"
+      ],
+      "summary_vn": "Bị báo đăng nhập trái phép dù dùng Facebook, lỡ tiến độ pass",
+      "label_method": "ai_review"
     },
     {
       "id": "android-d06ccbb3bcb4c39e",
@@ -223,7 +244,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Khen game vui, sáng tạo",
+      "label_method": "ai_review"
     },
     {
       "id": "android-12d85bc1f0e512a4",
@@ -241,7 +268,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Rất thích game",
+      "label_method": "ai_review"
     },
     {
       "id": "android-cec6c1be328edcbc",
@@ -259,7 +292,13 @@
       "severity": "P2",
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "quảng cáo"
+      ],
+      "summary_vn": "Báo không xem được quảng cáo trong game",
+      "label_method": "ai_review"
     },
     {
       "id": "android-649fb46380fac3d7",
@@ -277,7 +316,13 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "performance",
+      "keywords": [
+        "văng game"
+      ],
+      "summary_vn": "Game văng mỗi lần vào",
+      "label_method": "ai_review"
     }
   ]
 }

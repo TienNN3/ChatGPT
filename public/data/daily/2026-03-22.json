@@ -18,7 +18,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "giải trí"
+      ],
+      "summary_vn": "Khen game tốt",
+      "label_method": "ai_review"
     },
     {
       "id": "android-cc78e5fcb71d6808",
@@ -36,7 +42,13 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 2,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "account",
+      "keywords": [
+        "đăng nhập"
+      ],
+      "summary_vn": "Trước chơi bình thường, giờ không vào được game",
+      "label_method": "ai_review"
     },
     {
       "id": "android-3eb042b720ede705",
@@ -54,7 +66,13 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "đăng nhập"
+      ],
+      "summary_vn": "Chê game chán, rối, khó vào",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -77,8 +95,8 @@
       "veteran": 1
     },
     "nss": -33.3,
-    "nss_d1": -50,
-    "nss_7d_avg": -10.2,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 4,
       "ios_avg": null,

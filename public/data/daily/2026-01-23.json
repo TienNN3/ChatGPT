@@ -22,7 +22,7 @@
     },
     "nss": -100,
     "nss_d1": null,
-    "nss_7d_avg": -25,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": null,
       "ios_avg": 1,
@@ -119,8 +119,15 @@
       "theme": "Lỗi đăng nhập đa thiết bị",
       "segment": "unknown",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 1
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "chăm sóc khách hàng"
+      ],
+      "summary_vn": "Ba thiết bị không vào được game, báo mạng không ổn định",
+      "label_method": "ai_review"
     }
   ]
 }

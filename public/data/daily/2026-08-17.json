@@ -18,7 +18,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "người chơi quay lại"
+      ],
+      "summary_vn": "Khen game vui, lành mạnh, đã quay lại chơi nhiều lần",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {

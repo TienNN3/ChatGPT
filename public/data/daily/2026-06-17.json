@@ -18,7 +18,15 @@
       "severity": "P2",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "câu cá",
+        "sự kiện",
+        "mồi câu"
+      ],
+      "summary_vn": "Chê nhiệm vụ câu cá sự kiện quá khó, chế mồi tốn 500 cá",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -40,8 +48,8 @@
       "unknown": 1
     },
     "nss": -100,
-    "nss_d1": 0,
-    "nss_7d_avg": -18.7,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 1,
       "ios_avg": null,

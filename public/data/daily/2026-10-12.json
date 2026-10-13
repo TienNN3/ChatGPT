@@ -9,10 +9,10 @@
       "Facebook Group": 24
     },
     "by_sentiment": {
-      "Positive": 1,
-      "Neutral": 21,
-      "Negative": 1,
-      "Mixed": 1
+      "Positive": 2,
+      "Neutral": 20,
+      "Negative": 2,
+      "Mixed": 0
     },
     "by_topic": {
       "Other": 15,
@@ -164,7 +164,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Nói vào phòng nào cũng gặp Med noon, hơi sợ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-8c355a675880b03c",
@@ -192,7 +198,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "kiếm tiền trong game"
+      ],
+      "summary_vn": "Khẳng định chơi 12 tài khoản do chăm chỉ, không phải hack",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-59e06236aa84c54d",
@@ -212,7 +224,7 @@
       "segment": "payer",
       "severity": null,
       "confidence": 0.93,
-      "needs_review": false,
+      "needs_review": true,
       "content_kind": "post",
       "activity_type": "Thảo luận",
       "date_basis": "published_at",
@@ -221,7 +233,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "vvip pass",
+        "cửa hàng"
+      ],
+      "summary_vn": "Hỏi vật phẩm pass cũ có quay lại bán không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-0bae01ab04fbe6f1",
@@ -249,7 +268,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "vvip pass",
+        "gacha"
+      ],
+      "summary_vn": "Trả lời đồ pass cũ sẽ quay lại dạng hộp ngẫu nhiên",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-464a92d92a2cb883",
@@ -277,7 +303,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "vvip pass",
+        "nạp tiền"
+      ],
+      "summary_vn": "Khoe đã bấm mua giá 20.95 đô",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-656f6e5492d99cfb",
@@ -307,7 +340,14 @@
         ],
         "comment_count": "7"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "đăng nhập"
+      ],
+      "summary_vn": "Hỏi liên kết VNG rồi có đăng nhập qua Steam được không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-6e7a6c235b8b05f1",
@@ -339,7 +379,15 @@
         ],
         "comment_count": "2"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "bộ sưu tập thẻ",
+        "câu cá",
+        "halloween"
+      ],
+      "summary_vn": "Khoe hiệu ứng cần câu bộ thẻ Halloween dễ thương",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-5f5081501953a7b7",
@@ -367,7 +415,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "đăng nhập"
+      ],
+      "summary_vn": "Giải thích tài khoản cũ chuyển VNG chơi được mọi kênh đã liên kết",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-35ab19965eb01b12",
@@ -379,7 +434,7 @@
       "text_th": "ถ้าสมัครผ่านตัวเกม Vng จะผูกกับสตรีมหรืออย่างอื่นไม่ได้เลยคับ",
       "text_vn": "Nếu bạn đăng ký thông qua trò chơi, Vng không thể bị ràng buộc với luồng hoặc bất cứ thứ gì khác.",
       "translation_method": "machine_translation",
-      "sentiment": "Negative",
+      "sentiment": "Neutral",
       "topic": "Login / Account / Data",
       "topic_secondary": [],
       "theme": "Đăng nhập tài khoản",
@@ -395,7 +450,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "đăng nhập"
+      ],
+      "summary_vn": "Giải thích tài khoản tạo mới trong VNG không liên kết Steam được",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-6be1d4c42b02cf80",
@@ -407,7 +470,7 @@
       "text_th": "เตมทุกใบเรวเว่อร์",
       "text_vn": "Điền vào mỗi tờ rất nhanh chóng.",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -423,7 +486,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "bộ sưu tập thẻ"
+      ],
+      "summary_vn": "Nhận xét điền đầy thẻ rất nhanh",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-72196d771732f9e5",
@@ -451,7 +521,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "phản ứng"
+      ],
+      "summary_vn": "Bình luận cảm thán ngắn",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-bf6ab8200015a693",
@@ -479,7 +555,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "bộ sưu tập thẻ"
+      ],
+      "summary_vn": "Hỏi có phải người Thái đầu tiên đạt được không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-946cdcc54c3d4eaf",
@@ -491,7 +573,7 @@
       "text_th": "พลังเหมือนเบ็ดค้อน แต่ด๋อยกว่า",
       "text_vn": "Quyền lực giống như một chiếc móc búa nhưng yếu hơn.",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -507,7 +589,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "complaint",
+      "keywords": [
+        "câu cá",
+        "bộ sưu tập thẻ"
+      ],
+      "summary_vn": "Chê hiệu ứng cần câu giống cần búa nhưng yếu hơn",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-4f9169b550d1da6d",
@@ -519,7 +609,7 @@
       "text_th": "เหมือนกันคับ ตอนนี้ถอนทิ้งหมดละ",
       "text_vn": "Điều tương tự, bây giờ tôi đã loại bỏ tất cả.",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -535,7 +625,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "trồng trọt"
+      ],
+      "summary_vn": "Đồng tình và cho biết đã nhổ bỏ hết",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-b785e652c3519170",
@@ -563,7 +660,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "phiên bản cũ"
+      ],
+      "summary_vn": "Giải thích liên kết dữ liệu trước vẫn chơi lại bản cũ được",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-a6073a2d4ccf4cbd",
@@ -575,7 +679,7 @@
       "text_th": "อัพเดต บริการกดสภาพอากาศ ของขวัญ และเมล็ด Play together \nสภาพอากาศทุกอัน 10 บาท \nเมล็ดราคาตามภาพ ยอดนิยม\nเมล็ดที่ใช้ทองไม่สามารถกิฟได้นะครับ \nอาจจะมีการปรับราคาเล็กน้อยโปรดติดตามโพสต์ล่าสุดของอุ๋งๆเลย \nแอดแล้วทักได้เลย รับทั้งวอเล็ต และ ธนาคาร สต็อกมีเพิ่มเรื่อยๆ สอบถามแพ็คเพิ่มเติมได้เลยอุ๋งๆ",
       "text_vn": "Cập nhật dịch vụ thời tiết, quà tặng và hạt giống Chơi cùng nhau \nMọi điều kiện thời tiết 10 baht \nCác loại hạt phổ biến có giá như trong hình\nHạt giống sử dụng vàng không thể được tặng. \nCó thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. \nThêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
       "translation_method": "machine_translation",
-      "sentiment": "Mixed",
+      "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
@@ -591,7 +695,16 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "đổi thời tiết",
+        "tặng quà",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Quảng cáo dịch vụ đổi thời tiết 10 baht, bán hạt giống, quà",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-f31e43109cbf6563",
@@ -623,7 +736,13 @@
         ],
         "comment_count": "8"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "chia sẻ ảnh"
+      ],
+      "summary_vn": "Đăng ảnh hài hước kèm biểu tượng",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-f4fd961527778368",
@@ -653,7 +772,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "mùa thu"
+      ],
+      "summary_vn": "Đăng ảnh chủ đề mùa thu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-fafecec62e369ead",
@@ -681,7 +806,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "thú cưng"
+      ],
+      "summary_vn": "Đăng ảnh có con cu li kèm chữ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-8b85d563377f6e85",
@@ -709,7 +840,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "trái cây",
+        "nông trại"
+      ],
+      "summary_vn": "Đăng ảnh kèm biểu tượng các loại trái cây",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-933610690ae2730e",
@@ -737,7 +875,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "chia sẻ ảnh"
+      ],
+      "summary_vn": "Đăng ảnh có chữ, không rõ nội dung",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-30ec7cab0555aff9",
@@ -765,7 +909,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "phiên bản cũ"
+      ],
+      "summary_vn": "Hỏi không liên kết VNG mà chơi bản cũ có sao không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-675d0255ed93a2f5",
@@ -793,7 +944,13 @@
         "reactions": [],
         "comment_count": "31"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "halloween"
+      ],
+      "summary_vn": "Đăng bài chủ đề đêm ma ám",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-4cadf42164cce947",
@@ -821,7 +978,13 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "chat",
+      "keywords": [
+        "sự kiện"
+      ],
+      "summary_vn": "Ghé vào ủng hộ bài đăng",
+      "label_method": "ai_review"
     }
   ],
   "ratings": [

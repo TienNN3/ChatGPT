@@ -9,7 +9,7 @@
       "author_masked": "N***",
       "text_th": "เกมดีแล้วค่ะ แต่ว่าเควสล่าสุดที่ให้ทำยาฟื้นฟูมันทำเควสไม่ได้ค่ะแก้ไขด้วยเป็นกันทุกคน เควสไปต่อไม่ได้ถ้าแก้ไขบัคจะกลับมาให้ห้าดาว",
       "text_vn": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Negative",
+      "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -18,7 +18,14 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "nhiệm vụ"
+      ],
+      "summary_vn": "Báo nhiệm vụ chế thuốc hồi phục bị lỗi, không thể tiếp tục",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "android-6cb41fc496f30712",
@@ -36,7 +43,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "trang trí nhà"
+      ],
+      "summary_vn": "Khen game vui, có nhà riêng",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -48,8 +61,8 @@
     "by_sentiment": {
       "Positive": 1,
       "Neutral": 0,
-      "Negative": 1,
-      "Mixed": 0
+      "Negative": 0,
+      "Mixed": 1
     },
     "by_topic": {
       "Bug / Crash / Lag / Performance": 1,
@@ -58,9 +71,9 @@
     "by_segment": {
       "unknown": 2
     },
-    "nss": 0,
-    "nss_d1": 50,
-    "nss_7d_avg": 50,
+    "nss": 50,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 4.5,
       "ios_avg": null,

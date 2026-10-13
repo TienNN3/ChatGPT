@@ -21,8 +21,8 @@
       "unknown": 1
     },
     "nss": 100,
-    "nss_d1": -100,
-    "nss_7d_avg": -75,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": null,
       "ios_avg": 5,
@@ -114,8 +114,14 @@
       "theme": "Trải nghiệm game tích cực",
       "segment": "unknown",
       "severity": null,
-      "needs_review": false,
-      "rating": 5
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "giải trí"
+      ],
+      "summary_vn": "Rất yêu thích, thấy game cực vui",
+      "label_method": "ai_review"
     }
   ],
   "ratings": [

@@ -24,8 +24,8 @@
       "unknown": 1
     },
     "nss": -100,
-    "nss_d1": 0,
-    "nss_7d_avg": 25,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 1,
       "ios_avg": 1,
@@ -139,8 +139,15 @@
       "theme": "Giá trị phần thưởng gacha",
       "segment": "payer",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 1
+      "needs_review": true,
+      "rating": 1,
+      "intent": "complaint",
+      "keywords": [
+        "gacha",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Quay 150 lần không ra kiếm đào khoáng, chê quá đắt",
+      "label_method": "ai_review"
     },
     {
       "id": "android-ba95e278ca3a27ee",
@@ -158,7 +165,14 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "người chơi mới"
+      ],
+      "summary_vn": "Mới tải, đăng nhập xong vào game lại bắt đăng nhập lại",
+      "label_method": "ai_review"
     }
   ]
 }

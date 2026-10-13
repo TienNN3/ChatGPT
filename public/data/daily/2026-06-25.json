@@ -21,8 +21,8 @@
       "payer": 1
     },
     "nss": 0,
-    "nss_d1": -50,
-    "nss_7d_avg": 50,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": null,
       "ios_avg": 5,
@@ -106,8 +106,16 @@
       "theme": "Quảng cáo gây gián đoạn",
       "segment": "payer",
       "severity": null,
-      "needs_review": false,
-      "rating": 5
+      "needs_review": true,
+      "rating": 5,
+      "intent": "suggestion",
+      "keywords": [
+        "giá vật phẩm",
+        "trang trí nhà",
+        "quảng cáo"
+      ],
+      "summary_vn": "Khen game nhưng mong giảm giá đồ, thêm đồ trang trí, bớt quảng cáo",
+      "label_method": "ai_review"
     }
   ]
 }

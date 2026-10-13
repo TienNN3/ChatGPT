@@ -23,8 +23,8 @@
       "unknown": 2
     },
     "nss": 0,
-    "nss_d1": -100,
-    "nss_7d_avg": -35,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 1,
       "ios_avg": 1,
@@ -132,8 +132,14 @@
       "theme": "Game bị văng và treo",
       "segment": "unknown",
       "severity": "P1",
-      "needs_review": false,
-      "rating": 1
+      "needs_review": true,
+      "rating": 1,
+      "intent": "performance",
+      "keywords": [
+        "văng game"
+      ],
+      "summary_vn": "Không chơi được vì game liên tục văng, rất bực",
+      "label_method": "ai_review"
     },
     {
       "id": "android-f08df5e974f75d34",
@@ -151,7 +157,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "khen game"
+      ],
+      "summary_vn": "Khen game rất tốt dù chấm 1 sao",
+      "label_method": "ai_review"
     }
   ]
 }

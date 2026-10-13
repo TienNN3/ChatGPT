@@ -18,7 +18,15 @@
       "severity": null,
       "needs_review": true,
       "rating": 3,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "trang phục",
+        "giá vật phẩm",
+        "quảng cáo"
+      ],
+      "summary_vn": "Đề xuất thêm gói đồ bằng kim cương, giảm giá, quảng cáo ngắn hơn",
+      "label_method": "ai_review"
     },
     {
       "id": "android-80aa8eb63e3b892a",
@@ -36,7 +44,13 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "ngoại hình nhân vật"
+      ],
+      "summary_vn": "Chê thiết kế nhân vật, muốn xoá game",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -59,8 +73,8 @@
       "unknown": 1
     },
     "nss": -50,
-    "nss_d1": -100,
-    "nss_7d_avg": -35.3,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 2,
       "ios_avg": null,

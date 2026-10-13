@@ -31,7 +31,14 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "share",
+      "keywords": [
+        "sự kiện",
+        "ốc đảo sa mạc"
+      ],
+      "summary_vn": "Chia sẻ thông tin kết thúc sự kiện Ốc Đảo Sa Mạc",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {

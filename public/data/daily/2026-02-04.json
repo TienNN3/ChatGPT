@@ -18,7 +18,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Game vui nhưng nhiều đồ đắt",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -41,7 +47,7 @@
     },
     "nss": 0,
     "nss_d1": null,
-    "nss_7d_avg": -25,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 4,
       "ios_avg": null,

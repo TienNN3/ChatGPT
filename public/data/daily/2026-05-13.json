@@ -9,7 +9,7 @@
       "author_masked": "M***",
       "text_th": "ขอให้เกมอัปเดตให้มีท่ายืนกับเคสโทรศัพท์ขอเถอะนะ🙌🏻🙌🏻",
       "text_vn": "Phản hồi tích cực về sự kiện và nội dung cập nhật. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Positive",
+      "sentiment": "Neutral",
       "confidence": 0.72,
       "topic": "Event & Update content",
       "topic_secondary": [],
@@ -18,7 +18,15 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "cập nhật mới",
+        "ngoại hình nhân vật"
+      ],
+      "summary_vn": "Mong cập nhật thêm tư thế đứng và ốp điện thoại",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -28,8 +36,8 @@
       "Google Play": 1
     },
     "by_sentiment": {
-      "Positive": 1,
-      "Neutral": 0,
+      "Positive": 0,
+      "Neutral": 1,
       "Negative": 0,
       "Mixed": 0
     },
@@ -39,9 +47,9 @@
     "by_segment": {
       "unknown": 1
     },
-    "nss": 100,
+    "nss": 0,
     "nss_d1": null,
-    "nss_7d_avg": 40,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 5,
       "ios_avg": null,

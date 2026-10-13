@@ -29,7 +29,7 @@
     },
     "nss": 63.6,
     "nss_d1": null,
-    "nss_7d_avg": 0,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 4.9,
       "ios_avg": 4,
@@ -142,8 +142,15 @@
       "theme": "Giá vật phẩm quá cao",
       "segment": "payer",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 4
+      "needs_review": true,
+      "rating": 4,
+      "intent": "suggestion",
+      "keywords": [
+        "giá vật phẩm",
+        "trang trí nhà"
+      ],
+      "summary_vn": "Mong giảm giá đồ và thêm đồ dễ thương",
+      "label_method": "ai_review"
     },
     {
       "id": "android-abca437d905dc1a4",
@@ -161,7 +168,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "chat",
+      "keywords": [
+        "hẹn hò"
+      ],
+      "summary_vn": "Đùa bị bạn gái bỏ trong game nên buồn",
+      "label_method": "ai_review"
     },
     {
       "id": "android-0ec29bfc4b48cf52",
@@ -179,7 +192,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "đồ họa"
+      ],
+      "summary_vn": "Mong cải thiện đồ họa thay vì tập trung bán đồ",
+      "label_method": "ai_review"
     },
     {
       "id": "android-e4351accf6a24795",
@@ -197,7 +216,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "câu cá",
+        "khai thác đá"
+      ],
+      "summary_vn": "Khen game giải trí, mọi người tốt, nhiều hoạt động",
+      "label_method": "ai_review"
     },
     {
       "id": "android-a7db4aeb1d91e7db",
@@ -215,7 +241,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "giải trí"
+      ],
+      "summary_vn": "Khen game rất vui",
+      "label_method": "ai_review"
     },
     {
       "id": "android-eb03a6ace82171ce",
@@ -233,7 +265,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "thú cưng",
+        "kết hôn"
+      ],
+      "summary_vn": "Khen nhân vật, thú cưng dễ thương, có thể kết hôn",
+      "label_method": "ai_review"
     },
     {
       "id": "android-419670a47ce1ac4c",
@@ -251,7 +290,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "chat thoại",
+        "lỗi hiển thị"
+      ],
+      "summary_vn": "Đề xuất thêm mic nói chuyện, báo hình ảnh bị vỡ màu",
+      "label_method": "ai_review"
     },
     {
       "id": "android-d9209f0146407652",
@@ -269,7 +315,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "giải trí"
+      ],
+      "summary_vn": "Khen game hay",
+      "label_method": "ai_review"
     },
     {
       "id": "android-9f78d7b4f4758cbb",
@@ -287,7 +339,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Khen chơi cùng bạn vui, nhiều minigame",
+      "label_method": "ai_review"
     },
     {
       "id": "android-2ef6112c4862e30f",
@@ -305,7 +363,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "người chơi lâu năm"
+      ],
+      "summary_vn": "Chơi từ thời covid, game tròn 5 tuổi",
+      "label_method": "ai_review"
     },
     {
       "id": "android-3b5b68fc8ba4f74c",
@@ -323,7 +387,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "nhiệm vụ",
+        "lag"
+      ],
+      "summary_vn": "Khen nhiệm vụ đa dạng, chơi mượt trên máy tính bảng",
+      "label_method": "ai_review"
     }
   ]
 }

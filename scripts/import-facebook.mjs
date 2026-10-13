@@ -156,7 +156,9 @@ for (const raw of staging.observations) {
     segment: previous?.segment || "unknown", severity: previous?.severity ?? null, confidence: previous?.confidence ?? 0.45,
     needs_review: previous?.needs_review ?? true, content_kind: raw.kind, activity_type: activityType(raw, classification), date_basis: dateInfo.date_basis, published_label: raw.timestamp || null,
     engagement: { reactions: Array.isArray(raw.engagement?.reactions) ? raw.engagement.reactions : [], comment_count: raw.engagement?.comment_count ?? null },
-    collected_at: staging.collection.collected_at, date: dateInfo.date
+    collected_at: staging.collection.collected_at, date: dateInfo.date,
+    // Giữ nhãn loại nội dung/từ khoá/tóm tắt đã gán trước đó (scripts/apply-labels.mjs).
+    ...(previous?.intent ? { intent: previous.intent, keywords: previous.keywords || [], summary_vn: previous.summary_vn || "", label_method: previous.label_method, ...(previous.sentiment_rule ? { sentiment_rule: previous.sentiment_rule } : {}) } : {})
   });
 }
 

@@ -73,6 +73,19 @@ Phạm vi fanpage được giới hạn ở **comment** trên `facebook.com/play
 
 Script dịch thay các câu trạng thái `cần dịch` bằng tiếng Việt để Feedback Explorer luôn ưu tiên nội dung người vận hành đọc được. Bản dịch máy được đánh dấu bằng `translation_method=machine_translation`; bài chỉ có hình được ghi rõ là không có chữ để dịch.
 
+## Loại nội dung, từ khoá và tóm tắt
+
+Mỗi phản hồi có `intent` (loại nội dung), `keywords` (1–4 từ khoá tiếng Việt) và `summary_vn` (một câu mô tả người chơi nói/làm gì). Danh sách loại nội dung: `question` (hỏi), `answer` (trả lời/hướng dẫn), `share` (chia sẻ/khoe), `event_entry` (tham gia sự kiện), `bug`, `performance` (crash/lag), `account` (tài khoản/đăng nhập), `complaint` (phàn nàn), `suggestion` (góp ý), `praise` (khen), `trade` (mua bán), `social` (tìm bạn), `chat` (trò chuyện chung).
+
+Nhãn do AI gán theo hướng dẫn cố định và bộ từ khoá chuẩn, lưu ở `.staging/labels/` rồi áp vào dữ liệu:
+
+```bash
+node scripts/apply-labels.mjs .staging/labels/*.json
+npm run check
+```
+
+Script chuẩn hoá các cách viết khác nhau của cùng một từ khoá, không đổi nội dung phản hồi, và giữ cảm xúc cũ trong `sentiment_rule` khi nhãn mới khác. `import-facebook.mjs` giữ lại nhãn đã gán khi import lại. Mục mới chưa được gán nhãn sẽ được dashboard suy ra loại nội dung từ nhãn hoạt động cũ (test yêu cầu mọi mục đều có nhãn trước khi deploy).
+
 ## Nhập YouTube
 
 Tìm video theo tên game và từ khoá tiếng Thái (vùng TH, lọc 30 ngày), chỉ giữ video có chữ Thái. Mỗi video của người chơi tính là 1 phản hồi; bình luận của người xem được tính riêng. Video của kênh chính thức chỉ lấy bình luận. Bỏ bình luận của chủ kênh và bình luận chỉ có link/lời chào. Tên kênh và tác giả được che.

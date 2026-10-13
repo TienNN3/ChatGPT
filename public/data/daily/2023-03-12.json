@@ -31,7 +31,14 @@
         ],
         "comment_count": "5"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "event_entry",
+      "keywords": [
+        "tặng quà",
+        "sự kiện"
+      ],
+      "summary_vn": "Tổ chức tặng 3 key game GOI cho người chia sẻ bài",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {

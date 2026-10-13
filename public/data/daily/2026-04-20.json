@@ -18,7 +18,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "kim cương"
+      ],
+      "summary_vn": "Khen game vui, cho nhiều kim cương miễn phí",
+      "label_method": "ai_review"
     },
     {
       "id": "android-d1cea0b14c3a23b5",
@@ -36,7 +42,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Khen game chơi vui",
+      "label_method": "ai_review"
     },
     {
       "id": "android-ff87f9ed8ff562b0",
@@ -54,7 +66,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Khen game vui",
+      "label_method": "ai_review"
     },
     {
       "id": "android-c2218448ffcce2c8",
@@ -72,7 +90,13 @@
       "severity": "P3",
       "needs_review": true,
       "rating": 1,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "account",
+      "keywords": [
+        "đăng nhập"
+      ],
+      "summary_vn": "Báo không vào được game",
+      "label_method": "ai_review"
     },
     {
       "id": "android-3daa34ea67d71549",
@@ -90,7 +114,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Khen game rất tốt",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -114,8 +144,8 @@
       "unknown": 4
     },
     "nss": 60,
-    "nss_d1": 0,
-    "nss_7d_avg": 25,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 4.2,
       "ios_avg": null,

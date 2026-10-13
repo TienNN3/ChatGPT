@@ -10,10 +10,10 @@
       "Google Play": 1
     },
     "by_sentiment": {
-      "Positive": 1,
+      "Positive": 0,
       "Neutral": 0,
       "Negative": 1,
-      "Mixed": 0
+      "Mixed": 1
     },
     "by_topic": {
       "Bug / Crash / Lag / Performance": 2
@@ -22,9 +22,9 @@
       "midgame": 1,
       "unknown": 1
     },
-    "nss": 0,
-    "nss_d1": 100,
-    "nss_7d_avg": 66.7,
+    "nss": -50,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 4,
       "ios_avg": 3,
@@ -134,8 +134,15 @@
       "theme": "Game bị văng và treo",
       "segment": "midgame",
       "severity": "P1",
-      "needs_review": false,
-      "rating": 3
+      "needs_review": true,
+      "rating": 3,
+      "intent": "bug",
+      "keywords": [
+        "lỗi sự kiện",
+        "minigame"
+      ],
+      "summary_vn": "Báo minigame sự kiện bị treo, vào lại không thao tác được",
+      "label_method": "ai_review"
     },
     {
       "id": "android-1f3be87626eb9509",
@@ -144,7 +151,7 @@
       "author_masked": "ส***",
       "text_th": "เป็นเกมที่เล่นตั้งแต่เด็กจนถึงปัจจุบันสนุกมากเต็ม 10 ให้ 9.9เพราะว่ารู้สึกว่ายังมีแบบค้างอยุ่นิดนึง",
       "text_vn": "Phản hồi tích cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Positive",
+      "sentiment": "Mixed",
       "confidence": 0.72,
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
@@ -153,7 +160,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "lag"
+      ],
+      "summary_vn": "Chơi từ nhỏ, chấm 9.9/10 vì còn hơi giật",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     }
   ]
 }

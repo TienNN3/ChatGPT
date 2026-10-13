@@ -18,7 +18,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "công việc",
+        "nấu ăn"
+      ],
+      "summary_vn": "Mong thêm nhiều nghề, sở thích và tính năng nấu ăn bán",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -40,8 +47,8 @@
       "unknown": 1
     },
     "nss": 100,
-    "nss_d1": 0,
-    "nss_7d_avg": -70.8,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 5,
       "ios_avg": null,

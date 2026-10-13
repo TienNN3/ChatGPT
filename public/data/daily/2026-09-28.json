@@ -28,7 +28,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mua bán vật phẩm",
+        "trồng trọt"
+      ],
+      "summary_vn": "Rao bán 30 quả bí ngô giá 3 baht mỗi quả",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-3208914698b45974",
@@ -56,7 +63,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "bộ sưu tập thẻ",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Muốn đổi thẻ để hoàn thành bộ sưu tập",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-5d2c468af97b9dcd",
@@ -84,7 +98,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "nông trại",
+        "trang trí nhà"
+      ],
+      "summary_vn": "Kể vườn đặt lung tung nên bừa, ít khi giao đơn",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-c80c3418130a6ea5",
@@ -112,7 +133,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "nhân sâm",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Hỏi nhân sâm có dư thừa, còn đáng trồng bán không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-ed895e4fffeceb40",
@@ -140,7 +168,16 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mua bán vật phẩm",
+        "nhân sâm",
+        "đổi thời tiết",
+        "cày thuê"
+      ],
+      "summary_vn": "Rao bán trái cây, nhân sâm, thẻ, đổi thời tiết và nhận cày nhảy tháp",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-300023fb15aa60d6",
@@ -168,7 +205,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "người chơi mới"
+      ],
+      "summary_vn": "Mới quay lại chơi, nhờ mọi người chỉ cách",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-f455a8042b5e5b02",
@@ -199,7 +242,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "bộ sưu tập thẻ",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Cần mua thẻ số 7 chương cuối bộ 2",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e515982f24c86fd2",
@@ -227,7 +277,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "nhân sâm",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Rao bán 20 cây nhân sâm giá 120 baht",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-01a695bc7f0eb73e",
@@ -255,7 +312,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "code quà tặng"
+      ],
+      "summary_vn": "Hỏi nhập code quà tặng ở đâu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-ac92ba35e0d06af1",
@@ -286,7 +349,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "answer",
+      "keywords": [
+        "hướng dẫn"
+      ],
+      "summary_vn": "Đăng bài trả lời các câu hỏi thường gặp",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-053b0e8ef89657d0",
@@ -298,7 +367,7 @@
       "text_th": "ขอสอบถามหน่อยครับสยามทาวน์หายไปไหนครับพึ่งโหลดกลับมาเล่นงงๆ",
       "text_vn": "Cho hỏi Siam Town biến đâu mất rồi? Mới tải lại chơi, lú quá",
       "translation_method": "machine_translation",
-      "sentiment": "Negative",
+      "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -316,7 +385,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "siam town"
+      ],
+      "summary_vn": "Mới tải lại game, hỏi Siam Town biến đâu mất",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-c5569a6ea9ddbdc7",
@@ -346,7 +422,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "ngoại hình nhân vật",
+        "nạp tiền"
+      ],
+      "summary_vn": "Hỏi kiểu mắt trong ảnh từ gói nào",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-3a2757cb6f85259b",
@@ -358,7 +441,7 @@
       "text_th": "วันนี้น้องเพิ่มโอกาสออกเหรอครับได้มา 5 ตัว",
       "text_vn": "Hôm nay bé tăng tỉ lệ ra hả? Được tận 5 con",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -376,7 +459,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "bắt côn trùng",
+        "tỉ lệ"
+      ],
+      "summary_vn": "Khoe bắt được 5 con, hỏi hôm nay có tăng tỉ lệ không",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-abde58ffeae36409",
@@ -407,7 +498,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trồng trọt",
+        "trái cây"
+      ],
+      "summary_vn": "Xin mẹo trồng rau, trái cây to hơn 11.11",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-331d929e841bf16f",
@@ -437,7 +535,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "social",
+      "keywords": [
+        "tìm bạn"
+      ],
+      "summary_vn": "Mới quay lại chơi, hỏi nhóm có tìm bạn được không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-d62df7665c7d327f",
@@ -468,7 +572,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Chia sẻ hình hộp gacha mới",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-ab4a1ecff7ddbe0f",
@@ -499,7 +609,15 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "share",
+      "keywords": [
+        "thú cưng",
+        "rau khổng lồ",
+        "sự kiện"
+      ],
+      "summary_vn": "Chia sẻ hình thú cưng xương rồng trong sự kiện Rau Củ Khổng Lồ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-6123b2337d4def49",
@@ -529,7 +647,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "bug",
+      "keywords": [
+        "nông trại"
+      ],
+      "summary_vn": "Hỏi có phải vườn đang không vào được",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-37e12e995be94a52",
@@ -557,7 +681,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "người chơi mới",
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Xin hướng dẫn để quay lại chơi game",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-b93ce1f0f22fc70b",
@@ -569,7 +700,7 @@
       "text_th": "สรุปแล้วปุ่มรับทั้งหมด ในช่องกล่องข้อความมีไว้ทำไมคะ บัคหรือต้องสมัครแพ้คอะไรถึงกดได้ เราเพิ่งเล่นไม่ถึงเดือนค่ะ ยังงงๆฟังก์ชันเกม",
       "text_vn": "Rốt cuộc nút \"Nhận tất cả\" trong hộp thư để làm gì vậy? Bị bug hay phải đăng ký gói gì mới bấm được? Mình chơi chưa được một tháng, còn chưa rành chức năng game",
       "translation_method": "machine_translation",
-      "sentiment": "Negative",
+      "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -588,7 +719,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "hộp thư",
+        "người chơi mới"
+      ],
+      "summary_vn": "Hỏi nút Nhận tất cả trong hộp thư dùng thế nào",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-73b18f7ef05e5acb",
@@ -618,7 +757,15 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "câu cá",
+        "cá hiếm",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Hỏi cần câu Quái vật biển sâu có tăng tỉ lệ cá khổng lồ không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-1bdb045e73eb3c9f",
@@ -630,7 +777,7 @@
       "text_th": "ใครมีไอเดียแต่งสวนสวยๆให้ส่องไหมคะอยากแต่งสวนใหม่แต่ไอเดียตันมากกกใครมีไอเดียแต่งสวนสวยๆให้ส่องไหมคะอยากแต่งสวนใหม่แต่ไอเดียตันมากกก",
       "text_vn": "Ai có ý tưởng trang trí vườn đẹp cho xem với, muốn trang trí lại vườn mà bí ý tưởng quá",
       "translation_method": "machine_translation",
-      "sentiment": "Positive",
+      "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -648,7 +795,15 @@
         ],
         "comment_count": "1"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "trang trí nhà",
+        "nông trại"
+      ],
+      "summary_vn": "Xin ý tưởng trang trí vườn đẹp",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-1b99306fd0c2c73d",
@@ -660,7 +815,7 @@
       "text_th": "ขออนุญาตสอบถามค่ะ พวกหน้าสวย ๆ คือต้องเติมใช่ไหมคะ พึ่งเคยเล่นค่ะ",
       "text_vn": "Cho mình hỏi, mấy khuôn mặt đẹp là phải nạp tiền đúng không ạ? Mình mới chơi",
       "translation_method": "machine_translation",
-      "sentiment": "Positive",
+      "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -676,7 +831,16 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "ngoại hình nhân vật",
+        "nạp tiền",
+        "người chơi mới"
+      ],
+      "summary_vn": "Người mới hỏi khuôn mặt đẹp có phải nạp tiền không",
+      "sentiment_rule": "Positive",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-75701ce6798ff2da",
@@ -704,7 +868,13 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "tinh chất"
+      ],
+      "summary_vn": "Hỏi tinh chất từng màu kiếm ở đâu",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-1fb2ce608074e82a",
@@ -734,7 +904,14 @@
         "comment_count": "1"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "answer",
+      "keywords": [
+        "thỏ mặt trăng",
+        "sự kiện"
+      ],
+      "summary_vn": "Hướng dẫn cách kiếm cà rốt mặt trăng, nhắc tuần cuối sự kiện",
+      "label_method": "ai_review"
     },
     {
       "id": "youtube-7f2589c5bfc0f4fe",
@@ -764,7 +941,13 @@
         "comment_count": null,
         "video_title": null
       },
-      "collected_at": "2026-10-13T22:30:00+07:00"
+      "collected_at": "2026-10-13T22:30:00+07:00",
+      "intent": "share",
+      "keywords": [
+        "video ngắn"
+      ],
+      "summary_vn": "Đăng video Shorts Play Together VNG không mô tả",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -775,9 +958,9 @@
       "YouTube": 1
     },
     "by_sentiment": {
-      "Positive": 2,
-      "Neutral": 21,
-      "Negative": 3,
+      "Positive": 1,
+      "Neutral": 24,
+      "Negative": 1,
       "Mixed": 0
     },
     "by_topic": {
@@ -790,7 +973,7 @@
     "by_segment": {
       "unknown": 26
     },
-    "nss": -3.8,
+    "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

@@ -18,7 +18,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 3,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "bản đồ thế giới mở"
+      ],
+      "summary_vn": "Mong có bản đồ thế giới mở",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -41,7 +47,7 @@
     },
     "nss": 0,
     "nss_d1": null,
-    "nss_7d_avg": 11.1,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 3,
       "ios_avg": null,

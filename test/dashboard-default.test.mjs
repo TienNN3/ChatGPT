@@ -46,12 +46,12 @@ test("does not mistake the Thai word for bat for a frozen game", async () => {
 
 test("reads as a report: summary, likes, dislikes and actions for the selected period", async () => {
   const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
-  for (const heading of ["Tóm tắt nhanh", "Người chơi thích gì", "Người chơi chưa hài lòng", "Cần xử lý", "Hoạt động cộng đồng", "Ghi chú về dữ liệu"]) {
+  for (const heading of ["Tóm tắt nhanh", "Người chơi thích gì", "Người chơi chưa hài lòng", "Cần xử lý", "Người chơi đang làm gì", "Từ khoá được nhắc nhiều", "Từ khoá theo ngày", "Ghi chú về dữ liệu"]) {
     assert.ok(html.includes(heading), `missing section: ${heading}`);
   }
   for (const label of ["Chủ yếu tích cực", "Chủ yếu tiêu cực", "Chủ yếu trung tính"]) assert.ok(html.includes(label));
   // Bài rao bán vẫn được đếm nhưng không dùng để xếp hạng chủ đề thích / chưa hài lòng.
-  assert.match(html, /const isOpinion = item => item\.activity_type!=='Rao bán \/ trao đổi'/);
+  assert.match(html, /const isOpinion = item => intentOf\(item\)!=='trade';/);
   // Tránh phần trăm gây hiểu nhầm khi kỳ trước quá ít dữ liệu.
   assert.match(html, /if\(previous<10\)/);
   // Điểm store cập nhật theo tuần nên luôn nhìn lại 90 ngày.
@@ -110,6 +110,23 @@ test("lists every data source in the roster so missing sources are explained", a
   const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
   assert.match(html, /data\/sources\.json/);
   assert.match(html, /id="sourcePending"/);
+});
+
+test("every feedback item has a content type, keywords and a short summary", async () => {
+  const { readdir } = await import("node:fs/promises");
+  const intents = new Set(["question", "answer", "share", "event_entry", "bug", "performance", "account", "complaint", "suggestion", "praise", "trade", "social", "chat"]);
+  const dir = new URL("../public/data/daily/", import.meta.url);
+  for (const file of (await readdir(dir)).filter((f) => f.endsWith(".json"))) {
+    const day = JSON.parse(await readFile(new URL(file, dir), "utf8"));
+    for (const item of day.items || []) {
+      assert.ok(intents.has(item.intent), `${file}/${item.id}: missing or invalid intent`);
+      assert.ok(Array.isArray(item.keywords) && item.keywords.length >= 1 && item.keywords.length <= 4, `${file}/${item.id}: keywords`);
+      assert.ok(item.summary_vn, `${file}/${item.id}: summary_vn`);
+    }
+  }
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  assert.match(html, /const INTENTS = \{/);
+  assert.match(html, /id="dailyKeywords"/);
 });
 
 test("uses calendar days and validates manual ranges", async () => {

@@ -30,7 +30,13 @@
         "comment_count": "2"
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "chat",
+      "keywords": [
+        "máy ảnh"
+      ],
+      "summary_vn": "Đùa rằng đã lén trừ tiền mua máy ảnh của người khác",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-e8b5ea1b66da80a9",
@@ -62,7 +68,14 @@
         "comment_count": null
       },
       "collected_at": "2026-10-13T21:49:11.678+07:00",
-      "translation_method": "machine_translation"
+      "translation_method": "machine_translation",
+      "intent": "share",
+      "keywords": [
+        "sự kiện",
+        "chuyện ma"
+      ],
+      "summary_vn": "Chia sẻ thông tin kết thúc sự kiện Chuyện Ma",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {

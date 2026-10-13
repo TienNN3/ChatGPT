@@ -27,7 +27,14 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "question",
+      "keywords": [
+        "nạp tiền",
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Hỏi cách nạp gói vì báo không hỗ trợ tại quốc gia",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-aede22e2ce884fcd",
@@ -39,7 +46,7 @@
       "text_th": "บริการกดสภาพอากาศ ของขวัญ และเมล็ด Play together สภาพอากาศทุกอัน 10 บาท เมล็ดราคาตามภาพ ยอดนิยมเมล็ดที่ใช้ทองไม่สามารถกิฟได้นะครับ อาจจะมีการปรับราคาเล็กน้อยโปรดติดตามโพสต์ล่าสุดของอุ๋งๆเลย แอดแล้วทักได้เลย รับทั้งวอเล็ต และ ธนาคาร สต็อกมีเพิ่มเรื่อยๆ สอบถามแพ็คเพิ่มเติมได้เลยอุ๋งๆ",
       "text_vn": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
       "translation_method": "machine_translation",
-      "sentiment": "Mixed",
+      "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
@@ -55,7 +62,16 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "đổi thời tiết",
+        "tặng quà",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Dịch vụ đổi thời tiết 10 baht, tặng quà và bán hạt giống",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-2f0c759370aebe27",
@@ -67,7 +83,7 @@
       "text_th": "โสมธรรมดา 11 ต้น  ชุดละ100บาทโสมน้ำค้าง โสมแสงจันทร์ โสมออโรร่า ต้นละ25บาทโสมทราย โสมแห้งแล้ง โสมลม ต้นละ20บาทโสมเปียกชื้น โสมไฟฟ้าช็อต ต้นละ18บาทสนใจทักได้นะครับ",
       "text_vn": "Nhân sâm thông thường, 11 cây, 100 baht một bộ, sâm sương, sâm ánh trăng, nhân sâm cực quang, mỗi loại 25 baht, sâm cát, sâm khô, sâm gió, mỗi loại 20 baht, sâm ướt, sâm điện giật, mỗi loại 18 baht. Nếu quan tâm, bạn có thể nói chuyện với chúng tôi.",
       "translation_method": "machine_translation",
-      "sentiment": "Negative",
+      "sentiment": "Neutral",
       "topic": "Bug / Crash / Lag / Performance",
       "topic_secondary": [],
       "theme": "Game bị văng và treo",
@@ -83,7 +99,15 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "nhân sâm",
+        "mua bán vật phẩm"
+      ],
+      "summary_vn": "Bán nhiều loại nhân sâm giá 18–25 baht/cây, bộ 100 baht",
+      "sentiment_rule": "Negative",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -95,9 +119,9 @@
     },
     "by_sentiment": {
       "Positive": 0,
-      "Neutral": 0,
-      "Negative": 2,
-      "Mixed": 1
+      "Neutral": 2,
+      "Negative": 1,
+      "Mixed": 0
     },
     "by_topic": {
       "Topup & Payment": 1,
@@ -108,7 +132,7 @@
       "payer": 1,
       "unknown": 2
     },
-    "nss": -66.7,
+    "nss": -33.3,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

@@ -24,8 +24,8 @@
       "unknown": 1
     },
     "nss": 0,
-    "nss_d1": -100,
-    "nss_7d_avg": -62.5,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 4,
       "ios_avg": 5,
@@ -135,8 +135,14 @@
       "theme": "Trải nghiệm game tích cực",
       "segment": "veteran",
       "severity": null,
-      "needs_review": false,
-      "rating": 5
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "người chơi mới"
+      ],
+      "summary_vn": "Quay lại chơi vì kỷ niệm cũ, thấy rất vui",
+      "label_method": "ai_review"
     },
     {
       "id": "android-5c7f59579d9f98b3",
@@ -154,7 +160,13 @@
       "severity": "P1",
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "bug",
+      "keywords": [
+        "nạp tiền"
+      ],
+      "summary_vn": "Trả tiền mua vật phẩm nhiều lần nhưng không nhận được",
+      "label_method": "ai_review"
     }
   ]
 }

@@ -23,8 +23,8 @@
       "unknown": 4
     },
     "nss": -50,
-    "nss_d1": 25,
-    "nss_7d_avg": -1.9,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 5,
       "ios_avg": 2.67,
@@ -137,8 +137,15 @@
       "theme": "Game bị văng và treo",
       "segment": "unknown",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 3
+      "needs_review": true,
+      "rating": 3,
+      "intent": "performance",
+      "keywords": [
+        "văng game",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Sau cập nhật mới nhất game văng rất thường xuyên",
+      "label_method": "ai_review"
     },
     {
       "id": "ios-345bca56343f1f0c",
@@ -154,8 +161,15 @@
       "theme": "Game bị văng và treo",
       "segment": "unknown",
       "severity": "P1",
-      "needs_review": false,
-      "rating": 1
+      "needs_review": true,
+      "rating": 1,
+      "intent": "performance",
+      "keywords": [
+        "văng game",
+        "xoá game"
+      ],
+      "summary_vn": "Bị văng mỗi lần vào, quyết định xoá game",
+      "label_method": "ai_review"
     },
     {
       "id": "ios-fd8cbe2cec8bd359",
@@ -171,8 +185,14 @@
       "theme": "Game bị văng và treo",
       "segment": "unknown",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 4
+      "needs_review": true,
+      "rating": 4,
+      "intent": "performance",
+      "keywords": [
+        "văng game"
+      ],
+      "summary_vn": "Game tự văng rất thường xuyên",
+      "label_method": "ai_review"
     },
     {
       "id": "android-105610d0f0e4e28b",
@@ -190,7 +210,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "giải trí"
+      ],
+      "summary_vn": "Khen game tốt",
+      "label_method": "ai_review"
     }
   ]
 }

@@ -9,7 +9,7 @@
       "author_masked": "P***",
       "text_th": "เกมนี้สนุกคะแต่จิฉฉาคนในเกมเพราะมีแต่คนอยู่เป็นคู่คะ",
       "text_vn": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Mixed",
+      "sentiment": "Positive",
       "confidence": 0.72,
       "topic": "Other",
       "topic_secondary": [],
@@ -18,7 +18,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "chat",
+      "keywords": [
+        "cặp đôi"
+      ],
+      "summary_vn": "Game vui, đùa ghen tị vì ai cũng có cặp",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     },
     {
       "id": "android-0282478a5f641df5",
@@ -27,7 +34,7 @@
       "author_masked": "ม***",
       "text_th": "ทำให้ปลาออกบ่อยกว่านี้ก็ดีนะคะ เพราะบางทีตกมา3-4วันออกที1 มันก็ไม่ไหว",
       "text_vn": "Phản hồi trái chiều về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "sentiment": "Mixed",
+      "sentiment": "Neutral",
       "confidence": 0.72,
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
@@ -36,7 +43,15 @@
       "severity": null,
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "suggestion",
+      "keywords": [
+        "câu cá",
+        "cá hiếm"
+      ],
+      "summary_vn": "Mong tăng tỉ lệ ra cá, câu 3-4 ngày mới được",
+      "sentiment_rule": "Mixed",
+      "label_method": "ai_review"
     },
     {
       "id": "android-62d10dd03fa91362",
@@ -54,7 +69,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "giải trí"
+      ],
+      "summary_vn": "Khen game rất vui",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -64,10 +85,10 @@
       "Google Play": 3
     },
     "by_sentiment": {
-      "Positive": 1,
-      "Neutral": 0,
+      "Positive": 2,
+      "Neutral": 1,
       "Negative": 0,
-      "Mixed": 2
+      "Mixed": 0
     },
     "by_topic": {
       "Other": 2,
@@ -76,9 +97,9 @@
     "by_segment": {
       "unknown": 3
     },
-    "nss": 33.3,
-    "nss_d1": 100,
-    "nss_7d_avg": 14.3,
+    "nss": 66.7,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 4.33,
       "ios_avg": null,

@@ -28,7 +28,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "trade",
+      "keywords": [
+        "mua bán vật phẩm",
+        "nhân sâm"
+      ],
+      "summary_vn": "Rao bán 12 nhân sâm thường, 100 baht một bộ",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-dc0d0d00976feebf",
@@ -40,7 +47,7 @@
       "text_th": "ขึ้นแบบนี้เกิดจากสาเหตุอะไรได้บ้างคะ",
       "text_vn": "Hiện lên thế này thì có thể do nguyên nhân gì vậy ạ?",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -58,7 +65,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "lỗi hiển thị"
+      ],
+      "summary_vn": "Hỏi thông báo hiện lên như vậy do nguyên nhân gì",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-5ab373dc3116d2d1",
@@ -89,7 +103,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "thắc mắc"
+      ],
+      "summary_vn": "Đăng câu hỏi vu vơ có biết không",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-8f02cdcfdbe2df24",
@@ -119,7 +139,14 @@
         ],
         "comment_count": "8"
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "người chơi mới",
+        "hướng dẫn"
+      ],
+      "summary_vn": "Hỏi nhóm có hướng dẫn cơ bản cho người chơi mới",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-9a61d376353dd6eb",
@@ -150,7 +177,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "chat",
+      "keywords": [
+        "phương tiện"
+      ],
+      "summary_vn": "Đùa có xe thể thao mà bé đòi đi xe buýt",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-d4aef7cd6ba98744",
@@ -180,7 +213,14 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "câu cá",
+        "cần câu"
+      ],
+      "summary_vn": "Hỏi cần câu rồng nên nâng chỉ số gì",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-dc5698694654f85d",
@@ -210,7 +250,13 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "vật phẩm"
+      ],
+      "summary_vn": "Hỏi bên trong là gì",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-d79409e88bf0859a",
@@ -222,7 +268,7 @@
       "text_th": "สอบถามค่ะเพิ่งกลับมาเล่น เลยสงสัยว่าพวกมังกร โทล คืออะไรเหรอคะยิงไปได้ของแต่ไม่รู้ว่าใช้ตรงไหนทำไมมีกิจซ้อนงงไปหมด",
       "text_vn": "Cho hỏi, mình mới quay lại chơi, mấy cái rồng, troll là gì vậy ạ? Bắn được đồ mà không biết dùng ở đâu, sao có nhiệm vụ chồng chéo, rối hết cả lên",
       "translation_method": "machine_translation",
-      "sentiment": "Neutral",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
@@ -241,7 +287,16 @@
         ],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "sự kiện",
+        "nhiệm vụ",
+        "người chơi mới"
+      ],
+      "summary_vn": "Mới quay lại, hỏi rồng, troll là gì, nhiệm vụ rối",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     },
     {
       "id": "facebook-323c9ba7644f4865",
@@ -269,7 +324,14 @@
         "reactions": [],
         "comment_count": null
       },
-      "collected_at": "2026-10-13T21:49:11.678+07:00"
+      "collected_at": "2026-10-13T21:49:11.678+07:00",
+      "intent": "question",
+      "keywords": [
+        "sự kiện",
+        "nạp tiền"
+      ],
+      "summary_vn": "Hỏi gói khuyến mãi này kéo dài mấy ngày",
+      "label_method": "ai_review"
     },
     {
       "id": "youtube-04357320eb5b2fc6",
@@ -299,7 +361,15 @@
         "comment_count": null,
         "video_title": null
       },
-      "collected_at": "2026-10-13T22:30:00+07:00"
+      "collected_at": "2026-10-13T22:30:00+07:00",
+      "intent": "event_entry",
+      "keywords": [
+        "minigame",
+        "thỏ mặt trăng",
+        "sự kiện"
+      ],
+      "summary_vn": "Video chơi minigame sưu tầm sao lấp lánh sự kiện thỏ",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -311,8 +381,8 @@
     },
     "by_sentiment": {
       "Positive": 1,
-      "Neutral": 9,
-      "Negative": 0,
+      "Neutral": 7,
+      "Negative": 2,
       "Mixed": 0
     },
     "by_topic": {
@@ -323,7 +393,7 @@
     "by_segment": {
       "unknown": 10
     },
-    "nss": 10,
+    "nss": -10,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

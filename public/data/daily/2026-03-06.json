@@ -18,7 +18,14 @@
       "severity": null,
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "sân chơi",
+        "minigame"
+      ],
+      "summary_vn": "Sân chơi nhảy quá khó, mong làm sân chơi mới dễ hơn",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -41,7 +48,7 @@
     },
     "nss": 0,
     "nss_d1": null,
-    "nss_7d_avg": 25,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 4,
       "ios_avg": null,

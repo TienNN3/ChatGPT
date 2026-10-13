@@ -18,7 +18,15 @@
       "severity": null,
       "needs_review": true,
       "rating": 4,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "complaint",
+      "keywords": [
+        "giá vật phẩm",
+        "kiếm tiền trong game",
+        "tải game"
+      ],
+      "summary_vn": "Chê đồ đắt, khó kiếm tiền, điều khiển khó, tải chậm",
+      "label_method": "ai_review"
     },
     {
       "id": "android-aa89ad7fc6da53bd",
@@ -36,7 +44,13 @@
       "severity": null,
       "needs_review": true,
       "rating": 5,
-      "translation_status": "summary_only"
+      "translation_status": "summary_only",
+      "intent": "praise",
+      "keywords": [
+        "giải trí"
+      ],
+      "summary_vn": "Khen game vui",
+      "label_method": "ai_review"
     }
   ],
   "metrics": {
@@ -60,8 +74,8 @@
       "unknown": 1
     },
     "nss": 50,
-    "nss_d1": 33.3,
-    "nss_7d_avg": 17.5,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": 4.5,
       "ios_avg": null,

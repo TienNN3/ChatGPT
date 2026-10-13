@@ -9,8 +9,8 @@
       "App Store": 1
     },
     "by_sentiment": {
-      "Positive": 0,
-      "Neutral": 1,
+      "Positive": 1,
+      "Neutral": 0,
       "Negative": 0,
       "Mixed": 0
     },
@@ -20,9 +20,9 @@
     "by_segment": {
       "unknown": 1
     },
-    "nss": 0,
-    "nss_d1": 100,
-    "nss_7d_avg": -66.7,
+    "nss": 100,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": null,
       "ios_avg": 5,
@@ -97,15 +97,22 @@
       "author_masked": "G***",
       "text_th": "đánh giá. 10₫",
       "text_vn": "Người chơi chấm 10 điểm.",
-      "sentiment": "Neutral",
+      "sentiment": "Positive",
       "confidence": 0.86,
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
       "segment": "unknown",
       "severity": null,
-      "needs_review": false,
-      "rating": 5
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "đánh giá"
+      ],
+      "summary_vn": "Chấm game 10 điểm",
+      "sentiment_rule": "Neutral",
+      "label_method": "ai_review"
     }
   ]
 }

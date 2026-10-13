@@ -21,8 +21,8 @@
       "unknown": 1
     },
     "nss": -100,
-    "nss_d1": -100,
-    "nss_7d_avg": -25,
+    "nss_d1": null,
+    "nss_7d_avg": null,
     "store": {
       "gp_avg": null,
       "ios_avg": 1,
@@ -119,8 +119,14 @@
       "theme": "Giá trị phần thưởng gacha",
       "segment": "unknown",
       "severity": "P2",
-      "needs_review": false,
-      "rating": 1
+      "needs_review": true,
+      "rating": 1,
+      "intent": "complaint",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Chửi game vì gacha quá đen",
+      "label_method": "ai_review"
     }
   ]
 }
