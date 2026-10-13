@@ -10,14 +10,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "5 ดาว = 5 ฿\n4 ดาว = 4 ฿\n1-3ดาวมีครบคับติดต่อสอบถามได้ค้าบ \n(มีเครดิตเช็คได้หน้าโปรไฟล์)",
-      "text_vn": "Đã lưu nguyên văn bài đăng Facebook; cần dịch và phân loại thủ công.",
+      "text_vn": "5 sao = 5 ฿\n4 sao = 4\n1-3 sao đều có sẵn. Liên hệ để hỏi thăm. \n(Tín dụng có thể được kiểm tra trên trang hồ sơ)",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.6,
       "needs_review": true,
       "content_kind": "post",
       "activity_type": "Rao bán / trao đổi",
@@ -118,6 +119,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:10:21.231Z",
+  "generated_at": "2026-10-13T08:23:39.689Z",
   "data_mode": "production"
 }

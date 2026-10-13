@@ -10,14 +10,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "ใกล้เปิดให้เล่นแล้ววว",
-      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "text_vn": "Nó gần như mở cửa để chơi.",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.6,
       "needs_review": true,
       "content_kind": "comment",
       "activity_type": "Bình luận",
@@ -118,6 +119,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:10:21.231Z",
+  "generated_at": "2026-10-13T08:23:39.689Z",
   "data_mode": "production"
 }

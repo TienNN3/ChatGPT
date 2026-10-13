@@ -10,14 +10,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "A***",
       "text_th": "Toàn rác đỡ tốn tiền",
-      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
-      "sentiment": "Neutral",
+      "text_vn": "Toàn rác đỡ tốn tiền",
+      "translation_method": "machine_translation",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.68,
       "needs_review": true,
       "content_kind": "comment",
       "activity_type": "Bình luận",
@@ -38,8 +39,8 @@
     },
     "by_sentiment": {
       "Positive": 0,
-      "Neutral": 1,
-      "Negative": 0,
+      "Neutral": 0,
+      "Negative": 1,
       "Mixed": 0
     },
     "by_topic": {
@@ -48,7 +49,7 @@
     "by_segment": {
       "unknown": 1
     },
-    "nss": 0,
+    "nss": -100,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
@@ -61,7 +62,22 @@
   "report": {
     "overview": "Có 1 feedback trong ngày từ Facebook Fanpage. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
     "bright_spots": [],
-    "pain_points": [],
+    "pain_points": [
+      {
+        "issue": "Góp ý trải nghiệm chung",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng hoặc cản trở tiếp tục chơi.",
+        "count": 1,
+        "severity": null,
+        "quotes": [
+          {
+            "text_th": "Toàn rác đỡ tốn tiền",
+            "text_vn": "Toàn rác đỡ tốn tiền",
+            "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid0nBFrbr7U99JGGs4RrsrVebH6xiLGgC7HsVBipewb1fCYh2runMJswJ4VghEnK9pkl?comment_id=1392787339660109"
+          }
+        ]
+      }
+    ],
     "segments": {
       "new": {
         "summary": "Không đủ dữ liệu.",
@@ -118,6 +134,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:10:21.231Z",
+  "generated_at": "2026-10-13T08:23:39.689Z",
   "data_mode": "production"
 }

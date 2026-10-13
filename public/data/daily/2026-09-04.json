@@ -10,14 +10,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "คิวว่างนะคะ\nเหมาเวล 1-50 \n 300฿ \n•ขอคนไม่เร่ง •รับเมลฟ้า+เฟสบุ๊ค\n•เครดิตหน้าโปรไฟล์",
-      "text_vn": "Đã lưu nguyên văn bài đăng Facebook; cần dịch và phân loại thủ công.",
-      "sentiment": "Neutral",
+      "text_vn": "Hàng đợi là miễn phí.\nTổng cấp độ 1-50 \n 300฿ \n•Yêu cầu người không vội vàng •Nhận sky mail + Facebook\nTín dụng trang hồ sơ",
+      "translation_method": "machine_translation",
+      "sentiment": "Positive",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.68,
       "needs_review": true,
       "content_kind": "post",
       "activity_type": "Rao bán / trao đổi",
@@ -37,14 +38,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "Haha hài quá",
-      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "text_vn": "Haha hài quá",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.6,
       "needs_review": true,
       "content_kind": "comment",
       "activity_type": "Bình luận",
@@ -65,8 +67,8 @@
       "Facebook Fanpage": 1
     },
     "by_sentiment": {
-      "Positive": 0,
-      "Neutral": 2,
+      "Positive": 1,
+      "Neutral": 1,
       "Negative": 0,
       "Mixed": 0
     },
@@ -77,7 +79,7 @@
     "by_segment": {
       "unknown": 2
     },
-    "nss": 0,
+    "nss": 50,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
@@ -89,7 +91,17 @@
   },
   "report": {
     "overview": "Có 2 feedback trong ngày từ Facebook Group, Facebook Fanpage. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
-    "bright_spots": [],
+    "bright_spots": [
+      {
+        "title": "Giá trị phần thưởng gacha",
+        "count": 1,
+        "quote": {
+          "text_th": "คิวว่างนะคะ\nเหมาเวล 1-50 \n 300฿ \n•ขอคนไม่เร่ง •รับเมลฟ้า+เฟสบุ๊ค\n•เครดิตหน้าโปรไฟล์",
+          "text_vn": "Hàng đợi là miễn phí.\nTổng cấp độ 1-50 \n 300฿ \n•Yêu cầu người không vội vàng •Nhận sky mail + Facebook\nTín dụng trang hồ sơ",
+          "link": "https://www.facebook.com/groups/815754622673816/posts/2120453642203901/"
+        }
+      }
+    ],
     "pain_points": [],
     "segments": {
       "new": {
@@ -147,6 +159,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:10:21.231Z",
+  "generated_at": "2026-10-13T08:23:39.689Z",
   "data_mode": "production"
 }

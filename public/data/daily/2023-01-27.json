@@ -10,14 +10,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "เจอกันตอน5 โมงค้าบ",
-      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "text_vn": "Hẹn gặp bạn lúc 5 giờ chiều.",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.6,
       "needs_review": true,
       "content_kind": "comment",
       "activity_type": "Bình luận",
@@ -37,14 +38,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "ตอนนี้มันกดซื้อได้มั้ยคะ กดแล้วไม่ขึ้นอะไรเลย บัครึเปล่า",
-      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
-      "sentiment": "Neutral",
+      "text_vn": "Bạn có thể nhấn mua ngay bây giờ được không? Khi tôi nhấn nó, không có gì xảy ra. Đây có phải là một lỗi không?",
+      "translation_method": "machine_translation",
+      "sentiment": "Negative",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.68,
       "needs_review": true,
       "content_kind": "comment",
       "activity_type": "Bình luận",
@@ -65,8 +67,8 @@
     },
     "by_sentiment": {
       "Positive": 0,
-      "Neutral": 2,
-      "Negative": 0,
+      "Neutral": 1,
+      "Negative": 1,
       "Mixed": 0
     },
     "by_topic": {
@@ -75,7 +77,7 @@
     "by_segment": {
       "unknown": 2
     },
-    "nss": 0,
+    "nss": -50,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
@@ -88,7 +90,22 @@
   "report": {
     "overview": "Có 2 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
     "bright_spots": [],
-    "pain_points": [],
+    "pain_points": [
+      {
+        "issue": "Góp ý trải nghiệm chung",
+        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
+        "effect": "Vấn đề có thể làm giảm mức hài lòng hoặc cản trở tiếp tục chơi.",
+        "count": 1,
+        "severity": null,
+        "quotes": [
+          {
+            "text_th": "ตอนนี้มันกดซื้อได้มั้ยคะ กดแล้วไม่ขึ้นอะไรเลย บัครึเปล่า",
+            "text_vn": "Bạn có thể nhấn mua ngay bây giờ được không? Khi tôi nhấn nó, không có gì xảy ra. Đây có phải là một lỗi không?",
+            "link": "https://www.facebook.com/groups/562362538882428/posts/562564968862185/?comment_id=567170401734975"
+          }
+        ]
+      }
+    ],
     "segments": {
       "new": {
         "summary": "Không đủ dữ liệu.",
@@ -145,6 +162,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:10:21.231Z",
+  "generated_at": "2026-10-13T08:23:39.689Z",
   "data_mode": "production"
 }

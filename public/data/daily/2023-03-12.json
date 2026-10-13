@@ -10,14 +10,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "แจกฟรี Keygame GOI: Let's Play Together 3 รางวัล !!\nสำหรับผู้ที่แชร์โพสต์นี้เป็นสาธารณะ และคอมเม้นต์ อะไรก็ได้ในโพสต์นี้เท่านั้นน\nประกาศผลวันที่ 14 มีนาคม นี้ ตอน 09:00 น.\n#แจกฟรี #GOI #Game",
-      "text_vn": "Đã lưu nguyên văn bài đăng Facebook; cần dịch và phân loại thủ công.",
+      "text_vn": "Keygame miễn phí GOI: Cùng chơi 3 giải thưởng được tặng!!\nDành cho những người chia sẻ bài đăng này một cách công khai và chỉ bình luận về bất cứ điều gì trong bài đăng này.\nKết quả sẽ được công bố vào lúc 9 giờ sáng ngày 14 tháng 3.\n#Tặng miễn phí #GOI #Game",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Event & Update content",
       "topic_secondary": [],
       "theme": "Phần thưởng sự kiện",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.6,
       "needs_review": true,
       "content_kind": "post",
       "activity_type": "Thảo luận",
@@ -121,6 +122,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:10:21.231Z",
+  "generated_at": "2026-10-13T08:23:39.689Z",
   "data_mode": "production"
 }

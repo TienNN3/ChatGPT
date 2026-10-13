@@ -10,14 +10,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "N***",
       "text_th": "Thiên thần ban nhạc rock đâu trờy alooooo",
-      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "text_vn": "Thiên thần ban nhạc rock đâu trờy alooooo",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.6,
       "needs_review": true,
       "content_kind": "comment",
       "activity_type": "Bình luận",
@@ -37,14 +38,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "H***",
       "text_th": "ra lại gói dâu xinh tan chảy với gói milky mood đi game ơi",
-      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
-      "sentiment": "Neutral",
+      "text_vn": "ra lại gói dâu xinh tan chảy với gói milky mood đi game ơi",
+      "translation_method": "machine_translation",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.68,
       "needs_review": true,
       "content_kind": "comment",
       "activity_type": "Bình luận",
@@ -64,8 +66,8 @@
       "Facebook Fanpage": 2
     },
     "by_sentiment": {
-      "Positive": 0,
-      "Neutral": 2,
+      "Positive": 1,
+      "Neutral": 1,
       "Negative": 0,
       "Mixed": 0
     },
@@ -75,7 +77,7 @@
     "by_segment": {
       "unknown": 2
     },
-    "nss": 0,
+    "nss": 50,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
@@ -87,7 +89,17 @@
   },
   "report": {
     "overview": "Có 2 feedback trong ngày từ Facebook Fanpage. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
-    "bright_spots": [],
+    "bright_spots": [
+      {
+        "title": "Góp ý trải nghiệm chung",
+        "count": 1,
+        "quote": {
+          "text_th": "ra lại gói dâu xinh tan chảy với gói milky mood đi game ơi",
+          "text_vn": "ra lại gói dâu xinh tan chảy với gói milky mood đi game ơi",
+          "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid0wfZqzKrv2yx2jx9fJ7sRpU2uQYktEH4nrKZqeeQZJAPnmbWHN13Nu4pAVkeK93hJl?comment_id=2543662229389430"
+        }
+      }
+    ],
     "pain_points": [],
     "segments": {
       "new": {
@@ -145,6 +157,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:10:21.231Z",
+  "generated_at": "2026-10-13T08:23:39.689Z",
   "data_mode": "production"
 }

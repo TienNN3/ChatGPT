@@ -140,7 +140,7 @@ for (const raw of staging.observations) {
   staged.push({
     id: `facebook-${createHash("sha256").update(key).digest("hex").slice(0, 16)}`,
     source: raw.source, community: communityName(linkInfo.link, raw.source), link: linkInfo.link, link_quality: linkInfo.link_quality, author_masked: raw.author_masked,
-    text_th: text, text_vn: previous?.text_vn || fallbackVietnamese(raw.kind, text), sentiment: previous?.sentiment || "Neutral",
+    text_th: text, text_vn: previous?.text_vn || fallbackVietnamese(raw.kind, text), translation_method: previous?.translation_method, sentiment: previous?.sentiment || "Neutral",
     topic: previous?.topic || classification.topic, topic_secondary: previous?.topic_secondary || [], theme: previous?.theme || classification.theme,
     segment: previous?.segment || "unknown", severity: previous?.severity ?? null, confidence: previous?.confidence ?? 0.45,
     needs_review: previous?.needs_review ?? true, content_kind: raw.kind, activity_type: activityType(raw, classification), date_basis: dateInfo.date_basis, published_label: raw.timestamp || null,

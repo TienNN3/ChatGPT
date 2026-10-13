@@ -10,14 +10,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "งวด 16 ตุลาคม เปิดแผงแล้วจ้า\n#L6 ลอตเตอรี่ 80\n# สลากดิจิตัล\nสลากถูกกฏหมาย\nร้านมหาเศรษฐี\nร้านค้าผู้พิการ\nถูกรางวัลเงินโอนเข้าเป๋าตังค์ทันที\nซื้อผ่านเป๋าตังค์ ซื้อง่าย ไม่หาย ปลอดภัย ได้เงินชัวร์\nเปิดร้าน 6.00-23.00 น.\nอุดหนุนร้านนี้เข้าเป๋าตังค์สแกนคิวอาร์โค้ดได้เลย",
-      "text_vn": "Đã lưu nguyên văn bài đăng Facebook; cần dịch và phân loại thủ công.",
+      "text_vn": "Đợt trả góp ngày 16 tháng 10 hiện đã mở.\n#L6 Xổ số 80\n#Xổ số kỹ thuật số\nXổ số hợp pháp\nCửa hàng triệu phú\nCửa hàng khuyết tật\nGiành được giải thưởng và tiền sẽ được chuyển vào ví của bạn ngay lập tức.\nMua qua Ví, dễ mua, không bị thất lạc, an toàn, chắc chắn nhận được tiền.\nCửa hàng mở cửa từ 6h sáng - 11h tối.\nBạn có thể ủng hộ cửa hàng này bằng cách quét mã QR trong ví của mình.",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Event & Update content",
       "topic_secondary": [],
       "theme": "Phần thưởng sự kiện",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.6,
       "needs_review": true,
       "content_kind": "post",
       "activity_type": "Thảo luận",
@@ -37,14 +38,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "คิวว่างนะคะ\n รับฟาร์มกิจกรรม \n1,000 เหรียญ 20฿\n10,000 เหรียญ 180฿\nเหมา เวล 1-50 500฿\n•ขอคนไม่เร่ง •ล็อคเมลฟ้า\n•เครดิตหน้าโปรไฟล์",
-      "text_vn": "Đã lưu nguyên văn bài đăng Facebook; cần dịch và phân loại thủ công.",
-      "sentiment": "Neutral",
+      "text_vn": "Hàng đợi là miễn phí.\n Nhận trang trại hoạt động \n1.000 xu 20฿\n10.000 xu 180฿\nMua cấp 1-50 500฿\n•Yêu cầu mọi người đừng vội vàng •Khóa sky mail\nTín dụng trang hồ sơ",
+      "translation_method": "machine_translation",
+      "sentiment": "Positive",
       "topic": "Gacha / Shop / Pricing",
       "topic_secondary": [],
       "theme": "Giá trị phần thưởng gacha",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.68,
       "needs_review": true,
       "content_kind": "post",
       "activity_type": "Rao bán / trao đổi",
@@ -64,14 +66,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "M***",
       "text_th": "ออกยังงับ",
-      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "text_vn": "Bạn ra ngoài chưa?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.6,
       "needs_review": true,
       "content_kind": "comment",
       "activity_type": "Bình luận",
@@ -91,8 +94,8 @@
       "Facebook Group": 3
     },
     "by_sentiment": {
-      "Positive": 0,
-      "Neutral": 3,
+      "Positive": 1,
+      "Neutral": 2,
       "Negative": 0,
       "Mixed": 0
     },
@@ -104,7 +107,7 @@
     "by_segment": {
       "unknown": 3
     },
-    "nss": 0,
+    "nss": 33.3,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
@@ -116,7 +119,17 @@
   },
   "report": {
     "overview": "Có 3 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
-    "bright_spots": [],
+    "bright_spots": [
+      {
+        "title": "Giá trị phần thưởng gacha",
+        "count": 1,
+        "quote": {
+          "text_th": "คิวว่างนะคะ\n รับฟาร์มกิจกรรม \n1,000 เหรียญ 20฿\n10,000 เหรียญ 180฿\nเหมา เวล 1-50 500฿\n•ขอคนไม่เร่ง •ล็อคเมลฟ้า\n•เครดิตหน้าโปรไฟล์",
+          "text_vn": "Hàng đợi là miễn phí.\n Nhận trang trại hoạt động \n1.000 xu 20฿\n10.000 xu 180฿\nMua cấp 1-50 500฿\n•Yêu cầu mọi người đừng vội vàng •Khóa sky mail\nTín dụng trang hồ sơ",
+          "link": "https://www.facebook.com/groups/815754622673816/posts/2146519179597347/"
+        }
+      }
+    ],
     "pain_points": [],
     "segments": {
       "new": {
@@ -174,6 +187,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:10:21.231Z",
+  "generated_at": "2026-10-13T08:23:39.689Z",
   "data_mode": "production"
 }

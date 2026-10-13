@@ -10,14 +10,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "How to GOI !!!\nปุ่ม  WASD  = เดิน\nปุ่ม E = คุย\n ทีวี = ปรับท่าทาง สติ๊กเกอร์ กด เลข12345678 แล้วจะแสดงท่าทางหรือ ส่งสติกเกอร์ \n สมุด = ตั้งชื่อตัวละคร / วิธีเล่น how to goi/ เควสรายวัน homework *ทำเควสแล้วรับเหรียญไปเปิดกาชาได้เลยนะะ อย่าลืมเข้าไปกดรับบ*\nประตู = หาห้อง และ มีเข้าเล่นโหมดสอนเล่นด้วย ตรงคำว่า tutorial\nโต๊ะแต่งหน้า กับตู้เสื้อผ้า = แต่งหน้าแต่งตัว ชุดน่ารักมาก\nถ้าเดินเลยไปทางขวา จะมีคุณยายอยู่ มีตู้กาชาด้วย\n#goi",
-      "text_vn": "Đã lưu nguyên văn bài đăng Facebook; cần dịch và phân loại thủ công.",
-      "sentiment": "Neutral",
+      "text_vn": "Làm sao để ĐI!!!\nPhím WASD = Đi bộ\nNút E = Nói chuyện\n TV = Điều chỉnh cử chỉ nhãn dán. Nhấn số 12345678 và bạn sẽ thực hiện cử chỉ hoặc gửi nhãn dán. \n Sách = Đặt tên cho nhân vật của bạn / Cách chơi cách goi / Bài tập về nhiệm vụ hàng ngày *Làm nhiệm vụ và nhận xu để mở gacha. Đừng quên nhấn chấp nhận*\nCửa = Tìm phòng và truy cập vào chế độ hướng dẫn, trong từ hướng dẫn.\nBàn trang điểm và tủ quần áo = trang điểm và mặc quần áo, những bộ trang phục rất dễ thương\nNếu bạn đi bên phải Sẽ có bà. Ngoài ra còn có một ấm trà.\n#goi",
+      "translation_method": "machine_translation",
+      "sentiment": "Positive",
       "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
       "topic_secondary": [],
       "theme": "Hoạt động và tính năng trong game",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.68,
       "needs_review": true,
       "content_kind": "post",
       "activity_type": "Khoe / tham gia hoạt động",
@@ -37,8 +38,8 @@
       "Facebook Group": 1
     },
     "by_sentiment": {
-      "Positive": 0,
-      "Neutral": 1,
+      "Positive": 1,
+      "Neutral": 0,
       "Negative": 0,
       "Mixed": 0
     },
@@ -48,7 +49,7 @@
     "by_segment": {
       "unknown": 1
     },
-    "nss": 0,
+    "nss": 100,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
@@ -60,7 +61,17 @@
   },
   "report": {
     "overview": "Có 1 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
-    "bright_spots": [],
+    "bright_spots": [
+      {
+        "title": "Hoạt động và tính năng trong game",
+        "count": 1,
+        "quote": {
+          "text_th": "How to GOI !!!\nปุ่ม  WASD  = เดิน\nปุ่ม E = คุย\n ทีวี = ปรับท่าทาง สติ๊กเกอร์ กด เลข12345678 แล้วจะแสดงท่าทางหรือ ส่งสติกเกอร์ \n สมุด = ตั้งชื่อตัวละคร / วิธีเล่น how to goi/ เควสรายวัน homework *ทำเควสแล้วรับเหรียญไปเปิดกาชาได้เลยนะะ อย่าลืมเข้าไปกดรับบ*\nประตู = หาห้อง และ มีเข้าเล่นโหมดสอนเล่นด้วย ตรงคำว่า tutorial\nโต๊ะแต่งหน้า กับตู้เสื้อผ้า = แต่งหน้าแต่งตัว ชุดน่ารักมาก\nถ้าเดินเลยไปทางขวา จะมีคุณยายอยู่ มีตู้กาชาด้วย\n#goi",
+          "text_vn": "Làm sao để ĐI!!!\nPhím WASD = Đi bộ\nNút E = Nói chuyện\n TV = Điều chỉnh cử chỉ nhãn dán. Nhấn số 12345678 và bạn sẽ thực hiện cử chỉ hoặc gửi nhãn dán. \n Sách = Đặt tên cho nhân vật của bạn / Cách chơi cách goi / Bài tập về nhiệm vụ hàng ngày *Làm nhiệm vụ và nhận xu để mở gacha. Đừng quên nhấn chấp nhận*\nCửa = Tìm phòng và truy cập vào chế độ hướng dẫn, trong từ hướng dẫn.\nBàn trang điểm và tủ quần áo = trang điểm và mặc quần áo, những bộ trang phục rất dễ thương\nNếu bạn đi bên phải Sẽ có bà. Ngoài ra còn có một ấm trà.\n#goi",
+          "link": "https://www.facebook.com/groups/562362538882428/posts/562379315547417/"
+        }
+      }
+    ],
     "pain_points": [],
     "segments": {
       "new": {
@@ -118,6 +129,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:10:21.231Z",
+  "generated_at": "2026-10-13T08:23:39.689Z",
   "data_mode": "production"
 }

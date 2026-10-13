@@ -10,14 +10,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "P***",
       "text_th": "Get ready to welcome an adorable Moon Rabbit friend!F… See more",
-      "text_vn": "Đã lưu nguyên văn bài đăng Facebook; cần dịch và phân loại thủ công.",
-      "sentiment": "Neutral",
+      "text_vn": "Hãy sẵn sàng chào đón một người bạn Thỏ Mặt Trăng đáng yêu!F… Xem thêm",
+      "translation_method": "machine_translation",
+      "sentiment": "Positive",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.68,
       "needs_review": true,
       "content_kind": "post",
       "activity_type": "Nội dung chính thức",
@@ -37,14 +38,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "รับผ่อนมั้ยคะ",
-      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "text_vn": "Bạn có chấp nhận trả góp không?",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.6,
       "needs_review": true,
       "content_kind": "comment",
       "activity_type": "Bình luận",
@@ -64,14 +66,15 @@
       "link_quality": "canonical_permalink",
       "author_masked": "Ẩ***",
       "text_th": "สนลมดีจังครับ",
-      "text_vn": "Đã lưu nguyên văn bình luận Facebook; cần dịch và phân loại thủ công.",
+      "text_vn": "Gió rất tốt.",
+      "translation_method": "machine_translation",
       "sentiment": "Neutral",
       "topic": "Other",
       "topic_secondary": [],
       "theme": "Góp ý trải nghiệm chung",
       "segment": "unknown",
       "severity": null,
-      "confidence": 0.45,
+      "confidence": 0.6,
       "needs_review": true,
       "content_kind": "comment",
       "activity_type": "Bình luận",
@@ -92,8 +95,8 @@
       "Facebook Group": 2
     },
     "by_sentiment": {
-      "Positive": 0,
-      "Neutral": 3,
+      "Positive": 1,
+      "Neutral": 2,
       "Negative": 0,
       "Mixed": 0
     },
@@ -103,7 +106,7 @@
     "by_segment": {
       "unknown": 3
     },
-    "nss": 0,
+    "nss": 33.3,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
@@ -115,7 +118,17 @@
   },
   "report": {
     "overview": "Có 3 feedback trong ngày từ Facebook Fanpage, Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
-    "bright_spots": [],
+    "bright_spots": [
+      {
+        "title": "Góp ý trải nghiệm chung",
+        "count": 1,
+        "quote": {
+          "text_th": "Get ready to welcome an adorable Moon Rabbit friend!F… See more",
+          "text_vn": "Hãy sẵn sàng chào đón một người bạn Thỏ Mặt Trăng đáng yêu!F… Xem thêm",
+          "link": "https://www.facebook.com/PlayTogetherGame/posts/pfbid0VhT4J6fw3rmg7NiFFqxuXBx2nt3dfvDmJgQDJ7nvjZ5e4LppjYiuBnvcb7GEuqoXl"
+        }
+      }
+    ],
     "pain_points": [],
     "segments": {
       "new": {
@@ -173,6 +186,6 @@
       "Có 1 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review."
     ]
   },
-  "generated_at": "2026-10-13T08:10:21.231Z",
+  "generated_at": "2026-10-13T08:23:39.689Z",
   "data_mode": "production"
 }

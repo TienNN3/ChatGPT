@@ -47,10 +47,13 @@ Chỉ nhập staging đã làm sạch, đã che tên và không còn PII. Thư m
 
 ```bash
 node scripts/import-facebook.mjs .staging/facebook-observations.json
+node scripts/translate-facebook-vietnamese.mjs
 npm run check
 ```
 
 Importer tạo ID ổn định, chuẩn hóa permalink, chống trùng theo permalink + nội dung + tác giả đã che + loại nội dung, định danh từng group/fanpage trong `community`, gộp với review store theo ngày và cập nhật metrics/report/index. Mọi post/comment truy cập được đều được giữ lại, gồm bài khoe ảnh, rao bán và thảo luận chung; reaction và số comment được lưu trong `engagement`. Mục không có ngày đăng hiển thị được dùng ngày quan sát với `date_basis=observed_at`, không tự suy đoán ngày đăng.
+
+Script dịch thay các câu trạng thái `cần dịch` bằng tiếng Việt để Feedback Explorer luôn ưu tiên nội dung người vận hành đọc được. Bản dịch máy được đánh dấu bằng `translation_method=machine_translation`; bài chỉ có hình được ghi rõ là không có chữ để dịch.
 
 ## Nhập rating Sensor Tower
 
@@ -58,9 +61,9 @@ Importer tạo ID ổn định, chuẩn hóa permalink, chống trùng theo perm
 node scripts/import-sensortower-ratings.mjs "/path/to/Rating TH Android.csv" "/path/to/Rating TH iOS.csv"
 ```
 
-Rating được lưu thành snapshot riêng trong `ratings`, gồm cả app Global và VNG. Dashboard tính rating theo trọng số `Total Rating Count`; rating không làm tăng feedback volume và không tham gia NSS.
+Rating được lưu thành snapshot riêng trong `ratings`, gồm cả app Global và VNG. Dashboard tính rating theo trọng số `Total Rating Count`; rating không làm tăng feedback volume và không tham gia phân loại cảm xúc.
 
-Các biểu đồ theo ngày chỉ dùng mục có ngày đăng xác định. Mục Facebook chỉ biết ngày quan sát vẫn được giữ đầy đủ trong tổng lưu trữ và bảng khám phá, nhưng không được dùng để tạo spike volume hoặc tính NSS. NSS được tính bằng `(% tích cực - % tiêu cực)` trên toàn bộ mẫu sentiment đủ điều kiện, gồm cả Neutral/Mixed trong mẫu số; luôn đọc cùng cỡ mẫu `n`.
+Các biểu đồ theo ngày chỉ dùng mục có ngày đăng xác định. Mục Facebook chỉ biết ngày quan sát vẫn được giữ đầy đủ trong tổng lưu trữ và bảng khám phá, nhưng không được dùng để tạo spike volume theo ngày. Dashboard trình bày trực tiếp số feedback tích cực, tiêu cực và bình thường thay vì dùng chỉ số tổng hợp.
 
 ## Public bằng GitHub Pages
 
