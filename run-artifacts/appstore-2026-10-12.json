@@ -1,0 +1,12 @@
+{
+  "target_date": "2026-10-12",
+  "fetched_at": "2026-10-13T04:51:45.327Z",
+  "app": {
+    "id": 1612175933,
+    "name": "Play Together VNG",
+    "bundle_id": "com.vng.playtogether"
+  },
+  "source_url": "https://itunes.apple.com/th/rss/customerreviews/id=1612175933/sortBy=mostRecent/json",
+  "privacy_filtered": 0,
+  "items": []
+}
