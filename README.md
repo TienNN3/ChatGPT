@@ -12,6 +12,22 @@ npm run serve
 
 Mở `http://127.0.0.1:4173`.
 
+## Dashboard đọc như thế nào
+
+Mặc định mở 7 ngày gần nhất. Mọi số liệu được tính lại theo kỳ đang chọn và so với kỳ liền trước có cùng số ngày. Mỗi tab có link riêng qua hash (`#overview`, `#sources`, `#store`, `#feedback`).
+
+- **Tổng quan:** tóm tắt nhanh tự sinh, KPI, *Người chơi thích gì / chưa hài lòng / Cần xử lý* kèm trích dẫn tiêu biểu, biểu đồ cảm xúc (Ngày/Tuần, Số lượng/%), hoạt động cộng đồng, chip chủ đề. Nút **Sao chép báo cáo** chép bản tóm tắt dạng chữ để dán vào chat.
+- **Theo nguồn:** thẻ từng group/fanpage/store (số lượng, thay đổi, sparkline 30 ngày), tỷ lệ cảm xúc theo nguồn, bảng chi tiết theo ngày.
+- **Đánh giá store:** review trong kỳ, số sao trung bình, tỷ lệ 4–5★ và 1–2★, phân bố sao, review khen/chê, review có số sao lệch với nội dung, điểm tích lũy 90 ngày.
+- **Danh sách phản hồi:** mới nhất trước, bản dịch trước nguyên văn, lọc theo nguồn/cảm xúc/hoạt động/chủ đề, tải CSV.
+
+Quy tắc hiển thị:
+- Nội dung `date_basis=observed_at` (chưa rõ ngày đăng) không được cộng vào thống kê; chỉ xem được trong danh sách khi bật tùy chọn.
+- Bài *Rao bán / trao đổi* vẫn được đếm đầy đủ nhưng không dùng để xếp hạng chủ đề thích / chưa hài lòng.
+- Khi kỳ trước có dưới 10 phản hồi, so sánh bằng số tuyệt đối thay vì phần trăm.
+- Tên group hiển thị lấy từ `COMMUNITY_NAMES` trong `public/index.html`; tên chủ đề trung tính lấy từ `THEME_NAMES`. Dữ liệu gốc không đổi. Group mới chưa có tên sẽ hiện ID.
+- Cột tiếng Việt của review store hiện là tóm tắt phân loại, không phải bản dịch; giao diện hiển thị nguyên văn kèm nhãn "Tóm tắt".
+
 ## Cấu trúc dữ liệu
 
 - `public/data/index.json`: danh sách ngày có dữ liệu.

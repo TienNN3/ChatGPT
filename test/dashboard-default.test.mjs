@@ -72,6 +72,15 @@ test("splits the report into overview, sources, store reviews and feedback tabs"
   assert.match(html, /const isSummaryText = item =>/);
 });
 
+test("uses neutral topic names on screen and offers a copyable text report", async () => {
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  // Một phản hồi khen về bạn bè không được hiển thị dưới tên "Tương tác xã hội tiêu cực".
+  assert.match(html, /'Tương tác xã hội tiêu cực':'Bạn bè và tương tác xã hội'/);
+  assert.match(html, /const themeLabel = name => THEME_NAMES\[name\] \|\| name;/);
+  assert.match(html, /id="copyReport"/);
+  assert.match(html, /function reportText\(\)/);
+});
+
 test("uses calendar days and validates manual ranges", async () => {
   const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
   assert.match(html, /function calendarDates\(start,end\)/);

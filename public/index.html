@@ -267,7 +267,7 @@
     <!-- TAB 1: Tổng quan — chuyện gì đang xảy ra, người chơi thích gì, không thích gì, cần xử lý gì -->
     <div class="tab-panel active" data-panel="overview">
       <section class="card summary">
-        <div class="card-head"><h2 id="summaryTitle">Nhận định cho kỳ</h2><p>Toàn bộ số liệu dưới đây được tính lại theo đúng kỳ đang chọn và so với kỳ liền trước có cùng số ngày.</p></div>
+        <div class="card-head row-head"><div><h2 id="summaryTitle">Nhận định cho kỳ</h2><p>Toàn bộ số liệu dưới đây được tính lại theo đúng kỳ đang chọn và so với kỳ liền trước có cùng số ngày.</p></div><button id="copyReport" class="btn" title="Chép báo cáo dạng chữ để dán vào chat hoặc email">Sao chép báo cáo</button></div>
         <div class="summary-top">
           <div><div class="headline">Tóm tắt nhanh</div><ul id="summaryList" class="summary-list"></ul></div>
           <div id="kpis" class="kpis"></div>
@@ -365,7 +365,20 @@
     const sourceLabel = name => COMMUNITY_NAMES[name] || String(name).replace(/^Facebook Group · /,'Group ').replace(/^Facebook Fanpage · /,'Fanpage ');
     // Bài rao bán/trao đổi vẫn được đếm đầy đủ nhưng không phải ý kiến về game, nên không dùng để xếp hạng "thích / chưa hài lòng".
     const isOpinion = item => item.activity_type!=='Rao bán / trao đổi';
-    const themeLabel = name => name===GENERIC_THEME ? 'Ý kiến chung (chưa rõ chủ đề)' : name;
+    // Một số tên chủ đề trong dữ liệu mang sẵn sắc thái (vd. "Tương tác xã hội tiêu cực") trong khi phản hồi có thể là khen.
+    // Trên giao diện dùng tên trung tính; cảm xúc được thể hiện riêng bằng nhãn và màu.
+    const THEME_NAMES = {
+      [GENERIC_THEME]:'Ý kiến chung (chưa rõ chủ đề)',
+      'Tương tác xã hội tiêu cực':'Bạn bè và tương tác xã hội',
+      'Game bị văng và treo':'Độ ổn định (văng, treo, lỗi)',
+      'Không nhận vật phẩm sau thanh toán':'Nạp tiền và nhận vật phẩm',
+      'Giá vật phẩm quá cao':'Giá vật phẩm',
+      'Quảng cáo gây gián đoạn':'Quảng cáo trong game',
+      'Lag khi câu cá':'Hiệu năng khi câu cá',
+      'Lỗi đăng nhập đa thiết bị':'Đăng nhập trên nhiều thiết bị',
+      'Trải nghiệm game tích cực':'Trải nghiệm chơi game'
+    };
+    const themeLabel = name => THEME_NAMES[name] || name;
     const countBy = (items,keyFn) => Object.entries(items.reduce((acc,item)=>{const key=keyFn(item)||'Chưa phân loại';acc[key]=(acc[key]||0)+1;return acc},{})).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));
     const bySentiment = items => Object.fromEntries(SENTIMENTS.map(s=>[s,items.filter(i=>i.sentiment===s).length]));
     const rawSelectedItems = () => state.selected.flatMap(day=>(day.items||[]).map(item=>({...item,date:day.date})));
@@ -426,7 +439,7 @@
     function resetExplorer(){['sourceFilter','sentimentFilter','activityFilter','themeFilter','keywordFilter'].forEach(id=>{$(`#${id}`).value=''});$('#includeUndated').checked=false;state.page=1}
     async function apply(){
       try{
-        validateSelection();document.querySelector('main').classList.add('loading');
+        validateSelection();document.querySelector('main').classList.add('loading');$('#periodLabel').textContent='Đang tải dữ liệu…';
         const current=chosenDays(),context=contextDays(),previous=previousDays(current);
         [state.selected,state.context,state.previous,state.ratingDays]=await Promise.all([loadDates(current),loadDates(context),loadDates(previous),loadDates(ratingWindow(current))]);
         resetExplorer();render();
@@ -500,7 +513,7 @@
       // Chủ đề tiêu cực tăng so với kỳ trước (bỏ qua chủ đề đã có cảnh báo và nhóm ý kiến chung).
       rankThemes(neg).filter(([theme,count])=>theme!==GENERIC_THEME&&!alertTitles.has(theme)&&count>prevNeg.filter(i=>i.theme===theme).length).slice(0,3).forEach(([theme,count])=>{
         const before=prevNeg.filter(i=>i.theme===theme).length,signal=state.briefing?.signals?.find(entry=>(entry.themes||[]).includes(theme));
-        actions.push(`<div class="action-item"><span class="level info">Theo dõi</span><div><button class="link-btn" data-theme-name="${esc(theme)}" data-sentiment="Negative"><strong>${esc(theme)}</strong></button> <span class="muted small">${count} tiêu cực, kỳ trước ${before}</span>${signal?.suggested_action?`<p>${esc(signal.suggested_action)}</p>`:''}</div></div>`);
+        actions.push(`<div class="action-item"><span class="level info">Theo dõi</span><div><button class="link-btn" data-theme-name="${esc(theme)}" data-sentiment="Negative"><strong>${esc(themeLabel(theme))}</strong></button> <span class="muted small">${count} tiêu cực, kỳ trước ${before}</span>${signal?.suggested_action?`<p>${esc(signal.suggested_action)}</p>`:''}</div></div>`);
       });
       $('#actionList').innerHTML=actions.join('')||'<p class="empty-note">Không có cảnh báo P0/P1 và không có chủ đề tiêu cực nào tăng so với kỳ trước.</p>';
       document.querySelectorAll('[data-theme-name]').forEach(button=>button.onclick=()=>showTheme(button.dataset.themeName,button.dataset.sentiment));
@@ -582,6 +595,21 @@
       $('#storeCriticism').innerHTML=list(bad,'Không có review 1–2★ trong kỳ.');
       $('#storeMismatch').innerHTML=list(reviews.filter(i=>(i.rating>=4&&i.sentiment==='Negative')||(i.rating<=2&&i.sentiment==='Positive')),'Không có review lệch giữa số sao và nội dung.');
     }
+    // Báo cáo dạng chữ thuần để dán vào chat: dùng đúng số liệu của kỳ đang chọn.
+    function reportText(){
+      const items=selectedItems(),previous=previousItems(),s=bySentiment(items),alerts=state.selected.flatMap(d=>(d.alerts||[]).map(a=>({...a,date:d.date}))),n=items.length;
+      const top=(sentiment)=>rankThemes(items.filter(i=>i.sentiment===sentiment&&isOpinion(i))).slice(0,3).map(([theme,count])=>{const q=bestQuote(items.filter(i=>i.theme===theme&&i.sentiment===sentiment&&isOpinion(i)));return`  • ${themeLabel(theme)}: ${count}${q?`\n    "${q.text_vn}"\n    ${q.link}`:''}`});
+      const lines=[`PTG TH Player Feedback · ${periodLabel()}`,'',
+        `Tổng phản hồi: ${n} (${changeText(n,previous.length).toLocaleLowerCase('vi-VN')})`,
+        `Xu hướng: ${moodFor(items)} · Tích cực ${s.Positive} (${pct(s.Positive,n)}) · Tiêu cực ${s.Negative} (${pct(s.Negative,n)}) · Đan xen ${s.Mixed} · Trung tính ${s.Neutral}`,
+        '','Người chơi thích:',...(top('Positive').length?top('Positive'):['  • Chưa có chủ đề tích cực nổi bật']),
+        '','Người chơi chưa hài lòng:',...(top('Negative').length?top('Negative'):['  • Không ghi nhận phản hồi tiêu cực']),
+        '','Cần xử lý:',...(alerts.length?alerts.map(a=>`  • [${a.level||'!'}] ${a.title}: ${a.detail||''}${a.links?.[0]?`\n    ${a.links[0]}`:''}`):['  • Không có cảnh báo P0/P1']),
+        '','Theo nguồn:',...countBy(items,channelName).map(([name,count])=>`  • ${sourceLabel(name)}: ${count}`),
+        '',`Dashboard: ${location.origin}${location.pathname}`];
+      return lines.join('\n');
+    }
+    async function copyReport(){const text=reportText(),button=$('#copyReport');try{await navigator.clipboard.writeText(text);button.textContent='Đã chép ✓'}catch{const area=document.createElement('textarea');area.value=text;document.body.append(area);area.select();document.execCommand('copy');area.remove();button.textContent='Đã chép ✓'}setTimeout(()=>{button.textContent='Sao chép báo cáo'},2000)}
     function setTab(name){
       if(!document.querySelector(`[data-panel="${name}"]`))name='overview';
       document.querySelectorAll('[data-tab]').forEach(b=>{b.classList.toggle('active',b.dataset.tab===name);b.setAttribute('aria-selected',b.dataset.tab===name)});
@@ -631,6 +659,7 @@
     document.querySelectorAll('[data-days]').forEach(button=>button.onclick=async()=>{const latest=state.index.latest_with_data||state.index.dates.at(-1),end=button.dataset.days==='yesterday'?dateAdd(latest,-1):latest;document.querySelectorAll('.preset').forEach(x=>x.classList.toggle('active',x===button));if(button.dataset.days==='yesterday'){setMode('day');$('#dayPicker').value=end}else{setMode('range');$('#toDate').value=end;$('#fromDate').value=button.dataset.days==='month'?`${end.slice(0,7)}-01`:dateAdd(end,-Number(button.dataset.days)+1)}await apply()});
     document.querySelectorAll('.filters select,.filters input').forEach(el=>el.addEventListener(el.type==='search'?'input':'change',()=>{state.page=1;renderFeedback()}));
     $('#includeUndated').onchange=()=>{state.page=1;setupFilters(explorerItems());renderFeedback()};
+    $('#copyReport').onclick=copyReport;
     $('#prevPage').onclick=()=>{state.page--;renderFeedback()};$('#nextPage').onclick=()=>{state.page++;renderFeedback()};$('#exportCsv').onclick=exportCsv;
     $('#alertBadge').onclick=()=>{setTab('overview');document.querySelector('.voice-card.action').scrollIntoView({behavior:'smooth',block:'center'})};
     document.querySelectorAll('[data-tab]').forEach(button=>button.onclick=()=>setTab(button.dataset.tab));
