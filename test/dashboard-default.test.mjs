@@ -58,6 +58,20 @@ test("reads as a report: summary, likes, dislikes and actions for the selected p
   assert.match(html, /function ratingWindow\(current\)\{return calendarDates\(dateAdd\(current\.at\(-1\),-89\),current\.at\(-1\)\)\}/);
 });
 
+test("splits the report into overview, sources, store reviews and feedback tabs", async () => {
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  for (const tab of ["overview", "sources", "store", "feedback"]) {
+    assert.match(html, new RegExp(`data-tab="${tab}"`));
+    assert.match(html, new RegExp(`data-panel="${tab}"`));
+  }
+  assert.match(html, /Tỷ lệ cảm xúc theo nguồn/);
+  assert.match(html, /Số sao và nội dung không khớp/);
+  assert.match(html, /data-group="week"/);
+  assert.match(html, /data-scale="share"/);
+  // Review store: cột tiếng Việt là tóm tắt phân loại, không được trình bày như bản dịch.
+  assert.match(html, /const isSummaryText = item =>/);
+});
+
 test("uses calendar days and validates manual ranges", async () => {
   const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
   assert.match(html, /function calendarDates\(start,end\)/);
