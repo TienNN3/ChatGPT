@@ -532,6 +532,7 @@
       if(isEn()){await loadI18n()}
       else{I18N.observer?.disconnect();I18N.observer=null;for(const [key,value] of I18N.orig){if(typeof key!=='string'){if(key.isConnected)key.nodeValue=value}else{const [el,attr,orig]=value;if(el.isConnected)el.setAttribute(attr,orig)}}I18N.orig.clear();I18N.done=new WeakMap()}
       applyLangChrome();
+      if(state.index?.last_updated)$('#updated').textContent=`${isEn()?'Last updated:':'Cập nhật lần cuối:'} ${new Date(state.index.last_updated).toLocaleString(isEn()?'en-GB':'vi-VN')}`;
       if(isEn()){translateTree(document.body);if(!I18N.observer){I18N.observer=new MutationObserver(list=>{for(const m of list){if(m.type==='childList')m.addedNodes.forEach(translateTree);else if(m.type==='characterData')translateText(m.target);else translateAttrs(m.target)}});I18N.observer.observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:I18N_ATTRS})}}
       if(state.selected.length)render();
       helpText='';
