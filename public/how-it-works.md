@@ -85,6 +85,14 @@ Bản dịch phải đọc một lần là hiểu, đúng ngữ cảnh game. Kh�
 - **Danh sách phản hồi**: dạng thẻ, mới nhất trước; mỗi thẻ có cảm xúc, loại nội dung, nguồn, câu tóm tắt, bản dịch, nguyên văn (bấm để mở), từ khoá (bấm để lọc), link; chip lọc nhanh theo cảm xúc; lọc theo ngày, nguồn, cảm xúc, loại nội dung, từ khoá, tìm chữ; tải CSV.
 - Mọi chip/thẻ/bảng bấm được đều lọc sang Danh sách phản hồi. Link chia sẻ theo tab: `#overview`, `#sources`, `#store`, `#feedback`.
 
+### Bố cục PC và mobile
+
+- Tổng quan mở bằng nhận định và khối **Cần xem trước**. Cảnh báo P0/P1 được đếm riêng với phản hồi thuộc nhóm báo lỗi, crash/lag, tài khoản và phàn nàn; số phản hồi cần xem không đồng nghĩa với số lỗi đã xác minh.
+- Nút **Đọc phản hồi cần xem** mở danh sách đã lọc bốn nhóm trên. **Xem cảnh báo** mở phần Cần xử lý. KPI tỷ lệ tích cực/tiêu cực so kỳ trước bằng **điểm phần trăm**; kỳ trước dưới 10 phản hồi vẫn dùng chênh lệch số lượng.
+- Mobile giữ đủ bốn tab với tên ngắn, card nguồn một cột và phần phạm vi thu thập có thể mở riêng. Danh sách giữ tìm kiếm trực tiếp, các bộ lọc khác nằm trong **Bộ lọc**; điều kiện đã chọn vẫn có hiệu lực khi thu gọn và luôn hiện bên ngoài.
+- Mobile ban đầu hiện Top 5 hoạt động/từ khoá, có **Xem tất cả**; bảng từ khoá theo ngày được mở khi cần. Mọi dữ liệu và bộ lọc vẫn được giữ, không đổi số liệu theo kích thước màn hình.
+- Nút ⓘ mở giải thích bằng chạm hoặc bàn phím. KPI hỗ trợ Enter/Space; các điều khiển chính trên mobile có vùng chạm tối thiểu 44px.
+
 ## 6. Cấu trúc file
 
 - `public/index.html`: toàn bộ giao diện và logic (vanilla JS + Chart.js 4.4.1).

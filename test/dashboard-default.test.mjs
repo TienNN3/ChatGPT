@@ -6,7 +6,7 @@ test("opens with the latest seven-day range selected", async () => {
   const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
   assert.match(html, /const state = \{ mode:'range'/);
   assert.match(html, /data-mode="range" class="active"/);
-  assert.match(html, /data-days="7">7 ngày gần nhất/);
+  assert.match(html, /data-days="7"[^>]*>[\s\S]*?7 ngày gần nhất/);
   assert.match(html, /initialStart=dateAdd\(latest,-6\)/);
   assert.match(html, /setMode\('range'\)/);
 });
@@ -180,4 +180,18 @@ test("offers a VI / EN switch that keeps Vietnamese as the source text", async (
   for (const [key, value] of Object.entries(dict.ui)) assert.equal(holes(value), holes(key), `placeholder mismatch: ${key}`);
   const guide = await readFile(new URL("../public/how-it-works.en.md", import.meta.url), "utf8");
   assert.match(guide, /VI \/ EN switch/);
+});
+
+test("compares sentiment shares in percentage points, with counts for small prior samples", async () => {
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  const helper = html.match(/    function sentimentShareDelta\([\s\S]*?\n    }/)?.[0];
+  const delta = html.match(/^    function deltaShort[^\n]+/m)?.[0];
+  assert.ok(helper && delta);
+  const compare = new Function(`const fmt={format:n=>String(n)};${delta}\n${helper}\nreturn sentimentShareDelta;`)();
+  // Counts fall from 40 to 30 while the share rises from 10% to 15%.
+  assert.deepEqual(compare(30,40,200,400,false), {text:"Tỷ lệ: tăng 5 điểm %",tone:"bad"});
+  assert.deepEqual(compare(30,40,200,400,true), {text:"Tỷ lệ: tăng 5 điểm %",tone:"good"});
+  assert.match(compare(3,1,12,4,false).text, /^Số phản hồi: ▲ 2 so với kỳ trước$/);
+  assert.equal(compare(3,0,12,0,false).text, "Kỳ trước chưa có phản hồi");
+  assert.equal(compare(0,4,0,40,false).text, "Tỷ lệ: giảm 10 điểm %");
 });

@@ -342,6 +342,104 @@
       .responsive-table td.empty { display:block; }
       .responsive-table td.empty::before { content:none; }
     }
+
+    /* Read the report first, then explore details. */
+    [hidden] { display:none !important; }
+    :is(button,summary,[role="button"],a):focus-visible { outline:3px solid var(--brand); outline-offset:3px; }
+    button.info { flex:0 0 32px; width:32px; height:32px; border:1px solid var(--line); border-radius:50%; background:var(--surface-2); font-size:14px; cursor:pointer; }
+    .mobile-label { display:none; }
+    .overview-lead { display:grid; grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:14px; margin-bottom:14px; align-items:start; }
+    .overview-lead .highlight { grid-column:1; grid-row:1; margin:0; }
+    .priority-panel { grid-column:2; grid-row:1; border-left:4px solid var(--mixed); padding:14px 16px; }
+    .priority-panel h2 { font-size:15px; margin-bottom:6px; }
+    .priority-panel p { margin:6px 0; font-size:13px; overflow-wrap:anywhere; }
+    .priority-stats { display:flex; gap:8px 16px; flex-wrap:wrap; font-size:13px; }
+    .priority-stats strong { font-size:20px; margin-right:3px; }
+    .priority-actions { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+    .priority-actions .btn { min-height:44px; font-size:12px; padding:8px 10px; }
+    .kpi-sub { white-space:normal; overflow:visible; text-overflow:clip; overflow-wrap:anywhere; }
+    .action-details { margin-bottom:14px; scroll-margin-top:72px; }
+    .action-details > summary,.heatmap-details > summary { cursor:pointer; font-size:15px; font-weight:600; min-height:32px; }
+    .action-details[open] > summary,.heatmap-details[open] > summary { margin-bottom:12px; }
+    .action-details .action-item p { display:block; overflow:visible; }
+    .voice-row { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    .voice-row > .voice-card { grid-column:auto; }
+    .vi-sum { white-space:normal; overflow:visible; text-overflow:clip; }
+    .source-card-open { display:flex; justify-content:space-between; align-items:start; gap:12px; padding:0; border:0; background:none; color:var(--text); text-align:left; }
+    .source-card-open .value { flex-shrink:0; }
+    .source-scope { border-top:1px solid var(--line); padding-top:8px; margin-top:6px; }
+    .source-scope summary { cursor:pointer; font-size:12px; color:var(--brand); min-height:28px; }
+    .source-scope p { margin:6px 0 0; font-size:12px; color:var(--muted); }
+    .feedback-search { margin-bottom:10px; }
+    .filters { grid-template-columns:repeat(5,minmax(0,1fr)); }
+    .filter-panel { margin-bottom:12px; }
+    .filter-panel > summary { display:none; }
+    .filter-checks { display:flex; flex-wrap:wrap; gap:10px 20px; }
+    .checkline { min-height:40px; }
+    .checkline input { width:18px; height:18px; }
+    .rank-toggle { display:none; }
+    .heatmap-details p { margin:8px 0; }
+    @media(max-width:1100px) { .overview-lead { grid-template-columns:1fr; } .priority-panel { grid-column:1; grid-row:1; } .overview-lead .highlight { grid-row:2; } }
+    @media(max-width:760px) {
+      body { font-size:15px; }
+      .shell { padding:10px 12px 28px; }
+      header.hero { padding:12px; gap:8px; margin-bottom:12px; border-radius:16px; }
+      .brand-logo { width:44px; height:44px; flex-basis:44px; }
+      .brand-lockup { gap:10px; }
+      h1 { font-size:18px; }
+      #updated { font-size:11px; }
+      .header-actions { gap:6px; justify-content:flex-start; }
+      .header-actions .btn { min-height:44px; min-width:44px; }
+      .header-actions .badge { min-height:44px; font-size:11px; }
+      .controls { display:flex; padding:10px; margin-bottom:8px; }
+      .presets { gap:5px; align-items:center; }
+      .presets .btn { min-height:44px; padding:6px 9px; font-size:12px; }
+      .desktop-label { display:none; }
+      .mobile-label { display:inline; }
+      .period-title { font-size:13px; }
+      .scope-note { font-size:11px; }
+      .tabs { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:2px; overflow:visible; margin-bottom:12px; }
+      .tabs button { padding:8px 3px; font-size:12px; min-height:44px; min-width:0; white-space:normal; }
+      .tabs .tab-count { display:none; }
+      .overview-lead { gap:10px; margin-bottom:10px; }
+      .priority-panel { padding:12px 14px; }
+      .priority-panel p { font-size:13px; }
+      .priority-actions .btn { flex:1 1 auto; }
+      .highlight { padding:12px 14px; }
+      .highlight-head { gap:6px; }
+      .highlight-head h2 { font-size:14px; }
+      .highlight-head .btn.sm { margin-left:auto; min-height:44px; }
+      .highlights { font-size:13px; gap:7px; }
+      .kpi-card { padding:12px; gap:4px; }
+      .kpi-label { font-size:11px; }
+      .kpi-value { font-size:26px; }
+      .kpi-delta,.kpi-sub { font-size:12px; line-height:1.5; }
+      #kpis .kpi-card:last-child { grid-column:1/-1; }
+      .kpi-card .spark { display:none; }
+      .voice-row { grid-template-columns:1fr; }
+      .voice-row > .voice-card { grid-column:1; }
+      .source-cards { grid-template-columns:1fr; }
+      .source-card-open { min-height:44px; }
+      .source-card .label { font-size:14px; }
+      .source-card .sub { line-height:1.55; }
+      .mix-row .name { white-space:normal; overflow:visible; }
+      .rank-list:not([data-expanded="true"]) > :nth-child(n+6) { display:none; }
+      .rank-toggle { display:block; width:100%; min-height:44px; margin-top:8px; }
+      .bar-row,.legend-row,.voice-row-item,.kw-chip { min-height:44px; }
+      .bar-row .name { white-space:normal; overflow:visible; }
+      .filter-panel { border:1px solid var(--line); border-radius:12px; padding:10px; }
+      .filter-panel > summary { display:list-item; cursor:pointer; font-weight:600; min-height:32px; }
+      .filter-panel[open] > summary { margin-bottom:10px; }
+      .filters { grid-template-columns:1fr; }
+      .filters label,.feedback-search { font-size:13px; }
+      .filters select,.feedback-search input { min-height:44px; }
+      .filter-checks { display:grid; gap:6px; }
+      .quick-sent button { min-height:44px; }
+      .feed-text { font-size:15px; line-height:1.65; }
+      .feed-summary { font-size:15px; }
+      .feed-link { min-height:40px; display:inline-flex; align-items:center; }
+      .feed-orig summary { min-height:40px; padding-top:10px; }
+    }
   </style>
 </head>
 <body>
@@ -362,47 +460,50 @@
           <button id="applyRange" class="btn primary range-only">Xem</button>
         </div>
       </div>
-      <div class="presets" aria-label="Chọn nhanh"><button id="customToggle" class="btn preset custom-toggle" aria-expanded="false">Tuỳ chọn ngày ▾</button><button class="btn preset" data-days="yesterday">Hôm qua</button><button class="btn preset active" data-days="7">7 ngày gần nhất</button><button class="btn preset" data-days="30">30 ngày gần nhất</button><button class="btn preset" data-days="month">Tháng này</button></div>
+      <div class="presets" aria-label="Chọn nhanh"><button id="customToggle" class="btn preset custom-toggle" aria-expanded="false">Tuỳ chọn ngày ▾</button><button class="btn preset" data-days="yesterday">Hôm qua</button><button class="btn preset active" data-days="7" aria-label="7 ngày gần nhất"><span class="desktop-label">7 ngày gần nhất</span><span class="mobile-label" aria-hidden="true">7 ngày</span></button><button class="btn preset" data-days="30" aria-label="30 ngày gần nhất"><span class="desktop-label">30 ngày gần nhất</span><span class="mobile-label" aria-hidden="true">30 ngày</span></button><button class="btn preset" data-days="month">Tháng này</button></div>
     </section>
     <div class="period-bar"><span id="periodLabel" class="period-title"></span><span id="scopeNote" class="scope-note"></span></div>
 
     <nav class="tabs" role="tablist" aria-label="Chọn góc nhìn">
       <button role="tab" data-tab="overview" class="active">Tổng quan</button>
-      <button role="tab" data-tab="sources">Theo nguồn</button>
-      <button role="tab" data-tab="store">Đánh giá store</button>
-      <button role="tab" data-tab="feedback">Danh sách phản hồi <span id="feedbackTabCount" class="tab-count"></span></button>
+      <button role="tab" data-tab="sources" aria-label="Theo nguồn"><span class="desktop-label">Theo nguồn</span><span class="mobile-label" aria-hidden="true">Nguồn</span></button>
+      <button role="tab" data-tab="store" aria-label="Đánh giá store"><span class="desktop-label">Đánh giá store</span><span class="mobile-label" aria-hidden="true">Store</span></button>
+      <button role="tab" data-tab="feedback" aria-label="Danh sách phản hồi"><span class="desktop-label">Danh sách phản hồi</span><span class="mobile-label" aria-hidden="true">Phản hồi</span> <span id="feedbackTabCount" class="tab-count"></span></button>
     </nav>
 
     <!-- TAB 1: Tổng quan — chỉ số chính trên cùng, xu hướng ở giữa, chi tiết ở dưới -->
     <div class="tab-panel active" data-panel="overview">
-      <section id="kpis" class="kpi-band" aria-label="Chỉ số chính"></section>
+      <section class="overview-lead">
+        <aside id="priorityPanel" class="card priority-panel" aria-label="Việc cần xem trước"></aside>
       <section class="card highlight">
-        <div class="highlight-head"><h2 id="summaryTitle">Nhận định cho kỳ</h2><span class="info" title="Toàn bộ số liệu dưới đây được tính lại theo đúng kỳ đang chọn và so với kỳ liền trước có cùng số ngày.">ⓘ</span><span id="moodBadge" class="mood-badge"></span><button id="copyReport" class="btn sm" title="Chép báo cáo dạng chữ để dán vào chat hoặc email">Sao chép báo cáo</button></div>
+        <div class="highlight-head"><h2 id="summaryTitle">Nhận định cho kỳ</h2><button type="button" class="info" aria-label="Giải thích" title="Toàn bộ số liệu dưới đây được tính lại theo đúng kỳ đang chọn và so với kỳ liền trước có cùng số ngày.">ⓘ</button><span id="moodBadge" class="mood-badge"></span><button id="copyReport" class="btn sm" title="Chép báo cáo dạng chữ để dán vào chat hoặc email">Sao chép báo cáo</button></div>
         <ul id="summaryList" class="highlights"></ul>
         <details class="more"><summary>Tóm tắt nhanh đầy đủ</summary><ul id="summaryMore" class="summary-list"></ul></details>
       </section>
+      </section>
+      <section id="kpis" class="kpi-band" aria-label="Chỉ số chính"></section>
+      <details id="actionDetails" class="card action-details"><summary>Cần xử lý <span id="actionCounts" class="muted small"></span></summary><div id="actionList"></div></details>
       <section class="grid">
         <article class="card span-8">
-          <div class="card-head row-head"><div><h2>Diễn biến theo ngày <span class="info" id="trendInfo" title="">ⓘ</span></h2><p id="trendCaption" class="caption"></p></div>
+          <div class="card-head row-head"><div><h2>Diễn biến theo ngày <button type="button" class="info" aria-label="Giải thích" id="trendInfo" title="">ⓘ</button></h2><p id="trendCaption" class="caption"></p></div>
             <div class="chart-toggles"><div class="segmented mini" aria-label="Xem theo"><button data-view="sentiment" class="active">Cảm xúc</button><button data-view="intent">Loại nội dung</button></div><div class="segmented mini" aria-label="Gộp theo"><button data-group="day" class="active">Ngày</button><button data-group="week">Tuần</button></div><div class="segmented mini" aria-label="Đơn vị"><button data-scale="count" class="active">Số</button><button data-scale="share">%</button></div></div></div>
           <div class="chart-wrap"><canvas id="sentimentChart" aria-label="Biểu đồ phản hồi theo ngày"></canvas></div>
         </article>
-        <article class="card span-4"><div class="card-head"><h2>Tỷ lệ cảm xúc <span class="info" title="Bấm vào một phần để xem các phản hồi tương ứng">ⓘ</span></h2></div>
+        <article class="card span-4"><div class="card-head"><h2>Tỷ lệ cảm xúc <button type="button" class="info" aria-label="Giải thích" title="Bấm vào một phần để xem các phản hồi tương ứng">ⓘ</button></h2></div>
           <div class="donut-wrap"><canvas id="sentimentDonut" aria-label="Tỷ lệ cảm xúc"></canvas><div id="donutCenter" class="donut-center"></div></div>
           <div id="sentimentLegend" class="donut-legend"></div>
         </article>
       </section>
       <section class="grid">
-        <article class="card span-6"><div class="card-head"><h2>Người chơi đang làm gì <span class="info" title="Phân loại theo nội dung: hỏi, trả lời, chia sẻ, tham gia sự kiện, báo lỗi, crash/lag, tài khoản, phàn nàn, góp ý, khen, mua bán, tìm bạn, trò chuyện. Màu trong thanh là tỷ lệ cảm xúc. Bấm để lọc danh sách.">ⓘ</span></h2></div><div id="intentList" class="bar-list"></div></article>
-        <article class="card span-6"><div class="card-head"><h2>Từ khoá được nhắc nhiều <span class="info" title="Top từ khoá trong kỳ. Màu trong thanh là tỷ lệ cảm xúc; ▲▼ so với kỳ trước. Bấm để lọc danh sách.">ⓘ</span></h2></div><div id="keywordChips" class="bar-list"></div></article>
+        <article class="card span-6"><div class="card-head"><h2>Người chơi đang làm gì <button type="button" class="info" aria-label="Giải thích" title="Phân loại theo nội dung: hỏi, trả lời, chia sẻ, tham gia sự kiện, báo lỗi, crash/lag, tài khoản, phàn nàn, góp ý, khen, mua bán, tìm bạn, trò chuyện. Màu trong thanh là tỷ lệ cảm xúc. Bấm để lọc danh sách.">ⓘ</button></h2></div><div id="intentList" class="bar-list rank-list"></div><button class="btn rank-toggle" data-rank-target="intentList" aria-expanded="false">Xem tất cả</button></article>
+        <article class="card span-6"><div class="card-head"><h2>Từ khoá được nhắc nhiều <button type="button" class="info" aria-label="Giải thích" title="Top từ khoá trong kỳ. Màu trong thanh là tỷ lệ cảm xúc; ▲▼ so với kỳ trước. Bấm để lọc danh sách.">ⓘ</button></h2></div><div id="keywordChips" class="bar-list rank-list"></div><button class="btn rank-toggle" data-rank-target="keywordChips" aria-expanded="false">Xem tất cả</button></article>
       </section>
       <section class="grid voice-row">
-        <article class="card span-4 voice-card like"><div class="card-head"><h2>Người chơi thích gì <span class="info" title="Từ khoá xuất hiện nhiều nhất trong phản hồi tích cực (không tính mua bán). Bấm để đọc toàn bộ.">ⓘ</span></h2></div><div id="likeList"></div></article>
-        <article class="card span-4 voice-card dislike"><div class="card-head"><h2>Người chơi chưa hài lòng <span class="info" title="Từ khoá xuất hiện nhiều nhất trong phản hồi tiêu cực (không tính mua bán). Bấm để đọc toàn bộ.">ⓘ</span></h2></div><div id="dislikeList"></div></article>
-        <article class="card span-4 voice-card action"><div class="card-head"><h2>Cần xử lý <span class="info" title="Cảnh báo P0/P1, báo lỗi, crash/lag, vấn đề tài khoản và phàn nàn trong kỳ, kèm gợi ý xử lý.">ⓘ</span></h2></div><div id="actionList"></div></article>
+        <article class="card span-6 voice-card like"><div class="card-head"><h2>Người chơi thích gì <button type="button" class="info" aria-label="Giải thích" title="Từ khoá xuất hiện nhiều nhất trong phản hồi tích cực (không tính mua bán). Bấm để đọc toàn bộ.">ⓘ</button></h2></div><div id="likeList"></div></article>
+        <article class="card span-6 voice-card dislike"><div class="card-head"><h2>Người chơi chưa hài lòng <button type="button" class="info" aria-label="Giải thích" title="Từ khoá xuất hiện nhiều nhất trong phản hồi tiêu cực (không tính mua bán). Bấm để đọc toàn bộ.">ⓘ</button></h2></div><div id="dislikeList"></div></article>
       </section>
       <section class="grid">
-        <article class="card span-12"><div class="card-head"><h2>Từ khoá theo ngày <span class="info" title="Mỗi ô là số phản hồi nhắc tới từ khoá trong ngày; màu càng đậm càng nhiều. Bấm ô để xem đúng ngày và từ khoá đó, bấm ngày để xem cả ngày.">ⓘ</span></h2></div><div id="dailyKeywords" class="heatmap-wrap"></div></article>
+        <details class="card span-12 heatmap-details"><summary>Từ khoá theo ngày</summary><p class="muted small">Bấm một ô để xem phản hồi theo ngày và từ khoá. Bảng có thể cuộn ngang.</p><div id="dailyKeywords" class="heatmap-wrap"></div></details>
       </section>
     </div>
 
@@ -410,14 +511,14 @@
     <div class="tab-panel" data-panel="sources" hidden>
       <section id="sourceKpis" class="kpi-band kpi-4" aria-label="Chỉ số theo nguồn"></section>
       <section class="grid">
-        <article class="card span-5"><div class="card-head"><h2>Thị phần thảo luận <span class="info" title="Mỗi nguồn chiếm bao nhiêu % phản hồi có ngày đăng trong kỳ. Bấm để lọc danh sách.">ⓘ</span></h2></div><div class="donut-wrap"><canvas id="shareDonut" aria-label="Thị phần thảo luận theo nguồn"></canvas><div id="shareCenter" class="donut-center"></div></div><div id="shareLegend" class="donut-legend"></div></article>
-        <article class="card span-7"><div class="card-head"><h2>Tỷ lệ cảm xúc theo nguồn <span class="info" title="So sánh nhanh nguồn nào tích cực hơn, nguồn nào có nhiều phản hồi tiêu cực">ⓘ</span></h2></div><div id="sourceMix" class="mix-list"></div><div class="legend" style="margin-top:10px"><span><i class="dot positive-bg"></i>Tích cực</span><span><i class="dot negative-bg"></i>Tiêu cực</span><span><i class="dot mixed-bg"></i>Đan xen</span><span><i class="dot neutral-bg"></i>Trung tính</span></div></article>
+        <article class="card span-5"><div class="card-head"><h2>Thị phần thảo luận <button type="button" class="info" aria-label="Giải thích" title="Mỗi nguồn chiếm bao nhiêu % phản hồi có ngày đăng trong kỳ. Bấm để lọc danh sách.">ⓘ</button></h2></div><div class="donut-wrap"><canvas id="shareDonut" aria-label="Thị phần thảo luận theo nguồn"></canvas><div id="shareCenter" class="donut-center"></div></div><div id="shareLegend" class="donut-legend"></div></article>
+        <article class="card span-7"><div class="card-head"><h2>Tỷ lệ cảm xúc theo nguồn <button type="button" class="info" aria-label="Giải thích" title="So sánh nhanh nguồn nào tích cực hơn, nguồn nào có nhiều phản hồi tiêu cực">ⓘ</button></h2></div><div id="sourceMix" class="mix-list"></div><div class="legend" style="margin-top:10px"><span><i class="dot positive-bg"></i>Tích cực</span><span><i class="dot negative-bg"></i>Tiêu cực</span><span><i class="dot mixed-bg"></i>Đan xen</span><span><i class="dot neutral-bg"></i>Trung tính</span></div></article>
       </section>
       <p id="sourceCoverage" class="coverage-note"></p>
       <section id="sourceCards" class="source-cards"></section>
       <details id="sourcePending" class="card pending-list" hidden></details>
       <section class="grid">
-        <article class="card span-12"><div class="card-head"><h2>Phản hồi theo nguồn <span class="info" title="Mỗi group, fanpage, kênh YouTube và store đóng góp bao nhiêu phản hồi · bấm tên nguồn để lọc danh sách">ⓘ</span></h2></div>
+        <article class="card span-12"><div class="card-head"><h2>Phản hồi theo nguồn <button type="button" class="info" aria-label="Giải thích" title="Mỗi group, fanpage, kênh YouTube và store đóng góp bao nhiêu phản hồi · bấm tên nguồn để lọc danh sách">ⓘ</button></h2></div>
           <div class="scroll"><table class="responsive-table"><thead><tr><th>Nguồn</th><th class="num">Phản hồi</th><th class="num">Tích cực</th><th class="num">Tiêu cực</th><th>Loại nội dung chính</th><th>Từ khoá nổi bật</th></tr></thead><tbody id="sourceSummary"></tbody></table></div>
           <details class="more"><summary>Chi tiết số lượng theo ngày và nguồn</summary><p class="muted small">Chỉ tính nội dung xác định được ngày đăng trong kỳ đã chọn.</p><div class="scroll"><table class="responsive-table"><thead><tr><th>Ngày</th><th>Nguồn</th><th class="num">Tổng</th><th class="num">Tích cực</th><th class="num">Tiêu cực</th><th class="num">Trung tính</th><th class="num">Đan xen</th></tr></thead><tbody id="sourceRows"></tbody></table></div></details>
         </article>
@@ -426,13 +527,13 @@
 
     <!-- TAB 3: Đánh giá store — điểm rating Sensor Tower theo app và review có nội dung trong kỳ -->
     <div class="tab-panel" data-panel="store" hidden>
-      <div class="section-title"><h2>Điểm rating trên store <span class="info" title="Sensor Tower cập nhật theo tuần · tính riêng app Play Together VNG; app Global (HAEGIN) chỉ để tham chiếu">ⓘ</span></h2></div>
+      <div class="section-title"><h2>Điểm rating trên store <button type="button" class="info" aria-label="Giải thích" title="Sensor Tower cập nhật theo tuần · tính riêng app Play Together VNG; app Global (HAEGIN) chỉ để tham chiếu">ⓘ</button></h2></div>
       <section id="ratingCards" class="kpi-band kpi-3"></section>
       <section class="grid">
-        <article class="card span-12"><div class="card-head"><h2>Điểm rating Play Together VNG theo tuần <span class="info" title="Điểm tích lũy (đường liền): trung bình mọi lượt đánh giá từ trước đến nay, thay đổi chậm. Điểm lượt mới (đường đứt): trung bình lượt đánh giá mới trong tuần, phản ánh cảm nhận gần đây. Lượt mới thấp hơn tích lũy nhiều tuần liền là dấu hiệu điểm sẽ giảm. Nguồn Sensor Tower theo ngày (Google Play từ 13/04/2026, App Store từ 04/07/2026), gộp thành tuần bắt đầu thứ Hai. Số lượt mới Google Play là ước tính nên có thể lẻ, ngày có số âm không được tính.">ⓘ</span></h2><p id="ratingCaption" class="caption"></p></div><div class="chart-wrap"><canvas id="ratingChart" aria-label="Biểu đồ điểm rating Google Play và App Store theo tuần"></canvas></div></article>
-        <article class="card span-12"><div class="card-head"><h2>Điểm theo ứng dụng <span class="info" id="ratingTableInfo" title="">ⓘ</span></h2><p id="ratingTableCaption" class="caption" hidden></p></div><div class="scroll"><table class="responsive-table"><thead><tr><th>Ứng dụng</th><th>Nền tảng</th><th class="num">Điểm tích lũy</th><th class="num">Tổng lượt</th><th class="num">Điểm lượt mới</th><th class="num">Lượt mới</th><th>Cập nhật</th></tr></thead><tbody id="ratingRows"></tbody></table></div></article>
+        <article class="card span-12"><div class="card-head"><h2>Điểm rating Play Together VNG theo tuần <button type="button" class="info" aria-label="Giải thích" title="Điểm tích lũy (đường liền): trung bình mọi lượt đánh giá từ trước đến nay, thay đổi chậm. Điểm lượt mới (đường đứt): trung bình lượt đánh giá mới trong tuần, phản ánh cảm nhận gần đây. Lượt mới thấp hơn tích lũy nhiều tuần liền là dấu hiệu điểm sẽ giảm. Nguồn Sensor Tower theo ngày (Google Play từ 13/04/2026, App Store từ 04/07/2026), gộp thành tuần bắt đầu thứ Hai. Số lượt mới Google Play là ước tính nên có thể lẻ, ngày có số âm không được tính.">ⓘ</button></h2><p id="ratingCaption" class="caption"></p></div><div class="chart-wrap"><canvas id="ratingChart" aria-label="Biểu đồ điểm rating Google Play và App Store theo tuần"></canvas></div></article>
+        <article class="card span-12"><div class="card-head"><h2>Điểm theo ứng dụng <button type="button" class="info" aria-label="Giải thích" id="ratingTableInfo" title="">ⓘ</button></h2><p id="ratingTableCaption" class="caption" hidden></p></div><div class="scroll"><table class="responsive-table"><thead><tr><th>Ứng dụng</th><th>Nền tảng</th><th class="num">Điểm tích lũy</th><th class="num">Tổng lượt</th><th class="num">Điểm lượt mới</th><th class="num">Lượt mới</th><th>Cập nhật</th></tr></thead><tbody id="ratingRows"></tbody></table></div></article>
       </section>
-      <div class="section-title"><h2>Review có nội dung <span class="info" title="Review Google Play / App Store có ngày đăng trong kỳ đang chọn">ⓘ</span></h2><p id="storeReviewScope" class="caption"></p></div>
+      <div class="section-title"><h2>Review có nội dung <button type="button" class="info" aria-label="Giải thích" title="Review Google Play / App Store có ngày đăng trong kỳ đang chọn">ⓘ</button></h2><p id="storeReviewScope" class="caption"></p></div>
       <section id="storeKpis" class="kpi-band kpi-4"></section>
       <div id="storeEmpty"></div>
       <section id="storeLists" class="grid">
@@ -446,11 +547,13 @@
     <!-- TAB 4: Danh sách phản hồi — đọc bản dịch và nguyên văn -->
     <div class="tab-panel" data-panel="feedback" hidden>
     <section id="explorer" class="card">
-      <div class="explorer-tools"><div><h2>Danh sách phản hồi <span class="info" title="Mới nhất trước · Bản dịch tiếng Việt được đặt trước nguyên văn · bấm “Nguyên văn” để xem tiếng Thái">ⓘ</span></h2><span id="pageInfoTop" class="muted small"></span></div><div class="explorer-actions"><label class="checkline"><input id="includeUndated" type="checkbox"> Gồm <span id="undatedCount">0</span> mục chưa rõ ngày</label><button id="exportCsv" class="btn sm">Tải CSV</button></div></div>
+      <div class="explorer-tools"><div><h2>Danh sách phản hồi <button type="button" class="info" aria-label="Giải thích" title="Mới nhất trước · Bản dịch tiếng Việt được đặt trước nguyên văn · bấm “Nguyên văn” để xem tiếng Thái">ⓘ</button></h2><span id="pageInfoTop" class="muted small"></span></div><div class="explorer-actions"><button id="exportCsv" class="btn sm">Tải CSV</button></div></div>
       <div class="quick-sent" role="group" aria-label="Lọc nhanh theo cảm xúc"><button data-quick-sent="" class="active">Tất cả</button><button data-quick-sent="Positive">Tích cực</button><button data-quick-sent="Negative">Tiêu cực</button><button data-quick-sent="Mixed">Đan xen</button><button data-quick-sent="Neutral">Trung tính</button></div>
-      <div class="filters">
-        <label>Ngày<select id="dateFilter"></select></label><label>Nguồn<select id="sourceFilter"></select></label><label>Cảm xúc<select id="sentimentFilter"></select></label><label>Loại nội dung<select id="activityFilter"></select></label><label>Từ khoá<select id="themeFilter"></select></label><label class="search">Tìm nội dung<input id="keywordFilter" type="search" placeholder="Tìm trong bản dịch, nguyên văn, tóm tắt, từ khoá"></label>
-      </div>
+      <label class="feedback-search">Tìm nội dung<input id="keywordFilter" type="search" placeholder="Tìm trong bản dịch, nguyên văn, tóm tắt, từ khoá"></label>
+      <details id="advancedFilters" class="filter-panel" open><summary>Bộ lọc <span id="filterCount" class="tab-count">0</span></summary>
+        <div class="filters"><label>Ngày<select id="dateFilter"></select></label><label>Nguồn<select id="sourceFilter"></select></label><label>Cảm xúc<select id="sentimentFilter"></select></label><label>Loại nội dung<select id="activityFilter"></select></label><label>Từ khoá<select id="themeFilter"></select></label></div>
+        <div class="filter-checks"><label class="checkline"><input id="issuesOnly" type="checkbox"> Chỉ phản hồi cần xem</label><label class="checkline"><input id="includeUndated" type="checkbox"> Gồm <span id="undatedCount">0</span> mục chưa rõ ngày</label></div>
+      </details>
       <div id="activeFilters" class="active-filters" hidden></div>
       <div id="feedbackRows" class="feed-list"></div>
       <div class="pagination"><span id="pageInfo" class="muted small"></span><div><button id="prevPage" class="btn">Trước</button> <button id="nextPage" class="btn">Sau</button></div></div>
@@ -460,6 +563,7 @@
     <details class="card notes"><summary>Ghi chú về dữ liệu</summary><ul id="dataNotes"></ul></details>
   </main>
   <dialog id="helpDialog" class="help-dialog"><div class="help-head"><h2>Cách hoạt động</h2><div><button id="copyHelp" class="btn" title="Chép toàn bộ nội dung dạng Markdown để dán cho AI ở chat khác">Sao chép cho AI</button> <a id="helpRaw" class="btn" href="how-it-works.md" target="_blank" rel="noopener">Mở bản thô</a> <button class="btn" onclick="this.closest('dialog').close()">Đóng</button></div></div><div id="helpBody" class="help-body">Đang tải…</div></dialog>
+  <dialog id="infoDialog"><button class="btn close" onclick="this.closest('dialog').close()">Đóng</button><h2>Giải thích</h2><p id="infoContent"></p></dialog>
   <dialog id="themeDialog"><button class="btn close" onclick="this.closest('dialog').close()">Đóng</button><div id="themeDetail"></div></dialog>
   <script>
   (() => {
@@ -559,6 +663,7 @@
     // Loại nội dung (người chơi đang làm gì). Mục chưa được phân loại lại sẽ suy ra từ nhãn hoạt động cũ.
     const INTENTS = { question:'Hỏi / cần hỗ trợ', answer:'Trả lời / hướng dẫn', share:'Chia sẻ / khoe thành quả', event_entry:'Tham gia sự kiện', bug:'Báo lỗi / bug', performance:'Crash / lag / hiệu năng', account:'Tài khoản / đăng nhập', complaint:'Phàn nàn', suggestion:'Góp ý / đề xuất', praise:'Khen / thích', trade:'Mua bán / trao đổi', social:'Tìm bạn / giao lưu', chat:'Trò chuyện chung' };
     const ISSUE_INTENTS = ['bug','performance','account'];
+    const needsActionFeedback = item => [...ISSUE_INTENTS,'complaint'].includes(intentOf(item));
     const intentOf = item => item.intent || (item.activity_type==='Rao bán / trao đổi'?'trade':item.activity_type==='Khoe / tham gia hoạt động'?'share':item.activity_type==='Hỏi đáp / báo lỗi'?'question':Number.isFinite(item.rating)?(item.rating>=4?'praise':item.rating<=2?'complaint':'chat'):'chat');
     const intentLabel = item => INTENTS[intentOf(item)] || intentOf(item);
     const keywordsOf = item => Array.isArray(item.keywords) ? item.keywords : [];
@@ -650,7 +755,7 @@
         if(calendarDates($('#fromDate').value,$('#toDate').value).length>90)throw new Error('Mỗi lần xem tối đa 90 ngày để bảo đảm báo cáo dễ đọc.');
       }
     }
-    function resetExplorer(){['dateFilter','sourceFilter','sentimentFilter','activityFilter','themeFilter','keywordFilter'].forEach(id=>{$(`#${id}`).value=''});$('#includeUndated').checked=false;state.page=1}
+    function resetExplorer(){['dateFilter','sourceFilter','sentimentFilter','activityFilter','themeFilter','keywordFilter'].forEach(id=>{$(`#${id}`).value=''});$('#includeUndated').checked=false;$('#issuesOnly').checked=false;state.page=1}
     async function apply(){
       try{
         validateSelection();document.querySelector('main').classList.add('loading');$('#periodLabel').textContent='Đang tải dữ liệu…';
@@ -678,11 +783,26 @@
       const items=selectedItems(),raw=rawSelectedItems(),undated=raw.length-items.length,alerts=state.selected.flatMap(d=>(d.alerts||[]).map(a=>({...a,date:d.date}))),previous=previousItems();
       $('#periodLabel').textContent=`Kỳ phân tích: ${periodLabel()}`;
       $('#scopeNote').textContent=`${fmt.format(items.length)} phản hồi có ngày đăng${undated?` · ${fmt.format(undated)} nội dung chưa rõ ngày được tách riêng`:''}`;
-      $('#summaryTitle').textContent=`Nhận định cho kỳ ${periodLabel()}`;
+      $('#summaryTitle').textContent='Nhận định cho kỳ';
       $('#undatedCount').textContent=fmt.format(undated);
       $('#includeUndated').disabled=!undated;
-      renderSummary(items,previous,alerts,undated);renderKpis(items,previous);renderVoice(items,previous,alerts);renderCharts();renderDonut(items);renderIntents(items);renderKeywords(items,previous);renderSourceKpis(items,previous);renderSourceCards(items,previous);renderSourceSummary(items);renderSources();renderStore(items,previous);renderNotes(items,undated);setupFilters(items);renderFeedback();
+      renderPriority(items,alerts);renderSummary(items,previous,alerts,undated);renderKpis(items,previous);renderVoice(items,previous,alerts);renderCharts();renderDonut(items);renderIntents(items);renderKeywords(items,previous);renderSourceKpis(items,previous);renderSourceCards(items,previous);renderSourceSummary(items);renderSources();renderStore(items,previous);renderNotes(items,undated);setupFilters(items);renderFeedback();
       $('#alertBadge').hidden=!alerts.length;$('#alertBadge').textContent=`${alerts.length} cảnh báo cần xem`;
+    }
+    function renderPriority(items,alerts){
+      const urgent=alerts.filter(a=>['P0','P1'].includes(a.level)),issues=items.filter(needsActionFeedback);
+      $('#priorityPanel').innerHTML=`<h2>Cần xem trước</h2><div class="priority-stats"><span><strong>${urgent.length}</strong> cảnh báo P0/P1</span><span><strong>${issues.length}</strong> phản hồi cần xem</span></div><p>${urgent.length?urgent.slice(0,2).map(a=>`<b>${esc(a.level)} · ${esc(a.title)}</b>`).join('<br>'):'Không có cảnh báo P0/P1 trong kỳ.'}</p><div class="priority-actions">${urgent.length?'<button id="viewAlerts" class="btn">Xem cảnh báo</button>':''}<button id="viewIssues" class="btn" ${issues.length?'':'disabled'}>Đọc phản hồi cần xem</button></div>`;
+      $('#actionCounts').textContent=`· ${urgent.length} cảnh báo · ${issues.length} phản hồi`;
+      if($('#viewAlerts'))$('#viewAlerts').onclick=openActions;
+      $('#viewIssues').onclick=()=>focusExplorer({issuesOnly:true});
+    }
+    function openActions(){setTab('overview');$('#actionDetails').open=true;$('#actionDetails').querySelector('summary').focus({preventScroll:true});$('#actionDetails').scrollIntoView({behavior:'smooth',block:'start'});}
+    // Compare sentiment shares in percentage points; small prior samples use counts.
+    function sentimentShareDelta(current,previous,total,previousTotal,goodUp){
+      if(!previousTotal)return {text:'Kỳ trước chưa có phản hồi',tone:''};
+      if(previousTotal<10)return {text:`Số phản hồi: ${deltaShort(current,previous)}`,tone:''};
+      const change=Math.round((current/Math.max(1,total)-previous/previousTotal)*1000)/10;
+      return {text:change?`Tỷ lệ: ${change>0?'tăng':'giảm'} ${fmt.format(Math.abs(change))} điểm %`:'Tỷ lệ không đổi',tone:change===0?'':((change>0)===goodUp?'good':'bad')};
     }
     function renderSummary(items,previous,alerts,undated){
       const s=bySentiment(items),opinion=s.Positive+s.Negative+s.Mixed,topPos=countKeywords(items.filter(i=>i.sentiment==='Positive'&&isOpinion(i)))[0],topNeg=countKeywords(items.filter(i=>i.sentiment==='Negative'&&isOpinion(i)))[0],intents=countBy(items,intentLabel),topSource=countBy(items,channelName)[0],tags=countKeywords(items).slice(0,6),issues=items.filter(i=>ISSUE_INTENTS.includes(intentOf(i)));
@@ -723,12 +843,12 @@
       const card=({label,value,unit='',sub,delta,cls='',spark:sp,color,action})=>`<article class="kpi-card ${cls}" ${action?`data-kpi-action="${action}" role="button" tabindex="0"`:''}><span class="kpi-label">${label}</span><span class="kpi-value">${value}<small>${unit}</small></span>${delta?`<span class="kpi-delta ${delta.tone}">${delta.text}</span>`:''}${sub?`<span class="kpi-sub">${sub}</span>`:''}${sp?spark(sp,color):''}</article>`;
       $('#kpis').innerHTML=[
         card({label:'Tổng phản hồi',value:fmt.format(n),delta:{text:deltaShort(n,previous.length),tone:''},sub:`${new Set(items.map(channelName)).size} nguồn có phản hồi`,spark:series(()=>true),color:cssVar('--brand'),action:'feedback'}),
-        card({label:'Tích cực',value:pct(s.Positive,n).replace('%',''),unit:'%',cls:'pos',delta:{text:deltaShort(s.Positive,p.Positive),tone:tone(s.Positive-p.Positive,true)},sub:`${fmt.format(s.Positive)} phản hồi`,spark:series(i=>i.sentiment==='Positive'),color:cssVar('--positive'),action:'Positive'}),
-        card({label:'Tiêu cực',value:pct(s.Negative,n).replace('%',''),unit:'%',cls:'neg',delta:{text:deltaShort(s.Negative,p.Negative),tone:tone(s.Negative-p.Negative,false)},sub:`${fmt.format(s.Negative)} phản hồi`,spark:series(i=>i.sentiment==='Negative'),color:cssVar('--negative'),action:'Negative'}),
-        card({label:'Cần xử lý',value:fmt.format(issues.length),cls:issues.length?'warn':'',delta:{text:deltaShort(issues.length,prevIssues),tone:tone(issues.length-prevIssues,false)},sub:`${byI('bug')} lỗi · ${byI('performance')} crash/lag · ${byI('account')} tài khoản · ${byI('complaint')} phàn nàn`,spark:series(i=>[...ISSUE_INTENTS,'complaint'].includes(intentOf(i))),color:cssVar('--mixed'),action:'issues'}),
+        card({label:'Tích cực',value:pct(s.Positive,n).replace('%',''),unit:'%',cls:'pos',delta:sentimentShareDelta(s.Positive,p.Positive,n,previous.length,true),sub:`${fmt.format(s.Positive)} phản hồi`,spark:series(i=>i.sentiment==='Positive'),color:cssVar('--positive'),action:'Positive'}),
+        card({label:'Tiêu cực',value:pct(s.Negative,n).replace('%',''),unit:'%',cls:'neg',delta:sentimentShareDelta(s.Negative,p.Negative,n,previous.length,false),sub:`${fmt.format(s.Negative)} phản hồi`,spark:series(i=>i.sentiment==='Negative'),color:cssVar('--negative'),action:'Negative'}),
+        card({label:'Phản hồi cần xem',value:fmt.format(issues.length),cls:issues.length?'warn':'',delta:{text:deltaShort(issues.length,prevIssues),tone:tone(issues.length-prevIssues,false)},sub:`${byI('bug')} lỗi · ${byI('performance')} crash/lag · ${byI('account')} tài khoản · ${byI('complaint')} phàn nàn`,spark:series(i=>[...ISSUE_INTENTS,'complaint'].includes(intentOf(i))),color:cssVar('--mixed'),action:'issues'}),
         card({label:'Điểm store VNG',value:gp?gp.value.toFixed(2):'–',unit:' GP',sub:`App Store ${ios?ios.value.toFixed(2):'–'} · cập nhật ${gp?shortDate(gp.date):'–'}`,action:'store'})
       ].join('');
-      document.querySelectorAll('[data-kpi-action]').forEach(el=>el.onclick=()=>{const a=el.dataset.kpiAction; if(a==='store') setTab('store'); else if(a==='issues'){ document.querySelector('.voice-card.action').scrollIntoView({behavior:'smooth',block:'center'}) } else if(a==='feedback') focusExplorer({}); else focusExplorer({sentimentFilter:a})});
+      document.querySelectorAll('[data-kpi-action]').forEach(el=>el.onclick=()=>{const a=el.dataset.kpiAction; if(a==='store') setTab('store'); else if(a==='issues') focusExplorer({issuesOnly:true}); else if(a==='feedback') focusExplorer({}); else focusExplorer({sentimentFilter:a})});
     }
     function keywordBlock(items,previous,sentiment){
       const subset=items.filter(i=>i.sentiment===sentiment&&isOpinion(i)),prev=previous.filter(i=>i.sentiment===sentiment&&isOpinion(i)),ranked=countKeywords(subset).slice(0,5);
@@ -857,8 +977,9 @@
       $('#sourcePending').hidden=!pending.length;
       $('#sourcePending').innerHTML=`<summary>${pending.length} nguồn chưa có dữ liệu <span class="muted small">(chờ duyệt, chưa thu thập hoặc không có bài mới) · bấm để xem</span></summary>`+pending.map(e=>`<div class="pending-row"><span class="status-chip status-${esc(e.status)}">${esc(statusText(e.status))}</span><span><strong>${esc(sourceLabel(e.key))}</strong><br><span class="muted small">${esc(e.detail||'')}</span></span>${e.url?`<a class="small" href="${esc(e.url)}" target="_blank" rel="noopener">Mở ↗</a>`:'<span></span>'}</div>`).join('');
       $('#sourceCards').innerHTML=entries.filter(e=>!pending.includes(e)).map(e=>{const name=e.key,group=items.filter(i=>channelName(i)===name),before=previous.filter(i=>channelName(i)===name).length,s=bySentiment(group),trend=state.context.map(d=>timelineItems(d).filter(i=>channelName(i)===name).length),d=group.length-before,noData=idleStatus(e.status),und=undated.filter(i=>channelName(i)===name).length;
-        const body=noData?`<span class="sub">${esc(e.detail||'')}</span>`:`${spark(trend,cssVar('--brand'))}<span class="sub">${esc(sourceKind(name,group))}${und?` · ${und} chưa rõ ngày`:''}</span><span class="sub">${group.length?`<span class="pos-text">${s.Positive} tích cực</span> · <span class="neg-text">${s.Negative} tiêu cực</span> · `:''}kỳ trước ${before}</span>${group.length?`<span class="sub">Từ khoá: ${countKeywords(group).slice(0,3).map(([k])=>esc(k)).join(', ')}</span>`:''}${e.detail?`<span class="sub muted-note">${esc(e.detail)}</span>`:''}`;
-        return`<${group.length?'button':'div'} class="card source-card ${noData?'no-data':''}" ${group.length?`data-filter-source="${esc(name)}" title="Lọc danh sách theo nguồn này"`:''}><span class="label">${esc(sourceLabel(name))}</span><span class="status-chip status-${esc(e.status)}">${esc(statusText(e.status))}</span><span class="value">${noData?'–':fmt.format(group.length)} ${!noData&&d?`<span class="delta-chip neutral-chip">${d>0?'▲':'▼'} ${Math.abs(d)}</span>`:''}</span>${body}</${group.length?'button':'div'}>`}).join('')||'<div class="card empty">Không có phản hồi xác định được ngày đăng trong kỳ.</div>';
+        const body=noData?`<span class="sub">${esc(e.detail||'')}</span>`:`${spark(trend,cssVar('--brand'))}<span class="sub">${esc(sourceKind(name,group))}${und?` · ${und} chưa rõ ngày`:''}</span><span class="sub">${group.length?`<span class="pos-text">${s.Positive} tích cực</span> · <span class="neg-text">${s.Negative} tiêu cực</span> · `:''}kỳ trước ${before}</span>${group.length?`<span class="sub">Từ khoá: ${countKeywords(group).slice(0,3).map(([k])=>esc(k)).join(', ')}</span>`:''}`;
+        const heading=`<span class="label">${esc(sourceLabel(name))}</span><span class="value">${noData?'–':fmt.format(group.length)} ${!noData&&d?`<span class="delta-chip neutral-chip">${d>0?'▲':'▼'} ${Math.abs(d)}</span>`:''}</span>`;
+        return`<div class="card source-card ${noData?'no-data':''}">${group.length?`<button class="source-card-open" data-filter-source="${esc(name)}" title="Lọc danh sách theo nguồn này">${heading}</button>`:`<div class="source-card-open">${heading}</div>`}<span class="status-chip status-${esc(e.status)}">${esc(statusText(e.status))}</span>${noData?'':body}${e.detail?`<details class="source-scope"><summary>Phạm vi thu thập</summary><p>${esc(e.detail)}</p></details>`:''}</div>`}).join('')||'<div class="card empty">Không có phản hồi xác định được ngày đăng trong kỳ.</div>';
       const rows=countBy(items,channelName);
       $('#sourceMix').innerHTML=rows.map(([name,count])=>{const s=bySentiment(items.filter(i=>channelName(i)===name));return`<div class="mix-row"><span class="name">${esc(sourceLabel(name))} <small class="muted">${count}</small></span><div class="mix-bar">${SENTIMENTS.map(k=>s[k]?`<span class="${k.toLowerCase()}-bg" style="width:${s[k]/count*100}%" title="${sentimentLabel(k)}: ${s[k]}">${s[k]/count>=.12?`${pct(s[k],count)} (${s[k]})`:''}</span>`:'').join('')}</div></div>`}).join('')||'<p class="empty-note">Chưa có dữ liệu trong kỳ.</p>';
     }
@@ -923,7 +1044,7 @@
       document.querySelectorAll('[data-panel]').forEach(p=>{p.hidden=p.dataset.panel!==name;p.classList.toggle('active',p.dataset.panel===name)});
       if(location.hash!==`#${name}`)history.replaceState(null,'',`#${name}`);
       Object.values(state.charts).forEach(c=>c.resize());
-      const top=$('.tabs').getBoundingClientRect().top+scrollY-8;if(scrollY>top)scrollTo({top});
+      const top=$('.period-bar').getBoundingClientRect().bottom+scrollY;if(scrollY>top)scrollTo({top});
     }
     function renderSources(){
       const rows=state.selected.flatMap(day=>{const items=timelineItems(day),sources=[...new Set(items.map(channelName))];return sources.map(source=>({date:day.date,source,rows:items.filter(i=>channelName(i)===source)}))}).sort((a,b)=>b.date.localeCompare(a.date)||b.rows.length-a.rows.length);
@@ -954,10 +1075,20 @@
       $('#themeFilter').innerHTML='<option value="">Tất cả</option>'+countKeywords(items).map(([k,c])=>`<option value="${esc(k)}">${esc(k)} (${c})</option>`).join('');
       for(const[id,value]of Object.entries(keep))if([...$(`#${id}`).options].some(o=>o.value===value))$(`#${id}`).value=value;
     }
-    function focusExplorer(filters){resetExplorer();setupFilters(explorerItems());for(const[id,value]of Object.entries(filters))$(`#${id}`).value=value;renderFeedback();setTab('feedback');$('.tabs').scrollIntoView({behavior:'smooth',block:'start'})}
-    function filterItems(){const query=$('#keywordFilter').value.trim().toLocaleLowerCase();state.filtered=explorerItems().filter(item=>(!$('#dateFilter').value||item.date===$('#dateFilter').value)&&(!$('#sourceFilter').value||channelName(item)===$('#sourceFilter').value)&&(!$('#activityFilter').value||intentOf(item)===$('#activityFilter').value)&&(!$('#sentimentFilter').value||item.sentiment===$('#sentimentFilter').value)&&(!$('#themeFilter').value||keywordsOf(item).includes($('#themeFilter').value))&&(!query||`${item.text_th||''} ${item.text_vn||''} ${item.summary_vn||''} ${item.text_en||''} ${item.summary_en||''} ${keywordsOf(item).join(' ')}`.toLocaleLowerCase().includes(query))).sort((a,b)=>itemTime(b)-itemTime(a))}
+    function focusExplorer(filters){resetExplorer();setupFilters(explorerItems());for(const[id,value]of Object.entries(filters)){const el=$(`#${id}`);if(el.type==='checkbox')el.checked=Boolean(value);else el.value=value;}renderFeedback();setTab('feedback');scrollTo({top:$('.period-bar').getBoundingClientRect().bottom+scrollY,behavior:'smooth'})}
+    function filterItems(){const query=$('#keywordFilter').value.trim().toLocaleLowerCase();state.filtered=explorerItems().filter(item=>(!$('#issuesOnly').checked||needsActionFeedback(item))&&(!$('#dateFilter').value||item.date===$('#dateFilter').value)&&(!$('#sourceFilter').value||channelName(item)===$('#sourceFilter').value)&&(!$('#activityFilter').value||intentOf(item)===$('#activityFilter').value)&&(!$('#sentimentFilter').value||item.sentiment===$('#sentimentFilter').value)&&(!$('#themeFilter').value||keywordsOf(item).includes($('#themeFilter').value))&&(!query||`${item.text_th||''} ${item.text_vn||''} ${item.summary_vn||''} ${item.text_en||''} ${item.summary_en||''} ${keywordsOf(item).join(' ')}`.toLocaleLowerCase().includes(query))).sort((a,b)=>itemTime(b)-itemTime(a))}
     function engagementText(item){if(!item.engagement)return item.rating?`${item.rating}★`:'';const parts=(item.engagement.reactions||[]).map(value=>isEn()?String(value):String(value).replace(/people|person/gi,'người'));if(item.engagement.comment_count)parts.push(isEn()?`${item.engagement.comment_count} comments`:`${item.engagement.comment_count} bình luận`);return parts.join('; ')}
-    function renderActiveFilters(){const labels={dateFilter:'Ngày',sourceFilter:'Nguồn',sentimentFilter:'Cảm xúc',activityFilter:'Loại nội dung',themeFilter:'Từ khoá'},active=Object.keys(labels).filter(id=>$(`#${id}`).value);$('#activeFilters').hidden=!active.length;$('#activeFilters').innerHTML=active.length?`Đang lọc: ${active.map(id=>`<strong>${labels[id]}: ${esc($(`#${id}`).selectedOptions[0]?.textContent||'')}</strong>`).join(' · ')} <button id="clearFilters" class="link-btn">Bỏ lọc</button>`:'';if(active.length)$('#clearFilters').onclick=()=>{const undated=$('#includeUndated').checked;resetExplorer();$('#includeUndated').checked=undated;setupFilters(explorerItems());renderFeedback()}}
+    function renderActiveFilters(){
+      const labels={dateFilter:'Ngày',sourceFilter:'Nguồn',sentimentFilter:'Cảm xúc',activityFilter:'Loại nội dung',themeFilter:'Từ khoá'},active=Object.keys(labels).filter(id=>$(`#${id}`).value);
+      const chips=active.map(id=>`<strong>${labels[id]}: ${esc($(`#${id}`).selectedOptions[0]?.textContent||'')}</strong>`);
+      if($('#issuesOnly').checked)chips.push('<strong>Chỉ phản hồi cần xem</strong>');
+      if($('#includeUndated').checked)chips.push('<strong>Gồm nội dung chưa rõ ngày</strong>');
+      if($('#keywordFilter').value.trim())chips.push(`<strong>Tìm nội dung: ${esc($('#keywordFilter').value.trim())}</strong>`);
+      $('#filterCount').textContent=active.length+Number($('#issuesOnly').checked)+Number($('#includeUndated').checked);
+      $('#activeFilters').hidden=!chips.length;
+      $('#activeFilters').innerHTML=chips.length?`Đang lọc: ${chips.join(' · ')} <button id="clearFilters" class="btn sm">Bỏ lọc</button>`:'';
+      if(chips.length)$('#clearFilters').onclick=()=>{resetExplorer();setupFilters(explorerItems());renderFeedback()};
+    }
     function renderFeedback(){
       filterItems();renderActiveFilters();const size=30,total=Math.max(1,Math.ceil(state.filtered.length/size));state.page=Math.min(state.page,total);const rows=state.filtered.slice((state.page-1)*size,state.page*size);
       $('#feedbackRows').innerHTML=rows.map(i=>`<article class="feed-item ${esc(i.sentiment)}">
@@ -978,10 +1109,16 @@
     document.querySelectorAll('[data-mode]').forEach(button=>button.onclick=async()=>{clearPresets();setMode(button.dataset.mode);await apply()});
     $('#dayPicker').onchange=async()=>{clearPresets();await apply()};$('#fromDate').onchange=clearPresets;$('#toDate').onchange=clearPresets;$('#applyRange').onclick=apply;
     document.querySelectorAll('[data-days]').forEach(button=>button.onclick=async()=>{const latest=state.index.latest_with_data||state.index.dates.at(-1),end=button.dataset.days==='yesterday'?yesterdayInBangkok():latest;document.querySelectorAll('.preset').forEach(x=>x.classList.toggle('active',x===button));if(button.dataset.days==='yesterday'){setMode('day');$('#dayPicker').value=end}else{setMode('range');$('#toDate').value=end;$('#fromDate').value=button.dataset.days==='month'?`${end.slice(0,7)}-01`:dateAdd(end,-Number(button.dataset.days)+1)}await apply()});
-    document.querySelectorAll('.filters select,.filters input').forEach(el=>el.addEventListener(el.type==='search'?'input':'change',()=>{state.page=1;renderFeedback()}));
+    document.querySelectorAll('.filters select,#keywordFilter,#issuesOnly').forEach(el=>el.addEventListener(el.type==='search'?'input':'change',()=>{state.page=1;renderFeedback()}));
     $('#includeUndated').onchange=()=>{state.page=1;setupFilters(explorerItems());renderFeedback()};
     $('#copyReport').onclick=copyReport;
     document.querySelectorAll('[data-quick-sent]').forEach(b=>b.onclick=()=>{const sel=$('#sentimentFilter');sel.value=[...sel.options].some(o=>o.value===b.dataset.quickSent)?b.dataset.quickSent:'';state.page=1;renderFeedback()});
+    const compactLayout=matchMedia('(max-width:760px)');
+    const adaptFilters=()=>{$('#advancedFilters').open=!compactLayout.matches};
+    adaptFilters();compactLayout.addEventListener('change',adaptFilters);
+    document.querySelectorAll('[data-rank-target]').forEach(button=>button.onclick=()=>{const list=$(`#${button.dataset.rankTarget}`),expanded=list.dataset.expanded!=='true';list.dataset.expanded=String(expanded);button.setAttribute('aria-expanded',String(expanded));button.textContent=expanded?'Thu gọn':'Xem tất cả'});
+    document.addEventListener('keydown',event=>{const card=event.target.closest('[data-kpi-action]');if(card&&['Enter',' '].includes(event.key)){event.preventDefault();card.click()}});
+    document.addEventListener('click',event=>{const info=event.target.closest('button.info');if(!info)return;$('#infoContent').textContent=tr(info.title||'Chưa có phần giải thích.');$('#infoDialog').showModal()});
     $('#customToggle').onclick=()=>{const c=document.querySelector('.controls');c.classList.toggle('open');$('#customToggle').setAttribute('aria-expanded',c.classList.contains('open'))};
     // Tài liệu "Cách hoạt động" (public/how-it-works.md) hiển thị trong hộp thoại; Markdown đơn giản được chuyển sang HTML tại chỗ.
     function markdownToHtml(md){
@@ -1001,7 +1138,7 @@
     $('#helpToggle').onclick=async()=>{ $('#helpDialog').showModal(); if(!helpText||$('#helpBody').dataset.lang!==I18N.lang){ $('#helpBody').dataset.lang=I18N.lang;$('#helpRaw').href=isEn()?'how-it-works.en.md':'how-it-works.md'; try{ helpText=await fetch(isEn()?'how-it-works.en.md':'how-it-works.md',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.text()}); $('#helpBody').innerHTML=markdownToHtml(helpText) }catch(e){ $('#helpBody').textContent='Không tải được tài liệu how-it-works.md.' } } };
     $('#copyHelp').onclick=async()=>{const button=$('#copyHelp');try{await navigator.clipboard.writeText(helpText)}catch{const area=document.createElement('textarea');area.value=helpText;document.body.append(area);area.select();document.execCommand('copy');area.remove()}button.textContent='Đã chép ✓';setTimeout(()=>{button.textContent='Sao chép cho AI'},2000)};
     $('#prevPage').onclick=()=>{state.page--;renderFeedback()};$('#nextPage').onclick=()=>{state.page++;renderFeedback()};$('#exportCsv').onclick=exportCsv;
-    $('#alertBadge').onclick=()=>{setTab('overview');document.querySelector('.voice-card.action').scrollIntoView({behavior:'smooth',block:'center'})};
+    $('#alertBadge').onclick=openActions;
     document.querySelectorAll('[data-tab]').forEach(button=>button.onclick=()=>setTab(button.dataset.tab));
     document.querySelectorAll('[data-group],[data-scale],[data-view]').forEach(button=>button.onclick=()=>{const attr=button.dataset.group?'group':button.dataset.scale?'scale':'view',key={group:'trendGroup',scale:'trendScale',view:'trendView'}[attr];state[key]=button.dataset[attr];document.querySelectorAll(`[data-${attr}]`).forEach(b=>b.classList.toggle('active',b===button));if(state.selected.length)renderCharts()});
     setTab(location.hash.slice(1)||'overview');

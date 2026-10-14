@@ -118,3 +118,11 @@ Translations must be clear on first read and fit the game context. No word-by-wo
 - Don't guess post dates; don't merge the VNG app with the Global app; don't count official fanpage/channel posts as player feedback.
 - When adding a new source: add it to `sources.json` (a test requires every source in the data to be on the list), and document its rules in this guide and the README.
 - When changing the UI: keep plain, direct Vietnamese; check desktop, mobile (375px), dark mode and no horizontal overflow.
+
+## Desktop and mobile report layout
+
+- The overview starts with insights and **Review first**. P0/P1 alerts are counted separately from feedback about bugs, crashes/lag, accounts, and complaints. Feedback to review is not a count of confirmed product defects.
+- **Read feedback to review** opens the list filtered to those four groups. **View alerts** expands the action section. Positive/negative share changes use percentage points; a previous period with fewer than 10 items still uses absolute count changes.
+- Mobile keeps all four tabs with short labels, one source card per row, and expandable collection coverage. Search stays visible; advanced filters collapse, while applied filters remain active and visible outside the panel.
+- Mobile initially shows the top five activity/keyword rows with **Show all**. The keyword-by-day table expands on demand. Data and filter results remain identical across screen sizes.
+- Explanation buttons work by touch and keyboard. KPI cards support Enter/Space; main mobile controls have 44px touch targets.
