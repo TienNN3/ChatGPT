@@ -1,0 +1,177 @@
+{
+  "target_date": "2026-10-14",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-10-14T23:32:45.076Z",
+  "status": "partial",
+  "added_feedback": 40,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 14/10/2026: thêm 40 phản hồi — Facebook group 37 (Community 29, Official 2, chợ mua bán 4, group 473704433937505 mới được duyệt 2), YouTube 2, TikTok 1; fanpage không có bình luận mới. Hai group vẫn chờ duyệt, một group bị từ chối. Sensor Tower bỏ qua theo runbook (người dùng tự nhập), không thêm rating.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 29,
+      "detail": "Đọc New posts đến ranh giới 13/10 và Recent activity (nhãn thời gian hiển thị, permalink qua focus). Ngày 14/10: thêm 13 bài và 16 bình luận; bỏ 1 bài chỉ có link, 1 bình luận chỉ cười. Bình luận có nhãn \"a day ago\" (00:00–06:15 ngày 14/10) không xác định được ngày nên bỏ qua; không mở toàn bộ chuỗi trả lời. Dữ liệu 14/09 – 14/10."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 4,
+      "detail": "Đọc New posts đến ranh giới 12/10. Ngày 14/10: thêm 4 bài rao bán (đổi thời tiết, nhân sâm, thẻ, tiền nông trại). Không đọc Recent activity; không mở chuỗi trả lời."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "Đọc New posts đến ranh giới 12/10 và Recent activity. Ngày 14/10: thêm 1 bài và 1 bình luận; không có bài mới sau 09:15 ngày 14/10."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "inactive",
+      "added_feedback": 0,
+      "detail": "Kiểm tra lại New posts 15/10: bài mới nhất vẫn 14/03/2023, không có bài ngày 14/10."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "rejected",
+      "added_feedback": 0,
+      "detail": "Group riêng tư; trang chỉ hiện nút Join group (yêu cầu cũ bị từ chối). Không gửi lại yêu cầu, không truy cập được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "pending",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, vẫn còn nút Cancel request: yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "Đã được duyệt thành viên (nút Joined, kiểm tra 15/10). Đọc New posts đến ranh giới 12/10: ngày 14/10 thêm 2 bài rao bán (cùng người bán đăng chéo ở chợ 815754622673816). Chỉ có dữ liệu từ 14/10."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "pending",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, vẫn còn nút Cancel request: yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "no_new_visible_comments",
+      "added_feedback": 0,
+      "detail": "Đọc các bài gần đây trên fanpage Thái (Content Creator Program, bộ đồ mới, Halloween VIP Season, thẻ mùa mới): bình luận hiển thị chỉ có nhãn 2–4 ngày trước, không có bình luận ngày 14/10. Loại bài chính thức, không lấy fanpage Global."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "Tìm kiếm 8 từ khoá (lọc hôm nay/tuần), RSS 7 creator (5 kênh RSS lỗi 500 → quét tab Videos/Shorts thay thế) và kênh chính thức @playtogetherth. Ngày 14/10: thêm 1 Short tiếng Thái của creator W*** và 1 bình luận tiếng Thái dưới video creator T***. 3 video kênh chính thức 13–14/10 có 0 bình luận. Chỉ đọc trang bình luận đầu."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "Kênh chính thức tải được sau khi bấm Làm mới; đọc bình luận 5 video mới nhất qua API công khai: ngày 14/10 chỉ 1 bình luận tiếng Thái (còn lại tiếng Việt, bị loại). Creator L*** (mới nhất 10/10) và R*** (mới nhất 07/10) không có video ngày 14/10. Tìm kiếm 8 từ khoá: video tiếng Thái ngày 14/10 chỉ của kênh chính thức. Không gặp CAPTCHA."
+    },
+    {
+      "key": "Google Play",
+      "status": "skipped",
+      "added_feedback": 0,
+      "detail": "Bỏ qua Sensor Tower/store theo runbook; người dùng tự nhập review và rating."
+    },
+    {
+      "key": "App Store",
+      "status": "skipped",
+      "added_feedback": 0,
+      "detail": "Bỏ qua Sensor Tower/store theo runbook; người dùng tự nhập review và rating."
+    }
+  ],
+  "ratings": {
+    "status": "skipped",
+    "added": 0,
+    "detail": "Bỏ qua Sensor Tower hoàn toàn theo runbook; không sửa ratings."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group · playtogetherth": 29,
+      "Facebook Group · 1772363333745643": 2,
+      "Facebook Group · 815754622673816": 4,
+      "Facebook Group · 473704433937505": 2,
+      "YouTube": 2,
+      "TikTok": 1
+    },
+    "by_kind": {
+      "post": 20,
+      "comment": 19,
+      "video": 1
+    },
+    "by_sentiment": {
+      "Neutral": 27,
+      "Positive": 9,
+      "Negative": 4
+    },
+    "sentiment_percent": {
+      "Positive": 22.5,
+      "Negative": 10,
+      "Neutral": 67.5,
+      "Mixed": 0
+    }
+  },
+  "preservation": {
+    "before_items": 1793,
+    "after_items": 1833,
+    "added_ids": [
+      "facebook-9f2f90c0284e3c12",
+      "facebook-7eeb8aaa9f0eeb7e",
+      "facebook-d1ec22045350349f",
+      "facebook-408abed5192d6106",
+      "facebook-051061ddda7122f1",
+      "facebook-f332a787ad3c6412",
+      "facebook-f8b515f9303425bc",
+      "facebook-529f6db34d86b26f",
+      "facebook-ee52b152eb5e8a01",
+      "facebook-23203e78ab07553f",
+      "facebook-25a24fc844757fa9",
+      "facebook-883c43bfbbc8c69d",
+      "facebook-7d4cf37c626d62f7",
+      "facebook-e7d253adf532a737",
+      "facebook-7adf42683c877844",
+      "facebook-0e55cba7595f94d4",
+      "facebook-4989b04af17ff2ef",
+      "facebook-59bb1daf2eebd3e1",
+      "facebook-020414e2e0e717da",
+      "facebook-46a1a0ed0af3b95e",
+      "facebook-d7d953c8db6a32d0",
+      "facebook-12400cc7acf34bb3",
+      "facebook-f9e1e11dcda70e87",
+      "facebook-1f0ff07409ec73b0",
+      "facebook-b744235e3208d82e",
+      "facebook-b03cb2b21b6785fe",
+      "facebook-aafa1ac1b72e62f3",
+      "facebook-7b467472c5042ef8",
+      "facebook-9db97831e960af41",
+      "facebook-e2c4f16b7a441a0c",
+      "facebook-2c66948c458c4e62",
+      "facebook-b4111455b0a0990c",
+      "facebook-d4cd666d1657b64e",
+      "facebook-ca5063fe1ca38168",
+      "facebook-5b678451c1a7977a",
+      "facebook-91e9d354f552d94a",
+      "facebook-aea5fbe004204f42",
+      "youtube-630a0c17e31de15d",
+      "youtube-cc77fddbebdfba20",
+      "tiktok-1e9b728c02c1d4ec"
+    ],
+    "removed_ids": [],
+    "modified_existing_items": 0
+  },
+  "validation": {
+    "command": "npm run check",
+    "status": "pass (validate 267 daily files; node --test 19/19)"
+  },
+  "audit_warnings": [
+    "Trình duyệt dùng là trình duyệt tích hợp (Claude in Chrome không kết nối); Facebook đã đăng nhập sẵn.",
+    "Ngày đăng Facebook suy từ nhãn tương đối (\"Xh\" lúc ~06:15 ngày 15/10), date_precision=approximate. Nhãn và bản dịch do AI rà ngữ cảnh, needs_review=true."
+  ]
+}
