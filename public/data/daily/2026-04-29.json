@@ -130,5 +130,18 @@
       "text_vn_machine": "Gacha quá đen khiến người chơi rất bực bội.",
       "translation_method": "ai_contextual"
     }
+  ],
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.403,
+      "total_avg_rating": 4.375,
+      "incremental_rating_count": 0.0201,
+      "total_rating_count": 231.5621,
+      "source": "Sensor Tower"
+    }
   ]
 }

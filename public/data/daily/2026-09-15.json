@@ -1547,24 +1547,94 @@
         "video_title": null
       },
       "collected_at": "2026-10-14T10:00:00+07:00"
+    },
+    {
+      "id": "gplay-vng-a5c04ef1a341ddfd",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "T***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ดีมาก",
+      "text_vn": "Rất hay.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game rất hay.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.31.0"
+    },
+    {
+      "id": "gplay-vng-a8fd3327171a8940",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "G***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เล่นตั้งแต่ตอนเด็กกลับมาเล่นรู้อีกทีเกมพัฒนาไปไกลแล้ว😭",
+      "text_vn": "Chơi từ hồi nhỏ, giờ quay lại chơi mới biết game đã phát triển xa lắm rồi 😭",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "người chơi quay lại",
+        "khen game"
+      ],
+      "summary_vn": "Người chơi cũ quay lại, ngạc nhiên vì game phát triển nhiều.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Comparative Feedback",
+        "Service"
+      ],
+      "app_version": null
     }
   ],
   "metrics": {
-    "volume": 42,
+    "volume": 44,
     "noise": 0,
     "by_source": {
       "Facebook Group": 39,
       "YouTube": 2,
-      "TikTok": 1
+      "TikTok": 1,
+      "Google Play": 2
     },
     "by_sentiment": {
-      "Positive": 6,
+      "Positive": 8,
       "Neutral": 33,
       "Negative": 3,
       "Mixed": 0
     },
     "by_topic": {
-      "Other": 25,
+      "Other": 27,
       "Gacha / Shop / Pricing": 6,
       "Event & Update content": 2,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 6,
@@ -1572,16 +1642,16 @@
       "Bug / Crash / Lag / Performance": 2
     },
     "by_segment": {
-      "unknown": 42
+      "unknown": 44
     },
-    "nss": 7.1,
+    "nss": 11.4,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 5,
       "ios_avg": null,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 2
     }
   },
   "report": {
@@ -1713,5 +1783,29 @@
     ]
   },
   "generated_at": "2026-10-13T14:49:11.712Z",
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.4101,
+      "incremental_rating_count": -1.1765999999999996,
+      "total_rating_count": 251.93560000000002,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 1,
+      "total_avg_rating": 4.0099,
+      "incremental_rating_count": 1,
+      "total_rating_count": 303,
+      "source": "Sensor Tower"
+    }
+  ]
 }

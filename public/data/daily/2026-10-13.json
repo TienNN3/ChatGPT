@@ -2064,34 +2064,263 @@
       "summary_vn": "Trả lời là đổi tên trong game",
       "label_method": "ai_review",
       "text_vn_machine": "Đổi tên trong game ạ"
+    },
+    {
+      "id": "facebook-37b38f499053f690",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28602160429395099/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "Ẩ***",
+      "text_th": "ป๊าดมันเทศใหญ่แท้ตอนเห็นครั้งแรกตกใจจริง5555555",
+      "text_vn": "Trời ơi, khoai lang to thật! Lần đầu nhìn thấy giật mình luôn, haha.",
+      "sentiment": "Positive",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "8h",
+      "engagement": {
+        "reactions": [
+          "Like: 1 person"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-14T00:49:13.222Z",
+      "date_precision": "approximate",
+      "sentiment_rule": "Neutral",
+      "intent": "share",
+      "keywords": [
+        "rau khổng lồ",
+        "trồng trọt"
+      ],
+      "summary_vn": "Khoe khoai lang khổng lồ, lần đầu thấy nên giật mình.",
+      "label_method": "ai_review",
+      "translation_method": "ai_contextual"
+    },
+    {
+      "id": "facebook-91ed860f7642cb2e",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28599759169635225/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "W***",
+      "text_th": "แวะมาแชร์คู่มือการทำฟาร์มเบื้องต้นให้สำหรับชาวสวนมือใหม่ในกลุ่มครับบ",
+      "text_vn": "Ghé chia sẻ hướng dẫn làm nông trại cơ bản cho các bạn mới làm vườn trong group nhé.",
+      "sentiment": "Positive",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "11h",
+      "engagement": {
+        "reactions": [
+          "Like: 2 people"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-14T00:49:13.223Z",
+      "date_precision": "approximate",
+      "sentiment_rule": "Neutral",
+      "intent": "answer",
+      "keywords": [
+        "nông trại",
+        "trồng trọt",
+        "người chơi mới"
+      ],
+      "summary_vn": "Chia sẻ hướng dẫn nông trại cơ bản cho người chơi mới.",
+      "label_method": "ai_review",
+      "translation_method": "ai_contextual"
+    },
+    {
+      "id": "facebook-7f9049944441ff73",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28598100569801085/",
+      "link_quality": "canonical_permalink",
+      "author_masked": "Ẩ***",
+      "text_th": "ขออนุญาตเจ้าของตัวละครนะคะ ตาแบบนี้มาจากแพคไหนคะ อยากได้แบ๊วมาก",
+      "text_vn": "Xin phép chủ nhân vật nhé, kiểu mắt này nằm trong gói nào vậy? Mình muốn có, nhìn dễ thương quá.",
+      "sentiment": "Neutral",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "post",
+      "activity_type": "Thảo luận",
+      "date_basis": "published_at",
+      "published_label": "11h",
+      "engagement": {
+        "reactions": [
+          "Like: 5 people"
+        ],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-14T02:26:37.540Z",
+      "date_precision": "approximate",
+      "sentiment_rule": "Neutral",
+      "intent": "question",
+      "keywords": [
+        "ngoại hình nhân vật",
+        "trang phục"
+      ],
+      "summary_vn": "Hỏi kiểu mắt nhân vật dễ thương nằm trong gói nào.",
+      "label_method": "ai_review",
+      "translation_method": "ai_contextual"
+    },
+    {
+      "id": "facebook-79e965a1e9a9ceaa",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28595836310027511/?comment_id=28598719076405901",
+      "link_quality": "canonical_permalink",
+      "author_masked": "N***",
+      "text_th": "ใช้เหรียญกกิจเยอะมากคุณน้า ไฟใช้850เหรียญ",
+      "text_vn": "Tốn nhiều xu sự kiện lắm, riêng cái đèn đã cần 850 xu rồi.",
+      "sentiment": "Negative",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "date_basis": "published_at",
+      "published_label": "Tuesday, October 13, 2026 at 6:30 PM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-14T02:27:39.838Z",
+      "date_precision": "exact",
+      "sentiment_rule": "Neutral",
+      "intent": "complaint",
+      "keywords": [
+        "phần thưởng sự kiện",
+        "nội thất",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Than nội thất sự kiện tốn nhiều xu, riêng đèn cần 850 xu.",
+      "label_method": "ai_review",
+      "translation_method": "ai_contextual"
+    },
+    {
+      "id": "facebook-293ede1ed58abeab",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28598100569801085/?comment_id=28600974662847009",
+      "link_quality": "canonical_permalink",
+      "author_masked": "Ẩ***",
+      "text_th": "แล้วทรงผมมละค่ะะขอยาดถามมม",
+      "text_vn": "Còn kiểu tóc này thì sao ạ, cho mình hỏi ké với.",
+      "sentiment": "Neutral",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "date_basis": "published_at",
+      "published_label": "Tuesday, October 13, 2026 at 9:44 PM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-14T02:30:40.252Z",
+      "date_precision": "exact",
+      "sentiment_rule": "Neutral",
+      "intent": "question",
+      "keywords": [
+        "ngoại hình nhân vật",
+        "trang phục"
+      ],
+      "summary_vn": "Hỏi ké về kiểu tóc của nhân vật trong ảnh.",
+      "label_method": "ai_review",
+      "translation_method": "ai_contextual"
+    },
+    {
+      "id": "facebook-b1f4bcddaa497ca3",
+      "source": "Facebook Group",
+      "community": "Facebook Group · playtogetherth",
+      "link": "https://www.facebook.com/groups/playtogetherth/posts/28592734937004315/?comment_id=28600078199603322",
+      "link_quality": "canonical_permalink",
+      "author_masked": "W***",
+      "text_th": "แวะมาดันใกล้หมดเวลาแล้ววว",
+      "text_vn": "Lên bài nhắc nhé, sắp hết giờ rồi.",
+      "sentiment": "Neutral",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "date_basis": "published_at",
+      "published_label": "Tuesday, October 13, 2026 at 8:31 PM",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "collected_at": "2026-10-14T02:32:46.255Z",
+      "date_precision": "exact",
+      "sentiment_rule": "Neutral",
+      "intent": "share",
+      "keywords": [
+        "sự kiện"
+      ],
+      "summary_vn": "Nhắc mọi người sắp hết hạn tham gia sự kiện.",
+      "label_method": "ai_review",
+      "translation_method": "ai_contextual"
     }
   ],
   "metrics": {
-    "volume": 56,
+    "volume": 62,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 56
+      "Facebook Group": 62
     },
     "by_sentiment": {
-      "Positive": 11,
-      "Neutral": 38,
-      "Negative": 5,
+      "Positive": 13,
+      "Neutral": 41,
+      "Negative": 6,
       "Mixed": 2
     },
     "by_topic": {
       "Other": 42,
-      "Event & Update content": 5,
+      "Event & Update content": 7,
       "Login / Account / Data": 2,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 5,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 9,
       "Gacha / Shop / Pricing": 1,
       "Bug / Crash / Lag / Performance": 1
     },
     "by_segment": {
-      "unknown": 54,
+      "unknown": 60,
       "midgame": 1,
       "veteran": 1
     },
-    "nss": 10.7,
+    "nss": 11.3,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
@@ -2102,58 +2331,58 @@
     }
   },
   "report": {
-    "overview": "Có 56 feedback trong ngày từ Facebook Group. Post, comment, bài khoe, rao bán và thảo luận Facebook đều được giữ lại khi truy cập được.",
+    "overview": "Ngày 13/10/2026 có 48 phản hồi xác định được ngày: 8 tích cực (16,7%), 5 tiêu cực (10,4%), 35 trung tính (72,9%). Group Community 31, group chính thức 13, chợ mua bán 4. Lượt quét lại bổ sung 6 mục; 14 quan sát chưa rõ ngày đăng được tách riêng. Người chơi chủ yếu tham gia sự kiện, khoe thành quả và hướng dẫn nhau (mỗi loại 10 mục); nông trại/rau khổng lồ là điểm được thích, nội thất và xu sự kiện là điểm chưa hài lòng.",
     "bright_spots": [
       {
-        "title": "Hoạt động và tính năng trong game",
+        "title": "Nông trại, trồng trọt và rau khổng lồ",
+        "count": 5,
+        "quote": {
+          "text_th": "ป๊าดมันเทศใหญ่แท้ตอนเห็นครั้งแรกตกใจจริง5555555",
+          "text_vn": "Trời ơi, khoai lang to thật! Lần đầu nhìn thấy giật mình luôn, haha.",
+          "link": "https://www.facebook.com/groups/playtogetherth/posts/28602160429395099/"
+        }
+      },
+      {
+        "title": "Thú cưng con dơi",
         "count": 1,
         "quote": {
           "text_th": "แล้วค้างคาวน่ารักทุกตัว เหอะๆ",
-          "text_vn": "Và tất cả những con dơi đều dễ thương.",
+          "text_vn": "Mà con dơi nào cũng dễ thương hết, hehe",
           "link": "https://www.facebook.com/groups/playtogetherth/posts/28570921359185673/?comment_id=28593228313621644"
         }
       }
     ],
     "pain_points": [
       {
-        "issue": "Phần thưởng sự kiện",
-        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
-        "effect": "Vấn đề có thể làm giảm mức hài lòng hoặc cản trở tiếp tục chơi.",
-        "count": 1,
+        "issue": "Nội thất và phần thưởng sự kiện",
+        "cause": "Người chơi phản ánh điểm/xu không đủ, phải cày nhiều; một bình luận mới cho biết đèn cần 850 xu.",
+        "effect": "Người chơi trang trí nhà chưa hài lòng với chi phí và khả năng lấy đủ vật phẩm.",
+        "count": 4,
         "severity": "P2",
         "quotes": [
           {
             "text_th": "ในบรรดากิจกรรมทั้งหมดสำหรับสายแต่งบ้านอย่างเรากิจนี้แม่งเหมือนงกเฟอนิเจอร์อะ \nนอยมาก เข้ามาขุดวันละนิดหน่อยยังรู้สึกว่าแต้มไม่พอ \nจนตอนนี้กิจกรรมก็ยังไม่ครบ เฟอนิเจอร์ก็ได้อย่างละอัน กิจนี้แม่งงกเฟอเหมือนไม่อยากให้คราฟอะ คืองง",
-            "text_vn": "Người chơi thiên về trang trí nhà thấy sự kiện cho quá ít nội thất và điểm đào không đủ; đến gần cuối sự kiện vẫn chưa hoàn thành và mỗi món chỉ nhận được một chiếc.",
+            "text_vn": "Trong tất cả các sự kiện thì với dân mê trang trí nhà như mình, sự kiện này keo kiệt nội thất vãi.\nNản thật sự, ngày nào cũng vào đào một ít mà vẫn thấy không đủ điểm.\nĐến giờ sự kiện vẫn chưa xong, nội thất thì mỗi món được có một cái. Sự kiện này keo nội thất như kiểu không muốn cho mình chế tạo vậy, khó hiểu ghê.",
             "link": "https://www.facebook.com/groups/playtogetherth/posts/28595836310027511/"
+          },
+          {
+            "text_th": "ใช้เหรียญกกิจเยอะมากคุณน้า ไฟใช้850เหรียญ",
+            "text_vn": "Tốn nhiều xu sự kiện lắm, riêng cái đèn đã cần 850 xu rồi.",
+            "link": "https://www.facebook.com/groups/playtogetherth/posts/28595836310027511/?comment_id=28598719076405901"
           }
         ]
       },
       {
         "issue": "Đăng nhập tài khoản",
-        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
-        "effect": "Vấn đề có thể làm giảm mức hài lòng hoặc cản trở tiếp tục chơi.",
+        "cause": "Người chơi báo không vào được tài khoản cũ và bị yêu cầu chơi lại.",
+        "effect": "Lo mất dữ liệu và bộ sưu tập đã có; cần hỗ trợ xác minh.",
         "count": 1,
         "severity": "P1",
         "quotes": [
           {
             "text_th": "พอดีว่า มี บช อยุ่เเล้ว ทำไมเข้าไม่ได้คะ เเล้วเกมไห้เล่นไหม่ คือมีของเยอะมากเเล้ว เเล้วบางชิ้นในเกมก้ไม่เอากลับมาเเล้ว แก้ไขยังไงคะ",
-            "text_vn": "Người chơi đã có tài khoản nhưng không vào được; game bắt chơi lại từ đầu trong khi tài khoản cũ có nhiều vật phẩm, gồm cả món không còn phát hành, và họ hỏi cách khắc phục.",
+            "text_vn": "Mình có tài khoản sẵn rồi mà sao không vào được ạ, rồi game bắt chơi lại từ đầu. Mình có nhiều đồ lắm rồi, mà có mấy món trong game cũng không quay lại nữa. Phải sửa thế nào ạ?",
             "link": "https://www.facebook.com/groups/playtogetherth/posts/28592914106986398/"
-          }
-        ]
-      },
-      {
-        "issue": "Giá trị phần thưởng gacha",
-        "cause": "Cần đối chiếu nguyên văn và xác minh thêm trước khi kết luận nguyên nhân.",
-        "effect": "Vấn đề có thể làm giảm mức hài lòng hoặc cản trở tiếp tục chơi.",
-        "count": 1,
-        "severity": null,
-        "quotes": [
-          {
-            "text_th": "อัพเดต บริการกดสภาพอากาศ ของขวัญ และเมล็ด Play together \nสภาพอากาศทุกอัน 10 บาท \nเมล็ดราคาตามภาพ ยอดนิยม\nเมล็ดที่ใช้ทองไม่สามารถกิฟได้นะครับ \nอาจจะมีการปรับราคาเล็กน้อยโปรดติดตามโพสต์ล่าสุดของอุ๋งๆเลย \nแอดแล้วทักได้เลย รับทั้งวอเล็ต และ ธนาคาร สต็อกมีเพิ่มเรื่อยๆ สอบถามแพ็คเพิ่มเติมได้เลยอุ๋งๆ",
-            "text_vn": "Cập nhật dịch vụ thời tiết, quà tặng và hạt giống Chơi cùng nhau \nMọi điều kiện thời tiết 10 baht \nCác loại hạt phổ biến có giá như trong hình\nHạt giống sử dụng vàng không thể được tặng. \nCó thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. \nThêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
-            "link": "https://www.facebook.com/groups/815754622673816/posts/2155312048718060/"
           }
         ]
       }
@@ -2211,22 +2440,22 @@
       ]
     },
     "data_health": [
-      "Facebook ngày 2026-10-13: 56 quan sát đã ẩn danh; post/comment và reaction metadata được lưu khi có.",
-      "Lần thu thập 2026-10-13T21:49:11.678+07:00: 1238 quan sát duy nhất (697 post, 541 comment), gồm 48 bài chỉ có hình/không có chữ truy cập được và 522 post có reaction metadata.",
-      "14 mục không có ngày đăng hiển thị được dùng ngày quan sát và gắn date_basis=observed_at; không tự suy đoán ngày đăng.",
-      "Fanpage chỉ giữ bình luận từ facebook.com/playtogetherthailandofficial; đã loại 12 bài fanpage và 15 bình luận không thuộc fanpage Thái.",
-      "Phạm vi truy cập: 4/8 group đọc được; 4/8 group bị khóa/riêng tư; fanpage chuyển hướng sang trang global.",
-      "Có 0 comment chỉ giữ được captured reference thay vì canonical post permalink; mục này được đánh dấu để review.",
-      "Kiểm tra sáng 14/10 cho ngày 13/10/2026: chưa có phản hồi mới đủ điều kiện nhập. Facebook chưa truy cập được; YouTube chỉ kiểm tra một phần, bình luận chưa tải; store/export không có dữ liệu mới truy cập được. Không xem đây là xác nhận các nguồn có 0 phản hồi."
+      "Quét lại ngày 13/10/2026: thêm 6 phản hồi từ group Community (3 bài, 3 bình luận). Hiện có 48 phản hồi xác định được ngày và 14 mục chỉ biết ngày quan sát, không tính thống kê. Ba group đang chờ duyệt, một group bị từ chối; YouTube và TikTok thu thập một phần. Dừng kiểm tra Sensor Tower theo yêu cầu người dùng; không thêm rating.",
+      "Thống kê dùng ngày Asia/Bangkok; 3 bài mới chỉ hiển thị giờ tương đối nhưng toàn bộ khoảng giờ nằm trong 13/10 nên date_precision=approximate. 3 bình luận mới có ngày/giờ tuyệt đối hiển thị trên Facebook.",
+      "Giữ nguyên tất cả 1.572 phản hồi cũ, bản dịch và nhãn; chỉ thêm 6 ID mới. Không nhập bài fanpage/video chính thức, không gộp VNG với Global.",
+      "Hai bài chợ mua bán lưu ở ngày 13/10 có nhãn Facebook thực tế 12/10 lúc 23:35 và 23:30 trong lần đối chiếu này (post 2155317992050799 và 2155312048718060). Giữ nguyên dữ liệu cũ theo yêu cầu; cần người vận hành rà ngày trước khi sửa.",
+      "Nhãn và bản dịch mới do AI rà ngữ cảnh, needs_review=true. Phạm vi bình luận chỉ gồm phần truy cập được, không đại diện toàn bộ nguồn.",
+      "Dừng Sensor Tower theo yêu cầu người dùng lúc kết thúc lượt quét. Không có export rating mới được nhập. File có sẵn chỉ đến 12/10 iOS, 05/10 Android; giữ nguyên mọi snapshot VNG/Global, không tính rating vào phản hồi."
     ]
   },
-  "generated_at": "2026-10-13T14:49:11.712Z",
+  "generated_at": "2026-10-14T03:10:57.905Z",
   "data_mode": "production",
   "collection_run": {
-    "checked_at": "2026-10-13T23:10:37.851Z",
+    "checked_at": "2026-10-14T03:10:57.905Z",
     "status": "partial",
-    "added_feedback": 0,
+    "added_feedback": 6,
     "report_path": "data/collection-runs/2026-10-13.json",
-    "summary_vn": "Kiểm tra sáng 14/10 cho ngày 13/10/2026: chưa có phản hồi mới đủ điều kiện nhập. Facebook chưa truy cập được; YouTube chỉ kiểm tra một phần, bình luận chưa tải; store/export không có dữ liệu mới truy cập được. Không xem đây là xác nhận các nguồn có 0 phản hồi."
+    "html_report_path": "reports/2026-10-13.html",
+    "summary_vn": "Quét lại ngày 13/10/2026: thêm 6 phản hồi từ group Community (3 bài, 3 bình luận). Hiện có 48 phản hồi xác định được ngày và 14 mục chỉ biết ngày quan sát, không tính thống kê. Ba group đang chờ duyệt, một group bị từ chối; YouTube và TikTok thu thập một phần. Dừng kiểm tra Sensor Tower theo yêu cầu người dùng; không thêm rating."
   }
 }

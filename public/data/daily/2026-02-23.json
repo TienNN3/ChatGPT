@@ -137,7 +137,8 @@
       "total_avg_rating": 4.3222,
       "incremental_rating_count": 4.4559,
       "total_rating_count": 27735.6177,
-      "source": "Sensor Tower"
+      "source": "Sensor Tower",
+      "granularity": "week"
     },
     {
       "platform": "Google Play",
@@ -147,7 +148,8 @@
       "total_avg_rating": 4.2857,
       "incremental_rating_count": 0.4635,
       "total_rating_count": 226.726,
-      "source": "Sensor Tower"
+      "source": "Sensor Tower",
+      "granularity": "week"
     },
     {
       "platform": "App Store",
@@ -157,7 +159,8 @@
       "total_avg_rating": 4.3287,
       "incremental_rating_count": 16,
       "total_rating_count": 10801,
-      "source": "Sensor Tower"
+      "source": "Sensor Tower",
+      "granularity": "week"
     }
   ]
 }

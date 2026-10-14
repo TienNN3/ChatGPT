@@ -41,34 +41,142 @@
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
       "text_vn_machine": "Gửi tất cả cư dân Kaia thân mến, đội ngũ muốn mời mọi người chia sẻ trải nghiệm, ý kiến và góc nhìn về việc chơi game qua bảng khảo sát của đội ngũ, và một số bạn sẽ được mời tham gia phỏng vấn Onsite để trao đổi và chia sẻ ý kiến chi tiết hơn. Ý kiến của mọi người sẽ giúp chúng tôi hiểu người chơi hơn và dùng để phát triển game trong tương lai. Làm khảo sát tại: https://forms.gle/mDgD5e5PL1m8dtVo7 Đội ngũ sẽ liên hệ trực tiếp với những bạn được chọn sau khi kiểm tra khảo sát xong. Lưu ý: Dữ liệu thu thập chỉ dùng cho mục đích nghiên cứu và cải thiện trải nghiệm người chơi, toàn bộ thông tin được bảo mật và không tiết lộ cho bên ngoài. #playtogether #playtogethervng #playtogetherTH"
+    },
+    {
+      "id": "gplay-vng-621b404bb4fc750a",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "S***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ดีมากค่ะ",
+      "text_vn": "Rất hay ạ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game rất hay.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Service"
+      ],
+      "app_version": "2.31.0"
+    },
+    {
+      "id": "gplay-vng-9899252cc783e433",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "A***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมแม่งระบบล็อคอินกากจัด ให้ใส่รหัสเชี้ยไรก็ไม่รู้ เคยเล่นมานานละเเล้วจะกลับมาเล่นใหม่แต่เข้าไม่ได่ เข้าไปกลับเป็นสร้างบัญชีใหม่ งงว่ะ",
+      "text_vn": "Hệ thống đăng nhập của game tệ hết sức, bắt nhập cái mã quái gì không biết. Chơi lâu rồi, giờ muốn quay lại chơi mà không vào được, vào thì lại thành tạo tài khoản mới, khó hiểu thật.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "người chơi quay lại",
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Người chơi cũ quay lại không đăng nhập được, bị tạo tài khoản mới.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login"
+      ],
+      "app_version": null
+    },
+    {
+      "id": "gplay-vng-bab179de40721f73",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "น***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "จะโหลดนานแต่สนุกมากเลิศมากแม่",
+      "text_vn": "Tải hơi lâu nhưng vui lắm, đỉnh lắm luôn bà ơi.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Mixed",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "tải game",
+        "khen game"
+      ],
+      "summary_vn": "Khen game vui dù tải hơi lâu.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": null
     }
   ],
   "metrics": {
-    "volume": 1,
+    "volume": 4,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 1
+      "Facebook Group": 1,
+      "Google Play": 3
     },
     "by_sentiment": {
-      "Positive": 0,
+      "Positive": 1,
       "Neutral": 1,
-      "Negative": 0,
-      "Mixed": 0
+      "Negative": 1,
+      "Mixed": 1
     },
     "by_topic": {
-      "Login / Account / Data": 1
+      "Login / Account / Data": 2,
+      "Other": 2
     },
     "by_segment": {
-      "unknown": 1
+      "unknown": 4
     },
     "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 3.67,
       "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "star_1": 1,
+      "star_5": 2
     }
   },
   "report": {
@@ -143,26 +251,29 @@
       "total_avg_rating": 4.3505,
       "incremental_rating_count": 5.498999999999999,
       "total_rating_count": 27858.5422,
-      "source": "Sensor Tower"
+      "source": "Sensor Tower",
+      "granularity": "week"
     },
     {
       "platform": "Google Play",
       "app_name": "Play Together VNG",
       "app_id": "com.vng.playtogether",
-      "incremental_avg_rating": 2.1178,
-      "total_avg_rating": 4.3661,
-      "incremental_rating_count": 0.8094999999999999,
-      "total_rating_count": 252.4033,
+      "granularity": "day",
+      "incremental_avg_rating": 2.6553,
+      "total_avg_rating": 4.453,
+      "incremental_rating_count": -0.5133000000000001,
+      "total_rating_count": 251.0806,
       "source": "Sensor Tower"
     },
     {
       "platform": "App Store",
       "app_name": "Play Together VNG",
       "app_id": "1612175933",
-      "incremental_avg_rating": 3.7391,
-      "total_avg_rating": 4.0266,
-      "incremental_rating_count": 23,
-      "total_rating_count": 301,
+      "granularity": "day",
+      "incremental_avg_rating": 3.5556,
+      "total_avg_rating": 4.0348,
+      "incremental_rating_count": 9,
+      "total_rating_count": 287,
       "source": "Sensor Tower"
     }
   ]

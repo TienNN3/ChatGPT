@@ -1,0 +1,166 @@
+{
+  "date": "2026-07-07",
+  "alerts": [],
+  "items": [
+    {
+      "id": "gplay-vng-74e3ccd8a332d1cb",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "W***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เข้าใจว่าให้ย้ายบัญชีวันที่9 แต่แม่งเล่นไม่ให้เติมในแอพเก่าเลย แล้วนี่แพ็คลบโฆณาหมดพอดี เติมไม่ได้ ต้องมานั่งดูโฆษณาจนกว่าจะถึงวันที่9?!? สภาพมาก โฆษณามีเป็น30อันให้กุมานั่งดูตั้ง3วันก่อนจะวันที่9 llม่มึJเถอะ",
+      "text_vn": "Hiểu là cho chuyển tài khoản ngày 9, nhưng app cũ chết tiệt lại không cho nạp nữa. Gói xoá quảng cáo vừa hết hạn, nạp không được, phải ngồi xem quảng cáo đến ngày 9 à?!? Tệ hết sức. Quảng cáo có tới 30 cái, bắt tao ngồi xem suốt 3 ngày trước ngày 9. Đ** mẹ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Quảng cáo gây gián đoạn",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "complaint",
+      "keywords": [
+        "quảng cáo",
+        "nạp tiền",
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "App cũ khoá nạp, gói xoá quảng cáo hết, phải xem quảng cáo.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Updates And Maintenance",
+        "Advertisements",
+        "Login"
+      ],
+      "app_version": null
+    },
+    {
+      "id": "appstore-vng-9d42839a75398bed",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "P***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "เข้าระบบไม่ได้. แก้ไขหน่อยค่ะ",
+      "text_vn": "Không đăng nhập được. Sửa giúp với ạ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 2,
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Không đăng nhập được, nhờ sửa.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login"
+      ],
+      "app_version": "2.28.1"
+    }
+  ],
+  "report": {
+    "overview": "Dữ liệu store ngày 2026-07-07.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Sensor Tower: rating và review store của Play Together VNG tại Thái Lan."
+    ]
+  },
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.2314,
+      "total_avg_rating": 4.2308,
+      "incremental_rating_count": 0.1724,
+      "total_rating_count": 240.6429,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": null,
+      "total_avg_rating": 4.1667,
+      "incremental_rating_count": 0,
+      "total_rating_count": 12,
+      "source": "Sensor Tower"
+    }
+  ],
+  "metrics": {
+    "volume": 2,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 1,
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 2,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Other": 1,
+      "Login / Account / Data": 1
+    },
+    "by_segment": {
+      "unknown": 2
+    },
+    "nss": -100,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": 1,
+      "ios_avg": 2,
+      "star_1": 1,
+      "star_5": 0
+    }
+  },
+  "data_mode": "production"
+}

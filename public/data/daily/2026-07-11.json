@@ -1,0 +1,129 @@
+{
+  "date": "2026-07-11",
+  "alerts": [],
+  "items": [
+    {
+      "id": "appstore-vng-370039a755bf0691",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "M***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "เข้าไอดีเก่าไม่ได้. คือนี่งงมาก อะไรอ่ะเมื่อก่อนเวลาเข้าไอดีเก่ายังได้ อันนี้อัปเดตละแย่จัด ตอนนี้เข้าไอดีเก่าไม่ได้ จะให้เชื่อมโกลบอลๆอยู่อย่างนั้นรำคาญ ระบบอะไรก็ไม่รู้ ปิดไปเหอะ เกมหมาๆ",
+      "text_vn": "Không vào được ID cũ. Khó hiểu thật sự, cái gì vậy, trước đây vào ID cũ vẫn được, cập nhật cái này tệ hết chỗ nói. Giờ không vào được ID cũ, cứ bắt liên kết global mãi, phiền phức. Hệ thống gì không biết, đóng cửa luôn đi, game chó.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "cập nhật mới",
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Sau cập nhật không vào được ID cũ, bị bắt liên kết global.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login",
+        "Feature Requests",
+        "Performance And Bugs"
+      ],
+      "app_version": "2.29.0"
+    }
+  ],
+  "report": {
+    "overview": "Dữ liệu store ngày 2026-07-11.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Sensor Tower: rating và review store của Play Together VNG tại Thái Lan."
+    ]
+  },
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.5385,
+      "incremental_rating_count": 0.24269999999999925,
+      "total_rating_count": 242.5217,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 4.1,
+      "total_avg_rating": 4.2833,
+      "incremental_rating_count": 10,
+      "total_rating_count": 60,
+      "source": "Sensor Tower"
+    }
+  ],
+  "metrics": {
+    "volume": 1,
+    "noise": 0,
+    "by_source": {
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Login / Account / Data": 1
+    },
+    "by_segment": {
+      "unknown": 1
+    },
+    "nss": -100,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": 1,
+      "star_1": 1,
+      "star_5": 0
+    }
+  },
+  "data_mode": "production"
+}

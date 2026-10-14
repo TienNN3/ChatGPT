@@ -1,0 +1,165 @@
+{
+  "date": "2026-07-26",
+  "alerts": [],
+  "items": [
+    {
+      "id": "gplay-vng-7b59e76bf08df359",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "น***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เติมเงินไปแล้วไม่ได้รับของค่ะ",
+      "text_vn": "Nạp tiền rồi mà không nhận được đồ ạ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Topup & Payment",
+      "topic_secondary": [],
+      "theme": "Không nhận vật phẩm sau thanh toán",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "complaint",
+      "keywords": [
+        "nạp tiền",
+        "không nhận vật phẩm"
+      ],
+      "summary_vn": "Nạp tiền nhưng không nhận được vật phẩm.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Payment"
+      ],
+      "app_version": "2.29.1"
+    },
+    {
+      "id": "appstore-vng-a8dc06361be698a0",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "F***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "แต่ก่อนเกมดีกว่านี้. เคยเล่นเมื่อหล่นปีก่อนเกมดีมากสนุกมากไม่ค้างไม่เด้งเลยแต่พอกลับมาเล่นทำไมเกมเด้งเกมค้างให้ล็อกอีกบ่อยๆ",
+      "text_vn": "Ngày trước game tốt hơn. Từng chơi mấy năm trước, game hay lắm, vui lắm, không đơ không văng gì cả, nhưng quay lại chơi sao game cứ văng, đơ, bắt đăng nhập lại liên tục.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "performance",
+      "keywords": [
+        "văng game",
+        "đăng nhập",
+        "người chơi quay lại"
+      ],
+      "summary_vn": "Quay lại chơi thấy game hay văng, đơ, đăng nhập lại.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs",
+        "Updates And Maintenance"
+      ],
+      "app_version": "2.29.1"
+    }
+  ],
+  "report": {
+    "overview": "Dữ liệu store ngày 2026-07-26.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Sensor Tower: rating và review store của Play Together VNG tại Thái Lan."
+    ]
+  },
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.3523,
+      "incremental_rating_count": 0.1514000000000001,
+      "total_rating_count": 244.9785,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.3358,
+      "incremental_rating_count": 1,
+      "total_rating_count": 134,
+      "source": "Sensor Tower"
+    }
+  ],
+  "metrics": {
+    "volume": 2,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 1,
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 2,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Topup & Payment": 1,
+      "Bug / Crash / Lag / Performance": 1
+    },
+    "by_segment": {
+      "unknown": 2
+    },
+    "nss": -100,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": 3,
+      "ios_avg": 1,
+      "star_1": 1,
+      "star_5": 0
+    }
+  },
+  "data_mode": "production"
+}

@@ -1,27 +1,182 @@
 {
   "date": "2026-08-31",
-  "items": [],
+  "items": [
+    {
+      "id": "gplay-vng-f85d6672c2f75dd1",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "M***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ฉันไม่รู้วิธีอะไรเลยแค่ที่จับแมลงฉันก็ยังไม่ได้",
+      "text_vn": "Mình chẳng biết cách làm gì cả, đến bắt côn trùng thôi mà mình cũng chưa làm được.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 2,
+      "intent": "complaint",
+      "keywords": [
+        "người chơi mới",
+        "bắt côn trùng"
+      ],
+      "summary_vn": "Người mới không biết cách chơi, kể cả bắt côn trùng.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Feature Requests",
+        "Error Handling And Messages"
+      ],
+      "app_version": "2.30.0"
+    },
+    {
+      "id": "gplay-vng-8b6921a371645fdf",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ᴘ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมาก ไม่คิดว่าจะสนุกขนาดนี้ ชอบที่มีสถานที่เยอะๆ มีคนนิสัยดีเต็มเลยรักมาก เกมนี้น่ารักมาก",
+      "text_vn": "Vui lắm, không nghĩ là vui đến vậy. Thích vì có nhiều địa điểm, toàn người tính tình dễ thương, yêu lắm. Game này dễ thương ghê.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "tìm bạn"
+      ],
+      "summary_vn": "Khen game vui, nhiều địa điểm, cộng đồng dễ thương.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Content",
+        "Service"
+      ],
+      "app_version": "2.30.0"
+    },
+    {
+      "id": "appstore-vng-d78f3dc4c264a37d",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "ส***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "Hackers. Too many hackers",
+      "text_vn": "Hack. Quá nhiều hacker.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Social / Scam / Harassment / Toxic",
+      "topic_secondary": [],
+      "theme": "Tương tác xã hội tiêu cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "complaint",
+      "keywords": [
+        "hack",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Quá nhiều hacker trong game.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Security",
+        "Performance And Bugs"
+      ],
+      "app_version": "2.30.0"
+    },
+    {
+      "id": "appstore-vng-55cec04e84ddf6e0",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "Y***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "จากเกมส์ดีๆเปลี่ยนไปขนาดนี้ เสียใจ. เสียใจมาก เข้าอันเดิม ไม่ได้ ทำแล้วมันต้องดีขึ้นสิทำไมมันเป็นแบบนี้",
+      "text_vn": "Từ một game hay mà thay đổi đến mức này, buồn quá. Buồn lắm, vào tài khoản cũ không được. Làm ra thì phải tốt hơn chứ, sao lại thành thế này.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Không vào được tài khoản cũ, game tệ đi.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Updates And Maintenance",
+        "Service"
+      ],
+      "app_version": "2.30.0"
+    }
+  ],
   "alerts": [],
   "metrics": {
-    "volume": 0,
+    "volume": 4,
     "noise": 0,
-    "by_source": {},
+    "by_source": {
+      "Google Play": 2,
+      "App Store": 2
+    },
     "by_sentiment": {
-      "Positive": 0,
+      "Positive": 1,
       "Neutral": 0,
-      "Negative": 0,
+      "Negative": 3,
       "Mixed": 0
     },
-    "by_topic": {},
-    "by_segment": {},
-    "nss": 0,
+    "by_topic": {
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1,
+      "Other": 1,
+      "Social / Scam / Harassment / Toxic": 1,
+      "Login / Account / Data": 1
+    },
+    "by_segment": {
+      "unknown": 4
+    },
+    "nss": -50,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "gp_avg": 3.5,
+      "ios_avg": 1,
+      "star_1": 2,
+      "star_5": 1
     }
   },
   "report": {
@@ -67,26 +222,29 @@
       "total_avg_rating": 4.3495,
       "incremental_rating_count": 4.4946,
       "total_rating_count": 27853.0432,
-      "source": "Sensor Tower"
+      "source": "Sensor Tower",
+      "granularity": "week"
     },
     {
       "platform": "Google Play",
       "app_name": "Play Together VNG",
       "app_id": "com.vng.playtogether",
-      "incremental_avg_rating": 2.6466,
-      "total_avg_rating": 4.5028,
-      "incremental_rating_count": 3.2084,
-      "total_rating_count": 251.5938,
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.6409,
+      "incremental_rating_count": 1.8009000000000004,
+      "total_rating_count": 250.18619999999999,
       "source": "Sensor Tower"
     },
     {
       "platform": "App Store",
       "app_name": "Play Together VNG",
       "app_id": "1612175933",
-      "incremental_avg_rating": 3.2727,
-      "total_avg_rating": 4.0504,
-      "incremental_rating_count": 22,
-      "total_rating_count": 278,
+      "granularity": "day",
+      "incremental_avg_rating": 4.1667,
+      "total_avg_rating": 4.1183,
+      "incremental_rating_count": 6,
+      "total_rating_count": 262,
       "source": "Sensor Tower"
     }
   ]

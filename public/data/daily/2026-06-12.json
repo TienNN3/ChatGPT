@@ -155,5 +155,18 @@
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
       "translation_method": "ai_contextual"
     }
+  ],
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 3.9997,
+      "total_avg_rating": 4,
+      "incremental_rating_count": 0.8839999999999999,
+      "total_rating_count": 236.5637,
+      "source": "Sensor Tower"
+    }
   ]
 }

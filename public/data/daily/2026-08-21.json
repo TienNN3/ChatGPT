@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-21",
+  "alerts": [],
+  "items": [
+    {
+      "id": "gplay-vng-e731d0461e608d0f",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "K***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "มันค้างแล้วก็เข้าเกมไม่ได้",
+      "text_vn": "Game bị đơ rồi không vào được.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "performance",
+      "keywords": [
+        "văng game"
+      ],
+      "summary_vn": "Game bị đơ và không vào được.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": "2.30.0"
+    }
+  ],
+  "report": {
+    "overview": "Dữ liệu store ngày 2026-08-21.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Sensor Tower: rating và review store của Play Together VNG tại Thái Lan."
+    ]
+  },
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.5447,
+      "total_avg_rating": 4.5374,
+      "incremental_rating_count": -0.7629999999999999,
+      "total_rating_count": 247.0496,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 3.6667,
+      "total_avg_rating": 4.115,
+      "incremental_rating_count": 3,
+      "total_rating_count": 226,
+      "source": "Sensor Tower"
+    }
+  ],
+  "metrics": {
+    "volume": 1,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Bug / Crash / Lag / Performance": 1
+    },
+    "by_segment": {
+      "unknown": 1
+    },
+    "nss": -100,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": 1,
+      "ios_avg": null,
+      "star_1": 1,
+      "star_5": 0
+    }
+  },
+  "data_mode": "production"
+}

@@ -1,24 +1,65 @@
 {
   "date": "2026-07-27",
-  "items": [],
+  "items": [
+    {
+      "id": "gplay-vng-ead1daa1a1c1329a",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "F***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เด้งออกจากเกมบ่อย",
+      "text_vn": "Hay bị văng khỏi game.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "performance",
+      "keywords": [
+        "văng game"
+      ],
+      "summary_vn": "Game thường xuyên bị văng.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": "2.29.1"
+    }
+  ],
   "alerts": [],
   "metrics": {
-    "volume": 0,
+    "volume": 1,
     "noise": 0,
-    "by_source": {},
+    "by_source": {
+      "Google Play": 1
+    },
     "by_sentiment": {
       "Positive": 0,
       "Neutral": 0,
-      "Negative": 0,
+      "Negative": 1,
       "Mixed": 0
     },
-    "by_topic": {},
-    "by_segment": {},
-    "nss": 0,
+    "by_topic": {
+      "Bug / Crash / Lag / Performance": 1
+    },
+    "by_segment": {
+      "unknown": 1
+    },
+    "nss": -100,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 3,
       "ios_avg": null,
       "star_1": 0,
       "star_5": 0
@@ -67,26 +108,29 @@
       "total_avg_rating": 4.3496,
       "incremental_rating_count": 4.0438,
       "total_rating_count": 27831.9098,
-      "source": "Sensor Tower"
+      "source": "Sensor Tower",
+      "granularity": "week"
     },
     {
       "platform": "Google Play",
       "app_name": "Play Together VNG",
       "app_id": "com.vng.playtogether",
-      "incremental_avg_rating": 2.263,
-      "total_avg_rating": 4.2718,
-      "incremental_rating_count": -3.7054,
-      "total_rating_count": 241.27290000000002,
+      "granularity": "day",
+      "incremental_avg_rating": 3,
+      "total_avg_rating": 4.3371,
+      "incremental_rating_count": 0.13450000000000006,
+      "total_rating_count": 245.113,
       "source": "Sensor Tower"
     },
     {
       "platform": "App Store",
       "app_name": "Play Together VNG",
       "app_id": "1612175933",
-      "incremental_avg_rating": 4.6,
-      "total_avg_rating": 4.3701,
-      "incremental_rating_count": 20,
-      "total_rating_count": 154,
+      "granularity": "day",
+      "incremental_avg_rating": 3.6667,
+      "total_avg_rating": 4.3212,
+      "incremental_rating_count": 3,
+      "total_rating_count": 137,
       "source": "Sensor Tower"
     }
   ]

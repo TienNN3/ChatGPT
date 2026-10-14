@@ -174,5 +174,18 @@
       "text_vn_machine": "Người chơi không thích một người chơi tên Yawaga vì hành vi gây phiền.",
       "translation_method": "ai_contextual"
     }
+  ],
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.3709,
+      "total_avg_rating": 4.375,
+      "incremental_rating_count": 0.060399999999999995,
+      "total_rating_count": 230.421,
+      "source": "Sensor Tower"
+    }
   ]
 }

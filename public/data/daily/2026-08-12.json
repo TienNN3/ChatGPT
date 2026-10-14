@@ -1,0 +1,198 @@
+{
+  "date": "2026-08-12",
+  "alerts": [],
+  "items": [
+    {
+      "id": "gplay-vng-aa048acc0ad1c875",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "P***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ดี",
+      "text_vn": "Tốt.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game tốt.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Service"
+      ],
+      "app_version": "2.30.0"
+    },
+    {
+      "id": "gplay-vng-bc0cdd5650d9d25a",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "T***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกเกมดีเพื่อนในเกมนิสัยดีมาก",
+      "text_vn": "Vui, game hay, bạn bè trong game rất dễ thương.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "chơi cùng bạn bè",
+        "khen game"
+      ],
+      "summary_vn": "Khen game vui, bạn bè trong game dễ thương.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Social And Community",
+        "Service"
+      ],
+      "app_version": "2.30.0"
+    },
+    {
+      "id": "appstore-vng-09d4bf7d07a0d1c8",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "โ***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "เกี่ยวกับการหลุด. เกมบ้าอะไรหลุดบ่อยมาก",
+      "text_vn": "Về chuyện văng game. Game quái gì mà văng suốt.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "performance",
+      "keywords": [
+        "văng game"
+      ],
+      "summary_vn": "Game văng rất thường xuyên.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": "2.30.0"
+    }
+  ],
+  "report": {
+    "overview": "Dữ liệu store ngày 2026-08-12.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Sensor Tower: rating và review store của Play Together VNG tại Thái Lan."
+    ]
+  },
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 2.511,
+      "total_avg_rating": 4.0408,
+      "incremental_rating_count": 0.44849999999999923,
+      "total_rating_count": 245.4953,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 3.6667,
+      "total_avg_rating": 4.1959,
+      "incremental_rating_count": 8,
+      "total_rating_count": 194,
+      "source": "Sensor Tower"
+    }
+  ],
+  "metrics": {
+    "volume": 3,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 2,
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 2,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Other": 2,
+      "Bug / Crash / Lag / Performance": 1
+    },
+    "by_segment": {
+      "unknown": 3
+    },
+    "nss": 33.3,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": 5,
+      "ios_avg": 1,
+      "star_1": 1,
+      "star_5": 2
+    }
+  },
+  "data_mode": "production"
+}

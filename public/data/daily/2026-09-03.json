@@ -40,34 +40,139 @@
       "summary_vn": "Chia sẻ thông tin kết thúc sự kiện Ốc Đảo Sa Mạc",
       "label_method": "ai_review",
       "text_vn_machine": "Kết thúc sự kiện Ốc Đảo Sa Mạc"
+    },
+    {
+      "id": "gplay-vng-ff0fade79062ae65",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "บ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เป็นเกมที่สนุกแต่ก็ใช่เพรดเยอะเกินอยากให้สายฟรีเงินน้อยมีคนเท่เท่บ้าง",
+      "text_vn": "Là game vui nhưng phải dùng kim cương nhiều quá, mong là người chơi free ít tiền cũng có thể đẹp ngầu được.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Mixed",
+      "confidence": 0.75,
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá vật phẩm quá cao",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "complaint",
+      "keywords": [
+        "kim cương",
+        "giá vật phẩm",
+        "ngoại hình nhân vật"
+      ],
+      "summary_vn": "Game vui nhưng tốn nhiều kim cương, mong người chơi free cũng đẹp.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Mixed",
+      "store_tags": [
+        "Monetization"
+      ],
+      "app_version": "2.30.0"
+    },
+    {
+      "id": "gplay-vng-f383783219931196",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "k***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมดีมาก",
+      "text_vn": "Game rất hay.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game rất hay.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.31.0"
+    },
+    {
+      "id": "gplay-vng-dde1d12a42805b6c",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "P***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมากครับ",
+      "text_vn": "Vui lắm ạ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game rất vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.30.0"
     }
   ],
   "metrics": {
-    "volume": 1,
+    "volume": 4,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 1
+      "Facebook Group": 1,
+      "Google Play": 3
     },
     "by_sentiment": {
-      "Positive": 0,
+      "Positive": 2,
       "Neutral": 1,
       "Negative": 0,
-      "Mixed": 0
+      "Mixed": 1
     },
     "by_topic": {
-      "Event & Update content": 1
+      "Event & Update content": 1,
+      "Gacha / Shop / Pricing": 1,
+      "Other": 2
     },
     "by_segment": {
-      "unknown": 1
+      "unknown": 4
     },
-    "nss": 0,
+    "nss": 50,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 4.33,
       "ios_avg": null,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 2
     }
   },
   "report": {
@@ -132,5 +237,29 @@
     ]
   },
   "generated_at": "2026-10-13T14:49:11.712Z",
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 2.1412,
+      "total_avg_rating": 4.5736,
+      "incremental_rating_count": 0.30210000000000026,
+      "total_rating_count": 250.6411,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": null,
+      "total_avg_rating": 4.0899,
+      "incremental_rating_count": -1,
+      "total_rating_count": 267,
+      "source": "Sensor Tower"
+    }
+  ]
 }

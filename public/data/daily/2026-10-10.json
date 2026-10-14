@@ -2008,23 +2008,163 @@
         "video_title": "3 สิ่งที่คุณควรรู้เกี่ยวกับฟาร์ม"
       },
       "collected_at": "2026-10-14T10:00:00+07:00"
+    },
+    {
+      "id": "gplay-vng-ccc0864c8287b5e4",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ป***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมากค่ะ",
+      "text_vn": "Vui lắm ạ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game rất vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.32.0"
+    },
+    {
+      "id": "gplay-vng-991cb18eaa6dce6c",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ส***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "มีการปลูกสวนมีสัตว์เลี้ยงมีเด็กไห้เลี้ยงสมจริงมากค่ะ",
+      "text_vn": "Có trồng vườn, có thú cưng, còn có em bé để nuôi nữa, chân thực lắm ạ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "trồng trọt",
+        "thú cưng",
+        "khen game"
+      ],
+      "summary_vn": "Khen game chân thực với trồng vườn, thú cưng và nuôi em bé.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Service"
+      ],
+      "app_version": null
+    },
+    {
+      "id": "gplay-vng-f311d6f6ee51a0c4",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "A***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกกก",
+      "text_vn": "Vuiii.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.31.0"
+    },
+    {
+      "id": "appstore-vng-e50c1091b8561889",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "เ***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "เพื่อ. คือเติมไม่เยอะแต่ตั้งใจสะสมแต่ละกิจกรรมตลอด ละไม่เติมโฆษณา วันนึงต้องดูกี่อัน รอโคตรนาน ทำไมทำงี้ จะแก้ไขไหม",
+      "text_vn": "Để làm gì. Mình nạp không nhiều nhưng luôn chăm chỉ tích luỹ từng sự kiện, mà không mua gói quảng cáo thì một ngày phải xem bao nhiêu cái, chờ lâu vãi. Sao lại làm vậy, có sửa không?",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Quảng cáo gây gián đoạn",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "complaint",
+      "keywords": [
+        "quảng cáo",
+        "sự kiện"
+      ],
+      "summary_vn": "Phải xem quá nhiều quảng cáo mỗi ngày, chờ lâu.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Advertisements",
+        "Game Progression"
+      ],
+      "app_version": "2.32.0"
     }
   ],
   "metrics": {
-    "volume": 55,
+    "volume": 59,
     "noise": 0,
     "by_source": {
       "Facebook Group": 53,
-      "TikTok": 2
+      "TikTok": 2,
+      "Google Play": 3,
+      "App Store": 1
     },
     "by_sentiment": {
-      "Positive": 4,
+      "Positive": 7,
       "Neutral": 45,
-      "Negative": 6,
+      "Negative": 7,
       "Mixed": 0
     },
     "by_topic": {
-      "Other": 41,
+      "Other": 45,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 3,
       "Event & Update content": 3,
       "Login / Account / Data": 4,
@@ -2032,16 +2172,16 @@
       "Bug / Crash / Lag / Performance": 1
     },
     "by_segment": {
-      "unknown": 55
+      "unknown": 59
     },
-    "nss": -3.6,
+    "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "gp_avg": 5,
+      "ios_avg": 1,
+      "star_1": 1,
+      "star_5": 3
     }
   },
   "report": {
@@ -2168,5 +2308,29 @@
     ]
   },
   "generated_at": "2026-10-13T14:49:11.712Z",
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 1,
+      "total_avg_rating": 4.6462,
+      "incremental_rating_count": 0.5455000000000001,
+      "total_rating_count": 255.2268,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 4,
+      "total_avg_rating": 3.9869,
+      "incremental_rating_count": 4,
+      "total_rating_count": 383,
+      "source": "Sensor Tower"
+    }
+  ]
 }

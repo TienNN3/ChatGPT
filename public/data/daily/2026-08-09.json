@@ -1,0 +1,162 @@
+{
+  "date": "2026-08-09",
+  "alerts": [],
+  "items": [
+    {
+      "id": "gplay-vng-29f5c4755691c0f1",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "w***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "มันดีมากมาก",
+      "text_vn": "Tốt lắm lắm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game rất tốt.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.30.0"
+    },
+    {
+      "id": "appstore-vng-0b2ed9bebfc5a14d",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "ก***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "เกมหีควาย. เกมหีควายมาก เข้าบัญชีเก่าไม่ได้แบบเดิมก็ดีอยู่ละเปลี่ยนทำหีควยแตดทำไมอีควาย",
+      "text_vn": "Game như c*t. Game tệ hại vãi, không vào được tài khoản cũ, bản cũ đang tốt mà đổi làm cái quái gì, đồ khốn.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Chửi game vì không vào được tài khoản cũ.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login",
+        "User Data And Privacy"
+      ],
+      "app_version": "2.30.0"
+    }
+  ],
+  "report": {
+    "overview": "Dữ liệu store ngày 2026-08-09.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Sensor Tower: rating và review store của Play Together VNG tại Thái Lan."
+    ]
+  },
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.1,
+      "incremental_rating_count": 2.4135999999999997,
+      "total_rating_count": 244.41910000000001,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 2.6667,
+      "total_avg_rating": 4.2571,
+      "incremental_rating_count": 3,
+      "total_rating_count": 175,
+      "source": "Sensor Tower"
+    }
+  ],
+  "metrics": {
+    "volume": 2,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 1,
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 1,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Other": 1,
+      "Login / Account / Data": 1
+    },
+    "by_segment": {
+      "unknown": 2
+    },
+    "nss": 0,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": 5,
+      "ios_avg": 1,
+      "star_1": 1,
+      "star_5": 1
+    }
+  },
+  "data_mode": "production"
+}

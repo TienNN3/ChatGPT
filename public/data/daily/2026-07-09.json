@@ -1,0 +1,275 @@
+{
+  "date": "2026-07-09",
+  "alerts": [],
+  "items": [
+    {
+      "id": "gplay-vng-bb1d6b6dc9e6908f",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "B***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ช่องใส่ คูปอง code หาย",
+      "text_vn": "Ô nhập coupon code biến mất rồi.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "bug",
+      "keywords": [
+        "code quà tặng"
+      ],
+      "summary_vn": "Không thấy ô nhập code quà tặng.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Feature Requests"
+      ],
+      "app_version": "2.29.0"
+    },
+    {
+      "id": "gplay-vng-3738b6a677b83497",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ว***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "พอออกจากเกมแปปเดียว เกมหลุดต้องล็อกอินใหม่ พอกลับไปใช้โค้ดบัญชีสำหรับย้ายมา vng กลับใช้โค้ดไม่ได้ แล้วจะล็อกอินอีกรอบยังไง พึ่งซื้อไอเทมในเกมไป แล้วของในเกมก็แพงขึ้นทุกอย่าง แต่ระบบกลับแย่มาก",
+      "text_vn": "Vừa thoát game một chút là bị văng, phải đăng nhập lại. Quay lại dùng code chuyển tài khoản sang VNG thì lại không dùng được, vậy giờ đăng nhập lại kiểu gì? Vừa mới mua vật phẩm trong game xong. Đồ trong game cái gì cũng đắt hơn mà hệ thống lại tệ quá.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "chuyển tài khoản vng",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Bị đăng xuất, code chuyển tài khoản không dùng lại được.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login",
+        "Payment",
+        "Performance And Bugs"
+      ],
+      "app_version": "2.29.0"
+    },
+    {
+      "id": "gplay-vng-44cd960ca831f68b",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "S***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ทำไมเติมชุดไม่ได้คะ เดี๋ยวเวลามันหมดก่อน ( ⸝⸝･̆⤚･̆⸝⸝)",
+      "text_vn": "Sao không nạp mua bộ đồ được vậy? Lát nữa hết thời gian mất ( ⸝⸝･̆⤚･̆⸝⸝)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Topup & Payment",
+      "topic_secondary": [],
+      "theme": "Không nhận vật phẩm sau thanh toán",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "bug",
+      "keywords": [
+        "nạp tiền",
+        "trang phục"
+      ],
+      "summary_vn": "Không nạp được để mua trang phục sắp hết hạn.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Payment",
+        "Performance And Bugs"
+      ],
+      "app_version": "2.29.0"
+    },
+    {
+      "id": "appstore-vng-a101390c049828cf",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "G***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "ระบบ. เข้าระบบแล้วเด้งออก เข้าไม่ได้สักที",
+      "text_vn": "Hệ thống. Đăng nhập xong là văng ra, mãi không vào được.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "performance",
+      "keywords": [
+        "văng game",
+        "đăng nhập"
+      ],
+      "summary_vn": "Đăng nhập xong bị văng, không vào được game.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs",
+        "Login"
+      ],
+      "app_version": "2.29.0"
+    },
+    {
+      "id": "appstore-vng-e729e751961c52f6",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "B***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "ปัญหา. เข้าไอดีเก่าของเกมอัพเดทที่แล้วไม่ได้ค่ะไม่มีตัวแอพแล้วเลแก้ไขหรือทำยังไงได้บ้างคะต้องการที่จะเข้าไอดีเดิมค่ะ",
+      "text_vn": "Vấn đề. Không vào được ID cũ của bản game cập nhật trước ạ, không còn app đó nữa nên sửa hay làm cách nào được ạ? Mình muốn vào ID cũ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Hỏi cách vào ID cũ khi app cũ không còn.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login",
+        "Performance And Bugs"
+      ],
+      "app_version": "2.29.0"
+    }
+  ],
+  "report": {
+    "overview": "Dữ liệu store ngày 2026-07-09.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Sensor Tower: rating và review store của Play Together VNG tại Thái Lan."
+    ]
+  },
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.1765,
+      "incremental_rating_count": 0.627600000000001,
+      "total_rating_count": 241.159,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.0714,
+      "incremental_rating_count": 1,
+      "total_rating_count": 14,
+      "source": "Sensor Tower"
+    }
+  ],
+  "metrics": {
+    "volume": 5,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 3,
+      "App Store": 2
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 5,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1,
+      "Login / Account / Data": 2,
+      "Topup & Payment": 1,
+      "Bug / Crash / Lag / Performance": 1
+    },
+    "by_segment": {
+      "unknown": 5
+    },
+    "nss": -100,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": 1,
+      "ios_avg": 2,
+      "star_1": 4,
+      "star_5": 0
+    }
+  },
+  "data_mode": "production"
+}

@@ -199,5 +199,18 @@
     ]
   },
   "generated_at": "2026-10-13T13:45:57.094+07:00",
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.3721,
+      "total_avg_rating": 4.375,
+      "incremental_rating_count": 0.10830000000000001,
+      "total_rating_count": 231.0273,
+      "source": "Sensor Tower"
+    }
+  ]
 }

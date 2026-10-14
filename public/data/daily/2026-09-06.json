@@ -1,0 +1,235 @@
+{
+  "date": "2026-09-06",
+  "alerts": [],
+  "items": [
+    {
+      "id": "gplay-vng-803d42b8a993c70c",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ก***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ดี",
+      "text_vn": "Hay.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 4,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game hay.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.30.0"
+    },
+    {
+      "id": "appstore-vng-27c19b5ead140f13",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "S***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "ย้ายเซิร์ฟไม่ได้. ย้ายจากเซิร์ฟเก่ามาตัวเกมใหม่ไม่ได้ กรอกโค้ดย้ายเป้น 10 รอบแล้ว แย่มาก",
+      "text_vn": "Không chuyển server được. Không chuyển từ server cũ sang game mới được, nhập code chuyển 10 lần rồi. Tệ quá.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 2,
+      "intent": "account",
+      "keywords": [
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Nhập code chuyển 10 lần vẫn không chuyển được server.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Installation And Setup",
+        "Integration With Other Services"
+      ],
+      "app_version": "2.31.0"
+    },
+    {
+      "id": "appstore-vng-6ddc12284f20519e",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "ต***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "รหัสเก่า. เอารหัสเอากลับมาอุสากลับมาจะเล่นเสียความรู้สึกจัด",
+      "text_vn": "Tài khoản cũ. Trả tài khoản lại đi, đã cất công quay lại chơi, buồn hết sức.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "mất dữ liệu",
+        "người chơi quay lại"
+      ],
+      "summary_vn": "Quay lại chơi nhưng mất tài khoản cũ.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Feature Requests",
+        "Login"
+      ],
+      "app_version": "2.31.0"
+    },
+    {
+      "id": "appstore-vng-6e8be79480cf10aa",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "แ***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "เสียดายเกม/บชเก่ามาก. รสไม่โอเคที่ลบเกมเก่าเพราะคนเล่นก็เติมไปไม่ใช่น้อยๆรอของรางวัลรอกิจกรรมแต่ที่ไม่โอเคที่สุดคือกู้คืนบชเก่ายุ่งยากมากอย่างที่หลายๆคนบอกแถมพึ่งเข้าเกมก็หลุดเลยตอนนี้ลบไปแล้วไม่เล่นแล้วก็ได้เสียดายบชเก่ามาก",
+      "text_vn": "Tiếc game/tài khoản cũ lắm. Thấy không ổn khi xoá game cũ vì người chơi cũng nạp không ít, chờ phần thưởng chờ sự kiện. Nhưng tệ nhất là khôi phục tài khoản cũ quá rắc rối như nhiều người đã nói, lại còn vừa vào game đã bị văng. Giờ xoá rồi, không chơi nữa cũng được. Tiếc tài khoản cũ lắm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "account",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "văng game",
+        "xoá game",
+        "mất dữ liệu"
+      ],
+      "summary_vn": "Khôi phục tài khoản cũ rắc rối, vào game bị văng, đã xoá game.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "User Data And Privacy",
+        "Installation And Setup"
+      ],
+      "app_version": "2.31.0"
+    }
+  ],
+  "report": {
+    "overview": "Dữ liệu store ngày 2026-09-06.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Sensor Tower: rating và review store của Play Together VNG tại Thái Lan."
+    ]
+  },
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 2.839,
+      "total_avg_rating": 4.5028,
+      "incremental_rating_count": 0.8228,
+      "total_rating_count": 251.5938,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 3.3333,
+      "total_avg_rating": 4.0504,
+      "incremental_rating_count": 3,
+      "total_rating_count": 278,
+      "source": "Sensor Tower"
+    }
+  ],
+  "metrics": {
+    "volume": 4,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 1,
+      "App Store": 3
+    },
+    "by_sentiment": {
+      "Positive": 1,
+      "Neutral": 0,
+      "Negative": 3,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Other": 1,
+      "Login / Account / Data": 3
+    },
+    "by_segment": {
+      "unknown": 4
+    },
+    "nss": -50,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": 4,
+      "ios_avg": 2,
+      "star_1": 1,
+      "star_5": 0
+    }
+  },
+  "data_mode": "production"
+}

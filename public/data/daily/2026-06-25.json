@@ -119,5 +119,18 @@
       "text_vn_machine": "Mong giảm giá vật phẩm, thêm đồ dễ thương và đồ trang trí nhà. Game nhìn chung rất tốt nhưng quảng cáo quá nhiều, gây mất thời gian.",
       "translation_method": "ai_contextual"
     }
+  ],
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.1827,
+      "total_avg_rating": 4.1818,
+      "incremental_rating_count": 0.179,
+      "total_rating_count": 238.3161,
+      "source": "Sensor Tower"
+    }
   ]
 }

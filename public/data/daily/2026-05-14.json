@@ -338,5 +338,18 @@
       "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
       "translation_method": "ai_contextual"
     }
+  ],
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": null,
+      "total_avg_rating": 4.375,
+      "incremental_rating_count": -0.11209999999999999,
+      "total_rating_count": 232.08729999999997,
+      "source": "Sensor Tower"
+    }
   ]
 }

@@ -1,0 +1,224 @@
+{
+  "date": "2026-08-19",
+  "alerts": [],
+  "items": [
+    {
+      "id": "gplay-vng-90aea7c25962ea15",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ด***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ยังไม่ได้เล่นแต่...เห็นคนอื่นเล่นมันสนุกมากกกกกกก🫶🏻🫶🏻🫶🏻",
+      "text_vn": "Chưa chơi nhưng... thấy người khác chơi vui lắmmmm 🫶🏻🫶🏻🫶🏻",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "người chơi mới",
+        "khen game"
+      ],
+      "summary_vn": "Chưa chơi nhưng thấy người khác chơi rất vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Neutral",
+      "store_tags": [],
+      "app_version": null
+    },
+    {
+      "id": "gplay-vng-03656c97fc9d09c8",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "c***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "i pan ya oon",
+      "text_vn": "Đồ thiểu năng (câu chửi tiếng Thái viết bằng chữ Latin).",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 2,
+      "intent": "complaint",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Câu chửi ngắn, không nêu vấn đề cụ thể.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Neutral",
+      "store_tags": [],
+      "app_version": "2.30.0"
+    },
+    {
+      "id": "gplay-vng-26efb5a4514e4ac0",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "B***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมดี",
+      "text_vn": "Game hay.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 4,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game hay.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.30.0"
+    },
+    {
+      "id": "gplay-vng-8ed356ebcf27b6d3",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "พ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เสียเวลาทำเควส และ ภารกิจ",
+      "text_vn": "Tốn thời gian làm quest với nhiệm vụ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 4,
+      "intent": "complaint",
+      "keywords": [
+        "nhiệm vụ"
+      ],
+      "summary_vn": "Phàn nàn làm quest và nhiệm vụ tốn thời gian.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Feature Requests"
+      ],
+      "app_version": "2.30.0"
+    }
+  ],
+  "report": {
+    "overview": "Dữ liệu store ngày 2026-08-19.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Sensor Tower: rating và review store của Play Together VNG tại Thái Lan."
+    ]
+  },
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.6416,
+      "total_avg_rating": 4.3951,
+      "incremental_rating_count": 1.6104000000000003,
+      "total_rating_count": 247.54860000000002,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 1,
+      "total_avg_rating": 4.1131,
+      "incremental_rating_count": 1,
+      "total_rating_count": 221,
+      "source": "Sensor Tower"
+    }
+  ],
+  "metrics": {
+    "volume": 4,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 4
+    },
+    "by_sentiment": {
+      "Positive": 2,
+      "Neutral": 0,
+      "Negative": 2,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Other": 3,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1
+    },
+    "by_segment": {
+      "unknown": 4
+    },
+    "nss": 0,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": 3.75,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 1
+    }
+  },
+  "data_mode": "production"
+}

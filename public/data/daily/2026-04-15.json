@@ -1,0 +1,73 @@
+{
+  "date": "2026-04-15",
+  "alerts": [],
+  "items": [],
+  "report": {
+    "overview": "Dữ liệu store ngày 2026-04-15.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Sensor Tower: rating và review store của Play Together VNG tại Thái Lan."
+    ]
+  },
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.3739,
+      "total_avg_rating": 4.375,
+      "incremental_rating_count": 0.0559,
+      "total_rating_count": 230.4769,
+      "source": "Sensor Tower"
+    }
+  ],
+  "metrics": {
+    "volume": 0,
+    "noise": 0,
+    "by_source": {},
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 0,
+      "Mixed": 0
+    },
+    "by_topic": {},
+    "by_segment": {},
+    "nss": 0,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 0
+    }
+  },
+  "data_mode": "production"
+}

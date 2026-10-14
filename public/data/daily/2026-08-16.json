@@ -1,0 +1,200 @@
+{
+  "date": "2026-08-16",
+  "alerts": [],
+  "items": [
+    {
+      "id": "gplay-vng-e9fc9ad68f615d06",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ก***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "คือเริ่ดมากใครเหงาๆเอาเกมนี้ไปเล่นนะหายเหงาแถมได้เพื่อนเพิ่มด้วยในตัวเกมมีหลายอย่างให้ทำมากมาย เค้ารักประกันเลย แต่พื้นที่ในโทรศัพท์ต้องเยอะนะเพราะเกมนี้กินพื้นที่สุดๆ",
+      "text_vn": "Đỉnh lắm luôn, ai đang cô đơn thì chơi game này nhé, hết cô đơn mà còn có thêm bạn nữa. Trong game có rất nhiều thứ để làm. Mình yêu luôn, đảm bảo. Nhưng điện thoại phải nhiều dung lượng nha vì game này ngốn bộ nhớ cực kỳ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Mixed",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "tìm bạn",
+        "dung lượng bộ nhớ",
+        "khen game"
+      ],
+      "summary_vn": "Khen game giúp kết bạn, nhiều hoạt động nhưng tốn dung lượng.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Service",
+        "Performance And Bugs"
+      ],
+      "app_version": null
+    },
+    {
+      "id": "gplay-vng-b43020eca0ce0d96",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "C***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เจ๋ง",
+      "text_vn": "Ngầu.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game ngầu.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.30.0"
+    },
+    {
+      "id": "appstore-vng-644f8942389a2e8d",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "a***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "บช หาย. โหลดใหม่แล้วบัชชีเก่าคือหายหมดไปหมดเลยอะต้องเริ่มใหม่หมดวอนให้เอาบช เก่าคืนมาเติมไปไม่น้อยเสียดาย🥹",
+      "text_vn": "Mất tài khoản. Tải lại game thì tài khoản cũ mất sạch, phải chơi lại từ đầu. Xin trả lại tài khoản cũ, nạp không ít, tiếc lắm 🥹",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "mất dữ liệu",
+        "tải game",
+        "nạp tiền"
+      ],
+      "summary_vn": "Tải lại game mất tài khoản cũ, xin khôi phục.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "User Data And Privacy",
+        "Login"
+      ],
+      "app_version": "2.30.0"
+    }
+  ],
+  "report": {
+    "overview": "Dữ liệu store ngày 2026-08-16.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Sensor Tower: rating và review store của Play Together VNG tại Thái Lan."
+    ]
+  },
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.2396,
+      "total_avg_rating": 4.1475,
+      "incremental_rating_count": -0.9471999999999998,
+      "total_rating_count": 245.5652,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 3,
+      "total_avg_rating": 4.1302,
+      "incremental_rating_count": 7,
+      "total_rating_count": 215,
+      "source": "Sensor Tower"
+    }
+  ],
+  "metrics": {
+    "volume": 3,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 2,
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 1,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 1
+    },
+    "by_topic": {
+      "Other": 2,
+      "Login / Account / Data": 1
+    },
+    "by_segment": {
+      "unknown": 3
+    },
+    "nss": 0,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": 5,
+      "ios_avg": 1,
+      "star_1": 1,
+      "star_5": 2
+    }
+  },
+  "data_mode": "production"
+}

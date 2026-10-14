@@ -1470,40 +1470,112 @@
       "summary_vn": "Video sự kiện minigame Tội ác của cà rốt, khoe bò tót ngầu",
       "label_method": "ai_review",
       "text_vn_machine": "Play Together: sự kiện minigame (Tội ác của cà rốt) ✓ Bò tót ✓ Ngầu cực kỳ"
+    },
+    {
+      "id": "gplay-vng-29b080abf488f343",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "T***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกไหมน้อไม่เคยเล่นเลยลองเล่นดีกว่าอาจจะสนุกมากก็ได้บางคนบอกว่าเข้าเกมไม่ได้ทุกคนเลยแหละไม่เป็นไรเดี๋ยวให้เต็มไปก่อนแล้วกัน",
+      "text_vn": "Không biết có vui không ta, mình chưa chơi bao giờ, thử chơi xem sao, biết đâu lại vui lắm. Có người bảo là ai cũng không vào được game, thôi không sao, cứ cho full sao trước đã.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "chat",
+      "keywords": [
+        "người chơi mới",
+        "đăng nhập"
+      ],
+      "summary_vn": "Người mới chưa chơi, nghe nói không vào được game nhưng vẫn cho 5 sao.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Neutral",
+      "store_tags": [],
+      "app_version": null
+    },
+    {
+      "id": "appstore-vng-981ab32a97680a5c",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "P***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "บัญชีเก่าเข้าไม่ได้. บัญชีเก่าเป็นมาหลายปีหายหมดเลย ของที่เติมที่สะสมไปหมดเลยแย่มาก เสียความรู้สึก",
+      "text_vn": "Không vào được tài khoản cũ. Tài khoản cũ chơi mấy năm mất sạch, đồ đã nạp, đồ tích luỹ mất hết. Tệ quá, buồn lắm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "mất dữ liệu",
+        "người chơi lâu năm"
+      ],
+      "summary_vn": "Không vào được tài khoản cũ, mất hết đồ đã nạp.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login",
+        "User Data And Privacy"
+      ],
+      "app_version": "2.32.0"
     }
   ],
   "metrics": {
-    "volume": 40,
+    "volume": 42,
     "noise": 0,
     "by_source": {
       "Facebook Group": 39,
-      "YouTube": 1
+      "YouTube": 1,
+      "Google Play": 1,
+      "App Store": 1
     },
     "by_sentiment": {
       "Positive": 3,
-      "Neutral": 32,
-      "Negative": 4,
+      "Neutral": 33,
+      "Negative": 5,
       "Mixed": 1
     },
     "by_topic": {
-      "Other": 25,
+      "Other": 26,
       "Gacha / Shop / Pricing": 8,
       "Bug / Crash / Lag / Performance": 1,
       "Event & Update content": 3,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2,
-      "Login / Account / Data": 1
+      "Login / Account / Data": 2
     },
     "by_segment": {
-      "unknown": 40
+      "unknown": 42
     },
-    "nss": -2.5,
+    "nss": -4.8,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "gp_avg": 5,
+      "ios_avg": 1,
+      "star_1": 1,
+      "star_5": 1
     }
   },
   "report": {
@@ -1611,5 +1683,29 @@
     ]
   },
   "generated_at": "2026-10-13T14:49:11.712Z",
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4,
+      "total_avg_rating": 4.6774,
+      "incremental_rating_count": -0.4534999999999998,
+      "total_rating_count": 254.6813,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 2.3333,
+      "total_avg_rating": 3.9868,
+      "incremental_rating_count": 3,
+      "total_rating_count": 379,
+      "source": "Sensor Tower"
+    }
+  ]
 }

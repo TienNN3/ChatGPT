@@ -131,5 +131,18 @@
       "text_vn_machine": "Quảng cáo quá dài làm game bị văng. Xem xong vẫn không nhận được phần thưởng và chỉ thấy báo lỗi.",
       "translation_method": "ai_contextual"
     }
+  ],
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.3825,
+      "total_avg_rating": 4.375,
+      "incremental_rating_count": 0.0664,
+      "total_rating_count": 231.6802,
+      "source": "Sensor Tower"
+    }
   ]
 }

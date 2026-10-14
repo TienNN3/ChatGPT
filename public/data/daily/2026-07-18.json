@@ -28,25 +28,65 @@
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
       "translation_method": "ai_contextual"
+    },
+    {
+      "id": "gplay-vng-bd241503eb2d7cfb",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "บ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "อยากเล่นเกมในแอปเดิม ใส่โค้ดไม่ผ่านลิ้ง ให้เวียดนามดูแลเอากิจแต่เดิมๆมาเล่น เปลี่ยนแค่รางวัล อยากให้เกาหลีกลับมาดูแลเหมือนเดิม หากิจกรรมใหม่ๆมาเล่นบ้าง ไม่งั้นคนจะหายจากเกมไปเยอะนะ อยากให้เกมเป็นของเกาหลีทำ ปีสองปีก่อนตกปลา ทำกิจสนุกมาก หลังๆมาไม่หนุกเลย เติมของก็แพงขึ้น ใส่โค้ดก็ยาก ออเดอรก็งกเพชรมาก ยิ่งออเดอรฺสีดอกไม้ ขายคืนเกาหลีเขาไปเถอะ",
+      "text_vn": "Muốn chơi game trên app cũ. Nhập code qua link không được. Để Việt Nam quản lý thì toàn lấy sự kiện cũ ra chơi lại, chỉ đổi phần thưởng. Muốn Hàn Quốc quay lại quản lý như trước, có thêm sự kiện mới để chơi, không thì người chơi sẽ bỏ game nhiều đấy. Muốn game do Hàn làm. Một hai năm trước câu cá, làm sự kiện vui lắm, dạo này chẳng vui gì cả. Nạp đồ thì đắt hơn, nhập code thì khó, đơn hàng thì keo kiệt kim cương quá, nhất là đơn hàng hoa. Bán lại cho Hàn đi.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "complaint",
+      "keywords": [
+        "sự kiện",
+        "code quà tặng",
+        "giá vật phẩm",
+        "kim cương"
+      ],
+      "summary_vn": "Chê sự kiện lặp lại, code khó nhập, giá đắt, muốn Hàn quản lý lại.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Mixed",
+      "store_tags": [
+        "Feature Requests",
+        "Pricing",
+        "Monetization"
+      ],
+      "app_version": "2.29.1"
     }
   ],
   "metrics": {
-    "volume": 1,
+    "volume": 2,
     "noise": 0,
     "by_source": {
-      "Google Play": 1
+      "Google Play": 2
     },
     "by_sentiment": {
       "Positive": 0,
       "Neutral": 0,
-      "Negative": 1,
+      "Negative": 2,
       "Mixed": 0
     },
     "by_topic": {
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1,
+      "Event & Update content": 1
     },
     "by_segment": {
-      "unknown": 1
+      "unknown": 2
     },
     "nss": -100,
     "nss_d1": null,
@@ -55,7 +95,7 @@
       "gp_avg": 5,
       "ios_avg": null,
       "star_1": 0,
-      "star_5": 1
+      "star_5": 2
     }
   },
   "report": {
@@ -133,5 +173,29 @@
     ]
   },
   "generated_at": "2026-10-13T13:45:57.094+07:00",
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.3784,
+      "incremental_rating_count": 0.13369999999999993,
+      "total_rating_count": 243.6918,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.301,
+      "incremental_rating_count": 2,
+      "total_rating_count": 103,
+      "source": "Sensor Tower"
+    }
+  ]
 }

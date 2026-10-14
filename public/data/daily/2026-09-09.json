@@ -37,34 +37,110 @@
       "summary_vn": "Bán 20 cây nhân sâm thường giá 200 baht",
       "label_method": "ai_review",
       "text_vn_machine": "Bán 20 cây nhân sâm bình thường với giá 200 baht. Nếu quan tâm, hãy nói chuyện với chúng tôi."
+    },
+    {
+      "id": "gplay-vng-53e632d1038ca547",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "อ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ผมเล่นมาหลายปีแล้ว มีแต่เพื่อนที่ดีๆ แล้วเกมนี้จะให้ทำอะไรเยอะ",
+      "text_vn": "Mình chơi mấy năm rồi, toàn gặp bạn tốt, mà game này có nhiều thứ để làm lắm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "người chơi lâu năm",
+        "tìm bạn",
+        "khen game"
+      ],
+      "summary_vn": "Người chơi lâu năm khen bạn bè tốt, game nhiều hoạt động.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Social And Community"
+      ],
+      "app_version": null
+    },
+    {
+      "id": "appstore-vng-7add349a692d09bc",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "n***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "บัญชีหาย. บัญชีหายหมด เติมไปหลักหมื่น",
+      "text_vn": "Mất tài khoản. Tài khoản mất sạch, đã nạp cả chục nghìn baht.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "account",
+      "keywords": [
+        "mất dữ liệu",
+        "nạp tiền"
+      ],
+      "summary_vn": "Mất tài khoản đã nạp hàng chục nghìn baht.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs",
+        "Security"
+      ],
+      "app_version": "2.31.0"
     }
   ],
   "metrics": {
-    "volume": 1,
+    "volume": 3,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 1
+      "Facebook Group": 1,
+      "Google Play": 1,
+      "App Store": 1
     },
     "by_sentiment": {
-      "Positive": 0,
+      "Positive": 1,
       "Neutral": 1,
-      "Negative": 0,
+      "Negative": 1,
       "Mixed": 0
     },
     "by_topic": {
-      "Gacha / Shop / Pricing": 1
+      "Gacha / Shop / Pricing": 1,
+      "Other": 1,
+      "Login / Account / Data": 1
     },
     "by_segment": {
-      "unknown": 1
+      "unknown": 3
     },
     "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
-      "ios_avg": null,
+      "gp_avg": 5,
+      "ios_avg": 3,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 1
     }
   },
   "report": {
@@ -129,5 +205,29 @@
     ]
   },
   "generated_at": "2026-10-13T14:49:11.712Z",
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 2,
+      "total_avg_rating": 4.3792,
+      "incremental_rating_count": 0.1519000000000001,
+      "total_rating_count": 252.04649999999998,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 4,
+      "total_avg_rating": 4.0273,
+      "incremental_rating_count": 4,
+      "total_rating_count": 293,
+      "source": "Sensor Tower"
+    }
+  ]
 }

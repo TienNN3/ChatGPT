@@ -1,0 +1,130 @@
+{
+  "date": "2026-07-21",
+  "alerts": [],
+  "items": [
+    {
+      "id": "gplay-vng-4715ef2ff12cac1f",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "N***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เล่นบัญชีเดิมไม่ได้ ต้องโหลดเวอร์ชั่นเกาหลีเพื่อเชื่อมกับเวอร์ชั่นเวียดนาม แต่ปัญหาคือเวอร์ชั่นเกาหลีถูกลบไปแล้วเชื่อมไม่ได้ ล็อคอินบัญชีเดิมก็ไม่ได้ช่วย ไอเทมที่สะสมไว้หายอยู่ดี ฉันเติมไปเยอะมากด้วย แต่ระบบไม่สามารถสร้างให้มีประสิทธิภาพดีพอที่จะรักษาข้อมูลเดิมไว้ได้ ก็ขอพอแค่นี้ไม่เล่นอีกต่อไป ผิดหวังมากๆ",
+      "text_vn": "Không chơi được tài khoản cũ. Phải tải bản Hàn để liên kết với bản Việt Nam, nhưng vấn đề là bản Hàn đã bị gỡ rồi nên không liên kết được. Đăng nhập tài khoản cũ cũng không giúp gì, đồ tích luỹ vẫn mất. Mình đã nạp rất nhiều, nhưng hệ thống không đủ tốt để giữ được dữ liệu cũ. Thôi đến đây thôi, không chơi nữa. Thất vọng lắm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "mất dữ liệu",
+        "nạp tiền",
+        "xoá game"
+      ],
+      "summary_vn": "Không liên kết được tài khoản cũ, mất đồ đã nạp, bỏ game.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login",
+        "Performance And Bugs",
+        "User Data And Privacy"
+      ],
+      "app_version": null
+    }
+  ],
+  "report": {
+    "overview": "Dữ liệu store ngày 2026-07-21.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Sensor Tower: rating và review store của Play Together VNG tại Thái Lan."
+    ]
+  },
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.4177,
+      "incremental_rating_count": 0.10550000000000015,
+      "total_rating_count": 244.1137,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 4,
+      "total_avg_rating": 4.325,
+      "incremental_rating_count": 3,
+      "total_rating_count": 120,
+      "source": "Sensor Tower"
+    }
+  ],
+  "metrics": {
+    "volume": 1,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Login / Account / Data": 1
+    },
+    "by_segment": {
+      "unknown": 1
+    },
+    "nss": -100,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": 1,
+      "ios_avg": null,
+      "star_1": 1,
+      "star_5": 0
+    }
+  },
+  "data_mode": "production"
+}

@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-07",
+  "alerts": [],
+  "items": [
+    {
+      "id": "gplay-vng-46536ccfc0bfe7fd",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "C***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ช็อคมากเลยค่ะที่ไม่ใช่เซิร์ฟเดิมแล้ว user เราหายหมดเลย เพื่อนก็หาย เสียใจ",
+      "text_vn": "Sốc lắm ạ vì không còn là server cũ nữa, user của mình mất hết, bạn bè cũng mất luôn. Buồn.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 2,
+      "intent": "account",
+      "keywords": [
+        "mất dữ liệu",
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Chuyển server khiến mất tài khoản và danh sách bạn bè.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "User Data And Privacy",
+        "Updates And Maintenance"
+      ],
+      "app_version": null
+    },
+    {
+      "id": "appstore-vng-9fe9af204e6fbfd9",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "a***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "เอา play together เก่าหลับมา. เสียดายแอคเก่ามาก ว่าจะกลับมาเล่นแล้ว เติมเกมเยอะด้วย",
+      "text_vn": "Trả Play Together cũ lại đi. Tiếc tài khoản cũ lắm, định quay lại chơi rồi, nạp cũng nhiều nữa.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "mất dữ liệu",
+        "người chơi quay lại",
+        "nạp tiền"
+      ],
+      "summary_vn": "Muốn quay lại nhưng mất tài khoản cũ đã nạp nhiều.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Comparative Feedback"
+      ],
+      "app_version": "2.30.0"
+    }
+  ],
+  "report": {
+    "overview": "Dữ liệu store ngày 2026-08-07.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Sensor Tower: rating và review store của Play Together VNG tại Thái Lan."
+    ]
+  },
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 1.5376,
+      "total_avg_rating": 4.0504,
+      "incremental_rating_count": -1.5269,
+      "total_rating_count": 241.5778,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 2.875,
+      "total_avg_rating": 4.2934,
+      "incremental_rating_count": 8,
+      "total_rating_count": 167,
+      "source": "Sensor Tower"
+    }
+  ],
+  "metrics": {
+    "volume": 2,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 1,
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 0,
+      "Negative": 2,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Login / Account / Data": 2
+    },
+    "by_segment": {
+      "unknown": 2
+    },
+    "nss": -100,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": 2,
+      "ios_avg": 1,
+      "star_1": 1,
+      "star_5": 0
+    }
+  },
+  "data_mode": "production"
+}

@@ -1,27 +1,139 @@
 {
   "date": "2026-09-05",
   "alerts": [],
-  "items": [],
+  "items": [
+    {
+      "id": "gplay-vng-c878019e4cc2deff",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ห***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "กยดาพาสพุ่",
+      "text_vn": "(chuỗi ký tự vô nghĩa, có thể gõ nhầm)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "chat",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Chuỗi ký tự không có nghĩa.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Neutral",
+      "store_tags": [
+        "Service"
+      ],
+      "app_version": "2.30.0"
+    },
+    {
+      "id": "gplay-vng-fb10ad5ce4aa8d3f",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "น***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมากก",
+      "text_vn": "Vui lắmm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game rất vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Service"
+      ],
+      "app_version": "2.31.0"
+    },
+    {
+      "id": "appstore-vng-d006802a263f6483",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "S***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "เกม. คนที่ด่าเล่นไม่เป็นโทษเกมลงชื่อเข้าไม่เป็น เกมสนุกให้ใช่พาสฟรีด้วยย",
+      "text_vn": "Game. Mấy người chửi là do chơi không biết, đăng nhập không biết rồi đổ lỗi cho game. Game vui, còn cho dùng pass miễn phí nữa.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 4,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "vật phẩm miễn phí"
+      ],
+      "summary_vn": "Khen game vui, có pass miễn phí, bênh vực game.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Service"
+      ],
+      "app_version": "2.31.0"
+    }
+  ],
   "metrics": {
-    "volume": 0,
+    "volume": 3,
     "noise": 0,
-    "by_source": {},
+    "by_source": {
+      "Google Play": 2,
+      "App Store": 1
+    },
     "by_sentiment": {
-      "Positive": 0,
-      "Neutral": 0,
+      "Positive": 2,
+      "Neutral": 1,
       "Negative": 0,
       "Mixed": 0
     },
-    "by_topic": {},
-    "by_segment": {},
-    "nss": 0,
+    "by_topic": {
+      "Other": 3
+    },
+    "by_segment": {
+      "unknown": 3
+    },
+    "nss": 66.7,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
-      "ios_avg": null,
+      "gp_avg": 5,
+      "ios_avg": 4,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 2
     }
   },
   "report": {
@@ -86,5 +198,29 @@
     ]
   },
   "generated_at": "2026-10-13T08:37:59.960Z",
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 3.7147,
+      "total_avg_rating": 4.5354,
+      "incremental_rating_count": 0.24160000000000004,
+      "total_rating_count": 250.7711,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 1,
+      "total_avg_rating": 4.0582,
+      "incremental_rating_count": 2,
+      "total_rating_count": 275,
+      "source": "Sensor Tower"
+    }
+  ]
 }

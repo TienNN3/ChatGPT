@@ -39,34 +39,176 @@
       "summary_vn": "Đăng tìm mua cây mandrake",
       "label_method": "ai_review",
       "text_vn_machine": "Đang tìm kiếm một cây nhân sâm."
+    },
+    {
+      "id": "gplay-vng-59abff0a83ebeb6d",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ส***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ที่ให้1ดาวเพราะโหลดช้ามากค่ะ",
+      "text_vn": "Cho 1 sao vì tải chậm quá ạ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "performance",
+      "keywords": [
+        "tải game"
+      ],
+      "summary_vn": "Cho 1 sao vì tải game quá chậm.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs",
+        "Installation And Setup"
+      ],
+      "app_version": null
+    },
+    {
+      "id": "gplay-vng-bef005a963dc16b0",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "S***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เล่นแล้วใจเกเร",
+      "text_vn": "Chơi xong thấy lòng nổi loạn (?)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "chat",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Bình luận đùa, ý nghĩa không rõ ràng.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [],
+      "app_version": null
+    },
+    {
+      "id": "gplay-vng-45cedd1db25269aa",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "อ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "อยากให้เปลี่ยนชื่อได้",
+      "text_vn": "Mong là cho đổi tên được.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "confidence": 0.75,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 4,
+      "intent": "suggestion",
+      "keywords": [
+        "đổi tên nhân vật"
+      ],
+      "summary_vn": "Đề xuất cho phép đổi tên nhân vật.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Neutral",
+      "store_tags": [
+        "Feature Requests"
+      ],
+      "app_version": "2.31.0"
+    },
+    {
+      "id": "appstore-vng-8567989a179f06c7",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "S***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "เอาอันเก่ากลับมาค่ะ. เสียดาย ถึงจะเติมไปไม่เยอะ แต่ก็คือตั้วใจเล่นเอาของสะสมมาตลอพอ่ะ ของก็เยอะ",
+      "text_vn": "Trả bản cũ lại đi ạ. Tiếc lắm, dù nạp không nhiều nhưng cũng chăm chỉ chơi tích luỹ đồ suốt, đồ cũng nhiều.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "mất dữ liệu",
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Tiếc tài khoản cũ với nhiều đồ tích luỹ.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Mixed",
+      "store_tags": [
+        "Updates And Maintenance",
+        "Service"
+      ],
+      "app_version": "2.31.0"
     }
   ],
   "metrics": {
-    "volume": 1,
+    "volume": 5,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 1
+      "Facebook Group": 1,
+      "Google Play": 3,
+      "App Store": 1
     },
     "by_sentiment": {
       "Positive": 0,
-      "Neutral": 1,
-      "Negative": 0,
+      "Neutral": 3,
+      "Negative": 2,
       "Mixed": 0
     },
     "by_topic": {
-      "Other": 1
+      "Other": 2,
+      "Bug / Crash / Lag / Performance": 1,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1,
+      "Login / Account / Data": 1
     },
     "by_segment": {
-      "unknown": 1
+      "unknown": 5
     },
-    "nss": 0,
+    "nss": -40,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "gp_avg": 3.33,
+      "ios_avg": 1,
+      "star_1": 2,
+      "star_5": 1
     }
   },
   "report": {
@@ -131,5 +273,29 @@
     ]
   },
   "generated_at": "2026-10-13T14:49:11.712Z",
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.4092,
+      "incremental_rating_count": 0.042200000000000015,
+      "total_rating_count": 252.1488,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.0337,
+      "incremental_rating_count": 1,
+      "total_rating_count": 297,
+      "source": "Sensor Tower"
+    }
+  ]
 }

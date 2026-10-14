@@ -1661,39 +1661,110 @@
       "summary_vn": "Gợi ý liên kết email để nhận link đăng nhập qua Steam",
       "label_method": "ai_review",
       "text_vn_machine": "Bạn có liên kết email không? Nếu nhớ không nhầm thì khi đăng nhập bằng Steam, hình như nó sẽ gửi link qua email."
+    },
+    {
+      "id": "gplay-vng-33964da3d0dffa49",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "N***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เวอร์ชั่นนี้เหมือนเวอร์ชั่นเก่าเลยแต่ว่าแต่ว่าน่าเสียดายที่เวอร์ชั่นเก่านำมาเล่นกับเวอร์ชั่นใหม่ไม่ได้มีวิธีแหละแต่ว่าส่วนตัวเราไม่ค่อยเก็บเกมไว้นานเท่าไหร่ตอนที่อยากกลับมาเล่นก็เข้าเวอร์ชั่นเก่าไม่ได้ไม่มีแล้วอยากได้เวอร์ชั่นเก่าแต่ว่าในเครื่องไม่มีเวอร์ชั่นเก่าอยู่แล้วหาโหลดก็หาโหลดไม่ได้เพราะว่าตัวเครื่องที่เล่นอยู่ไม่รองรับการโหลดเลยน่าเสียดายที่เอามาผูกกับเวอร์ชั่นใหม่ไม่ได้ แต่ทุกอย่างก็สนุกเหมือนเดิมติดที่ว่าสร้างเวอร์ชั่นใหม่แต่ไม่มีเวอร์ชั่นเก่าแล้ว",
+      "text_vn": "Phiên bản này giống hệt bản cũ, nhưng tiếc là không thể đem dữ liệu bản cũ sang chơi ở bản mới. Có cách thì có đấy, nhưng cá nhân mình không hay giữ game lâu, lúc muốn quay lại chơi thì bản cũ không vào được nữa, không còn nữa rồi. Muốn chơi bản cũ mà trong máy không còn, tìm tải cũng không được vì máy đang dùng không hỗ trợ tải. Tiếc là không liên kết được với bản mới. Nhưng mọi thứ vẫn vui như xưa, chỉ vướng chỗ làm bản mới mà không còn bản cũ nữa.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Mixed",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 4,
+      "intent": "account",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "mất dữ liệu",
+        "người chơi quay lại"
+      ],
+      "summary_vn": "Game vẫn vui nhưng không chuyển được dữ liệu bản cũ sang bản VNG.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Mixed",
+      "store_tags": [
+        "Updates And Maintenance",
+        "Cross Platform Consistency"
+      ],
+      "app_version": "2.32.0"
+    },
+    {
+      "id": "gplay-vng-57c06bd3303d4a4f",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ญ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ลักษณะเกมโคตรๆๆเลิศเลยล่ะ",
+      "text_vn": "Kiểu game đỉnh của chóp luôn.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game cực kỳ xuất sắc.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": null
     }
   ],
   "metrics": {
-    "volume": 45,
+    "volume": 47,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 45
+      "Facebook Group": 45,
+      "Google Play": 2
     },
     "by_sentiment": {
-      "Positive": 7,
+      "Positive": 8,
       "Neutral": 30,
       "Negative": 7,
-      "Mixed": 1
+      "Mixed": 2
     },
     "by_topic": {
-      "Other": 25,
+      "Other": 26,
       "Gacha / Shop / Pricing": 6,
       "Event & Update content": 2,
-      "Login / Account / Data": 1,
+      "Login / Account / Data": 2,
       "Bug / Crash / Lag / Performance": 9,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2
     },
     "by_segment": {
-      "unknown": 45
+      "unknown": 47
     },
-    "nss": 0,
+    "nss": 2.1,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 4.5,
       "ios_avg": null,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 1
     }
   },
   "report": {
@@ -1825,5 +1896,29 @@
     ]
   },
   "generated_at": "2026-10-13T14:49:11.712Z",
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 1.6164,
+      "total_avg_rating": 4.6565,
+      "incremental_rating_count": 1.5105,
+      "total_rating_count": 255.1347,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 4.5,
+      "total_avg_rating": 4,
+      "incremental_rating_count": 4,
+      "total_rating_count": 376,
+      "source": "Sensor Tower"
+    }
+  ]
 }

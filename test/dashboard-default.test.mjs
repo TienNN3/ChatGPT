@@ -68,7 +68,9 @@ test("reads as a report: summary, likes, dislikes and actions for the selected p
   // Tránh phần trăm gây hiểu nhầm khi kỳ trước quá ít dữ liệu.
   assert.match(html, /if\(previous<10\)/);
   // Điểm store cập nhật theo tuần nên luôn nhìn lại 90 ngày.
-  assert.match(html, /function ratingWindow\(current\)\{return calendarDates\(dateAdd\(current\.at\(-1\),-89\),current\.at\(-1\)\)\}/);
+  // Rating: 90 ngày tính đến cuối kỳ, mở rộng thêm kỳ trước để so sánh lượt mới; biểu đồ và review vẫn giới hạn 90 ngày.
+  assert.match(html, /function ratingWindow\(current\)\{const start=dateAdd\(current\.at\(-1\),-89\),prev=dateAdd\(current\[0\],-current\.length\);return calendarDates\(prev<start\?prev:start,current\.at\(-1\)\)\}/);
+  assert.match(html, /const ratingRecent = \(\) => \{const end=state\.ratingDays\.at\(-1\)\?\.date,start=end\?dateAdd\(end,-89\)/);
 });
 
 test("splits the report into overview, sources, store reviews and feedback tabs", async () => {

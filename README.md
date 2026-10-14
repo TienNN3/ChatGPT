@@ -41,6 +41,14 @@ Quy tắc hiển thị:
 
 Không ghi đè file ngày cũ trừ khi chủ động chạy lại đúng ngày đó. Không đưa service account, token, file `.p8` hoặc export chứa dữ liệu cá nhân vào Git.
 
+## Nhập Sensor Tower app Play Together VNG (khuyến nghị)
+
+Gộp an toàn, không xoá dữ liệu cũ: rating theo ngày (`Rating Count - Star Ratings ... Detailed.csv`) và review đã dịch + gắn nhãn (staging JSON, xem `public/how-it-works.md`).
+
+```bash
+node scripts/import-sensortower-vng.mjs --ratings "/path/to/Google Play Rating Count ... Detailed.csv" --ratings "/path/to/App Store Rating Count ... Detailed.csv" --reviews .staging/store/reviews-labeled.json
+```
+
 ## Nhập dữ liệu Sensor Tower
 
 File export iOS Thailand dạng UTF-16/TSV có thể nhập bằng:

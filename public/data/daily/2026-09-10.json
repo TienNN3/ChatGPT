@@ -178,18 +178,87 @@
       "summary_vn": "Bán nhân sâm thường 10 baht, có trạng thái 25 baht",
       "label_method": "ai_review",
       "text_vn_machine": "Bán nhân sâm bình thường 10฿ Có trạng thái 25฿ cho mỗi hồ sơ và tín dụng."
+    },
+    {
+      "id": "gplay-vng-2c52e60768f168ea",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "เ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ก๊อบ",
+      "text_vn": "Copy (?)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "chat",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Bình luận một từ, ý nghĩa không rõ.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Neutral",
+      "store_tags": [],
+      "app_version": null
+    },
+    {
+      "id": "gplay-vng-45e51c4c67c1f087",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "โ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมเล่นสนุกมากมีอะไรให้เราทำเยอะไม่ว่าจะเป็นมินิเกมเลี้ยงสัตว์ตกปลา",
+      "text_vn": "Game chơi vui lắm, có nhiều thứ để làm, nào là minigame, nuôi thú cưng, câu cá.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 4,
+      "intent": "praise",
+      "keywords": [
+        "minigame",
+        "thú cưng",
+        "câu cá"
+      ],
+      "summary_vn": "Khen game nhiều hoạt động: minigame, nuôi thú cưng, câu cá.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Content",
+        "Service"
+      ],
+      "app_version": "2.31.0"
     }
   ],
   "metrics": {
-    "volume": 5,
+    "volume": 7,
     "noise": 0,
     "by_source": {
-      "Google Play": 1,
+      "Google Play": 3,
       "Facebook Group": 4
     },
     "by_sentiment": {
-      "Positive": 1,
-      "Neutral": 4,
+      "Positive": 2,
+      "Neutral": 5,
       "Negative": 0,
       "Mixed": 0
     },
@@ -197,20 +266,20 @@
       "Topup & Payment": 1,
       "Gacha / Shop / Pricing": 2,
       "Login / Account / Data": 1,
-      "Other": 1
+      "Other": 3
     },
     "by_segment": {
       "payer": 1,
-      "unknown": 4
+      "unknown": 6
     },
-    "nss": 20,
+    "nss": 28.6,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": 5,
+      "gp_avg": 4.67,
       "ios_avg": null,
       "star_1": 0,
-      "star_5": 1
+      "star_5": 2
     }
   },
   "report": {
@@ -296,5 +365,29 @@
     ]
   },
   "generated_at": "2026-10-13T14:49:11.712Z",
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.0169,
+      "total_avg_rating": 4.3933,
+      "incremental_rating_count": 0.06020000000000002,
+      "total_rating_count": 252.1067,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 4.3333,
+      "total_avg_rating": 4.0304,
+      "incremental_rating_count": 3,
+      "total_rating_count": 296,
+      "source": "Sensor Tower"
+    }
+  ]
 }

@@ -806,39 +806,153 @@
         "video_title": null
       },
       "collected_at": "2026-10-14T10:00:00+07:00"
+    },
+    {
+      "id": "gplay-vng-571cb82f8eb97e97",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ว***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ของเค้าทำมาดีย์",
+      "text_vn": "Họ làm game tốt thật đấy.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game được làm tốt.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Design"
+      ],
+      "app_version": "2.31.0"
+    },
+    {
+      "id": "appstore-vng-7b16df599534b819",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "A***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "บัค. คือนี่มาย้ายเสริฟไม่ทันต้องปั้นใหม่แต่ไม่ติดตรงนั้นแต่คือสร้างไอดีใหม่แล้วตอนออกแล้วเข้าเกมมันต้องล็อคอินซ้ำและเป็นแบบนี้ทุกรอบที่ออกเกม แถมทำเควสกดใจให้โปรไฟล์คนอื่นก็ไม่ได้ด้วย ผิดหวังมากกะว่าจะเติมซื้อชุดไปแล้วตอนแรกดีนะลองเล่นไปก่อน",
+      "text_vn": "Lỗi. Mình không kịp chuyển server nên phải cày lại từ đầu, cái đó không sao, nhưng tạo ID mới rồi mà mỗi lần thoát ra vào lại game là phải đăng nhập lại, lần nào cũng vậy. Thêm nữa làm nhiệm vụ thả tim cho hồ sơ người khác cũng không được. Thất vọng lắm, định nạp mua bộ đồ rồi, may mà lúc đầu chơi thử trước.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "bug",
+      "keywords": [
+        "đăng nhập",
+        "nhiệm vụ",
+        "người chơi mới"
+      ],
+      "summary_vn": "Mỗi lần vào game phải đăng nhập lại, nhiệm vụ thả tim lỗi.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs",
+        "Login",
+        "Customer Support"
+      ],
+      "app_version": "2.31.0"
+    },
+    {
+      "id": "appstore-vng-c1abc7b910caa31f",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "N***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "หนีไป. โปรเยอะ ทีมงานแก้ขาไรไม่ได้สักอย่าง เกมส์ก็มีแต่บัคๆๆๆ ของออกยาก เค็ม",
+      "text_vn": "Chạy đi. Hack nhiều, đội ngũ chẳng sửa được gì, game toàn lỗi lỗi lỗi, đồ khó ra, keo kiệt.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Social / Scam / Harassment / Toxic",
+      "topic_secondary": [],
+      "theme": "Tương tác xã hội tiêu cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "complaint",
+      "keywords": [
+        "hack",
+        "lỗi hiển thị",
+        "gacha"
+      ],
+      "summary_vn": "Nhiều hack, nhiều lỗi, đồ khó ra.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs",
+        "Updates And Maintenance",
+        "Monetization"
+      ],
+      "app_version": "2.31.0"
     }
   ],
   "metrics": {
-    "volume": 21,
+    "volume": 24,
     "noise": 0,
     "by_source": {
       "Facebook Group": 20,
-      "TikTok": 1
+      "TikTok": 1,
+      "Google Play": 1,
+      "App Store": 2
     },
     "by_sentiment": {
-      "Positive": 8,
+      "Positive": 9,
       "Neutral": 9,
-      "Negative": 4,
+      "Negative": 6,
       "Mixed": 0
     },
     "by_topic": {
       "Gacha / Shop / Pricing": 3,
-      "Other": 11,
-      "Login / Account / Data": 1,
+      "Other": 12,
+      "Login / Account / Data": 2,
       "Bug / Crash / Lag / Performance": 2,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 4
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 4,
+      "Social / Scam / Harassment / Toxic": 1
     },
     "by_segment": {
-      "unknown": 21
+      "unknown": 24
     },
-    "nss": 19,
+    "nss": 12.5,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "gp_avg": 5,
+      "ios_avg": 1,
+      "star_1": 2,
+      "star_5": 1
     }
   },
   "report": {
@@ -961,5 +1075,29 @@
     ]
   },
   "generated_at": "2026-10-13T14:49:11.712Z",
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 2.633,
+      "total_avg_rating": 4.3705,
+      "incremental_rating_count": 0.6711000000000005,
+      "total_rating_count": 252.73569999999998,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.0447,
+      "incremental_rating_count": 7,
+      "total_rating_count": 313,
+      "source": "Sensor Tower"
+    }
+  ]
 }

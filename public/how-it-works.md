@@ -28,8 +28,8 @@ Danh sách nguồn và trạng thái thu thập nằm ở `public/data/sources.j
 | Facebook Fanpage Thái (`playtogetherthailandofficial`) | Chỉ bình luận của người dùng. Không tính bài đăng chính thức. Không dùng fanpage global `PlayTogetherGame`. |
 | YouTube | Chỉ video tiếng Thái (tiêu đề hoặc mô tả có chữ Thái). Mỗi video của creator/người chơi tính là 1 phản hồi, cộng bình luận của người xem. Video của kênh chính thức `Play Together VNG TH` chỉ lấy bình luận. Bỏ bình luận của chủ kênh, bình luận chỉ có link/lời chào/quảng bá. |
 | TikTok | Video tiếng Thái của creator nói về Play Together (tìm bằng từ khoá tiếng Thái + quét kênh creator và `@playtogetherth.official`), mỗi video là 1 phản hồi, cộng bình luận **tiếng Thái** của người xem. Video kênh chính thức chỉ lấy bình luận. Bỏ bình luận của chủ kênh, bình luận chỉ có emoji/lời chào, và **bình luận của người xem Việt Nam** (TikTok đẩy video kênh Thái cho người Việt; 94/112 bình luận ngày 14/10 là tiếng Việt). Trang tìm kiếm TikTok có CAPTCHA: người dùng tự giải, AI không giải. Ngày đăng lấy từ ID video/bình luận. |
-| Google Play, App Store | Review có nội dung (Sensor Tower export). Cột tiếng Việt của review cũ là tóm tắt phân loại, không phải bản dịch. |
-| Rating Sensor Tower | Snapshot điểm tích lũy và điểm lượt mới theo tuần, **tách riêng app Play Together VNG và app Global (HAEGIN)**, không gộp. Rating không tính vào số phản hồi. |
+| Google Play, App Store | Review có nội dung (Sensor Tower export), chỉ lấy review quốc gia **TH**. Review cũ (đến 09/2026) là app Global (HAEGIN); từ 14/10/2026 nhập thêm review app **Play Together VNG** (Google Play từ 06/2026, App Store từ 07/2026). Mỗi review ghi rõ app (`app_name` hoặc link store) và được dịch đầy đủ. |
+| Rating Sensor Tower | Snapshot điểm tích lũy và điểm lượt mới, **tách riêng app Play Together VNG và app Global (HAEGIN)**, không gộp. App VNG có snapshot **theo ngày** (`granularity: "day"`; Google Play từ 13/04/2026, App Store từ 04/07/2026); app Global và dữ liệu VNG cũ hơn là snapshot **tuần** (`granularity: "week"`, ghi vào thứ Hai, cộng dồn cả tuần). Biểu đồ gộp thành tuần; kỳ chưa có số liệu thì dùng 7 ngày gần nhất. Ngày theo ngày lịch trong export Sensor Tower. Rating không tính vào số phản hồi. |
 
 Trạng thái nguồn: `full` (đủ 30 ngày), `partial` (một phần), `pending` (group riêng tư chờ duyệt), `not_collected`, `inactive` (không có bài mới), `youtube`, `tiktok`, `store`.
 
@@ -85,7 +85,8 @@ Bản dịch phải đọc một lần là hiểu, đúng ngữ cảnh game. Kh�
 - `scripts/import-facebook.mjs`: nhập staging Facebook (**thay toàn bộ mục Facebook bằng staging** → luôn gộp staging cũ + mới trước khi chạy; giữ bản dịch và nhãn cũ theo khoá link+nội dung+tác giả).
 - `scripts/translate-facebook-vietnamese.mjs`: dịch mục Facebook còn thiếu tiếng Việt (bộ nhớ đệm `.staging/translations-vi.json`).
 - `scripts/import-youtube.mjs`, `scripts/import-tiktok.mjs`: thêm/cập nhật mục `source=YouTube` / `source=TikTok` theo id, không đụng nguồn khác.
-- `scripts/import-sensortower-ratings.mjs`, `import-sensortower-android.mjs`, `import-sensortower-ios.mjs`: rating và review store.
+- `scripts/import-sensortower-vng.mjs`: **dùng script này** cho export Sensor Tower mới (rating theo ngày + review app VNG đã dịch/gắn nhãn). Gộp an toàn: chỉ thay snapshot tuần khi tổng lượt mới khớp dữ liệu ngày, review thêm/cập nhật theo id.
+- `scripts/import-sensortower-ratings.mjs`, `import-sensortower-android.mjs`, `import-sensortower-ios.mjs`: importer cũ, **xoá toàn bộ rating/review cùng loại rồi ghi lại**, không chạy lại với file chỉ phủ một khoảng ngày.
 - `scripts/apply-labels.mjs`: áp nhãn intent/keywords/summary từ file JSON.
 - `scripts/apply-translations.mjs`: áp bản dịch theo ngữ cảnh (giữ bản cũ ở `text_vn_machine`). `docs/translation-guide.md`: quy tắc dịch và thuật ngữ.
 - `scripts/validate-data.mjs` + `test/*.mjs`: kiểm tra dữ liệu và giao diện. `.staging/` được git ignore.

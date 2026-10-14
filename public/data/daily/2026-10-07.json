@@ -1746,41 +1746,181 @@
         "video_title": null
       },
       "collected_at": "2026-10-14T10:00:00+07:00"
+    },
+    {
+      "id": "gplay-vng-905960d62d9ab600",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "N***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกเล่นเพลิน",
+      "text_vn": "Vui, chơi cuốn lắm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "giải trí"
+      ],
+      "summary_vn": "Game vui, chơi cuốn.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.32.0"
+    },
+    {
+      "id": "gplay-vng-6381b86aff0c744a",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ร***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เพราะว่าเสร็จแล้วก็ไม่ยอมให้เล่นสักที",
+      "text_vn": "Vì tải xong rồi mà mãi không cho vào chơi.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "performance",
+      "keywords": [
+        "tải game"
+      ],
+      "summary_vn": "Tải xong nhưng mãi không vào chơi được.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": null
+    },
+    {
+      "id": "gplay-vng-382384918a885333",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "A***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ดีเล่นง่าย",
+      "text_vn": "Hay, dễ chơi.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game hay, dễ chơi.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Design"
+      ],
+      "app_version": "2.32.0"
+    },
+    {
+      "id": "appstore-vng-dce7be40e6ca7bb1",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "โ***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "บัญชีเก่าเข้าไม่ได้. คือให้นะเล่นตั้งแต่ป4จนตอนนี้ม2แล้วจะกลับมาเล่น ทำทุกทางเข้าบัญชีเก่า ชื่ออะไรก็จำได้แต่ทำไมมันเข้าไม่ได้ ทีนี้ต้องเริ่มจาก0ใหม่หมดเลย",
+      "text_vn": "Không vào được tài khoản cũ. Mình chơi từ lớp 4 đến giờ lớp 8 rồi, định quay lại chơi. Thử mọi cách vào tài khoản cũ, tên gì cũng nhớ mà sao không vào được. Giờ phải bắt đầu lại từ 0 hết.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "người chơi quay lại",
+        "mất dữ liệu"
+      ],
+      "summary_vn": "Người chơi quay lại không vào được tài khoản cũ.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login"
+      ],
+      "app_version": "2.32.0"
     }
   ],
   "metrics": {
-    "volume": 47,
+    "volume": 51,
     "noise": 0,
     "by_source": {
       "Facebook Group": 45,
       "YouTube": 1,
-      "TikTok": 1
+      "TikTok": 1,
+      "Google Play": 3,
+      "App Store": 1
     },
     "by_sentiment": {
-      "Positive": 13,
+      "Positive": 15,
       "Neutral": 29,
-      "Negative": 5,
+      "Negative": 7,
       "Mixed": 0
     },
     "by_topic": {
-      "Other": 33,
+      "Other": 35,
       "Gacha / Shop / Pricing": 3,
-      "Bug / Crash / Lag / Performance": 6,
+      "Bug / Crash / Lag / Performance": 7,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2,
-      "Login / Account / Data": 1,
+      "Login / Account / Data": 2,
       "Event & Update content": 2
     },
     "by_segment": {
-      "unknown": 47
+      "unknown": 51
     },
-    "nss": 17,
+    "nss": 15.7,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "gp_avg": 3.67,
+      "ios_avg": 3,
+      "star_1": 1,
+      "star_5": 2
     }
   },
   "report": {
@@ -1898,5 +2038,29 @@
     ]
   },
   "generated_at": "2026-10-13T14:49:11.712Z",
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.7087,
+      "incremental_rating_count": -0.9390000000000001,
+      "total_rating_count": 253.6243,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 3.9946,
+      "incremental_rating_count": 2,
+      "total_rating_count": 372,
+      "source": "Sensor Tower"
+    }
+  ]
 }

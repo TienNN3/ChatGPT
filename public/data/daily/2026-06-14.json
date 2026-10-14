@@ -130,5 +130,18 @@
       "text_vn_machine": "Game thường xuyên bị văng khi đang chơi.",
       "translation_method": "ai_contextual"
     }
+  ],
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4,
+      "total_avg_rating": 4,
+      "incremental_rating_count": 0.11660000000000001,
+      "total_rating_count": 236.8355,
+      "source": "Sensor Tower"
+    }
   ]
 }

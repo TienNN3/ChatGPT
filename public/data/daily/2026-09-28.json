@@ -972,39 +972,75 @@
       "summary_vn": "Đăng video Shorts Play Together VNG không mô tả",
       "label_method": "ai_review",
       "text_vn_machine": "Shorts Play Together VNG (chỉ có hashtag, không có mô tả)"
+    },
+    {
+      "id": "gplay-vng-6c9c6deab2ef9378",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "B***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมากกกก",
+      "text_vn": "Vui lắmmmm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game rất vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Content"
+      ],
+      "app_version": "2.31.0"
     }
   ],
   "metrics": {
-    "volume": 26,
+    "volume": 27,
     "noise": 0,
     "by_source": {
       "Facebook Group": 25,
-      "YouTube": 1
+      "YouTube": 1,
+      "Google Play": 1
     },
     "by_sentiment": {
-      "Positive": 1,
+      "Positive": 2,
       "Neutral": 24,
       "Negative": 1,
       "Mixed": 0
     },
     "by_topic": {
       "Gacha / Shop / Pricing": 6,
-      "Other": 16,
+      "Other": 17,
       "Event & Update content": 1,
       "Bug / Crash / Lag / Performance": 1,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2
     },
     "by_segment": {
-      "unknown": 26
+      "unknown": 27
     },
-    "nss": 0,
+    "nss": 3.7,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 5,
       "ios_avg": null,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 1
     }
   },
   "report": {
@@ -1123,26 +1159,29 @@
       "total_avg_rating": 4.3469,
       "incremental_rating_count": 1.390899999999995,
       "total_rating_count": 27861.5042,
-      "source": "Sensor Tower"
+      "source": "Sensor Tower",
+      "granularity": "week"
     },
     {
       "platform": "Google Play",
       "app_name": "Play Together VNG",
       "app_id": "com.vng.playtogether",
-      "incremental_avg_rating": 4.7039,
-      "total_avg_rating": 4.6566,
-      "incremental_rating_count": 0.9097000000000008,
-      "total_rating_count": 253.84539999999998,
+      "granularity": "day",
+      "incremental_avg_rating": 2.0924,
+      "total_avg_rating": 4.4677,
+      "incremental_rating_count": 0.6466000000000003,
+      "total_rating_count": 253.5824,
       "source": "Sensor Tower"
     },
     {
       "platform": "App Store",
       "app_name": "Play Together VNG",
       "app_id": "1612175933",
-      "incremental_avg_rating": 3.4444,
-      "total_avg_rating": 3.9891,
-      "incremental_rating_count": 27,
-      "total_rating_count": 366,
+      "granularity": "day",
+      "incremental_avg_rating": 1.5,
+      "total_avg_rating": 4.0176,
+      "incremental_rating_count": 2,
+      "total_rating_count": 341,
       "source": "Sensor Tower"
     }
   ]

@@ -1,0 +1,160 @@
+{
+  "date": "2026-07-10",
+  "alerts": [],
+  "items": [
+    {
+      "id": "gplay-vng-ca19a8df89cecc52",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "A***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ดีมาก สุดยอดเกม",
+      "text_vn": "Rất tốt, game tuyệt vời.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game tuyệt vời.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.29.0"
+    },
+    {
+      "id": "appstore-vng-6ad9c7b51491e65d",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "T***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "Review app. The original version was great, and I hope this version is even better. It&#39;s a real shame about the old app.",
+      "text_vn": "Đánh giá app. Bản gốc rất tuyệt, mình mong bản này còn tốt hơn nữa. Thật đáng tiếc về app cũ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Mixed",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "chat",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "cập nhật mới"
+      ],
+      "summary_vn": "Tiếc app cũ, mong bản mới tốt hơn.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Mixed",
+      "store_tags": [
+        "Updates And Maintenance"
+      ],
+      "app_version": "2.29.0"
+    }
+  ],
+  "report": {
+    "overview": "Dữ liệu store ngày 2026-07-10.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Sensor Tower: rating và review store của Play Together VNG tại Thái Lan."
+    ]
+  },
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.4286,
+      "incremental_rating_count": 1.1199000000000012,
+      "total_rating_count": 242.27890000000002,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 4.4167,
+      "total_avg_rating": 4.32,
+      "incremental_rating_count": 36,
+      "total_rating_count": 50,
+      "source": "Sensor Tower"
+    }
+  ],
+  "metrics": {
+    "volume": 2,
+    "noise": 0,
+    "by_source": {
+      "Google Play": 1,
+      "App Store": 1
+    },
+    "by_sentiment": {
+      "Positive": 1,
+      "Neutral": 0,
+      "Negative": 0,
+      "Mixed": 1
+    },
+    "by_topic": {
+      "Other": 2
+    },
+    "by_segment": {
+      "unknown": 2
+    },
+    "nss": 50,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": 5,
+      "ios_avg": 3,
+      "star_1": 0,
+      "star_5": 1
+    }
+  },
+  "data_mode": "production"
+}

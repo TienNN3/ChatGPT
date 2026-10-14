@@ -3,32 +3,32 @@
   "generated_at": "2026-10-13T13:45:57.094+07:00",
   "data_mode": "production",
   "metrics": {
-    "volume": 4,
+    "volume": 5,
     "noise": 0,
     "by_source": {
       "App Store": 3,
-      "Google Play": 1
+      "Google Play": 2
     },
     "by_sentiment": {
       "Positive": 0,
       "Neutral": 1,
-      "Negative": 3,
+      "Negative": 4,
       "Mixed": 0
     },
     "by_topic": {
-      "Bug / Crash / Lag / Performance": 2,
+      "Bug / Crash / Lag / Performance": 3,
       "Topup & Payment": 1,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1
     },
     "by_segment": {
-      "unknown": 2,
+      "unknown": 3,
       "payer": 2
     },
-    "nss": -75,
+    "nss": -80,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": 5,
+      "gp_avg": 3.5,
       "ios_avg": 3.67,
       "star_1": 0,
       "star_5": 2
@@ -241,6 +241,55 @@
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trung tính về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
       "translation_method": "ai_contextual"
+    },
+    {
+      "id": "gplay-vng-80702f23b38901b0",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "K***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "Wifi vẫn còn bth mà???",
+      "text_vn": "Wifi vẫn bình thường mà???",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 2,
+      "intent": "performance",
+      "keywords": [
+        "kết nối mạng",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Game báo lỗi mạng dù wifi bình thường.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs",
+        "Offline Functionality"
+      ],
+      "app_version": "2.27.1"
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.0032,
+      "total_avg_rating": 4,
+      "incremental_rating_count": 0.0945,
+      "total_rating_count": 235.6797,
+      "source": "Sensor Tower"
     }
   ]
 }

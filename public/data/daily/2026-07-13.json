@@ -1,26 +1,143 @@
 {
   "date": "2026-07-13",
-  "items": [],
+  "items": [
+    {
+      "id": "gplay-vng-f3c26a390be784a9",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "m***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ของแพงขึ้นไม่ว่า แต่โปรเยอะมากๆๆๆๆๆๆตั้งแต่ย้ายเซิฟมา VNGแจ้งโปรขุดตั้งแต่เช้า เที่ยงคืนยังเจอโปรตัวเดิมมาป่วนห้อง เน้นหาเงินก็ช่วยดูแลผู้เล่นธรรมดาด้วยค่ะ พวกโปรเขาเติมเงินให้เหรอถึงไม่แบนมัน ละโปรก็เห็นแต่ชื่อเวียดนามทั้งนั้น ไม่มีปัญญาเล่นเองต้องใช้โปรขุดโปรเก็บของหรอ แล้วมีเยอะมากด้วยนะ อยากให้ดูแลลูกค้าที่เล่นปกติค่ะไม่ใช่ดูแลโปรเพราะชาติเดียวกัน สำนึกรักบ้านเกิดได้ แต่อะไรที่มันแย่ก็อย่าไปปกป้องมันค่ะ",
+      "text_vn": "Đồ đắt hơn thì không nói, nhưng từ khi chuyển server, người dùng hack nhiều quá trời. VNG được báo về hack đào từ sáng, đến nửa đêm vẫn gặp đúng đứa hack đó vào phá phòng. Tập trung kiếm tiền thì cũng lo cho người chơi bình thường với ạ. Mấy đứa hack nạp tiền cho mấy người hay sao mà không ban? Mà hack thì toàn thấy tên Việt Nam. Không tự chơi nổi nên phải dùng hack đào, hack nhặt đồ à? Lại còn nhiều nữa chứ. Mong chăm sóc khách hàng chơi bình thường, chứ đừng bao che hack vì cùng quốc tịch. Yêu quê hương thì được, nhưng cái gì tệ thì đừng bảo vệ nó.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Social / Scam / Harassment / Toxic",
+      "topic_secondary": [],
+      "theme": "Tương tác xã hội tiêu cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "complaint",
+      "keywords": [
+        "hack",
+        "chăm sóc khách hàng",
+        "giá vật phẩm"
+      ],
+      "summary_vn": "Hack đào quá nhiều sau chuyển server, VNG không ban.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Monetization",
+        "Customer Support",
+        "Social And Community"
+      ],
+      "app_version": "2.29.0"
+    },
+    {
+      "id": "gplay-vng-eac8f6b5050b4d2b",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "P***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "โครตแพงอ่ะ ลบโฆษณาจาก 125 เป็น 160 กูบ่ยอม",
+      "text_vn": "Đắt vãi, gói xoá quảng cáo từ 125 lên 160, tao không chịu đâu.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá vật phẩm quá cao",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "complaint",
+      "keywords": [
+        "giá vật phẩm",
+        "quảng cáo"
+      ],
+      "summary_vn": "Gói xoá quảng cáo tăng giá từ 125 lên 160 baht.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Pricing"
+      ],
+      "app_version": "2.29.0"
+    },
+    {
+      "id": "gplay-vng-a4b150acd3204fcd",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": ";***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "บั๊กแอบเยอะ เซิร์ฟไม่ค่อยเสถียรอีก",
+      "text_vn": "Lỗi hơi nhiều, server lại còn không ổn định lắm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "bug",
+      "keywords": [
+        "lỗi hiển thị",
+        "lag"
+      ],
+      "summary_vn": "Nhiều lỗi, server không ổn định.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": "2.29.0"
+    }
+  ],
   "alerts": [],
   "metrics": {
-    "volume": 0,
+    "volume": 3,
     "noise": 0,
-    "by_source": {},
+    "by_source": {
+      "Google Play": 3
+    },
     "by_sentiment": {
       "Positive": 0,
       "Neutral": 0,
-      "Negative": 0,
+      "Negative": 3,
       "Mixed": 0
     },
-    "by_topic": {},
-    "by_segment": {},
-    "nss": 0,
+    "by_topic": {
+      "Social / Scam / Harassment / Toxic": 1,
+      "Gacha / Shop / Pricing": 1,
+      "Bug / Crash / Lag / Performance": 1
+    },
+    "by_segment": {
+      "unknown": 3
+    },
+    "nss": -100,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 1.67,
       "ios_avg": null,
-      "star_1": 0,
+      "star_1": 2,
       "star_5": 0
     }
   },
@@ -67,26 +184,29 @@
       "total_avg_rating": 4.3508,
       "incremental_rating_count": 6.6967,
       "total_rating_count": 27823.7575,
-      "source": "Sensor Tower"
+      "source": "Sensor Tower",
+      "granularity": "week"
     },
     {
       "platform": "Google Play",
       "app_name": "Play Together VNG",
       "app_id": "com.vng.playtogether",
-      "incremental_avg_rating": 2.189,
-      "total_avg_rating": 4.3947,
-      "incremental_rating_count": 1.0868000000000002,
-      "total_rating_count": 243.8064,
+      "granularity": "day",
+      "incremental_avg_rating": 3.2139,
+      "total_avg_rating": 4.4754,
+      "incremental_rating_count": 0.24349999999999916,
+      "total_rating_count": 242.9632,
       "source": "Sensor Tower"
     },
     {
       "platform": "App Store",
       "app_name": "Play Together VNG",
       "app_id": "1612175933",
-      "incremental_avg_rating": 4.5556,
-      "total_avg_rating": 4.3394,
-      "incremental_rating_count": 36,
-      "total_rating_count": 109,
+      "granularity": "day",
+      "incremental_avg_rating": 4.5,
+      "total_avg_rating": 4.2593,
+      "incremental_rating_count": 8,
+      "total_rating_count": 81,
       "source": "Sensor Tower"
     }
   ]

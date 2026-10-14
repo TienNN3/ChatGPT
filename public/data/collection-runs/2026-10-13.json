@@ -1,12 +1,12 @@
 {
   "target_date": "2026-10-13",
   "time_zone": "Asia/Bangkok",
-  "checked_at": "2026-10-13T23:10:37.851Z",
+  "checked_at": "2026-10-14T03:10:57.905Z",
   "status": "partial",
-  "added_feedback": 0,
+  "added_feedback": 6,
   "added_ratings": 0,
   "collection_complete": false,
-  "summary_vn": "Kiểm tra sáng 14/10 cho ngày 13/10/2026: chưa có phản hồi mới đủ điều kiện nhập. Facebook chưa truy cập được; YouTube chỉ kiểm tra một phần, bình luận chưa tải; store/export không có dữ liệu mới truy cập được. Không xem đây là xác nhận các nguồn có 0 phản hồi.",
+  "summary_vn": "Quét lại ngày 13/10/2026: thêm 6 phản hồi từ group Community (3 bài, 3 bình luận). Hiện có 48 phản hồi xác định được ngày và 14 mục chỉ biết ngày quan sát, không tính thống kê. Ba group đang chờ duyệt, một group bị từ chối; YouTube và TikTok thu thập một phần. Dừng kiểm tra Sensor Tower theo yêu cầu người dùng; không thêm rating.",
   "existing_day": {
     "archived": 56,
     "dated": 42,
@@ -32,107 +32,184 @@
   "sources": [
     {
       "key": "Facebook Group · playtogetherth",
-      "status": "blocked",
-      "added_feedback": 0,
+      "status": "partial",
+      "added_feedback": 6,
       "existing_dated_feedback": 25,
-      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới."
+      "total_dated_feedback": 31,
+      "detail": "Đọc New posts đến ranh giới 12/10, bình luận hiển thị và Recent activity dưới bài cũ; đối chiếu 27 permalink ngày 13/10. Thêm 3 bài và 3 bình luận. Không mở toàn bộ chuỗi trả lời."
     },
     {
       "key": "Facebook Group · 815754622673816",
-      "status": "blocked",
+      "status": "no_new_visible_data",
       "added_feedback": 0,
       "existing_dated_feedback": 4,
-      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới."
+      "total_dated_feedback": 4,
+      "detail": "Đọc bài mới và bình luận hiển thị đến ranh giới 12/10; các mục ngày 13/10 truy cập được đã có trong dữ liệu."
     },
     {
       "key": "Facebook Group · 1772363333745643",
-      "status": "blocked",
+      "status": "no_new_visible_data",
       "added_feedback": 0,
       "existing_dated_feedback": 13,
-      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới."
+      "total_dated_feedback": 13,
+      "detail": "Đọc New posts đến ranh giới 12/10 và Recent activity, gồm bình luận ngày 13/10 dưới bài cũ; các mục xác minh được đã có trong dữ liệu."
     },
     {
       "key": "Facebook Group · 562362538882428",
-      "status": "blocked",
+      "status": "inactive",
       "added_feedback": 0,
       "existing_dated_feedback": 0,
-      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới. Lần trước ghi nhận không hoạt động; chưa xác minh lại bài mới."
+      "total_dated_feedback": 0,
+      "detail": "Đã mở và xác minh lại New posts: bài mới nhất 14/03/2023, không có bài ngày cần thu thập."
     },
     {
       "key": "Facebook Group · 3252260471541104",
-      "status": "blocked",
+      "status": "rejected",
       "added_feedback": 0,
       "existing_dated_feedback": 0,
-      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới. Trạng thái chờ duyệt từ lần trước được giữ nguyên vì chưa xác minh được quyền thành viên."
+      "total_dated_feedback": 0,
+      "detail": "Group riêng tư; thông báo Facebook cho biết yêu cầu thành viên bị từ chối. Không truy cập được bài/bình luận."
     },
     {
       "key": "Facebook Group · 356675609124267",
-      "status": "blocked",
+      "status": "pending",
       "added_feedback": 0,
       "existing_dated_feedback": 0,
-      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới. Trạng thái chờ duyệt từ lần trước được giữ nguyên vì chưa xác minh được quyền thành viên."
+      "total_dated_feedback": 0,
+      "detail": "Group riêng tư, còn nút Cancel request: yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận."
     },
     {
       "key": "Facebook Group · 473704433937505",
-      "status": "blocked",
+      "status": "pending",
       "added_feedback": 0,
       "existing_dated_feedback": 0,
-      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới. Trạng thái chờ duyệt từ lần trước được giữ nguyên vì chưa xác minh được quyền thành viên."
+      "total_dated_feedback": 0,
+      "detail": "Group riêng tư, còn nút Cancel request: yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận."
     },
     {
       "key": "Facebook Group · 847315523442353",
-      "status": "blocked",
+      "status": "pending",
       "added_feedback": 0,
       "existing_dated_feedback": 0,
-      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới. Trạng thái chờ duyệt từ lần trước được giữ nguyên vì chưa xác minh được quyền thành viên."
+      "total_dated_feedback": 0,
+      "detail": "Group riêng tư, còn nút Cancel request: yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận."
     },
     {
       "key": "Facebook Fanpage · @playtogetherthailandofficial",
-      "status": "blocked",
+      "status": "no_new_visible_comments",
       "added_feedback": 0,
       "existing_dated_feedback": 0,
-      "detail": "Không đọc được bài/bình luận trong lượt này: Edge thiếu quyền Accessibility/Screen Recording; trình duyệt tích hợp dừng ở xác thực hai bước Facebook. Không xác nhận được có hay không có phản hồi mới. Chỉ lấy bình luận fanpage Thái; không lấy bài chính thức hoặc fanpage global."
+      "total_dated_feedback": 0,
+      "detail": "Đã đọc đúng fanpage Thái và bình luận người dùng hiển thị dưới bài từ tháng 9 đến 14/10. Không thấy bình luận ngày 13/10 đủ điều kiện nhập. Loại bài chính thức, không lấy fanpage Global; không mở hết reply ẩn."
     },
     {
       "key": "YouTube",
       "status": "partial",
       "added_feedback": 0,
       "existing_dated_feedback": 0,
-      "detail": "Đọc trang Videos và các tab Shorts/Live hiện có của 7 kênh creator trong dữ liệu; kiểm tra ngày xuất bản tuyệt đối của video liên quan. Chưa tìm được nội dung mới xác nhận thuộc 13/10/2026. Bình luận không tải nội dung trong 2 video đã mở; RSS 7 kênh trả HTTP 404/500. Chưa xác minh được kênh chính thức Play Together VNG TH từ tìm kiếm, không nhập bình luận kênh khác. Phạm vi chưa đầy đủ."
+      "total_dated_feedback": 0,
+      "detail": "Quét Videos và các tab Shorts/Live hiện có của 7 creator; xác minh kênh chính thức Play Together VNG TH (@playtogetherth). Kiểm tra 41 video: 37 nội dung tiếng Thái và 15 bình luận công khai tải được; 4 video không tiếng Thái bị loại. Không có mục mới ngày 13/10 đủ điều kiện. Chỉ đọc trang bình luận đầu, không mở hết reply/pagination; loại chủ kênh, lời chào/link/quảng bá. Video chính thức ngày 13/10 không tính là phản hồi."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 0,
+      "existing_dated_feedback": 0,
+      "total_dated_feedback": 0,
+      "detail": "Quét kênh creator L***: 10 video hiển thị, mới nhất 10/10 (ngày lấy từ ID); 1 bình luận hiển thị chỉ có nhãn 3 ngày trước, không nhập vào ngày 13/10. Tìm kiếm tiếng Thái, kênh chính thức và creator R*** báo lỗi máy chủ; đã thử tải lại kênh chính thức. Không xác nhận được toàn bộ video/bình luận mới; không giải CAPTCHA."
     },
     {
       "key": "Google Play",
-      "status": "no_new_accessible_data",
+      "status": "partial",
       "added_feedback": 0,
       "existing_dated_feedback": 0,
-      "detail": "Export Sensor Tower Android mới nhất đến 11/10/2026, không có review ngày 13/10. Trang Google Play TH của com.vng.playtogether và com.haegin.playtogether không hiển thị review ngày cần thu thập; không có export mới hoàn tất. Không kết luận toàn bộ store có 0 review."
+      "total_dated_feedback": 0,
+      "detail": "Trang store TH VNG và Global không có review ngày 13/10 hiển thị. Sensor Tower đã lọc riêng com.vng.playtogether và com.haegin.playtogether, ngày 13/10, All Languages gồm Thai: bảng No results. Dừng kiểm tra/export Sensor Tower theo yêu cầu người dùng; không kết luận toàn bộ store có 0 review."
     },
     {
       "key": "App Store",
-      "status": "no_new_accessible_data",
+      "status": "partial",
       "added_feedback": 0,
       "existing_dated_feedback": 0,
-      "detail": "Export Sensor Tower iOS mới nhất đến 25/06/2026, không có review ngày 13/10. RSS Thailand: Play Together VNG (1612175933) trả 50 review, mới nhất 10/10/2026; Global HAEGIN (1402384531) trả 0 entry. Không có review ngày 13/10 truy cập được; giữ hai app riêng."
+      "total_dated_feedback": 0,
+      "detail": "RSS TH VNG 1612175933: 50 review, mới nhất 10/10; Global HAEGIN 1402384531: 0 entry. Sensor Tower đã lọc riêng hai app, Thailand, 13/10: bảng No results. Dừng kiểm tra/export Sensor Tower theo yêu cầu người dùng."
     }
   ],
   "ratings": {
-    "status": "no_new_export",
+    "status": "skipped_by_user",
     "added": 0,
-    "detail": "Rating Sensor Tower iOS export mới nhất 12/10/2026, Android mới nhất 05/10/2026; không có snapshot mới ngày 13/10. Giữ nguyên rating VNG và Global HAEGIN riêng biệt; rating không tính vào phản hồi."
+    "detail": "Dừng Sensor Tower theo yêu cầu người dùng lúc kết thúc lượt quét. Không có export rating mới được nhập. File có sẵn chỉ đến 12/10 iOS, 05/10 Android; giữ nguyên mọi snapshot VNG/Global, không tính rating vào phản hồi."
   },
   "preservation": {
-    "before_items": 1555,
-    "after_items": 1555,
-    "added_ids": [],
+    "before_items": 1572,
+    "after_items": 1578,
+    "added_ids": [
+      "facebook-37b38f499053f690",
+      "facebook-91ed860f7642cb2e",
+      "facebook-7f9049944441ff73",
+      "facebook-79e965a1e9a9ceaa",
+      "facebook-293ede1ed58abeab",
+      "facebook-b1f4bcddaa497ca3"
+    ],
     "removed_ids": [],
     "modified_existing_items": 0
   },
   "validation": {
     "command": "workspace Node scripts/validate-data.mjs; workspace Node --test",
-    "status": "passed",
-    "daily_files": 196,
-    "themes": 14,
-    "tests_passed": 17,
-    "tests_failed": 0
-  }
+    "status": "pending"
+  },
+  "previous_runs": [
+    {
+      "checked_at": "2026-10-13T23:10:37.851Z",
+      "status": "partial",
+      "added_feedback": 0,
+      "summary_vn": "Kiểm tra sáng 14/10 cho ngày 13/10/2026: chưa có phản hồi mới đủ điều kiện nhập. Facebook chưa truy cập được; YouTube chỉ kiểm tra một phần, bình luận chưa tải; store/export không có dữ liệu mới truy cập được. Không xem đây là xác nhận các nguồn có 0 phản hồi."
+    }
+  ],
+  "html_report_path": "reports/2026-10-13.html",
+  "current_day": {
+    "archived": 62,
+    "dated": 48,
+    "observed_at": 14,
+    "by_source": {
+      "Facebook Group · 1772363333745643": 13,
+      "Facebook Group · playtogetherth": 31,
+      "Facebook Group · 815754622673816": 4
+    },
+    "by_sentiment": {
+      "Neutral": 35,
+      "Positive": 8,
+      "Negative": 5
+    },
+    "sentiment_percent": {
+      "Positive": 16.7,
+      "Negative": 10.4,
+      "Neutral": 72.9,
+      "Mixed": 0
+    }
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group · playtogetherth": 6
+    },
+    "by_kind": {
+      "post": 3,
+      "comment": 3
+    },
+    "by_sentiment": {
+      "Positive": 2,
+      "Neutral": 3,
+      "Negative": 1
+    },
+    "sentiment_percent": {
+      "Positive": 33.3,
+      "Negative": 16.7,
+      "Neutral": 50,
+      "Mixed": 0
+    }
+  },
+  "audit_warnings": [
+    "Hai bài chợ mua bán lưu ở ngày 13/10 có nhãn Facebook thực tế 12/10 lúc 23:35 và 23:30 trong lần đối chiếu này (post 2155317992050799 và 2155312048718060). Giữ nguyên dữ liệu cũ theo yêu cầu; cần người vận hành rà ngày trước khi sửa.",
+    "Nhãn và bản dịch mới do AI rà ngữ cảnh, needs_review=true. Phạm vi bình luận chỉ gồm phần truy cập được, không đại diện toàn bộ nguồn."
+  ]
 }

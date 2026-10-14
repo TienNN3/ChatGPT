@@ -137,17 +137,8 @@
       "total_avg_rating": 4.3486,
       "incremental_rating_count": 0.3091000000000008,
       "total_rating_count": 27777.962099999997,
-      "source": "Sensor Tower"
-    },
-    {
-      "platform": "Google Play",
-      "app_name": "Play Together VNG",
-      "app_id": "com.vng.playtogether",
-      "incremental_avg_rating": 4.0004,
-      "total_avg_rating": 4,
-      "incremental_rating_count": 0.8238,
-      "total_rating_count": 234.46609999999998,
-      "source": "Sensor Tower"
+      "source": "Sensor Tower",
+      "granularity": "week"
     },
     {
       "platform": "App Store",
@@ -157,6 +148,18 @@
       "total_avg_rating": 4.3338,
       "incremental_rating_count": 10,
       "total_rating_count": 11040,
+      "source": "Sensor Tower",
+      "granularity": "week"
+    },
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.0026,
+      "total_avg_rating": 4,
+      "incremental_rating_count": 0.1521,
+      "total_rating_count": 233.7943,
       "source": "Sensor Tower"
     }
   ]

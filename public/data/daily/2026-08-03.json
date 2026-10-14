@@ -1,26 +1,70 @@
 {
   "date": "2026-08-03",
-  "items": [],
+  "items": [
+    {
+      "id": "appstore-vng-7eaeea4da1588276",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "f***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "รับโค้ดไม่ได้. โทรศัพท์ไอโฟน15promax กดเปิดลิ้งค์ และกรอกรหัสโค้ด ลิ้งค์เชื่อมไปที่แอปสโตร แล้วมันขึ้นว่าไม่ได้อยู่ในภูมิประเทศแอปเปิดไม่ได้",
+      "text_vn": "Không nhận code được. Điện thoại iPhone 15 Pro Max, bấm mở link và nhập mã code, link dẫn sang App Store rồi báo là không có ở khu vực của bạn nên không mở được app.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "code quà tặng"
+      ],
+      "summary_vn": "Link code dẫn sang App Store báo không hỗ trợ khu vực.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login",
+        "Installation And Setup",
+        "Cross Platform Consistency"
+      ],
+      "app_version": "2.29.1"
+    }
+  ],
   "alerts": [],
   "metrics": {
-    "volume": 0,
+    "volume": 1,
     "noise": 0,
-    "by_source": {},
+    "by_source": {
+      "App Store": 1
+    },
     "by_sentiment": {
       "Positive": 0,
       "Neutral": 0,
-      "Negative": 0,
+      "Negative": 1,
       "Mixed": 0
     },
-    "by_topic": {},
-    "by_segment": {},
-    "nss": 0,
+    "by_topic": {
+      "Login / Account / Data": 1
+    },
+    "by_segment": {
+      "unknown": 1
+    },
+    "nss": -100,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
       "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
+      "ios_avg": 1,
+      "star_1": 1,
       "star_5": 0
     }
   },
@@ -67,26 +111,29 @@
       "total_avg_rating": 4.3509,
       "incremental_rating_count": 6.220300000000002,
       "total_rating_count": 27838.1299,
-      "source": "Sensor Tower"
+      "source": "Sensor Tower",
+      "granularity": "week"
     },
     {
       "platform": "Google Play",
       "app_name": "Play Together VNG",
       "app_id": "com.vng.playtogether",
-      "incremental_avg_rating": 1.2482,
-      "total_avg_rating": 4.1,
-      "incremental_rating_count": 3.145900000000002,
-      "total_rating_count": 244.41910000000001,
+      "granularity": "day",
+      "incremental_avg_rating": 1,
+      "total_avg_rating": 4.2243,
+      "incremental_rating_count": 0.4125000000000001,
+      "total_rating_count": 241.6856,
       "source": "Sensor Tower"
     },
     {
       "platform": "App Store",
       "app_name": "Play Together VNG",
       "app_id": "1612175933",
-      "incremental_avg_rating": 3.4286,
-      "total_avg_rating": 4.2571,
-      "incremental_rating_count": 21,
-      "total_rating_count": 175,
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.3782,
+      "incremental_rating_count": 2,
+      "total_rating_count": 156,
       "source": "Sensor Tower"
     }
   ]
