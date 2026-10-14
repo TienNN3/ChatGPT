@@ -36,7 +36,9 @@
       ],
       "summary_vn": "Quảng cáo bán vé số kỹ thuật số không liên quan game",
       "label_method": "ai_review",
-      "text_vn_machine": "Đợt trả góp ngày 16 tháng 10 hiện đã mở.\n#L6 Xổ số 80\n#Xổ số kỹ thuật số\nXổ số hợp pháp\nCửa hàng triệu phú\nCửa hàng khuyết tật\nGiành được giải thưởng và tiền sẽ được chuyển vào ví của bạn ngay lập tức.\nMua qua Ví, dễ mua, không bị thất lạc, an toàn, chắc chắn nhận được tiền.\nCửa hàng mở cửa từ 6h sáng - 11h tối.\nBạn có thể ủng hộ cửa hàng này bằng cách quét mã QR trong ví của mình."
+      "text_vn_machine": "Đợt trả góp ngày 16 tháng 10 hiện đã mở.\n#L6 Xổ số 80\n#Xổ số kỹ thuật số\nXổ số hợp pháp\nCửa hàng triệu phú\nCửa hàng khuyết tật\nGiành được giải thưởng và tiền sẽ được chuyển vào ví của bạn ngay lập tức.\nMua qua Ví, dễ mua, không bị thất lạc, an toàn, chắc chắn nhận được tiền.\nCửa hàng mở cửa từ 6h sáng - 11h tối.\nBạn có thể ủng hộ cửa hàng này bằng cách quét mã QR trong ví của mình.",
+      "text_en": "Oct 16 draw is now on sale.\n#L6 lottery tickets 80 baht\n#Digital lottery\nLegal lottery\nMaha Setthi shop\nShop run by people with disabilities\nWinnings go straight to your Pao Tang wallet\nBuy via Pao Tang wallet: easy, can't get lost, safe, guaranteed payout\nOpen 6:00-23:00\nTo support the shop, just scan the QR code with Pao Tang wallet.",
+      "summary_en": "Ad for digital lottery tickets, unrelated to the game."
     },
     {
       "id": "facebook-74ff9bf1c2de74b0",
@@ -73,7 +75,9 @@
       "summary_vn": "Nhận cày xu nông trại sự kiện và cày cấp có giá",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Hàng đợi là miễn phí.\n Nhận trang trại hoạt động \n1.000 xu 20฿\n10.000 xu 180฿\nMua cấp 1-50 500฿\n•Yêu cầu mọi người đừng vội vàng •Khóa sky mail\nTín dụng trang hồ sơ"
+      "text_vn_machine": "Hàng đợi là miễn phí.\n Nhận trang trại hoạt động \n1.000 xu 20฿\n10.000 xu 180฿\nMua cấp 1-50 500฿\n•Yêu cầu mọi người đừng vội vàng •Khóa sky mail\nTín dụng trang hồ sơ",
+      "text_en": "Still taking orders.\nEvent farm boosting:\n1,000 coins 20 baht\n10,000 coins 180 baht\nFull level 1-50 package: 500 baht\n• Please don't rush me • Green mail lock (?)\n• Check my reviews on my profile",
+      "summary_en": "Offers paid boosting for event farm coins and levels."
     },
     {
       "id": "facebook-47d92411b96adbfd",
@@ -108,7 +112,9 @@
       ],
       "summary_vn": "Hỏi ngắn đã ra chưa",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn ra ngoài chưa?"
+      "text_vn_machine": "Bạn ra ngoài chưa?",
+      "text_en": "Is it out yet?",
+      "summary_en": "Short question asking if it's out yet."
     },
     {
       "id": "facebook-012ecf0a64081972",
@@ -143,7 +149,9 @@
       ],
       "summary_vn": "Tìm mua tài khoản giá không cao",
       "label_method": "ai_review",
-      "text_vn_machine": "Tìm mua tài khoản ạ, xin giá không quá cao"
+      "text_vn_machine": "Tìm mua tài khoản ạ, xin giá không quá cao",
+      "text_en": "Looking to buy an account, not too pricey please.",
+      "summary_en": "Looking to buy an account at a low price."
     },
     {
       "id": "facebook-aa9d8d4ab78e609d",
@@ -181,7 +189,9 @@
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống, đổi thời tiết, thẻ",
       "label_method": "ai_review",
-      "text_vn_machine": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé"
+      "text_vn_machine": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé",
+      "text_en": "[Selling] All kinds of fruit, all effects\n[Selling] Ginseng (all effects)\n[Selling] Garden money, farm coins\n[Selling] Seeds (only the diamond kind)\n[Selling] Weather change\n[Selling] Cards, 1 baht/star\n[Service] Sending/receiving gifts via messages\n[Service] Tower climbing boost, 1 baht/trophy\nCheck my reviews on my profile.",
+      "summary_en": "Selling fruit, ginseng, seeds, weather changes and cards."
     },
     {
       "id": "facebook-7634eeba733da9b9",
@@ -219,7 +229,9 @@
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống, đổi thời tiết, thẻ",
       "label_method": "ai_review",
-      "text_vn_machine": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé"
+      "text_vn_machine": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé",
+      "text_en": "[Selling] All kinds of fruit, all effects\n[Selling] Ginseng (all effects)\n[Selling] Garden money, farm coins\n[Selling] Seeds (only the diamond kind)\n[Selling] Weather change\n[Selling] Cards, 1 baht/star\n[Service] Sending/receiving gifts via messages\n[Service] Tower climbing boost, 1 baht/trophy\nCheck my reviews on my profile.",
+      "summary_en": "Selling fruit, ginseng, seeds, weather changes and cards."
     },
     {
       "id": "facebook-2bdb473129f80de2",
@@ -255,7 +267,9 @@
       ],
       "summary_vn": "Rao bán nhân sâm 10 cây giá 100 mỗi bộ",
       "label_method": "ai_review",
-      "text_vn_machine": "Bán nhân sâm 10 cây, mỗi bộ 100, ai quan tâm nhắn tin nhé"
+      "text_vn_machine": "Bán nhân sâm 10 cây, mỗi bộ 100, ai quan tâm nhắn tin nhé",
+      "text_en": "Selling ginseng, 10 per set for 100. DM if interested.",
+      "summary_en": "Selling ginseng in sets of 10 for 100 each."
     },
     {
       "id": "facebook-43c1ed156c0393b4",
@@ -293,7 +307,9 @@
       "summary_vn": "Khen game hay",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Game hay"
+      "text_vn_machine": "Game hay",
+      "text_en": "Good game.",
+      "summary_en": "Says the game is good."
     },
     {
       "id": "facebook-061d254571535f04",
@@ -330,7 +346,9 @@
       ],
       "summary_vn": "Người mới hỏi vì sao đứt cần khi câu cá vua, xin mẹo",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi chút, cái vụ đứt cần khi câu cá vua là do cần câu hay do mình vậy ạ, haha (ai giỏi chỉ giúp mẹo câu với) #ngườimới"
+      "text_vn_machine": "Cho hỏi chút, cái vụ đứt cần khi câu cá vua là do cần câu hay do mình vậy ạ, haha (ai giỏi chỉ giúp mẹo câu với) #ngườimới",
+      "text_en": "Quick question, when my line snaps while fishing for the king fish, is it the rod or me? haha (could someone good teach me some fishing tips) #newbie",
+      "summary_en": "New player asks why the line snaps when fishing for the king fish and wants tips."
     },
     {
       "id": "facebook-38e87ce66ae8ba76",
@@ -368,7 +386,9 @@
       "summary_vn": "Khoe vật phẩm ra dễ hơn mình tưởng",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Ban đầu cũng không tin là nó dễ ra vậy, cho tới khi tận mắt thấy"
+      "text_vn_machine": "Ban đầu cũng không tin là nó dễ ra vậy, cho tới khi tận mắt thấy",
+      "text_en": "I didn't believe it dropped that easily until I saw it with my own eyes.",
+      "summary_en": "Shows off an item that dropped more easily than expected."
     },
     {
       "id": "facebook-e49b18864c22a1db",
@@ -408,7 +428,9 @@
       "summary_vn": "Đã đăng ký thi khoe hạt dẻ nhưng thứ hạng không cập nhật",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Đã đăng ký thi khoe hạt dẻ rồi, nhưng khi thu hoạch thì thứ hạng không cập nhật, có ai bị giống vậy không ạ?"
+      "text_vn_machine": "Đã đăng ký thi khoe hạt dẻ rồi, nhưng khi thu hoạch thì thứ hạng không cập nhật, có ai bị giống vậy không ạ?",
+      "text_en": "I signed up for the chestnut contest, but after harvesting my ranking didn't update. Anyone else having the same issue?",
+      "summary_en": "Signed up for the chestnut contest but ranking doesn't update."
     },
     {
       "id": "facebook-e0ec773b54345b5f",
@@ -443,7 +465,9 @@
       ],
       "summary_vn": "Hỏi vui người chơi thuộc MBTI gì",
       "label_method": "ai_review",
-      "text_vn_machine": "Muốn biết người chơi Play Together là MBTI gì và cờ gì? Mình đây ESTJ cờ đỏ"
+      "text_vn_machine": "Muốn biết người chơi Play Together là MBTI gì và cờ gì? Mình đây ESTJ cờ đỏ",
+      "text_en": "Curious what MBTI and flag color everyone playing Play Together is? I'm ESTJ, red flag.",
+      "summary_en": "Fun question asking players their MBTI type."
     },
     {
       "id": "facebook-2b4ae547927ab568",
@@ -480,7 +504,9 @@
       ],
       "summary_vn": "Hỏi mọi người thấy điều gì đó có kỳ lạ không",
       "label_method": "ai_review",
-      "text_vn_machine": "Mọi người thấy có kỳ lạ không?"
+      "text_vn_machine": "Mọi người thấy có kỳ lạ không?",
+      "text_en": "Does this look kind of weird to anyone?",
+      "summary_en": "Asks if others find something weird."
     },
     {
       "id": "facebook-1ce46c4bb4425721",
@@ -519,7 +545,9 @@
       ],
       "summary_vn": "Chia sẻ hướng dẫn đào rau",
       "label_method": "ai_review",
-      "text_vn_machine": "Hướng dẫn đào rau ạ"
+      "text_vn_machine": "Hướng dẫn đào rau ạ",
+      "text_en": "Here's a guide to digging vegetables.",
+      "summary_en": "Shares a vegetable digging guide."
     },
     {
       "id": "facebook-650a843182ddc536",
@@ -556,7 +584,9 @@
       ],
       "summary_vn": "Chia sẻ hướng dẫn nuôi xương rồng",
       "label_method": "ai_review",
-      "text_vn_machine": "Ghé qua dán hướng dẫn nuôi xương rồng ạ"
+      "text_vn_machine": "Ghé qua dán hướng dẫn nuôi xương rồng ạ",
+      "text_en": "Dropping by to post a cactus raising guide.",
+      "summary_en": "Shares a cactus raising guide."
     },
     {
       "id": "facebook-16210b7c0db064c5",
@@ -596,7 +626,9 @@
       "summary_vn": "Khoe ra hạt dẻ 5.29 dù tưởng khó",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Trời ơi khổ sở vì nó, tưởng khó ra, ở tay 5.29 mà trên đất còn chưa lớn hết cỡ"
+      "text_vn_machine": "Trời ơi khổ sở vì nó, tưởng khó ra, ở tay 5.29 mà trên đất còn chưa lớn hết cỡ",
+      "text_en": "Thought it'd be hard to get, but I got a 5.29 chestnut, and the one on the ground isn't even fully grown (?)",
+      "summary_en": "Shows off a 5.29 chestnut despite expecting it to be hard."
     },
     {
       "id": "facebook-45f1529e54d8a947",
@@ -634,7 +666,9 @@
       ],
       "summary_vn": "Đùa mọi người thi hạt dẻ còn mình vẫn bán rau",
       "label_method": "ai_review",
-      "text_vn_machine": "POV: trong khi mọi người đang thi trồng hạt dẻ khổng lồ thì mình vẫn đứng bán rau, hahaha"
+      "text_vn_machine": "POV: trong khi mọi người đang thi trồng hạt dẻ khổng lồ thì mình vẫn đứng bán rau, hahaha",
+      "text_en": "Pov: everyone's competing to grow giant chestnuts while I'm still standing here selling veggies haha",
+      "summary_en": "Jokes that everyone is in the chestnut contest while they still sell veggies."
     },
     {
       "id": "facebook-49e25b82a8ce522e",
@@ -670,7 +704,9 @@
       ],
       "summary_vn": "Hỏi hạt dẻ cần đợi bao lâu để thu lượt tiếp",
       "label_method": "ai_review",
-      "text_vn_machine": "Hạt dẻ thu hoạch một lượt rồi phải đợi bao nhiêu phút mới thu được lượt tiếp vậy ạ?"
+      "text_vn_machine": "Hạt dẻ thu hoạch một lượt rồi phải đợi bao nhiêu phút mới thu được lượt tiếp vậy ạ?",
+      "text_en": "After harvesting chestnuts once, how many minutes until you can harvest again?",
+      "summary_en": "Asks how long to wait between chestnut harvests."
     },
     {
       "id": "facebook-08eb6d30704efbad",
@@ -707,7 +743,9 @@
         "rau khổng lồ"
       ],
       "summary_vn": "Hỏi cách có hạt dẻ khổng lồ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "How do you get a giant chestnut?",
+      "summary_en": "Asks how to get a giant chestnut."
     },
     {
       "id": "facebook-27d905e6c0ca452c",
@@ -745,7 +783,9 @@
       ],
       "summary_vn": "Bình luận đùa tung ra cho chói mắt",
       "label_method": "ai_review",
-      "text_vn_machine": "Tung ra đi, cho chói mắt luôn"
+      "text_vn_machine": "Tung ra đi, cho chói mắt luôn",
+      "text_en": "Show them all off, make it blinding.",
+      "summary_en": "Joking comment telling them to show it all off."
     },
     {
       "id": "facebook-22e7b04ec142c6e2",
@@ -781,7 +821,9 @@
       ],
       "summary_vn": "Hỏi kiếm dụng cụ xịn để đập rau ở đâu",
       "label_method": "ai_review",
-      "text_vn_machine": "Xin lời khuyên, có thể kiếm cuốc/xẻng xịn để đập rau ở đâu ạ? Mình chỉ có búa đồ chơi, thấy không tốt lắm"
+      "text_vn_machine": "Xin lời khuyên, có thể kiếm cuốc/xẻng xịn để đập rau ở đâu ạ? Mình chỉ có búa đồ chơi, thấy không tốt lắm",
+      "text_en": "Need advice, where do I get a good digging tool for smashing vegetables? I only have the toy hammer and it's not cutting it at all.",
+      "summary_en": "Asks where to get a better tool for smashing vegetables."
     },
     {
       "id": "facebook-030244b0c9808242",
@@ -819,7 +861,9 @@
       ],
       "summary_vn": "Hỏi hạt dẻ to nhất hiện tại là bao nhiêu",
       "label_method": "ai_review",
-      "text_vn_machine": "Hạt dẻ to nhất hiện tại là bao nhiêu ạ?"
+      "text_vn_machine": "Hạt dẻ to nhất hiện tại là bao nhiêu ạ?",
+      "text_en": "What's the biggest chestnut so far?",
+      "summary_en": "Asks what the biggest chestnut is right now."
     },
     {
       "id": "facebook-cc4777549ff92bb4",
@@ -857,7 +901,9 @@
       "summary_vn": "Hỏi đôi giày này có thật và thuộc bộ nào",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Đôi giày như này có thật không ạ? Nếu có thì thuộc bộ nào, cảm ơn trước ạ"
+      "text_vn_machine": "Đôi giày như này có thật không ạ? Nếu có thì thuộc bộ nào, cảm ơn trước ạ",
+      "text_en": "Are shoes like these real? If so, which set are they from? Thanks in advance.",
+      "summary_en": "Asks if these shoes are real and which set they belong to."
     },
     {
       "id": "facebook-5e2468d2a655f4a6",
@@ -892,7 +938,9 @@
       ],
       "summary_vn": "Hỏi còn chuyển ID phụ được không khi đã xóa app cũ",
       "label_method": "ai_review",
-      "text_vn_machine": "Nếu mình chưa chuyển ID phụ thì bây giờ còn chuyển được không ạ? Và nếu đã xóa app cũ rồi thì chuyển thế nào ạ?"
+      "text_vn_machine": "Nếu mình chưa chuyển ID phụ thì bây giờ còn chuyển được không ạ? Và nếu đã xóa app cũ rồi thì chuyển thế nào ạ?",
+      "text_en": "If I haven't transferred my alt ID yet, can I still do it now? And if I already deleted the old app, how do I transfer?",
+      "summary_en": "Asks if an alt ID can still be transferred after deleting the old app."
     },
     {
       "id": "facebook-c632e3c98fbea9ec",
@@ -931,7 +979,9 @@
       ],
       "summary_vn": "Hỏi cách gửi thi hạt dẻ vì thứ hạng không lên",
       "label_method": "ai_review",
-      "text_vn_machine": "Gửi thi thế nào vậy ạ? Chưa gửi bao giờ, lúc đầu tưởng chỉ cần thu hoạch là thứ hạng tự lên, nhưng không lên"
+      "text_vn_machine": "Gửi thi thế nào vậy ạ? Chưa gửi bao giờ, lúc đầu tưởng chỉ cần thu hoạch là thứ hạng tự lên, nhưng không lên",
+      "text_en": "How do I submit an entry? I've never done it. I thought just harvesting would make my ranking go up, but it didn't.",
+      "summary_en": "Asks how to submit to the chestnut contest since ranking isn't rising."
     },
     {
       "id": "facebook-1c418ff220ec5f74",
@@ -971,7 +1021,9 @@
       "summary_vn": "Hỏi sao hạt dẻ to nhất chưa hiện lên bảng xếp hạng",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi chút ạ, nhiệm vụ mới thi hạt dẻ khổng lồ, làm sao để kích thước hạt dẻ to nhất của mình hiện lên bảng xếp hạng ạ? Mình đã đăng ký, đã thu hoạch, đã khoe rồi mà dữ liệu hạt dẻ to nhất vẫn chưa hiện lên bảng, trong khi thấy có người đã hiện rồi"
+      "text_vn_machine": "Cho hỏi chút ạ, nhiệm vụ mới thi hạt dẻ khổng lồ, làm sao để kích thước hạt dẻ to nhất của mình hiện lên bảng xếp hạng ạ? Mình đã đăng ký, đã thu hoạch, đã khoe rồi mà dữ liệu hạt dẻ to nhất vẫn chưa hiện lên bảng, trong khi thấy có người đã hiện rồi",
+      "text_en": "Quick question about the new giant chestnut contest event: how do I get my biggest chestnut size to show on the board? I signed up, harvested and showed it off, but my biggest chestnut still isn't on the event leaderboard, while I can see others already are.",
+      "summary_en": "Asks why their biggest chestnut isn't showing on the leaderboard."
     },
     {
       "id": "facebook-f663292bae7d9e25",
@@ -1009,7 +1061,9 @@
       "summary_vn": "Đùa mình là con cưng của GM lần này",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Lần này là con cưng của GM"
+      "text_vn_machine": "Lần này là con cưng của GM",
+      "text_en": "This round I'm the GM's favorite child.",
+      "summary_en": "Jokes they're the GM's favorite this time."
     },
     {
       "id": "facebook-e4d6277b67e65a58",
@@ -1047,7 +1101,9 @@
       ],
       "summary_vn": "Đùa nhắc ai quên mang trạng thái thì mang theo",
       "label_method": "ai_review",
-      "text_vn_machine": "Ai quên mang theo trạng thái, làm ơn mang theo nhé, hahaha"
+      "text_vn_machine": "Ai quên mang theo trạng thái, làm ơn mang theo nhé, hahaha",
+      "text_en": "If you forgot to bring your effect, please bring it haha",
+      "summary_en": "Jokingly reminds people to bring their effects."
     },
     {
       "id": "facebook-1e1bf2f83c0725ff",
@@ -1085,7 +1141,9 @@
       ],
       "summary_vn": "Hỏi thông báo không nhận được nữa, không đào tiếp được",
       "label_method": "ai_review",
-      "text_vn_machine": "Nó báo \"không thể nhận từ đây được nữa\" là sao vậy ạ? Không đào tiếp được luôn"
+      "text_vn_machine": "Nó báo \"không thể nhận từ đây được nữa\" là sao vậy ạ? Không đào tiếp được luôn",
+      "text_en": "What does it mean when it says \"can't get any more from here\"? I can't dig anymore at all.",
+      "summary_en": "Asks about a \"can't get any more\" message that blocks digging."
     },
     {
       "id": "facebook-a1f93bce6322e1f6",
@@ -1123,7 +1181,9 @@
       ],
       "summary_vn": "Hỏi cần câu tăng tỉ lệ cá có trạng thái thời tiết",
       "label_method": "ai_review",
-      "text_vn_machine": "Có cần câu nào tăng tỉ lệ gặp cá có trạng thái theo thời tiết không ạ?"
+      "text_vn_machine": "Có cần câu nào tăng tỉ lệ gặp cá có trạng thái theo thời tiết không ạ?",
+      "text_en": "Is there a fishing rod that increases the chance of catching fish with weather effects?",
+      "summary_en": "Asks for a rod that boosts the chance of weather-effect fish."
     },
     {
       "id": "facebook-081b5285383c6d06",
@@ -1163,7 +1223,9 @@
       ],
       "summary_vn": "Khoe quay gacha dễ ra xe và dụng cụ đào",
       "label_method": "ai_review",
-      "text_vn_machine": "Dễ ra quá không? Quay thêm 10 ra xe trùng, quay thêm 10 ra dụng cụ đào. Muốn chia bớt vận may ghê. Con cưng vẫn là con cưng"
+      "text_vn_machine": "Dễ ra quá không? Quay thêm 10 ra xe trùng, quay thêm 10 ra dụng cụ đào. Muốn chia bớt vận may ghê. Con cưng vẫn là con cưng",
+      "text_en": "So easy to get! Drew 10 more and got a duplicate car, 10 more and got a digging tool. I wish I could share some of this luck, the favorite child is still the favorite child.",
+      "summary_en": "Shows off easily getting a car and a digging tool from gacha."
     },
     {
       "id": "facebook-cd7d0da786d09033",
@@ -1202,7 +1264,9 @@
       ],
       "summary_vn": "Hỏi cây hồng trụi lá có bình thường không",
       "label_method": "ai_review",
-      "text_vn_machine": "Bình thường cây hồng có lá không ạ? Hỏi người biết, hay trụi lủi như này là bình thường"
+      "text_vn_machine": "Bình thường cây hồng có lá không ạ? Hỏi người biết, hay trụi lủi như này là bình thường",
+      "text_en": "Do persimmon trees normally have leaves? Asking anyone who knows, or is it normal for it to be this bare?",
+      "summary_en": "Asks if a leafless persimmon tree is normal."
     },
     {
       "id": "facebook-60dee3d2eb99d82f",
@@ -1241,7 +1305,9 @@
       "summary_vn": "Đăng hướng dẫn đầy đủ về đào rau",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Hướng dẫn đào rau đầy đủ trong một bài! Đào ở đâu? Đào được bao nhiêu lần? Rau đào được dùng làm gì? Tổng hợp câu trả lời trong bài này! Bạn nào đang bối rối không biết bắt đầu từ đâu thì chia sẻ cho họ xem nhé! #playtogether #playtogethervng #playtogetherTH"
+      "text_vn_machine": "Hướng dẫn đào rau đầy đủ trong một bài! Đào ở đâu? Đào được bao nhiêu lần? Rau đào được dùng làm gì? Tổng hợp câu trả lời trong bài này! Bạn nào đang bối rối không biết bắt đầu từ đâu thì chia sẻ cho họ xem nhé! #playtogether #playtogethervng #playtogetherTH",
+      "text_en": "The complete vegetable digging guide in one post! Where to dig? How many times can you dig? What are dug vegetables used for? All the answers are in this post! If you have a friend who's confused and doesn't know where to start, share it with them! #playtogether #playtogethervng #playtogetherTH",
+      "summary_en": "Posts a complete guide to vegetable digging."
     },
     {
       "id": "tiktok-21f3bfef2a1b2c87",
@@ -1277,7 +1343,9 @@
         "comment_count": null,
         "video_title": "Play Together VNG Thailand (official)"
       },
-      "collected_at": "2026-10-14T10:00:00+07:00"
+      "collected_at": "2026-10-14T10:00:00+07:00",
+      "text_en": "Play Together Thailand, but most of the comments are from Vietnamese people haha",
+      "summary_en": "Notes that a Thai channel's comments are mostly from Vietnamese viewers."
     },
     {
       "id": "gplay-vng-884590b946779782",
@@ -1312,7 +1380,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.32.0"
+      "app_version": "2.32.0",
+      "text_en": "Really good.",
+      "summary_en": "Says the game is really good."
     },
     {
       "id": "gplay-vng-e72688b9bb500b8a",
@@ -1346,7 +1416,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Outstanding (?)",
+      "summary_en": "One-word comment with unclear meaning."
     }
   ],
   "metrics": {

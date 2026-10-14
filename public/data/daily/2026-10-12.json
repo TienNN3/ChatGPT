@@ -171,7 +171,9 @@
       ],
       "summary_vn": "Nói vào phòng nào cũng gặp Med noon, hơi sợ",
       "label_method": "ai_review",
-      "text_vn_machine": "Đi đến bất kỳ phòng nào và bạn sẽ tìm thấy Med buổi trưa. Một số người sợ hãi."
+      "text_vn_machine": "Đi đến bất kỳ phòng nào và bạn sẽ tìm thấy Med buổi trưa. Một số người sợ hãi.",
+      "text_en": "Every room I join I run into Med noon, kinda scary.",
+      "summary_en": "Says they run into Med noon in every room, a bit scary."
     },
     {
       "id": "facebook-8c355a675880b03c",
@@ -206,7 +208,9 @@
       ],
       "summary_vn": "Khẳng định chơi 12 tài khoản do chăm chỉ, không phải hack",
       "label_method": "ai_review",
-      "text_vn_machine": "Chơi 12 id chỉ là chăm chỉ hơn người khác thôi. Không phải là một chương trình khuyến mãi."
+      "text_vn_machine": "Chơi 12 id chỉ là chăm chỉ hơn người khác thôi. Không phải là một chương trình khuyến mãi.",
+      "text_en": "I play 12 accounts, I'm just more dedicated than others, not hacking!",
+      "summary_en": "Insists playing 12 accounts is dedication, not hacking."
     },
     {
       "id": "facebook-59e06236aa84c54d",
@@ -244,7 +248,9 @@
       "summary_vn": "Hỏi vật phẩm pass cũ có quay lại bán không",
       "label_method": "ai_review",
       "text_vn_machine": "Người chơi hỏi vật phẩm của pass cũ có quay lại để mua hay không vì đã bỏ lỡ mùa trước.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Will the pass items come back to buy? I didn't make it last season.",
+      "summary_en": "Asks if old pass items will be sold again."
     },
     {
       "id": "facebook-0bae01ab04fbe6f1",
@@ -280,7 +286,9 @@
       ],
       "summary_vn": "Trả lời đồ pass cũ sẽ quay lại dạng hộp ngẫu nhiên",
       "label_method": "ai_review",
-      "text_vn_machine": "Nó sẽ có dạng một hộp ngẫu nhiên."
+      "text_vn_machine": "Nó sẽ có dạng một hộp ngẫu nhiên.",
+      "text_en": "They'll come back as gacha boxes.",
+      "summary_en": "Replies old pass items will return as gacha boxes."
     },
     {
       "id": "facebook-464a92d92a2cb883",
@@ -316,7 +324,9 @@
       ],
       "summary_vn": "Khoe đã bấm mua giá 20.95 đô",
       "label_method": "ai_review",
-      "text_vn_machine": "Bằng cách này, bấm vào để mua. $20,95 5555"
+      "text_vn_machine": "Bằng cách này, bấm vào để mua. $20,95 5555",
+      "text_en": "Bought it, $20.95 haha",
+      "summary_en": "Shows off buying it for $20.95."
     },
     {
       "id": "facebook-656f6e5492d99cfb",
@@ -354,7 +364,9 @@
       ],
       "summary_vn": "Hỏi liên kết VNG rồi có đăng nhập qua Steam được không",
       "label_method": "ai_review",
-      "text_vn_machine": "Nếu mình kết nối VNG thì có cắm vào streaming được không?"
+      "text_vn_machine": "Nếu mình kết nối VNG thì có cắm vào streaming được không?",
+      "text_en": "If I've already linked VNG, can I still play via Steam?",
+      "summary_en": "Asks if they can still log in via Steam after linking VNG."
     },
     {
       "id": "facebook-6e7a6c235b8b05f1",
@@ -395,7 +407,9 @@
       ],
       "summary_vn": "Khoe hiệu ứng cần câu bộ thẻ Halloween dễ thương",
       "label_method": "ai_review",
-      "text_vn_machine": "Hiệu ứng móc câu của bộ sưu tập thẻ mùa này rất dễ thương và hoàn hảo cho Halloween. Đối với tùy chọn lưỡi câu, Nó giống như câu cá nhỏ."
+      "text_vn_machine": "Hiệu ứng móc câu của bộ sưu tập thẻ mùa này rất dễ thương và hoàn hảo cho Halloween. Đối với tùy chọn lưỡi câu, Nó giống như câu cá nhỏ.",
+      "text_en": "Here's the rod effect from this season's card collection, so cute, Halloween themed. The rod stats though are like for catching tiny fish.",
+      "summary_en": "Shows off the cute Halloween card set rod effect."
     },
     {
       "id": "facebook-5f5081501953a7b7",
@@ -431,7 +445,9 @@
       ],
       "summary_vn": "Giải thích tài khoản cũ chuyển VNG chơi được mọi kênh đã liên kết",
       "label_method": "ai_review",
-      "text_vn_machine": "Nếu là tài khoản cũ đã chuyển sang vng, bạn có thể phát￼tất cả các kênh mà chúng tôi đã kết nối￼stream VNG Global."
+      "text_vn_machine": "Nếu là tài khoản cũ đã chuyển sang vng, bạn có thể phát￼tất cả các kênh mà chúng tôi đã kết nối￼stream VNG Global.",
+      "text_en": "If it's an old account transferred to VNG, you can play on every channel you linked: Steam, VNG, Google.",
+      "summary_en": "Explains transferred old accounts work on all linked channels."
     },
     {
       "id": "facebook-35ab19965eb01b12",
@@ -468,7 +484,9 @@
       "summary_vn": "Giải thích tài khoản tạo mới trong VNG không liên kết Steam được",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Nếu bạn đăng ký thông qua trò chơi, Vng không thể bị ràng buộc với luồng hoặc bất cứ thứ gì khác."
+      "text_vn_machine": "Nếu bạn đăng ký thông qua trò chơi, Vng không thể bị ràng buộc với luồng hoặc bất cứ thứ gì khác.",
+      "text_en": "If you registered through the VNG game version, you can't link it to Steam or anything else.",
+      "summary_en": "Explains new accounts created on VNG can't link to Steam."
     },
     {
       "id": "facebook-6be1d4c42b02cf80",
@@ -504,7 +522,9 @@
       "summary_vn": "Nhận xét điền đầy thẻ rất nhanh",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Điền vào mỗi tờ rất nhanh chóng."
+      "text_vn_machine": "Điền vào mỗi tờ rất nhanh chóng.",
+      "text_en": "Filled all the cards so fast",
+      "summary_en": "Remarks that they filled the cards very fast."
     },
     {
       "id": "facebook-72196d771732f9e5",
@@ -539,7 +559,9 @@
       ],
       "summary_vn": "Bình luận cảm thán ngắn",
       "label_method": "ai_review",
-      "text_vn_machine": "Ồ!"
+      "text_vn_machine": "Ồ!",
+      "text_en": "Woaaa",
+      "summary_en": "Short exclamation."
     },
     {
       "id": "facebook-bf6ab8200015a693",
@@ -574,7 +596,9 @@
       ],
       "summary_vn": "Hỏi có phải người Thái đầu tiên đạt được không",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn có phải là người Thái đầu tiên?"
+      "text_vn_machine": "Bạn có phải là người Thái đầu tiên?",
+      "text_en": "The first Thai player ever?",
+      "summary_en": "Asks if they're the first Thai to achieve it."
     },
     {
       "id": "facebook-946cdcc54c3d4eaf",
@@ -611,7 +635,9 @@
       "summary_vn": "Chê hiệu ứng cần câu giống cần búa nhưng yếu hơn",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Quyền lực giống như một chiếc móc búa nhưng yếu hơn."
+      "text_vn_machine": "Quyền lực giống như một chiếc móc búa nhưng yếu hơn.",
+      "text_en": "Same power as the hammer rod but weaker.",
+      "summary_en": "Says the rod is like the hammer rod but weaker."
     },
     {
       "id": "facebook-4f9169b550d1da6d",
@@ -647,7 +673,9 @@
       "summary_vn": "Đồng tình và cho biết đã nhổ bỏ hết",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Điều tương tự, bây giờ tôi đã loại bỏ tất cả."
+      "text_vn_machine": "Điều tương tự, bây giờ tôi đã loại bỏ tất cả.",
+      "text_en": "Same here, I've pulled them all out now.",
+      "summary_en": "Agrees and says they've pulled them all out."
     },
     {
       "id": "facebook-b785e652c3519170",
@@ -683,7 +711,9 @@
       ],
       "summary_vn": "Giải thích liên kết dữ liệu trước vẫn chơi lại bản cũ được",
       "label_method": "ai_review",
-      "text_vn_machine": "Nhưng nếu bạn kết nối dữ liệu trước Chúng tôi vẫn có thể quay lại và chơi phiên bản gốc như trước."
+      "text_vn_machine": "Nhưng nếu bạn kết nối dữ liệu trước Chúng tôi vẫn có thể quay lại và chơi phiên bản gốc như trước.",
+      "text_en": "But if you link your data first, you can still go back and play the old version normally.",
+      "summary_en": "Explains linking data first lets you still play the old version."
     },
     {
       "id": "facebook-a6073a2d4ccf4cbd",
@@ -721,7 +751,9 @@
       "summary_vn": "Quảng cáo dịch vụ đổi thời tiết 10 baht, bán hạt giống, quà",
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
-      "text_vn_machine": "Cập nhật dịch vụ thời tiết, quà tặng và hạt giống Chơi cùng nhau \nMọi điều kiện thời tiết 10 baht \nCác loại hạt phổ biến có giá như trong hình\nHạt giống sử dụng vàng không thể được tặng. \nCó thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. \nThêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung."
+      "text_vn_machine": "Cập nhật dịch vụ thời tiết, quà tặng và hạt giống Chơi cùng nhau \nMọi điều kiện thời tiết 10 baht \nCác loại hạt phổ biến có giá như trong hình\nHạt giống sử dụng vàng không thể được tặng. \nCó thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. \nThêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
+      "text_en": "Update on the Play together weather change, gifting and seed service\n- Weather change: any type 10 baht\n- Seeds: prices as in the picture, common types\n- Seeds bought with gold can't be gifted\nPrices may change a little, follow my latest post\nAdd me then DM, e-wallet and bank transfer accepted, restocked all the time, feel free to ask about other packages",
+      "summary_en": "Ad for 10 baht weather change, seeds and gifting service."
     },
     {
       "id": "facebook-f31e43109cbf6563",
@@ -759,7 +791,9 @@
         "chia sẻ ảnh"
       ],
       "summary_vn": "Đăng ảnh hài hước kèm biểu tượng",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook didn't provide any text to translate.",
+      "summary_en": "Posts a funny image with emojis."
     },
     {
       "id": "facebook-f4fd961527778368",
@@ -795,7 +829,9 @@
         "mùa thu"
       ],
       "summary_vn": "Đăng ảnh chủ đề mùa thu",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook didn't provide any text to translate.",
+      "summary_en": "Posts an autumn-themed image."
     },
     {
       "id": "facebook-fafecec62e369ead",
@@ -829,7 +865,9 @@
         "thú cưng"
       ],
       "summary_vn": "Đăng ảnh có con cu li kèm chữ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook didn't provide any text to translate.",
+      "summary_en": "Posts an image of a slow loris with text."
     },
     {
       "id": "facebook-8b85d563377f6e85",
@@ -864,7 +902,9 @@
         "nông trại"
       ],
       "summary_vn": "Đăng ảnh kèm biểu tượng các loại trái cây",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook didn't provide any text to translate.",
+      "summary_en": "Posts an image with various fruit emojis."
     },
     {
       "id": "facebook-933610690ae2730e",
@@ -898,7 +938,9 @@
         "chia sẻ ảnh"
       ],
       "summary_vn": "Đăng ảnh có chữ, không rõ nội dung",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook didn't provide any text to translate.",
+      "summary_en": "Posts an image with text, content unclear."
     },
     {
       "id": "facebook-30ec7cab0555aff9",
@@ -934,7 +976,9 @@
       ],
       "summary_vn": "Hỏi không liên kết VNG mà chơi bản cũ có sao không",
       "label_method": "ai_review",
-      "text_vn_machine": "Muốn hỏi nếu không liên kết sang bản VNG mà vẫn chơi như cũ thì có sao không ạ?"
+      "text_vn_machine": "Muốn hỏi nếu không liên kết sang bản VNG mà vẫn chơi như cũ thì có sao không ạ?",
+      "text_en": "Can I ask, is it a problem if I don't link to VNG and keep playing the old version?",
+      "summary_en": "Asks if it's okay to keep playing the old version without linking VNG."
     },
     {
       "id": "facebook-675d0255ed93a2f5",
@@ -968,7 +1012,9 @@
         "halloween"
       ],
       "summary_vn": "Đăng bài chủ đề đêm ma ám",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Haunted night",
+      "summary_en": "Posts with a haunted night theme."
     },
     {
       "id": "facebook-4cadf42164cce947",
@@ -1003,7 +1049,9 @@
       ],
       "summary_vn": "Ghé vào ủng hộ bài đăng",
       "label_method": "ai_review",
-      "text_vn_machine": "Ghé vào ủng hộ ạ"
+      "text_vn_machine": "Ghé vào ủng hộ ạ",
+      "text_en": "Bumping the post",
+      "summary_en": "Stops by to support the post."
     }
   ],
   "ratings": [

@@ -33,7 +33,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Good.",
+      "summary_en": "Says the game is good."
     },
     {
       "id": "appstore-vng-27c19b5ead140f13",
@@ -68,7 +70,9 @@
         "Installation And Setup",
         "Integration With Other Services"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Can't transfer server. I can't move from the old server to the new game, I've entered the transfer code 10 times. So bad.",
+      "summary_en": "Entered the transfer code 10 times and still can't move servers."
     },
     {
       "id": "appstore-vng-6ddc12284f20519e",
@@ -104,7 +108,9 @@
         "Feature Requests",
         "Login"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Old account. Give my account back, I made the effort to come back and play, so sad.",
+      "summary_en": "Came back to play but lost the old account."
     },
     {
       "id": "appstore-vng-6e8be79480cf10aa",
@@ -142,7 +148,9 @@
         "User Data And Privacy",
         "Installation And Setup"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "I really miss the old game/account. It's not right to delete the old game, since players topped up a lot and were waiting for rewards and events. But the worst part is that recovering the old account is way too complicated, like many people said, and the game crashes as soon as I get in. I've deleted it now, fine if I don't play anymore. I really miss my old account.",
+      "summary_en": "Old account recovery is too complicated and the game crashes; uninstalled."
     }
   ],
   "report": {

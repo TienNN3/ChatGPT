@@ -26,7 +26,9 @@
       "summary_vn": "Bình luận ngắn không rõ nghĩa",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trung tính về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "It works (?)",
+      "summary_en": "Short comment with unclear meaning."
     },
     {
       "id": "android-1d9cab1d23403e16",
@@ -52,7 +54,9 @@
       "summary_vn": "Khen game rất vui, cuốn hút",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So much fun, super addictive",
+      "summary_en": "Says the game is very fun and addictive."
     },
     {
       "id": "android-376261cf977d8c6c",
@@ -79,7 +83,9 @@
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Hope the library can be entered~~",
+      "summary_en": "Hopes the library will be opened for entry."
     },
     {
       "id": "android-214c7bf39b6c6e98",
@@ -107,7 +113,9 @@
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Love it 😍 but I really miss the zombie attack event 😭😭😭😭😭😭😭😭",
+      "summary_en": "Loves the game and misses the zombie attack event."
     }
   ],
   "metrics": {

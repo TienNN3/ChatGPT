@@ -37,7 +37,9 @@
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống, thẻ và dịch vụ đổi thời tiết",
       "label_method": "ai_review",
-      "text_vn_machine": "Tất cả các loại trái cây, mọi trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, tiền xu trang trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết [Bán] Thẻ, 1฿.- mỗi sao [Bán] Quà tặng trong tình trạng lộn xộn [Chấp nhận] Nhảy tháp, 1฿.- mỗi cốc, chấp nhận cả thanh toán qua ngân hàng và ví. Kiểm tra tín dụng của bạn trên trang hồ sơ của bạn."
+      "text_vn_machine": "Tất cả các loại trái cây, mọi trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, tiền xu trang trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết [Bán] Thẻ, 1฿.- mỗi sao [Bán] Quà tặng trong tình trạng lộn xộn [Chấp nhận] Nhảy tháp, 1฿.- mỗi cốc, chấp nhận cả thanh toán qua ngân hàng và ví. Kiểm tra tín dụng của bạn trên trang hồ sơ của bạn.",
+      "text_en": "[Selling] All kinds of fruit, all effects.\n[Selling] Ginseng (all effects).\n[Selling] Garden money, farm coins.\n[Selling] Seeds (diamond-bought ones only).\n[Selling] Weather change.\n[Selling] Cards 1 baht/star.\n[Selling] Gifts via message.\n[Boosting] Tower jump 1 baht/trophy.\nBank and e-wallet accepted, check my profile for reviews.",
+      "summary_en": "Selling fruit, ginseng, seeds, cards and weather change service."
     },
     {
       "id": "facebook-5e0a34958990f027",
@@ -74,7 +76,9 @@
       "summary_vn": "Bán nhiều loại nhân sâm giá 18–25 baht/cây, bộ 100 baht",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Nhân sâm thông thường, 11 cây, 100 baht một bộ, sâm sương, sâm ánh trăng, nhân sâm cực quang, mỗi loại 25 baht, sâm cát, sâm khô, sâm gió, mỗi loại 20 baht, sâm ướt, sâm điện giật, mỗi loại 18 baht. Nếu quan tâm, bạn có thể nói chuyện với chúng tôi."
+      "text_vn_machine": "Nhân sâm thông thường, 11 cây, 100 baht một bộ, sâm sương, sâm ánh trăng, nhân sâm cực quang, mỗi loại 25 baht, sâm cát, sâm khô, sâm gió, mỗi loại 20 baht, sâm ướt, sâm điện giật, mỗi loại 18 baht. Nếu quan tâm, bạn có thể nói chuyện với chúng tôi.",
+      "text_en": "Regular ginseng, 11 pcs: 100 baht/set. Dew, Moonlight, Aurora ginseng: 25 baht each. Sand, Drought, Wind ginseng: 20 baht each. Wet, Electric ginseng: 18 baht each. Inbox if interested.",
+      "summary_en": "Selling many types of ginseng at 18-25 baht each, or 100 baht per set."
     },
     {
       "id": "facebook-33da220c1c73430e",
@@ -112,7 +116,9 @@
       "summary_vn": "Dịch vụ đổi thời tiết 10 baht, tặng quà và bán hạt giống",
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
-      "text_vn_machine": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung."
+      "text_vn_machine": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
+      "text_en": "Play Together weather change, gifting and seed service. Any weather is 10 baht, seed prices are in the picture. Note: seeds bought with gold can't be gifted. Prices may change a bit, follow Ung Ung's latest post. Add me and message right away. E-wallet and bank transfer accepted, stock is restocked all the time, ask about other packs too.",
+      "summary_en": "Weather change service for 10 baht, plus gifting and seed sales."
     },
     {
       "id": "facebook-8e7cfd1655b404f7",
@@ -149,7 +155,9 @@
       ],
       "summary_vn": "Hỏi địa điểm đặc biệt trong ảnh là ở đâu",
       "label_method": "ai_review",
-      "text_vn_machine": "Nơi đặc biệt này là ở đâu?"
+      "text_vn_machine": "Nơi đặc biệt này là ở đâu?",
+      "text_en": "Where is this special location?",
+      "summary_en": "Asks where the special location in the picture is."
     },
     {
       "id": "facebook-3e9b9b0e987f007c",
@@ -187,7 +195,9 @@
       ],
       "summary_vn": "Xin chép đáp án câu đố minigame",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi có thể sao chép câu trả lời của ai?"
+      "text_vn_machine": "Tôi có thể sao chép câu trả lời của ai?",
+      "text_en": "Someone let me copy the answer pleeease",
+      "summary_en": "Asks to copy the minigame puzzle answer."
     },
     {
       "id": "facebook-14d92db217c27531",
@@ -227,7 +237,9 @@
       "summary_vn": "Thông báo minigame giải toán nhận code quà 14–21/9",
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
-      "text_vn_machine": "[MINIGAME] KAIA PLAY CODE Trong lớp có ai là thiên tài toán học không nào? Hãy giúp các phù thủy nhỏ giải bài toán đầy thử thách này và giành điểm A+ tuyệt đối nhé! Thời gian: 14/09/2026 - 21/09/2026. Phần thưởng: Đặc biệt: 250 người chơi đầu tiên trả lời đúng và trình bày đầy đủ cách giải sẽ nhận code quà đặc biệt gồm: 1 Hộp Đá Quý May Mắn, 1 Hộp Sao May Mắn, 50 Đá Nâng Cấp, 1 Vé Quay Chủ Đề. Cách tham gia: Bấm thích và chia sẻ bài viết này ở chế độ công khai kèm hashtag #playtogethervng #playtogetherTH; bình luận đáp án của bạn bên dưới; chụp màn hình đáp án rồi điền form bên dưới để đội ngũ kiểm tra: https://forms.gle/A5bR8gVVwkLpdhnf7 Đừng quên rủ bạn bè cùng tham gia nhé! Ai sẽ là người may mắn giành CODE xịn đây? Lưu ý:\n- Công bố kết quả trong 7–10 ngày (không tính thứ Bảy, Chủ nhật và ngày lễ) kể từ ngày kết thúc sự kiện\n- Minigame chỉ dành cho tài khoản Play Together VNG, tài khoản International không nhận được quà\n- Minigame có thể kết thúc sớm nếu phát hết quà\n- Vui lòng kiểm tra kỹ thông tin đã điền, đội ngũ không chịu trách nhiệm nếu bạn không nhận được quà do thông tin sai\n- Mỗi người chơi chỉ nhận 1 code\n- Chỉ hợp lệ khi hoàn thành đủ tất cả các bước\n- Quyết định của đội ngũ là cuối cùng\nChúc may mắn, các phù thủy nhỏ! #palytogether #playtogethervng #playtogetherTH #minigame"
+      "text_vn_machine": "[MINIGAME] KAIA PLAY CODE Trong lớp có ai là thiên tài toán học không nào? Hãy giúp các phù thủy nhỏ giải bài toán đầy thử thách này và giành điểm A+ tuyệt đối nhé! Thời gian: 14/09/2026 - 21/09/2026. Phần thưởng: Đặc biệt: 250 người chơi đầu tiên trả lời đúng và trình bày đầy đủ cách giải sẽ nhận code quà đặc biệt gồm: 1 Hộp Đá Quý May Mắn, 1 Hộp Sao May Mắn, 50 Đá Nâng Cấp, 1 Vé Quay Chủ Đề. Cách tham gia: Bấm thích và chia sẻ bài viết này ở chế độ công khai kèm hashtag #playtogethervng #playtogetherTH; bình luận đáp án của bạn bên dưới; chụp màn hình đáp án rồi điền form bên dưới để đội ngũ kiểm tra: https://forms.gle/A5bR8gVVwkLpdhnf7 Đừng quên rủ bạn bè cùng tham gia nhé! Ai sẽ là người may mắn giành CODE xịn đây? Lưu ý:\n- Công bố kết quả trong 7–10 ngày (không tính thứ Bảy, Chủ nhật và ngày lễ) kể từ ngày kết thúc sự kiện\n- Minigame chỉ dành cho tài khoản Play Together VNG, tài khoản International không nhận được quà\n- Minigame có thể kết thúc sớm nếu phát hết quà\n- Vui lòng kiểm tra kỹ thông tin đã điền, đội ngũ không chịu trách nhiệm nếu bạn không nhận được quà do thông tin sai\n- Mỗi người chơi chỉ nhận 1 code\n- Chỉ hợp lệ khi hoàn thành đủ tất cả các bước\n- Quyết định của đội ngũ là cuối cùng\nChúc may mắn, các phù thủy nhỏ! #palytogether #playtogethervng #playtogetherTH #minigame",
+      "text_en": "[MINIGAME] KAIA PLAY CODE. Any math geniuses in class? Help the little wizards solve this super challenging problem and score a perfect A+!\nTime: 14/09/2026 - 21/09/2026.\nSpecial reward: the first 250 players who answer correctly and show their full working get a gift code with: 1 Lucky Gem Box, 1 Lucky Star Box, 50 Upgrade Stones, 1 Theme Draw Ticket.\nHow to join: Like and share this post publicly with the hashtags #playtogethervng #playtogetherTH; comment your answer below; screenshot your answer and fill in the form for the team to check: https://forms.gle/A5bR8gVVwkLpdhnf7.\nInvite your friends to play too! Who will be the lucky one to get a CODE?\nNotes:\n- Results announced within 7-10 days (excluding Saturdays, Sundays and holidays) after the event ends.\n- Minigame is only for Play Together VNG accounts; International accounts won't receive rewards.\n- Minigame may end early if all gifts are given out.\n- Please double-check your info; the team isn't responsible if you don't get your gift due to wrong info.\n- One code per person.\n- Only valid if all steps are completed.\n- The team's decision is final.\nGood luck, little wizards! #palytogether #playtogethervng #playtogetherTH #minigame",
+      "summary_en": "Announces a math puzzle minigame with gift code rewards, 14-21 Sep."
     },
     {
       "id": "facebook-159ad9de32dcb1e9",
@@ -264,7 +276,9 @@
       "summary_vn": "Nhắc làm khảo sát, phỏng vấn được thù lao 1000 baht",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Gửi tất cả cư dân Kaia, đừng quên chia sẻ trải nghiệm, ý kiến và góc nhìn về việc chơi game qua bảng khảo sát của đội ngũ nhé. Một số người tham gia sẽ được chọn tham gia phỏng vấn Onsite hoặc online để trao đổi sâu hơn với đội ngũ. Người được chọn và tham gia phỏng vấn sẽ nhận thù lao 1000 baht. Làm khảo sát tại: https://forms.gle/mDgD5e5PL1m8dtVo7 Ý kiến của mọi người sẽ giúp chúng tôi hiểu người chơi hơn và dùng để phát triển, cải thiện trải nghiệm trong game sau này. Đội ngũ sẽ liên hệ trực tiếp qua điện thoại với người được chọn sau khi kiểm tra khảo sát xong. Lưu ý: Dữ liệu thu thập chỉ dùng cho mục đích nghiên cứu và cải thiện trải nghiệm người chơi, toàn bộ thông tin được bảo mật và không tiết lộ cho bên ngoài."
+      "text_vn_machine": "Gửi tất cả cư dân Kaia, đừng quên chia sẻ trải nghiệm, ý kiến và góc nhìn về việc chơi game qua bảng khảo sát của đội ngũ nhé. Một số người tham gia sẽ được chọn tham gia phỏng vấn Onsite hoặc online để trao đổi sâu hơn với đội ngũ. Người được chọn và tham gia phỏng vấn sẽ nhận thù lao 1000 baht. Làm khảo sát tại: https://forms.gle/mDgD5e5PL1m8dtVo7 Ý kiến của mọi người sẽ giúp chúng tôi hiểu người chơi hơn và dùng để phát triển, cải thiện trải nghiệm trong game sau này. Đội ngũ sẽ liên hệ trực tiếp qua điện thoại với người được chọn sau khi kiểm tra khảo sát xong. Lưu ý: Dữ liệu thu thập chỉ dùng cho mục đích nghiên cứu và cải thiện trải nghiệm người chơi, toàn bộ thông tin được bảo mật và không tiết lộ cho bên ngoài.",
+      "text_en": "Hey Kaias, don't forget to share your experience, opinions and views on the game in the team's survey! Some people will be picked for an onsite or online interview to talk more in depth with the team. Those picked who join the interview will get 1000 baht. Take the survey here: https://forms.gle/mDgD5e5PL1m8dtVo7. Your feedback helps us understand players better and improve the in-game experience in the future. The team will call selected people directly after reviewing the surveys. Note: data collected is used only for research and improving player experience, kept confidential and not shared with outside parties.",
+      "summary_en": "Reminder to take the survey; paid interviews worth 1000 baht."
     },
     {
       "id": "facebook-61d3162cf15ee6ec",
@@ -303,7 +317,9 @@
       ],
       "summary_vn": "Chào thứ Hai, nhắc câu cá mặt trăng ở bản cập nhật tới",
       "label_method": "ai_review",
-      "text_vn_machine": "Chào thứ Hai! Trước khi đi câu cá mặt trăng ở bản cập nhật tới, cùng chào thứ Hai đã nào"
+      "text_vn_machine": "Chào thứ Hai! Trước khi đi câu cá mặt trăng ở bản cập nhật tới, cùng chào thứ Hai đã nào",
+      "text_en": "Happy Monday! Before we go catch moon fish in the next update, let's say hi to Monday first.",
+      "summary_en": "Monday greeting, teasing moon fish fishing in the next update."
     },
     {
       "id": "facebook-12a212e5777f9cfd",
@@ -339,7 +355,9 @@
       ],
       "summary_vn": "Hỏi cách đăng nhập trên điện thoại sau khi chơi lần đầu trên Steam",
       "label_method": "ai_review",
-      "text_vn_machine": "Lần đầu chơi trên Steam, muốn chơi trên điện thoại thì đăng nhập thế nào ạ?"
+      "text_vn_machine": "Lần đầu chơi trên Steam, muốn chơi trên điện thoại thì đăng nhập thế nào ạ?",
+      "text_en": "I first played on Steam, now I want to play on my phone, how do I log in?",
+      "summary_en": "Asks how to log in on phone after first playing on Steam."
     },
     {
       "id": "facebook-c9c52559f1a85d17",
@@ -377,7 +395,9 @@
       ],
       "summary_vn": "Đính chính tên mình là Chomphu Pink chứ không phải Poo",
       "label_method": "ai_review",
-      "text_vn_machine": "Ảnh đại diện của mình có cờ Thái Lan, mình tên Chomphu Pink chứ không phải Poo"
+      "text_vn_machine": "Ảnh đại diện của mình có cờ Thái Lan, mình tên Chomphu Pink chứ không phải Poo",
+      "text_en": "My profile picture has the Thai flag, my name is Chomphu Pink, not Pu.",
+      "summary_en": "Corrects that their name is Chomphu Pink, not Poo."
     }
   ],
   "alerts": [],

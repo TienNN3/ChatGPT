@@ -36,7 +36,9 @@
         "Performance And Bugs",
         "Installation And Setup"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Why can't it download (resources)? It says network error, I've tried every fix and don't know what else to do. But the game looks so good, I really want to play.",
+      "summary_en": "Can't download resources due to a network error despite wanting to play."
     }
   ],
   "report": {

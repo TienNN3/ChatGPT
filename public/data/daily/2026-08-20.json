@@ -37,7 +37,9 @@
       ],
       "summary_vn": "Đùa rằng đã lén trừ tiền mua máy ảnh của người khác",
       "label_method": "ai_review",
-      "text_vn_machine": "Mình lén trừ tiền mua máy ảnh của người ta rồi"
+      "text_vn_machine": "Mình lén trừ tiền mua máy ảnh của người ta rồi",
+      "text_en": "I secretly took money from someone to buy a camera.",
+      "summary_en": "Jokes about secretly taking someone's money to buy a camera."
     },
     {
       "id": "facebook-e8b5ea1b66da80a9",
@@ -77,7 +79,9 @@
       ],
       "summary_vn": "Chia sẻ thông tin kết thúc sự kiện Chuyện Ma",
       "label_method": "ai_review",
-      "text_vn_machine": "Kết thúc sự kiện Chuyện Ma"
+      "text_vn_machine": "Kết thúc sự kiện Chuyện Ma",
+      "text_en": "Ghost Story event ending",
+      "summary_en": "Shares that the Ghost Story event is ending."
     },
     {
       "id": "gplay-vng-43ba21b30877b943",
@@ -113,7 +117,9 @@
         "Performance And Bugs",
         "Login"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "I open the game and it crashes before I can even log in, what is going on, fix it.",
+      "summary_en": "The game crashes before login; asks for a fix."
     },
     {
       "id": "gplay-vng-b8213db7667914cc",
@@ -148,7 +154,9 @@
         "Installation And Setup",
         "Performance And Bugs"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Super slow to download, and it takes forever to get into the game too. In short, don't bother downloading.",
+      "summary_en": "Downloading and entering the game is too slow; advises not to download."
     },
     {
       "id": "gplay-vng-989dc0b32ddddc2d",
@@ -181,7 +189,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": null
+      "app_version": null,
+      "text_en": "I've played this game since I was a kid, it's fun and really addictive.",
+      "summary_en": "Long-time player since childhood says the game is fun and addictive."
     }
   ],
   "metrics": {

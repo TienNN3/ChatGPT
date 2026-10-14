@@ -37,7 +37,9 @@
       ],
       "summary_vn": "Bán tài khoản giá 280 baht, chưa boost",
       "label_method": "ai_review",
-      "text_vn_machine": "Bán với giá 280 baht, chưa tăng giá."
+      "text_vn_machine": "Bán với giá 280 baht, chưa tăng giá.",
+      "text_en": "Selling the whole thing for 280 baht, not boosted.",
+      "summary_en": "Selling an account for 280 baht, not boosted."
     },
     {
       "id": "facebook-8f11d0b1ac0e8032",
@@ -73,7 +75,9 @@
       ],
       "summary_vn": "Bán mandrake 10 baht/cây",
       "label_method": "ai_review",
-      "text_vn_machine": "Nhân sâm có giá 10 baht một cây."
+      "text_vn_machine": "Nhân sâm có giá 10 baht một cây.",
+      "text_en": "Mandrake 10 baht each.",
+      "summary_en": "Selling mandrake at 10 baht each."
     },
     {
       "id": "facebook-fe3ed91a89dfc801",
@@ -110,7 +114,9 @@
       "summary_vn": "Bán thẻ 5 sao giá 5 baht, 4 sao giá 4 baht",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "5 sao = 5 ฿4 sao = 4 ฿ Các mức sao thấp hơn khác vui lòng liên hệ và hỏi thăm (có tín dụng, kiểm tra trên trang hồ sơ)"
+      "text_vn_machine": "5 sao = 5 ฿4 sao = 4 ฿ Các mức sao thấp hơn khác vui lòng liên hệ và hỏi thăm (có tín dụng, kiểm tra trên trang hồ sơ)",
+      "text_en": "5-star cards = 5 baht, 4-star = 4 baht. For lower-star cards and other types, contact me to ask (trusted, check my profile).",
+      "summary_en": "Selling 5-star cards for 5 baht and 4-star cards for 4 baht."
     },
     {
       "id": "facebook-9975bd3a063da011",
@@ -149,7 +155,9 @@
       ],
       "summary_vn": "Rao bán mandrake và nhân sâm",
       "label_method": "ai_review",
-      "text_vn_machine": "Chúng tôi có nhân sâm và nhân sâm để bán. Nếu quan tâm, hãy nói chuyện với chúng tôi."
+      "text_vn_machine": "Chúng tôi có nhân sâm và nhân sâm để bán. Nếu quan tâm, hãy nói chuyện với chúng tôi.",
+      "text_en": "Got Mandrake and ginseng for sale, inbox if interested.",
+      "summary_en": "Selling mandrake and ginseng."
     },
     {
       "id": "facebook-b8250831783d1761",
@@ -186,7 +194,9 @@
       ],
       "summary_vn": "Bán tài khoản nhân vật nữ 490 baht, kèm email",
       "label_method": "ai_review",
-      "text_vn_machine": "Bán ID nữ 490, chỉ cần kết nối email. Sẵn sàng cung cấp cho bạn địa chỉ email của bạn, chấp nhận cả chuyển khoản và True Wallet. Bạn có thể nói chuyện với chúng tôi để xem thêm hình ảnh đầu tiên."
+      "text_vn_machine": "Bán ID nữ 490, chỉ cần kết nối email. Sẵn sàng cung cấp cho bạn địa chỉ email của bạn, chấp nhận cả chuyển khoản và True Wallet. Bạn có thể nói chuyện với chúng tôi để xem thêm hình ảnh đầu tiên.",
+      "text_en": "Selling a female character account for 490 baht, linked to mail only, and the mail comes with it. Bank transfer and TrueMoney Wallet accepted, inbox to see more pics first.",
+      "summary_en": "Selling a female character account for 490 baht, email included."
     },
     {
       "id": "facebook-9119f72b5c442005",
@@ -223,7 +233,9 @@
       ],
       "summary_vn": "Tìm mua tài khoản vì lười chơi lại từ đầu",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn đang tìm kiếm một mã? Mới được tạo ra."
+      "text_vn_machine": "Bạn đang tìm kiếm một mã? Mới được tạo ra.",
+      "text_en": "Looking to buy an account, too lazy to grind a new one.",
+      "summary_en": "Looking to buy an account because they don't want to start over."
     },
     {
       "id": "facebook-fc7532b867789372",
@@ -261,7 +273,9 @@
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống, thẻ và dịch vụ đổi thời tiết",
       "label_method": "ai_review",
-      "text_vn_machine": "Tất cả các loại trái cây, mọi trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, tiền xu trang trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết [Bán] Thẻ, 1฿.- mỗi sao [Bán] Quà tặng trong tình trạng lộn xộn [Chấp nhận] Nhảy tháp, 1฿.- mỗi cốc, chấp nhận cả thanh toán qua ngân hàng và ví. Kiểm tra tín dụng của bạn trên trang hồ sơ của bạn."
+      "text_vn_machine": "Tất cả các loại trái cây, mọi trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, tiền xu trang trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết [Bán] Thẻ, 1฿.- mỗi sao [Bán] Quà tặng trong tình trạng lộn xộn [Chấp nhận] Nhảy tháp, 1฿.- mỗi cốc, chấp nhận cả thanh toán qua ngân hàng và ví. Kiểm tra tín dụng của bạn trên trang hồ sơ của bạn.",
+      "text_en": "[Selling] All kinds of fruit, all effects.\n[Selling] Ginseng (all effects).\n[Selling] Garden money, farm coins.\n[Selling] Seeds (diamond-bought ones only).\n[Selling] Weather change.\n[Selling] Cards 1 baht/star.\n[Selling] Gifts via message.\n[Boosting] Tower jump 1 baht/trophy.\nBank and e-wallet accepted, check my profile for reviews.",
+      "summary_en": "Selling fruit, ginseng, seeds, cards and weather change service."
     },
     {
       "id": "youtube-3ae4034b7ff63c48",
@@ -298,7 +312,9 @@
       ],
       "summary_vn": "Xin YouTuber làm video chơi minigame trộm trứng",
       "label_method": "ai_review",
-      "text_vn_machine": "Anh ơi, làm ơn làm video chơi minigame trộm trứng đi."
+      "text_vn_machine": "Anh ơi, làm ơn làm video chơi minigame trộm trứng đi.",
+      "text_en": "Please play egg stealing, pleeease.",
+      "summary_en": "Asks the YouTuber to make a video playing the egg-stealing minigame."
     },
     {
       "id": "youtube-024700a045ec033d",
@@ -337,7 +353,9 @@
       "summary_vn": "Mới quay lại nhưng lỡ xoá game, hỏi phải làm sao",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Mình mới quay lại chơi nhưng đã lỡ xoá game, giờ phải làm sao đây?"
+      "text_vn_machine": "Mình mới quay lại chơi nhưng đã lỡ xoá game, giờ phải làm sao đây?",
+      "text_en": "I just came back to the game but accidentally deleted it, what do I do now?",
+      "summary_en": "Just returned but accidentally deleted the game, asks what to do."
     },
     {
       "id": "gplay-vng-88ee7b4e699d079c",
@@ -372,7 +390,9 @@
       "store_tags": [
         "Comparative Feedback"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Way cooler than other games.",
+      "summary_en": "Says the game is cooler than other games."
     },
     {
       "id": "gplay-vng-a51f94c987fdba9b",
@@ -407,7 +427,9 @@
       "store_tags": [
         "Social And Community"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Really good, you just play at your own pace, and everyone I meet is so sweet.",
+      "summary_en": "Praises the game and its friendly community."
     }
   ],
   "metrics": {

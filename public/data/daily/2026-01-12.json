@@ -28,7 +28,9 @@
       "summary_vn": "Chê đồ đắt, khó kiếm tiền, điều khiển khó, tải chậm",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Items are too expensive, money is kind of hard to earn. Controls are a bit hard when jumping and stuff. The community isn't as fun as it used to be. Sometimes loading is really slow",
+      "summary_en": "Complains about pricey items, hard-to-earn money, tricky controls and slow loading."
     },
     {
       "id": "android-aa89ad7fc6da53bd",
@@ -54,7 +56,9 @@
       "summary_vn": "Khen game vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Fun haha",
+      "summary_en": "Says the game is fun."
     }
   ],
   "metrics": {

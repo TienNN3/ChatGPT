@@ -26,7 +26,9 @@
       "summary_vn": "Báo không vào được game",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Great game, but I can't get in.",
+      "summary_en": "Reports being unable to enter the game."
     },
     {
       "id": "android-c18438a69975ac65",
@@ -52,7 +54,9 @@
       "summary_vn": "Khen game rất tốt",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Really good game.",
+      "summary_en": "Says the game is very good."
     },
     {
       "id": "android-fbc3d141c0a1e887",
@@ -79,7 +83,9 @@
       "summary_vn": "Minigame tiệc nhảy hay hụt, nhân vật đẩy nhau rơi, mong sửa",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Mostly fine, but I'm stuck on the party games. When jumping I don't know what's wrong but I keep slipping off, right when I'm about to win. And when running, everyone crowds together and characters push each other off, so I have to start over, kind of frustrating. Please fix it, I bet nobody likes this, same as me. But overall it's still fine, 7 out of 10 🙏🏻🌟",
+      "summary_en": "Party minigame jumps keep missing and characters push each other off; wants a fix."
     }
   ],
   "metrics": {

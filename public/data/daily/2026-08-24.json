@@ -32,7 +32,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Good.",
+      "summary_en": "Says the game is good."
     },
     {
       "id": "gplay-vng-5e59956b2e3b242a",
@@ -65,7 +67,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Really addictive.",
+      "summary_en": "Says the game is addictive."
     },
     {
       "id": "appstore-vng-e54dcb686a32ccad",
@@ -101,7 +105,9 @@
         "Performance And Bugs",
         "Customer Support"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "😒. Didn't make it in time to transfer, so confusing. I really miss my old ID, I topped up so much, had tons of collectibles, and put so much effort into every mission 😭",
+      "summary_en": "Missed the account transfer and lost an old ID with many items."
     }
   ],
   "alerts": [],

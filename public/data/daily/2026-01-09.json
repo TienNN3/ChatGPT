@@ -148,7 +148,9 @@
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
       "text_vn_machine": "Mong tăng giới hạn 80 đồ nội thất trong vườn, tăng giới hạn 200 ô trồng và thêm đồ mới. Người chơi cũng đề xuất khóa trạng thái cây trồng.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Garden issues that need urgent fixing.\n1. The furniture limit in the garden should be raised, 80 items is way too few, this is really important and needs fixing ASAP. There should be more variety of furniture in the gacha, please add new furniture.\n2. The number of seeds you can plant should also go up, 200 isn't much given how many new veggies keep coming out.\n\nExtra suggestion\nIt would be great if later there was a feature to lock crops so they don't get special effects",
+      "summary_en": "Suggests raising the 80-item garden furniture limit and the 200 planting slots."
     },
     {
       "id": "android-395fccc4a3dfd44b",
@@ -175,7 +177,9 @@
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I'd love an animal character option, like a reverse world, where the main character you play could be any animal, that would be so fun",
+      "summary_en": "Suggests letting characters become animals."
     },
     {
       "id": "android-b9fbbe9dcbc75c84",
@@ -202,7 +206,9 @@
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Overall it's good, but the currency system is set up so you have to top up to buy the good stuff",
+      "summary_en": "Game is OK but you must top up to buy good items."
     }
   ]
 }

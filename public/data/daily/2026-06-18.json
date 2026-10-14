@@ -141,7 +141,9 @@
       "summary_vn": "Không chơi được vì game liên tục văng, rất bực",
       "label_method": "ai_review",
       "text_vn_machine": "Không thể chơi vì game liên tục bị văng. Người chơi cảm thấy rất khó chịu.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Game crashes. Can't play at all, it keeps crashing, so annoying.",
+      "summary_en": "Can't play because the game keeps crashing; very frustrated."
     },
     {
       "id": "android-f08df5e974f75d34",
@@ -167,7 +169,9 @@
       "summary_vn": "Khen game rất tốt dù chấm 1 sao",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Very good",
+      "summary_en": "Says the game is very good despite a 1-star rating."
     }
   ],
   "ratings": [

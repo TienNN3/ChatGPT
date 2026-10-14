@@ -28,7 +28,9 @@
       "summary_vn": "Thích giao diện, trường học và sự kiện cũ hơn, mong quay lại kiểu cũ",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Before the new UI I found it more fun, with the new UI it feels cluttered. And back when the school had zombies it was more fun, now the new version makes you study day and night. For every event I really liked collecting coins and exchanging them for home decor, especially the Alien event. The new style isn't that great to me, I prefer the old events. If the publisher sees this please fix it, I think the old way was more fun... but I'll give 5 stars for now.",
+      "summary_en": "Prefers the old UI, school and events, wants the old style back."
     },
     {
       "id": "android-7005540422bca78c",
@@ -54,7 +56,9 @@
       "summary_vn": "Khen game rất hay",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "This game is really good.",
+      "summary_en": "Says the game is very good."
     },
     {
       "id": "android-c072f39eca9f83ba",
@@ -80,7 +84,9 @@
       "summary_vn": "Báo không vào được game",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Can't get in.",
+      "summary_en": "Reports being unable to enter the game."
     }
   ],
   "metrics": {

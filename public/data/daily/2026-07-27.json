@@ -33,7 +33,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "Keeps crashing out of the game.",
+      "summary_en": "The game crashes often."
     }
   ],
   "alerts": [],

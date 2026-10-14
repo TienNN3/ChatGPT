@@ -36,7 +36,9 @@
       "summary_vn": "Hỏi cách nạp gói vì báo không hỗ trợ tại quốc gia",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "How do I buy packs? It says it's not supported in your country 🥹😭 I've played since launch, it's such a shame to have to switch servers.",
+      "summary_en": "Asks how to buy packs because it says they aren't supported in their country."
     },
     {
       "id": "facebook-aede22e2ce884fcd",
@@ -74,7 +76,9 @@
       "summary_vn": "Dịch vụ đổi thời tiết 10 baht, tặng quà và bán hạt giống",
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
-      "text_vn_machine": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung."
+      "text_vn_machine": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
+      "text_en": "Play Together weather change, gifting and seed service. Any weather is 10 baht, seed prices are in the picture. Note: seeds bought with gold can't be gifted. Prices may change a bit, follow Ung Ung's latest post. Add me and message right away. E-wallet and bank transfer accepted, stock is restocked all the time, ask about other packs too.",
+      "summary_en": "Weather change service for 10 baht, plus gifting and seed sales."
     },
     {
       "id": "facebook-2f0c759370aebe27",
@@ -111,7 +115,9 @@
       "summary_vn": "Bán nhiều loại nhân sâm giá 18–25 baht/cây, bộ 100 baht",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Nhân sâm thông thường, 11 cây, 100 baht một bộ, sâm sương, sâm ánh trăng, nhân sâm cực quang, mỗi loại 25 baht, sâm cát, sâm khô, sâm gió, mỗi loại 20 baht, sâm ướt, sâm điện giật, mỗi loại 18 baht. Nếu quan tâm, bạn có thể nói chuyện với chúng tôi."
+      "text_vn_machine": "Nhân sâm thông thường, 11 cây, 100 baht một bộ, sâm sương, sâm ánh trăng, nhân sâm cực quang, mỗi loại 25 baht, sâm cát, sâm khô, sâm gió, mỗi loại 20 baht, sâm ướt, sâm điện giật, mỗi loại 18 baht. Nếu quan tâm, bạn có thể nói chuyện với chúng tôi.",
+      "text_en": "Regular ginseng, 11 pcs: 100 baht/set. Dew, Moonlight, Aurora ginseng: 25 baht each. Sand, Drought, Wind ginseng: 20 baht each. Wet, Electric ginseng: 18 baht each. Inbox if interested.",
+      "summary_en": "Selling many types of ginseng at 18-25 baht each, or 100 baht per set."
     },
     {
       "id": "gplay-vng-0290c3f4a1dee4e5",
@@ -143,7 +149,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "(emoji only)",
+      "summary_en": "Only sent happy emojis."
     },
     {
       "id": "gplay-vng-73b1749e9be846f6",
@@ -176,7 +184,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "So much fun.",
+      "summary_en": "Says the game is very fun."
     },
     {
       "id": "gplay-vng-1ea9b72b08cd2596",
@@ -210,7 +220,9 @@
       "store_tags": [
         "Installation And Setup"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Can't download it.",
+      "summary_en": "Can't download the game."
     },
     {
       "id": "gplay-vng-16540b380725b90f",
@@ -242,7 +254,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Unhappy",
       "store_tags": [],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Too confusing and complicated (?)",
+      "summary_en": "Says the game is confusing and hard to use."
     }
   ],
   "metrics": {

@@ -33,7 +33,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Neutral",
       "store_tags": [],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Haven't played yet but... watching others play looks sooo fun 🫶🏻🫶🏻🫶🏻",
+      "summary_en": "Hasn't played but others seem to have a lot of fun."
     },
     {
       "id": "gplay-vng-03656c97fc9d09c8",
@@ -65,7 +67,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Neutral",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Moron (a Thai insult written in Latin letters).",
+      "summary_en": "Short insult with no specific issue."
     },
     {
       "id": "gplay-vng-26efb5a4514e4ac0",
@@ -98,7 +102,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Good game.",
+      "summary_en": "Says the game is good."
     },
     {
       "id": "gplay-vng-8ed356ebcf27b6d3",
@@ -132,7 +138,9 @@
       "store_tags": [
         "Feature Requests"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Quests and missions take up so much time.",
+      "summary_en": "Complains quests and missions are time-consuming."
     }
   ],
   "report": {

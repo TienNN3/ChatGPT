@@ -27,7 +27,9 @@
       "summary_vn": "Tài khoản bị khóa vĩnh viễn vì nghi dùng hack dù chỉ nạp tiền",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "My account got permanently banned for supposedly using illegal software when I'd only played for 2 days and did nothing but top up, and quite a lot too. I downloaded it just to raise a dog, decorate my house and go fishing, why is it so hard 😭",
+      "summary_en": "Account permanently banned for suspected hacking despite only topping up."
     },
     {
       "id": "android-b25a4a6a3923c51c",
@@ -53,7 +55,9 @@
       "summary_vn": "Bình luận đùa 'ngon tuyệt'",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So good",
+      "summary_en": "Joking comment: 'so good'."
     }
   ],
   "metrics": {

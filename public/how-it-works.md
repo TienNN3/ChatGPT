@@ -69,6 +69,14 @@ Bản dịch phải đọc một lần là hiểu, đúng ngữ cảnh game. Kh�
 - Thuật ngữ hay gặp: โสม = nhân sâm (น้ำค้าง sương, แสงจันทร์ ánh trăng, ออโรร่า cực quang); ติดสถานะ = có hiệu ứng đặc biệt; รับฟาร์ม / รับขุด = nhận cày thuê; คิวว่าง = còn nhận đơn; ทัก = nhắn tin; บริการกดสภาพอากาศ = dịch vụ đổi thời tiết; เงินฟาร์ม = tiền nông trại; ทอง = vàng; เพชร = kim cương; กาชา / สุ่ม = gacha / quay; ย้ายข้อมูล / ย้ายไอดี = chuyển dữ liệu / tài khoản sang VNG; บัค = lỗi; หลุด / เด้ง = văng game; แลค = lag; ค้าง = đơ (chỉ khi nói về game) — **ค้างคาว = con dơi**; เวล = level; ไอดี = tài khoản.
 - Bản dịch theo ngữ cảnh có `translation_method=ai_contextual`; bản dịch máy cũ được giữ ở `text_vn_machine` để đối chiếu. Áp bản dịch mới bằng `node scripts/apply-translations.mjs <file.json>`.
 
+## 4c. Song ngữ VI / EN
+
+- Nút **EN / VI** ở góc trên (cạnh nút ?) đổi toàn bộ dashboard sang tiếng Anh và ngược lại; lựa chọn được nhớ trong trình duyệt, có thể mở thẳng bằng `?lang=en`.
+- Tiếng Việt luôn là bản gốc, không bị ghi đè. Bản tiếng Anh của phản hồi nằm ở trường riêng `text_en` / `summary_en`; thiếu thì giao diện EN hiển thị tiếng Việt. Nguyên văn tiếng Thái giữ nguyên ở cả hai chế độ.
+- Chữ giao diện tiếng Anh nằm trong `public/i18n/en.json`: `ui` là chuỗi giao diện (số được thay bằng `{0}`, `{1}`…; thuật ngữ dữ liệu bằng `{t0}`…), `terms` là từ khoá, chủ đề, tên nguồn. Chuỗi chưa có bản dịch sẽ hiện tiếng Việt; khi đang ở chế độ EN có thể xem danh sách thiếu bằng `window.__i18n.miss` trong console.
+- Phong cách tiếng Anh: dễ hiểu, không hàn lâm. Hướng dẫn này có bản tiếng Anh ở `public/how-it-works.en.md`.
+- Khi thêm phản hồi mới: dịch thêm sang tiếng Anh và áp bằng `node scripts/apply-english.mjs <file.json>` (định dạng `{ "<id>": { "text": "...", "summary": "..." } }`); từ khoá mới thì bổ sung vào `terms` trong `en.json`.
+
 ## 5. Giao diện
 
 - **Tổng quan** (chỉ số chính trên cùng, xu hướng ở giữa, chi tiết ở dưới): hàng 5 KPI (Tổng phản hồi, Tích cực %, Tiêu cực %, Cần xử lý = báo lỗi + crash/lag + tài khoản + phàn nàn, Điểm store VNG), mỗi thẻ có mức thay đổi và sparkline, bấm để đi tới chi tiết; 3 dòng nổi bật + tóm tắt đầy đủ thu gọn + nút Sao chép báo cáo; Diễn biến theo ngày (cảm xúc hoặc loại nội dung, ngày/tuần, số/%; bấm cột để mở danh sách ngày đó) và biểu đồ tròn tỷ lệ cảm xúc; Người chơi đang làm gì và Từ khoá được nhắc nhiều (thanh xếp hạng, màu là tỷ lệ cảm xúc); Người chơi thích gì / chưa hài lòng / Cần xử lý (dạng gọn, bấm để đọc); heatmap Từ khoá theo ngày (bấm ô để lọc đúng ngày + từ khoá). Chú thích chi tiết nằm trong biểu tượng ⓘ.
@@ -97,9 +105,10 @@ Bản dịch phải đọc một lần là hiểu, đúng ngữ cảnh game. Kh�
 2. Làm sạch → staging JSON trong `.staging/` (tác giả đã che, không PII).
 3. Import bằng script tương ứng; đối chiếu số mục trước/sau (không mất id, không đổi bản dịch cũ).
 4. Dịch phần còn thiếu theo `docs/translation-guide.md` (không dùng bản dịch từng chữ); gán nhãn `intent`, `keywords`, `summary_vn`, rà `sentiment` cho mục mới rồi chạy `apply-labels.mjs`.
-5. Cập nhật `sources.json` nếu phạm vi thu thập thay đổi.
-6. `npm run check` (validator + test) phải pass; mọi mục phải có nhãn.
-7. Commit và push `main`; GitHub Actions tự deploy.
+5. Dịch mục mới sang tiếng Anh (`apply-english.mjs`) và bổ sung từ khoá mới vào `public/i18n/en.json`.
+6. Cập nhật `sources.json` nếu phạm vi thu thập thay đổi.
+7. `npm run check` (validator + test) phải pass; mọi mục phải có nhãn.
+8. Commit và push `main`; GitHub Actions tự deploy.
 
 ## 8. Lưu ý cho AI tiếp tục dự án
 

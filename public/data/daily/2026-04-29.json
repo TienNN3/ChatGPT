@@ -128,7 +128,9 @@
       "summary_vn": "Chửi game vì gacha quá đen",
       "label_method": "ai_review",
       "text_vn_machine": "Gacha quá đen khiến người chơi rất bực bội.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Unlucky (gacha). Game is shit.",
+      "summary_en": "Insults the game over bad gacha luck."
     }
   ],
   "ratings": [

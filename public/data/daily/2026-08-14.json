@@ -35,7 +35,9 @@
         "Integration With Other Services",
         "Login"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Can't link my account, can't connect it to Google Play.",
+      "summary_en": "Can't link the account to Google Play."
     },
     {
       "id": "gplay-vng-cc3925f0589ea147",
@@ -68,7 +70,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Sooo good, not boring at all.",
+      "summary_en": "Says the game is great and never boring."
     },
     {
       "id": "gplay-vng-ba00f22675780cb9",
@@ -101,7 +105,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Super goooood to play.",
+      "summary_en": "Says the game is extremely good."
     },
     {
       "id": "gplay-vng-6dc9e74a6d3aff04",
@@ -136,7 +142,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "So fun, but my phone lags a bit.",
+      "summary_en": "Fun, but slight lag on their device."
     }
   ],
   "report": {

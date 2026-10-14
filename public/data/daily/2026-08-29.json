@@ -26,7 +26,9 @@
       "summary_vn": "Báo không nạp tiền mua vật phẩm được sau khi quay lại",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Just came back to this game and I have a top-up problem, I can't top up to buy in-game items.",
+      "summary_en": "Returning player can't top up to buy items."
     },
     {
       "id": "gplay-vng-9cd755980be565b2",
@@ -62,7 +64,9 @@
         "Login",
         "Performance And Bugs"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Can't get in. I asked my uncle to help with my dad's account, the account is unlocked but I still can't get in, it keeps kicking me back to the app loading screen. Oh my god.",
+      "summary_en": "Account unlocked but still can't get in; kicked back to the loading screen."
     },
     {
       "id": "gplay-vng-175bc87b1f813209",
@@ -95,7 +99,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Fun.",
+      "summary_en": "Says the game is fun."
     },
     {
       "id": "gplay-vng-ec0c1cba3da47a19",
@@ -128,7 +134,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Really good.",
+      "summary_en": "Says the game is very good."
     },
     {
       "id": "gplay-vng-efbf9d09c451300c",
@@ -162,7 +170,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "When I first downloaded it I was just stunned, it's gorgeous, and there's even someone guiding you and showing you the way. You can do so many things. Giving 4 stars for now.",
+      "summary_en": "New player praises the graphics, tutorial and many activities."
     },
     {
       "id": "gplay-vng-5bc0ec921f8c3f10",
@@ -198,7 +208,9 @@
         "Login",
         "Performance And Bugs"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Worst game, can't get in. When I try to log in with VNG, a few seconds after getting the code it says the code expired, even though I'm supposed to wait 4 minutes. After that I couldn't get into the game at all.",
+      "summary_en": "VNG login code expires immediately; can't get into the game."
     },
     {
       "id": "gplay-vng-7d84bd16a1c98b60",
@@ -231,7 +243,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "I played as a kid, now I'm a pro haha, and it's fun too.",
+      "summary_en": "Played since childhood; says the game is fun."
     },
     {
       "id": "gplay-vng-bd2a55e0fc1df97d",
@@ -264,7 +278,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Fun to play, there's a tutorial so it's really easy.",
+      "summary_en": "Says the game is fun and easy thanks to the tutorial."
     }
   ],
   "metrics": {

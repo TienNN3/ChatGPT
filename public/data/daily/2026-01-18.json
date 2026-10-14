@@ -27,7 +27,9 @@
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Looks fun, but downloading drives me crazy, switch to another app for a second and I have to reinstall from scratch",
+      "summary_en": "Game looks fun but the download is slow and has to be redone."
     }
   ],
   "metrics": {

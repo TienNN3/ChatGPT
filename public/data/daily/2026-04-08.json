@@ -26,7 +26,9 @@
       "summary_vn": "Phàn nàn game nhiều lỗi, không vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Way too many bugs, not fun at all.",
+      "summary_en": "Complains the game is buggy and not fun."
     },
     {
       "id": "android-8dfe9f9dd1c07694",
@@ -52,7 +54,9 @@
       "summary_vn": "Khen game tốt",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Good.",
+      "summary_en": "Says the game is good."
     },
     {
       "id": "android-719bf408cb9da7c6",
@@ -78,7 +82,9 @@
       "summary_vn": "Khen game rất vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Really so much fun.",
+      "summary_en": "Says the game is very fun."
     },
     {
       "id": "android-4e896a47f7dc0325",
@@ -104,7 +110,9 @@
       "summary_vn": "Thích game giống đời thực, chơi cùng bạn bè mỗi ngày",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Love it, play every day, it feels just like real life, and I can play with friends.",
+      "summary_en": "Likes the lifelike game, plays daily with friends."
     },
     {
       "id": "android-23dba9f3259be0a7",
@@ -130,7 +138,9 @@
       "summary_vn": "Yêu game, chơi từ tiểu học đến cấp ba",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Love this game so much, been playing since the end of primary school and now I'm in high school, super addictive, love it sooo much.",
+      "summary_en": "Loves the game, has played from primary to high school."
     }
   ],
   "metrics": {

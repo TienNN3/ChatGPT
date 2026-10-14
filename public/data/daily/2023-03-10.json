@@ -36,7 +36,9 @@
       "summary_vn": "Hào hứng vì game sắp mở cho chơi",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Nó gần như mở cửa để chơi."
+      "text_vn_machine": "Nó gần như mở cửa để chơi.",
+      "text_en": "It's opening sooon",
+      "summary_en": "Excited that the game is about to open."
     }
   ],
   "metrics": {

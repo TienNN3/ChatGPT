@@ -34,7 +34,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "(meaningless string of characters, possibly a typo)",
+      "summary_en": "Meaningless characters."
     },
     {
       "id": "gplay-vng-fb10ad5ce4aa8d3f",
@@ -69,7 +71,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Sooo fun.",
+      "summary_en": "Says the game is really fun."
     },
     {
       "id": "appstore-vng-d006802a263f6483",
@@ -104,7 +108,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Game. The people complaining just don't know how to play or log in and then blame the game. The game is fun, and it even gives you a free pass.",
+      "summary_en": "Defends the game; says it's fun and has a free pass."
     }
   ],
   "metrics": {

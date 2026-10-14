@@ -39,7 +39,9 @@
       ],
       "summary_vn": "Chia sẻ thông tin kết thúc sự kiện Ốc Đảo Sa Mạc",
       "label_method": "ai_review",
-      "text_vn_machine": "Kết thúc sự kiện Ốc Đảo Sa Mạc"
+      "text_vn_machine": "Kết thúc sự kiện Ốc Đảo Sa Mạc",
+      "text_en": "Desert Oasis event ending",
+      "summary_en": "Shares that the Desert Oasis event is ending."
     },
     {
       "id": "gplay-vng-ff0fade79062ae65",
@@ -75,7 +77,9 @@
       "store_tags": [
         "Monetization"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "It's a fun game but you have to use way too many diamonds, I hope free players with little money can look cool too.",
+      "summary_en": "Fun, but needs too many diamonds; wants free players to look good too."
     },
     {
       "id": "gplay-vng-f383783219931196",
@@ -108,7 +112,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Really good game.",
+      "summary_en": "Says the game is really good."
     },
     {
       "id": "gplay-vng-dde1d12a42805b6c",
@@ -141,7 +147,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "So fun.",
+      "summary_en": "Says the game is really fun."
     }
   ],
   "metrics": {

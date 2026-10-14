@@ -35,7 +35,9 @@
       ],
       "summary_vn": "Hẹn gặp bạn chơi lúc 5 giờ chiều",
       "label_method": "ai_review",
-      "text_vn_machine": "Hẹn gặp bạn lúc 5 giờ chiều."
+      "text_vn_machine": "Hẹn gặp bạn lúc 5 giờ chiều.",
+      "text_en": "See you at 5 pm",
+      "summary_en": "Arranging to meet a friend to play at 5 pm."
     },
     {
       "id": "facebook-df87885a82c9a2d0",
@@ -70,7 +72,9 @@
       ],
       "summary_vn": "Hỏi bấm mua không phản hồi, nghi bị lỗi",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn có thể nhấn mua ngay bây giờ được không? Khi tôi nhấn nó, không có gì xảy ra. Đây có phải là một lỗi không?"
+      "text_vn_machine": "Bạn có thể nhấn mua ngay bây giờ được không? Khi tôi nhấn nó, không có gì xảy ra. Đây có phải là một lỗi không?",
+      "text_en": "Can we buy now? I tapped it but nothing shows up, is it bugged?",
+      "summary_en": "Asks why tapping buy does nothing, suspects a bug."
     }
   ],
   "metrics": {

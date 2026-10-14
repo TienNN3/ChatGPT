@@ -35,7 +35,9 @@
       ],
       "summary_vn": "Tìm mua ID chính nhân vật nam nhiều đồ",
       "label_method": "ai_review",
-      "text_vn_machine": "Tìm mua ID chính, ưu tiên nhân vật nam có nhiều đồ"
+      "text_vn_machine": "Tìm mua ID chính, ưu tiên nhân vật nam có nhiều đồ",
+      "text_en": "Looking to buy a main ID, prefer a male character with lots of items.",
+      "summary_en": "Looking to buy a main ID, male character with many items."
     },
     {
       "id": "facebook-e2c9354d894270ef",
@@ -75,7 +77,9 @@
       "summary_vn": "Rao dịch vụ đổi thời tiết 10 baht, tặng quà và bán hạt giống",
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
-      "text_vn_machine": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung."
+      "text_vn_machine": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
+      "text_en": "Play Together weather change, gifting and seed service. Any weather change is 10 baht. Seed prices as shown in the pic. Note: common seeds bought with gold can't be gifted. Prices may change slightly, follow Ung Ung's latest post. Add me as a friend and message me. E-wallet and bank transfer accepted. New stock all the time, for other packages just inbox Ung Ung.",
+      "summary_en": "Ad for weather change (10 baht), gifting and seed sales."
     },
     {
       "id": "facebook-4ed9c3bf1bda85ba",
@@ -113,7 +117,9 @@
       ],
       "summary_vn": "Hỏi cách chuyển ID Steam sang server VNG giữ nguyên đồ",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi, mình mới bắt đầu chơi bằng ID Steam, nếu muốn chuyển sang server VNG mà giữ nguyên ID, đồ đạc như cũ thì phải làm thế nào ạ?"
+      "text_vn_machine": "Cho hỏi, mình mới bắt đầu chơi bằng ID Steam, nếu muốn chuyển sang server VNG mà giữ nguyên ID, đồ đạc như cũ thì phải làm thế nào ạ?",
+      "text_en": "Quick question: I just started with a Steam ID, and now I want to move to the VNG server while keeping my old ID and all my items. How do I do that?",
+      "summary_en": "Asks how to move a Steam ID to the VNG server keeping items."
     },
     {
       "id": "facebook-c060238e227a94ad",
@@ -154,7 +160,9 @@
       "summary_vn": "Chia sẻ cách thay đồ cho thú cưng",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Ghé chia sẻ cách thay đồ cho bé dành cho ai đang tìm nhé"
+      "text_vn_machine": "Ghé chia sẻ cách thay đồ cho bé dành cho ai đang tìm nhé",
+      "text_en": "Dropping by to share how to change your pet's outfit for anyone looking.",
+      "summary_en": "Shares how to change a pet's outfit."
     },
     {
       "id": "facebook-6658a480edca72d0",
@@ -192,7 +200,9 @@
       ],
       "summary_vn": "Quay lại sau thời gian dài, hỏi lấy kỹ năng tàng hình ở đâu",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi, mình nghỉ chơi lâu đến mức giờ có cả kỹ năng tàng hình rồi à? Người ta lấy ở đâu vậy?"
+      "text_vn_machine": "Cho hỏi, mình nghỉ chơi lâu đến mức giờ có cả kỹ năng tàng hình rồi à? Người ta lấy ở đâu vậy?",
+      "text_en": "Quick question, I've been away so long, is there an invisibility skill now? Where do you get it?",
+      "summary_en": "Returning after a long break, asks where to get the invisibility skill."
     },
     {
       "id": "facebook-95b41631a9867799",
@@ -231,7 +241,9 @@
       ],
       "summary_vn": "Hỏi kiếm hạt giống cà rốt nuôi thỏ ở đâu",
       "label_method": "ai_review",
-      "text_vn_machine": "Hạt giống cà rốt để nuôi thỏ kiếm ở đâu vậy ạ? Hay chỉ có cách chờ đến lượt bán lại thôi?"
+      "text_vn_machine": "Hạt giống cà rốt để nuôi thỏ kiếm ở đâu vậy ạ? Hay chỉ có cách chờ đến lượt bán lại thôi?",
+      "text_en": "Where do you get carrot seeds to feed rabbits? Or is the only way to wait for the shop to rotate them back in?",
+      "summary_en": "Asks where to get carrot seeds for rabbits."
     },
     {
       "id": "facebook-5b6fafce38e6e0de",
@@ -270,7 +282,9 @@
       "summary_vn": "Than quay lại chơi quay toàn ra đồ không muốn",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Nghỉ chơi lâu, thử quay thì không ra cái muốn, toàn ra cái không muốn... đây là phần thưởng quay lại game hả trời"
+      "text_vn_machine": "Nghỉ chơi lâu, thử quay thì không ra cái muốn, toàn ra cái không muốn... đây là phần thưởng quay lại game hả trời",
+      "text_en": "Been away a long time, tried my luck with the gacha, didn't get what I wanted, only stuff I didn't want… Is this my reward for coming back?",
+      "summary_en": "Complains comeback draws only gave unwanted items."
     },
     {
       "id": "facebook-7bdc628f72ff3a17",
@@ -307,7 +321,9 @@
         "cập nhật mới"
       ],
       "summary_vn": "Đăng bài sắp ra mắt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Coming soon",
+      "summary_en": "Coming soon post."
     },
     {
       "id": "facebook-d2c2785c82d25b62",
@@ -346,7 +362,9 @@
       "summary_vn": "Chia sẻ code quà tặng mới",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Tặng code mới đâyyy"
+      "text_vn_machine": "Tặng code mới đâyyy",
+      "text_en": "New code drop, everyone!",
+      "summary_en": "Shares a new gift code."
     },
     {
       "id": "facebook-71fe6ee7af9fd908",
@@ -382,7 +400,9 @@
         "ảnh mẫu"
       ],
       "summary_vn": "Hỏi ai có ảnh mẫu không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Does anyone have a sample pic?",
+      "summary_en": "Asks if anyone has a sample pic."
     },
     {
       "id": "facebook-a14e52e116adff8e",
@@ -420,7 +440,9 @@
       ],
       "summary_vn": "Hỏi cách thay đồ cho thú cưng thỏ khổng lồ",
       "label_method": "ai_review",
-      "text_vn_machine": "Cách thay đồ cho thỏ khổng lồ"
+      "text_vn_machine": "Cách thay đồ cho thỏ khổng lồ",
+      "text_en": "How to change outfits for the giant rabbit",
+      "summary_en": "About how to change outfits for the giant rabbit pet."
     },
     {
       "id": "facebook-66314a3298a780f1",
@@ -459,7 +481,9 @@
       "summary_vn": "Chia sẻ code PTCACTUSPET nhận thú cưng xương rồng và hướng dẫn đổi",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Cùng chào đón thú cưng xương rồng sắp đổ bộ Play Together nào! Coupon code: PTCACTUSPET Đổi code tại: https://giftcode.vnggames.com/th/redeem/ptg Chưa biết cách đổi code? Xem hướng dẫn đầy đủ ở bài viết trước: https://www.facebook.com/share/p/1DDUdeC7cT/ Nhanh tay nhập code nhận quà xịn nhé! #playtogether #playtogethervng #playtogetherTH"
+      "text_vn_machine": "Cùng chào đón thú cưng xương rồng sắp đổ bộ Play Together nào! Coupon code: PTCACTUSPET Đổi code tại: https://giftcode.vnggames.com/th/redeem/ptg Chưa biết cách đổi code? Xem hướng dẫn đầy đủ ở bài viết trước: https://www.facebook.com/share/p/1DDUdeC7cT/ Nhanh tay nhập code nhận quà xịn nhé! #playtogether #playtogethervng #playtogetherTH",
+      "text_en": "Let's welcome the cactus pet coming to Play Together! Coupon code: PTCACTUSPET. Redeem at: https://giftcode.vnggames.com/th/redeem/ptg. Not sure how to redeem? See the full guide in the previous post: https://www.facebook.com/share/p/1DDUdeC7cT/ Hurry and enter the code to get awesome rewards! #playtogether #playtogethervng #playtogetherTH",
+      "summary_en": "Shares code PTCACTUSPET for the cactus pet and redeem guide."
     }
   ],
   "metrics": {

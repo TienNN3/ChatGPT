@@ -33,7 +33,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Beautiful.",
+      "summary_en": "Says the game looks beautiful."
     },
     {
       "id": "gplay-vng-4e7aab9db3554a62",
@@ -66,7 +68,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Very good.",
+      "summary_en": "Says the game is very good."
     },
     {
       "id": "gplay-vng-0e0ece62e8b170fb",
@@ -103,7 +107,9 @@
         "Monetization",
         "Content"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Love it so much, lots of free diamonds and free items. Keep it up, CM. Love it so much, give out more diamonds please. Love it, playing it now.",
+      "summary_en": "Praises lots of free diamonds and items; wants more."
     },
     {
       "id": "gplay-vng-2074e1c7e85b3dc5",
@@ -136,7 +142,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Very good.",
+      "summary_en": "Says the game is very good."
     },
     {
       "id": "appstore-vng-3340a65515b996a8",
@@ -172,7 +180,9 @@
         "Performance And Bugs",
         "Error Handling And Messages"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Gifting. Why can't I send gifts either in the garden or through normal messages? If it says sending is temporarily unavailable, you should at least say how you'll handle it or when it'll be fixed, not just leave it like this.",
+      "summary_en": "Can't send gifts, with no notice of when it will be fixed."
     }
   ],
   "report": {

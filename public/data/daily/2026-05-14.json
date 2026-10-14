@@ -180,7 +180,9 @@
       "summary_vn": "Chơi trên iPad thường xuyên bị treo và văng",
       "label_method": "ai_review",
       "text_vn_machine": "Chơi trên iPad thường xuyên bị treo và văng.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Freezing. On iPad the game keeps freezing and crashing.",
+      "summary_en": "The game often freezes and crashes on iPad."
     },
     {
       "id": "ios-2ba0ff24c9687cd9",
@@ -206,7 +208,9 @@
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
       "text_vn_machine": "Game vui nhưng gacha rất đen. Chơi hơn 5 năm vẫn chưa từng quay được vật phẩm cầu vồng.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So unlucky. It's fun, but my luck is terrible. I've played since launch and never once pulled a rainbow item from the gacha, that's probably over 5 years now.",
+      "summary_en": "Fun game, but no rainbow item from the gacha in 5 years."
     },
     {
       "id": "ios-97d42d1d1715b422",
@@ -232,7 +236,9 @@
       "summary_vn": "Bị báo đăng nhập trái phép dù dùng Facebook, lỡ tiến độ pass",
       "label_method": "ai_review",
       "text_vn_machine": "Game báo đăng nhập không hợp lệ dù luôn đăng nhập bằng Facebook. Người chơi lo lắng và bị lỡ tiến độ pass.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Why does it say unauthorized login when I always log in with Facebook? So annoying, now I can't finish the Pass in time. How do I fix this?",
+      "summary_en": "Gets an unauthorized login warning despite using Facebook, missing Pass progress."
     },
     {
       "id": "android-d06ccbb3bcb4c39e",
@@ -258,7 +264,9 @@
       "summary_vn": "Khen game vui, sáng tạo",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Fun and creative.",
+      "summary_en": "Says the game is fun and creative."
     },
     {
       "id": "android-12d85bc1f0e512a4",
@@ -284,7 +292,9 @@
       "summary_vn": "Rất thích game",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Personally, I love it.",
+      "summary_en": "Really likes the game."
     },
     {
       "id": "android-cec6c1be328edcbc",
@@ -310,7 +320,9 @@
       "summary_vn": "Báo không xem được quảng cáo trong game",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "What's wrong with the game? I can't watch ads.",
+      "summary_en": "Reports that in-game ads won't play."
     },
     {
       "id": "android-649fb46380fac3d7",
@@ -336,7 +348,9 @@
       "summary_vn": "Game văng mỗi lần vào",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "The game keeps crashing, no matter how many times I open it.",
+      "summary_en": "The game crashes every time it's opened."
     }
   ],
   "ratings": [

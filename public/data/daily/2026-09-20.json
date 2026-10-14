@@ -37,7 +37,9 @@
       ],
       "summary_vn": "Hỏi thiếu 2 thẻ vàng thì tìm ở đâu",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi có một câu hỏi. Tôi đang thiếu 2 thẻ vàng. Tôi tìm thấy chúng ở đâu?"
+      "text_vn_machine": "Tôi có một câu hỏi. Tôi đang thiếu 2 thẻ vàng. Tôi tìm thấy chúng ở đâu?",
+      "text_en": "I'm missing 2 gold cards, where do I find them?",
+      "summary_en": "Asks where to find the 2 gold cards they're missing."
     },
     {
       "id": "facebook-175aea8ba86d6649",
@@ -77,7 +79,9 @@
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống, đổi thời tiết, thẻ",
       "label_method": "ai_review",
-      "text_vn_machine": "Tất cả các loại trái cây, mọi trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, tiền xu trang trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết [Bán] Thẻ, 1฿.- mỗi sao [Bán] Quà tặng trong tình trạng lộn xộn [Chấp nhận] Nhảy tháp, 1฿.- mỗi cốc, chấp nhận cả thanh toán qua ngân hàng và ví. Kiểm tra tín dụng của bạn trên trang hồ sơ của bạn."
+      "text_vn_machine": "Tất cả các loại trái cây, mọi trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, tiền xu trang trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết [Bán] Thẻ, 1฿.- mỗi sao [Bán] Quà tặng trong tình trạng lộn xộn [Chấp nhận] Nhảy tháp, 1฿.- mỗi cốc, chấp nhận cả thanh toán qua ngân hàng và ví. Kiểm tra tín dụng của bạn trên trang hồ sơ của bạn.",
+      "text_en": "All kinds of fruit, all effects.\n[Selling] Ginseng (all effects)\n[Selling] Garden money, farm coins\n[Selling] Seeds (diamond-bought ones only)\n[Selling] Weather change\n[Selling] Cards 1 baht/star\n[Selling] Gifts in Messenger\n[Taking orders] Tower jump 1 baht/trophy.\nBank and e-wallet accepted, check my profile for reviews.",
+      "summary_en": "Selling fruit, ginseng, seeds, weather change and cards."
     },
     {
       "id": "facebook-67683fb6e577b5cb",
@@ -113,7 +117,9 @@
       ],
       "summary_vn": "Rao bán nhân sâm thường 12 cây 100 baht/bộ",
       "label_method": "ai_review",
-      "text_vn_machine": "Nhân sâm thông thường, 12 cây, 100 baht một bộ"
+      "text_vn_machine": "Nhân sâm thông thường, 12 cây, 100 baht một bộ",
+      "text_en": "Regular ginseng, 12 pcs, 100 baht/set.",
+      "summary_en": "Selling 12 regular ginseng for 100 baht per set."
     },
     {
       "id": "facebook-11eccc64f30581d8",
@@ -151,7 +157,9 @@
       ],
       "summary_vn": "Tìm mua ID có nhiều trang phục",
       "label_method": "ai_review",
-      "text_vn_machine": "Tìm ID. Tập trung vào bộ."
+      "text_vn_machine": "Tìm ID. Tập trung vào bộ.",
+      "text_en": "Looking to buy an account, preferably with lots of outfits.",
+      "summary_en": "Looking to buy an ID with many outfits."
     },
     {
       "id": "facebook-52b15ffe84ef7476",
@@ -190,7 +198,9 @@
       ],
       "summary_vn": "Rao bán cà rốt mặt trăng 2 baht, nhân sâm 10 baht",
       "label_method": "ai_review",
-      "text_vn_machine": "Có cà rốt mặt trăng với giá 2 ฿ mỗi cái. Nhân sâm thông thường 10฿ mỗi loại Nhân sâm 5฿ mỗi loại"
+      "text_vn_machine": "Có cà rốt mặt trăng với giá 2 ฿ mỗi cái. Nhân sâm thông thường 10฿ mỗi loại Nhân sâm 5฿ mỗi loại",
+      "text_en": "Got Moon carrots 2 baht each, regular ginseng 10 baht each, mandrake 5 baht each.",
+      "summary_en": "Selling Moon carrots for 2 baht and ginseng for 10 baht."
     },
     {
       "id": "facebook-4237c2a6189c96c8",
@@ -228,7 +238,9 @@
       ],
       "summary_vn": "Báo cập nhật thì bị chặn tải ở quốc gia, hỏi Thái còn chơi được không",
       "label_method": "ai_review",
-      "text_vn_machine": "Mọi người ơi lâu rồi mình không chơi. Khi tôi cập nhật thì nó báo không thể tải xuống ở quốc gia của bạn. Thái Lan bây giờ còn chơi được không?"
+      "text_vn_machine": "Mọi người ơi lâu rồi mình không chơi. Khi tôi cập nhật thì nó báo không thể tải xuống ở quốc gia của bạn. Thái Lan bây giờ còn chơi được không?",
+      "text_en": "Hey guys, I haven't played in a long time and just came back, when I tried to update it said it can't be downloaded in your country. Can Thailand still play?",
+      "summary_en": "Update blocked in their country, asks if Thailand can still play."
     },
     {
       "id": "facebook-34b9643f04548097",
@@ -267,7 +279,9 @@
       ],
       "summary_vn": "Quay lại sau một năm, hỏi có phải chuyển tài khoản không",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi có một câu hỏi. Tôi mới trở lại thi đấu sau một năm. Tôi có thể không di chuyển nó trên điện thoại của tôi không? Thông thường tôi chỉ chơi trong luồng."
+      "text_vn_machine": "Tôi có một câu hỏi. Tôi mới trở lại thi đấu sau một năm. Tôi có thể không di chuyển nó trên điện thoại của tôi không? Thông thường tôi chỉ chơi trong luồng.",
+      "text_en": "I just came back after a whole year, can I not move to phone? I usually only play on Steam.",
+      "summary_en": "Returning after a year, asks whether they need to transfer their account."
     },
     {
       "id": "facebook-189878524cdbf40f",
@@ -307,7 +321,9 @@
       "summary_vn": "Xin xem ảnh đầy đủ con cá cạnh cá mặt trời",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Xin vui lòng cho phép tôi. Ai đã câu cá này bên cạnh cá mặt trời? Tôi có thể xem hình ảnh đầy đủ không?"
+      "text_vn_machine": "Xin vui lòng cho phép tôi. Ai đã câu cá này bên cạnh cá mặt trời? Tôi có thể xem hình ảnh đầy đủ không?",
+      "text_en": "Excuse me, whoever caught this fish next to the sunfish, can I see the full picture?",
+      "summary_en": "Asks to see the full picture of the fish next to the sunfish."
     },
     {
       "id": "facebook-f4a94d4ce7ea2c25",
@@ -346,7 +362,9 @@
       ],
       "summary_vn": "Bình luận đùa ngắn gọi mẹ dậy",
       "label_method": "ai_review",
-      "text_vn_machine": "Dậy đi mẹ."
+      "text_vn_machine": "Dậy đi mẹ.",
+      "text_en": "Oh my god. (?)",
+      "summary_en": "Short joke comment calling for mom to wake up."
     },
     {
       "id": "facebook-1ab4d15fe345f4b9",
@@ -383,7 +401,9 @@
       ],
       "summary_vn": "Hỏi thẻ vàng tìm ở đâu, còn thiếu 2 thẻ",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi muốn hỏi, bạn tìm thấy thẻ vàng ở đâu? Còn thiếu 2 món."
+      "text_vn_machine": "Tôi muốn hỏi, bạn tìm thấy thẻ vàng ở đâu? Còn thiếu 2 món.",
+      "text_en": "Where do you get gold cards? I'm missing 2.",
+      "summary_en": "Asks where to find gold cards, still missing 2."
     },
     {
       "id": "facebook-ab2f5fe4458d0970",
@@ -420,7 +440,9 @@
       ],
       "summary_vn": "Hỏi ngắn phải làm sao",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi nên làm gì?"
+      "text_vn_machine": "Tôi nên làm gì?",
+      "text_en": "What do I do, ugh?",
+      "summary_en": "Short question asking what to do."
     },
     {
       "id": "facebook-0525d7d556d63c77",
@@ -459,7 +481,9 @@
       "summary_vn": "Người mới hỏi cách nâng cấp cần để câu cá lớn",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Mới bắt đầu chơi gần đây tôi muốn hỏi cách nâng cấp. Tôi muốn đi câu cá. Bạn lấy những giá trị nào? Mong các bác hướng dẫn dùm, em mới chơi gần đây. Tôi muốn hỏi cách nâng cấp. Tôi muốn đi câu cá. Bạn lấy những giá trị nào? Xin vui lòng cho tôi một số hướng."
+      "text_vn_machine": "Mới bắt đầu chơi gần đây tôi muốn hỏi cách nâng cấp. Tôi muốn đi câu cá. Bạn lấy những giá trị nào? Mong các bác hướng dẫn dùm, em mới chơi gần đây. Tôi muốn hỏi cách nâng cấp. Tôi muốn đi câu cá. Bạn lấy những giá trị nào? Xin vui lòng cho tôi một số hướng.",
+      "text_en": "I haven't played long, I want to ask how to upgrade my fishing rod. Which stats should I upgrade to catch big fish? Please help.",
+      "summary_en": "New player asks how to upgrade their rod to catch big fish."
     },
     {
       "id": "facebook-e112f4e0dbffccd1",
@@ -497,7 +521,9 @@
       ],
       "summary_vn": "Hỏi cần bao nhiêu chai thuốc tím để thỏ đạt cấp 5",
       "label_method": "ai_review",
-      "text_vn_machine": "Một con thỏ cần bao nhiêu chai chất lỏng màu tím? Ngay cả khi nó phù hợp với cấp độ 5."
+      "text_vn_machine": "Một con thỏ cần bao nhiêu chai chất lỏng màu tím? Ngay cả khi nó phù hợp với cấp độ 5.",
+      "text_en": "How many purple potions does a rabbit need to reach max level 5?",
+      "summary_en": "Asks how many purple potions a rabbit needs to reach level 5."
     },
     {
       "id": "facebook-372816fffd34b132",
@@ -534,7 +560,9 @@
         "ảnh"
       ],
       "summary_vn": "Đăng bài chỉ có hình ảnh",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook provided no text to translate.",
+      "summary_en": "Image-only post."
     },
     {
       "id": "facebook-ea3047f4535e79cb",
@@ -574,7 +602,9 @@
       "summary_vn": "Đề nghị nên có tai mèo đổi màu theo tóc",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Tai mèo này, dây đeo tai mèo nên có vì tai mèo. Bạn cũng có thể điều chỉnh nó theo màu tóc của mình."
+      "text_vn_machine": "Tai mèo này, dây đeo tai mèo nên có vì tai mèo. Bạn cũng có thể điều chỉnh nó theo màu tóc của mình.",
+      "text_en": "These cat ears, cat ear fans should get them, because they change color to match your hair too.",
+      "summary_en": "Recommends the cat ears that change color with your hair."
     },
     {
       "id": "facebook-9dd62b13e20ef33a",
@@ -614,7 +644,9 @@
       "summary_vn": "Chia sẻ hình tất cả màu thỏ lai để mọi người tham khảo",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Trong trường hợp bất cứ ai đang quyết định nên trộn màu nào, tôi đã tạo một hỗn hợp tất cả các màu của thỏ cho bạn."
+      "text_vn_machine": "Trong trường hợp bất cứ ai đang quyết định nên trộn màu nào, tôi đã tạo một hỗn hợp tất cả các màu của thỏ cho bạn.",
+      "text_en": "For anyone unsure which colors to breed, I've bred rabbits in every color, here you go.",
+      "summary_en": "Shares pics of every bred rabbit color for reference."
     },
     {
       "id": "facebook-f0392de3f89d10fb",
@@ -655,7 +687,9 @@
       "summary_vn": "Review thỏ Luna nền tím, mở bay 60 kim cương, lai 200",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Dừng lại để review một chú thỏ khác là Luna với nền màu tím, phiên bản hỗn hợp. Bạn có thể mở khóa nó với 60 viên kim cương. Bạn có thể trộn những con thỏ không có nền hoặc màu giống nhau. Chi phí trộn là 200 viên kim cương."
+      "text_vn_machine": "Dừng lại để review một chú thỏ khác là Luna với nền màu tím, phiên bản hỗn hợp. Bạn có thể mở khóa nó với 60 viên kim cương. Bạn có thể trộn những con thỏ không có nền hoặc màu giống nhau. Chi phí trộn là 200 viên kim cương.",
+      "text_en": "Dropping by to review another Luna rabbit, purple background, bred version. Unlocking flying costs 60 diamonds, rabbits don't need the same background or color to breed, breeding fee is 200 diamonds.",
+      "summary_en": "Reviews a purple Luna rabbit: flying unlock 60 diamonds, breeding 200."
     },
     {
       "id": "facebook-8120c91a9286e03c",
@@ -693,7 +727,9 @@
       ],
       "summary_vn": "Đăng ảnh chào ngày nghỉ",
       "label_method": "ai_review",
-      "text_vn_machine": "Chào ngày nghỉ"
+      "text_vn_machine": "Chào ngày nghỉ",
+      "text_en": "Happy day off.",
+      "summary_en": "Posts a day-off greeting picture."
     },
     {
       "id": "facebook-21b7b7f1494603bf",
@@ -733,7 +769,9 @@
       "summary_vn": "Khoe thỏ lai đủ màu",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Thỏ phối đủ màu"
+      "text_vn_machine": "Thỏ phối đủ màu",
+      "text_en": "Bred rabbits in every color.",
+      "summary_en": "Shows off bred rabbits in every color."
     },
     {
       "id": "youtube-6dc71770732a4291",
@@ -771,7 +809,9 @@
       ],
       "summary_vn": "Video review VVIP Pass mùa thỏ làng Galaxy, khen rất đẹp",
       "label_method": "ai_review",
-      "text_vn_machine": "Play Together: [Review] VVIP Pass mùa Thỏ làng Galaxy ✓ Rất đẹp"
+      "text_vn_machine": "Play Together: [Review] VVIP Pass mùa Thỏ làng Galaxy ✓ Rất đẹp",
+      "text_en": "Play Together: [Review] VVIP Pass Galaxy Village Rabbit season ✓ So pretty #Playtogether",
+      "summary_en": "Video reviewing the Galaxy Village Rabbit season VVIP Pass, calls it very pretty."
     },
     {
       "id": "tiktok-67b51fc211bae1df",
@@ -807,7 +847,9 @@
         "comment_count": 0,
         "video_title": null
       },
-      "collected_at": "2026-10-14T10:00:00+07:00"
+      "collected_at": "2026-10-14T10:00:00+07:00",
+      "text_en": "So cute I could faint 💜💜💜",
+      "summary_en": "Says the character/outfit is very cute."
     },
     {
       "id": "gplay-vng-da16376cd85b2fa8",
@@ -842,7 +884,9 @@
         "Performance And Bugs",
         "Login"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Can't play, can't get into the game.",
+      "summary_en": "Can't get into the game."
     }
   ],
   "metrics": {

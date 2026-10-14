@@ -26,7 +26,9 @@
       "summary_vn": "Quay gacha hầu như không ra đồ hiếm",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Gacha almost never gives rare items.",
+      "summary_en": "Gacha almost never gives rare items."
     }
   ],
   "metrics": {

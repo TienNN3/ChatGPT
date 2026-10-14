@@ -35,7 +35,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Super fun, really addictive.",
+      "summary_en": "Says the game is super fun and addictive."
     },
     {
       "id": "gplay-vng-a41ab3b0017db6b9",
@@ -68,7 +70,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "I like this game.",
+      "summary_en": "Likes the game (written in English)."
     },
     {
       "id": "gplay-vng-609c4fe8513829eb",
@@ -103,7 +107,9 @@
         "Performance And Bugs",
         "Installation And Setup"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Download stuck at 0MB.",
+      "summary_en": "Game download stuck at 0MB."
     },
     {
       "id": "gplay-vng-da6b0fde8861d5ce",
@@ -140,7 +146,9 @@
         "Login",
         "Service"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "I've played since before the game got popular, I love it, but why do I need an account now? I really want to come back and play.",
+      "summary_en": "Old player wants to return but asks why an account is now required."
     },
     {
       "id": "gplay-vng-6f55cef66d6b8981",
@@ -173,7 +181,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "So fun, lots of people ask if you can get into the game if you can't eat (?). It's probably fun, I'm downloading it now. Is it like, really fun? Never downloaded it before so I'm trying it out, giving it full stars.",
+      "summary_en": "New player still downloading; expects it to be fun and gives 5 stars."
     },
     {
       "id": "gplay-vng-0a2b5d03813675f8",
@@ -208,7 +218,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Looks so fun.",
+      "summary_en": "Says the game looks really fun."
     },
     {
       "id": "appstore-vng-bb2e96363c5d5a93",
@@ -244,7 +256,9 @@
         "Performance And Bugs",
         "Updates And Maintenance"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Play Together. Everything got reset by the system, so the game isn't fun anymore. I spent so long collecting items and doing missions, and now it's come to this, not okay.",
+      "summary_en": "Data was reset, losing collection and mission progress."
     },
     {
       "id": "appstore-vng-c3cfa199d81cd804",
@@ -280,7 +294,9 @@
         "Feature Requests",
         "Content"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Give my old account back. I really miss my old account, why do this, so confusing. Such a damn waste, I had so many items too.",
+      "summary_en": "Misses an old account with many items; wants it back."
     }
   ],
   "report": {

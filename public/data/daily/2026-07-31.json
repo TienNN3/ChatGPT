@@ -35,7 +35,9 @@
         "Feature Requests",
         "Performance And Bugs"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "Why can't I add YouTube links? Terrible. If you're going to keep running it, at least improve it, this got way worse, it's ridiculous.",
+      "summary_en": "Can't add YouTube links; says the game got worse."
     },
     {
       "id": "gplay-vng-9f28a2e17ace57cd",
@@ -70,7 +72,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "Very good.",
+      "summary_en": "Says the game is very good."
     },
     {
       "id": "gplay-vng-f2ede6a4ee6e2d4b",
@@ -105,7 +109,9 @@
       "store_tags": [
         "Monetization"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "So many promo packs (?).",
+      "summary_en": "Complains about too many paid promo packs."
     }
   ],
   "report": {

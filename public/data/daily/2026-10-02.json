@@ -35,7 +35,9 @@
       ],
       "summary_vn": "Bình luận ngắn gọi người khác theo sau",
       "label_method": "ai_review",
-      "text_vn_machine": "Theo sau là ai đó."
+      "text_vn_machine": "Theo sau là ai đó.",
+      "text_en": "Following too.",
+      "summary_en": "Short comment following the post."
     },
     {
       "id": "facebook-562018e9c6f45f0e",
@@ -70,7 +72,9 @@
       ],
       "summary_vn": "Trả lời ngắn rằng mình có đủ tất cả",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi có tất cả."
+      "text_vn_machine": "Tôi có tất cả.",
+      "text_en": "I have all of them.",
+      "summary_en": "Short reply saying they have all of them."
     },
     {
       "id": "facebook-92b43b5dcdbbaa6d",
@@ -106,7 +110,9 @@
       ],
       "summary_vn": "Tìm mua khoai lang ánh trăng",
       "label_method": "ai_review",
-      "text_vn_machine": "Tìm khoai lang ánh trăng, ai có không?"
+      "text_vn_machine": "Tìm khoai lang ánh trăng, ai có không?",
+      "text_en": "Anyone have moonlight sweet potatoes? Looking to buy.",
+      "summary_en": "Looking to buy moonlight sweet potatoes."
     },
     {
       "id": "facebook-b30fd1fbe15691d8",
@@ -141,7 +147,9 @@
       ],
       "summary_vn": "Đăng bài cần mua gấp vật phẩm",
       "label_method": "ai_review",
-      "text_vn_machine": "Cần mua gấp"
+      "text_vn_machine": "Cần mua gấp",
+      "text_en": "Want to buy, need it urgently!!!",
+      "summary_en": "Post urgently looking to buy an item."
     },
     {
       "id": "facebook-08260ca6071ebee7",
@@ -179,7 +187,9 @@
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống, đổi thời tiết, thẻ",
       "label_method": "ai_review",
-      "text_vn_machine": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé"
+      "text_vn_machine": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé",
+      "text_en": "[Selling] All kinds of fruit, all effects\n[Selling] Ginseng (all effects)\n[Selling] Garden money, farm coins\n[Selling] Seeds (only the diamond kind)\n[Selling] Weather change\n[Selling] Cards, 1 baht/star\n[Service] Sending/receiving gifts via messages\n[Service] Tower climbing boost, 1 baht/trophy\nCheck my reviews on my profile.",
+      "summary_en": "Selling fruit, ginseng, seeds, weather changes and cards."
     },
     {
       "id": "facebook-21762d8749a4cbda",
@@ -215,7 +225,9 @@
       ],
       "summary_vn": "Tìm người bán với giá rẻ",
       "label_method": "ai_review",
-      "text_vn_machine": "Ai có giá nhẹ nhàng không?"
+      "text_vn_machine": "Ai có giá nhẹ nhàng không?",
+      "text_en": "Anyone have a cheaper price?",
+      "summary_en": "Looking for a seller with a cheap price."
     },
     {
       "id": "facebook-f8578be7b1b213e8",
@@ -254,7 +266,9 @@
       ],
       "summary_vn": "Rao giá 250 nghìn cho một cây",
       "label_method": "ai_review",
-      "text_vn_machine": "Hai trăm năm mươi nghìn cho giá cây này"
+      "text_vn_machine": "Hai trăm năm mươi nghìn cho giá cây này",
+      "text_en": "This tree costs 250K.",
+      "summary_en": "Lists a price of 250K for one tree."
     },
     {
       "id": "facebook-a5f07ad82acf5f16",
@@ -290,7 +304,9 @@
       ],
       "summary_vn": "Hỏi cây này mua bằng tiền vườn giá bao nhiêu",
       "label_method": "ai_review",
-      "text_vn_machine": "Cây này mua bằng tiền vườn bao nhiêu vậy, để chuẩn bị"
+      "text_vn_machine": "Cây này mua bằng tiền vườn bao nhiêu vậy, để chuẩn bị",
+      "text_en": "How much garden money does this tree cost? I want to save up for it.",
+      "summary_en": "Asks how much garden money this tree costs."
     },
     {
       "id": "facebook-986dcb29d73b04b6",
@@ -326,7 +342,9 @@
       ],
       "summary_vn": "Không vào được game sau khi xóa và tải lại, báo đã liên kết",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi không vào được game, báo đã liên kết rồi, trước đó đã xóa rồi tải lại"
+      "text_vn_machine": "Cho hỏi không vào được game, báo đã liên kết rồi, trước đó đã xóa rồi tải lại",
+      "text_en": "Quick question, I can't get into the game. It says the account is already linked. I had deleted the game and downloaded it again before this.",
+      "summary_en": "Can't log in after reinstalling; game says the account is already linked."
     },
     {
       "id": "facebook-7d0df8e882750eb6",
@@ -365,7 +383,9 @@
       ],
       "summary_vn": "Đăng ảnh nhóm Midnight Club dịp kết thúc sự kiện mặt trăng",
       "label_method": "ai_review",
-      "text_vn_machine": "Midnight Club - End of the Moon, sự kiện #MN"
+      "text_vn_machine": "Midnight Club - End of the Moon, sự kiện #MN",
+      "text_en": "Midnight Club MN – End of the Moon Event #MN",
+      "summary_en": "Group photo of Midnight Club for the end of the Moon event."
     },
     {
       "id": "facebook-65ac902d30266e86",
@@ -404,7 +424,9 @@
       ],
       "summary_vn": "Chia sẻ spoiler sự kiện Halloween sắp tới",
       "label_method": "ai_review",
-      "text_vn_machine": "Spoiler sự kiện tiếp theo Halloween. Nguồn: ThongBao.Shop"
+      "text_vn_machine": "Spoiler sự kiện tiếp theo Halloween. Nguồn: ThongBao.Shop",
+      "text_en": "Spoiler for the next event: Halloween. Cr. ThongBao.Shop",
+      "summary_en": "Shares a spoiler for the upcoming Halloween event."
     },
     {
       "id": "facebook-21597c5ef5be497d",
@@ -441,7 +463,9 @@
       ],
       "summary_vn": "Hỏi chỗ nhập code quà miễn phí trên iOS",
       "label_method": "ai_review",
-      "text_vn_machine": "iOS nhập code quà miễn phí ở đâu vậy?"
+      "text_vn_machine": "iOS nhập code quà miễn phí ở đâu vậy?",
+      "text_en": "Where do I enter free gift codes on iOS?",
+      "summary_en": "Asks where to enter free gift codes on iOS."
     },
     {
       "id": "facebook-5dbbc5d33cecf343",
@@ -476,7 +500,9 @@
       ],
       "summary_vn": "Hỏi thú cưng nào tăng sức mạnh cho Eater",
       "label_method": "ai_review",
-      "text_vn_machine": "Có thú cưng nào có chỉ số tăng sức mạnh cho Eater không?"
+      "text_vn_machine": "Có thú cưng nào có chỉ số tăng sức mạnh cho Eater không?",
+      "text_en": "Is there a pet with stats that boost power for Eater?",
+      "summary_en": "Asks which pet boosts power for Eater."
     },
     {
       "id": "facebook-7fd0974bdbe6fad9",
@@ -515,7 +541,9 @@
       ],
       "summary_vn": "Khoe cây phong khổng lồ 1656, hỏi kích thước của người khác",
       "label_method": "ai_review",
-      "text_vn_machine": "Cây phong mới là cây khổng lồ siêu to, của mình tối đa chỉ 1656, ai được bao nhiêu cho xem với, tối đa bao nhiêu kg"
+      "text_vn_machine": "Cây phong mới là cây khổng lồ siêu to, của mình tối đa chỉ 1656, ai được bao nhiêu cho xem với, tối đa bao nhiêu kg",
+      "text_en": "The new maple tree, the giant ones are huge. My best is only 1656. What did everyone get? Show me, I want to see how heavy they can get.",
+      "summary_en": "Shows off a 1656 giant maple and asks others for their sizes."
     },
     {
       "id": "facebook-3a4dff6776c78537",
@@ -553,7 +581,9 @@
       ],
       "summary_vn": "Chia sẻ xem trước bộ trang phục ma mới",
       "label_method": "ai_review",
-      "text_vn_machine": "Xem trước bộ trang phục ma mới nè"
+      "text_vn_machine": "Xem trước bộ trang phục ma mới nè",
+      "text_en": "Preview of the new ghost outfit is here!",
+      "summary_en": "Shares a preview of the new ghost outfit."
     },
     {
       "id": "facebook-1228dad2109c728b",
@@ -593,7 +623,9 @@
       "summary_vn": "Phàn nàn một người chơi dùng hack từ hôm qua đến nay",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Thắc mắc người này bao giờ mới thôi hack, từ hôm qua tới tận hôm nay"
+      "text_vn_machine": "Thắc mắc người này bao giờ mới thôi hack, từ hôm qua tới tận hôm nay",
+      "text_en": "When is this person going to turn off their hack? It's been going on since yesterday.",
+      "summary_en": "Complains about a player hacking since yesterday."
     },
     {
       "id": "facebook-b9a119ad71c6bd20",
@@ -633,7 +665,9 @@
       "summary_vn": "Khen thú cưng Gió chạy nhanh, lấy từ sự kiện cũ",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Ghé khen bé Gió, mặc vào chạy nhanh, không to cồng kềnh như ngựa. Ai thắc mắc thì con này lấy từ sự kiện cũ nhé. Không chắc có con nào mặc vào chạy nhanh hơn bé Gió không, có thì gửi chỉ số vào bàn cùng nhé"
+      "text_vn_machine": "Ghé khen bé Gió, mặc vào chạy nhanh, không to cồng kềnh như ngựa. Ai thắc mắc thì con này lấy từ sự kiện cũ nhé. Không chắc có con nào mặc vào chạy nhanh hơn bé Gió không, có thì gửi chỉ số vào bàn cùng nhé",
+      "text_en": "Just stopping by to praise little Wind. When it follows you, you run fast, and it's not bulky like the horse. For anyone wondering, this one came from an old event. Not sure if anything runs faster than Wind, if so, post the stats so we can compare.",
+      "summary_en": "Praises the Wind pet for running fast; it came from an old event."
     },
     {
       "id": "facebook-9072f2a35b46158e",
@@ -671,7 +705,9 @@
       ],
       "summary_vn": "Đùa rằng phải làm lại toàn bộ cần câu",
       "label_method": "ai_review",
-      "text_vn_machine": "Không có gì khoe đâu, chỉ là phải làm lại cần câu hết"
+      "text_vn_machine": "Không có gì khoe đâu, chỉ là phải làm lại cần câu hết",
+      "text_en": "Nothing much, just showing off. Had to reroll all my fishing rods.",
+      "summary_en": "Jokes about having to reroll all fishing rods."
     },
     {
       "id": "facebook-92a5a8b3e4166a46",
@@ -709,7 +745,9 @@
       ],
       "summary_vn": "Nhờ xem chỉ số xương rồng tím vì ấp mãi không ra",
       "label_method": "ai_review",
-      "text_vn_machine": "Ai có ảnh xương rồng tím không? Muốn xem chỉ số của bé, nhờ người tốt bụng chụp giúp kiểu như này. Bản thân mình xui quá, ấp mãi không ra con tím"
+      "text_vn_machine": "Ai có ảnh xương rồng tím không? Muốn xem chỉ số của bé, nhờ người tốt bụng chụp giúp kiểu như này. Bản thân mình xui quá, ấp mãi không ra con tím",
+      "text_en": "Does anyone have a picture of a purple cactus? I want to see its stats. Could someone kind take a screenshot like this for me? I'm super unlucky, I keep hatching and never get a purple one.",
+      "summary_en": "Asks to see purple cactus stats after failing to hatch one."
     },
     {
       "id": "facebook-92a5cef7886e2c4f",
@@ -746,7 +784,9 @@
       ],
       "summary_vn": "Hỏi giá cây phong trong cửa hàng hạt giống",
       "label_method": "ai_review",
-      "text_vn_machine": "Cây phong trong cửa hàng hạt giống bao nhiêu xu một cây vậy?"
+      "text_vn_machine": "Cây phong trong cửa hàng hạt giống bao nhiêu xu một cây vậy?",
+      "text_en": "How many coins does the maple tree cost in the seed shop?",
+      "summary_en": "Asks the price of the maple tree in the seed shop."
     },
     {
       "id": "facebook-5f02f95ca03aa3b2",
@@ -785,7 +825,9 @@
       ],
       "summary_vn": "Khoe bộ đồ đào rương mới dễ thương",
       "label_method": "ai_review",
-      "text_vn_machine": "Dễ thương không, bộ đồ đào rương mới"
+      "text_vn_machine": "Dễ thương không, bộ đồ đào rương mới",
+      "text_en": "Isn't it cute? The new treasure digging outfit.",
+      "summary_en": "Shows off the cute new treasure digging outfit."
     },
     {
       "id": "facebook-e54041dd7595224b",
@@ -821,7 +863,9 @@
       ],
       "summary_vn": "Hỏi vật phẩm xanh từ đập bông cải dùng làm gì",
       "label_method": "ai_review",
-      "text_vn_machine": "Mấy cái màu xanh lá nhận được khi đập bông cải xanh dùng làm gì được vậy? Mình có cực nhiều mà không biết làm gì"
+      "text_vn_machine": "Mấy cái màu xanh lá nhận được khi đập bông cải xanh dùng làm gì được vậy? Mình có cực nhiều mà không biết làm gì",
+      "text_en": "What are the green things you get from smashing broccoli for? I have a ton and don't know what to do with them.",
+      "summary_en": "Asks what the green items from smashing broccoli are used for."
     },
     {
       "id": "facebook-f9bedc047e530a2e",
@@ -860,7 +904,9 @@
       "summary_vn": "Máy không hiện nhiệm vụ sự kiện trong khi bạn bè có",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Sao điện thoại mình không có nhiệm vụ sự kiện? Bạn mình có mà mình không làm được, do đâu vậy?"
+      "text_vn_machine": "Sao điện thoại mình không có nhiệm vụ sự kiện? Bạn mình có mà mình không làm được, do đâu vậy?",
+      "text_en": "Why don't I have the event quests? My friend has them but I can't do them. What's wrong?",
+      "summary_en": "Event quests don't show up for them while friends have them."
     },
     {
       "id": "facebook-7ec6d1b44e8223aa",
@@ -898,7 +944,9 @@
       ],
       "summary_vn": "Hỏi cách sắp xếp lại cây trong vườn bị trồng lộn xộn",
       "label_method": "ai_review",
-      "text_vn_machine": "Có cách nào sắp xếp lại cây trong vườn không? Lúc đầu trồng lộn xộn quá, giờ cây lớn nhìn rối mắt"
+      "text_vn_machine": "Có cách nào sắp xếp lại cây trong vườn không? Lúc đầu trồng lộn xộn quá, giờ cây lớn nhìn rối mắt",
+      "text_en": "Is there a way to rearrange the trees in my garden? I planted them messily at first, and now that they're big it looks so cluttered.",
+      "summary_en": "Asks how to rearrange messily planted trees in the garden."
     },
     {
       "id": "facebook-bd05d09f68d5179c",
@@ -937,7 +985,9 @@
       ],
       "summary_vn": "Hỏi hạt dẻ thu hoạch một lần hay nhiều lần",
       "label_method": "ai_review",
-      "text_vn_machine": "Hạt dẻ mọc ra là quả hay là cây vậy? Kiểu trồng rồi thu hoạch mãi được hay chỉ một lần? Mà sao bé lại ở chỗ này, ra bằng cách nào vậy"
+      "text_vn_machine": "Hạt dẻ mọc ra là quả hay là cây vậy? Kiểu trồng rồi thu hoạch mãi được hay chỉ một lần? Mà sao bé lại ở chỗ này, ra bằng cách nào vậy",
+      "text_en": "Do chestnuts bear fruit or just grow into a tree? Like, once planted can you keep harvesting, or only once? And why is it lying here, how does it drop?",
+      "summary_en": "Asks whether chestnuts can be harvested once or repeatedly."
     },
     {
       "id": "facebook-ba994688185c3d69",
@@ -974,7 +1024,9 @@
       "summary_vn": "Hỏi khoai tây, khoai lang khổng lồ tối đa bao nhiêu kg",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi khoai tây với khoai lang khổng lồ được tối đa bao nhiêu kg vậy? Cảm ơn"
+      "text_vn_machine": "Cho hỏi khoai tây với khoai lang khổng lồ được tối đa bao nhiêu kg vậy? Cảm ơn",
+      "text_en": "How heavy can giant potatoes and giant sweet potatoes get at most? Thanks.",
+      "summary_en": "Asks the max weight of giant potatoes and sweet potatoes."
     },
     {
       "id": "facebook-f2d779b462f3fe42",
@@ -1009,7 +1061,9 @@
       ],
       "summary_vn": "Hỏi ở thị trấn còn côn trùng xuất hiện không",
       "label_method": "ai_review",
-      "text_vn_machine": "Ở thị trấn còn côn trùng xuất hiện không?"
+      "text_vn_machine": "Ở thị trấn còn côn trùng xuất hiện không?",
+      "text_en": "Do bugs still spawn in town?",
+      "summary_en": "Asks whether bugs still spawn in town."
     },
     {
       "id": "facebook-5f5cea29fd1db349",
@@ -1048,7 +1102,9 @@
       ],
       "summary_vn": "Hỏi giá và số hạt cây phong bán trong cửa hàng tối qua",
       "label_method": "ai_review",
-      "text_vn_machine": "Có ai kịp mua cây phong bán trong cửa hàng tối qua không? Giá bao nhiêu, mỗi lần được mấy hạt?"
+      "text_vn_machine": "Có ai kịp mua cây phong bán trong cửa hàng tối qua không? Giá bao nhiêu, mỗi lần được mấy hạt?",
+      "text_en": "Did anyone manage to buy the maple tree in the shop last night? How much was it, and how many seeds per purchase?",
+      "summary_en": "Asks the price and seed count of last night's maple tree in the shop."
     },
     {
       "id": "facebook-05dbe375a9015799",
@@ -1088,7 +1144,9 @@
       "summary_vn": "Chia sẻ ảnh cây khổng lồ tình cờ gặp ở vườn người khác",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Ồ, to quá (≧Д≦) Không biết vườn của ai, nhưng tình cờ gặp (・∀・)"
+      "text_vn_machine": "Ồ, to quá (≧Д≦) Không biết vườn của ai, nhưng tình cờ gặp (・∀・)",
+      "text_en": "Whoa, so huge (≧Д≦) No idea whose garden this is, just stumbled on it (・∀・)",
+      "summary_en": "Shares a giant plant found by chance in someone's garden."
     },
     {
       "id": "facebook-1e1cd625c6741952",
@@ -1124,7 +1182,9 @@
       ],
       "summary_vn": "Hỏi bông cải xanh mọc lại sau bao nhiêu phút",
       "label_method": "ai_review",
-      "text_vn_machine": "Bông cải xanh (broccoli) mọc mỗi bao nhiêu phút vậy ạ?"
+      "text_vn_machine": "Bông cải xanh (broccoli) mọc mỗi bao nhiêu phút vậy ạ?",
+      "text_en": "How many minutes does broccoli take to regrow?",
+      "summary_en": "Asks how many minutes broccoli takes to regrow."
     },
     {
       "id": "facebook-923faeea73a199da",
@@ -1159,7 +1219,9 @@
       ],
       "summary_vn": "Hỏi các tủ gacha ra mỗi 2 ngày đợt này gồm những gì",
       "label_method": "ai_review",
-      "text_vn_machine": "Có ai biết không ạ, đợt tủ (gacha) ra mỗi 2 ngày lần này gồm những tủ nào vậy?"
+      "text_vn_machine": "Có ai biết không ạ, đợt tủ (gacha) ra mỗi 2 ngày lần này gồm những tủ nào vậy?",
+      "text_en": "Does anyone know which gacha machines are in this round of the every-2-days rotation?",
+      "summary_en": "Asks which gacha machines are in the current 2-day rotation."
     },
     {
       "id": "facebook-a7f62b7bf309f3b4",
@@ -1198,7 +1260,9 @@
       ],
       "summary_vn": "Cảm ơn lời khuyên trồng trọt, kết quả như mong muốn",
       "label_method": "ai_review",
-      "text_vn_machine": "Cảm ơn lời khuyên siêu đỉnh từ các anh chị nhà vườn nhé, kết quả tốt thật sự, đúng như mong muốn rồi ạ"
+      "text_vn_machine": "Cảm ơn lời khuyên siêu đỉnh từ các anh chị nhà vườn nhé, kết quả tốt thật sự, đúng như mong muốn rồi ạ",
+      "text_en": "Thanks for the amazing advice, fellow farmers. It really worked, I got exactly what I wanted.",
+      "summary_en": "Thanks others for farming advice that worked."
     },
     {
       "id": "facebook-f1c119c271379665",
@@ -1237,7 +1301,9 @@
       "summary_vn": "Phàn nàn người chơi warp theo khắp nơi tranh đập rau",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Cái này gọi là gì, \"hack à\"? Warp theo khắp nơi để tranh đập"
+      "text_vn_machine": "Cái này gọi là gì, \"hack à\"? Warp theo khắp nơi để tranh đập",
+      "text_en": "What do you call this, \"a hack\"? Warping after me everywhere to steal my smashing spots.",
+      "summary_en": "Complains about a player warping everywhere to steal vegetable smashing spots."
     },
     {
       "id": "facebook-afc9e4c841046e62",
@@ -1276,7 +1342,9 @@
       "summary_vn": "Không đào quặng, đánh quái, nhặt thẻ được do báo vượt giới hạn",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Sao tôi không đào quặng, đánh quái, nhặt thẻ tiếp được nữa ạ, nó báo vượt giới hạn. Tôi chơi server châu Á nhưng đang ở nước ngoài, có liên quan không ạ?"
+      "text_vn_machine": "Sao tôi không đào quặng, đánh quái, nhặt thẻ tiếp được nữa ạ, nó báo vượt giới hạn. Tôi chơi server châu Á nhưng đang ở nước ngoài, có liên quan không ạ?",
+      "text_en": "Why can't I mine ore, fight monsters or pick up cards anymore? It says I've hit the limit. I play on the Asia server but I'm abroad right now, is that related?",
+      "summary_en": "Can't mine ore, fight monsters or pick up cards due to a limit message."
     },
     {
       "id": "facebook-099a0ba7a6b553b9",
@@ -1314,7 +1382,9 @@
       ],
       "summary_vn": "Hỏi bông cải xanh mọc vào giờ nào",
       "label_method": "ai_review",
-      "text_vn_machine": "Bông cải xanh mọc vào giờ nào vậy ạ?"
+      "text_vn_machine": "Bông cải xanh mọc vào giờ nào vậy ạ?",
+      "text_en": "What time does broccoli spawn?",
+      "summary_en": "Asks what time broccoli spawns."
     },
     {
       "id": "facebook-9ff3aa317ce5aa18",
@@ -1352,7 +1422,9 @@
       ],
       "summary_vn": "Chia sẻ ảnh gặp ma tai thỏ giữa ban ngày",
       "label_method": "ai_review",
-      "text_vn_machine": "Gặp ma tai thỏ giữa ban ngày ban mặt, có cả mặt luôn"
+      "text_vn_machine": "Gặp ma tai thỏ giữa ban ngày ban mặt, có cả mặt luôn",
+      "text_en": "Ran into a bunny-eared ghost in broad daylight, face and all.",
+      "summary_en": "Shares a photo of a bunny-eared ghost seen in daytime."
     },
     {
       "id": "facebook-a38359886ea8123c",
@@ -1392,7 +1464,9 @@
       ],
       "summary_vn": "Tổng hợp chi phí mở rộng toàn bộ đất nông trại",
       "label_method": "ai_review",
-      "text_vn_machine": "Mở rộng toàn bộ đất nông trại tốn bao nhiêu, được gì:\nLoại xu = 128M\nLoại kim cương = 4456\nSố ô trồng = 600\nNội thất = 120"
+      "text_vn_machine": "Mở rộng toàn bộ đất nông trại tốn bao nhiêu, được gì:\nLoại xu = 128M\nLoại kim cương = 4456\nSố ô trồng = 600\nNội thất = 120",
+      "text_en": "Cost and rewards of expanding all farm land:\nWith coins = 128M\nWith diamonds = 4456\nPlanting slots = 600\nFurniture = 120",
+      "summary_en": "Summary of the cost to expand all farm land."
     },
     {
       "id": "facebook-4767c39cc2da9745",
@@ -1430,7 +1504,9 @@
       ],
       "summary_vn": "Than đùa đã dùng hết phúc đức",
       "label_method": "ai_review",
-      "text_vn_machine": "Hết sạch phúc đức tích được rồi ạ"
+      "text_vn_machine": "Hết sạch phúc đức tích được rồi ạ",
+      "text_en": "I've used up all my saved-up good karma.",
+      "summary_en": "Jokes about using up all their good luck."
     },
     {
       "id": "facebook-69c074197e36b5a7",
@@ -1470,7 +1546,9 @@
       "summary_vn": "Khoe củ cải to, than cà rốt tím không to được",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Củ cải trắng chân thật ghê, sao cà rốt tím không to được như vầy chứ"
+      "text_vn_machine": "Củ cải trắng chân thật ghê, sao cà rốt tím không to được như vầy chứ",
+      "text_en": "The white radish looks so real. Why can't the purple carrot get this big?!",
+      "summary_en": "Shows off a big radish and complains purple carrots don't get as big."
     },
     {
       "id": "facebook-3e90fcda773f0bc3",
@@ -1507,7 +1585,9 @@
       "summary_vn": "Khoe quay gacha ra xe liên tiếp ở lượt 195-200",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Chiếc xe đầu tiên ra ở lượt quay thứ 195, định quay cho đủ 200 thì tới 196 lại ra nữa, đủ 200 lại được thêm, đỉnh thật"
+      "text_vn_machine": "Chiếc xe đầu tiên ra ở lượt quay thứ 195, định quay cho đủ 200 thì tới 196 lại ra nữa, đủ 200 lại được thêm, đỉnh thật",
+      "text_en": "First car dropped on draw 195. I planned to go to 200, hit draw 196 and got another one, then at 200 got one more. Amazing.",
+      "summary_en": "Shows off getting cars back-to-back in gacha draws 195-200."
     },
     {
       "id": "facebook-6453aea7b2913f6b",
@@ -1546,7 +1626,9 @@
       ],
       "summary_vn": "Đăng ảnh kết thúc sự kiện mặt trăng",
       "label_method": "ai_review",
-      "text_vn_machine": "Kết thúc sự kiện Mặt Trăng"
+      "text_vn_machine": "Kết thúc sự kiện Mặt Trăng",
+      "text_en": "End of the Moon Event",
+      "summary_en": "Posts a photo for the end of the Moon event."
     },
     {
       "id": "gplay-vng-838e09829ed26f95",
@@ -1581,7 +1663,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.32.0"
+      "app_version": "2.32.0",
+      "text_en": "So much fun!",
+      "summary_en": "Says the game is a lot of fun."
     }
   ],
   "metrics": {

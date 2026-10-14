@@ -33,7 +33,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Like it, like it.",
+      "summary_en": "Says they like the game."
     },
     {
       "id": "appstore-vng-ca414aec6f6f41a4",
@@ -69,7 +71,9 @@
         "Customer Support",
         "Service"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "So bad, so sad. Give my old account back, I've topped up so much, why would you do this?",
+      "summary_en": "Demands their old account with many top-ups back."
     }
   ],
   "report": {

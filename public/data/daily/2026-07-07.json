@@ -38,7 +38,9 @@
         "Advertisements",
         "Login"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "I get that account transfer opens on the 9th, but the damn old app won't let me top up anymore. My ad-removal pack just expired and I can't buy it, so I have to sit through ads until the 9th?!? Absolutely terrible. There are like 30 ads, making me sit and watch them for 3 days before the 9th. F*** this.",
+      "summary_en": "Old app blocks top-ups; ad-removal pack expired so they must watch ads."
     },
     {
       "id": "appstore-vng-9d42839a75398bed",
@@ -73,7 +75,9 @@
       "store_tags": [
         "Login"
       ],
-      "app_version": "2.28.1"
+      "app_version": "2.28.1",
+      "text_en": "Can't log in. Please fix it.",
+      "summary_en": "Can't log in; asks for a fix."
     }
   ],
   "report": {

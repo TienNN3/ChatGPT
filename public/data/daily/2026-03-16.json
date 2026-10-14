@@ -27,7 +27,9 @@
       "summary_vn": "Mong gacha trang phục không ra đồ trùng",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "The graphics are pretty and cute, but about the fashion gacha, I wish items I already got wouldn't drop again. Duplicates are useless except to sell for salt 🥹",
+      "summary_en": "Wants the outfit gacha to stop giving duplicates."
     },
     {
       "id": "android-742107098f8338e9",
@@ -54,7 +56,9 @@
       "summary_vn": "Mới tải không đăng nhập được, báo lỗi tạm thời",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Why can't I log in after downloading? It shows \"A temporary error occurred\", so annoying",
+      "summary_en": "Just downloaded, can't log in, 'temporary error' message."
     }
   ],
   "metrics": {

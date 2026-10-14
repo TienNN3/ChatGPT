@@ -33,7 +33,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "So fun.",
+      "summary_en": "Says the game is really fun."
     },
     {
       "id": "gplay-vng-2ab8744eaa89e065",
@@ -66,7 +68,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Very good.",
+      "summary_en": "Says the game is very good."
     },
     {
       "id": "gplay-vng-6f7e0f0c019cf1b7",
@@ -99,7 +103,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "So fun.",
+      "summary_en": "Says the game is really fun."
     },
     {
       "id": "gplay-vng-d87c990ec28c7f31",
@@ -136,7 +142,9 @@
         "Security",
         "Social And Community"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "I know you need a code from the first game to play this one, but why are there more hackers in this game than the first one? What do they want? This was supposed to be a relaxing game, now I'm afraid to play because I'm scared of getting banned.",
+      "summary_en": "More hackers than the old version; player is afraid to play for fear of bans."
     },
     {
       "id": "appstore-vng-978cc5a7a7d12772",
@@ -172,7 +180,9 @@
         "Performance And Bugs",
         "Game Progression"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Oasis sand treasure digging. I was digging sand normally and the treasure chest vanished, even though I'd almost reached it. It's happened 4-5 times, not okay at alllll. Repairing the shovel costs 4,000 stars, totally wasted and I got nothing back 😡😡",
+      "summary_en": "Oasis treasure chests vanish mid-dig, wasting shovel repair costs."
     },
     {
       "id": "appstore-vng-a51f1a1067a91a92",
@@ -208,7 +218,9 @@
         "Login",
         "Performance And Bugs"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Mikichang. Login problem: I already deleted the old game but can't log into the new one, tried everything and still can't get in.",
+      "summary_en": "Deleted the old game and can't log into the new one."
     }
   ],
   "report": {

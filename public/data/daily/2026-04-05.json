@@ -160,7 +160,9 @@
       "summary_vn": "Yêu game, mong có thêm Mitra, Makara, Cottee và Eos",
       "label_method": "ai_review",
       "text_vn_machine": "Đây là game yêu thích của người chơi. Họ mong có thêm các vật phẩm Mitra, Makara, Cottee và Eos.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Love Dragon Village, Play Together is so fun. This is my favorite game, I want Mitra, Makara, Cottee and Eos.",
+      "summary_en": "Loves the game, wants Mitra, Makara, Cottee and Eos added."
     },
     {
       "id": "android-dc819b8c18c3730f",
@@ -188,7 +190,9 @@
       "summary_vn": "Thích game nhưng mong giảm giá gói đồ, nhẫn, quảng cáo ngắn hơn",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "(Just my opinion) This game is sooo addictive, the graphics are heart-meltingly cute 💖, nice outfits but there are still few diamond packs, hope for more. Prices are a bit steep too, discount outfit packs and rings and I'll buy right away 😭. Hope events get more varied + let us gift items to friends without rings to make it more fun. Don't like the blind guessing draws because they waste coins 🥲. Ads are so long the game crashes, make them shorter or give 7 days of Premium instead. Hope free players aren't disadvantaged compared to spenders + add gacha codes / duplicate cards exchange for gold cards / quests to pick 2 free packs or exchange for a Pass. If all of this happens it'd be amazinggg ✨️✨️",
+      "summary_en": "Likes the game, wants cheaper outfit packs and rings, and shorter ads."
     },
     {
       "id": "android-06e3217ab5277b14",
@@ -214,7 +218,9 @@
       "summary_vn": "Tố game sao chép thiết kế trang phục của họa sĩ khác",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "You think it's fine to copy another artist's designs? Is the game not going to apologize and fix the designs, or what's the plan? Awful game, you even have to steal from an artist just to come up with an outfit design concept?",
+      "summary_en": "Accuses the game of copying another artist's outfit designs."
     },
     {
       "id": "android-57a2b9d3ff898d02",
@@ -241,7 +247,9 @@
       "summary_vn": "Bị cấm tài khoản vì phần mềm trái phép dù mới chơi, vừa nạp",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Suddenly got banned, it says I used illegal software. Makes no sense, I'd only played for three days and had just topped up too, lost my money for no reason 👎",
+      "summary_en": "Banned for illegal software despite being new and having just topped up."
     }
   ]
 }

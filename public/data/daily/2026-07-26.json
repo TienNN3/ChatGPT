@@ -35,7 +35,9 @@
       "store_tags": [
         "Payment"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "I topped up but didn't get my items.",
+      "summary_en": "Topped up but didn't receive items."
     },
     {
       "id": "appstore-vng-a8dc06361be698a0",
@@ -72,7 +74,9 @@
         "Performance And Bugs",
         "Updates And Maintenance"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "The game used to be better. I played a few years ago, it was great, so fun, no freezing or crashing at all, but now that I'm back it keeps crashing, freezing and making me log in again.",
+      "summary_en": "Returning player finds frequent crashes, freezes and re-logins."
     }
   ],
   "report": {

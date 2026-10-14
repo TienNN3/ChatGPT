@@ -143,7 +143,9 @@
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
       "text_vn_machine": "Game rất tốt. Mong có thanh trạng thái ăn, ngủ, tắm và thêm nhiều công việc.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Update. Great game, but I hope there are status bars for eating, sleeping and bathing, plus more jobs.",
+      "summary_en": "Wants eat/sleep/bath status bars and more jobs."
     },
     {
       "id": "android-bb4fb50c33e7283d",
@@ -170,7 +172,9 @@
       "summary_vn": "Tải lại game không tải được dữ liệu, báo lỗi không rõ",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I deleted the game before, now I want to come back, but after reinstalling it can't download the data, it shows an unknown error. I'm so sad, I miss my items. I have plenty of storage, deleting and reinstalling the app didn't work, restarting my phone didn't work either. I really want to play but don't know how to fix it.",
+      "summary_en": "Reinstalled game can't download data, unknown error."
     },
     {
       "id": "android-ccffa01fe2816c41",
@@ -196,7 +200,9 @@
       "summary_vn": "Bình luận cảm thán ngắn",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Oh my goddddd (omg)",
+      "summary_en": "Short exclamation."
     }
   ],
   "ratings": [

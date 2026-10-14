@@ -28,7 +28,9 @@
       "summary_vn": "Chê nhiệm vụ câu cá sự kiện quá khó, chế mồi tốn 500 cá",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Terrible event. The fishing missions are already hard and boring, and this fishing event is even worse. Crafting 100 bait = 500 normal fish, the aurora fish only shows up once every 5 minutes and you only catch one. Pathetic, I'd love to meet whoever came up with this event, absolutely awful.",
+      "summary_en": "Event fishing missions are too hard; crafting bait costs 500 fish."
     }
   ],
   "metrics": {

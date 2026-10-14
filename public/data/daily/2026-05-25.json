@@ -26,7 +26,9 @@
       "summary_vn": "Khen game vui, rủ tải về chơi",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So fun, download it and play.",
+      "summary_en": "Says the game is fun and invites others to download it."
     }
   ],
   "metrics": {

@@ -156,7 +156,9 @@
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
       "text_vn_machine": "Game vui nhưng có vẻ cần kết nối mạng mạnh.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Fun, recommend. It's good but it suits people with a strong connection, not sure if that's related.",
+      "summary_en": "Fun game but needs a strong connection to play well."
     },
     {
       "id": "android-10ca1c06cb3b06a5",
@@ -183,7 +185,9 @@
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Hope there's more food content.",
+      "summary_en": "Wants more food-related content."
     },
     {
       "id": "android-4ded7a1760bf2ec1",
@@ -209,7 +213,9 @@
       "summary_vn": "Phàn nàn game tự xuất hiện trên điện thoại",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I don't even want to play it, how did it get on my phone?",
+      "summary_en": "Complains the game appeared on their phone by itself."
     },
     {
       "id": "android-9629ec8065bbd347",
@@ -235,7 +241,9 @@
       "summary_vn": "Xem hết quảng cáo không nhận thưởng, chê ép mua premium",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Watched the ad and didn't get the reward, so confusing, watched it for so long. Are you just trying to make us buy Premium? Selfish game.",
+      "summary_en": "No reward after watching a full ad; feels pushed to buy Premium."
     }
   ],
   "ratings": [

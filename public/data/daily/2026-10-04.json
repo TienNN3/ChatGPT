@@ -40,7 +40,9 @@
       "summary_vn": "Khoe thử 50 vòi phun và được cây phong khổng lồ",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Hôm nay mình thử con Spinker 50, tím 5, đỏ 45, cực ngầu. \nCó một cây phong khổng lồ quá. Đang chờ xem."
+      "text_vn_machine": "Hôm nay mình thử con Spinker 50, tím 5, đỏ 45, cực ngầu. \nCó một cây phong khổng lồ quá. Đang chờ xem.",
+      "text_en": "Tried 50 sprinklers today: 5 purple, 45 red. Amazing.\nGot a giant maple tree too, stay tuned.",
+      "summary_en": "Shows off testing 50 sprinklers and getting a giant maple tree."
     },
     {
       "id": "facebook-4481007a67beb016",
@@ -76,7 +78,9 @@
       ],
       "summary_vn": "Hướng dẫn dùng 10-20 vòi phun đỏ khi trời mưa",
       "label_method": "ai_review",
-      "text_vn_machine": "Thực tế sử dụng 10-20 lò xo đỏ. Cùng với tình trạng mưa nhiều, nhiều cây đã trưởng thành. Ngoại trừ hơn 30 cây đậu."
+      "text_vn_machine": "Thực tế sử dụng 10-20 lò xo đỏ. Cùng với tình trạng mưa nhiều, nhiều cây đã trưởng thành. Ngoại trừ hơn 30 cây đậu.",
+      "text_en": "Actually, 10-20 red sprinklers plus rain is enough to get lots of big fruit, except beans, which need 30+.",
+      "summary_en": "Tip: use 10-20 red sprinklers when it rains."
     },
     {
       "id": "facebook-cc67c7cd75968365",
@@ -111,7 +115,9 @@
       ],
       "summary_vn": "Hỏi nên trồng bao nhiêu hạt khi trời mưa",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi nên đặt bao nhiêu hạt giống? Bình thường không có chỗ để mà mưa sẽ hết trước, haha."
+      "text_vn_machine": "Tôi nên đặt bao nhiêu hạt giống? Bình thường không có chỗ để mà mưa sẽ hết trước, haha.",
+      "text_en": "How many seeds do you plant? Usually by the time I run out of space to plant, the rain has already stopped haha",
+      "summary_en": "Asks how many seeds to plant when it rains."
     },
     {
       "id": "facebook-a0dadc1a3d06b94c",
@@ -146,7 +152,9 @@
       ],
       "summary_vn": "Hỏi người bán còn hàng không",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn vẫn còn có nó chứ?"
+      "text_vn_machine": "Bạn vẫn còn có nó chứ?",
+      "text_en": "Still available?",
+      "summary_en": "Asks the seller if it's still available."
     },
     {
       "id": "facebook-f838e386476f4197",
@@ -184,7 +192,9 @@
       "summary_vn": "Nhận cày đào kho báu bộ ma lạc kèm chó giá 100 baht",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Hàng đợi là miễn phí.\n Đào hộp kho báu\n✦𝙎𝙋𝙀𝘾𝙄𝘼𝙇 𝙍𝘼𝙍𝙀✦\nBộ ma lạc\n + con chó nhỏ\n 100\n•Yêu cầu mọi người đừng vội vàng •Khóa sky mail\nTín dụng trang hồ sơ"
+      "text_vn_machine": "Hàng đợi là miễn phí.\n Đào hộp kho báu\n✦𝙎𝙋𝙀𝘾𝙄𝘼𝙇 𝙍𝘼𝙍𝙀✦\nBộ ma lạc\n + con chó nhỏ\n 100\n•Yêu cầu mọi người đừng vội vàng •Khóa sky mail\nTín dụng trang hồ sơ",
+      "text_en": "Still taking orders.\nTreasure chest digging boost\n✦SPECIAL RARE✦\nWandering Ghost set + puppy: 100 baht\n• Please don't rush me • Green mail lock (?)\n• Check my reviews on my profile",
+      "summary_en": "Offers treasure digging boosting for the Wandering Ghost set plus dog for 100 baht."
     },
     {
       "id": "facebook-aec4aa62c8a592ac",
@@ -219,7 +229,9 @@
       ],
       "summary_vn": "Báo vẫn còn nhận đơn",
       "label_method": "ai_review",
-      "text_vn_machine": "Vẫn chấp nhận nó."
+      "text_vn_machine": "Vẫn chấp nhận nó.",
+      "text_en": "Still taking orders.",
+      "summary_en": "Says they're still taking orders."
     },
     {
       "id": "facebook-42e605ea292ddc43",
@@ -257,7 +269,9 @@
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống, đổi thời tiết, thẻ",
       "label_method": "ai_review",
-      "text_vn_machine": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé"
+      "text_vn_machine": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé",
+      "text_en": "[Selling] All kinds of fruit, all effects\n[Selling] Ginseng (all effects)\n[Selling] Garden money, farm coins\n[Selling] Seeds (only the diamond kind)\n[Selling] Weather change\n[Selling] Cards, 1 baht/star\n[Service] Sending/receiving gifts via messages\n[Service] Tower climbing boost, 1 baht/trophy\nCheck my reviews on my profile.",
+      "summary_en": "Selling fruit, ginseng, seeds, weather changes and cards."
     },
     {
       "id": "facebook-9b27c0b3e0146568",
@@ -297,7 +311,9 @@
       ],
       "summary_vn": "Nhận cày đào bộ đồ, 35 baht/món, tặng đập quặng",
       "label_method": "ai_review",
-      "text_vn_machine": "Nhận cày đào bộ đồ, tặng kèm đập quặng.\n1 món 35 baht (cho ai đào rồi chỉ thiếu 1 món)\n3 món 100 baht, món tiếp theo 20 baht (VD 4 món 120 baht)\nNhận không đủ bộ: tặng đào 100 quặng\nNhận đủ bộ: tặng đào 200 quặng"
+      "text_vn_machine": "Nhận cày đào bộ đồ, tặng kèm đập quặng.\n1 món 35 baht (cho ai đào rồi chỉ thiếu 1 món)\n3 món 100 baht, món tiếp theo 20 baht (VD 4 món 120 baht)\nNhận không đủ bộ: tặng đào 100 quặng\nNhận đủ bộ: tặng đào 200 quặng",
+      "text_en": "Taking outfit digging orders, ore smashing included free.\n1 item 35 baht (for those who dug already and are missing just one piece)\n3 items 100 baht, each extra item 20 baht (e.g. 4 items 120 baht)\nPartial set: 100 ore dug free\nFull set: 200 ore dug free",
+      "summary_en": "Offers outfit digging boosting at 35 baht/item with free ore smashing."
     },
     {
       "id": "facebook-a7426334b812db89",
@@ -334,7 +350,9 @@
       ],
       "summary_vn": "Nhận cày đào bộ đồ, 35 baht/món, tặng đập quặng",
       "label_method": "ai_review",
-      "text_vn_machine": "Nhận cày đào bộ đồ, tặng kèm đập quặng.\n1 món 35 baht (cho ai đào rồi chỉ thiếu 1 món)\n3 món 100 baht, món tiếp theo 20 baht (VD 4 món 120 baht)\nNhận không đủ bộ: tặng đào 100 quặng\nNhận đủ bộ: tặng đào 200 quặng"
+      "text_vn_machine": "Nhận cày đào bộ đồ, tặng kèm đập quặng.\n1 món 35 baht (cho ai đào rồi chỉ thiếu 1 món)\n3 món 100 baht, món tiếp theo 20 baht (VD 4 món 120 baht)\nNhận không đủ bộ: tặng đào 100 quặng\nNhận đủ bộ: tặng đào 200 quặng",
+      "text_en": "Taking outfit digging orders, ore smashing included free.\n1 item 35 baht (for those who dug already and are missing just one piece)\n3 items 100 baht, each extra item 20 baht (e.g. 4 items 120 baht)\nPartial set: 100 ore dug free\nFull set: 200 ore dug free",
+      "summary_en": "Offers outfit digging boosting at 35 baht/item with free ore smashing."
     },
     {
       "id": "facebook-b625912a6d6a7df9",
@@ -370,7 +388,9 @@
       ],
       "summary_vn": "Hỏi bộ đồ con ma đến từ gói nào",
       "label_method": "ai_review",
-      "text_vn_machine": "Muốn biết bộ đồ con ma này đến từ gói nào"
+      "text_vn_machine": "Muốn biết bộ đồ con ma này đến từ gói nào",
+      "text_en": "Want to know which pack this ghost outfit comes from.",
+      "summary_en": "Asks which pack the ghost outfit comes from."
     },
     {
       "id": "facebook-29d4c3317a045a07",
@@ -407,7 +427,9 @@
       ],
       "summary_vn": "Báo bug dùng warp qua lại vẫn ở được chỗ lỗi",
       "label_method": "ai_review",
-      "text_vn_machine": "Gặp bug này, dùng bug warp qua warp lại vẫn ở được luôn, phiền ghê"
+      "text_vn_machine": "Gặp bug này, dùng bug warp qua warp lại vẫn ở được luôn, phiền ghê",
+      "text_en": "Ran into this bug. Even after warping back and forth I'm still stuck standing there, ugh, this bug is so annoying.",
+      "summary_en": "Reports a bug where warping back and forth doesn't get them out of the glitched spot."
     },
     {
       "id": "facebook-d45d1af40454c640",
@@ -445,7 +467,9 @@
       ],
       "summary_vn": "Thích bộ đồng phục học sinh",
       "label_method": "ai_review",
-      "text_vn_machine": "Thích bộ đồng phục học sinh lắm"
+      "text_vn_machine": "Thích bộ đồng phục học sinh lắm",
+      "text_en": "Really love the school uniform outfit.",
+      "summary_en": "Loves the school uniform outfit."
     },
     {
       "id": "facebook-bb642bd66283a445",
@@ -480,7 +504,9 @@
         "phiên bản pc"
       ],
       "summary_vn": "Hỏi trên Steam có chơi bản VNG được không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Can you play the VNG version on Steam?",
+      "summary_en": "Asks if the VNG version can be played on Steam."
     },
     {
       "id": "facebook-7db63deb3fcf63a6",
@@ -517,7 +543,9 @@
       "summary_vn": "Phàn nàn hộp gacha chỉ ra quần áo, kính, không ra xe",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Hộp gacha kiểu gì vậy trời, chỉ ra quần áo với kính, xe không ra #keokietthatsu"
+      "text_vn_machine": "Hộp gacha kiểu gì vậy trời, chỉ ra quần áo với kính, xe không ra #keokietthatsu",
+      "text_en": "What is up with this gacha box, it's all clothes and glasses, never the car. #so stingy",
+      "summary_en": "Complains the gacha box only gives clothes and glasses, never the car."
     },
     {
       "id": "facebook-97fc88dafd0dc785",
@@ -557,7 +585,9 @@
       "summary_vn": "Than thu hoạch cả ngày không to bằng hạng 1 (5.38)",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Hạng 1 là 5.38, bao giờ mình mới được quả to như người ta nhỉ, thu hoạch cả ngày mà vẫn không to bằng"
+      "text_vn_machine": "Hạng 1 là 5.38, bao giờ mình mới được quả to như người ta nhỉ, thu hoạch cả ngày mà vẫn không to bằng",
+      "text_en": "Rank 1 is 5.38. When will I ever get fruit that big? I've been harvesting all day and still nothing close.",
+      "summary_en": "Complains that a full day of harvesting can't match rank 1 (5.38)."
     },
     {
       "id": "facebook-7db902dac6c69a8e",
@@ -596,7 +626,9 @@
       ],
       "summary_vn": "Phân vân có nên thu hoạch khi còn 6 ngày",
       "label_method": "ai_review",
-      "text_vn_machine": "Còn tận 6 ngày, có nên thu hoạch không nhỉ"
+      "text_vn_machine": "Còn tận 6 ngày, có nên thu hoạch không nhỉ",
+      "text_en": "Still 6 days left, should I harvest now or not?",
+      "summary_en": "Unsure whether to harvest with 6 days left."
     },
     {
       "id": "facebook-4e9ab405a301f7e6",
@@ -635,7 +667,9 @@
       ],
       "summary_vn": "Đùa vác sầu riêng nặng không nổi",
       "label_method": "ai_review",
-      "text_vn_machine": "Vác sầu riêng không nổi nữa rồi, nặng quá"
+      "text_vn_machine": "Vác sầu riêng không nổi nữa rồi, nặng quá",
+      "text_en": "Can't carry the durian anymore, it's too heavy.",
+      "summary_en": "Jokes the durian is too heavy to carry."
     },
     {
       "id": "facebook-73740b1ade830513",
@@ -673,7 +707,9 @@
       ],
       "summary_vn": "Hỏi cây phong có tổ chức thi không",
       "label_method": "ai_review",
-      "text_vn_machine": "Cây phong (maple) có tổ chức thi không ạ?"
+      "text_vn_machine": "Cây phong (maple) có tổ chức thi không ạ?",
+      "text_en": "Is there going to be a maple tree contest?",
+      "summary_en": "Asks if there will be a maple tree contest."
     },
     {
       "id": "facebook-94cc7b1f0c361040",
@@ -709,7 +745,9 @@
       ],
       "summary_vn": "Hỏi rau không thu hoạch có lớn thêm không",
       "label_method": "ai_review",
-      "text_vn_machine": "Nếu không thu hoạch rau trong nông trại thì nó có lớn thêm được không ạ?"
+      "text_vn_machine": "Nếu không thu hoạch rau trong nông trại thì nó có lớn thêm được không ạ?",
+      "text_en": "If I don't harvest the veggies on my farm, will they keep growing bigger?",
+      "summary_en": "Asks if unharvested veggies keep growing."
     },
     {
       "id": "facebook-f931279a01b3cf33",
@@ -747,7 +785,9 @@
       ],
       "summary_vn": "Hỏi cách nấu súp bông cải xanh và cà chua hầm",
       "label_method": "ai_review",
-      "text_vn_machine": "Làm súp bông cải xanh với cà chua hầm thế nào vậy ạ?"
+      "text_vn_machine": "Làm súp bông cải xanh với cà chua hầm thế nào vậy ạ?",
+      "text_en": "How do you make broccoli soup and stewed tomatoes?",
+      "summary_en": "Asks how to cook broccoli soup and stewed tomatoes."
     },
     {
       "id": "facebook-e8a887a03ebc5677",
@@ -783,7 +823,9 @@
       ],
       "summary_vn": "Hỏi cách chuyển server khi máy không còn bản Global",
       "label_method": "ai_review",
-      "text_vn_machine": "Nếu máy không có server Global thì chuyển server thế nào ạ? Muốn quay lại chơi"
+      "text_vn_machine": "Nếu máy không có server Global thì chuyển server thế nào ạ? Muốn quay lại chơi",
+      "text_en": "How do I transfer servers if I don't have the Global version on my phone anymore? I want to come back and play.",
+      "summary_en": "Asks how to transfer servers without the Global version installed."
     },
     {
       "id": "facebook-e5f632b1bf92484c",
@@ -823,7 +865,9 @@
       "summary_vn": "Khoe thành quả thu hoạch sáng nay",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Thành quả sáng nay"
+      "text_vn_machine": "Thành quả sáng nay",
+      "text_en": "This morning's haul.",
+      "summary_en": "Shows off this morning's harvest."
     },
     {
       "id": "facebook-50f83cd1b401ca3d",
@@ -861,7 +905,9 @@
       ],
       "summary_vn": "Hỏi chó nhiệm vụ đào có lai ghép được không",
       "label_method": "ai_review",
-      "text_vn_machine": "Chó của nhiệm vụ đào có lai/ghép được không ạ? Phòng khi có người làm rồi, mình chưa làm, nghèo kim cương không có tiền nâng cấp"
+      "text_vn_machine": "Chó của nhiệm vụ đào có lai/ghép được không ạ? Phòng khi có người làm rồi, mình chưa làm, nghèo kim cương không có tiền nâng cấp",
+      "text_en": "Can the digging quest dog be bred? In case someone has done it already, I haven't, I'm too diamond-poor to upgrade.",
+      "summary_en": "Asks if the digging quest dog can be bred."
     },
     {
       "id": "facebook-f788c675a32de011",
@@ -900,7 +946,9 @@
       "summary_vn": "Than trồng hơn chục cây mà không ra quả khổng lồ",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Trồng hơn chục cây rồi, quả to đâu?! Không cây nào ra quả khổng lồ luôn sao"
+      "text_vn_machine": "Trồng hơn chục cây rồi, quả to đâu?! Không cây nào ra quả khổng lồ luôn sao",
+      "text_en": "Planted over a dozen trees, where's the giant fruit?!! Not even one?",
+      "summary_en": "Complains no giant fruit after planting over a dozen trees."
     },
     {
       "id": "facebook-48dac8571daece62",
@@ -937,7 +985,9 @@
       "summary_vn": "Hỏi có lỡ bấm hủy thành viên và đăng xuất không",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi, hiện thế này nghĩa là sao ạ? Lúc đầu tưởng phải bắt đầu game lại nên đăng nhập vào, giờ đọc hướng dẫn thì thấy có bấm hủy thành viên + đăng xuất rồi, hay là mình bấm nhầm ạ?"
+      "text_vn_machine": "Cho hỏi, hiện thế này nghĩa là sao ạ? Lúc đầu tưởng phải bắt đầu game lại nên đăng nhập vào, giờ đọc hướng dẫn thì thấy có bấm hủy thành viên + đăng xuất rồi, hay là mình bấm nhầm ạ?",
+      "text_en": "What does this message mean? At first I thought I had to restart the game so I logged in, then while reading the guide I tapped cancel membership + log out. Did I tap the wrong thing?",
+      "summary_en": "Asks if they accidentally cancelled membership and logged out."
     },
     {
       "id": "youtube-629152cd31a7b770",
@@ -977,7 +1027,9 @@
       ],
       "summary_vn": "Video sự kiện săn kho báu bộ hồn ma và chó ma",
       "label_method": "ai_review",
-      "text_vn_machine": "Play Together: sự kiện săn kho báu (bộ đồ Hồn ma lang thang và chó ma) ✓ Đón Halloween"
+      "text_vn_machine": "Play Together: sự kiện săn kho báu (bộ đồ Hồn ma lang thang và chó ma) ✓ Đón Halloween",
+      "text_en": "Play Together: treasure hunt event (Wandering Ghost set and Ghost Dog) ✓ welcoming Halloween ✓ ghosts #playtogether",
+      "summary_en": "Video on the treasure hunt event with the ghost set and ghost dog."
     },
     {
       "id": "youtube-7ad4fa5344bccb34",
@@ -1015,7 +1067,9 @@
       ],
       "summary_vn": "Người mới hỏi cách kiếm tiền tốt nhất",
       "label_method": "ai_review",
-      "text_vn_machine": "Mình mới chơi, cách kiếm tiền nào tốt nhất ạ?"
+      "text_vn_machine": "Mình mới chơi, cách kiếm tiền nào tốt nhất ạ?",
+      "text_en": "I just started playing, what's the best way to make money?",
+      "summary_en": "New player asks the best way to make money."
     },
     {
       "id": "youtube-32d62bfa58a78fce",
@@ -1054,7 +1108,9 @@
       ],
       "summary_vn": "Hướng dẫn kiếm tiền dễ bằng câu cá và bắt côn trùng",
       "label_method": "ai_review",
-      "text_vn_machine": "Giờ có nhiều cách lắm: câu cá bán, bắt côn trùng bán, đào kho báu bán, làm nhiệm vụ. Dễ nhất là câu cá và bắt côn trùng để bán, kiếm tiền nhanh nhất."
+      "text_vn_machine": "Giờ có nhiều cách lắm: câu cá bán, bắt côn trùng bán, đào kho báu bán, làm nhiệm vụ. Dễ nhất là câu cá và bắt côn trùng để bán, kiếm tiền nhanh nhất.",
+      "text_en": "There are lots of ways now: fishing and selling, bug catching and selling, treasure digging and selling, doing quests. But if you want it easy, fishing and bug catching are the easiest ways to make money.",
+      "summary_en": "Tip: fishing and bug catching are the easiest ways to earn money."
     },
     {
       "id": "tiktok-3b0629529550d741",
@@ -1090,7 +1146,9 @@
         "comment_count": 0,
         "video_title": null
       },
-      "collected_at": "2026-10-14T10:00:00+07:00"
+      "collected_at": "2026-10-14T10:00:00+07:00",
+      "text_en": "(Video has only hashtags, no description)",
+      "summary_en": "Gameplay video with no description."
     }
   ],
   "metrics": {

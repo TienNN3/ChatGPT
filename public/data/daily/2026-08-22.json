@@ -38,7 +38,9 @@
       ],
       "summary_vn": "Gợi ý phối đồ theo trend Ai Cập",
       "label_method": "ai_review",
-      "text_vn_machine": "Trend Ai Cập, mình có thể gợi ý cho bạn"
+      "text_vn_machine": "Trend Ai Cập, mình có thể gợi ý cho bạn",
+      "text_en": "Egypt trend, I can show you how.",
+      "summary_en": "Offers tips for an Egypt-trend outfit."
     },
     {
       "id": "gplay-vng-a4dbd706166fbb5c",
@@ -70,7 +72,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Super fun to play, girl!!!, 10/10.",
+      "summary_en": "Says the game is super fun, 10/10."
     },
     {
       "id": "gplay-vng-49604badcf82f8d8",
@@ -103,7 +107,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Sooo fun.",
+      "summary_en": "Says the game is really fun."
     },
     {
       "id": "gplay-vng-3400ad74c0c90a7b",
@@ -136,7 +142,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Crazy fun.",
+      "summary_en": "Says the game is extremely fun."
     },
     {
       "id": "gplay-vng-bcb01bc9269c1037",
@@ -171,7 +179,9 @@
         "Installation And Setup",
         "Login"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "So hard to get into the game, I can't even sign up.",
+      "summary_en": "Hard to get in; can't register an account."
     }
   ],
   "metrics": {

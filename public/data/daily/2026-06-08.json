@@ -26,7 +26,9 @@
       "summary_vn": "Thích game nhưng chơi lâu chán khi không có hoạt động",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I like it a lot, but after playing a while it gets a bit boring when there are no events to do.",
+      "summary_en": "Likes the game but it gets boring without activities."
     },
     {
       "id": "android-72dc14c24fe0922d",
@@ -53,7 +55,9 @@
       "summary_vn": "Nuôi nhiều minime chỉ nhận trùng thẻ trợ lý nông nghiệp",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Taking off stars. I raised lots of Minis on purpose to collect cards, but no matter how many I raise and release, I only get duplicate Farm Assistant cards.",
+      "summary_en": "Raising many Minis only gives duplicate Farm Assistant cards."
     }
   ],
   "metrics": {

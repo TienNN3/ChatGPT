@@ -36,7 +36,9 @@
       "summary_vn": "Nhận cày thuê cấp 1–50 giá 300 baht",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Hàng đợi là miễn phí.\nTổng cấp độ 1-50 \n 300฿ \n•Yêu cầu người không vội vàng •Nhận sky mail + Facebook\nTín dụng trang hồ sơ"
+      "text_vn_machine": "Hàng đợi là miễn phí.\nTổng cấp độ 1-50 \n 300฿ \n•Yêu cầu người không vội vàng •Nhận sky mail + Facebook\nTín dụng trang hồ sơ",
+      "text_en": "Slots still open. Full boosting level 1-50: 300 baht.\n- No-regrets buyers preferred\n- Accepting green-mail + Facebook accounts\n- Check my profile for trust",
+      "summary_en": "Offers level 1-50 boosting service for 300 baht."
     },
     {
       "id": "gplay-vng-82ec6b4a37969135",
@@ -71,7 +73,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "The game is sooooo funnnn.",
+      "summary_en": "Says the game is extremely fun."
     },
     {
       "id": "gplay-vng-6ea54a5df8fc16be",
@@ -106,7 +110,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "So bad, the account transfer button doesn't work, I followed every step and it's still the same. How can there be so many bugs?",
+      "summary_en": "Account transfer fails despite following every step; many bugs."
     },
     {
       "id": "gplay-vng-2cc727bd8aab799e",
@@ -142,7 +148,9 @@
         "Social And Community",
         "Service"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "So fun, and lots of friends too.",
+      "summary_en": "Says the game is fun with many friends."
     },
     {
       "id": "gplay-vng-1d716eb3b2d8aef8",
@@ -178,7 +186,9 @@
         "Social And Community",
         "Service"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Because the game is fun, lots of friends, so fun.",
+      "summary_en": "Says the game is fun with many friends."
     },
     {
       "id": "appstore-vng-ebec5bb7340f9d20",
@@ -212,7 +222,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Crashes way too much. All the fun is gone, it crashes nonstop, nothing works.",
+      "summary_en": "The game crashes constantly."
     }
   ],
   "metrics": {

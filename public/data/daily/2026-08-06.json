@@ -26,7 +26,9 @@
       "summary_vn": "Khen game vui, gặp nhiều bạn, đã chơi nhiều năm",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Fun to play, met lots of friends, been playing for years.",
+      "summary_en": "Says the game is fun, met many friends, played for years."
     },
     {
       "id": "gplay-vng-432e43dd92ef5b73",
@@ -63,7 +65,9 @@
         "Security",
         "Customer Support"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "The game bans randomly. This app doesn't let you redeem coupons in-app, and you can't buy Play Tube like in the first app. Please make it like the first app. Players can clearly see the difference between the two apps. Hackers don't get banned, but normal players do. I've never been banned in other games. If the game has problems, fix the game, don't ban normal players.",
+      "summary_en": "Complains normal players get wrongly banned; can't redeem coupons or buy Play Tube."
     },
     {
       "id": "gplay-vng-564065659a9df03a",
@@ -96,7 +100,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": null
+      "app_version": null,
+      "text_en": "So fun.",
+      "summary_en": "Says the game is really fun."
     },
     {
       "id": "gplay-vng-3882860088997444",
@@ -128,7 +134,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "Great game, keep it up 𐔌՞ ܸ.ˬ.ܸ ՞𐦯",
+      "summary_en": "Says the game is great and hopes it keeps improving."
     },
     {
       "id": "gplay-vng-7d31c6ca19ee0777",
@@ -165,7 +173,9 @@
         "Performance And Bugs",
         "Customer Support"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "I'll be blunt, it's the same old problem: the game will die because you don't deal with bots. Bots teleport in and grab cards right in front of me. I'm running around working hard doing activities, and the bots rush in and snatch them right in front of me, even though they do nothing, then sell the cards for profit. So what motivation do hard-working real players have left? Please improve this, fix it, listen a little.",
+      "summary_en": "Teleporting bots snatch cards to sell; asks for action."
     },
     {
       "id": "gplay-vng-6fe8530dc1695728",
@@ -200,7 +210,9 @@
         "Updates And Maintenance",
         "Installation And Setup"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Can't update the game, what do I do? I tap update and nothing happens.",
+      "summary_en": "Update button doesn't work; asks how to fix it."
     },
     {
       "id": "gplay-vng-fd35880745daa59b",
@@ -239,7 +251,9 @@
         "Performance And Bugs",
         "Monetization"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "Boring game, don't play if you don't have money. Items are really expensive, everything costs money. Giant fish are hard to catch and rarely show up. Lots of hackers (?) too, teleporting around. The connection isn't stable either, getting into the game is a whole process every time. Entering codes is a pain too. Go find another game to play.",
+      "summary_en": "Items too expensive, giant fish hard to catch, many hackers, poor connection."
     },
     {
       "id": "appstore-vng-7ee1ee32549ec5b6",
@@ -274,7 +288,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Why can't I play, can't switch characters, no idea what's wrong. So bad.",
+      "summary_en": "Can't play and can't switch characters."
     }
   ],
   "metrics": {

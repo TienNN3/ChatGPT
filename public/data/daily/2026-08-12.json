@@ -35,7 +35,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Good.",
+      "summary_en": "Says the game is good."
     },
     {
       "id": "gplay-vng-bc0cdd5650d9d25a",
@@ -71,7 +73,9 @@
         "Social And Community",
         "Service"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Fun, good game, in-game friends are really sweet.",
+      "summary_en": "Says the game is fun and in-game friends are sweet."
     },
     {
       "id": "appstore-vng-09d4bf7d07a0d1c8",
@@ -105,7 +109,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "About crashes. What kind of game crashes all the time?",
+      "summary_en": "The game crashes very often."
     }
   ],
   "report": {

@@ -33,7 +33,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": null
+      "app_version": null,
+      "text_en": "So fun, totally worth playing, I even got a husband out of it.",
+      "summary_en": "Says the game is fun, joking they got a husband from it."
     },
     {
       "id": "gplay-vng-e2b4ae1cc9ef4b66",
@@ -69,7 +71,9 @@
         "Social And Community",
         "Service"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "It's a game to play with friends, fun.",
+      "summary_en": "Says the game is fun with friends."
     },
     {
       "id": "gplay-vng-f13540cded2991f2",
@@ -106,7 +110,9 @@
         "User Data And Privacy",
         "Login"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "My old account had tons of items. I saw new items so I came back and downloaded it, and my old account is gone, even though it was linked to Facebook. I really miss my old items. Please give my old account back, or just put things back the way they were, because I've topped up (?) a lot. Really bad.",
+      "summary_en": "Returning player lost old account despite Facebook link; wants it back."
     },
     {
       "id": "gplay-vng-7f9a9333003348ea",
@@ -140,7 +146,9 @@
       "store_tags": [
         "Monetization"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Even if you don't want to raise a kid you still have to pay.",
+      "summary_en": "Complains you have to pay even to not raise a child in-game."
     },
     {
       "id": "appstore-vng-37c86c2e7e9757a9",
@@ -179,7 +187,9 @@
         "Design",
         "Integration With Other Services"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Worse than before. Forced onto the VNG server, it's much worse than the old version. Entering coupon codes is really hard, you have to copy your in-game ID first before you can enter a coupon.\n\nAccounts that log in with Gmail have to tap log in again every time you play, a big waste of time.\n\nFor my other account that logs in with Facebook, if the app crashes while getting into the game, whether from weak internet or any other reason, I have to log in again when I come back. If the Facebook account is different from the one used for the game, I have to go switch Facebook accounts, super annoying and time-consuming.\n\nBack in the Haegin days I never had to do any of this.",
+      "summary_en": "After the VNG move, code entry is hard and constant re-logins are required."
     },
     {
       "id": "appstore-vng-e5e0f7439a4adda1",
@@ -216,7 +226,9 @@
         "Login",
         "Customer Support"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Give my old account backkk. Give my old account back, I topped up so much, it's such a waste. I wanted to come back and play but I can't.",
+      "summary_en": "Wants to return but lost an old account with many top-ups."
     }
   ],
   "report": {

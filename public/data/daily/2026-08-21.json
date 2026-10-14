@@ -34,7 +34,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "The game froze and I can't get in.",
+      "summary_en": "The game freezes and won't load."
     }
   ],
   "report": {

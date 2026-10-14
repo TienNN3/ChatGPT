@@ -35,7 +35,9 @@
       ],
       "summary_vn": "Bình luận quan tâm món đang rao",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi quan tâm."
+      "text_vn_machine": "Tôi quan tâm.",
+      "text_en": "Interested.",
+      "summary_en": "Comments interest in the listed item."
     },
     {
       "id": "facebook-d1188b7c9f83964b",
@@ -70,7 +72,9 @@
       ],
       "summary_vn": "Nhờ người bán nhắn tin",
       "label_method": "ai_review",
-      "text_vn_machine": "Hãy nói chuyện với tôi."
+      "text_vn_machine": "Hãy nói chuyện với tôi.",
+      "text_en": "Please inbox me.",
+      "summary_en": "Asks the seller to message them."
     },
     {
       "id": "facebook-e67f457ac92f1104",
@@ -105,7 +109,9 @@
       ],
       "summary_vn": "Quan tâm món rao bán, nhờ nhắn qua Facebook",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi quan tâm. Hãy nhắn tin cho tôi trên Facebook."
+      "text_vn_machine": "Tôi quan tâm. Hãy nhắn tin cho tôi trên Facebook.",
+      "text_en": "I'm interested, message me on Facebook.",
+      "summary_en": "Interested in the listing, asks to be messaged on Facebook."
     },
     {
       "id": "facebook-bb1c5f645407e1f3",
@@ -140,7 +146,9 @@
       ],
       "summary_vn": "Hỏi người nhận dịch vụ còn trống lịch không",
       "label_method": "ai_review",
-      "text_vn_machine": "Có hàng đợi miễn phí không?"
+      "text_vn_machine": "Có hàng đợi miễn phí không?",
+      "text_en": "Are you still taking orders?",
+      "summary_en": "Asks if the service provider is still taking orders."
     },
     {
       "id": "facebook-915e7e1a45084ab7",
@@ -178,7 +186,9 @@
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, xu nông trại, đổi thời tiết, thẻ 1 baht/sao",
       "label_method": "ai_review",
-      "text_vn_machine": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé"
+      "text_vn_machine": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé",
+      "text_en": "All kinds of fruit, all effects\n[Selling] Ginseng (all effects)\n[Selling] Garden money, farm coins\n[Selling] Seeds (diamond-only ones)\n[Selling] Weather change\n[Selling] Cards, 1 baht/star\n[Selling] Gift sending via message\n[Taking orders] Tower jump, 1 baht/trophy\nCheck my profile for reviews.",
+      "summary_en": "Selling fruit, ginseng, farm coins, weather changes, and cards at 1 baht/star."
     },
     {
       "id": "facebook-77e8e88554dd053b",
@@ -217,7 +227,9 @@
       ],
       "summary_vn": "Nói rồng và troll chỉ ở lại tới bản cập nhật ngày mai",
       "label_method": "ai_review",
-      "text_vn_machine": "Đến chào tạm biệt trước khi đi à hahaha. Rồng và Troll sẽ ở lại đến bản cập nhật ngày mai nhé, sau hôm nay chắc bé không còn nữa"
+      "text_vn_machine": "Đến chào tạm biệt trước khi đi à hahaha. Rồng và Troll sẽ ở lại đến bản cập nhật ngày mai nhé, sau hôm nay chắc bé không còn nữa",
+      "text_en": "Came to say goodbye before leaving haha. The dragon and troll stay until tomorrow's update, so after today they'll probably be gone.",
+      "summary_en": "Says the dragon and troll stay only until tomorrow's update."
     },
     {
       "id": "facebook-edb8408fe3e54a7e",
@@ -256,7 +268,9 @@
       "summary_vn": "Xem trước vật phẩm sự kiện tới, mong điệu nhảy mới",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Ghé xem trước vật phẩm sự kiện tiếp theo. Đang chờ điệu nhảy, ra được chưa haha"
+      "text_vn_machine": "Ghé xem trước vật phẩm sự kiện tiếp theo. Đang chờ điệu nhảy, ra được chưa haha",
+      "text_en": "Here's a preview of the next event's items. Waiting for the dance, can you release it already haha.",
+      "summary_en": "Previews next event items and hopes for a new dance."
     },
     {
       "id": "facebook-94fd22cd2791942d",
@@ -296,7 +310,9 @@
       ],
       "summary_vn": "Mời vào nhóm lập ra để trao đổi thẻ",
       "label_method": "ai_review",
-      "text_vn_machine": "Có ai muốn vào không, mình lập ra để trao đổi thẻ"
+      "text_vn_machine": "Có ai muốn vào không, mình lập ra để trao đổi thẻ",
+      "text_en": "Anyone want to join? I made it for trading cards.",
+      "summary_en": "Invites people to a group made for card trading."
     },
     {
       "id": "facebook-c66138ab4fc3b48d",
@@ -333,7 +349,9 @@
       ],
       "summary_vn": "Mới quay lại chơi, tìm bạn chơi cùng",
       "label_method": "ai_review",
-      "text_vn_machine": "Mới quay lại chơi, tìm bạn chơi cùng"
+      "text_vn_machine": "Mới quay lại chơi, tìm bạn chơi cùng",
+      "text_en": "Just came back, looking for friends to play with.",
+      "summary_en": "Returning player looking for friends to play with."
     },
     {
       "id": "facebook-9d4824066fb97f84",
@@ -372,7 +390,9 @@
       ],
       "summary_vn": "Hỏi có nên giữ căn nhà, có câu cá bắt bọ trong đó được không",
       "label_method": "ai_review",
-      "text_vn_machine": "Có nên giữ căn nhà này không? Câu cá, bắt côn trùng như trong sự kiện được không? *Đã có nhà Thế Giới Trong Mơ rồi"
+      "text_vn_machine": "Có nên giữ căn nhà này không? Câu cá, bắt côn trùng như trong sự kiện được không? *Đã có nhà Thế Giới Trong Mơ rồi",
+      "text_en": "Should I keep this house? Can you fish and catch bugs in it like in the event? *I already have the Dream World House.",
+      "summary_en": "Asks whether to keep the house and if fishing and bug catching work in it."
     },
     {
       "id": "facebook-11f36498e339f5cd",
@@ -410,7 +430,9 @@
       ],
       "summary_vn": "Hỏi chai trắng có phải muối, mua rồi không thấy muối đâu",
       "label_method": "ai_review",
-      "text_vn_machine": "Cái chai trắng trắng có phải là muối không? Sao bấm mua rồi mà không thấy muối đâu, đang thiếu muối trầm trọng"
+      "text_vn_machine": "Cái chai trắng trắng có phải là muối không? Sao bấm mua rồi mà không thấy muối đâu, đang thiếu muối trầm trọng",
+      "text_en": "Are the white bottles salt? I bought them but don't see any salt, I'm seriously short on salt.",
+      "summary_en": "Asks if the white bottles are salt; bought them but got no salt."
     },
     {
       "id": "facebook-82bf79417dc82f1a",
@@ -447,7 +469,9 @@
       ],
       "summary_vn": "Hỏi hiện thông báo như ảnh thì phải làm sao",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi hiện như thế này thì phải làm sao?"
+      "text_vn_machine": "Cho hỏi hiện như thế này thì phải làm sao?",
+      "text_en": "Can I ask, what do I do when it shows this?",
+      "summary_en": "Asks what to do about the message in the screenshot."
     },
     {
       "id": "gplay-vng-6b759393bd1e7cca",
@@ -482,7 +506,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Best in the universe.",
+      "summary_en": "Calls it the best game in the universe."
     },
     {
       "id": "gplay-vng-c398d000aca9f563",
@@ -515,7 +541,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "It's good.",
+      "summary_en": "Says the game is good."
     }
   ],
   "metrics": {

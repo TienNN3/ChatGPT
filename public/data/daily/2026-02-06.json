@@ -27,7 +27,9 @@
       "summary_vn": "Cập nhật 5/2/2026 vào game màn hình đen, không chơi được",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Latest update on 5/2/2026, black screen when I enter the game, can't play, tried quitting and coming back and it's still the same. I'll come back and raise my rating when it's fixed",
+      "summary_en": "Black screen after the 5/2/2026 update, can't play."
     }
   ],
   "metrics": {

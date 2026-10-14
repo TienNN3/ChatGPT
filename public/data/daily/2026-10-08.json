@@ -39,7 +39,9 @@
       "summary_vn": "Đăng tặng code mừng tháng Halloween",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Tặng code mừng tháng Halloween... Xem thêm"
+      "text_vn_machine": "Tặng code mừng tháng Halloween... Xem thêm",
+      "text_en": "Giving out codes to celebrate Halloween month… See more",
+      "summary_en": "Posts gift codes for Halloween month."
     },
     {
       "id": "facebook-ca5d24d1c04aec21",
@@ -74,7 +76,9 @@
         "halloween"
       ],
       "summary_vn": "Chia sẻ code quà tặng PT26HALLOWEEN",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "PT26HALLOWEEN",
+      "summary_en": "Shares gift code PT26HALLOWEEN."
     },
     {
       "id": "facebook-59af84cf97ced023",
@@ -109,7 +113,9 @@
       ],
       "summary_vn": "Giải thích việc không có quảng cáo 30 ngày là bình thường",
       "label_method": "ai_review",
-      "text_vn_machine": "Điều đó là bình thường, không có quảng cáo trong 30 ngày."
+      "text_vn_machine": "Điều đó là bình thường, không có quảng cáo trong 30 ngày.",
+      "text_en": "It's normal, there's no 30-day ad",
+      "summary_en": "Explains having no 30-day ad is normal."
     },
     {
       "id": "facebook-b6e2d1b7abd3ea4b",
@@ -147,7 +153,9 @@
       "summary_vn": "Rao dịch vụ đổi thời tiết 10 baht, bán quà và hạt giống",
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
-      "text_vn_machine": "Dịch vụ báo thời tiết, quà tặng và hạt giống Chơi cùng nhau \nMọi điều kiện thời tiết 10 baht \nCác loại hạt phổ biến có giá như trong hình\nHạt giống sử dụng vàng không thể được tặng. \nCó thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. \nThêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung."
+      "text_vn_machine": "Dịch vụ báo thời tiết, quà tặng và hạt giống Chơi cùng nhau \nMọi điều kiện thời tiết 10 baht \nCác loại hạt phổ biến có giá như trong hình\nHạt giống sử dụng vàng không thể được tặng. \nCó thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. \nThêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
+      "text_en": "Play Together weather change, gift and seed service\n- Any weather is 10 baht\n- Seed prices as in the picture, popular types\n- Seeds bought with gold can't be gifted\n- Prices may change slightly, follow the shop's latest post\nAdd me as a friend and message right away, e-wallet and bank transfer accepted, stock restocked constantly, DM to ask about packages",
+      "summary_en": "Advertises a 10-baht weather change service and sells gifts and seeds."
     },
     {
       "id": "facebook-3c936d5518f207e1",
@@ -186,7 +194,9 @@
       ],
       "summary_vn": "Đăng bài tham gia hoạt động sự kiện",
       "label_method": "ai_review",
-      "text_vn_machine": "ร่วมกิจกรรมค่า \n[đã được biên tập lại]"
+      "text_vn_machine": "ร่วมกิจกรรมค่า \n[đã được biên tập lại]",
+      "text_en": "Joining the event\n[redacted]",
+      "summary_en": "Posts an entry for the event."
     },
     {
       "id": "facebook-1b235c9aa851a3b5",
@@ -224,7 +234,9 @@
       "summary_vn": "Chia sẻ nguyên nhân không chuyển được từ Global sang VNG",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Không thể chuyển từ Global sang VNG? Có thể do vấn đề này gây ra!… Xem thêm"
+      "text_vn_machine": "Không thể chuyển từ Global sang VNG? Có thể do vấn đề này gây ra!… Xem thêm",
+      "text_en": "Can't transfer from Global to VNG? It might be this issue!… See more",
+      "summary_en": "Shares a possible reason why Global to VNG transfer fails."
     },
     {
       "id": "facebook-74c189be2c4439bb",
@@ -261,7 +273,9 @@
         "ảnh"
       ],
       "summary_vn": "Đăng bài ảnh không có nội dung chữ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook didn't provide any text to translate.",
+      "summary_en": "Posts an image without text."
     },
     {
       "id": "facebook-703f0749ec9ed485",
@@ -297,7 +311,9 @@
       ],
       "summary_vn": "Giải thích sầu riêng và mãng cầu là cây khác nhau",
       "label_method": "ai_review",
-      "text_vn_machine": "Sầu riêng và mãng cầu là những loại cây khác nhau. Hầu hết sầu riêng sẽ đến từ những gói rau ngẫu nhiên. Mãng cầu xiêm... Xem thêm"
+      "text_vn_machine": "Sầu riêng và mãng cầu là những loại cây khác nhau. Hầu hết sầu riêng sẽ đến từ những gói rau ngẫu nhiên. Mãng cầu xiêm... Xem thêm",
+      "text_en": "Durian and soursop are two different trees, durian usually comes from the vegetable bag gacha, while soursop… See more",
+      "summary_en": "Explains durian and soursop are different trees."
     },
     {
       "id": "facebook-ff83dc3d67547a11",
@@ -334,7 +350,9 @@
       ],
       "summary_vn": "Rao dịch vụ đổi thời tiết, quà tặng và hạt giống",
       "label_method": "ai_review",
-      "text_vn_machine": "Dịch vụ báo thời tiết, quà tặng và hạt giống Chơi cùng nhau \n… Xem thêm"
+      "text_vn_machine": "Dịch vụ báo thời tiết, quà tặng và hạt giống Chơi cùng nhau \n… Xem thêm",
+      "text_en": "Play Together weather change, gift and seed service\n… See more",
+      "summary_en": "Advertises weather change, gift and seed service."
     },
     {
       "id": "facebook-fe7727f664649e90",
@@ -369,7 +387,9 @@
       ],
       "summary_vn": "Trả giá 1500 cho món hàng đang rao",
       "label_method": "ai_review",
-      "text_vn_machine": "Nếu quan tâm thì cho tôi 1500."
+      "text_vn_machine": "Nếu quan tâm thì cho tôi 1500.",
+      "text_en": "Interested, I'll pay 1500",
+      "summary_en": "Offers 1500 for the listed item."
     },
     {
       "id": "facebook-5c8a3c41813be3a4",
@@ -404,7 +424,9 @@
       ],
       "summary_vn": "Đăng ảnh có chữ kèm emoji vui",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook didn't provide any text to translate.",
+      "summary_en": "Posts an image with text and a fun emoji."
     },
     {
       "id": "facebook-d5654620575d8d67",
@@ -439,7 +461,9 @@
         "nông trại"
       ],
       "summary_vn": "Đăng ảnh các loại trái cây",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook didn't provide any text to translate.",
+      "summary_en": "Posts an image of various fruits."
     },
     {
       "id": "facebook-b691911bdb0f2809",
@@ -478,7 +502,9 @@
       "summary_vn": "Đăng nhập bằng Steam liên kết cũ lại ra ID mới",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Giờ Play Together không đăng nhập bằng Steam được nữa hả? Trước đây mình đã liên kết với Steam, nhưng giờ vào bằng Steam thì lại thành ID mới luôn."
+      "text_vn_machine": "Giờ Play Together không đăng nhập bằng Steam được nữa hả? Trước đây mình đã liên kết với Steam, nhưng giờ vào bằng Steam thì lại thành ID mới luôn.",
+      "text_en": "Can't you log in to Play Together with Steam anymore? I linked Steam before, but now logging in with Steam suddenly gives me a new account.",
+      "summary_en": "Logging in with previously linked Steam gives a new ID."
     },
     {
       "id": "facebook-095c148c40ea09a0",
@@ -519,7 +545,9 @@
       ],
       "summary_vn": "Chia sẻ thông tin sự kiện Sweet Halloween: thú cưng dơi, cá kẹo, hạt giống mới",
       "label_method": "ai_review",
-      "text_vn_machine": "SỰ KIỆN MỚI SWEET HALLOWEEN\n- Thú cưng con dơi mới\n- 20 loại cá bánh kẹo\n- Hạt giống mới\n- NPC & các vật phẩm nội thất\nCr. Zeross Hunters"
+      "text_vn_machine": "SỰ KIỆN MỚI SWEET HALLOWEEN\n- Thú cưng con dơi mới\n- 20 loại cá bánh kẹo\n- Hạt giống mới\n- NPC & các vật phẩm nội thất\nCr. Zeross Hunters",
+      "text_en": "NEW EVENT SWEET HALLOWEEN\n- New bat pet\n- 20 types of candy fish\n- New seeds\n- NPC and lots of furniture items\nSource: Zeross Hunters",
+      "summary_en": "Shares Sweet Halloween event info: bat pet, candy fish, new seeds."
     },
     {
       "id": "facebook-90818192383e0fe9",
@@ -559,7 +587,9 @@
       "summary_vn": "Hào hứng vì bản cập nhật tới chắc chắn có câu cá",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Xác nhận rồi, bản cập nhật tới chắc chắn là câu cá haha"
+      "text_vn_machine": "Xác nhận rồi, bản cập nhật tới chắc chắn là câu cá haha",
+      "text_en": "Confirmed, the next update definitely has fishing haha",
+      "summary_en": "Excited the next update definitely includes fishing."
     },
     {
       "id": "facebook-70ff473919859aa9",
@@ -595,7 +625,9 @@
       ],
       "summary_vn": "Mong muốn có thêm cá khổng lồ mới",
       "label_method": "ai_review",
-      "text_vn_machine": "Muốn có cá khổng lồ mới quá"
+      "text_vn_machine": "Muốn có cá khổng lồ mới quá",
+      "text_en": "Really want new giant fish",
+      "summary_en": "Wants new giant fish added."
     },
     {
       "id": "facebook-21eaa079ba3f207c",
@@ -633,7 +665,9 @@
       ],
       "summary_vn": "Hỏi dưa hấu và bí ngô trồng to nhất được bao nhiêu kg",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho mình hỏi dưa hấu với bí ngô trồng to nhất được bao nhiêu kg ạ?"
+      "text_vn_machine": "Cho mình hỏi dưa hấu với bí ngô trồng to nhất được bao nhiêu kg ạ?",
+      "text_en": "How many kg can watermelon and pumpkin grow to at most?",
+      "summary_en": "Asks the max kg for watermelon and pumpkin."
     },
     {
       "id": "facebook-fef385918be102dc",
@@ -672,7 +706,9 @@
       ],
       "summary_vn": "Chia sẻ mã coupon mới PT26HALLOWEEN",
       "label_method": "ai_review",
-      "text_vn_machine": "Mã coupon mới PT26HALLOWEEN"
+      "text_vn_machine": "Mã coupon mới PT26HALLOWEEN",
+      "text_en": "New code: PT26HALLOWEEN",
+      "summary_en": "Shares new coupon code PT26HALLOWEEN."
     },
     {
       "id": "facebook-7a19ac5f4258d2e0",
@@ -707,7 +743,9 @@
       ],
       "summary_vn": "Bình luận mã coupon PT26HALLOWEEN",
       "label_method": "ai_review",
-      "text_vn_machine": "PT26HALLOWEEN (mã coupon)"
+      "text_vn_machine": "PT26HALLOWEEN (mã coupon)",
+      "text_en": "PT26HALLOWEEN",
+      "summary_en": "Comments coupon code PT26HALLOWEEN."
     },
     {
       "id": "facebook-0a2f66fd8b84c462",
@@ -747,7 +785,9 @@
       "summary_vn": "Quay gacha cần câu mỏ neo, cần câu kem đến nản, hỏi khi nào bán lại",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Muốn có cần câu gacha mà không phải tự quay. Ủa, bao lâu nữa họ mới bán lại vậy? Mấy cần câu mỏ neo, cần câu kem ấy, bên này quay đến nản luôn rồi."
+      "text_vn_machine": "Muốn có cần câu gacha mà không phải tự quay. Ủa, bao lâu nữa họ mới bán lại vậy? Mấy cần câu mỏ neo, cần câu kem ấy, bên này quay đến nản luôn rồi.",
+      "text_en": "I want the gacha fishing rods without having to draw myself. Uh, how long until they sell them again, everyone? The anchor rod and the ice cream rod, I've drawn until I gave up.",
+      "summary_en": "Gave up drawing for the anchor and ice cream rods, asks when they'll be sold again."
     },
     {
       "id": "facebook-353d6c68620da8b2",
@@ -782,7 +822,9 @@
       ],
       "summary_vn": "Bình luận ngắn gợi ý",
       "label_method": "ai_review",
-      "text_vn_machine": "Gợi ý / Đề xuất"
+      "text_vn_machine": "Gợi ý / Đề xuất",
+      "text_en": "Suggestion",
+      "summary_en": "Short comment: suggestion."
     },
     {
       "id": "facebook-7514214cd85f098f",
@@ -822,7 +864,9 @@
       "summary_vn": "Hỏi có ai đạt hạt dẻ 5.39kg không vì sợ mất cúp bạc",
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
-      "text_vn_machine": "Bảng thi hạt dẻ của ai có người được 5.39 kg không ạ? Hiện cúp bạc bảng mình là 5.38, sợ bị tụt mất, muốn có cúp bạc quá haha\n(lặp lại nội dung)"
+      "text_vn_machine": "Bảng thi hạt dẻ của ai có người được 5.39 kg không ạ? Hiện cúp bạc bảng mình là 5.38, sợ bị tụt mất, muốn có cúp bạc quá haha\n(lặp lại nội dung)",
+      "text_en": "Does anyone's chestnut contest board have someone at 5.39 kg? Right now the silver cup on my board is 5.38, I'm scared of dropping, I want the silver cup haha",
+      "summary_en": "Asks if anyone hit 5.39kg chestnut, afraid of losing the silver cup."
     },
     {
       "id": "facebook-29646c3d8bc8847b",
@@ -858,7 +902,9 @@
       ],
       "summary_vn": "Trả lời hạt dẻ lớn nhất là 5.40kg",
       "label_method": "ai_review",
-      "text_vn_machine": "5.40 là lớn nhất nha"
+      "text_vn_machine": "5.40 là lớn nhất nha",
+      "text_en": "5.40 is the biggest",
+      "summary_en": "Answers the biggest chestnut is 5.40kg."
     },
     {
       "id": "facebook-973df3a22b84076f",
@@ -896,7 +942,9 @@
       "summary_vn": "Hướng dẫn kiểm tra khi không chuyển được ID sang VNG",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Ai gặp vấn đề không chuyển ID được thì thử kiểm tra cái này nhé."
+      "text_vn_machine": "Ai gặp vấn đề không chuyển ID được thì thử kiểm tra cái này nhé.",
+      "text_en": "If you're getting the error where you can't transfer your account, try checking this",
+      "summary_en": "Guide to check when account transfer to VNG fails."
     },
     {
       "id": "facebook-3b530c3b046fce74",
@@ -931,7 +979,9 @@
       ],
       "summary_vn": "Giải thích lỗi do có hai server",
       "label_method": "ai_review",
-      "text_vn_machine": "Vì có 2 server haha"
+      "text_vn_machine": "Vì có 2 server haha",
+      "text_en": "It's because there are 2 servers haha",
+      "summary_en": "Explains the issue is due to two servers."
     },
     {
       "id": "facebook-6f91384c08a92b1b",
@@ -967,7 +1017,9 @@
       ],
       "summary_vn": "Không đăng nhập được từ hôm qua, xoá tải lại vẫn lỗi",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho mình hỏi có ai bị như này không? Không đăng nhập được từ chiều tối hôm qua, đã xóa rồi tải lại mà vẫn không được."
+      "text_vn_machine": "Cho mình hỏi có ai bị như này không? Không đăng nhập được từ chiều tối hôm qua, đã xóa rồi tải lại mà vẫn không được.",
+      "text_en": "Has anyone had this happen? I haven't been able to log in since yesterday evening, deleted and reinstalled the game and it still doesn't work.",
+      "summary_en": "Can't log in since yesterday, reinstalling didn't help."
     },
     {
       "id": "facebook-b3ff61fcea11785f",
@@ -1003,7 +1055,9 @@
       "summary_vn": "Hỏi thăm đã khắc phục được lỗi chưa",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Xin chào, bây giờ đã khắc phục được chưa ạ?"
+      "text_vn_machine": "Xin chào, bây giờ đã khắc phục được chưa ạ?",
+      "text_en": "Hi, has the issue been fixed now?",
+      "summary_en": "Asks if the issue has been fixed."
     },
     {
       "id": "facebook-491c4fe174ed1183",
@@ -1044,7 +1098,9 @@
       ],
       "summary_vn": "Khen bé hổ dễ thương, muốn có lại sự kiện bắt ma",
       "label_method": "ai_review",
-      "text_vn_machine": "Vừa thấy bé hổ của ai đó, dễ thương ghê. Muốn có lại sự kiện bắt ma quá haha, vui lắm."
+      "text_vn_machine": "Vừa thấy bé hổ của ai đó, dễ thương ghê. Muốn có lại sự kiện bắt ma quá haha, vui lắm.",
+      "text_en": "Just saw someone's little tiger, no idea whose but it's so cute. I really want the ghost-catching event back haha, it was so fun",
+      "summary_en": "Praises a cute tiger, wants the ghost-catching event back."
     },
     {
       "id": "facebook-ef6fb5c5b9096433",
@@ -1082,7 +1138,9 @@
       "summary_vn": "Chóng mặt với mê cung, đề nghị thêm bản đồ và bớt hù doạ",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Chóng mặt với mê cung, nếu có nữa thì xin cái bản đồ để không lạc đường, và xin ma đừng hù dọa (jump scare) haha"
+      "text_vn_machine": "Chóng mặt với mê cung, nếu có nữa thì xin cái bản đồ để không lạc đường, và xin ma đừng hù dọa (jump scare) haha",
+      "text_en": "The maze made me so dizzy, if it comes back please give us a map so we don't get lost, and please no ghosts jumping out to scare us haha",
+      "summary_en": "Dizzy from the maze, asks for a map and fewer jump scares."
     },
     {
       "id": "facebook-f58bddccb507557b",
@@ -1119,7 +1177,9 @@
       "summary_vn": "Hồi hộp chờ Halloween sắp tới",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Hồi hộp chờ, Halloween sắp tới rồi"
+      "text_vn_machine": "Hồi hộp chờ, Halloween sắp tới rồi",
+      "text_en": "Can't wait, Halloween is almost here",
+      "summary_en": "Eagerly waiting for Halloween."
     },
     {
       "id": "facebook-da62f9ea9c76339f",
@@ -1157,7 +1217,9 @@
       "summary_vn": "Nhập mã chuyển game bị báo lỗi, hỏi ai bị giống",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Sao nhập mã chuyển game lại hiện như thế này ạ? Có ai bị không TT"
+      "text_vn_machine": "Sao nhập mã chuyển game lại hiện như thế này ạ? Có ai bị không TT",
+      "text_en": "Why does entering the game transfer code show this, everyone? Anyone else get the same? TT",
+      "summary_en": "Entering the transfer code shows an error, asks if others have it."
     },
     {
       "id": "facebook-991192afd0292f46",
@@ -1193,7 +1255,9 @@
       "summary_vn": "Hỏi thăm đã khắc phục được lỗi chưa",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Xin chào, bây giờ đã khắc phục được chưa ạ?"
+      "text_vn_machine": "Xin chào, bây giờ đã khắc phục được chưa ạ?",
+      "text_en": "Hi, has the issue been fixed now?",
+      "summary_en": "Asks if the issue has been fixed."
     },
     {
       "id": "facebook-c6dcd9b404b177c5",
@@ -1232,7 +1296,9 @@
       ],
       "summary_vn": "Người chơi mới không vào được game sáng nay",
       "label_method": "ai_review",
-      "text_vn_machine": "Sáng nay sao không vào game được ạ? (Mình là người chơi mới TT)"
+      "text_vn_machine": "Sáng nay sao không vào game được ạ? (Mình là người chơi mới TT)",
+      "text_en": "Why can't I get into the game this morning? (I'm a new player TT)",
+      "summary_en": "New player can't get into the game this morning."
     },
     {
       "id": "facebook-42a1c2ef801f3f0c",
@@ -1267,7 +1333,9 @@
       ],
       "summary_vn": "Hướng dẫn xoá ứng dụng auto click để vào được game",
       "label_method": "ai_review",
-      "text_vn_machine": "Nếu có auto click trong máy thì phải xóa đi ạ"
+      "text_vn_machine": "Nếu có auto click trong máy thì phải xóa đi ạ",
+      "text_en": "If you have an auto-click app on your phone, you have to delete it.",
+      "summary_en": "Advises deleting auto-click apps to get into the game."
     },
     {
       "id": "facebook-65b355a557fbcce8",
@@ -1303,7 +1371,9 @@
       "summary_vn": "Khen người khác quá may mắn",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Hên quá trời luôn"
+      "text_vn_machine": "Hên quá trời luôn",
+      "text_en": "Truly heaven's favorite child",
+      "summary_en": "Says someone is extremely lucky."
     },
     {
       "id": "facebook-f59c7e1ea41a7522",
@@ -1339,7 +1409,9 @@
       ],
       "summary_vn": "Hướng dẫn làm đầy thanh Mini Me để nhận đồ xịn mỗi ngày",
       "label_method": "ai_review",
-      "text_vn_machine": "Thật ra nếu làm thanh Mini Me đầy hết các ô trước khi level đầy 5 thì ngày nào cũng nhận được đồ xịn đó (khuyên nên tìm bạn bè bấm tim cho Mini Me liên tục cho đến khi thanh đầy…"
+      "text_vn_machine": "Thật ra nếu làm thanh Mini Me đầy hết các ô trước khi level đầy 5 thì ngày nào cũng nhận được đồ xịn đó (khuyên nên tìm bạn bè bấm tim cho Mini Me liên tục cho đến khi thanh đầy…",
+      "text_en": "Actually, if you fill all the slots of the Mini Me bar before level 5 is full, you get good items every day (I recommend finding friends to keep giving your Mini Me hearts until the bar is full…",
+      "summary_en": "Explains filling the Mini Me bar to get good items daily."
     },
     {
       "id": "facebook-0b203d4a35e88244",
@@ -1376,7 +1448,9 @@
       "summary_vn": "Than quay ra toàn đồ và quần áo phụ kiện",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Bên này ra toàn đồ với quần áo phụ kiện thôi haha"
+      "text_vn_machine": "Bên này ra toàn đồ với quần áo phụ kiện thôi haha",
+      "text_en": "I only got random junk and clothes and accessories haha",
+      "summary_en": "Complains they only pulled junk and clothing accessories."
     },
     {
       "id": "facebook-39aa620fe9d58e93",
@@ -1413,7 +1487,9 @@
       "summary_vn": "Than kim cương gần hết",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Kim cương gần hết rồi haha"
+      "text_vn_machine": "Kim cương gần hết rồi haha",
+      "text_en": "Almost out of diamonds haha",
+      "summary_en": "Says they're almost out of diamonds."
     },
     {
       "id": "facebook-bda5235c6b57fc33",
@@ -1448,7 +1524,9 @@
       ],
       "summary_vn": "Cho rằng ra dễ thì không cần quay tiếp",
       "label_method": "ai_review",
-      "text_vn_machine": "Vậy không tốt sao, ra dễ mà, nếu không ra thì cũng không cần quay tiếp nữa."
+      "text_vn_machine": "Vậy không tốt sao, ra dễ mà, nếu không ra thì cũng không cần quay tiếp nữa.",
+      "text_en": "Isn't that good? Easy to get, and if you don't get it you just stop drawing",
+      "summary_en": "Thinks if it's easy to get, there's no need to keep drawing."
     },
     {
       "id": "facebook-304565e183b8e84e",
@@ -1482,7 +1560,9 @@
         "gacha"
       ],
       "summary_vn": "Phản bác rằng chỉ dễ với một số người",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Easy for some people only",
+      "summary_en": "Counters that it's only easy for some people."
     },
     {
       "id": "facebook-20da46b05cfdb885",
@@ -1518,7 +1598,9 @@
       ],
       "summary_vn": "Cho rằng bản cập nhật có điều chỉnh giá nhẹ, không chắc",
       "label_method": "ai_review",
-      "text_vn_machine": "Mình không theo dõi mọi bản cập nhật, nhưng nghĩ chắc có điều chỉnh giá một chút. (Cái này không chắc nha)"
+      "text_vn_machine": "Mình không theo dõi mọi bản cập nhật, nhưng nghĩ chắc có điều chỉnh giá một chút. (Cái này không chắc nha)",
+      "text_en": "I don't follow every update, but I think there was a slight price adjustment (not sure about this)",
+      "summary_en": "Thinks the update slightly adjusted prices, not sure."
     },
     {
       "id": "facebook-8f4d4fc20291c567",
@@ -1554,7 +1636,9 @@
       ],
       "summary_vn": "Hỏi so sánh giá để biết cây trồng nào bị giảm giá",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho mình xem so sánh giá được không ạ? Vì mình trồng rau từ khi có bản cập nhật thấy giá vẫn bình thường, nên muốn biết cây nào bị giảm. Củ dền đỏ mình bán 5 trạng thái…"
+      "text_vn_machine": "Cho mình xem so sánh giá được không ạ? Vì mình trồng rau từ khi có bản cập nhật thấy giá vẫn bình thường, nên muốn biết cây nào bị giảm. Củ dền đỏ mình bán 5 trạng thái…",
+      "text_en": "Can I see the price comparison? I've been growing vegetables since the update and prices are still normal, so I want to know which crops dropped in price. I sell the 5-effect red bread (?)…",
+      "summary_en": "Asks for a price comparison to see which crops dropped in price."
     },
     {
       "id": "facebook-1d1cf78397f67cf9",
@@ -1589,7 +1673,9 @@
       ],
       "summary_vn": "Bình luận cười haha",
       "label_method": "ai_review",
-      "text_vn_machine": "Haha"
+      "text_vn_machine": "Haha",
+      "text_en": "Hahaha",
+      "summary_en": "Laughing comment."
     },
     {
       "id": "facebook-0c3e841ad59eb0cb",
@@ -1625,7 +1711,9 @@
       "summary_vn": "Hỏi thăm đã khắc phục được lỗi chưa",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Xin chào, bây giờ đã khắc phục được chưa ạ?"
+      "text_vn_machine": "Xin chào, bây giờ đã khắc phục được chưa ạ?",
+      "text_en": "Hi, has the issue been fixed now?",
+      "summary_en": "Asks if the issue has been fixed."
     },
     {
       "id": "facebook-f7dc06327b3dbef0",
@@ -1660,7 +1748,9 @@
       ],
       "summary_vn": "Gợi ý liên kết email để nhận link đăng nhập qua Steam",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn có liên kết email không? Nếu nhớ không nhầm thì khi đăng nhập bằng Steam, hình như nó sẽ gửi link qua email."
+      "text_vn_machine": "Bạn có liên kết email không? Nếu nhớ không nhầm thì khi đăng nhập bằng Steam, hình như nó sẽ gửi link qua email.",
+      "text_en": "Did you link an email? If I remember right, when you log in with Steam it sends a link to your email",
+      "summary_en": "Suggests linking email to get the Steam login link."
     },
     {
       "id": "gplay-vng-33964da3d0dffa49",
@@ -1697,7 +1787,9 @@
         "Updates And Maintenance",
         "Cross Platform Consistency"
       ],
-      "app_version": "2.32.0"
+      "app_version": "2.32.0",
+      "text_en": "This version is exactly like the old one, but sadly you can't bring your old data over to the new version. There is a way, but personally I don't keep games installed for long, and when I wanted to come back the old version wouldn't open anymore, it's gone. I want to play the old version but it's not on my phone, and I can't download it because my current phone doesn't support it. Too bad it can't be linked to the new version. But everything is still as fun as before, the only problem is the new version came out and the old one is gone.",
+      "summary_en": "Game is still fun but old-version data can't be moved to the VNG version."
     },
     {
       "id": "gplay-vng-57c06bd3303d4a4f",
@@ -1730,7 +1822,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Top-tier game, the best.",
+      "summary_en": "Praises the game as excellent."
     }
   ],
   "metrics": {

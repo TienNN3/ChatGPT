@@ -36,7 +36,9 @@
       ],
       "summary_vn": "Hỏi người bán có nhận trả góp không",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn có chấp nhận trả góp không?"
+      "text_vn_machine": "Bạn có chấp nhận trả góp không?",
+      "text_en": "Do you accept installments?",
+      "summary_en": "Asks the seller if they accept installment payments."
     },
     {
       "id": "facebook-b77d2ddbc1700c93",
@@ -73,7 +75,9 @@
       "summary_vn": "Khen cây thông gió đẹp",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Gió rất tốt."
+      "text_vn_machine": "Gió rất tốt.",
+      "text_en": "The wind-effect pine tree looks so pretty.",
+      "summary_en": "Says the wind pine tree looks pretty."
     },
     {
       "id": "facebook-4cccc736db73e973",
@@ -109,7 +113,9 @@
         "chia sẻ ảnh"
       ],
       "summary_vn": "Đăng ảnh kèm biểu tượng cảm xúc nhăn mặt",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook provided no text to translate.",
+      "summary_en": "Posted an image with a grimacing emoji."
     },
     {
       "id": "facebook-cbaa0ebd3e81c4f7",
@@ -147,7 +153,9 @@
       ],
       "summary_vn": "Bán tài khoản liên kết email nhiều trang phục, giá khoảng 500 baht",
       "label_method": "ai_review",
-      "text_vn_machine": "Bán mã link email (Đăng nhập server mới hoàn tất) Có rất nhiều trang phục, áo, quần, mặt, tóc. Hầu hết trong số họ đến từ việc thêm một đường chuyền. Nếu quan tâm, bạn có thể hỏi thêm thông tin. Giá trong đầu là 500, nhưng có thể giảm thêm một chút."
+      "text_vn_machine": "Bán mã link email (Đăng nhập server mới hoàn tất) Có rất nhiều trang phục, áo, quần, mặt, tóc. Hầu hết trong số họ đến từ việc thêm một đường chuyền. Nếu quan tâm, bạn có thể hỏi thêm thông tin. Giá trong đầu là 500, nhưng có thể giảm thêm một chút.",
+      "text_en": "Selling a mail-linked account (already logged into the new server). Lots of outfits, tops, bottoms, faces and hair, mostly from Pass purchases. Ask if interested. Asking 500, but a little negotiable.",
+      "summary_en": "Selling an email-linked account with many outfits for around 500 baht."
     },
     {
       "id": "facebook-06d239927d630e4d",
@@ -184,7 +192,9 @@
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống và đổi thời tiết",
       "label_method": "ai_review",
-      "text_vn_machine": "Đủ loại trái cây, đủ trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, xu nông trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết."
+      "text_vn_machine": "Đủ loại trái cây, đủ trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, xu nông trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết.",
+      "text_en": "[Selling] All kinds of fruit, all effects.\n[Selling] Ginseng (all effects).\n[Selling] Garden money, farm coins.\n[Selling] Seeds (diamond-bought ones only).\n[Selling] Weather change.",
+      "summary_en": "Selling fruit, ginseng, seeds and weather change."
     },
     {
       "id": "facebook-e36d2e6af94ae2f7",
@@ -222,7 +232,9 @@
       ],
       "summary_vn": "Bán 5 cây mandrake 30 baht, Aurora 8 baht",
       "label_method": "ai_review",
-      "text_vn_machine": "Bán 5 cây nhân sâm 30฿ Aurora 8฿ (có sẵn 1)"
+      "text_vn_machine": "Bán 5 cây nhân sâm 30฿ Aurora 8฿ (có sẵn 1)",
+      "text_en": "Selling Mandrake, 5 for 30 baht, Aurora ones 8 baht (only 1 left).",
+      "summary_en": "Selling 5 mandrakes for 30 baht, Aurora for 8 baht."
     },
     {
       "id": "facebook-beff8883f61ed9bf",
@@ -260,7 +272,9 @@
       ],
       "summary_vn": "Hỏi cần câu này có câu được cá khổng lồ không",
       "label_method": "ai_review",
-      "text_vn_machine": "Cần câu này có bắt được cá khổng lồ không?"
+      "text_vn_machine": "Cần câu này có bắt được cá khổng lồ không?",
+      "text_en": "Can this rod catch giant fish?",
+      "summary_en": "Asks if this fishing rod can catch giant fish."
     },
     {
       "id": "facebook-9ccd0d1624012de4",
@@ -298,7 +312,9 @@
       ],
       "summary_vn": "Hỏi mua hạt giống mandrake ở đâu",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi có thể mua hạt giống mandrake ở đâu?"
+      "text_vn_machine": "Tôi có thể mua hạt giống mandrake ở đâu?",
+      "text_en": "Where can I buy Mandrake seeds?",
+      "summary_en": "Asks where to buy mandrake seeds."
     },
     {
       "id": "facebook-1eb595ebccc982c9",
@@ -336,7 +352,9 @@
       ],
       "summary_vn": "Hỏi rồng đen có rơi trong sự kiện không vì chỉ ra troll",
       "label_method": "ai_review",
-      "text_vn_machine": "Con rồng đen trong hình này có rớt ra trong sự kiện này hay không? Tại sao tôi chỉ thả troll?"
+      "text_vn_machine": "Con rồng đen trong hình này có rớt ra trong sự kiện này hay không? Tại sao tôi chỉ thả troll?",
+      "text_en": "Does the black dragon in this picture drop in this event? Why do I only get Trolls?",
+      "summary_en": "Asks if the black dragon drops in the event since they only get trolls."
     },
     {
       "id": "facebook-bf8dac6a4521f52b",
@@ -373,7 +391,9 @@
       ],
       "summary_vn": "Hỏi nhiệm vụ này làm ở đâu",
       "label_method": "ai_review",
-      "text_vn_machine": "Việc này được thực hiện ở đâu?"
+      "text_vn_machine": "Việc này được thực hiện ở đâu?",
+      "text_en": "Where do you do this?",
+      "summary_en": "Asks where to do this quest."
     },
     {
       "id": "facebook-a5a731cdbeac998e",
@@ -412,7 +432,9 @@
       "summary_vn": "Hỏi sao không ăn mì ống ở trường được, không ai nhận order",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn không thể ăn mì ống ở trường? Tôi chỉ thấy một hệ thống xúc thức ăn. Không có ai nhận lệnh."
+      "text_vn_machine": "Bạn không thể ăn mì ống ở trường? Tôi chỉ thấy một hệ thống xúc thức ăn. Không có ai nhận lệnh.",
+      "text_en": "Can't we eat spaghetti at school anymore, guys? There's only the self-serve food system now, nobody takes orders anymore.",
+      "summary_en": "Asks why they can't get spaghetti at school; nobody takes orders."
     },
     {
       "id": "facebook-23a9b3a9826b27a8",
@@ -449,7 +471,9 @@
       ],
       "summary_vn": "Chia sẻ chi tiết bản vá mới",
       "label_method": "ai_review",
-      "text_vn_machine": "Chi tiết bản vá đã đến."
+      "text_vn_machine": "Chi tiết bản vá đã đến.",
+      "text_en": "Update details are out!!",
+      "summary_en": "Shares the new patch details."
     },
     {
       "id": "facebook-dbe567a8fad5ae44",
@@ -488,7 +512,9 @@
       ],
       "summary_vn": "Thông báo bản cập nhật sẽ ra vào ngày mai",
       "label_method": "ai_review",
-      "text_vn_machine": "Cập nhật sẽ đến vào ngày mai."
+      "text_vn_machine": "Cập nhật sẽ đến vào ngày mai.",
+      "text_en": "Update is coming tomorrow.",
+      "summary_en": "Says the update comes out tomorrow."
     },
     {
       "id": "facebook-7a282613ae161606",
@@ -525,7 +551,9 @@
       ],
       "summary_vn": "Hỏi ai phối áo này với đồ nam để xem thử",
       "label_method": "ai_review",
-      "text_vn_machine": "Có ai mặc áo này với quần áo nam không? Tôi muốn xem nó như thế nào."
+      "text_vn_machine": "Có ai mặc áo này với quần áo nam không? Tôi muốn xem nó như thế nào.",
+      "text_en": "Has anyone worn this top with a male outfit? I want to see how it looks.",
+      "summary_en": "Asks if anyone paired this top with a male outfit."
     },
     {
       "id": "facebook-68f3e2673c21b920",
@@ -563,7 +591,9 @@
       ],
       "summary_vn": "Lâu mới chơi lại, hỏi ngân hàng không gửi tiền được nữa à",
       "label_method": "ai_review",
-      "text_vn_machine": "Ngân hàng không gửi tiền được nữa?: Lâu lắm rồi tôi mới đến chơi."
+      "text_vn_machine": "Ngân hàng không gửi tiền được nữa?: Lâu lắm rồi tôi mới đến chơi.",
+      "text_en": "Can't deposit money in the bank anymore? I haven't played in a while.",
+      "summary_en": "Returning after a while, asks if bank deposits no longer work."
     },
     {
       "id": "facebook-c0b3808a7f052873",
@@ -601,7 +631,9 @@
       "summary_vn": "Chào thứ Tư, báo ngày mai có bản cập nhật mới",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Xin chào thứ Tư. Ngày mai sẽ có bản cập nhật mới."
+      "text_vn_machine": "Xin chào thứ Tư. Ngày mai sẽ có bản cập nhật mới.",
+      "text_en": "Happy Wednesdayyy, new update tomorrow!!",
+      "summary_en": "Wednesday greeting, says a new update comes tomorrow."
     },
     {
       "id": "facebook-7b895fc7cefe8731",
@@ -639,7 +671,9 @@
       ],
       "summary_vn": "Gửi lời chúc tốt đẹp, chào thứ Tư",
       "label_method": "ai_review",
-      "text_vn_machine": "Gửi lời chúc tốt đẹp, chào thứ Tư nhé"
+      "text_vn_machine": "Gửi lời chúc tốt đẹp, chào thứ Tư nhé",
+      "text_en": "Sending best wishes, happy Wednesday.",
+      "summary_en": "Sends best wishes, Wednesday greeting."
     }
   ],
   "metrics": {

@@ -27,7 +27,9 @@
       "summary_vn": "Khen sự kiện cập nhật thường xuyên, không chán",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về sự kiện và nội dung cập nhật. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Fun, events are updated regularly so it never gets boring",
+      "summary_en": "Praises regular event updates, never boring."
     },
     {
       "id": "android-246420e6bd6cb64a",
@@ -53,7 +55,9 @@
       "summary_vn": "Báo lỗi câu cá: cá cắn câu nhưng báo chưa cắn",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Low quality game, when fishing the fish already bit but it says it hasn't. Seriously braindead, don't download it",
+      "summary_en": "Fishing bug: fish bites but the game says it hasn't."
     }
   ],
   "metrics": {

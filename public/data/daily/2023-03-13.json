@@ -35,7 +35,9 @@
       ],
       "summary_vn": "Bình luận muốn nhận quà tặng",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi muốn nó."
+      "text_vn_machine": "Tôi muốn nó.",
+      "text_en": "I want it sooo bad",
+      "summary_en": "Comment wanting to win the giveaway."
     },
     {
       "id": "facebook-f4f8697f3283ea91",
@@ -70,7 +72,9 @@
       ],
       "summary_vn": "Bình luận ngắn một chữ 'chơi'",
       "label_method": "ai_review",
-      "text_vn_machine": "chơi"
+      "text_vn_machine": "chơi",
+      "text_en": "Play",
+      "summary_en": "One-word comment: 'play'."
     }
   ],
   "metrics": {

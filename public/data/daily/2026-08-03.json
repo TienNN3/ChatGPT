@@ -36,7 +36,9 @@
         "Installation And Setup",
         "Cross Platform Consistency"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "Can't redeem code. On iPhone 15 Pro Max, I tap the link to enter the code, it takes me to the App Store and says it's not available in my region, so the app won't open.",
+      "summary_en": "Code link opens the App Store with a region-not-supported message."
     }
   ],
   "alerts": [],

@@ -36,7 +36,9 @@
         "Integration With Other Services",
         "Feature Requests"
       ],
-      "app_version": "2.28.1"
+      "app_version": "2.28.1",
+      "text_en": "Can't link Facebook. The game has no option to link Facebook with Apple ID, fix it ASAP.",
+      "summary_en": "No option to link Facebook and Apple ID."
     }
   ],
   "report": {

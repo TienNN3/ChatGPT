@@ -39,7 +39,9 @@
         "Payment",
         "Monetization"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "Since moving here I've hit system bugs twice:\n- Can't enter codes via the link\n- My account got reset (luckily I got it back)\nNot to mention teleport hackers and party-wrecking hackers, so frustrating. Paying more and getting an unstable system in return. Overall, bad.",
+      "summary_en": "After the move to VNG: code bugs, account reset, many hackers, higher prices."
     },
     {
       "id": "gplay-vng-f55de907d2db2c39",
@@ -76,7 +78,9 @@
         "Feature Requests",
         "Integration With Other Services"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "Bring back the YouTube link feature!!!!!!!!!!! I invested so much in my happy home, and now you've ruined the fun of the game world and my own little world. Not acceptable!!! Bring it back right now!!!!!!!!!!!!!!!!",
+      "summary_en": "Demands the in-house YouTube link feature be brought back."
     },
     {
       "id": "appstore-vng-745d2add270070aa",
@@ -113,7 +117,9 @@
         "Performance And Bugs",
         "User Data And Privacy"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "Crashes way too much. iPhone 15 keeps crashing 😭 And when I upgraded to a new house, all the furniture I bought disappeared, so sad, what do I do?",
+      "summary_en": "Crashes on iPhone 15, and furniture was lost after a house upgrade."
     }
   ],
   "report": {

@@ -117,7 +117,9 @@
       "summary_vn": "Khen game nhưng mong giảm giá đồ, thêm đồ trang trí, bớt quảng cáo",
       "label_method": "ai_review",
       "text_vn_machine": "Mong giảm giá vật phẩm, thêm đồ dễ thương và đồ trang trí nhà. Game nhìn chung rất tốt nhưng quảng cáo quá nhiều, gây mất thời gian.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Please lower prices a bit. I hope items get a bit cheaper, they're too expensive, and add more cute stuff. The game is already great, I just want a few changes, everything else is fine and super cute. I want more home decor, and please discount the paid items, they're really expensive. Also there are too many ads, anyone thinking of downloading, think carefully, it's a waste of your life.",
+      "summary_en": "Likes the game but wants cheaper items, more decor and fewer ads."
     }
   ],
   "ratings": [

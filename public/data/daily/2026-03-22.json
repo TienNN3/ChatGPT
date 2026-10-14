@@ -26,7 +26,9 @@
       "summary_vn": "Khen game tốt",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Good",
+      "summary_en": "Says the game is good."
     },
     {
       "id": "android-cc78e5fcb71d6808",
@@ -52,7 +54,9 @@
       "summary_vn": "Trước chơi bình thường, giờ không vào được game",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I really want to play but I can't get in. I used to get in and play normally, but now that I'm back I can't play anymore #sstads9",
+      "summary_en": "Used to play fine, now can't enter the game."
     },
     {
       "id": "android-3eb042b720ede705",
@@ -78,7 +82,9 @@
       "summary_vn": "Chê game chán, rối, khó vào",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Boring, too complicated, hard to get into",
+      "summary_en": "Says the game is boring, messy and hard to get into."
     }
   ],
   "metrics": {

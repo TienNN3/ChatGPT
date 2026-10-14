@@ -26,7 +26,9 @@
       "summary_vn": "Vào game bị văng, không thể chơi, mong sửa",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Please fix this, it crashes as soon as I open it, what's wrong, I can't get into the game 😭😭😭. I really love this game, it's such a shame the system is this bad. But I guess some people can still play, right? Don't be quick to judge people who leave low ratings, because it's really happening to them. If you can play, fine, but some people can't, some believe it and some don't, up to each person. Anyway: dear dev team, sorry for saying this, but I'm a player too, right? I'm really sad that the game I've loved and played since 6th grade suddenly won't work, I feel so let down. Please fix it for me anyway.",
+      "summary_en": "Game crashes on launch and can't be played; asks for a fix."
     },
     {
       "id": "android-4ad7549b42072850",
@@ -52,7 +54,9 @@
       "summary_vn": "Khen game vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Fun.",
+      "summary_en": "Says the game is fun."
     }
   ],
   "metrics": {

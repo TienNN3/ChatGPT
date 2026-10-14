@@ -33,7 +33,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.29.0"
+      "app_version": "2.29.0",
+      "text_en": "Very good, great game.",
+      "summary_en": "Says the game is great."
     },
     {
       "id": "appstore-vng-6ad9c7b51491e65d",
@@ -68,7 +70,9 @@
       "store_tags": [
         "Updates And Maintenance"
       ],
-      "app_version": "2.29.0"
+      "app_version": "2.29.0",
+      "text_en": "App review. The original was great, I hope this one is even better. Such a shame about the old app.",
+      "summary_en": "Misses the old app and hopes the new one is better."
     }
   ],
   "report": {

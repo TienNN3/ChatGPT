@@ -204,6 +204,7 @@
     .summary-line { font-size:12px; color:var(--muted); font-style:italic; }
     .chips.compact { gap:5px; } .chips.compact .chip { padding:3px 9px; font-size:12px; }
     .help-btn { width:40px; font-weight:700; font-size:16px; padding:8px 0; }
+    .lang-btn { min-width:44px; font-weight:700; font-size:13px; letter-spacing:.04em; }
     .help-dialog { width:min(860px,calc(100% - 24px)); }
     .help-head { position:sticky; top:-20px; z-index:1; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin:-20px -20px 12px; padding:14px 20px; background:var(--surface); border-bottom:1px solid var(--line); }
     .help-head h2 { margin:0; } .help-head .btn { padding:6px 10px; font-size:13px; text-decoration:none; display:inline-block; }
@@ -347,7 +348,7 @@
   <main class="shell">
     <header class="hero">
       <div class="brand-lockup"><div class="brand-logo"><img src="assets/vnggames-th-badge.png" alt="VNGGames Thailand Community"></div><div class="hero-copy"><div class="eyebrow">Thailand Community Intelligence</div><h1>PTG TH Player Feedback</h1><p class="hero-subtitle">Phản hồi người chơi Play Together Thái Lan · Facebook, YouTube, store</p><div id="updated" class="muted small">Đang tải dữ liệu...</div></div></div>
-      <div class="header-actions"><button id="helpToggle" class="btn help-btn" aria-label="Cách hoạt động, nguồn và quy tắc" title="Cách hoạt động, nguồn và quy tắc">?</button><button id="themeToggle" class="btn" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối">◐</button><button id="alertBadge" class="badge" hidden></button></div>
+      <div class="header-actions"><button id="helpToggle" class="btn help-btn" aria-label="Cách hoạt động, nguồn và quy tắc" title="Cách hoạt động, nguồn và quy tắc">?</button><button id="langToggle" class="btn lang-btn" data-raw title="Switch to English" aria-label="Switch to English">EN</button><button id="themeToggle" class="btn" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối">◐</button><button id="alertBadge" class="badge" hidden></button></div>
     </header>
     <div id="mockBanner" class="mock-banner"><strong>Dữ liệu demo.</strong> Các số liệu và quote hiện tại là dữ liệu mock tổng hợp, không phải tiếng nói người chơi thật.</div>
 
@@ -458,7 +459,7 @@
 
     <details class="card notes"><summary>Ghi chú về dữ liệu</summary><ul id="dataNotes"></ul></details>
   </main>
-  <dialog id="helpDialog" class="help-dialog"><div class="help-head"><h2>Cách hoạt động</h2><div><button id="copyHelp" class="btn" title="Chép toàn bộ nội dung dạng Markdown để dán cho AI ở chat khác">Sao chép cho AI</button> <a class="btn" href="how-it-works.md" target="_blank" rel="noopener">Mở bản thô</a> <button class="btn" onclick="this.closest('dialog').close()">Đóng</button></div></div><div id="helpBody" class="help-body">Đang tải…</div></dialog>
+  <dialog id="helpDialog" class="help-dialog"><div class="help-head"><h2>Cách hoạt động</h2><div><button id="copyHelp" class="btn" title="Chép toàn bộ nội dung dạng Markdown để dán cho AI ở chat khác">Sao chép cho AI</button> <a id="helpRaw" class="btn" href="how-it-works.md" target="_blank" rel="noopener">Mở bản thô</a> <button class="btn" onclick="this.closest('dialog').close()">Đóng</button></div></div><div id="helpBody" class="help-body">Đang tải…</div></dialog>
   <dialog id="themeDialog"><button class="btn close" onclick="this.closest('dialog').close()">Đóng</button><div id="themeDetail"></div></dialog>
   <script>
   (() => {
@@ -468,7 +469,74 @@
     const SENTIMENTS = ['Positive','Negative','Mixed','Neutral'];
     const GENERIC_THEME = 'Góp ý trải nghiệm chung';
     const STORES = ['Google Play','App Store'];
-    const fmt = new Intl.NumberFormat('vi-VN');
+    // Song ngữ VI/EN. Tiếng Việt là bản gốc trong mã. Ở chế độ EN, chữ giao diện được tra trong public/i18n/en.json:
+    // khoá đã chuẩn hoá (số → {0},{1}…; thuật ngữ dữ liệu như từ khoá, chủ đề, tên nguồn → {t0},{t1}…).
+    // Nội dung phản hồi dùng text_en / summary_en (không có thì giữ tiếng Việt). Phần tử có data-raw không bị dịch.
+    const I18N = { lang:(()=>{try{return new URLSearchParams(location.search).get('lang')||localStorage.getItem('ptg-lang')||'vi'}catch{return 'vi'}})(), ui:{}, terms:{}, termRe:null, loaded:false, miss:new Map(), orig:new Map(), done:new WeakMap(), observer:null };
+    window.__i18n = I18N;
+    const isEn = () => I18N.lang==='en';
+    const tv = i => isEn()&&i.text_en ? i.text_en : i.text_vn;
+    const sv = i => isEn()&&i.summary_en ? i.summary_en : i.summary_vn;
+    const VI_CHARS = /[àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]/i;
+    function trCore(core){
+      if(I18N.terms[core]!==undefined)return I18N.terms[core];
+      const nums=[];let key=core.replace(/\d+(?:[.,:/]\d+)*/g,n=>`{${nums.push(n)-1}}`);
+      const fill=(tpl,terms=[])=>tpl.replace(/\{(\d+)\}/g,(_,k)=>nums[k]??'').replace(/\{t(\d+)\}/g,(_,k)=>terms[k]??'');
+      if(I18N.ui[key]!==undefined)return fill(I18N.ui[key]);
+      if(I18N.termRe){const terms=[],k2=key.replace(I18N.termRe,t=>`{t${terms.push(I18N.terms[t])-1}}`);if(k2!==key){if(I18N.ui[k2]!==undefined)return fill(I18N.ui[k2],terms);key=k2}}
+      // Nhãn ghép dạng "Tiêu đề: giá trị" (chip bộ lọc): dịch phần tiêu đề, phần giá trị dịch riêng.
+      const label=core.match(/^([^:]{1,40}):\s+(.+)$/);if(label&&I18N.ui[label[1]]!==undefined){const rest=trCore(label[2]);return`${I18N.ui[label[1]]}: ${rest??label[2]}`}
+      if(VI_CHARS.test(core)){const rawKey=core.replace(/\d+(?:[.,:/]\d+)*/g,(()=>{let n=0;return()=>`{${n++}}`})());const entry=I18N.miss.get(key)||{count:0,raw:new Set()};entry.count++;entry.raw.add(rawKey);I18N.miss.set(key,entry)}
+      return null;
+    }
+    function tr(text){
+      if(!isEn()||text===null||text===undefined)return text;
+      const value=String(text),m=value.match(/^(\s*)([\s\S]*?)(\s*)$/);
+      if(!m[2]||!/[A-Za-zÀ-ỹ]/.test(m[2]))return value;
+      const out=trCore(m[2]);return out===null?value:m[1]+out+m[3];
+    }
+    const I18N_SKIP='script,style,[data-raw],.thai,#helpBody';
+    const I18N_ATTRS=['title','placeholder','aria-label','data-label'];
+    function translateTree(root){
+      if(!isEn()||!root)return;
+      if(root.nodeType===3){translateText(root);return}
+      if(root.nodeType!==1||root.closest?.(I18N_SKIP))return;
+      const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);for(let node=walker.nextNode();node;node=walker.nextNode())translateText(node);
+      for(const el of [root,...root.querySelectorAll('[title],[placeholder],[aria-label],[data-label]')])translateAttrs(el);
+    }
+    function translateText(node){
+      if(I18N.done.get(node)===node.nodeValue||node.parentElement?.closest(I18N_SKIP))return;
+      const out=tr(node.nodeValue);
+      if(out!==node.nodeValue){I18N.orig.set(node,node.nodeValue);node.nodeValue=out}
+      I18N.done.set(node,node.nodeValue);
+    }
+    function translateAttrs(el){
+      if(el.closest(I18N_SKIP))return;
+      for(const attr of I18N_ATTRS){const value=el.getAttribute(attr);if(!value||I18N.done.get(el)?.[attr]===value)continue;const out=tr(value);if(out!==value){I18N.orig.set(`${attr}`+'\u0000'+I18N.orig.size,[el,attr,value]);el.setAttribute(attr,out)}I18N.done.set(el,{...(I18N.done.get(el)||{}),[attr]:el.getAttribute(attr)})}
+    }
+    async function loadI18n(){
+      if(I18N.loaded)return;
+      const dict=await fetch('i18n/en.json',{cache:'no-store'}).then(r=>r.ok?r.json():{ui:{},terms:{}}).catch(()=>({ui:{},terms:{}}));
+      I18N.ui=dict.ui||{};I18N.terms=dict.terms||{};
+      const terms=Object.keys(I18N.terms).sort((a,b)=>b.length-a.length).map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
+      I18N.termRe=terms.length?new RegExp(`(?<![\\p{L}\\p{N}])(?:${terms.join('|')})(?![\\p{L}\\p{N}])`,'gu'):null;
+      I18N.loaded=true;
+    }
+    function applyLangChrome(){
+      document.documentElement.lang=I18N.lang;
+      const button=document.getElementById('langToggle');if(button){button.textContent=isEn()?'VI':'EN';button.title=isEn()?'Chuyển sang tiếng Việt':'Switch to English';button.setAttribute('aria-label',button.title)}
+      document.title=isEn()?'PTG TH Player Feedback':'PTG TH Player Sentiment';
+    }
+    async function setLang(lang){
+      I18N.lang=lang==='en'?'en':'vi';try{localStorage.setItem('ptg-lang',I18N.lang)}catch{}try{const url=new URL(location.href);if(url.searchParams.has('lang')){url.searchParams.set('lang',I18N.lang);history.replaceState(null,'',url)}}catch{}
+      if(isEn()){await loadI18n()}
+      else{I18N.observer?.disconnect();I18N.observer=null;for(const [key,value] of I18N.orig){if(typeof key!=='string'){if(key.isConnected)key.nodeValue=value}else{const [el,attr,orig]=value;if(el.isConnected)el.setAttribute(attr,orig)}}I18N.orig.clear();I18N.done=new WeakMap()}
+      applyLangChrome();
+      if(isEn()){translateTree(document.body);if(!I18N.observer){I18N.observer=new MutationObserver(list=>{for(const m of list){if(m.type==='childList')m.addedNodes.forEach(translateTree);else if(m.type==='characterData')translateText(m.target);else translateAttrs(m.target)}});I18N.observer.observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:I18N_ATTRS})}}
+      if(state.selected.length)render();
+      helpText='';
+    }
+    const fmt = { format:value=>new Intl.NumberFormat(isEn()?'en-US':'vi-VN').format(value) };
     const esc = (value='') => String(value).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
     const pctNum = (value,total) => total ? Math.round(value/total*100) : 0;
     const pct = (value,total) => `${pctNum(value,total)}%`;
@@ -588,7 +656,7 @@
         const current=chosenDays(),context=contextDays(),previous=previousDays(current);
         [state.selected,state.context,state.previous,state.ratingDays]=await Promise.all([loadDates(current),loadDates(context),loadDates(previous),loadDates(ratingWindow(current))]);
         resetExplorer();render();
-      }catch(error){alert(error.message)}finally{document.querySelector('main').classList.remove('loading')}
+      }catch(error){alert(tr(error.message))}finally{document.querySelector('main').classList.remove('loading')}
     }
     async function init(){
       try{
@@ -599,7 +667,7 @@
         for(const id of ['dayPicker','fromDate','toDate']){$(`#${id}`).min=dates[0];$(`#${id}`).max=[dates.at(-1),yesterdayInBangkok()].sort().at(-1)}
         $('#dayPicker').value=initialDate;$('#fromDate').value=initialStart;$('#toDate').value=latest;
         setMode('range');document.querySelectorAll('.preset').forEach(button=>button.classList.toggle('active',button.dataset.days==='7'));
-        $('#updated').textContent=`Cập nhật lần cuối: ${new Date(state.index.last_updated).toLocaleString('vi-VN')}`;
+        $('#updated').textContent=`Cập nhật lần cuối: ${new Date(state.index.last_updated).toLocaleString(isEn()?'en-GB':'vi-VN')}`;
         $('#mockBanner').style.display=state.index.data_mode==='mock'?'block':'none';
         await apply();
       }catch(error){document.querySelector('main').insertAdjacentHTML('beforeend',`<section class="card error"><strong>Không thể tải dữ liệu.</strong><br>${esc(error.message)}</section>`)}
@@ -665,7 +733,7 @@
       const subset=items.filter(i=>i.sentiment===sentiment&&isOpinion(i)),prev=previous.filter(i=>i.sentiment===sentiment&&isOpinion(i)),ranked=countKeywords(subset).slice(0,5);
       if(!ranked.length)return`<p class="empty-note">${sentiment==='Positive'?'Chưa ghi nhận phản hồi tích cực trong kỳ.':'Không ghi nhận phản hồi tiêu cực trong kỳ.'}</p>`;
       return ranked.map(([kw,count])=>{const rows=subset.filter(i=>keywordsOf(i).includes(kw)),q=bestQuote(rows)||rows[0],before=prev.filter(i=>keywordsOf(i).includes(kw)).length,trend=count>before?`<span class="${sentiment==='Negative'?'up':'down'}">▲${count-before}</span>`:count<before?`<span class="muted">▼${before-count}</span>`:'';
-        return`<button class="voice-row-item" data-kw="${esc(kw)}" data-sentiment="${sentiment}" title="Đọc ${count} phản hồi"><span class="vi-head"><span class="vi-kw">${esc(kw)}</span><span class="vi-count">${count} ${trend}</span></span>${q?`<span class="vi-sum">${esc(q.summary_vn||q.text_vn)}</span>`:''}</button>`}).join('');
+        return`<button class="voice-row-item" data-kw="${esc(kw)}" data-sentiment="${sentiment}" title="Đọc ${count} phản hồi"><span class="vi-head"><span class="vi-kw">${esc(kw)}</span><span class="vi-count">${count} ${trend}</span></span>${q?`<span class="vi-sum">${esc(sv(q)||tv(q))}</span>`:''}</button>`}).join('');
     }
     function renderVoice(items,previous,alerts){
       $('#likeList').innerHTML=keywordBlock(items,previous,'Positive');
@@ -677,7 +745,7 @@
         const rows=items.filter(i=>intentOf(i)===intent),before=previous.filter(i=>intentOf(i)===intent).length;
         if(!rows.length) continue;
         const tags=countKeywords(rows).slice(0,3).map(([k,c])=>`${esc(k)} (${c})`).join(', '),q=bestQuote(rows);
-        const sig=state.briefing?.signals?.find(entry=>(entry.themes||[]).includes(SIGNAL_THEME[intent])),tip=[q?`Ví dụ: ${q.summary_vn||q.text_vn}`:'',sig?.suggested_action?`Gợi ý: ${sig.suggested_action}`:''].filter(Boolean).join('\n');
+        const sig=state.briefing?.signals?.find(entry=>(entry.themes||[]).includes(SIGNAL_THEME[intent])),tip=[q?`${tr('Ví dụ:')} ${sv(q)||tv(q)}`:'',sig?.suggested_action?`${tr('Gợi ý:')} ${tr(sig.suggested_action)}`:''].filter(Boolean).join('\n');
         actions.push(`<div class="action-item" title="${esc(tip)}"><span class="level info">${rows.length}</span><div><button class="link-btn" data-filter-intent="${intent}"><strong>${esc(INTENTS[intent])}</strong></button> <span class="muted small">${deltaShort(rows.length,before)}</span>${tags?`<p>${tags}</p>`:''}</div></div>`);
       }
       $('#actionList').innerHTML=actions.join('')||'<p class="empty-note">Không có cảnh báo P0/P1 và không có báo lỗi, crash/lag hay vấn đề tài khoản trong kỳ.</p>';
@@ -686,14 +754,17 @@
     }
     function showKeyword(name,sentiment){
       const rows=selectedItems().filter(i=>keywordsOf(i).includes(name)&&(!sentiment||(i.sentiment===sentiment&&isOpinion(i)))).sort((a,b)=>itemTime(b)-itemTime(a));
-      $('#themeDetail').innerHTML=`<h2>${esc(name)}</h2><p class="muted">${rows.length} phản hồi ${sentiment?sentimentLabel(sentiment).toLocaleLowerCase('vi-VN'):''} · ${esc(periodLabel())}</p>`+rows.map(i=>`<div class="quote"><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span> <span class="intent-tag">${esc(intentLabel(i))}</span> <span class="muted small">${esc(dateLabel(i.date))} · ${esc(sourceLabel(channelName(i)))}</span>${i.summary_vn?`<div class="small" style="margin-top:4px">${esc(i.summary_vn)}</div>`:''}<div style="margin-top:4px"><strong>${esc(i.text_vn)}</strong></div><span class="thai">Nguyên văn: ${esc(i.text_th)}</span><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn ↗</a></div>`).join('');
+      $('#themeDetail').innerHTML=`<h2>${esc(name)}</h2><p class="muted">${rows.length} phản hồi ${sentiment?sentimentLabel(sentiment).toLocaleLowerCase('vi-VN'):''} · ${esc(periodLabel())}</p>`+rows.map(i=>`<div class="quote"><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span> <span class="intent-tag">${esc(intentLabel(i))}</span> <span class="muted small">${esc(dateLabel(i.date))} · ${esc(sourceLabel(channelName(i)))}</span>${sv(i)?`<div class="small" style="margin-top:4px">${esc(sv(i))}</div>`:''}<div style="margin-top:4px"><strong>${esc(tv(i))}</strong></div><span class="thai">Nguyên văn: ${esc(i.text_th)}</span><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn ↗</a></div>`).join('');
       $('#themeDialog').showModal();
     }
     function chart(id,type,data,opts={}){
       if(state.charts[id])state.charts[id].destroy();
       if(!window.Chart){$(`#${id}`).parentElement.innerHTML='<div class="empty">Không tải được thư viện biểu đồ.</div>';return}
       const text=cssVar('--muted'),grid='rgba(129,144,168,.15)';
-      state.charts[id]=new Chart($(`#${id}`),{type,data,options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{position:'bottom',labels:{color:text,boxWidth:12,boxHeight:12}}},scales:{x:{ticks:{color:text,maxRotation:0,autoSkipPadding:8},grid:{display:false}},y:{ticks:{color:text,precision:0},grid:{color:grid},beginAtZero:true}},...opts}});
+      const options={responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{position:'bottom',labels:{color:text,boxWidth:12,boxHeight:12}}},scales:{x:{ticks:{color:text,maxRotation:0,autoSkipPadding:8},grid:{display:false}},y:{ticks:{color:text,precision:0},grid:{color:grid},beginAtZero:true}},...opts};
+      // Biểu đồ vẽ trên canvas nên nhãn và tooltip được dịch trực tiếp ở đây khi đang ở chế độ EN.
+      if(isEn()){data={...data,labels:(data.labels||[]).map(tr),datasets:data.datasets.map(d=>({...d,label:tr(d.label)}))};const callbacks=options.plugins?.tooltip?.callbacks;if(callbacks)for(const name of Object.keys(callbacks)){const fn=callbacks[name];callbacks[name]=function(...args){const out=fn.apply(this,args);return Array.isArray(out)?out.map(tr):tr(out)}}}
+      state.charts[id]=new Chart($(`#${id}`),{type,data,options});
     }
     // Gộp các ngày trong khung biểu đồ theo ngày hoặc theo tuần (tuần bắt đầu thứ Hai).
     function trendBuckets(){
@@ -795,7 +866,7 @@
       $('#sourceSummary').innerHTML=rows.map(([name,count])=>{const group=items.filter(i=>channelName(i)===name),s=bySentiment(group),tags=countKeywords(group).slice(0,3),act=countBy(group,intentLabel)[0];return`<tr><td data-label="Nguồn"><button class="link-btn" data-filter-source="${esc(name)}">${esc(sourceLabel(name))}</button></td><td class="num" data-label="Phản hồi">${count} <span class="muted small">(${pct(count,items.length)})</span></td><td class="num" data-label="Tích cực">${s.Positive}</td><td class="num" data-label="Tiêu cực">${s.Negative}</td><td data-label="Loại nội dung chính">${act?`${esc(act[0])} (${act[1]})`:''}</td><td data-label="Từ khoá nổi bật">${tags.map(([k,c])=>`${esc(k)} (${c})`).join(', ')}</td></tr>`}).join('')||'<tr><td colspan="6" class="empty">Không có phản hồi xác định được ngày đăng trong kỳ.</td></tr>';
       document.querySelectorAll('[data-filter-source]').forEach(button=>button.onclick=()=>focusExplorer({sourceFilter:button.dataset.filterSource}));
     }
-    function reviewRow(i){return`<div class="review"><div class="review-head"><span class="stars">${'★'.repeat(i.rating||0)}<span class="muted">${'★'.repeat(5-(i.rating||0))}</span></span><span class="muted small">${esc(dateLabel(i.date))} · ${esc(i.source)} · ${storeApp(i)==='VNG'?'Play Together VNG':'App Global'}</span><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span><span class="intent-tag">${esc(intentLabel(i))}</span></div>${i.summary_vn?`<div class="summary-line">${esc(i.summary_vn)}${keywordsOf(i).length?` · ${keywordsOf(i).map(esc).join(', ')}`:''}</div>`:''}${isSummaryText(i)?`<div><strong>${esc(i.text_vn.replace(/\s*Đây là tóm tắt phân loại.*$/i,''))}</strong></div><span class="thai muted small">Nguyên văn: ${esc(i.text_th)}</span>`:`<div><strong>${esc(i.text_vn)}</strong></div>${i.text_th&&i.text_th!==i.text_vn?`<span class="thai muted small">${esc(i.text_th)}</span>`:''}`}${i.link?` <a class="small" href="${esc(i.link)}" target="_blank" rel="noopener">Mở store ↗</a>`:''}</div>`}
+    function reviewRow(i){return`<div class="review"><div class="review-head"><span class="stars">${'★'.repeat(i.rating||0)}<span class="muted">${'★'.repeat(5-(i.rating||0))}</span></span><span class="muted small">${esc(dateLabel(i.date))} · ${esc(i.source)} · ${storeApp(i)==='VNG'?'Play Together VNG':'App Global'}</span><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span><span class="intent-tag">${esc(intentLabel(i))}</span></div>${sv(i)?`<div class="summary-line" data-raw>${esc(sv(i))}${keywordsOf(i).length?` · ${keywordsOf(i).map(k=>esc(tr(k))).join(', ')}`:''}</div>`:''}${isSummaryText(i)?`<div><strong>${esc(tv(i).replace(/\s*Đây là tóm tắt phân loại.*$/i,''))}</strong></div><span class="thai muted small">Nguyên văn: ${esc(i.text_th)}</span>`:`<div><strong>${esc(tv(i))}</strong></div>${i.text_th&&i.text_th!==tv(i)?`<span class="thai muted small">${esc(i.text_th)}</span>`:''}`}${i.link?` <a class="small" href="${esc(i.link)}" target="_blank" rel="noopener">Mở store ↗</a>`:''}</div>`}
     function renderStore(items,previous){
       const reviews=items.filter(isStore).filter(i=>Number.isFinite(i.rating)).sort((a,b)=>itemTime(b)-itemTime(a)),prev=previous.filter(isStore).filter(i=>Number.isFinite(i.rating)),n=reviews.length;
       const recentReviews=ratingRecent().flatMap(d=>(d.items||[]).filter(isStore).filter(i=>Number.isFinite(i.rating)).map(i=>({...i,date:i.date||d.date}))).sort((a,b)=>itemTime(b)-itemTime(a));
@@ -831,7 +902,7 @@
     // Báo cáo dạng chữ thuần để dán vào chat: dùng đúng số liệu của kỳ đang chọn.
     function reportText(){
       const items=selectedItems(),previous=previousItems(),s=bySentiment(items),alerts=state.selected.flatMap(d=>(d.alerts||[]).map(a=>({...a,date:d.date}))),n=items.length;
-      const top=(sentiment)=>countKeywords(items.filter(i=>i.sentiment===sentiment&&isOpinion(i))).slice(0,3).map(([kw,count])=>{const q=bestQuote(items.filter(i=>keywordsOf(i).includes(kw)&&i.sentiment===sentiment&&isOpinion(i)));return`  • ${kw}: ${count}${q?`\n    "${q.summary_vn||q.text_vn}"\n    ${q.link}`:''}`});
+      const top=(sentiment)=>countKeywords(items.filter(i=>i.sentiment===sentiment&&isOpinion(i))).slice(0,3).map(([kw,count])=>{const q=bestQuote(items.filter(i=>keywordsOf(i).includes(kw)&&i.sentiment===sentiment&&isOpinion(i)));return`  • ${kw}: ${count}${q?`\n    "${sv(q)||tv(q)}"\n    ${q.link}`:''}`});
       const lines=[`PTG TH Player Feedback · ${periodLabel()}`,'',
         `Tổng phản hồi: ${n} (${changeText(n,previous.length).toLocaleLowerCase('vi-VN')})`,
         `Xu hướng: ${moodFor(items)} · Tích cực ${s.Positive} (${pct(s.Positive,n)}) · Tiêu cực ${s.Negative} (${pct(s.Negative,n)}) · Đan xen ${s.Mixed} · Trung tính ${s.Neutral}`,
@@ -844,7 +915,7 @@
         '',`Dashboard: ${location.origin}${location.pathname}`];
       return lines.join('\n');
     }
-    async function copyReport(){const text=reportText(),button=$('#copyReport');try{await navigator.clipboard.writeText(text);button.textContent='Đã chép ✓'}catch{const area=document.createElement('textarea');area.value=text;document.body.append(area);area.select();document.execCommand('copy');area.remove();button.textContent='Đã chép ✓'}setTimeout(()=>{button.textContent='Sao chép báo cáo'},2000)}
+    async function copyReport(){const text=isEn()?reportText().split('\n').map(tr).join('\n'):reportText(),button=$('#copyReport');try{await navigator.clipboard.writeText(text);button.textContent='Đã chép ✓'}catch{const area=document.createElement('textarea');area.value=text;document.body.append(area);area.select();document.execCommand('copy');area.remove();button.textContent='Đã chép ✓'}setTimeout(()=>{button.textContent='Sao chép báo cáo'},2000)}
     function setTab(name){
       if(!document.querySelector(`[data-panel="${name}"]`))name='overview';
       document.querySelectorAll('[data-tab]').forEach(b=>{b.classList.toggle('active',b.dataset.tab===name);b.setAttribute('aria-selected',b.dataset.tab===name)});
@@ -883,15 +954,15 @@
       for(const[id,value]of Object.entries(keep))if([...$(`#${id}`).options].some(o=>o.value===value))$(`#${id}`).value=value;
     }
     function focusExplorer(filters){resetExplorer();setupFilters(explorerItems());for(const[id,value]of Object.entries(filters))$(`#${id}`).value=value;renderFeedback();setTab('feedback');$('.tabs').scrollIntoView({behavior:'smooth',block:'start'})}
-    function filterItems(){const query=$('#keywordFilter').value.trim().toLocaleLowerCase();state.filtered=explorerItems().filter(item=>(!$('#dateFilter').value||item.date===$('#dateFilter').value)&&(!$('#sourceFilter').value||channelName(item)===$('#sourceFilter').value)&&(!$('#activityFilter').value||intentOf(item)===$('#activityFilter').value)&&(!$('#sentimentFilter').value||item.sentiment===$('#sentimentFilter').value)&&(!$('#themeFilter').value||keywordsOf(item).includes($('#themeFilter').value))&&(!query||`${item.text_th||''} ${item.text_vn||''} ${item.summary_vn||''} ${keywordsOf(item).join(' ')}`.toLocaleLowerCase().includes(query))).sort((a,b)=>itemTime(b)-itemTime(a))}
-    function engagementText(item){if(!item.engagement)return item.rating?`${item.rating}★`:'';const parts=(item.engagement.reactions||[]).map(value=>String(value).replace(/people|person/gi,'người'));if(item.engagement.comment_count)parts.push(`${item.engagement.comment_count} bình luận`);return parts.join('; ')}
+    function filterItems(){const query=$('#keywordFilter').value.trim().toLocaleLowerCase();state.filtered=explorerItems().filter(item=>(!$('#dateFilter').value||item.date===$('#dateFilter').value)&&(!$('#sourceFilter').value||channelName(item)===$('#sourceFilter').value)&&(!$('#activityFilter').value||intentOf(item)===$('#activityFilter').value)&&(!$('#sentimentFilter').value||item.sentiment===$('#sentimentFilter').value)&&(!$('#themeFilter').value||keywordsOf(item).includes($('#themeFilter').value))&&(!query||`${item.text_th||''} ${item.text_vn||''} ${item.summary_vn||''} ${item.text_en||''} ${item.summary_en||''} ${keywordsOf(item).join(' ')}`.toLocaleLowerCase().includes(query))).sort((a,b)=>itemTime(b)-itemTime(a))}
+    function engagementText(item){if(!item.engagement)return item.rating?`${item.rating}★`:'';const parts=(item.engagement.reactions||[]).map(value=>isEn()?String(value):String(value).replace(/people|person/gi,'người'));if(item.engagement.comment_count)parts.push(isEn()?`${item.engagement.comment_count} comments`:`${item.engagement.comment_count} bình luận`);return parts.join('; ')}
     function renderActiveFilters(){const labels={dateFilter:'Ngày',sourceFilter:'Nguồn',sentimentFilter:'Cảm xúc',activityFilter:'Loại nội dung',themeFilter:'Từ khoá'},active=Object.keys(labels).filter(id=>$(`#${id}`).value);$('#activeFilters').hidden=!active.length;$('#activeFilters').innerHTML=active.length?`Đang lọc: ${active.map(id=>`<strong>${labels[id]}: ${esc($(`#${id}`).selectedOptions[0]?.textContent||'')}</strong>`).join(' · ')} <button id="clearFilters" class="link-btn">Bỏ lọc</button>`:'';if(active.length)$('#clearFilters').onclick=()=>{const undated=$('#includeUndated').checked;resetExplorer();$('#includeUndated').checked=undated;setupFilters(explorerItems());renderFeedback()}}
     function renderFeedback(){
       filterItems();renderActiveFilters();const size=30,total=Math.max(1,Math.ceil(state.filtered.length/size));state.page=Math.min(state.page,total);const rows=state.filtered.slice((state.page-1)*size,state.page*size);
       $('#feedbackRows').innerHTML=rows.map(i=>`<article class="feed-item ${esc(i.sentiment)}">
         <div class="feed-meta"><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span><span class="intent-tag">${esc(intentLabel(i))}</span><span class="muted small">${esc(dateLabel(i.date))}${i.date_basis==='observed_at'?' · chưa rõ ngày đăng (ngày thu thập)':''} · ${esc(sourceLabel(channelName(i)))} · ${esc(kindLabel(i))}${Number.isFinite(i.rating)?` · ${'★'.repeat(i.rating)}`:''}</span><a class="feed-link small" href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn ↗</a></div>
-        ${i.summary_vn?`<div class="feed-summary">${esc(i.summary_vn)}</div>`:''}
-        <div class="feed-text">${esc(i.text_vn)}${i.translation_method==='machine_translation'?' <small class="muted">(dịch máy)</small>':isSummaryText(i)?' <small class="muted">(tóm tắt, chưa phải bản dịch)</small>':''}</div>
+        ${sv(i)?`<div class="feed-summary" data-raw>${esc(sv(i))}</div>`:''}
+        <div class="feed-text" data-raw>${esc(tv(i))}${i.translation_method==='machine_translation'?' <small class="muted">(dịch máy)</small>':isSummaryText(i)?' <small class="muted">(tóm tắt, chưa phải bản dịch)</small>':''}</div>
         <details class="feed-orig"><summary>Nguyên văn</summary><div class="thai">${esc(i.text_th)}</div></details>
         <div class="feed-foot">${keywordsOf(i).map(k=>`<button class="kw-chip" data-feed-kw="${esc(k)}">${esc(k)}</button>`).join('')}${engagementText(i)?`<span class="muted small">${esc(engagementText(i))}</span>`:''}</div>
       </article>`).join('')||'<div class="empty">Không có phản hồi phù hợp.</div>';
@@ -926,7 +997,7 @@
       flush();return out.join('');
     }
     let helpText='';
-    $('#helpToggle').onclick=async()=>{ $('#helpDialog').showModal(); if(!helpText){ try{ helpText=await fetch('how-it-works.md',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.text()}); $('#helpBody').innerHTML=markdownToHtml(helpText) }catch(e){ $('#helpBody').textContent='Không tải được tài liệu how-it-works.md.' } } };
+    $('#helpToggle').onclick=async()=>{ $('#helpDialog').showModal(); if(!helpText||$('#helpBody').dataset.lang!==I18N.lang){ $('#helpBody').dataset.lang=I18N.lang;$('#helpRaw').href=isEn()?'how-it-works.en.md':'how-it-works.md'; try{ helpText=await fetch(isEn()?'how-it-works.en.md':'how-it-works.md',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.text()}); $('#helpBody').innerHTML=markdownToHtml(helpText) }catch(e){ $('#helpBody').textContent='Không tải được tài liệu how-it-works.md.' } } };
     $('#copyHelp').onclick=async()=>{const button=$('#copyHelp');try{await navigator.clipboard.writeText(helpText)}catch{const area=document.createElement('textarea');area.value=helpText;document.body.append(area);area.select();document.execCommand('copy');area.remove()}button.textContent='Đã chép ✓';setTimeout(()=>{button.textContent='Sao chép cho AI'},2000)};
     $('#prevPage').onclick=()=>{state.page--;renderFeedback()};$('#nextPage').onclick=()=>{state.page++;renderFeedback()};$('#exportCsv').onclick=exportCsv;
     $('#alertBadge').onclick=()=>{setTab('overview');document.querySelector('.voice-card.action').scrollIntoView({behavior:'smooth',block:'center'})};
@@ -937,7 +1008,9 @@
     const savedTheme=(()=>{try{return localStorage.getItem('ptg-theme')}catch{return null}})();
     document.documentElement.dataset.theme=savedTheme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
     $('#themeToggle').onclick=()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';try{localStorage.setItem('ptg-theme',dark?'dark':'light')}catch{}if(state.selected.length)renderCharts()};
-    init();
+    $('#langToggle').onclick=()=>setLang(isEn()?'vi':'en');
+    applyLangChrome();
+    (isEn()?setLang('en'):Promise.resolve()).then(init);
   })();
   </script>
 </body>

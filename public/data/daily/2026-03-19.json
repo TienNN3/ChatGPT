@@ -152,7 +152,9 @@
       "summary_vn": "Mong giảm giá đồ và thêm đồ dễ thương",
       "label_method": "ai_review",
       "text_vn_machine": "Mong giảm giá vật phẩm, thêm đồ dễ thương và thêm đồ trang trí nhà. Các phần khác của game đều ổn.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Please lower item prices. Please make items a bit cheaper, they're too expensive, and add more cute stuff. The game is already great, I just want a few small changes, everything else is ok, super cute",
+      "summary_en": "Wants cheaper items and more cute stuff."
     },
     {
       "id": "android-abca437d905dc1a4",
@@ -178,7 +180,9 @@
       "summary_vn": "Đùa bị bạn gái bỏ trong game nên buồn",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "For me the game isn't bad, but I got dumped by a girl in the game, so sad bro",
+      "summary_en": "Jokes about being dumped by a girl in the game."
     },
     {
       "id": "android-0ec29bfc4b48cf52",
@@ -204,7 +208,9 @@
       "summary_vn": "Mong cải thiện đồ họa thay vì tập trung bán đồ",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Since you're busy selling items, please work on the graphics a bit too. The game is huge but the graphics could be a lot better 🙏",
+      "summary_en": "Wants better graphics instead of a focus on selling items."
     },
     {
       "id": "android-e4351accf6a24795",
@@ -231,7 +237,9 @@
       "summary_vn": "Khen game giải trí, mọi người tốt, nhiều hoạt động",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về ngôn ngữ và bản địa hóa tiếng Thái. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I'm Thai but I want to review in English. Thank you for chasing away my boredom, I play this game every day after school. Everyone here is nice, and there's lots to do like fishing and mining. Great game! I personally highly recommend it.",
+      "summary_en": "Praises the game as fun, with nice people and lots to do."
     },
     {
       "id": "android-a7db4aeb1d91e7db",
@@ -257,7 +265,9 @@
       "summary_vn": "Khen game rất vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "This game is so fun",
+      "summary_en": "Says the game is very fun."
     },
     {
       "id": "android-eb03a6ace82171ce",
@@ -284,7 +294,9 @@
       "summary_vn": "Khen nhân vật, thú cưng dễ thương, có thể kết hôn",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "This game is seriously awesome, fun, cute characters, you can play with friends, the pets are crazy cute, and you can even get married. Everyone come play!",
+      "summary_en": "Praises cute characters and pets, and marriage feature."
     },
     {
       "id": "android-419670a47ce1ac4c",
@@ -311,7 +323,9 @@
       "summary_vn": "Đề xuất thêm mic nói chuyện, báo hình ảnh bị vỡ màu",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về sự kiện và nội dung cập nhật. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "It's good, addictive, keep updating regularly. The graphics glitch with colored streaks. Hope we can turn on mic to talk to each other",
+      "summary_en": "Suggests voice chat; reports graphics glitching with color streaks."
     },
     {
       "id": "android-d9209f0146407652",
@@ -337,7 +351,9 @@
       "summary_vn": "Khen game hay",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Good game",
+      "summary_en": "Says it's a good game."
     },
     {
       "id": "android-9f78d7b4f4758cbb",
@@ -363,7 +379,9 @@
       "summary_vn": "Khen chơi cùng bạn vui, nhiều minigame",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Relaxing game, hanging out with friends haha. Minigames are fun, and there are lots",
+      "summary_en": "Fun to play with friends, lots of minigames."
     },
     {
       "id": "android-2ef6112c4862e30f",
@@ -389,7 +407,9 @@
       "summary_vn": "Chơi từ thời covid, game tròn 5 tuổi",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Been playing since Covid, Play Together is 5 years old now, time flies",
+      "summary_en": "Has played since Covid; the game turns 5."
     },
     {
       "id": "android-3b5b68fc8ba4f74c",
@@ -416,7 +436,9 @@
       "summary_vn": "Khen nhiệm vụ đa dạng, chơi mượt trên máy tính bảng",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "This game is really good, it's a daily life type game with lots of different quests and its own gameplay too. I find it runs smoothly on a tablet, with a bit of lag now and then. Great for killing time",
+      "summary_en": "Praises varied quests, runs smoothly on tablet."
     }
   ]
 }

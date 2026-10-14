@@ -35,7 +35,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Unstable game. The game isn't stable at all, it crashes often, freezes often, and the system gets worse every day. There are fewer players, so the game should be faster.",
+      "summary_en": "The game is unstable, crashing and freezing often."
     }
   ],
   "report": {

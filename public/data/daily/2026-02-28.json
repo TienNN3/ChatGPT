@@ -27,7 +27,9 @@
       "summary_vn": "Game vui nhưng đồ trang trí nhà quá đắt, mong thêm đồ free",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "The game is fun but home decor is too expensive, hope prices drop a bit, and hope there are more nice free items",
+      "summary_en": "Fun game but home decor is too pricey, wants more free items."
     },
     {
       "id": "android-5e3f17fbee9d3d22",
@@ -53,7 +55,9 @@
       "summary_vn": "Khen game vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Fun.",
+      "summary_en": "Says the game is fun."
     }
   ],
   "metrics": {

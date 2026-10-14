@@ -27,7 +27,9 @@
       "summary_vn": "Khen game, mong có tính năng trao đổi đồ giữa người chơi",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "The game is so fun, I've played 2 years, but I want a feature to trade items with each other. My 2 years of items are on another device, and now I've switched to iPad.",
+      "summary_en": "Likes the game; wants item trading between players."
     },
     {
       "id": "android-35af6e859389629c",
@@ -53,7 +55,9 @@
       "summary_vn": "Khen game vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Fun",
+      "summary_en": "Says the game is fun."
     },
     {
       "id": "android-7db0136ce4bb24ca",
@@ -79,7 +83,9 @@
       "summary_vn": "Khen game vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Fun",
+      "summary_en": "Says the game is fun."
     }
   ],
   "metrics": {

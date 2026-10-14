@@ -37,7 +37,9 @@
       "summary_vn": "Rao bán thẻ 5 sao 5 baht, 4 sao 4 baht",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "5 sao = 5 ฿4 sao = 4 ฿ Các mức sao thấp hơn khác vui lòng liên hệ và hỏi thăm (có tín dụng, kiểm tra trên trang hồ sơ)"
+      "text_vn_machine": "5 sao = 5 ฿4 sao = 4 ฿ Các mức sao thấp hơn khác vui lòng liên hệ và hỏi thăm (có tín dụng, kiểm tra trên trang hồ sơ)",
+      "text_en": "5-star cards = 5 baht, 4-star = 4 baht, for lower-star cards and other types message me to ask (trusted, check my profile).",
+      "summary_en": "Selling 5-star cards for 5 baht and 4-star cards for 4 baht."
     },
     {
       "id": "facebook-a259cdf70f3266ee",
@@ -73,7 +75,9 @@
       ],
       "summary_vn": "Rao bán nhân sâm thường 12 cây 100 baht/bộ",
       "label_method": "ai_review",
-      "text_vn_machine": "Nhân sâm thông thường, 12 cây, 100 baht một bộ"
+      "text_vn_machine": "Nhân sâm thông thường, 12 cây, 100 baht một bộ",
+      "text_en": "Regular ginseng, 12 pcs, 100 baht/set.",
+      "summary_en": "Selling 12 regular ginseng for 100 baht per set."
     },
     {
       "id": "facebook-0fd069a9c3e3f4eb",
@@ -111,7 +115,9 @@
       "summary_vn": "Hỏi cần nâng chỉ số gì vì bị đứt cần câu nhiều lần",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi có một câu hỏi. Tôi có cần nâng cấp trạng thái của mình không? Tôi đã bị đứt móc nhiều lần."
+      "text_vn_machine": "Tôi có một câu hỏi. Tôi có cần nâng cấp trạng thái của mình không? Tôi đã bị đứt móc nhiều lần.",
+      "text_en": "What stats do I need to upgrade? My rod's line keeps snapping.",
+      "summary_en": "Asks which stats to upgrade because the fishing line keeps snapping."
     },
     {
       "id": "facebook-7940999bf4e7bffa",
@@ -148,7 +154,9 @@
       ],
       "summary_vn": "Báo tất cả máy chủ đều đầy, không vào được",
       "label_method": "ai_review",
-      "text_vn_machine": "Có ai gặp vấn đề tương tự không? Tất cả các máy chủ đều đầy đủ."
+      "text_vn_machine": "Có ai gặp vấn đề tương tự không? Tất cả các máy chủ đều đầy đủ.",
+      "text_en": "Is anyone else getting this? Every server is full.",
+      "summary_en": "Reports all servers are full and they can't get in."
     },
     {
       "id": "facebook-8ef6f0e93cb74218",
@@ -186,7 +194,9 @@
         "ảnh"
       ],
       "summary_vn": "Đăng bài chỉ có hình ảnh",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook provided no text to translate.",
+      "summary_en": "Image-only post."
     },
     {
       "id": "facebook-ac83e7b251dcf2cf",
@@ -222,7 +232,9 @@
       ],
       "summary_vn": "Hỏi chơi được trên PC và điện thoại cùng tài khoản không",
       "label_method": "ai_review",
-      "text_vn_machine": "Trò chơi này có thể chơi trên cả PC và điện thoại di động, có thể liên kết cùng một tài khoản không? Trò chơi này có thể chơi trên cả PC và điện thoại di động được không, có thể liên kết cùng một tài khoản không?"
+      "text_vn_machine": "Trò chơi này có thể chơi trên cả PC và điện thoại di động, có thể liên kết cùng một tài khoản không? Trò chơi này có thể chơi trên cả PC và điện thoại di động được không, có thể liên kết cùng một tài khoản không?",
+      "text_en": "Can this game be played on both PC and phone, linked to the same account?",
+      "summary_en": "Asks if PC and phone can share the same account."
     },
     {
       "id": "facebook-8f0aeb92120fe340",
@@ -261,7 +273,9 @@
       ],
       "summary_vn": "Đăng vui hỏi ai từng có người bạn như thế này",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn đã từng có một người bạn như thế này chưa?"
+      "text_vn_machine": "Bạn đã từng có một người bạn như thế này chưa?",
+      "text_en": "Ever had a friend like this?",
+      "summary_en": "Fun post asking if anyone has had a friend like this."
     },
     {
       "id": "facebook-27f49faf6212f6f6",
@@ -299,7 +313,9 @@
       ],
       "summary_vn": "Chia sẻ thông tin VVIP Pass mới",
       "label_method": "ai_review",
-      "text_vn_machine": "THẺ VVIP MỚI"
+      "text_vn_machine": "THẺ VVIP MỚI",
+      "text_en": "New VVIP Pass",
+      "summary_en": "Shares info about the new VVIP Pass."
     },
     {
       "id": "facebook-bc5d524bea40695b",
@@ -338,7 +354,9 @@
       "summary_vn": "Khoe thú cưng Mini bắt giúp đồ",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Little Mini cũng đã mang nó đến cho bạn."
+      "text_vn_machine": "Little Mini cũng đã mang nó đến cho bạn.",
+      "text_en": "Little Mini even helps catch stuff.",
+      "summary_en": "Shows off their pet Mini helping catch things."
     },
     {
       "id": "facebook-2636d7ff40fb503b",
@@ -377,7 +395,9 @@
       ],
       "summary_vn": "Hỏi kết quả nhận được như thế này có bình thường không",
       "label_method": "ai_review",
-      "text_vn_machine": "Điều này có bình thường không?"
+      "text_vn_machine": "Điều này có bình thường không?",
+      "text_en": "Is this normal?",
+      "summary_en": "Asks if the result they got is normal."
     },
     {
       "id": "facebook-d20a9ba7398df6cf",
@@ -418,7 +438,9 @@
       "summary_vn": "Khoe được 4 quả trứng, vừa đủ hoàn thành nhiệm vụ",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "4 quả trứng, vừa đủ để hoàn thành công việc, cứ lấy cái này đi."
+      "text_vn_machine": "4 quả trứng, vừa đủ để hoàn thành công việc, cứ lấy cái này đi.",
+      "text_en": "4 eggs, just finished the quest, this is enough.",
+      "summary_en": "Got 4 eggs, just enough to finish the quest."
     },
     {
       "id": "facebook-cd041105c6ff06b4",
@@ -456,7 +478,9 @@
       "summary_vn": "Khen game hay",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Trò chơi hay"
+      "text_vn_machine": "Trò chơi hay",
+      "text_en": "Good game.",
+      "summary_en": "Says it's a good game."
     },
     {
       "id": "facebook-12c10ae481714827",
@@ -496,7 +520,9 @@
       "summary_vn": "Bình luận reo vui ngắn",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Đúng!"
+      "text_vn_machine": "Đúng!",
+      "text_en": "Yeah yeah.",
+      "summary_en": "Short cheerful comment."
     },
     {
       "id": "facebook-67da0df43f8ac360",
@@ -535,7 +561,9 @@
       ],
       "summary_vn": "Báo nhân vật bị kẹt trong xe, không xuống được",
       "label_method": "ai_review",
-      "text_vn_machine": "Thật là khủng khiếp. Mông tôi dính chặt vào ghế. Tôi không thể ra khỏi xe được. Lái xe xuống nước là một điều kỳ diệu khác. Chán nản."
+      "text_vn_machine": "Thật là khủng khiếp. Mông tôi dính chặt vào ghế. Tôi không thể ra khỏi xe được. Lái xe xuống nước là một điều kỳ diệu khác. Chán nản.",
+      "text_en": "Totally broken, my butt is stuck to the seat, I can't get out of the car, and driving into the water has a weird bug too. So annoying.",
+      "summary_en": "Reports character stuck in the car and unable to get out."
     },
     {
       "id": "facebook-2caf4d9e3d554408",
@@ -574,7 +602,9 @@
       "summary_vn": "Mong game thêm trang phục Thái Lan để chụp ảnh với mèo",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Nếu trang phục Thái Lan thực sự được đưa vào game, tôi sẽ tưởng tượng mình chụp ảnh cùng chú mèo NIAO trong nhà với thông điệp “CHÚNG TÔI LÀ THÁI LAN”!!"
+      "text_vn_machine": "Nếu trang phục Thái Lan thực sự được đưa vào game, tôi sẽ tưởng tượng mình chụp ảnh cùng chú mèo NIAO trong nhà với thông điệp “CHÚNG TÔI LÀ THÁI LAN”!!",
+      "text_en": "If the game really adds Thai traditional outfits, I can already picture taking a photo with my cat NIAO at home with the caption “WE ARE THAILAND”!!",
+      "summary_en": "Hopes the game adds Thai traditional outfits to take photos with their cat."
     },
     {
       "id": "facebook-c53b0782c8cd41ff",
@@ -613,7 +643,9 @@
       "summary_vn": "Khoe đùa chán vì quay gì cũng dễ ra",
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi quá chán việc phải là một đứa trẻ được yêu thương ngẫu nhiên. Bất cứ điều gì đi ra dễ dàng. Tôi muốn trộn nó lên."
+      "text_vn_machine": "Tôi quá chán việc phải là một đứa trẻ được yêu thương ngẫu nhiên. Bất cứ điều gì đi ra dễ dàng. Tôi muốn trộn nó lên.",
+      "text_en": "So boring being the favorite child, everything I draw comes out easily, I want to draw all of it.",
+      "summary_en": "Jokingly brags that every draw comes out easily."
     },
     {
       "id": "facebook-3ed4aa70589eb455",
@@ -652,7 +684,9 @@
       ],
       "summary_vn": "Không liên kết được Facebook, tải bản cũ lấy mã cũng không vào được",
       "label_method": "ai_review",
-      "text_vn_machine": "Không thể liên kết qua Facebook. Tải phiên bản cũ để sao chép mã. Nhưng mình không vào được. Có ai biết không?"
+      "text_vn_machine": "Không thể liên kết qua Facebook. Tải phiên bản cũ để sao chép mã. Nhưng mình không vào được. Có ai biết không?",
+      "text_en": "Can't link via Facebook, I even downloaded the old version to copy the code but it won't let me in. Does anyone know?",
+      "summary_en": "Can't link Facebook; the old version won't open to get the code either."
     },
     {
       "id": "facebook-55d67c12dd6151f7",
@@ -690,7 +724,9 @@
       ],
       "summary_vn": "Hỏi lai tạo thỏ có cần cùng màu không",
       "label_method": "ai_review",
-      "text_vn_machine": "Có ai biết thỏ có cần phải cùng màu nếu muốn nuôi chung không?"
+      "text_vn_machine": "Có ai biết thỏ có cần phải cùng màu nếu muốn nuôi chung không?",
+      "text_en": "Does anyone know if rabbits need to be the same color to breed?",
+      "summary_en": "Asks if rabbits must be the same color to breed."
     },
     {
       "id": "facebook-25306875aa915706",
@@ -730,7 +766,9 @@
       "summary_vn": "Đăng clip diễn vui POV khi bạn rủ đi câu cá",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "POV: Khi bạn rủ đi câu cá *Lưu ý: clip chỉ là diễn, không phải sự việc có thật"
+      "text_vn_machine": "POV: Khi bạn rủ đi câu cá *Lưu ý: clip chỉ là diễn, không phải sự việc có thật",
+      "text_en": "POV: When your friend invites you to go fishing. *Note: this clip is just acting, not a real story.",
+      "summary_en": "Posts a funny POV skit about a friend inviting them fishing."
     },
     {
       "id": "facebook-cb6064a9542079ac",
@@ -769,7 +807,9 @@
       "summary_vn": "Mong game thêm trang phục Thái Lan để chụp ảnh với mèo",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Nếu trang phục Thái Lan thực sự được đưa vào game, tôi sẽ tưởng tượng mình chụp ảnh cùng chú mèo NIAO trong nhà với thông điệp “CHÚNG TÔI LÀ THÁI LAN”!!"
+      "text_vn_machine": "Nếu trang phục Thái Lan thực sự được đưa vào game, tôi sẽ tưởng tượng mình chụp ảnh cùng chú mèo NIAO trong nhà với thông điệp “CHÚNG TÔI LÀ THÁI LAN”!!",
+      "text_en": "If the game really adds Thai traditional outfits, I can already picture taking a photo with my cat NIAO at home with the caption “WE ARE THAILAND”!!",
+      "summary_en": "Hopes the game adds Thai traditional outfits to take photos with their cat."
     },
     {
       "id": "tiktok-380aaf481e7f3724",
@@ -805,7 +845,9 @@
         "comment_count": 4,
         "video_title": null
       },
-      "collected_at": "2026-10-14T10:00:00+07:00"
+      "collected_at": "2026-10-14T10:00:00+07:00",
+      "text_en": "POV: when your friend drags you fishing (note: the clip is just acting, not a real story)",
+      "summary_en": "Funny POV clip about being dragged fishing by a friend."
     },
     {
       "id": "gplay-vng-571cb82f8eb97e97",
@@ -840,7 +882,9 @@
       "store_tags": [
         "Design"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "They really made a good game.",
+      "summary_en": "Says the game is well made."
     },
     {
       "id": "appstore-vng-7b16df599534b819",
@@ -878,7 +922,9 @@
         "Login",
         "Customer Support"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Buggy. I didn't transfer servers in time so I had to grind from scratch, that's fine, but after making a new ID, every time I exit and reopen the game I have to log in again, every single time. Also the quest to send hearts to other people's profiles doesn't work. Really disappointed, I was about to top up to buy an outfit, good thing I tried it out first.",
+      "summary_en": "Has to log in every time they open the game, and the heart-sending quest is bugged."
     },
     {
       "id": "appstore-vng-c1abc7b910caa31f",
@@ -916,7 +962,9 @@
         "Updates And Maintenance",
         "Monetization"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Run. Tons of hackers, the team can't fix anything, the game is all bugs bugs bugs, items are hard to get, so stingy.",
+      "summary_en": "Lots of hackers and bugs, items hard to get."
     }
   ],
   "metrics": {

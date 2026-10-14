@@ -40,7 +40,9 @@
       "summary_vn": "Đội ngũ mời người chơi làm khảo sát, có thể phỏng vấn onsite",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Gửi tất cả cư dân Kaia thân mến, đội ngũ muốn mời mọi người chia sẻ trải nghiệm, ý kiến và góc nhìn về việc chơi game qua bảng khảo sát của đội ngũ, và một số bạn sẽ được mời tham gia phỏng vấn Onsite để trao đổi và chia sẻ ý kiến chi tiết hơn. Ý kiến của mọi người sẽ giúp chúng tôi hiểu người chơi hơn và dùng để phát triển game trong tương lai. Làm khảo sát tại: https://forms.gle/mDgD5e5PL1m8dtVo7 Đội ngũ sẽ liên hệ trực tiếp với những bạn được chọn sau khi kiểm tra khảo sát xong. Lưu ý: Dữ liệu thu thập chỉ dùng cho mục đích nghiên cứu và cải thiện trải nghiệm người chơi, toàn bộ thông tin được bảo mật và không tiết lộ cho bên ngoài. #playtogether #playtogethervng #playtogetherTH"
+      "text_vn_machine": "Gửi tất cả cư dân Kaia thân mến, đội ngũ muốn mời mọi người chia sẻ trải nghiệm, ý kiến và góc nhìn về việc chơi game qua bảng khảo sát của đội ngũ, và một số bạn sẽ được mời tham gia phỏng vấn Onsite để trao đổi và chia sẻ ý kiến chi tiết hơn. Ý kiến của mọi người sẽ giúp chúng tôi hiểu người chơi hơn và dùng để phát triển game trong tương lai. Làm khảo sát tại: https://forms.gle/mDgD5e5PL1m8dtVo7 Đội ngũ sẽ liên hệ trực tiếp với những bạn được chọn sau khi kiểm tra khảo sát xong. Lưu ý: Dữ liệu thu thập chỉ dùng cho mục đích nghiên cứu và cải thiện trải nghiệm người chơi, toàn bộ thông tin được bảo mật và không tiết lộ cho bên ngoài. #playtogether #playtogethervng #playtogetherTH",
+      "text_en": "Dear Kaia friends, the team would like to invite everyone to share your experiences, opinions and views on playing the game through a survey. Some of you will be invited to an Onsite interview to discuss in more detail. Your feedback will help us understand players better and develop the game in the future. Take the survey at: https://forms.gle/mDgD5e5PL1m8dtVo7. Selected participants will be contacted directly by the team after the survey is reviewed. Note: the data collected is only used for research and improving player experience, and is kept confidential and not shared externally. #playtogether #playtogethervng #playtogetherTH",
+      "summary_en": "The team invites players to a survey, with possible onsite interviews."
     },
     {
       "id": "gplay-vng-621b404bb4fc750a",
@@ -75,7 +77,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Really good.",
+      "summary_en": "Says the game is really good."
     },
     {
       "id": "gplay-vng-9899252cc783e433",
@@ -111,7 +115,9 @@
       "store_tags": [
         "Login"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "The game's login system is terrible, it makes you enter some weird code. I played for a long time and now want to come back but can't get in, and when I do it creates a new account, really confusing.",
+      "summary_en": "Returning player can't log in and ends up with a new account."
     },
     {
       "id": "gplay-vng-bab179de40721f73",
@@ -146,7 +152,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Loading is a bit slow but it's so fun, totally amazing, girl.",
+      "summary_en": "Says the game is fun despite slow loading."
     }
   ],
   "metrics": {

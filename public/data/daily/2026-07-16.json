@@ -37,7 +37,9 @@
         "Performance And Bugs",
         "Login"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "So many bugs since the move, the TV doesn't work anymore, and every time I exit the game it makes me log in again.",
+      "summary_en": "Many bugs after the server move; TV broken, must log in again after exiting."
     },
     {
       "id": "appstore-vng-519f7effb13f5321",
@@ -72,7 +74,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "Praise. Good and entertaining game.",
+      "summary_en": "Says the game is good and entertaining."
     },
     {
       "id": "appstore-vng-2157afa63f177658",
@@ -108,7 +112,9 @@
         "Login",
         "Security"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "Logging in way too often. It asks for account verification way too much, every time I play I have to enter my email password and Facebook password. Doesn't the game remember logins? It's so frustrating, always sitting there entering verification codes.\nThe update was supposed to make it better but it got worse, take a hard look at yourselves.",
+      "summary_en": "Has to verify login every time they open the game."
     }
   ],
   "report": {

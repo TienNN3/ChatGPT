@@ -34,7 +34,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Loading takes so long, or maybe my home internet is just bad.",
+      "summary_en": "Complains of slow loading, possibly due to weak internet."
     }
   ],
   "report": {

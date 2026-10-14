@@ -28,7 +28,9 @@
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Can you come back and manage it? Most players are having lots of problems now. I hope Korea comes back to run it like before, thank you so much.",
+      "summary_en": "Hopes Korea returns to run the game because players have many problems."
     },
     {
       "id": "gplay-vng-93705433a83f9097",
@@ -68,7 +70,9 @@
         "Monetization",
         "Updates And Maintenance"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "Since the server move, everything got worse. Events drag on too long, and once you get the items there's nothing to do, boring. The ad-removal pack price went up too, from 125 baht to 175 baht in less than a month. If you don't buy it, the ads are super long. The gacha sometimes takes a hundred draws and still nothing. Cards are super rare, I can go around 3 maps and not find one. Free players have a really hard time. I hope the old management comes back, because from the way things are run, it seems like they don't care much and only focus on taking players' money. A game that could have lasted a long time will end up with no players left. Please, ops team, take good care of players, like the previous management did.",
+      "summary_en": "After the server move: pricier ad-removal pack, harder gacha, rare cards."
     }
   ],
   "metrics": {

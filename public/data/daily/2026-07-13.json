@@ -37,7 +37,9 @@
         "Customer Support",
         "Social And Community"
       ],
-      "app_version": "2.29.0"
+      "app_version": "2.29.0",
+      "text_en": "Never mind that items are more expensive, but since the server move there are tons of hackers. VNG was told about a digging hacker in the morning, and at midnight I still ran into the same hacker coming in to wreck the room. Focus on making money, sure, but take care of normal players too. Do these hackers top up for you or something, why aren't they banned? And the hackers all seem to have Vietnamese names. Can't play on your own so you need digging hacks and item-pickup hacks? And there are lots of them. Please take care of normal players, and don't cover for hackers because they're the same nationality. Loving your country is fine, but don't defend what's bad.",
+      "summary_en": "Many digging hackers since the server move, and VNG doesn't ban them."
     },
     {
       "id": "gplay-vng-eac8f6b5050b4d2b",
@@ -72,7 +74,9 @@
       "store_tags": [
         "Pricing"
       ],
-      "app_version": "2.29.0"
+      "app_version": "2.29.0",
+      "text_en": "Way too expensive, the ad-removal pack went from 125 to 160, I'm not putting up with that.",
+      "summary_en": "Ad-removal pack price went up from 125 to 160 baht."
     },
     {
       "id": "gplay-vng-a4b150acd3204fcd",
@@ -107,7 +111,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": "2.29.0"
+      "app_version": "2.29.0",
+      "text_en": "Quite a lot of bugs, and the server isn't very stable either.",
+      "summary_en": "Many bugs and an unstable server."
     }
   ],
   "alerts": [],

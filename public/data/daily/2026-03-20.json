@@ -143,7 +143,9 @@
       "summary_vn": "Mong game có thêm code quà tặng",
       "label_method": "ai_review",
       "text_vn_machine": "Người chơi mong game có mã quà tặng.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Code. Are there any gift codes, I want codes",
+      "summary_en": "Wants more gift codes."
     },
     {
       "id": "android-b35fb3f96650d2fe",
@@ -169,7 +171,9 @@
       "summary_vn": "Khen game cực kỳ tốt",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Better than expected",
+      "summary_en": "Says the game is extremely good."
     },
     {
       "id": "android-ab4738758d7dabe6",
@@ -195,7 +199,9 @@
       "summary_vn": "Khen không nạp tiền vẫn chơi vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Fun, it's fun even without topping up",
+      "summary_en": "Fun even without topping up."
     },
     {
       "id": "android-9e8217a646427e56",
@@ -223,7 +229,9 @@
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "The game is really fun now but updates take too long, please fix it",
+      "summary_en": "Fun game but updates take very long to download."
     }
   ]
 }

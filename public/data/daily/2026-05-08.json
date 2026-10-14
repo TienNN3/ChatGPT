@@ -145,7 +145,9 @@
       "summary_vn": "Kiếm tiền trong game quá ít, vật phẩm đều đắt",
       "label_method": "ai_review",
       "text_vn_machine": "Kiếm tiền trong game quá ít trong khi mọi vật phẩm đều đắt.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "You earn so little. Everything is expensive.",
+      "summary_en": "Too little in-game income, and every item is expensive."
     },
     {
       "id": "android-6d814480d6da85f5",
@@ -171,7 +173,9 @@
       "summary_vn": "Khen game tuyệt vời",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Awesome.",
+      "summary_en": "Says the game is awesome."
     }
   ],
   "ratings": [

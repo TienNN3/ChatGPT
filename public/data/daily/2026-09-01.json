@@ -35,7 +35,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Enter the game and it bugs out, stutters, then crashes.",
+      "summary_en": "Errors, stutters and crashes on entering the game."
     },
     {
       "id": "appstore-vng-b0f70101824bf180",
@@ -71,7 +73,9 @@
         "Security",
         "Customer Support"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "I want my account back. I topped up a lot and have lots of collectibles, this is really bad.",
+      "summary_en": "Wants back an account with many top-ups."
     },
     {
       "id": "appstore-vng-2cc72115cb0e08c7",
@@ -107,7 +111,9 @@
         "Service",
         "Monetization"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Love Play Together. It's so great, I get diamonds all the time, love love love.",
+      "summary_en": "Loves the game and the frequent diamonds."
     }
   ],
   "report": {

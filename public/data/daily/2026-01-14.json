@@ -128,7 +128,9 @@
       "summary_vn": "Báo game văng rất thường xuyên, mong sửa",
       "label_method": "ai_review",
       "text_vn_machine": "Game bị văng rất thường xuyên. Mong đội ngũ sửa lỗi.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Keeps crashing. The game crashes really often, please fix it",
+      "summary_en": "Reports very frequent crashes, asks for a fix."
     }
   ]
 }

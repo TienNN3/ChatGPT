@@ -128,7 +128,9 @@
       "summary_vn": "Không chơi được vì game bị văng",
       "label_method": "ai_review",
       "text_vn_machine": "Không thể chơi vì game bị văng, khiến người chơi buồn.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Sad. Can't play, it keeps crashing, so sad",
+      "summary_en": "Can't play because the game crashes."
     }
   ]
 }

@@ -33,7 +33,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Love it.",
+      "summary_en": "Really likes the game."
     },
     {
       "id": "gplay-vng-6ad32d0a44d76746",
@@ -68,7 +70,9 @@
         "Performance And Bugs",
         "Error Handling And Messages"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "There's some kind of error but I don't know what it is.",
+      "summary_en": "Hit an unknown error."
     },
     {
       "id": "gplay-vng-75a35545e2f4fc78",
@@ -107,7 +111,9 @@
         "Feature Requests",
         "Customer Support"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Everything was fine until the move to VNG. Items feel harder to get and more expensive, and the stuff that matters got removed. No idea what part of the brain came up with this. The game will die from greed, only sucking money and not caring about players. People only keep playing because they've already topped up a lot. Reporting doesn't help: I topped up through the bank and didn't get my items, sent a refund request and got no reply. The game's backend system is as bad as it gets. On top of that it's been awful since the move: good internet but it still asks me to connect to the network, and if I leave the app for a moment it kicks me back to the start screen. Truly a trash game.",
+      "summary_en": "Since VNG: pricier items, missing top-ups, no support replies, frequent kicks."
     }
   ],
   "report": {

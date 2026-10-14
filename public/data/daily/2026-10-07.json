@@ -35,7 +35,9 @@
       ],
       "summary_vn": "Hỏi món đồ này có gì đặc biệt",
       "label_method": "ai_review",
-      "text_vn_machine": "Có điều gì đặc biệt về nó?"
+      "text_vn_machine": "Có điều gì đặc biệt về nó?",
+      "text_en": "What's special about it?",
+      "summary_en": "Asks what's special about this item."
     },
     {
       "id": "facebook-1b595381bf0bd231",
@@ -73,7 +75,9 @@
       "summary_vn": "Rao dịch vụ đổi thời tiết 10 baht, bán quà và hạt giống",
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
-      "text_vn_machine": "Dịch vụ báo thời tiết, quà tặng và hạt giống Chơi cùng nhau \nMọi điều kiện thời tiết 10 baht \nCác loại hạt phổ biến có giá như trong hình\nHạt giống sử dụng vàng không thể được tặng. \nCó thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. \nThêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung."
+      "text_vn_machine": "Dịch vụ báo thời tiết, quà tặng và hạt giống Chơi cùng nhau \nMọi điều kiện thời tiết 10 baht \nCác loại hạt phổ biến có giá như trong hình\nHạt giống sử dụng vàng không thể được tặng. \nCó thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. \nThêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
+      "text_en": "Play Together weather change, gift and seed service\n- Any weather is 10 baht\n- Seed prices as in the picture, popular types\n- Seeds bought with gold can't be gifted\nPrices may change slightly, follow the shop's latest post\nAdd me and message right away, e-wallet and bank transfer accepted, stock restocked constantly, feel free to ask about other packages",
+      "summary_en": "Advertises a 10-baht weather change service and sells gifts and seeds."
     },
     {
       "id": "facebook-4ea7cdbb18dd45a4",
@@ -109,7 +113,9 @@
         "ảnh"
       ],
       "summary_vn": "Đăng ảnh có chữ, không có nội dung mô tả",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook didn't provide any text to translate.",
+      "summary_en": "Posts an image with text, no description."
     },
     {
       "id": "facebook-c909c08a29ba5331",
@@ -148,7 +154,9 @@
       ],
       "summary_vn": "Đăng ảnh về những điều thiêng liêng kèm IGN",
       "label_method": "ai_review",
-      "text_vn_machine": "Những điều thiêng liêng \nIG… Xem thêm"
+      "text_vn_machine": "Những điều thiêng liêng \nIG… Xem thêm",
+      "text_en": "Sacred stuff!!! IG… See more",
+      "summary_en": "Posts a photo about sacred things with IGN."
     },
     {
       "id": "facebook-d128473eeb82bafc",
@@ -186,7 +194,9 @@
       ],
       "summary_vn": "Đăng ảnh hài hước kèm emoji cười",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook didn't provide any text to translate.",
+      "summary_en": "Posts a funny image with laughing emoji."
     },
     {
       "id": "facebook-56001b8488d611df",
@@ -226,7 +236,9 @@
       ],
       "summary_vn": "Đăng ảnh chủ đề mùa thu với emoji lá phong",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook didn't provide any text to translate.",
+      "summary_en": "Posts an autumn-themed image with maple leaf emoji."
     },
     {
       "id": "facebook-cd8feb2fa39b1559",
@@ -261,7 +273,9 @@
       ],
       "summary_vn": "Khen rất dễ thương",
       "label_method": "ai_review",
-      "text_vn_machine": "Rất dễ thương"
+      "text_vn_machine": "Rất dễ thương",
+      "text_en": "So cute",
+      "summary_en": "Says it's very cute."
     },
     {
       "id": "facebook-c5e178d659b69ea9",
@@ -297,7 +311,9 @@
         "thú cưng"
       ],
       "summary_vn": "Đăng ảnh thú cưng cu li kèm chữ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook didn't provide any text to translate.",
+      "summary_en": "Posts an image of a slow loris pet with text."
     },
     {
       "id": "facebook-5f66e31ebc87aa3a",
@@ -332,7 +348,9 @@
         "nông trại"
       ],
       "summary_vn": "Đăng ảnh các loại trái cây",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook didn't provide any text to translate.",
+      "summary_en": "Posts an image of various fruits."
     },
     {
       "id": "facebook-69163d1fe259f9a3",
@@ -372,7 +390,9 @@
       ],
       "summary_vn": "Rao bán thẻ, tiền nông trại, nhân sâm 13–17 baht",
       "label_method": "ai_review",
-      "text_vn_machine": "[Bán] Thẻ, tiền nông trại, nhân sâm, trái cây có hiệu ứng trạng thái\n (Thẻ\n 1฿ mỗi sao)\nsương nhân sâm\nNhân sâm ánh trăng\n,Nhân sâm cực quang \n (17฿)\nnhân sâm cát\n, nhân sâm khô\n, nhân sâm gió\nHỏa Sâm (13฿)\n dưa hấu \nF… Xem thêm"
+      "text_vn_machine": "[Bán] Thẻ, tiền nông trại, nhân sâm, trái cây có hiệu ứng trạng thái\n (Thẻ\n 1฿ mỗi sao)\nsương nhân sâm\nNhân sâm ánh trăng\n,Nhân sâm cực quang \n (17฿)\nnhân sâm cát\n, nhân sâm khô\n, nhân sâm gió\nHỏa Sâm (13฿)\n dưa hấu \nF… Xem thêm",
+      "text_en": "[SELLING] Cards, farm money, ginseng, fruit with effects\n- Cards: 1 baht/star\n- Dew ginseng, moonlight ginseng, aurora ginseng: 17 baht\n- Sand ginseng, drought ginseng, wind ginseng, fire ginseng: 13 baht\n- Watermelon\n- … See more",
+      "summary_en": "Sells cards, farm money, and ginseng for 13–17 baht."
     },
     {
       "id": "facebook-b68800a0b00c03c3",
@@ -409,7 +429,9 @@
         "nông trại"
       ],
       "summary_vn": "Đăng ảnh rau củ trồng trong nông trại",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook didn't provide any text to translate.",
+      "summary_en": "Posts an image of vegetables grown on the farm."
     },
     {
       "id": "facebook-d7e18b825ef31a1e",
@@ -445,7 +467,9 @@
       ],
       "summary_vn": "Hỏi người bán có nhiều thẻ không",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn có nhiều thẻ không?"
+      "text_vn_machine": "Bạn có nhiều thẻ không?",
+      "text_en": "Do you have a lot of cards?",
+      "summary_en": "Asks the seller if they have many cards."
     },
     {
       "id": "facebook-dccd45f89c13d882",
@@ -484,7 +508,9 @@
       ],
       "summary_vn": "Rao bán tiền nông trại 59M giá 570 baht",
       "label_method": "ai_review",
-      "text_vn_machine": "Bán tiền nông trại nha: Phong khổng lồ 59M = 570 baht (chưa boost, giá boost +15% ở dưới bình luận)"
+      "text_vn_machine": "Bán tiền nông trại nha: Phong khổng lồ 59M = 570 baht (chưa boost, giá boost +15% ở dưới bình luận)",
+      "text_en": "Selling farm money: giant maple 59M = 570 baht (no boost, boosted price +15% in the comments)",
+      "summary_en": "Sells 59M farm money for 570 baht."
     },
     {
       "id": "facebook-b1b52949da191ec5",
@@ -520,7 +546,9 @@
       "summary_vn": "Khen gói boost 15% rất hời",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "+boost 15% quá hời luôn"
+      "text_vn_machine": "+boost 15% quá hời luôn",
+      "text_en": "+15% boost, an even better deal",
+      "summary_en": "Praises the 15% boost as a great deal."
     },
     {
       "id": "facebook-d5c0fb6558a6a1f3",
@@ -556,7 +584,9 @@
       "summary_vn": "Hỏi có ai bị lỗi giống trong ảnh không",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Có ai bị như thế này không ạ?"
+      "text_vn_machine": "Có ai bị như thế này không ạ?",
+      "text_en": "Anyone else getting this?",
+      "summary_en": "Asks if anyone has the same error as in the picture."
     },
     {
       "id": "facebook-35e96a7c97a30e72",
@@ -594,7 +624,9 @@
         "phản ứng"
       ],
       "summary_vn": "Thốt lên ôi trời ơi",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Oh my god",
+      "summary_en": "Exclaims oh my god."
     },
     {
       "id": "facebook-fb3b42e7bdf22302",
@@ -635,7 +667,9 @@
       "summary_vn": "Than quay gacha mãi không ra túi như người khác",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Không mong ra xe dù chỉ một lần quay, chỉ muốn có cái túi như người ta thôi, lần nào bấm cũng cầu được mỗi cái túi. Thấy người ta đeo ngầu lắm, bé không ra gì hết"
+      "text_vn_machine": "Không mong ra xe dù chỉ một lần quay, chỉ muốn có cái túi như người ta thôi, lần nào bấm cũng cầu được mỗi cái túi. Thấy người ta đeo ngầu lắm, bé không ra gì hết",
+      "text_en": "Not hoping for the car even once, I just want the bag like everyone else. Every time I draw I pray for just the bag, it looks so cool on other people. I want it soooo bad",
+      "summary_en": "Complains endless gacha draws never give the bag others have."
     },
     {
       "id": "facebook-2989794cced839cd",
@@ -673,7 +707,9 @@
       ],
       "summary_vn": "Muốn thấy quả khổng lồ to hơn nữa",
       "label_method": "ai_review",
-      "text_vn_machine": "Muốn thấy quả to hơn nữa"
+      "text_vn_machine": "Muốn thấy quả to hơn nữa",
+      "text_en": "Want to see even bigger fruit",
+      "summary_en": "Wants to see even bigger giant fruit."
     },
     {
       "id": "facebook-c3392ddff5fa1cc7",
@@ -711,7 +747,9 @@
       "summary_vn": "Khoe quay 11 lần ra đồ dễ dàng",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "11 lần quay, ra dễ ghê"
+      "text_vn_machine": "11 lần quay, ra dễ ghê",
+      "text_en": "11 draws, that was easy",
+      "summary_en": "Shows off getting the item easily in 11 draws."
     },
     {
       "id": "facebook-2fdd0d71501da8f0",
@@ -750,7 +788,9 @@
       ],
       "summary_vn": "Hỏi sao rau mùa trước bán rẻ, do đổi mùa?",
       "label_method": "ai_review",
-      "text_vn_machine": "Rau mùa trước sao bán được rẻ vậy ạ, do đổi mùa nên rau mùa cũ giảm giá hay rau đó vốn chỉ bán được giá vậy từ đầu?"
+      "text_vn_machine": "Rau mùa trước sao bán được rẻ vậy ạ, do đổi mùa nên rau mùa cũ giảm giá hay rau đó vốn chỉ bán được giá vậy từ đầu?",
+      "text_en": "Why do last season's vegetables sell so cheap? Is it because the season changed so old-season vegetables dropped in price, or did they always sell for that little?",
+      "summary_en": "Asks why last season's vegetables sell cheap, due to the season change?"
     },
     {
       "id": "facebook-861a2cd70f9fbb28",
@@ -786,7 +826,9 @@
         "câu cá"
       ],
       "summary_vn": "Hỏi cần câu này có tốt không",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Is this fishing rod good?",
+      "summary_en": "Asks if this fishing rod is good."
     },
     {
       "id": "facebook-0d650600f26e848a",
@@ -821,7 +863,9 @@
       ],
       "summary_vn": "Trả lời cần câu tốt, câu cá khổng lồ ít đứt",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Yes, it catches giant fish and rarely snaps.",
+      "summary_en": "Says the rod is good, catches giant fish and rarely snaps."
     },
     {
       "id": "facebook-75d4f2bb68a63f6d",
@@ -858,7 +902,9 @@
         "thú cưng"
       ],
       "summary_vn": "Đăng ảnh hỏi vui sao bé chui vào đó",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "What's the little one doing in there??",
+      "summary_en": "Posts a photo jokingly asking why the little one crawled in there."
     },
     {
       "id": "facebook-b4207765e66fbb36",
@@ -898,7 +944,9 @@
       "summary_vn": "Khoe cây phong khổng lồ nặng 1825, chia sẻ dùng lò xo đỏ",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Phong đợt 2, cây khổng lồ nặng nhất mình thấy, ai có to hơn cho xem với. Nặng 1825, trồng tổng 32 hạt, ra khổng lồ 19 cây, cách là dùng thật nhiều lò xo đỏ"
+      "text_vn_machine": "Phong đợt 2, cây khổng lồ nặng nhất mình thấy, ai có to hơn cho xem với. Nặng 1825, trồng tổng 32 hạt, ra khổng lồ 19 cây, cách là dùng thật nhiều lò xo đỏ",
+      "text_en": "Maple round 2, got the heaviest giant I've ever seen, show me if anyone has a bigger one. Weight 1825, planted 32 seeds in total, 19 turned giant. The trick is to use lots of red springs.",
+      "summary_en": "Shows off a 1825-weight giant maple, shares using red springs."
     },
     {
       "id": "facebook-25b92206a73d49d3",
@@ -933,7 +981,9 @@
       ],
       "summary_vn": "Hỏi cần dùng bao nhiêu lò xo đỏ",
       "label_method": "ai_review",
-      "text_vn_machine": "Bao nhiêu lò xo đỏ vậy ạ?"
+      "text_vn_machine": "Bao nhiêu lò xo đỏ vậy ạ?",
+      "text_en": "How many red springs did you use?",
+      "summary_en": "Asks how many red springs are needed."
     },
     {
       "id": "facebook-e225952a0b3486e2",
@@ -968,7 +1018,9 @@
       ],
       "summary_vn": "Nói cây vẫn còn lớn được nhiều nữa",
       "label_method": "ai_review",
-      "text_vn_machine": "Chưa là gì đâu, còn lớn được nhiều nữa haha"
+      "text_vn_machine": "Chưa là gì đâu, còn lớn được nhiều nữa haha",
+      "text_en": "Not even close, it can grow a lot more haha",
+      "summary_en": "Says the plant can still grow much more."
     },
     {
       "id": "facebook-2fe00db1c032ad7c",
@@ -1006,7 +1058,9 @@
       ],
       "summary_vn": "Xin ý tưởng trang trí nông trại vì bí ý tưởng",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho mình học theo cách trang trí nông trại được không, bí ý tưởng quá"
+      "text_vn_machine": "Cho mình học theo cách trang trí nông trại được không, bí ý tưởng quá",
+      "text_en": "Can I copy your farm decoration? I'm totally out of ideas.",
+      "summary_en": "Asks for farm decoration ideas, out of ideas."
     },
     {
       "id": "facebook-cd4468f7d64e9e38",
@@ -1045,7 +1099,9 @@
       "summary_vn": "Hỏi bộ áo ngầu có ra thật không",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Muốn biết có ra thật không, nhìn mấy bộ áo ngầu quá"
+      "text_vn_machine": "Muốn biết có ra thật không, nhìn mấy bộ áo ngầu quá",
+      "text_en": "I want to know if you can really get it, those shirts look so cool",
+      "summary_en": "Asks if the cool shirts can really be obtained."
     },
     {
       "id": "facebook-43ef3352510b29cd",
@@ -1081,7 +1137,9 @@
       ],
       "summary_vn": "Người mới không đăng nhập được qua mọi phương thức, báo lỗi",
       "label_method": "ai_review",
-      "text_vn_machine": "Có ai gặp chưa ạ? Mình mới chơi lần đầu, đăng nhập qua Facebook, email, Apple ID hay Steam đều không được, báo cùng một lỗi"
+      "text_vn_machine": "Có ai gặp chưa ạ? Mình mới chơi lần đầu, đăng nhập qua Facebook, email, Apple ID hay Steam đều không được, báo cùng một lỗi",
+      "text_en": "Has anyone run into this? I'm playing for the first time, and logging in with Facebook, email, Apple ID or Steam all fail with the same error.",
+      "summary_en": "New player can't log in with any method, gets an error."
     },
     {
       "id": "facebook-6d92601586d85010",
@@ -1117,7 +1175,9 @@
       ],
       "summary_vn": "Giải thích giới hạn tạo 2 tài khoản/24 giờ, khuyên liên hệ hỗ trợ",
       "label_method": "ai_review",
-      "text_vn_machine": "Đó là hệ thống giới hạn tạo tài khoản, nếu nhớ không nhầm trong 24 giờ chỉ tạo được 2 tài khoản. Nhưng nếu không tạo tài khoản mới mà vẫn hiện vậy thì thử liên hệ đội ngũ hỗ trợ nhé"
+      "text_vn_machine": "Đó là hệ thống giới hạn tạo tài khoản, nếu nhớ không nhầm trong 24 giờ chỉ tạo được 2 tài khoản. Nhưng nếu không tạo tài khoản mới mà vẫn hiện vậy thì thử liên hệ đội ngũ hỗ trợ nhé",
+      "text_en": "That's the account creation limit, if I remember right you can only create 2 accounts in 24 hours. If you're not creating a new account and it still shows this, try contacting support.",
+      "summary_en": "Explains the 2 accounts per 24 hours limit and suggests contacting support."
     },
     {
       "id": "facebook-fe160d01209eaee7",
@@ -1155,7 +1215,9 @@
       "summary_vn": "Khoe quay gacha ra dễ như ăn kẹo",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Quay ra thế này thì dễ như ăn kẹo luôn"
+      "text_vn_machine": "Quay ra thế này thì dễ như ăn kẹo luôn",
+      "text_en": "Getting stuff like this is as easy as eating candy",
+      "summary_en": "Brags gacha pulls came easily."
     },
     {
       "id": "facebook-5afdf900ee07236e",
@@ -1195,7 +1257,9 @@
       "summary_vn": "Khoe quay ra nông trại nhỏ và lớn liền nhau",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Nông trại nhỏ, nông trại lớn ra đủ liền nhau, hào phóng lạ thường"
+      "text_vn_machine": "Nông trại nhỏ, nông trại lớn ra đủ liền nhau, hào phóng lạ thường",
+      "text_en": "Got both the small farm and the big farm back to back, unusually generous",
+      "summary_en": "Shows off pulling the small and big farm back to back."
     },
     {
       "id": "facebook-e9bcfbe7e65f0f06",
@@ -1231,7 +1295,9 @@
       "summary_vn": "Than còn thiếu một thẻ vàng mãi chưa có",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Bên này còn thiếu đúng một thẻ vàng mãi chưa có, nản quá"
+      "text_vn_machine": "Bên này còn thiếu đúng một thẻ vàng mãi chưa có, nản quá",
+      "text_en": "I'm missing just one gold card that I've never gotten in my life. So frustrating.",
+      "summary_en": "Complains they're still missing one gold card."
     },
     {
       "id": "facebook-9d5aa2ce762d893d",
@@ -1266,7 +1332,9 @@
       ],
       "summary_vn": "Hỏi đổi thẻ vì bộ sưu tập còn thiếu vài thẻ",
       "label_method": "ai_review",
-      "text_vn_machine": "Có đổi được không ạ, của mình sắp đủ rồi mà vẫn còn thiếu vài cái"
+      "text_vn_machine": "Có đổi được không ạ, của mình sắp đủ rồi mà vẫn còn thiếu vài cái",
+      "text_en": "Anyone want to trade cards? My set is almost complete but I'm still missing a few.",
+      "summary_en": "Asks to trade cards to finish the collection."
     },
     {
       "id": "facebook-f3df58f2ed47fef8",
@@ -1305,7 +1373,9 @@
       "summary_vn": "Hỏi cách xếp cổng vòm nối nhau trồng hoa bên trong",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Mọi người ơi giúp mình với. Mình từng thấy vườn của một bạn dùng cổng vòm như trong hình xếp nối nhau rồi trồng hoa bên trong, không biết bạn ấy xếp thế nào ạ? Ai biết cách chỉ mình với, mình xếp kiểu gì cũng không được."
+      "text_vn_machine": "Mọi người ơi giúp mình với. Mình từng thấy vườn của một bạn dùng cổng vòm như trong hình xếp nối nhau rồi trồng hoa bên trong, không biết bạn ấy xếp thế nào ạ? Ai biết cách chỉ mình với, mình xếp kiểu gì cũng không được.",
+      "text_en": "Hi everyone, quick question. I once saw someone's garden using arches like in the picture lined up in a row with flowers planted inside. How do they place them? If anyone knows please tell me, I can't get it to work no matter how I place them.",
+      "summary_en": "Asks how to line up arches with flowers planted inside."
     },
     {
       "id": "facebook-e48151e25eed22a6",
@@ -1344,7 +1414,9 @@
       ],
       "summary_vn": "Đăng ảnh nhân vật lén thả thính",
       "label_method": "ai_review",
-      "text_vn_machine": "Lén thả thính"
+      "text_vn_machine": "Lén thả thính",
+      "text_en": "Sneakily flirting",
+      "summary_en": "Posts a photo of a character sneakily flirting."
     },
     {
       "id": "facebook-d52a6fb8696bbeb2",
@@ -1380,7 +1452,9 @@
       "summary_vn": "Khen quá đỉnh đại ca",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Quá đỉnh luôn đại ca"
+      "text_vn_machine": "Quá đỉnh luôn đại ca",
+      "text_en": "Oh that's awesome, boss",
+      "summary_en": "Praises it as awesome, boss."
     },
     {
       "id": "facebook-5a6e7f5472bd3764",
@@ -1416,7 +1490,9 @@
       ],
       "summary_vn": "Nói mua gói tháng cũng được tặng y vậy",
       "label_method": "ai_review",
-      "text_vn_machine": "Bên này mua gói tháng cũng được tặng y như vậy thôi haha"
+      "text_vn_machine": "Bên này mua gói tháng cũng được tặng y như vậy thôi haha",
+      "text_en": "I bought the monthly pack and got the exact same gift haha",
+      "summary_en": "Says the monthly pack gave the same gift."
     },
     {
       "id": "facebook-60bf598676d2adc8",
@@ -1453,7 +1529,9 @@
       ],
       "summary_vn": "Chia sẻ hướng dẫn cài đặt cowa.gg",
       "label_method": "ai_review",
-      "text_vn_machine": "Gửi mọi người cách cài đặt cowa.gg"
+      "text_vn_machine": "Gửi mọi người cách cài đặt cowa.gg",
+      "text_en": "Here's how to install cowa.gg for everyone",
+      "summary_en": "Shares a guide to installing cowa.gg."
     },
     {
       "id": "facebook-e6e4d7dfdf59dfe8",
@@ -1488,7 +1566,9 @@
       ],
       "summary_vn": "Trả lời đó là sự kiện vừa rồi, đã hết",
       "label_method": "ai_review",
-      "text_vn_machine": "Sự kiện vừa rồi ạ, hết rồi ạ."
+      "text_vn_machine": "Sự kiện vừa rồi ạ, hết rồi ạ.",
+      "text_en": "That was the last event, it's over now.",
+      "summary_en": "Answers that was the previous event, now over."
     },
     {
       "id": "facebook-3160fde47d1ae480",
@@ -1523,7 +1603,9 @@
       ],
       "summary_vn": "Chia sẻ thành quả nặng nhất 5.40",
       "label_method": "ai_review",
-      "text_vn_machine": "Nặng nhất là 5.40 ạ"
+      "text_vn_machine": "Nặng nhất là 5.40 ạ",
+      "text_en": "The heaviest is 5.40",
+      "summary_en": "Shares their heaviest result, 5.40."
     },
     {
       "id": "facebook-003c9a92aac07aac",
@@ -1557,7 +1639,9 @@
         "livestream"
       ],
       "summary_vn": "Rủ chủ bài stream luôn",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Just stream it, bro",
+      "summary_en": "Asks the poster to stream."
     },
     {
       "id": "facebook-54dd7418086e9c14",
@@ -1593,7 +1677,9 @@
       "summary_vn": "Nói còn thu thêm chút nữa để reset lần cuối của set",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Đúng vậy, của mình còn thu thêm chút nữa chắc reset được lần cuối của set này rồi, không được thì chắc là thôi."
+      "text_vn_machine": "Đúng vậy, của mình còn thu thêm chút nữa chắc reset được lần cuối của set này rồi, không được thì chắc là thôi.",
+      "text_en": "Yep, mine still needs a bit more collecting, I can probably do the last reset of this set. If not, I guess I give up.",
+      "summary_en": "Says they need to collect a bit more for the set's last reset."
     },
     {
       "id": "facebook-c0b3be7175caba72",
@@ -1630,7 +1716,9 @@
       "summary_vn": "Báo game hiện thông báo không có nhân vật",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Của tôi nó báo là không có nhân vật"
+      "text_vn_machine": "Của tôi nó báo là không có nhân vật",
+      "text_en": "Mine says there's no character",
+      "summary_en": "Reports the game says there is no character."
     },
     {
       "id": "facebook-cdfd11d1f6347c92",
@@ -1670,7 +1758,9 @@
       "summary_vn": "Đăng ảnh chào mùa thu tham gia sự kiện, kèm IGN",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Chào mùa thu mọi người IGN: Safetyˇᴹᴺ"
+      "text_vn_machine": "Chào mùa thu mọi người IGN: Safetyˇᴹᴺ",
+      "text_en": "Hello autumn everyone. IGN: Safetyˇᴹᴺ",
+      "summary_en": "Posts an autumn greeting photo for the event with IGN."
     },
     {
       "id": "youtube-a53fbff0374d4a16",
@@ -1709,7 +1799,9 @@
       ],
       "summary_vn": "Video giới thiệu sự kiện chụp ảnh nông trại mùa thu",
       "label_method": "ai_review",
-      "text_vn_machine": "Ngày 7/10/2026 · Mùa thu đã đến đảo Kaia; chụp ảnh nông trại đăng vào group Play Together VNG Thailand Official để tham gia nhận thưởng"
+      "text_vn_machine": "Ngày 7/10/2026 · Mùa thu đã đến đảo Kaia; chụp ảnh nông trại đăng vào group Play Together VNG Thailand Official để tham gia nhận thưởng",
+      "text_en": "October 7, 2026 · Autumn has arrived on Kaia Island! Take a photo of your farm and post it in the Play Together VNG Thailand Official group for a chance to win prizes.",
+      "summary_en": "Video introducing the autumn farm photo event."
     },
     {
       "id": "tiktok-63f33f5a77dfe680",
@@ -1745,7 +1837,9 @@
         "comment_count": 0,
         "video_title": null
       },
-      "collected_at": "2026-10-14T10:00:00+07:00"
+      "collected_at": "2026-10-14T10:00:00+07:00",
+      "text_en": "Totally worth ittt",
+      "summary_en": "Says the reward is well worth it."
     },
     {
       "id": "gplay-vng-905960d62d9ab600",
@@ -1778,7 +1872,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.32.0"
+      "app_version": "2.32.0",
+      "text_en": "Fun, really addictive.",
+      "summary_en": "Fun and addictive game."
     },
     {
       "id": "gplay-vng-6381b86aff0c744a",
@@ -1812,7 +1908,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Because it finished downloading but it just won't let me in.",
+      "summary_en": "Downloaded but can never get into the game."
     },
     {
       "id": "gplay-vng-382384918a885333",
@@ -1847,7 +1945,9 @@
       "store_tags": [
         "Design"
       ],
-      "app_version": "2.32.0"
+      "app_version": "2.32.0",
+      "text_en": "Good, easy to play.",
+      "summary_en": "Praises the game as good and easy to play."
     },
     {
       "id": "appstore-vng-dce7be40e6ca7bb1",
@@ -1883,7 +1983,9 @@
       "store_tags": [
         "Login"
       ],
-      "app_version": "2.32.0"
+      "app_version": "2.32.0",
+      "text_en": "Can't get into my old account. I've played since 4th grade and I'm in 8th grade now, wanted to come back. Tried everything to get into my old account, I remember all the names but still can't get in. Now I have to start over from zero.",
+      "summary_en": "Returning player can't access their old account."
     }
   ],
   "metrics": {

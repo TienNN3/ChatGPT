@@ -35,7 +35,9 @@
       ],
       "summary_vn": "Mời người mua nhắn tin để giao dịch",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn có thể trò chuyện với chúng tôi."
+      "text_vn_machine": "Bạn có thể trò chuyện với chúng tôi.",
+      "text_en": "Message me right away.",
+      "summary_en": "Invites buyers to message them to trade."
     },
     {
       "id": "facebook-df0c376861a9ec3c",
@@ -72,7 +74,9 @@
       "summary_vn": "Bán thẻ 5 sao giá 5 baht, 4 sao giá 4 baht",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "5 sao = 5 ฿\n4 sao = 4\nCác thẻ sao thấp hơn khác vui lòng liên hệ và hỏi thăm.\n(Tín dụng có thể được kiểm tra trên trang hồ sơ)"
+      "text_vn_machine": "5 sao = 5 ฿\n4 sao = 4\nCác thẻ sao thấp hơn khác vui lòng liên hệ và hỏi thăm.\n(Tín dụng có thể được kiểm tra trên trang hồ sơ)",
+      "text_en": "5-star cards = 5 baht, 4-star = 4 baht. For lower-star cards and other types, contact me to ask (trusted, check my profile).",
+      "summary_en": "Selling 5-star cards for 5 baht and 4-star cards for 4 baht."
     },
     {
       "id": "facebook-099a426fd7b997e4",
@@ -109,7 +113,9 @@
         "chia sẻ ảnh"
       ],
       "summary_vn": "Đăng ảnh không kèm nội dung",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook provided no text to translate.",
+      "summary_en": "Posted an image with no text."
     },
     {
       "id": "facebook-38425e41d71b357e",
@@ -147,7 +153,9 @@
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, hạt giống, thẻ và dịch vụ đổi thời tiết",
       "label_method": "ai_review",
-      "text_vn_machine": "Tất cả các loại trái cây, mọi trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, tiền xu trang trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết [Bán] Thẻ, 1฿.- mỗi sao [Bán] Quà tặng trong tình trạng lộn xộn [Chấp nhận] Nhảy tháp, 1฿.- mỗi cốc, chấp nhận cả thanh toán qua ngân hàng và ví. Kiểm tra tín dụng của bạn trên trang hồ sơ của bạn."
+      "text_vn_machine": "Tất cả các loại trái cây, mọi trạng thái [Bán] Nhân sâm (tất cả trạng thái) [Bán] Tiền vườn, tiền xu trang trại [Bán] Hạt giống (chỉ mua bằng kim cương) [Bán] Thay đổi thời tiết [Bán] Thẻ, 1฿.- mỗi sao [Bán] Quà tặng trong tình trạng lộn xộn [Chấp nhận] Nhảy tháp, 1฿.- mỗi cốc, chấp nhận cả thanh toán qua ngân hàng và ví. Kiểm tra tín dụng của bạn trên trang hồ sơ của bạn.",
+      "text_en": "[Selling] All kinds of fruit, all effects.\n[Selling] Ginseng (all effects).\n[Selling] Garden money, farm coins.\n[Selling] Seeds (diamond-bought ones only).\n[Selling] Weather change.\n[Selling] Cards 1 baht/star.\n[Selling] Gifts via message.\n[Boosting] Tower jump 1 baht/trophy.\nBank and e-wallet accepted, check my profile for reviews.",
+      "summary_en": "Selling fruit, ginseng, seeds, cards and weather change service."
     },
     {
       "id": "facebook-a8748101e3f8565a",
@@ -184,7 +192,9 @@
       ],
       "summary_vn": "Tìm mua tài khoản ngân sách dưới 500 baht",
       "label_method": "ai_review",
-      "text_vn_machine": "Tìm một mã có ngân sách không quá 500. Rất đáng giá."
+      "text_vn_machine": "Tìm một mã có ngân sách không quá 500. Rất đáng giá.",
+      "text_en": "Looking to buy an account, budget up to 500, hoping for one that's worth the money.",
+      "summary_en": "Looking to buy an account with a budget under 500 baht."
     },
     {
       "id": "facebook-0bdead359f38cf88",
@@ -220,7 +230,9 @@
       ],
       "summary_vn": "Đăng tìm mua thẻ",
       "label_method": "ai_review",
-      "text_vn_machine": "Tìm thẻ."
+      "text_vn_machine": "Tìm thẻ.",
+      "text_en": "Looking to buy cards.",
+      "summary_en": "Looking to buy cards."
     },
     {
       "id": "facebook-5f2c88f147024690",
@@ -256,7 +268,9 @@
       ],
       "summary_vn": "Bán 12 cây nhân sâm thường giá 100 baht",
       "label_method": "ai_review",
-      "text_vn_machine": "Nhân sâm thông thường, 12 cây, 100 baht một bộ"
+      "text_vn_machine": "Nhân sâm thông thường, 12 cây, 100 baht một bộ",
+      "text_en": "Regular ginseng, 12 pcs: 100 baht/set.",
+      "summary_en": "Selling 12 regular ginseng for 100 baht."
     },
     {
       "id": "facebook-dd14378aa2fc0f55",
@@ -292,7 +306,9 @@
       ],
       "summary_vn": "Giảm giá 24 cây nhân sâm còn 200 baht",
       "label_method": "ai_review",
-      "text_vn_machine": "BÁN giảm giá 24 cây nhân sâm 200 baht"
+      "text_vn_machine": "BÁN giảm giá 24 cây nhân sâm 200 baht",
+      "text_en": "SALE: 24 ginseng for 200 baht.",
+      "summary_en": "Discount: 24 ginseng for 200 baht."
     },
     {
       "id": "facebook-e4a3b1c36be3961c",
@@ -327,7 +343,9 @@
       ],
       "summary_vn": "Báo có hàng, mời nhắn tin xem thêm ảnh",
       "label_method": "ai_review",
-      "text_vn_machine": "Nếu bạn có thì hãy đến xem chi tiết trước nhé."
+      "text_vn_machine": "Nếu bạn có thì hãy đến xem chi tiết trước nhé.",
+      "text_en": "I have it, inbox me to see more pics first.",
+      "summary_en": "Says they have it in stock, invites a message to see more pics."
     },
     {
       "id": "facebook-284eeba130f90ff0",
@@ -362,7 +380,9 @@
       ],
       "summary_vn": "Trả lời có hàng sẵn",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi hiểu rồi. Tôi hiểu rồi."
+      "text_vn_machine": "Tôi hiểu rồi. Tôi hiểu rồi.",
+      "text_en": "Sure, I have it (?)",
+      "summary_en": "Replies that they have it in stock."
     },
     {
       "id": "facebook-957bd2e318421ca9",
@@ -398,7 +418,9 @@
       ],
       "summary_vn": "Hỏi có shop nhận nạp gói kim cương hộ không",
       "label_method": "ai_review",
-      "text_vn_machine": "Có cửa hàng nào nhận gói kim cương không?"
+      "text_vn_machine": "Có cửa hàng nào nhận gói kim cương không?",
+      "text_en": "Is there any shop that does diamond pack top-ups for others?",
+      "summary_en": "Asks if any shop offers diamond pack top-ups on their behalf."
     },
     {
       "id": "facebook-e963c04d8ac80487",
@@ -433,7 +455,9 @@
       ],
       "summary_vn": "Hỏi người đăng đã mua được hàng chưa",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn vẫn có thể lấy nó chứ?"
+      "text_vn_machine": "Bạn vẫn có thể lấy nó chứ?",
+      "text_en": "Got it yet?",
+      "summary_en": "Asks the poster if they've bought it yet."
     },
     {
       "id": "facebook-141d53dc29bf8ffe",
@@ -468,7 +492,9 @@
       ],
       "summary_vn": "Trả lời là có hàng",
       "label_method": "ai_review",
-      "text_vn_machine": "Đúng"
+      "text_vn_machine": "Đúng",
+      "text_en": "Yes, I have.",
+      "summary_en": "Replies that they have it in stock."
     },
     {
       "id": "facebook-a4fd0dbb9b8b91c7",
@@ -503,7 +529,9 @@
       ],
       "summary_vn": "Hỏi người đăng đã có hàng chưa",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn đã có nó chưa?"
+      "text_vn_machine": "Bạn đã có nó chưa?",
+      "text_en": "Got it yet?",
+      "summary_en": "Asks the poster if they have it yet."
     },
     {
       "id": "facebook-103aa040a01ce482",
@@ -542,7 +570,9 @@
       ],
       "summary_vn": "Chia sẻ sinh vật mới trong sự kiện mặt trăng",
       "label_method": "ai_review",
-      "text_vn_machine": "SINH VẬT TRĂNG MỚI SỰ KIỆN TRĂNG"
+      "text_vn_machine": "SINH VẬT TRĂNG MỚI SỰ KIỆN TRĂNG",
+      "text_en": "New moon creatures - Moon Event (NEW MOON CREATURES MOON EVENT)",
+      "summary_en": "Shares the new creatures in the Moon event."
     },
     {
       "id": "facebook-745a9130e73c910c",
@@ -578,7 +608,9 @@
       ],
       "summary_vn": "Người mới hỏi cách farm thẻ ngoài xem video và nhặt thẻ",
       "label_method": "ai_review",
-      "text_vn_machine": "Farm thẻ ngoài việc xem video hàng ngày và thu thập thẻ trên không, còn có cách nào khác không? Tôi mới bắt đầu chơi."
+      "text_vn_machine": "Farm thẻ ngoài việc xem video hàng ngày và thu thập thẻ trên không, còn có cách nào khác không? Tôi mới bắt đầu chơi.",
+      "text_en": "To farm cards, besides watching daily videos and picking up cards flying in the air, is there any other way? I'm new.",
+      "summary_en": "New player asks how to farm cards besides videos and picking them up."
     },
     {
       "id": "facebook-b2e2d070cf6539b7",
@@ -616,7 +648,9 @@
       ],
       "summary_vn": "Chia sẻ spoil hộp gacha thỏ sắp ra",
       "label_method": "ai_review",
-      "text_vn_machine": "spoiler hộp ngẫu nhiên thỏ đã đến."
+      "text_vn_machine": "spoiler hộp ngẫu nhiên thỏ đã đến.",
+      "text_en": "Rabbit gacha box spoiler is here!!",
+      "summary_en": "Shares a spoiler of the upcoming rabbit gacha box."
     },
     {
       "id": "facebook-d500ee81af899f4e",
@@ -657,7 +691,9 @@
       "summary_vn": "Creator hỏi ý kiến nên tự lồng tiếng hay nhờ người khác",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Hôm nay là cơ hội cuối cùng. Tôi không đủ tự tin để tự lồng tiếng cho nó. Đối với người nghe, bạn thích cái nào hơn? Hay thay vào đó tôi nên thử lồng tiếng? Xin vui lòng tư vấn. [#PTGCREATOR](https://www.instagram.com/explore/tags/ptgcreator/) [#PLAYTOGETHERVNG](https://www.instagram.com/explore/tags/play togethervng/) [#PLAYTOGETHER](https://www.instagram.com/explore/tags/play together/) [#PLAYTOGETHERTH](https://www.instagram.com/explore/tags/play togetherth/) [#PLAYTOGETHERSEASO](https://www.instagram.com/explore/tags/play togetherseaso/)"
+      "text_vn_machine": "Hôm nay là cơ hội cuối cùng. Tôi không đủ tự tin để tự lồng tiếng cho nó. Đối với người nghe, bạn thích cái nào hơn? Hay thay vào đó tôi nên thử lồng tiếng? Xin vui lòng tư vấn. [#PTGCREATOR](https://www.instagram.com/explore/tags/ptgcreator/) [#PLAYTOGETHERVNG](https://www.instagram.com/explore/tags/play togethervng/) [#PLAYTOGETHER](https://www.instagram.com/explore/tags/play together/) [#PLAYTOGETHERTH](https://www.instagram.com/explore/tags/play togetherth/) [#PLAYTOGETHERSEASO](https://www.instagram.com/explore/tags/play togetherseaso/)",
+      "text_en": "Today is the last chance. I did my own voiceover and I'm not confident at all. Which style do you guys like better, or should I get someone else to do the voice? Please give me feedback. #PTGCREATOR #PLAYTOGETHERVNG #PLAYTOGETHER #PLAYTOGETHERTH #PLAYTOGETHERSEASO",
+      "summary_en": "Creator asks whether to do their own voiceover or get someone else."
     },
     {
       "id": "facebook-048ba8bf8cde819d",
@@ -695,7 +731,9 @@
         "cập nhật mới"
       ],
       "summary_vn": "Giới thiệu 15 thú cưng mới",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "15 new pets",
+      "summary_en": "Shows off 15 new pets."
     },
     {
       "id": "facebook-e9ae1168577e5557",
@@ -733,7 +771,9 @@
       ],
       "summary_vn": "Hỏi lấy troll khổng lồ ở đâu",
       "label_method": "ai_review",
-      "text_vn_machine": "Con troll khổng lồ đến từ đâu?"
+      "text_vn_machine": "Con troll khổng lồ đến từ đâu?",
+      "text_en": "Where do you get the Giant Troll?",
+      "summary_en": "Asks where to get the giant troll."
     },
     {
       "id": "facebook-785638b74d4fdd85",
@@ -772,7 +812,9 @@
       "summary_vn": "Hỏi vì sao không thấy tin nhắn chat của một người bạn",
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
-      "text_vn_machine": "Xin vui lòng hỏi. Ai biết tại sao tôi không thể nhìn thấy phía bên kia của cuộc trò chuyện? Tôi đã nhìn thấy tất cả mọi người. Nhưng tôi không chỉ nhìn thấy đứa con bé bỏng của chúng tôi. Tất cả các trò chơi đã được di chuyển. Rồi regame 2 bên tưởng là lỗi nhưng chơi lại vẫn không thấy chat bên kia. Hãy thử nhờ người khác gõ thử và người khác sẽ nhìn thấy nhưng tôi không phải là người duy nhất không nhìn thấy. Nếu ai biết xin vui lòng giải đáp. Chuyện gì đã xảy ra thế?"
+      "text_vn_machine": "Xin vui lòng hỏi. Ai biết tại sao tôi không thể nhìn thấy phía bên kia của cuộc trò chuyện? Tôi đã nhìn thấy tất cả mọi người. Nhưng tôi không chỉ nhìn thấy đứa con bé bỏng của chúng tôi. Tất cả các trò chơi đã được di chuyển. Rồi regame 2 bên tưởng là lỗi nhưng chơi lại vẫn không thấy chat bên kia. Hãy thử nhờ người khác gõ thử và người khác sẽ nhìn thấy nhưng tôi không phải là người duy nhất không nhìn thấy. Nếu ai biết xin vui lòng giải đáp. Chuyện gì đã xảy ra thế?",
+      "text_en": "Quick question, does anyone know why I can't see the other person's chat? I can see everyone else's, just not my partner's. We've both moved over to the new game and restarted it on both sides. I thought it was a bug, but even after restarting I still can't see their chat. I had someone else type and they could see it, only I can't. Does anyone know what's wrong?",
+      "summary_en": "Asks why they can't see one friend's chat messages."
     },
     {
       "id": "facebook-ad180533100f56df",
@@ -809,7 +851,9 @@
       "summary_vn": "Gợi ý có thể đã lỡ chặn nên không thấy chat",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn có vô tình nhấn chặn? Nếu nó bị chặn, bạn sẽ không thể xem cuộc trò chuyện."
+      "text_vn_machine": "Bạn có vô tình nhấn chặn? Nếu nó bị chặn, bạn sẽ không thể xem cuộc trò chuyện.",
+      "text_en": "Did you accidentally block each other? If you blocked them you won't see their chat.",
+      "summary_en": "Suggests they may have accidentally blocked each other."
     },
     {
       "id": "facebook-7c030189c6f3efdc",
@@ -846,7 +890,9 @@
       ],
       "summary_vn": "Hỏi tìm mandrake ở đâu",
       "label_method": "ai_review",
-      "text_vn_machine": "Bạn tìm thấy nhân sâm ở đâu?"
+      "text_vn_machine": "Bạn tìm thấy nhân sâm ở đâu?",
+      "text_en": "Where do you find Mandrake?",
+      "summary_en": "Asks where to find mandrake."
     },
     {
       "id": "facebook-3a8d8d804bf7505a",
@@ -882,7 +928,9 @@
       ],
       "summary_vn": "Trả lời mandrake được làm ở trường học",
       "label_method": "ai_review",
-      "text_vn_machine": "Sản xuất tại trường học"
+      "text_vn_machine": "Sản xuất tại trường học",
+      "text_en": "You craft it yourself at the school.",
+      "summary_en": "Replies that mandrake is crafted at the school."
     },
     {
       "id": "facebook-d6ba41ca1519159c",
@@ -920,7 +968,9 @@
       ],
       "summary_vn": "Hỏi ai có cây mandrake khổng lồ để xem",
       "label_method": "ai_review",
-      "text_vn_machine": "Nhà có ai có cây mendrake khổng lồ không? Tôi muốn xem nó. Nhà có ai có cây mendrake khổng lồ không? Tôi muốn xem nó."
+      "text_vn_machine": "Nhà có ai có cây mendrake khổng lồ không? Tôi muốn xem nó. Nhà có ai có cây mendrake khổng lồ không? Tôi muốn xem nó.",
+      "text_en": "Does anyone have a giant Mandrake at home? I want to see it. Does anyone have a giant Mandrake at home? I want to see it.",
+      "summary_en": "Asks if anyone has a giant mandrake to look at."
     },
     {
       "id": "facebook-098aa8cfdcbb851f",
@@ -958,7 +1008,9 @@
       "summary_vn": "Hỏi khi nào đội ngũ liên hệ sau khi đăng ký khảo sát",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Khi nào nhóm sẽ liên hệ với chúng tôi về vấn đề này? Có ai thử nộp hồ sơ chưa?"
+      "text_vn_machine": "Khi nào nhóm sẽ liên hệ với chúng tôi về vấn đề này? Có ai thử nộp hồ sơ chưa?",
+      "text_en": "When will the team contact us about this? Has anyone signed up yet?",
+      "summary_en": "Asks when the team will get in touch after signing up for the survey."
     },
     {
       "id": "facebook-9a8238345704c059",
@@ -993,7 +1045,9 @@
       ],
       "summary_vn": "Cho biết đã đăng ký khảo sát nhưng chưa nhận phản hồi",
       "label_method": "ai_review",
-      "text_vn_machine": "Mình đã nộp đơn nhưng chưa nhận được phản hồi nào. Tôi nghĩ tôi sẽ tấn công không ngừng nghỉ."
+      "text_vn_machine": "Mình đã nộp đơn nhưng chưa nhận được phản hồi nào. Tôi nghĩ tôi sẽ tấn công không ngừng nghỉ.",
+      "text_en": "I signed up but haven't heard anything back. I was planning to give some really blunt feedback.",
+      "summary_en": "Signed up for the survey but hasn't heard back."
     },
     {
       "id": "facebook-d54c0599c7a28442",
@@ -1030,7 +1084,9 @@
       "summary_vn": "Quên ID tài khoản, hỏi cách khắc phục",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Có cách nào để khắc phục điều này? Quên ID?"
+      "text_vn_machine": "Có cách nào để khắc phục điều này? Quên ID?",
+      "text_en": "Is there any way? I forgot my account.",
+      "summary_en": "Forgot their account ID, asks how to fix it."
     },
     {
       "id": "facebook-7c425361a3115dbe",
@@ -1068,7 +1124,9 @@
       ],
       "summary_vn": "Mới quay lại, quên ID tài khoản, hỏi cách lấy lại",
       "label_method": "ai_review",
-      "text_vn_machine": "Có cách nào để khắc phục nó? Về chơi thôi. Mất ID, không nhớ được"
+      "text_vn_machine": "Có cách nào để khắc phục nó? Về chơi thôi. Mất ID, không nhớ được",
+      "text_en": "Is there any way? I just came back and lost my account, I can't remember it.",
+      "summary_en": "Just returned and forgot their account ID, asks how to recover it."
     },
     {
       "id": "facebook-425dd882bed4426e",
@@ -1107,7 +1165,9 @@
       "summary_vn": "Khoe quay gacha một lần đã trúng trang phục",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Trước đây, nếu bạn có kim cương hoặc có bao nhiêu vé, bạn có thể tiêu hết tiền mà thậm chí không mua được một bộ. Hôm nay chỉ cần ngâm một lần thôi. May mắn"
+      "text_vn_machine": "Trước đây, nếu bạn có kim cương hoặc có bao nhiêu vé, bạn có thể tiêu hết tiền mà thậm chí không mua được một bộ. Hôm nay chỉ cần ngâm một lần thôi. May mắn",
+      "text_en": "Before, I spent all my diamonds and tickets and couldn't get a single outfit, today I got it in just one draw, Lucky!",
+      "summary_en": "Shows off winning an outfit in a single gacha draw."
     },
     {
       "id": "facebook-78d674f7e2543a40",
@@ -1145,7 +1205,9 @@
       ],
       "summary_vn": "Chào thứ Ba, chúc mọi người vui khỏe, đi đường an toàn",
       "label_method": "ai_review",
-      "text_vn_machine": "Xin chào thứ ba. Chúc các bạn vui vẻ, tươi trẻ, tươi sáng, khỏe mạnh, mạnh mẽ, du lịch gần xa. An toàn mọi lúc"
+      "text_vn_machine": "Xin chào thứ ba. Chúc các bạn vui vẻ, tươi trẻ, tươi sáng, khỏe mạnh, mạnh mẽ, du lịch gần xa. An toàn mọi lúc",
+      "text_en": "Happy Tuesday! Wishing everyone a fun, bright, healthy day and a safe trip wherever you go.",
+      "summary_en": "Tuesday greeting wishing everyone health and safe travels."
     },
     {
       "id": "facebook-c67699e2a05dbc77",
@@ -1182,7 +1244,9 @@
       ],
       "summary_vn": "Hỏi mua thuyền nhiều chỗ ngồi ở đâu",
       "label_method": "ai_review",
-      "text_vn_machine": "Mua thuyền nhiều chỗ ở đâu?"
+      "text_vn_machine": "Mua thuyền nhiều chỗ ở đâu?",
+      "text_en": "Where do you buy the multi-seat boat?",
+      "summary_en": "Asks where to buy the multi-seat boat."
     },
     {
       "id": "facebook-27060fa0c6ab2edd",
@@ -1217,7 +1281,9 @@
       ],
       "summary_vn": "Trả lời thuyền mua ở công viên khủng long",
       "label_method": "ai_review",
-      "text_vn_machine": "Công viên khủng long"
+      "text_vn_machine": "Công viên khủng long",
+      "text_en": "At Dinosaur Park.",
+      "summary_en": "Replies that the boat is sold at Dinosaur Park."
     },
     {
       "id": "facebook-b0db96739eb6550c",
@@ -1252,7 +1318,9 @@
       ],
       "summary_vn": "Chia sẻ cách hoàn thành nhiệm vụ bằng dắt đi dạo tới quảng trường",
       "label_method": "ai_review",
-      "text_vn_machine": "Nếu tôi nhớ không lầm thì chúng tôi đã đưa anh ấy đi dạo. Chúng tôi đang ở nhà khi gặp phải nhiệm vụ này. Thế là chúng tôi vội vã tới quảng trường. Sau một thời gian, ống bắt đầu tự chạy. Sau đó nhiệm vụ được hoàn thành một cách bối rối."
+      "text_vn_machine": "Nếu tôi nhớ không lầm thì chúng tôi đã đưa anh ấy đi dạo. Chúng tôi đang ở nhà khi gặp phải nhiệm vụ này. Thế là chúng tôi vội vã tới quảng trường. Sau một thời gian, ống bắt đầu tự chạy. Sau đó nhiệm vụ được hoàn thành một cách bối rối.",
+      "text_en": "If I remember right, I just walked it around. When I got this quest I was at home, so I quickly went out to the Plaza, and after a while the progress bar filled up on its own and the quest was done before I knew it.",
+      "summary_en": "Shares how they finished the quest by walking around to the Plaza."
     },
     {
       "id": "facebook-6068b44e657ed509",
@@ -1288,7 +1356,9 @@
       ],
       "summary_vn": "Trả lời câu đố minigame: 8+8+8=24",
       "label_method": "ai_review",
-      "text_vn_machine": "8+8+8 =24"
+      "text_vn_machine": "8+8+8 =24",
+      "text_en": "8+8+8 = 24",
+      "summary_en": "Answers the minigame puzzle: 8+8+8=24."
     },
     {
       "id": "facebook-3a2fcd864cf5c7b7",
@@ -1326,7 +1396,9 @@
       ],
       "summary_vn": "Chào thứ Ba, chúc mọi người vui khỏe, đi đường an toàn",
       "label_method": "ai_review",
-      "text_vn_machine": "Xin chào thứ ba. Chúc các bạn vui vẻ, tươi trẻ, tươi sáng, khỏe mạnh, mạnh mẽ, du lịch gần xa. An toàn mọi lúc"
+      "text_vn_machine": "Xin chào thứ ba. Chúc các bạn vui vẻ, tươi trẻ, tươi sáng, khỏe mạnh, mạnh mẽ, du lịch gần xa. An toàn mọi lúc",
+      "text_en": "Happy Tuesday! Wishing everyone a fun, bright, healthy day and a safe trip wherever you go.",
+      "summary_en": "Tuesday greeting wishing everyone health and safe travels."
     },
     {
       "id": "facebook-f674a037336acb4d",
@@ -1362,7 +1434,9 @@
       ],
       "summary_vn": "Trả lời câu đố minigame: ba lá thư bằng 24",
       "label_method": "ai_review",
-      "text_vn_machine": "Lá thư + Lá thư + Lá thư = 24"
+      "text_vn_machine": "Lá thư + Lá thư + Lá thư = 24",
+      "text_en": "Letter + letter + letter = 24",
+      "summary_en": "Answers the minigame puzzle: three letters equal 24."
     },
     {
       "id": "facebook-bf56ed3abdec32a3",
@@ -1398,7 +1472,9 @@
       ],
       "summary_vn": "Trả lời câu đố: ba lá thư phép thuật bằng 24",
       "label_method": "ai_review",
-      "text_vn_machine": "1. Lá thư phép thuật + Lá thư phép thuật + Lá thư phép thuật = 24"
+      "text_vn_machine": "1. Lá thư phép thuật + Lá thư phép thuật + Lá thư phép thuật = 24",
+      "text_en": "1. Magic letter + magic letter + magic letter = 24",
+      "summary_en": "Answers the puzzle: three magic letters equal 24."
     },
     {
       "id": "facebook-032e3fc27aff6536",
@@ -1432,7 +1508,9 @@
         "bình luận ảnh"
       ],
       "summary_vn": "Khen bức ảnh dễ thương",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "So cute",
+      "summary_en": "Says the picture is cute."
     },
     {
       "id": "youtube-c9246a39915cd4e5",
@@ -1471,7 +1549,9 @@
       "summary_vn": "Video dẫn đi săn cá kỳ lạ Taumafiskur",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Malong dẫn mọi người đi săn cá kỳ lạ Taumafiskur"
+      "text_vn_machine": "Malong dẫn mọi người đi săn cá kỳ lạ Taumafiskur",
+      "text_en": "Let Malong take you hunting for the weird fish Thaumafiscur #playtogethervng",
+      "summary_en": "Video hunting the strange fish Thaumafiscur."
     },
     {
       "id": "youtube-8fb5756ff78fd09e",
@@ -1510,7 +1590,9 @@
       "summary_vn": "Video rủ thành viên đi săn cá tôm hùm biển sâu",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Nào các thành viên, cùng đi săn cá tôm hùm biển sâu"
+      "text_vn_machine": "Nào các thành viên, cùng đi săn cá tôm hùm biển sâu",
+      "text_en": "Let's go members, time to hunt deep-sea fish and shrimp (?) #playtogethervng #gaming",
+      "summary_en": "Video inviting members to hunt deep-sea fish and lobster."
     },
     {
       "id": "tiktok-dcfa1da1895b3f58",
@@ -1546,7 +1628,9 @@
         "comment_count": 0,
         "video_title": null
       },
-      "collected_at": "2026-10-14T10:00:00+07:00"
+      "collected_at": "2026-10-14T10:00:00+07:00",
+      "text_en": "Today is the last chance",
+      "summary_en": "Reminds that today is the last day of the event."
     },
     {
       "id": "gplay-vng-a5c04ef1a341ddfd",
@@ -1579,7 +1663,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Really good.",
+      "summary_en": "Says the game is really good."
     },
     {
       "id": "gplay-vng-a8fd3327171a8940",
@@ -1615,7 +1701,9 @@
         "Comparative Feedback",
         "Service"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "I played as a kid, came back now and found out the game has grown so much 😭",
+      "summary_en": "Returning player surprised by how much the game has grown."
     }
   ],
   "metrics": {

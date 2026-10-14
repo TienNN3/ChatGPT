@@ -35,7 +35,9 @@
         "Performance And Bugs",
         "Installation And Setup"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Loading takes so long, sooo long.",
+      "summary_en": "The game takes too long to load."
     }
   ],
   "report": {

@@ -27,7 +27,9 @@
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trung tính về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Can this even download? It's so slow",
+      "summary_en": "Complains the game downloads too slowly."
     },
     {
       "id": "android-4ea5356488115ed2",
@@ -54,7 +56,9 @@
       "summary_vn": "Game văng mỗi lần vào trên iPad mới, màn hình đen hoặc đỏ",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I don't know what the problem is but it crashes every time I open the game, even on a brand new iPad, the whole screen turns black or red, and I've already updated",
+      "summary_en": "Crashes every time on a new iPad, black or red screen."
     },
     {
       "id": "android-6af823b9e1aa2446",
@@ -80,7 +84,9 @@
       "summary_vn": "Khen game rất tốt",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Very good",
+      "summary_en": "Says the game is very good."
     },
     {
       "id": "android-85e8f12ab0c017d1",
@@ -106,7 +112,9 @@
       "summary_vn": "Đã chơi 4 năm, mong game tiếp tục phát triển",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "We've been together for 4 years now, keep growing",
+      "summary_en": "Has played 4 years, hopes the game keeps growing."
     }
   ],
   "metrics": {

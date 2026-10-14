@@ -173,7 +173,9 @@
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
       "text_vn_machine": "Mong giảm giá nội thất và trang phục vì đang quá đắt.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Furniture, outfits. Please lower prices a bit, sooo expensive 💗",
+      "summary_en": "Asks for cheaper furniture and outfits."
     },
     {
       "id": "ios-f090c8dc7a5000f3",
@@ -200,7 +202,9 @@
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
       "text_vn_machine": "Ngôn ngữ trong game không nhất quán, lúc tiếng Thái lúc tiếng Anh. Người chơi muốn đọc cốt truyện nhiệm vụ bằng tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Language. Why not do the full Thai translation, sometimes it's Thai and sometimes English. I want to read the story when doing quests too",
+      "summary_en": "Complains about mixed Thai/English text, wants quests in Thai."
     },
     {
       "id": "android-2024c007c038b0ba",
@@ -226,7 +230,9 @@
       "summary_vn": "Khen game thư giãn, có lag nhưng vẫn vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "The game is totally great, chill and relaxing, no need to think much. There's some lag, but it's fun so I let it slide 🤣",
+      "summary_en": "Praises the relaxing game; some lag but still fun."
     },
     {
       "id": "android-f21ce2384b498063",
@@ -253,7 +259,9 @@
       "summary_vn": "Thích game nhưng sau cập nhật mới hay bị văng",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Love it, it's fun, but since the latest update I can get in but the game always feels like it's about to crash, please fix it",
+      "summary_en": "Likes the game but it crashes often since the latest update."
     },
     {
       "id": "android-8bfc10a73b737681",
@@ -280,7 +288,9 @@
       "summary_vn": "Sau cập nhật vào game bị màn hình đen, lỗi nhiều",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "After the new update the screen is black when I enter the game, it bugs out really often, it didn't happen before the update",
+      "summary_en": "Black screen on entering the game after the update, many errors."
     },
     {
       "id": "android-0e68989e4274217d",
@@ -307,7 +317,9 @@
       "summary_vn": "Mỗi lần cập nhật đều lỗi, màn hình tối cả ngày",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Every update is full of bugs, the screen is pitch black when I enter the game and nothing fixes it, couldn't play all day",
+      "summary_en": "Every update brings bugs; black screen all day."
     },
     {
       "id": "android-51f6cd7f5e308780",
@@ -334,7 +346,9 @@
       "summary_vn": "Yêu cầu sửa lỗi màn hình đen sau cập nhật mới nhất",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về sự kiện và nội dung cập nhật. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Fix the latest update, I get a black screen when playing",
+      "summary_en": "Asks to fix the black screen after the latest update."
     },
     {
       "id": "android-1dffaa90de4645a9",
@@ -362,7 +376,9 @@
       "summary_vn": "Cập nhật thú cưng ngựa nhiều lỗi, màn hình đen, đứng hình",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "The horse pet event update is so damn buggy, after playing a while I either get a black screen or a frozen image, while other things still work fine. Please fix it",
+      "summary_en": "Horse pet update is buggy: black screens and freezes."
     },
     {
       "id": "android-3a7c127f641eb383",
@@ -388,7 +404,9 @@
       "summary_vn": "Vào game bị màn hình đen, yêu cầu sửa",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Please fix the bug, I get a black screen when I enter the game",
+      "summary_en": "Black screen on entering the game, asks for a fix."
     },
     {
       "id": "android-48bf33f7cac9710e",
@@ -414,7 +432,9 @@
       "summary_vn": "Game vui nhưng gần đây màn hình bị đứng, vỡ hình",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So fun, super addictive, but lately the screen freezes and the graphics get glitchy, please fix it",
+      "summary_en": "Fun game, but lately the screen freezes and graphics glitch."
     },
     {
       "id": "android-17078d6b7f8d8301",
@@ -441,7 +461,9 @@
       "summary_vn": "Sau cập nhật vào game màn hình đen, không thao tác được",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Ever since the update it's all bugs, can't play at all, black screen when I enter the game, can't do anything",
+      "summary_en": "Black screen after the update, can't do anything."
     },
     {
       "id": "android-3ab0c9bb944cb9be",
@@ -467,7 +489,9 @@
       "summary_vn": "Báo màn hình đen, yêu cầu sửa gấp",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I'm getting a black screen right now, fix it ASAP!!!",
+      "summary_en": "Reports a black screen, asks for an urgent fix."
     }
   ]
 }

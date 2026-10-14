@@ -33,7 +33,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Really really good.",
+      "summary_en": "Says the game is very good."
     },
     {
       "id": "appstore-vng-0b2ed9bebfc5a14d",
@@ -69,7 +71,9 @@
         "Login",
         "User Data And Privacy"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Game is sh*t. Damn awful game, can't get into my old account, the old version was fine so why the hell change it, jerks.",
+      "summary_en": "Curses the game for blocking access to an old account."
     }
   ],
   "report": {

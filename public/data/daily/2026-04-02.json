@@ -192,7 +192,9 @@
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
       "text_vn_machine": "Mong giảm giá vật phẩm, thêm đồ dễ thương và thêm đồ trang trí nhà. Các phần khác của game đều ổn.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Please lower item prices. Please make items a bit cheaper, they're too expensive, and add more cute stuff. The game is already great, I just want a few changes, the rest is ok, super cute. Hope there's more home decor, and please lower the prices of paid items, they're really expensive.",
+      "summary_en": "Wants cheaper items and more home decor."
     },
     {
       "id": "ios-dcddac162c255a6f",
@@ -218,7 +220,9 @@
       "summary_vn": "Game tự thoát khi quay gacha, không nhận vật phẩm",
       "label_method": "ai_review",
       "text_vn_machine": "Game thường tự thoát khi quay vật phẩm, khiến người chơi không nhận được vật phẩm đã quay.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Gacha. Every time I draw, the game quits on its own, so I don't get the item I drew. Other than that no problems.",
+      "summary_en": "Game quits during gacha draws, item not received."
     },
     {
       "id": "ios-df7976c4b200af97",
@@ -243,7 +247,9 @@
       "summary_vn": "Game có quá nhiều quảng cáo đến mức không muốn chơi",
       "label_method": "ai_review",
       "text_vn_machine": "Game có quá nhiều quảng cáo đến mức người chơi không còn muốn chơi.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Ads. The game makes you watch way too many ads, so sick of it I don't want to do anything, don't want to play anymore.",
+      "summary_en": "So many ads the player no longer wants to play."
     },
     {
       "id": "ios-95f77e331fb8fd18",
@@ -271,7 +277,9 @@
       "summary_vn": "Khen nhiều minigame, đồ miễn phí, thú cưng, trồng trọt, câu cá",
       "label_method": "ai_review",
       "text_vn_machine": "Game rất vui, có nhiều minigame, trang phục miễn phí đẹp, thú cưng, trồng trọt, câu cá và nhiều hoạt động.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Game review. Really fun, there are minigames, diamonds are easy to earn, lots of nice free items, a pet system, raising babies, farming, fishing and bug catching. Personally I love it, there are lots of events.",
+      "summary_en": "Praises minigames, free items, pets, farming and fishing."
     },
     {
       "id": "ios-60b75bcb1eeeddf4",
@@ -297,7 +305,9 @@
       "summary_vn": "Mong game bổ sung nghề nghiệp để kiếm tiền",
       "label_method": "ai_review",
       "text_vn_machine": "Mong game bổ sung nghề nghiệp để kiếm tiền và tăng sự thú vị.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Please add jobs. I agree with the comment saying there are no jobs, because with jobs we could earn money and have more fun playing.",
+      "summary_en": "Wants jobs added to earn money."
     },
     {
       "id": "android-73e98eb11c2e4517",
@@ -323,7 +333,9 @@
       "summary_vn": "Khen game rất vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So fun.",
+      "summary_en": "Says the game is very fun."
     },
     {
       "id": "android-bfdc50dec2e96f71",
@@ -349,7 +361,9 @@
       "summary_vn": "Khen game vui, chơi cuốn",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Fun, really addictive.",
+      "summary_en": "Fun and addictive game."
     },
     {
       "id": "android-eef9cefe32a33a5d",
@@ -375,7 +389,9 @@
       "summary_vn": "Không thích quay gacha ra giày trùng ba lần, đã xoá game",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Played since the game first launched, but I don't like getting the same shoes 3 times in a row from the gacha. Deleted the game, fed up.",
+      "summary_en": "Got duplicate shoes three times from gacha, deleted the game."
     },
     {
       "id": "android-aaf0912a4c5c5f78",
@@ -401,7 +417,9 @@
       "summary_vn": "Khen game chơi rất vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Really fun to play.",
+      "summary_en": "Says the game is very fun to play."
     }
   ]
 }

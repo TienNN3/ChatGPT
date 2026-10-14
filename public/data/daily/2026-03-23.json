@@ -152,7 +152,9 @@
       "summary_vn": "Mong mời bạn sống chung, cùng trang trí nhà",
       "label_method": "ai_review",
       "text_vn_machine": "Mong có thể mời bạn bè sống chung và cùng trang trí một ngôi nhà.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Hope we can invite friends to live in the same house. The reason is so we can live together and decorate the house together.",
+      "summary_en": "Wants to invite friends to live in and decorate a shared house."
     },
     {
       "id": "android-1b8c8fffd893df21",
@@ -180,7 +182,9 @@
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Good game, pretty graphics, but every time I enter the pet adoption center or some other places the game just keeps spinning and I can't get in. I don't know if it's the game or me because I signed up with Facebook. Whenever I step into the pet adoption center or elsewhere it spins forever. But when I signed up with email I can walk around normally with no spinning. If it's the server or the game, please fix it.",
+      "summary_en": "Endless loading at the pet adoption center when using a Facebook account."
     },
     {
       "id": "android-f2c30a837205b8b8",
@@ -206,7 +210,9 @@
       "summary_vn": "Từng chơi và thấy rất vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Played it before, it's really fun.",
+      "summary_en": "Has played before and found it very fun."
     }
   ],
   "ratings": [

@@ -34,7 +34,9 @@
       "store_tags": [
         "Feature Requests"
       ],
-      "app_version": "2.29.0"
+      "app_version": "2.29.0",
+      "text_en": "The coupon code box is gone.",
+      "summary_en": "Can't find the gift code input box."
     },
     {
       "id": "gplay-vng-3738b6a677b83497",
@@ -72,7 +74,9 @@
         "Payment",
         "Performance And Bugs"
       ],
-      "app_version": "2.29.0"
+      "app_version": "2.29.0",
+      "text_en": "I left the game for a moment and got kicked out and had to log in again. I tried the account transfer code to VNG again but it doesn't work, so how am I supposed to log back in? I just bought items in the game. Everything in the game is more expensive and the system is so bad.",
+      "summary_en": "Logged out, and the account transfer code can't be reused."
     },
     {
       "id": "gplay-vng-44cd960ca831f68b",
@@ -108,7 +112,9 @@
         "Payment",
         "Performance And Bugs"
       ],
-      "app_version": "2.29.0"
+      "app_version": "2.29.0",
+      "text_en": "Why can't I top up to buy the outfit? It's about to run out of time ( ⸝⸝･̆⤚･̆⸝⸝)",
+      "summary_en": "Can't top up to buy an outfit that's about to expire."
     },
     {
       "id": "appstore-vng-a101390c049828cf",
@@ -144,7 +150,9 @@
         "Performance And Bugs",
         "Login"
       ],
-      "app_version": "2.29.0"
+      "app_version": "2.29.0",
+      "text_en": "System. After logging in it crashes, I can never get in.",
+      "summary_en": "Crashes after login and can't get into the game."
     },
     {
       "id": "appstore-vng-e729e751961c52f6",
@@ -180,7 +188,9 @@
         "Login",
         "Performance And Bugs"
       ],
-      "app_version": "2.29.0"
+      "app_version": "2.29.0",
+      "text_en": "Problem. I can't get into my old ID from the previous version of the game, and that app doesn't exist anymore, so how can I fix this? I want to get into my old ID.",
+      "summary_en": "Asks how to access an old ID now that the old app is gone."
     }
   ],
   "report": {

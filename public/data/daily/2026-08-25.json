@@ -35,7 +35,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "This game is great, but my internet is a bit slow.",
+      "summary_en": "Likes the game but their own internet is slow."
     }
   ],
   "report": {

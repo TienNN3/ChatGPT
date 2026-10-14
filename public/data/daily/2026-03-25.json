@@ -147,7 +147,9 @@
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
       "text_vn_machine": "Thích sự kiện giá đặc biệt hằng ngày nhưng mong có mô tả và bản xem trước để phân biệt đồ trang trí, đồ mặc và vật phẩm trong lượt quay.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Please add more info. I really like the Daily Special Prices event. But could you add more info about the items? Sometimes it's hard to tell if something is home decor or something you can wear. And for the gacha draws, I don't always remember what's inside. A preview feature or short description would be really helpful!!!",
+      "summary_en": "Likes the special prices event, wants item descriptions and previews."
     },
     {
       "id": "android-699f07a3c66690ea",
@@ -173,7 +175,9 @@
       "summary_vn": "Khen game rất vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Sooo fuuun",
+      "summary_en": "Says the game is very fun."
     },
     {
       "id": "android-36249e4aeedf8c89",
@@ -199,7 +203,9 @@
       "summary_vn": "Khen game chơi giống đời thực",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "It feels just like real life! 🎉⚡💯⚡🎉",
+      "summary_en": "Says the game feels like real life."
     },
     {
       "id": "android-fb9854f7edb201ce",
@@ -225,7 +231,9 @@
       "summary_vn": "Nạp gói nhưng không nhận được, yêu cầu hoàn tiền",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I bought a pack but didn't receive it, please refund me.",
+      "summary_en": "Bought a pack but didn't receive it, asks for a refund."
     },
     {
       "id": "android-015c9add48c4bca2",
@@ -251,7 +259,9 @@
       "summary_vn": "Khen đồ họa đẹp, nhân vật đẹp, chơi cuốn",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "This game has really pretty graphics, it's fun and addictive, the characters look great too.",
+      "summary_en": "Praises nice graphics and characters, addictive gameplay."
     }
   ]
 }

@@ -33,7 +33,9 @@
         "ảnh"
       ],
       "summary_vn": "Đăng ảnh vẽ chữ theo hoạt động nhóm",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Image-only post; Facebook provided no text to translate.",
+      "summary_en": "Posted a lettering drawing for a group activity."
     },
     {
       "id": "facebook-cfbe2efd555c5354",
@@ -71,7 +73,9 @@
       "summary_vn": "Rao dịch vụ đổi thời tiết 10 baht, tặng quà, bán hạt giống",
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
-      "text_vn_machine": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung."
+      "text_vn_machine": "Dịch vụ báo thời tiết, tặng quà và cùng chơi hạt giống. Mỗi hạng mục thời tiết có giá 10 baht. Giá hạt giống như trong hình. Hạt giống phổ biến sử dụng vàng không thể được tặng. Có thể có một sự điều chỉnh giá nhẹ. Hãy theo dõi bài viết mới nhất của Ung. Thêm và bạn có thể nói chuyện với chúng tôi. Chấp nhận cả ví và ngân hàng. Cổ phiếu không ngừng tăng lên. Vui lòng hỏi về các gói bổ sung.",
+      "text_en": "Play Together weather change, gifting and seed service. Any weather change is 10 baht, seed prices are in the picture. Note: seeds bought with gold can't be gifted. Prices may change slightly, follow the shop's latest post. Add me as a friend and message right away, e-wallet and bank accepted. New stock coming in all the time, feel free to ask about other packs.",
+      "summary_en": "Weather change service for 10 baht, plus gifting and seed sales."
     },
     {
       "id": "facebook-209290f0ed99eab6",
@@ -109,7 +113,9 @@
       ],
       "summary_vn": "Rao bán thẻ 5 sao 5 baht, 4 sao 4 baht, đủ 1-3 sao",
       "label_method": "ai_review",
-      "text_vn_machine": "5 sao = 5 baht, 4 sao = 4 baht, 1-3 sao có đủ hết nha, liên hệ hỏi được ạ (có uy tín, xem ở trang cá nhân)"
+      "text_vn_machine": "5 sao = 5 baht, 4 sao = 4 baht, 1-3 sao có đủ hết nha, liên hệ hỏi được ạ (có uy tín, xem ở trang cá nhân)",
+      "text_en": "5-star cards = 5 baht, 4-star = 4 baht, all 1-3 star cards available, message me to ask (trusted, check my profile).",
+      "summary_en": "Selling 5-star cards for 5 baht, 4-star for 4 baht, all 1-3 star cards available."
     },
     {
       "id": "facebook-564b1010e904bdae",
@@ -146,7 +152,9 @@
       ],
       "summary_vn": "Hỏi dùng vợt nào để bắt, mua ở đâu",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi dùng cần nào để bắt ạ, hoặc mua cần ở đâu được ạ?"
+      "text_vn_machine": "Cho hỏi dùng cần nào để bắt ạ, hoặc mua cần ở đâu được ạ?",
+      "text_en": "Which net do you use to catch it, or where do you buy the net?",
+      "summary_en": "Asks which net to use and where to buy it."
     },
     {
       "id": "facebook-4ba420f710288818",
@@ -185,7 +193,9 @@
       "summary_vn": "Hỏi ai mua bộ gói mới chưa, khen trang phục ngầu",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Có ai mua bộ gói mới chưa, mình mới thấy. Bộ đồ trông khá ngầu đó"
+      "text_vn_machine": "Có ai mua bộ gói mới chưa, mình mới thấy. Bộ đồ trông khá ngầu đó",
+      "text_en": "Has anyone bought the new pack outfit? I just saw it, the outfit looks pretty cool.",
+      "summary_en": "Asks who bought the new pack and says the outfit looks cool."
     },
     {
       "id": "facebook-074d4564c03d3719",
@@ -222,7 +232,9 @@
       ],
       "summary_vn": "Hỏi cách chuyển liên kết ID từ Apple sang Facebook",
       "label_method": "ai_review",
-      "text_vn_machine": "ID đang liên kết với Apple, muốn liên kết với Facebook thì làm thế nào?"
+      "text_vn_machine": "ID đang liên kết với Apple, muốn liên kết với Facebook thì làm thế nào?",
+      "text_en": "My account is linked to Apple, how do I also link Facebook?",
+      "summary_en": "Asks how to move their ID link from Apple to Facebook."
     },
     {
       "id": "facebook-5ca6985ee90d15cb",
@@ -262,7 +274,9 @@
       "summary_vn": "Chia sẻ clip hướng dẫn nuôi thỏ, tìm nguyên liệu thức ăn",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Hướng dẫn nuôi thỏ nè, ai mới quay lại chơi hoặc không biết tìm nguyên liệu thức ăn cho thỏ thế nào thì xem clip này nhé"
+      "text_vn_machine": "Hướng dẫn nuôi thỏ nè, ai mới quay lại chơi hoặc không biết tìm nguyên liệu thức ăn cho thỏ thế nào thì xem clip này nhé",
+      "text_en": "Here's a rabbit care guide. If you just came back or don't know where to find ingredients for rabbit food, check out this clip.",
+      "summary_en": "Shares a guide clip on raising rabbits and finding food ingredients."
     },
     {
       "id": "facebook-e1c31eb9e9f0f5f4",
@@ -301,7 +315,9 @@
       "summary_vn": "Hỏi huy hiệu vương miện có tặng khiên trang trí nhà không",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi huy hiệu vương miện này lúc nhận trong game không được tặng khiên để trang trí nhà như các huy hiệu khác hả? Hay là có mà mình tìm không thấy"
+      "text_vn_machine": "Cho hỏi huy hiệu vương miện này lúc nhận trong game không được tặng khiên để trang trí nhà như các huy hiệu khác hả? Hay là có mà mình tìm không thấy",
+      "text_en": "Does this crown badge not give a shield to decorate your house like other badges when you get it in game? Or does it and I just can't find it?",
+      "summary_en": "Asks if the crown badge gives a house decoration shield."
     },
     {
       "id": "facebook-fb64049f6db9a239",
@@ -340,7 +356,9 @@
       ],
       "summary_vn": "Hỏi chó đánh hơi cần nền màu nào mới tìm đồ",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi chó dùng để đánh hơi tìm đồ phải từ nền màu nào trở lên thì mới tìm đồ được ạ? Của mình nền xanh dương mà nó không tìm gì cả, chỉ chạy theo, không đánh hơi, không có hiệu ứng gì. Hay mình làm sai cách ạ?"
+      "text_vn_machine": "Cho hỏi chó dùng để đánh hơi tìm đồ phải từ nền màu nào trở lên thì mới tìm đồ được ạ? Của mình nền xanh dương mà nó không tìm gì cả, chỉ chạy theo, không đánh hơi, không có hiệu ứng gì. Hay mình làm sai cách ạ?",
+      "text_en": "What background color does the sniffing dog need to find items? Mine has a blue background but doesn't find anything, it just follows me around, no sniffing, no effects at all. Or am I doing it wrong?",
+      "summary_en": "Asks what background color the sniffing dog needs to find items."
     },
     {
       "id": "facebook-b2e9d91273056388",
@@ -378,7 +396,9 @@
       ],
       "summary_vn": "Hỏi món này là gì, nhờ người biết trả lời",
       "label_method": "ai_review",
-      "text_vn_machine": "Cái này là gì??? Ai biết trả lời giúp với"
+      "text_vn_machine": "Cái này là gì??? Ai biết trả lời giúp với",
+      "text_en": "What is this??? Someone who knows please answer.",
+      "summary_en": "Asks what this item is, hoping someone knows."
     },
     {
       "id": "facebook-687bcaad65194145",
@@ -417,7 +437,9 @@
       ],
       "summary_vn": "Đăng vui chuyện đi tìm một con rùa thỏ vương miện",
       "label_method": "ai_review",
-      "text_vn_machine": "Mọi chuyện bắt đầu từ việc đi tìm đúng một con rùa thỏ vương miện"
+      "text_vn_machine": "Mọi chuyện bắt đầu từ việc đi tìm đúng một con rùa thỏ vương miện",
+      "text_en": "It all started with looking for a crowned rabbit turtle.",
+      "summary_en": "Fun post about searching for a crowned rabbit turtle."
     },
     {
       "id": "facebook-c581867ec50caa46",
@@ -454,7 +476,9 @@
       ],
       "summary_vn": "Khoe phối đồ với bộ khác, hỏi có dễ thương không",
       "label_method": "ai_review",
-      "text_vn_machine": "Muốn xem phối với bộ khác có dễ thương không"
+      "text_vn_machine": "Muốn xem phối với bộ khác có dễ thương không",
+      "text_en": "Want to see if the cat looks cute in a different outfit?",
+      "summary_en": "Shows off a different outfit combo and asks if it's cute."
     },
     {
       "id": "facebook-2eb0d38af1254a4c",
@@ -493,7 +517,9 @@
       ],
       "summary_vn": "Khoe bay ngắm cảnh với thỏ, lúc đầu hay cắm đầu",
       "label_method": "ai_review",
-      "text_vn_machine": "Lúc đầu bay chưa quen, cắm đầu suốt. Khi bắt đầu thạo rồi thì bay ngắm cảnh đã luôn. Bé dễ thương quá"
+      "text_vn_machine": "Lúc đầu bay chưa quen, cắm đầu suốt. Khi bắt đầu thạo rồi thì bay ngắm cảnh đã luôn. Bé dễ thương quá",
+      "text_en": "At first I didn't know how to fly and kept nose-diving, but once I got the hang of it, flying around sightseeing is awesome, it's so cute.",
+      "summary_en": "Enjoys flying with the rabbit to see the sights, after nose-diving at first."
     },
     {
       "id": "facebook-1b634b7f132f173e",
@@ -529,7 +555,9 @@
       ],
       "summary_vn": "Hỏi cách lấy lại ID mật khẩu cũ để chơi",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi muốn lấy ID/mật khẩu cũ vào chơi thì làm sao ạ?"
+      "text_vn_machine": "Cho hỏi muốn lấy ID/mật khẩu cũ vào chơi thì làm sao ạ?",
+      "text_en": "How do I play my old account again?",
+      "summary_en": "Asks how to recover their old ID and password to play."
     },
     {
       "id": "facebook-bd62f90119c1afb0",
@@ -565,7 +593,9 @@
       ],
       "summary_vn": "Hỏi nâng cấp thỏ nền tím có cần 4 con cùng loại không",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi thỏ nền tím nếu muốn nâng cấp thì phải dùng 4 con thỏ cùng loại không, hay khác loại cũng được?"
+      "text_vn_machine": "Cho hỏi thỏ nền tím nếu muốn nâng cấp thì phải dùng 4 con thỏ cùng loại không, hay khác loại cũng được?",
+      "text_en": "Quick question: to upgrade a purple-background rabbit, do I need 4 identical rabbits, or can they be different types?",
+      "summary_en": "Asks if upgrading a purple-background rabbit needs 4 of the same type."
     },
     {
       "id": "facebook-c45dd668a76e93d2",
@@ -604,7 +634,9 @@
       "summary_vn": "Đăng nhập email cũ nhưng bị bắt tạo nhân vật mới",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi sao đăng nhập email cũ mà nó lại bắt tạo nhân vật mới ạ? Mình từng chơi 2-3 năm trước, lúc đầu chơi trên Android, giờ đổi sang iOS rồi"
+      "text_vn_machine": "Cho hỏi sao đăng nhập email cũ mà nó lại bắt tạo nhân vật mới ạ? Mình từng chơi 2-3 năm trước, lúc đầu chơi trên Android, giờ đổi sang iOS rồi",
+      "text_en": "Why does logging in with my old email make me create a new character? I played 2-3 years ago, first on Android, and now I've switched to iOS.",
+      "summary_en": "Logged in with old email but was asked to create a new character."
     },
     {
       "id": "facebook-2aec5399989722d3",
@@ -642,7 +674,9 @@
       ],
       "summary_vn": "Đùa bộ đồ mới trông quen như thấy mỗi ngày",
       "label_method": "ai_review",
-      "text_vn_machine": "Bộ này lạ mà quen quen, hình như thấy ở đâu rồi, thấy mỗi ngày luôn ấy"
+      "text_vn_machine": "Bộ này lạ mà quen quen, hình như thấy ở đâu rồi, thấy mỗi ngày luôn ấy",
+      "text_en": "This outfit looks kinda familiar, like I've seen it somewhere before... actually I see it every day.",
+      "summary_en": "Jokes the new outfit looks familiar, like something seen every day."
     },
     {
       "id": "facebook-6ace02b9dc3f9712",
@@ -682,7 +716,9 @@
       "summary_vn": "Khoe mất 2 ngày là hoàn thành hết mọi thứ",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Mất 2 ngày là xong hết mọi thứ"
+      "text_vn_machine": "Mất 2 ngày là xong hết mọi thứ",
+      "text_en": "Took 2 days, got everything.",
+      "summary_en": "Brags about finishing everything in 2 days."
     },
     {
       "id": "tiktok-74427512d53360b3",
@@ -718,7 +754,9 @@
         "comment_count": 0,
         "video_title": null
       },
-      "collected_at": "2026-10-14T10:00:00+07:00"
+      "collected_at": "2026-10-14T10:00:00+07:00",
+      "text_en": "(Video has only hashtags, no description)",
+      "summary_en": "Gameplay video with no description."
     }
   ],
   "alerts": [],

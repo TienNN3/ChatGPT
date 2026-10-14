@@ -35,7 +35,9 @@
         "Feature Requests",
         "Error Handling And Messages"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "I have no idea how to do anything, I can't even manage bug catching.",
+      "summary_en": "New player doesn't know how to play, even bug catching."
     },
     {
       "id": "gplay-vng-8b6921a371645fdf",
@@ -71,7 +73,9 @@
         "Content",
         "Service"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "So fun, didn't expect it to be this fun. I like that there are lots of places, and everyone is so sweet, love it. This game is so cute.",
+      "summary_en": "Says the game is fun, with many places and a sweet community."
     },
     {
       "id": "appstore-vng-d78f3dc4c264a37d",
@@ -107,7 +111,9 @@
         "Security",
         "Performance And Bugs"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Hacks. Way too many hackers.",
+      "summary_en": "Too many hackers in the game."
     },
     {
       "id": "appstore-vng-55cec04e84ddf6e0",
@@ -143,7 +149,9 @@
         "Updates And Maintenance",
         "Service"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Such a good game changed this much, so sad. Really sad, I can't get into my old account. If you're making it, it should be better, how did it end up like this?",
+      "summary_en": "Can't access old account; says the game got worse."
     }
   ],
   "alerts": [],

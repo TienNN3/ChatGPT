@@ -26,7 +26,9 @@
       "summary_vn": "Chơi 2 tuần không nạp vẫn tích được gần 1000 kim cương",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Pretty good game. I've been playing nonstop for 2 weeks now, haven't spent a single baht, and I've still saved up almost 1,000 diamonds.",
+      "summary_en": "Played 2 weeks without paying and saved almost 1,000 diamonds."
     },
     {
       "id": "facebook-d01b0d4082b793b8",
@@ -65,7 +67,9 @@
       "summary_vn": "Bán thẻ 5 sao giá 5 baht, 4 sao giá 4 baht",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "5 sao = 5 ฿4 sao = 4 ฿ Các mức sao thấp hơn khác vui lòng liên hệ và hỏi thăm (có tín dụng, kiểm tra trên trang hồ sơ)"
+      "text_vn_machine": "5 sao = 5 ฿4 sao = 4 ฿ Các mức sao thấp hơn khác vui lòng liên hệ và hỏi thăm (có tín dụng, kiểm tra trên trang hồ sơ)",
+      "text_en": "5-star cards = 5 baht, 4-star = 4 baht. For lower-star cards and other types, message me to ask (trusted, check my profile).",
+      "summary_en": "Selling 5-star cards for 5 baht and 4-star cards for 4 baht."
     },
     {
       "id": "facebook-365e357874485df5",
@@ -103,7 +107,9 @@
       ],
       "summary_vn": "Shop nhận cày sự kiện súp phép thuật và cày cấp thuê",
       "label_method": "ai_review",
-      "text_vn_machine": "Little Mut Shop nhận sự kiện. Súp ma thuật xu - 1.500 xu 35.-- 5.000 xu 110.- Loại toàn cấp - Cấp 1-50, kết thúc 250 (bao gồm các hoạt động giải đấu ma thuật) Miễn phí!!- Các cấp độ khác - 50, bạn có thể nói chuyện với chúng tôi để hỏi (tập hợp giải đấu ma thuật) Miễn phí!! Nhận tất cả các kênh Facebook, Fah mail (app cũ), mail+password (vng app) Xong việc, xóa tài khoản để streaming. (Quét qua mã QR trên máy tính) Có sẵn séc tín dụng. Trang hồ sơ"
+      "text_vn_machine": "Little Mut Shop nhận sự kiện. Súp ma thuật xu - 1.500 xu 35.-- 5.000 xu 110.- Loại toàn cấp - Cấp 1-50, kết thúc 250 (bao gồm các hoạt động giải đấu ma thuật) Miễn phí!!- Các cấp độ khác - 50, bạn có thể nói chuyện với chúng tôi để hỏi (tập hợp giải đấu ma thuật) Miễn phí!! Nhận tất cả các kênh Facebook, Fah mail (app cũ), mail+password (vng app) Xong việc, xóa tài khoản để streaming. (Quét qua mã QR trên máy tính) Có sẵn séc tín dụng. Trang hồ sơ",
+      "text_en": "Little Mood Shop is taking Magic Soup event boosting orders. Coin packs: 1,500 coins for 35 baht; 5,000 coins for 110 baht. Full level packs: level 1-50 for 250 baht flat (free Magic Duel quest included!!); other levels, -50, inbox to ask (free Magic Duel quest included!!). All login types accepted: Facebook, blue mail (old app), mail + password (VNG app), and I'll remove the account once done. Streaming available (scan QR on PC). Check my profile for reviews.",
+      "summary_en": "Shop offering Magic Soup event boosting and level boosting."
     },
     {
       "id": "facebook-3b2cedacc11cc07b",
@@ -141,7 +147,9 @@
       ],
       "summary_vn": "Cần mua gấp 1 quả sầu riêng Aurora trước 7 giờ",
       "label_method": "ai_review",
-      "text_vn_machine": "Nhận gấp 1 Sầu riêng Aurora trước 7h sáng. Bạn có thể trò chuyện với chúng tôi."
+      "text_vn_machine": "Nhận gấp 1 Sầu riêng Aurora trước 7h sáng. Bạn có thể trò chuyện với chúng tôi.",
+      "text_en": "Urgently need to buy 1 Aurora durian before 7 AM, message me right away.",
+      "summary_en": "Urgently wants to buy 1 Aurora durian before 7 AM."
     },
     {
       "id": "facebook-7dfc3fe57e8a9f81",
@@ -177,7 +185,9 @@
       ],
       "summary_vn": "Bán nhân sâm thường 10 baht, có trạng thái 25 baht",
       "label_method": "ai_review",
-      "text_vn_machine": "Bán nhân sâm bình thường 10฿ Có trạng thái 25฿ cho mỗi hồ sơ và tín dụng."
+      "text_vn_machine": "Bán nhân sâm bình thường 10฿ Có trạng thái 25฿ cho mỗi hồ sơ và tín dụng.",
+      "text_en": "Selling regular ginseng for 10 baht, ones with effects for 25 baht. Check my profile for reviews.",
+      "summary_en": "Selling regular ginseng for 10 baht, ones with effects for 25 baht."
     },
     {
       "id": "gplay-vng-2c52e60768f168ea",
@@ -209,7 +219,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Neutral",
       "store_tags": [],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Copy (?)",
+      "summary_en": "One-word comment, meaning unclear."
     },
     {
       "id": "gplay-vng-45e51c4c67c1f087",
@@ -246,7 +258,9 @@
         "Content",
         "Service"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "The game is really fun, there's lots to do: minigames, raising pets, fishing.",
+      "summary_en": "Praises the game's many activities: minigames, pets, fishing."
     }
   ],
   "metrics": {

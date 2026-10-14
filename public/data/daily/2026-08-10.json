@@ -32,7 +32,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Very good.",
+      "summary_en": "Says the game is very good."
     },
     {
       "id": "gplay-vng-b23ca231a2692da0",
@@ -68,7 +70,9 @@
         "Gamification",
         "Monetization"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "You get rewards all the time, I've only played 2 days and I'm almost rich 🤑🤑",
+      "summary_en": "New player praises frequent rewards; almost rich after 2 days."
     },
     {
       "id": "appstore-vng-fa53ac9b1137f044",
@@ -104,7 +108,9 @@
         "User Data And Privacy",
         "Customer Support"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Give my old account back. This is really not okay, everything I built for so long is gone, the account just vanished. I played for a whole year, you're toying with players' feelings. I hope the management sees this and fixes it, because I topped up quite a lot on the old account.",
+      "summary_en": "Lost an account played for a year; wants it restored."
     }
   ],
   "alerts": [],

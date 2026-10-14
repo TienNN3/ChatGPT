@@ -38,7 +38,9 @@
       ],
       "summary_vn": "Nhận cày thuê xu mặt trăng, bóng bay, xe đẩy cà rốt",
       "label_method": "ai_review",
-      "text_vn_machine": "Hàng đợi có sẵn. Chấp nhận Moon Coin Farm 1.000 xu 15฿5.000 xu 70฿10.000 xu 140฿ Bóng bay 250฿ Xe đẩy cà rốt 220฿ Mua 2 ô tô 450฿· Tôi cần người không vội vàng. • Khóa thư xanh • Tín dụng trang hồ sơ"
+      "text_vn_machine": "Hàng đợi có sẵn. Chấp nhận Moon Coin Farm 1.000 xu 15฿5.000 xu 70฿10.000 xu 140฿ Bóng bay 250฿ Xe đẩy cà rốt 220฿ Mua 2 ô tô 450฿· Tôi cần người không vội vàng. • Khóa thư xanh • Tín dụng trang hồ sơ",
+      "text_en": "Still taking orders. Moon Coin boosting: 1,000 coins 15 baht, 5,000 coins 70 baht, 10,000 coins 140 baht. Hot air balloon 250 baht, carrot cart 220 baht, both carts bundle 450 baht.\n• Please don't rush me\n• Blue mail locked\n• Check my profile for reviews.",
+      "summary_en": "Boosting service for Moon Coins, hot air balloon and carrot cart."
     },
     {
       "id": "facebook-7d167aec57f23ae1",
@@ -76,7 +78,9 @@
       ],
       "summary_vn": "Rao bán nhân sâm 20 cây 170 baht",
       "label_method": "ai_review",
-      "text_vn_machine": "Bán 20 cây nhân sâm với giá 170 baht #có tín dụngBán 20 cây nhân sâm với giá 170 baht #có tín dụng"
+      "text_vn_machine": "Bán 20 cây nhân sâm với giá 170 baht #có tín dụngBán 20 cây nhân sâm với giá 170 baht #có tín dụng",
+      "text_en": "Selling ginseng, 20 for 170 baht #trusted",
+      "summary_en": "Selling 20 ginseng for 170 baht."
     },
     {
       "id": "facebook-0c20c1e8af2c99a6",
@@ -113,7 +117,9 @@
       ],
       "summary_vn": "Nhận cày thuê sự kiện thỏ mặt trăng khổng lồ 200 baht",
       "label_method": "ai_review",
-      "text_vn_machine": "Nhận hoạt động trang trại thỏ mặt trăng khổng lồ với giá 200฿. Chấp nhận nhiệm vụ. Mũ của bác sĩ Dan Moon, tất cả trong một giá 60฿. Chúng tôi cũng chấp nhận các trang trại tiền xu. Trang trại tay. Bạn có thể chia sẻ màn hình trong khi canh tác. Nếu quan tâm, bạn có thể nói chuyện với chúng tôi. Hàng đợi vẫn có sẵn."
+      "text_vn_machine": "Nhận hoạt động trang trại thỏ mặt trăng khổng lồ với giá 200฿. Chấp nhận nhiệm vụ. Mũ của bác sĩ Dan Moon, tất cả trong một giá 60฿. Chúng tôi cũng chấp nhận các trang trại tiền xu. Trang trại tay. Bạn có thể chia sẻ màn hình trong khi canh tác. Nếu quan tâm, bạn có thể nói chuyện với chúng tôi. Hàng đợi vẫn có sẵn.",
+      "text_en": "Taking orders for the Giant Moon Rabbit event quests, full level package 200 baht. Moon Land Doctor hat quest package 60 baht. Coin boosting too. Done by hand, can share screen while boosting. Message me if interested, slots still open.",
+      "summary_en": "Boosting service for the Giant Moon Rabbit event at 200 baht."
     },
     {
       "id": "facebook-066f413ca47c9af1",
@@ -151,7 +157,9 @@
       ],
       "summary_vn": "Hỏi cần câu nào trong hai cái câu được cá khổng lồ",
       "label_method": "ai_review",
-      "text_vn_machine": "Trong 2 con này con nào câu được cá khổng lồ? Bóng của một con cá khổng lồ xuất hiện. Một con cá khổng lồ cần phải kéo lưỡi câu.___."
+      "text_vn_machine": "Trong 2 con này con nào câu được cá khổng lồ? Bóng của một con cá khổng lồ xuất hiện. Một con cá khổng lồ cần phải kéo lưỡi câu.___.",
+      "text_en": "Which of these 2 can catch giant fish? The kind with the giant fish shadow, the real giant fish where you have to reel the rod .___.",
+      "summary_en": "Asks which of two rods can catch giant fish."
     },
     {
       "id": "facebook-29f5f2bd31122196",
@@ -191,7 +199,9 @@
       "summary_vn": "Khoe mở 406 túi được 3 nhân sâm",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Có ai may mắn hơn không? 406 bao Som 3"
+      "text_vn_machine": "Có ai may mắn hơn không? 406 bao Som 3",
+      "text_en": "Anyone luckier than this? 406 bags and got 3 ginseng.",
+      "summary_en": "Shows off opening 406 bags for 3 ginseng."
     },
     {
       "id": "facebook-f4e3094f05f41a13",
@@ -229,7 +239,9 @@
       ],
       "summary_vn": "Hỏi lấy cây mận để trồng ở đâu",
       "label_method": "ai_review",
-      "text_vn_machine": "Cây mận trồng cây Bạn lấy nó từ đâu?"
+      "text_vn_machine": "Cây mận trồng cây Bạn lấy nó từ đâu?",
+      "text_en": "Where do you get the plum (ume) tree to plant?",
+      "summary_en": "Asks where to get a plum tree to plant."
     },
     {
       "id": "facebook-9e7788b3d34318b5",
@@ -265,7 +277,9 @@
       ],
       "summary_vn": "Hỏi một tài khoản VNG dùng được trên bao nhiêu thiết bị",
       "label_method": "ai_review",
-      "text_vn_machine": "Một tài khoản VNG có thể sử dụng được trên bao nhiêu thiết bị?"
+      "text_vn_machine": "Một tài khoản VNG có thể sử dụng được trên bao nhiêu thiết bị?",
+      "text_en": "How many devices can 1 VNG account be used on?",
+      "summary_en": "Asks how many devices one VNG account can be used on."
     },
     {
       "id": "facebook-3d0b0c8e973b005e",
@@ -304,7 +318,9 @@
       "summary_vn": "Đã xoá app trước khi chuyển VNG, hỏi cách chơi lại ID cũ",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Câu hỏi: Xóa app trước khi game trở thành Vng. Tôi có thể làm gì để chơi với cùng một ID?"
+      "text_vn_machine": "Câu hỏi: Xóa app trước khi game trở thành Vng. Tôi có thể làm gì để chơi với cùng một ID?",
+      "text_en": "I deleted the app before the game moved to VNG, how can I play my old account again?",
+      "summary_en": "Deleted the app before the VNG move, asks how to play their old ID."
     },
     {
       "id": "facebook-a1ade55edd7e6616",
@@ -343,7 +359,9 @@
       "summary_vn": "Hỏi cách nhập code trên iOS, link báo game không tồn tại",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Xin vui lòng hỏi. Bây giờ, làm cách nào để thêm mã iOS? Mình bấm vào link thì nó báo game không tồn tại."
+      "text_vn_machine": "Xin vui lòng hỏi. Bây giờ, làm cách nào để thêm mã iOS? Mình bấm vào link thì nó báo game không tồn tại.",
+      "text_en": "How do you redeem codes on iOS now? When I tap the link it says the game doesn't exist.",
+      "summary_en": "Asks how to redeem codes on iOS; the link says the game doesn't exist."
     },
     {
       "id": "facebook-f52ceee3e6b2cc29",
@@ -381,7 +399,9 @@
       ],
       "summary_vn": "Hỏi lai thỏ có dùng nền màu nào cũng được không",
       "label_method": "ai_review",
-      "text_vn_machine": "Rabbit, bạn có thể trộn và kết hợp bất kỳ nền nào, phải không?"
+      "text_vn_machine": "Rabbit, bạn có thể trộn và kết hợp bất kỳ nền nào, phải không?",
+      "text_en": "Rabbits with any background color can breed, right?",
+      "summary_en": "Asks if rabbits of any background color can breed."
     },
     {
       "id": "facebook-eb821d32562cbd5b",
@@ -419,7 +439,9 @@
       ],
       "summary_vn": "Hỏi ai bắt được bướm sự kiện mặt trăng, than rất khó bắt",
       "label_method": "ai_review",
-      "text_vn_machine": "Có ai bắt được bướm trong sự kiện mặt trăng không? Buổi biểu diễn là một phước lành. Rất khó để bắt được."
+      "text_vn_machine": "Có ai bắt được bướm trong sự kiện mặt trăng không? Buổi biểu diễn là một phước lành. Rất khó để bắt được.",
+      "text_en": "Has anyone caught the butterfly in the Moon event? Show me, it's so hard to catch.",
+      "summary_en": "Asks who caught the Moon event butterfly, says it's very hard."
     },
     {
       "id": "facebook-b1c9b4cff15ee55b",
@@ -457,7 +479,9 @@
       ],
       "summary_vn": "Hỏi con thỏ nào mở khoá xong bay được",
       "label_method": "ai_review",
-      "text_vn_machine": "Con thỏ nào có thể tách rời và có thể bay? Con thỏ nào có thể tách rời và có thể bay?"
+      "text_vn_machine": "Con thỏ nào có thể tách rời và có thể bay? Con thỏ nào có thể tách rời và có thể bay?",
+      "text_en": "Which rabbit can fly after unlocking?",
+      "summary_en": "Asks which rabbit can fly after unlocking."
     },
     {
       "id": "facebook-3c23655e6b91a37f",
@@ -494,7 +518,9 @@
       ],
       "summary_vn": "Hỏi thông báo lạ khiến không vào được game",
       "label_method": "ai_review",
-      "text_vn_machine": "Đây là cái gì? Mình vào không được. Có ai biết không?"
+      "text_vn_machine": "Đây là cái gì? Mình vào không được. Có ai biết không?",
+      "text_en": "What does this mean? I can't get in at all, anyone know?",
+      "summary_en": "Asks about a strange message that stops them from entering the game."
     },
     {
       "id": "facebook-895719f9180a4f77",
@@ -533,7 +559,9 @@
       "summary_vn": "Hỏi ếch vàng sự kiện ở đâu, tìm 2 ngày không thấy",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Con ếch vàng này ở đâu? Mình tìm 2 ngày rồi mà không thấy. Con ếch vàng này ở đâu? Mình tìm 2 ngày rồi mà chưa tìm được."
+      "text_vn_machine": "Con ếch vàng này ở đâu? Mình tìm 2 ngày rồi mà không thấy. Con ếch vàng này ở đâu? Mình tìm 2 ngày rồi mà chưa tìm được.",
+      "text_en": "Where is the golden frog for this quest? I've been looking for 2 days and still can't find it.",
+      "summary_en": "Asks where the event golden frog is after 2 days of searching."
     },
     {
       "id": "facebook-ec9e0250ab45e0ca",
@@ -571,7 +599,9 @@
       ],
       "summary_vn": "Hỏi dùng mồi có bị đứt cần không khi dùng cần vàng",
       "label_method": "ai_review",
-      "text_vn_machine": "Khi dùng mồi có nguy cơ bị gãy lưỡi câu không? Chúng tôi sử dụng móc vàng. Không có thêm thành công nào cả."
+      "text_vn_machine": "Khi dùng mồi có nguy cơ bị gãy lưỡi câu không? Chúng tôi sử dụng móc vàng. Không có thêm thành công nào cả.",
+      "text_en": "Does using bait make the line snap? I'm using the golden rod, it doesn't boost the success rate at all.",
+      "summary_en": "Asks if bait causes line snaps when using the golden rod."
     },
     {
       "id": "facebook-f686152591850954",
@@ -608,7 +638,9 @@
       ],
       "summary_vn": "Không vào được game, hỏi cách xử lý",
       "label_method": "ai_review",
-      "text_vn_machine": "Không thể bắt đầu trò chơi. Hãy cho chúng tôi biết phải làm gì."
+      "text_vn_machine": "Không thể bắt đầu trò chơi. Hãy cho chúng tôi biết phải làm gì.",
+      "text_en": "I can't top up in the game, please help, what do I do?",
+      "summary_en": "Can't get into the game, asks how to fix it."
     },
     {
       "id": "facebook-2d7eea2ec851912d",
@@ -647,7 +679,9 @@
       "summary_vn": "Hỏi cặp đôi cấp mấy mới nhận được mây hồng",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Hỏi về mây hồng. Bạn phải là một cặp đôi ở cấp độ nào để có được nó? Vui lòng cho phép những người trong ảnh."
+      "text_vn_machine": "Hỏi về mây hồng. Bạn phải là một cặp đôi ở cấp độ nào để có được nó? Vui lòng cho phép những người trong ảnh.",
+      "text_en": "What couple level do you need to get the pink cloud? Credit to the person in the pic.",
+      "summary_en": "Asks what couple level unlocks the pink cloud."
     },
     {
       "id": "facebook-3121f2d347f717c8",
@@ -683,7 +717,9 @@
       ],
       "summary_vn": "Hỏi muối ở đâu vì siêu thị không bán được",
       "label_method": "ai_review",
-      "text_vn_machine": "Muối ở đâu? Tôi đến siêu thị và không có muối để mua. Trên kệ tôi thấy có chai, ấn vào giỏ thì không có."
+      "text_vn_machine": "Muối ở đâu? Tôi đến siêu thị và không có muối để mua. Trên kệ tôi thấy có chai, ấn vào giỏ thì không có.",
+      "text_en": "Where is the salt? I went to the supermarket but there's no salt to buy, I can see a bottle on the shelf but it's not in the cart.",
+      "summary_en": "Asks where salt is because the supermarket won't sell it."
     },
     {
       "id": "facebook-bad2b742cfc8cc0b",
@@ -724,7 +760,9 @@
       "summary_vn": "Tìm muối nhưng đến cửa hàng không mua được, xin chỉ cách",
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
-      "text_vn_machine": "Tôi đang tìm muối. Nhưng tôi đã đến cửa hàng bách hóa và không thể mua được. Tôi nên làm gì? Xin vui lòng cho tôi một số lời khuyên."
+      "text_vn_machine": "Tôi đang tìm muối. Nhưng tôi đã đến cửa hàng bách hóa và không thể mua được. Tôi nên làm gì? Xin vui lòng cho tôi một số lời khuyên.",
+      "text_en": "Looking for salt, I went all the way to the mall but couldn't buy it, what do I do? Please help.",
+      "summary_en": "Can't buy salt at the store, asks for help."
     },
     {
       "id": "facebook-b8027f17595dbb1f",
@@ -763,7 +801,9 @@
       ],
       "summary_vn": "Hỏi cà rốt mới khổng lồ tối đa bao nhiêu kg",
       "label_method": "ai_review",
-      "text_vn_machine": "Cà rốt mới to cỡ nào? Hiện tại tôi chỉ có thể tăng được 2 kg. Có ai nhận được cái lớn hơn không? Bạn có hình ảnh không? Cà rốt mới to cỡ nào? Hiện tại tôi chỉ có thể tăng được 2 kg. Có ai nhận được cái lớn hơn không? Bạn có hình ảnh không?"
+      "text_vn_machine": "Cà rốt mới to cỡ nào? Hiện tại tôi chỉ có thể tăng được 2 kg. Có ai nhận được cái lớn hơn không? Bạn có hình ảnh không? Cà rốt mới to cỡ nào? Hiện tại tôi chỉ có thể tăng được 2 kg. Có ai nhận được cái lớn hơn không? Bạn có hình ảnh không?",
+      "text_en": "How big do the new carrots get? I've only grown a 2 kg one so far, anyone got bigger? Any pics?",
+      "summary_en": "Asks the max size of the new giant carrot in kg."
     },
     {
       "id": "facebook-0184b57fc6f5b613",
@@ -802,7 +842,9 @@
       ],
       "summary_vn": "Khoe lai thỏ mở khoá cưỡi được, rất dễ thương",
       "label_method": "ai_review",
-      "text_vn_machine": "Thỉnh thoảng bạn sẽ nhận được điều gì đó tốt đẹp. Nó không phải là khó khăn để đến. Trộn và mở khóa để cưỡi em bé, rất dễ thương."
+      "text_vn_machine": "Thỉnh thoảng bạn sẽ nhận được điều gì đó tốt đẹp. Nó không phải là khó khăn để đến. Trộn và mở khóa để cưỡi em bé, rất dễ thương.",
+      "text_en": "Finally got a good one and it wasn't hard, after breeding I unlocked riding, it's so cute.",
+      "summary_en": "Shows off breeding a rabbit and unlocking riding, very cute."
     },
     {
       "id": "facebook-b2a19ec22556cf32",
@@ -842,7 +884,9 @@
       "summary_vn": "Khoe đùa quay dễ ra quá, chán",
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
-      "text_vn_machine": "Thật dễ dàng để thoát ra ngoài. Tôi chán. Tôi có thể nhận được nhiều hơn thế này không?"
+      "text_vn_machine": "Thật dễ dàng để thoát ra ngoài. Tôi chán. Tôi có thể nhận được nhiều hơn thế này không?",
+      "text_en": "Way too easy to get, so boring, can you make it a bit harder?",
+      "summary_en": "Jokingly brags that draws are too easy, boring."
     },
     {
       "id": "gplay-vng-e1a95863e39eea49",
@@ -878,7 +922,9 @@
         "Performance And Bugs",
         "Error Handling And Messages"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "I was just walking normally and the game said I was spamming auto click, when I hadn't even tapped anything.",
+      "summary_en": "Game wrongly flags auto-click spam even though the player tapped nothing."
     },
     {
       "id": "gplay-vng-b622976c84bec16f",
@@ -913,7 +959,9 @@
       "store_tags": [
         "Social And Community"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Good game, chatting with friends is fun, 5 stars.",
+      "summary_en": "Praises the game and fun chatting with friends."
     },
     {
       "id": "gplay-vng-727a2d502f387f0b",
@@ -946,7 +994,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Very interesting.",
+      "summary_en": "Says the game is very interesting."
     },
     {
       "id": "gplay-vng-bca5518851b39584",
@@ -979,7 +1029,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "So fun, I can play right away whenever I'm bored.",
+      "summary_en": "Fun game to play when bored."
     },
     {
       "id": "gplay-vng-52d07a1ebb3cd422",
@@ -1012,7 +1064,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Really good.",
+      "summary_en": "Says the game is really good."
     }
   ],
   "metrics": {

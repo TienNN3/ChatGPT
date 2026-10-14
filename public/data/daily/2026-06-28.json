@@ -26,7 +26,9 @@
       "summary_vn": "Từng chơi hồi nhỏ, quay lại thấy vẫn rất vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I played as a kid, came back and it's still so much fun!!!",
+      "summary_en": "Played as a kid; still very fun on returning."
     },
     {
       "id": "android-7003d81c612cc722",
@@ -52,7 +54,9 @@
       "summary_vn": "Khen game cực kỳ vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Soooo much funnnnn",
+      "summary_en": "Says the game is extremely fun."
     }
   ],
   "metrics": {

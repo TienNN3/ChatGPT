@@ -26,7 +26,9 @@
       "summary_vn": "Yêu game nhưng buồn vì không có bạn chơi cùng",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Crazy fun, love it, but sad I have no one to play with haha.",
+      "summary_en": "Loves the game but sad to have no friends to play with."
     }
   ],
   "metrics": {

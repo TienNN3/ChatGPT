@@ -127,7 +127,9 @@
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
       "text_vn_machine": "Game rất tuyệt. Mong có thể chuyển đến sống cùng bạn bè và giá vật phẩm rẻ hơn.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Great. I'd like to be able to move in with my friends, and items a bit cheaper.",
+      "summary_en": "Likes the game; wants to move in with friends and cheaper items."
     },
     {
       "id": "android-2608208b3131259a",
@@ -153,7 +155,9 @@
       "summary_vn": "Khen game vui, nhiều đồ miễn phí để nhận",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So fun, you can play anytime, lots of free stuff, you really get a lot. Love it so much!",
+      "summary_en": "Says the game is fun with lots of free items to claim."
     }
   ],
   "ratings": [

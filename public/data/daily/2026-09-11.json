@@ -38,7 +38,9 @@
       ],
       "summary_vn": "Đăng tìm mua cây mandrake",
       "label_method": "ai_review",
-      "text_vn_machine": "Đang tìm kiếm một cây nhân sâm."
+      "text_vn_machine": "Đang tìm kiếm một cây nhân sâm.",
+      "text_en": "Looking to buy Mandrake.",
+      "summary_en": "Looking to buy mandrake."
     },
     {
       "id": "gplay-vng-59abff0a83ebeb6d",
@@ -73,7 +75,9 @@
         "Performance And Bugs",
         "Installation And Setup"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Giving 1 star because it downloads way too slowly.",
+      "summary_en": "Gives 1 star because the game downloads too slowly."
     },
     {
       "id": "gplay-vng-bef005a963dc16b0",
@@ -105,7 +109,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Unhappy",
       "store_tags": [],
-      "app_version": null
+      "app_version": null,
+      "text_en": "After playing I feel rebellious inside (?)",
+      "summary_en": "Joke comment, meaning unclear."
     },
     {
       "id": "gplay-vng-45cedd1db25269aa",
@@ -139,7 +145,9 @@
       "store_tags": [
         "Feature Requests"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Hope we can change our names.",
+      "summary_en": "Suggests allowing character name changes."
     },
     {
       "id": "appstore-vng-8567989a179f06c7",
@@ -175,7 +183,9 @@
         "Updates And Maintenance",
         "Service"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Please bring back the old version. It's such a shame. I didn't top up much, but I played hard and kept collecting items the whole time, and I had a lot of them.",
+      "summary_en": "Regrets losing the old account with many collected items."
     }
   ],
   "metrics": {

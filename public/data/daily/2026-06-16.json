@@ -27,7 +27,9 @@
       "summary_vn": "Báo xem quảng cáo bị nhảy sang app khác, phải vào lại game liên tục",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Giving you a chance to fix it with an update. After watching an ad it jumps to another app on its own even though I didn't tap anything, and then I have to reopen the game every time. Honestly it's not fun if every time I tap into the game I get kicked out like this. From the bottom of my heart as a player since 2021, this never happened before. If you don't fix it soon I'll give 1 star and keep reporting the game.",
+      "summary_en": "Ads jump to another app, forcing the player to reopen the game repeatedly."
     },
     {
       "id": "android-5f14a111a7d1ac5b",
@@ -53,7 +55,9 @@
       "summary_vn": "Khen game tuyệt vời",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Awesomeeeee",
+      "summary_en": "Says the game is awesome."
     }
   ],
   "metrics": {

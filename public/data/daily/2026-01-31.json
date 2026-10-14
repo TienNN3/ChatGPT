@@ -26,7 +26,9 @@
       "summary_vn": "Khen game rất vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So much fuuun",
+      "summary_en": "Says the game is very fun."
     },
     {
       "id": "android-f0fdb7a98d32e9df",
@@ -52,7 +54,9 @@
       "summary_vn": "Nhập mã gửi qua email vẫn đăng nhập thất bại 10 lần",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về đăng nhập, tài khoản hoặc dữ liệu người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I enter the email ID I use every day, it sends a code to my mail, I tried copy-pasting it, I tried typing it from memory, it still says login failed, 10 times. Crappy game, fed up. Taking off another star, terrible game",
+      "summary_en": "Login fails 10 times even with the emailed code."
     }
   ],
   "metrics": {

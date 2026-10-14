@@ -144,7 +144,9 @@
       "summary_vn": "Quay lại chơi vì kỷ niệm cũ, thấy rất vui",
       "label_method": "ai_review",
       "text_vn_machine": "Người chơi vừa quay lại vì ký ức trước đây và thấy game rất vui.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": ".. Just came back to play for old times' sake, it's really fun.",
+      "summary_en": "Came back for nostalgia and finds it very fun."
     },
     {
       "id": "android-5c7f59579d9f98b3",
@@ -170,7 +172,9 @@
       "summary_vn": "Trả tiền mua vật phẩm nhiều lần nhưng không nhận được",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I bought an item, paid, but the item never arrived, why? I've bought several times too, this isn't ok.",
+      "summary_en": "Paid for items several times but never received them."
     }
   ],
   "ratings": [

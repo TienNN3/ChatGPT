@@ -26,7 +26,9 @@
       "summary_vn": "Khen game rất tốt",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Very good",
+      "summary_en": "Says the game is very good."
     },
     {
       "id": "android-7cd412a32bfd270b",
@@ -52,7 +54,9 @@
       "summary_vn": "Chơi một mình hay với bạn đều vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Playing alone is addictive too, a bit lonely, playing with friends is fun, awesomeee",
+      "summary_en": "Fun both solo and with friends."
     },
     {
       "id": "android-e296b0c8bdc85aaa",
@@ -78,7 +82,9 @@
       "summary_vn": "Khen game vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Fun",
+      "summary_en": "Says the game is fun."
     }
   ],
   "metrics": {

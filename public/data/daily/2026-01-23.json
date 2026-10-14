@@ -129,7 +129,9 @@
       "summary_vn": "Ba thiết bị không vào được game, báo mạng không ổn định",
       "label_method": "ai_review",
       "text_vn_machine": "Ba thiết bị cùng lúc không thể vào game và hệ thống báo mạng không ổn định. Người chơi không biết liên hệ ai.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I was playing normally and suddenly couldn't get into the game, on all 3 devices at once, it says the network is unstable. Who do I contact?",
+      "summary_en": "Three devices can't enter the game, 'unstable network' error."
     }
   ]
 }

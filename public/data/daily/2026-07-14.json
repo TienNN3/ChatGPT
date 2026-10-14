@@ -27,7 +27,9 @@
       "summary_vn": "Khen game nhưng mong giảm tần suất sự kiện vì quá mệt",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "The game is great and so fun, but could you cut back on events a bit? It's exhausting, once a month would be fine. I can't keep up with events, especially during the school year when I don't have time to play. But if I don't play, I fall behind everyone after just 1 week off. And skipping means missing event items. Sometimes I just want to chill and walk around, but I can't.",
+      "summary_en": "Likes the game but wants fewer events because they're exhausting."
     }
   ],
   "metrics": {

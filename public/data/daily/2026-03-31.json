@@ -28,7 +28,9 @@
       "summary_vn": "Đề xuất thêm gói đồ bằng kim cương, giảm giá, quảng cáo ngắn hơn",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "The game is ok, it has cute stuff. Hope there are more nice outfit packs you can buy with diamonds, there are too few now, I want more 😊. Discount the items in outfit packs + hope rings get a bit cheaper, change up the event style a bit, and let us gift outfit packs/other items to friends without needing rings + hope ads get shorter or give 7 days of Premium instead :D / Hope there are gacha codes, collect 7 in 1 week; if duplicate cards could be collected up to 1000 stars to exchange for a gold card of your choice that would be amazing. If you add all of this it'd be awesome 💖🙌🏻",
+      "summary_en": "Suggests more diamond outfit packs, discounts and shorter ads."
     },
     {
       "id": "android-80aa8eb63e3b892a",
@@ -54,7 +56,9 @@
       "summary_vn": "Chê thiết kế nhân vật, muốn xoá game",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "What's even worth playing here. Sigh, just seeing the character design made me want to delete it before I even downloaded.",
+      "summary_en": "Dislikes the character design, wants to delete the game."
     }
   ],
   "metrics": {

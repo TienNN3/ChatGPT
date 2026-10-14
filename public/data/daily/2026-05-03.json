@@ -27,7 +27,9 @@
       "summary_vn": "Mong thêm nhiều nghề, sở thích và tính năng nấu ăn bán",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Hope there's a bigger, more varied job system, and hobbies too. The game is so cute, adding new things would attract more players. Hope the devs pay a little attention to these small things. Since there's already a veggie farming system, I'd also like cooking to sell 🙏🙏 I really love this game.",
+      "summary_en": "Wants more jobs, hobbies and a cook-and-sell feature."
     }
   ],
   "metrics": {

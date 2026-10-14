@@ -27,7 +27,9 @@
       "summary_vn": "Muốn Hàn Quốc lấy lại game, chê bản VNG sự kiện cũ, mất nhạc",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I hope Korea brings Play Together back to the old server. Since it was sold to the Vietnamese, the events are stale, rewards are just old items swapped for new ones, and garden orders only give money. Lots of Vietnamese play but they all use hacks (?). I want to go back to this app, this app is convenient and easy to use. Otherwise players will slowly all leave this game. The house used to have Playtube, now it's gone too. You were doing well, why sell it? No music to listen to, I barely want to go home. The licenses you used to have are all gone now that it's in Vietnam's hands.",
+      "summary_en": "Wants Korea to take the game back; criticizes stale VNG events and lost music."
     },
     {
       "id": "gplay-vng-bd241503eb2d7cfb",
@@ -66,7 +68,9 @@
         "Pricing",
         "Monetization"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "I want to play on the old app. Entering codes via the link doesn't work. With Vietnam managing it, they just rerun old events and only change the rewards. I want Korea to manage it like before, with new events to play, otherwise lots of players will quit. I want the game made by Korea. A year or two ago fishing and events were so fun, lately nothing is fun. Top-ups are more expensive, codes are hard to enter, and orders are so stingy with diamonds, especially flower orders. Sell it back to Korea.",
+      "summary_en": "Criticizes rerun events, hard code entry and high prices; wants Korea back in charge."
     }
   ],
   "metrics": {

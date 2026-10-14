@@ -38,7 +38,9 @@
       ],
       "summary_vn": "Rao bán trái cây, nhân sâm, thẻ, đổi thời tiết và nhận cày nhảy tháp",
       "label_method": "ai_review",
-      "text_vn_machine": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé"
+      "text_vn_machine": "[Bán] Trái cây đủ loại, đủ trạng thái. [Bán] Nhân sâm (đủ trạng thái). [Bán] Tiền vườn, xu nông trại. [Bán] Hạt giống (chỉ loại mua bằng kim cương). [Bán] Đổi thời tiết. [Bán] Thẻ, 1 baht/sao. [Bán] Nhận gửi quà qua tin nhắn. [Nhận] Nhảy tháp, 1 baht/cúp. Kiểm tra uy tín ở trang cá nhân nhé",
+      "text_en": "All kinds of fruit, all effects.\n[Selling] Ginseng (all effects)\n[Selling] Garden money, farm coins\n[Selling] Seeds (diamond-bought only)\n[Selling] Weather change\n[Selling] Cards, 1 baht/star\n[Selling] Gift sending via message ()\n[Boosting] Tower jump, 1 baht/trophy\nCheck my trust reviews on my profile.",
+      "summary_en": "Selling fruit, ginseng, cards, weather change and tower jump boosting."
     },
     {
       "id": "facebook-cd5d132ec46a8618",
@@ -75,7 +77,9 @@
         "kim cương"
       ],
       "summary_vn": "Tìm shop nhận nạp hộ gói kim cương",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Is there any shop that does diamond pack top-ups for others?",
+      "summary_en": "Looking for a shop that tops up diamond packs on your behalf."
     },
     {
       "id": "facebook-d248a4185495fee9",
@@ -113,7 +117,9 @@
       ],
       "summary_vn": "Hỏi lỡ bấm không kịp khi câu cá có được hoàn mồi không",
       "label_method": "ai_review",
-      "text_vn_machine": "Mấy con cá này, khi dùng mồi mà bấm không kịp hoặc lỡ tay, có được hoàn lại mồi không ạ?"
+      "text_vn_machine": "Mấy con cá này, khi dùng mồi mà bấm không kịp hoặc lỡ tay, có được hoàn lại mồi không ạ?",
+      "text_en": "For these fish, if I'm using bait and don't tap in time or mess up, do I get the bait back?",
+      "summary_en": "Asks if bait is refunded after missing a fish."
     },
     {
       "id": "facebook-7bfbe0593f3393c9",
@@ -148,7 +154,9 @@
       ],
       "summary_vn": "Hỏi mọi người cách xử lý tình huống trong ảnh",
       "label_method": "ai_review",
-      "text_vn_machine": "Làm sao được đây ạ?"
+      "text_vn_machine": "Làm sao được đây ạ?",
+      "text_en": "What should I do, everyone?",
+      "summary_en": "Asks for help with the situation in the image."
     },
     {
       "id": "facebook-475db3e2c5b359c7",
@@ -187,7 +195,9 @@
       ],
       "summary_vn": "Khen game bắt kịp thời sự lũ lụt, động viên người chơi bị ngập",
       "label_method": "ai_review",
-      "text_vn_machine": "Bắt kịp mọi tình huống, sao không yêu game này cho được. Chỗ mình cũng ngập, xin gửi lời động viên đến mọi người dân Kaia"
+      "text_vn_machine": "Bắt kịp mọi tình huống, sao không yêu game này cho được. Chỗ mình cũng ngập, xin gửi lời động viên đến mọi người dân Kaia",
+      "text_en": "Keeps up with everything going on, how could I not love this game. My area is flooded too, sending support to all Kaia residents.",
+      "summary_en": "Praises the game for reflecting the floods, supports flooded players."
     },
     {
       "id": "facebook-6aab3c441b42dc08",
@@ -225,7 +235,9 @@
       ],
       "summary_vn": "Hỏi mua chó đánh hơi ở đâu và trông thế nào",
       "label_method": "ai_review",
-      "text_vn_machine": "Chó đánh hơi mua ở đâu vậy ạ? Trông bé như thế nào ạ?"
+      "text_vn_machine": "Chó đánh hơi mua ở đâu vậy ạ? Trông bé như thế nào ạ?",
+      "text_en": "Where do you buy the sniffing dog? What does it look like?",
+      "summary_en": "Asks where to buy the sniffing dog and what it looks like."
     },
     {
       "id": "facebook-b1ac1d148de5bbe4",
@@ -266,7 +278,9 @@
       "summary_vn": "Xin cách làm nhân sâm dính sương, 48 cây không cây nào ra",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Xin cách làm nhân sâm ra trạng thái mong muốn với, 48 cây không cây nào dính sương, đứng cả đêm cũng không ra, nản thật"
+      "text_vn_machine": "Xin cách làm nhân sâm ra trạng thái mong muốn với, 48 cây không cây nào dính sương, đứng cả đêm cũng không ra, nản thật",
+      "text_en": "Please tell me how to get the ginseng effect I want. 48 plants and not a single one got dew, I even stayed up all night watching and nothing, so annoying.",
+      "summary_en": "Asks how to get dew ginseng; 48 plants, none got it."
     },
     {
       "id": "facebook-1429d473e705a577",
@@ -306,7 +320,9 @@
       "summary_vn": "Ngạc nhiên vì nhận được vật phẩm quá dễ",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Có được dễ vậy luôn hả"
+      "text_vn_machine": "Có được dễ vậy luôn hả",
+      "text_en": "It's that easy to get?",
+      "summary_en": "Surprised the item was so easy to get."
     },
     {
       "id": "facebook-0d7d558dc172c468",
@@ -345,7 +361,9 @@
       ],
       "summary_vn": "Xin ké nhà người khác để câu cá sấu",
       "label_method": "ai_review",
-      "text_vn_machine": "Có ai dùng nhà này không ạ? Muốn xin qua ké câu cá sấu chút"
+      "text_vn_machine": "Có ai dùng nhà này không ạ? Muốn xin qua ké câu cá sấu chút",
+      "text_en": "Does anyone have this house? I'd like to tag along to fish for crocodiles for a bit.",
+      "summary_en": "Asks to visit someone's house to fish for crocodiles."
     },
     {
       "id": "facebook-289977f961bc9015",
@@ -386,7 +404,9 @@
       "summary_vn": "Chia sẻ bản cập nhật tới cho thú cưng chạy chơi trong nông trại",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Bản cập nhật tới thú cưng sẽ chạy chơi trong nông trại được rồiii"
+      "text_vn_machine": "Bản cập nhật tới thú cưng sẽ chạy chơi trong nông trại được rồiii",
+      "text_en": "In the next update, pets can run around and play on the farm!",
+      "summary_en": "Shares that the next update lets pets roam the farm."
     },
     {
       "id": "facebook-49a0e2945aad3891",
@@ -426,7 +446,9 @@
       ],
       "summary_vn": "Thông báo sắp mở rộng vườn và thêm thú cưng trong nông trại",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Coming soon: bigger garden space on the farm and pets on the farm",
+      "summary_en": "Announces farm garden expansion and farm pets coming soon."
     },
     {
       "id": "facebook-40743a6b78ac2995",
@@ -464,7 +486,9 @@
       ],
       "summary_vn": "Than thẻ phần 2 quá khó, phải chơi lại nhiều lần",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Card part 2 is so hard huhu, I've replayed it for the nth time",
+      "summary_en": "Complains card part 2 is too hard, replayed many times."
     },
     {
       "id": "facebook-90f94f5aee681e23",
@@ -503,7 +527,9 @@
       "summary_vn": "Chia sẻ mã coupon mới PTFARMBIGGER",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Mã coupon mới: PTFARMBIGGER"
+      "text_vn_machine": "Mã coupon mới: PTFARMBIGGER",
+      "text_en": "New coupon code: PTFARMBIGGER",
+      "summary_en": "Shares new coupon code PTFARMBIGGER."
     },
     {
       "id": "facebook-0c47f859f2f08b75",
@@ -544,7 +570,9 @@
       "summary_vn": "Than mở hơn 60 con mới ra 1 con nền hồng tím",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Hơn 60 con mới được đúng 1 con nền hồng (tím), trời ơi!! #ServerMớiĐauLòngQuáSức"
+      "text_vn_machine": "Hơn 60 con mới được đúng 1 con nền hồng (tím), trời ơi!! #ServerMớiĐauLòngQuáSức",
+      "text_en": "Opened over 60 and got exactly 1 pink (purple) background, oh my god!! #new server shock, can't take it",
+      "summary_en": "Complains 60+ opens gave only 1 pink-purple background."
     },
     {
       "id": "facebook-390005e911e2af8f",
@@ -582,7 +610,9 @@
       ],
       "summary_vn": "Xả bực vì mở hơn 40 thằn lằn không ra nền hồng tím",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho xả chút, thằn lằn mở hơn 40 quả rồi mà nền hồng (tím) đâu, có quá đáng không vậy, xin một con cũng không được sao #ServerMớiĐauLòngQuáSức"
+      "text_vn_machine": "Cho xả chút, thằn lằn mở hơn 40 quả rồi mà nền hồng (tím) đâu, có quá đáng không vậy, xin một con cũng không được sao #ServerMớiĐauLòngQuáSức",
+      "text_en": "Let me vent a bit: I've opened over 40 lizard eggs and where's the pink (purple) background? Isn't this too much? Can't I get even one? #new server shock, can't take it",
+      "summary_en": "Vents that 40+ lizard eggs gave no pink-purple background."
     },
     {
       "id": "facebook-753ceb8d7af2ac42",
@@ -620,7 +650,9 @@
       ],
       "summary_vn": "Đào kho báu 200 lần chỉ ra 1 pha lê to, nghi bị bug",
       "label_method": "ai_review",
-      "text_vn_machine": "Đào kho báu 200 lần chỉ được 1 viên pha lê to, còn lại toàn pha lê nhỏ, vậy có bị bug không? Mệt ghê"
+      "text_vn_machine": "Đào kho báu 200 lần chỉ được 1 viên pha lê to, còn lại toàn pha lê nhỏ, vậy có bị bug không? Mệt ghê",
+      "text_en": "Dug for treasure 200 times and only got 1 large crystal, the rest were all small crystals. Is this a bug? So tiring.",
+      "summary_en": "200 treasure digs gave only 1 large crystal, suspects a bug."
     },
     {
       "id": "facebook-e59b6f69cc6439c2",
@@ -657,7 +689,9 @@
       ],
       "summary_vn": "Hỏi cách kiểm tra đã chuyển tài khoản cũ sang VNG thành công chưa",
       "label_method": "ai_review",
-      "text_vn_machine": "Đã bấm chuyển tài khoản cũ sang VNG rồi, làm sao biết chuyển thành công chưa ạ?"
+      "text_vn_machine": "Đã bấm chuyển tài khoản cũ sang VNG rồi, làm sao biết chuyển thành công chưa ạ?",
+      "text_en": "I clicked to transfer my old account to VNG, how do I know if the transfer was successful?",
+      "summary_en": "Asks how to check if the account transfer to VNG succeeded."
     },
     {
       "id": "facebook-e06c980a8479c768",
@@ -696,7 +730,9 @@
       "summary_vn": "Khoe đơn hàng nông trại mỗi ngày nhiều từ khi chuyển server",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Đơn hàng mỗi ngày từ khi chuyển server, giàu không nổi luôn nèee"
+      "text_vn_machine": "Đơn hàng mỗi ngày từ khi chuyển server, giàu không nổi luôn nèee",
+      "text_en": "Daily orders ever since the server switch, I'm getting ridiculously rich!",
+      "summary_en": "Brags about lots of daily farm orders since the server switch."
     },
     {
       "id": "facebook-70d8f25648b55a7f",
@@ -733,7 +769,9 @@
       ],
       "summary_vn": "Hỏi con ếch này có hiếm không vì tìm mãi không thấy",
       "label_method": "ai_review",
-      "text_vn_machine": "Con ếch này hiếm ra lắm hả? Tìm mãi không thấy"
+      "text_vn_machine": "Con ếch này hiếm ra lắm hả? Tìm mãi không thấy",
+      "text_en": "Is this frog really rare, everyone? I've been looking forever and can't find it.",
+      "summary_en": "Asks if this frog is rare since they can't find it."
     },
     {
       "id": "facebook-02bbe16e70d67a3e",
@@ -770,7 +808,9 @@
       "summary_vn": "Lỡ hạn chuyển tài khoản cũ sang VNG, hỏi cách lấy lại tài khoản",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Mình không chuyển tài khoản cũ từ bản cũ sang, giờ làm sao đây mọi người? Muốn chơi tài khoản cũ, có ai biết cách không ạ? Không muốn chơi lại từ đầu, tại xóa app nghỉ lâu, giờ muốn chơi thì không kịp nữa rồi"
+      "text_vn_machine": "Mình không chuyển tài khoản cũ từ bản cũ sang, giờ làm sao đây mọi người? Muốn chơi tài khoản cũ, có ai biết cách không ạ? Không muốn chơi lại từ đầu, tại xóa app nghỉ lâu, giờ muốn chơi thì không kịp nữa rồi",
+      "text_en": "I never transferred my old account from the old version, what do I do now? I want to keep playing my old account. Does anyone know how? I don't want to start over. I deleted the app and quit for a long time, and now that I want to play it's too late.",
+      "summary_en": "Missed the account transfer to VNG, asks how to recover the account."
     },
     {
       "id": "facebook-bb05f13b74d244eb",
@@ -807,7 +847,9 @@
       ],
       "summary_vn": "Hỏi bao giờ nội dung mới mới ra",
       "label_method": "ai_review",
-      "text_vn_machine": "Bao giờ mới tới"
+      "text_vn_machine": "Bao giờ mới tới",
+      "text_en": "Is it out yet?",
+      "summary_en": "Asks when the new content comes out."
     },
     {
       "id": "facebook-11892f57fae61ca7",
@@ -846,7 +888,9 @@
         "trang phục"
       ],
       "summary_vn": "Chia sẻ bộ đồ đào kho báu tuần này",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "This week's treasure digging outfit",
+      "summary_en": "Shares this week's treasure digging outfit."
     },
     {
       "id": "facebook-4a49a6bc861ab905",
@@ -886,7 +930,9 @@
       ],
       "summary_vn": "Bực vì người hack dễ ra kim cương xanh, report không bị ban",
       "label_method": "ai_review",
-      "text_vn_machine": "Hơi bực game này một điểm: người dùng hack hoặc người không mua búa lại có kim cương xanh dễ dàng, chỉ trong một ngày, còn người mua búa giá đắt lại ra kim cương trắng, chẳng ra gì. Report bọn hack mà tới giờ vẫn chưa bị ban. Từ người đào suốt 2 đêm liền: bị giành chỗ đào, gần như không có cơ hội đào. Chán lắm, mệt tới mức nghỉ chơi mấy ngày. Chán là ở chỗ này #HackĐượcĐồNgonNgườiThườngĐượcGì?"
+      "text_vn_machine": "Hơi bực game này một điểm: người dùng hack hoặc người không mua búa lại có kim cương xanh dễ dàng, chỉ trong một ngày, còn người mua búa giá đắt lại ra kim cương trắng, chẳng ra gì. Report bọn hack mà tới giờ vẫn chưa bị ban. Từ người đào suốt 2 đêm liền: bị giành chỗ đào, gần như không có cơ hội đào. Chán lắm, mệt tới mức nghỉ chơi mấy ngày. Chán là ở chỗ này #HackĐượcĐồNgonNgườiThườngĐượcGì?",
+      "text_en": "One thing that really discourages me about this game: people using hacks, or not even buying hammers, get blue diamonds super easily, within a day. Meanwhile people using expensive bought hammers get white diamonds, basically nothing. I reported the hackers and they still haven't been banned. Honestly, from someone who dug all night for 2 days straight: people steal your digging spots, you barely get a chance to dig at all. So frustrating, I'm so tired I had to take a few days off. That's what's so disappointing. #Hackers get the good stuff, what do normal players get?",
+      "summary_en": "Angry that hackers easily get blue diamonds and reports don't lead to bans."
     },
     {
       "id": "facebook-fd84bedb2a02ce81",
@@ -927,7 +973,9 @@
       "summary_vn": "Mong chờ thú cưng xương rồng và điệu nhảy 67",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Điều mong chờ: xương rồng, điệu nhảy. Đang chờ điệu nhảy 67 nè"
+      "text_vn_machine": "Điều mong chờ: xương rồng, điệu nhảy. Đang chờ điệu nhảy 67 nè",
+      "text_en": "What I'm looking forward to: the cactus, the dance. Waiting for the 67 dance.",
+      "summary_en": "Looking forward to the cactus pet and the 67 dance."
     },
     {
       "id": "youtube-c20d893f35ca14a4",
@@ -966,7 +1014,9 @@
       ],
       "summary_vn": "Livestream câu cá và bắt côn trùng",
       "label_method": "ai_review",
-      "text_vn_machine": "[Livestream Play Together] Câu cá, bắt côn trùng"
+      "text_vn_machine": "[Livestream Play Together] Câu cá, bắt côn trùng",
+      "text_en": "【🔴Play Together】Fishing, bug catching",
+      "summary_en": "Livestream of fishing and bug catching."
     },
     {
       "id": "tiktok-55a4b1ec2440242a",
@@ -1002,7 +1052,9 @@
         "comment_count": null,
         "video_title": "Play Together VNG Thailand (official)"
       },
-      "collected_at": "2026-10-14T10:00:00+07:00"
+      "collected_at": "2026-10-14T10:00:00+07:00",
+      "text_en": "Hi, I don't understand what you're saying",
+      "summary_en": "Says hi and that they don't understand the content."
     }
   ],
   "metrics": {

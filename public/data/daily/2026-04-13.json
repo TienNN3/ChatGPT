@@ -26,7 +26,9 @@
       "summary_vn": "Khen game hay, yêu game",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Awesome game, really good, love you.",
+      "summary_en": "Praises the game, loves it."
     },
     {
       "id": "android-321735a14ab159c0",
@@ -52,7 +54,9 @@
       "summary_vn": "Khen game cực vui, rủ mọi người cùng chơi",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So fun, the most fun ever, everyone come play!",
+      "summary_en": "Says the game is super fun, invites everyone to play."
     }
   ],
   "metrics": {

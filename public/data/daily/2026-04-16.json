@@ -149,7 +149,9 @@
       "summary_vn": "Khen game vui, mong thêm minigame",
       "label_method": "ai_review",
       "text_vn_machine": "Game rất vui. Mong có thêm nhiều minigame.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Great game. The game is really fun, but more minigames would make it even better.",
+      "summary_en": "Fun game, wants more minigames."
     },
     {
       "id": "android-e8400a016f0d28f3",
@@ -176,7 +178,9 @@
       "summary_vn": "Đề xuất bản đồ chủ đề Avatar bốn nguyên tố",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So fun. Please add an Avatar: The Last Airbender style map, a 4-element city: Fire Nation, Earth Kingdom, Southern and Northern Water Tribes, Air Nomads; make it a school like a new Asian city. 10 stars.",
+      "summary_en": "Suggests an Avatar-themed four-element map."
     },
     {
       "id": "android-2e1666e0e0424f19",
@@ -202,7 +206,9 @@
       "summary_vn": "Khen game vui, nhẹ nhàng không căng thẳng",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Personally I've played since the game first opened, I find it fun in a relaxing, stress-free way.",
+      "summary_en": "Praises the game as fun, relaxing and stress-free."
     },
     {
       "id": "android-d0a115e9fcd3ddb5",
@@ -228,7 +234,9 @@
       "summary_vn": "Khen game không có lỗi, rất tốt",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Really good game, no bugs at all, the besttt.",
+      "summary_en": "Says the game has no bugs and is very good."
     },
     {
       "id": "android-d6fd4a307593d3f9",
@@ -254,7 +262,9 @@
       "summary_vn": "Nhớ những người từng chơi cùng trước đây",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trung tính về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Miss the people I used to play with 🥲",
+      "summary_en": "Misses the people they used to play with."
     },
     {
       "id": "android-423c68916bffd65d",
@@ -281,7 +291,9 @@
       "summary_vn": "Khen game vui, có nhiều bạn, thích chơi trường học",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về tương tác cộng đồng hoặc hành vi người chơi. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Sooo fun, made lots of friends, and I love the school stuff too, so fun.",
+      "summary_en": "Fun game with many friends; likes the school content."
     }
   ],
   "ratings": [

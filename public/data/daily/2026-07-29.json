@@ -35,7 +35,9 @@
         "Service",
         "Updates And Maintenance"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Absolutely terrible since the server moved to VNG management, awful, really bad.",
+      "summary_en": "Says the game got much worse since VNG took over."
     },
     {
       "id": "gplay-vng-3b53b40348dc6618",
@@ -67,7 +69,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Neutral",
       "store_tags": [],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "(random keyboard mashing, no meaning)",
+      "summary_en": "Random characters with no content."
     },
     {
       "id": "appstore-vng-3bafd8766b1a9b92",
@@ -104,7 +108,9 @@
         "Integration With Other Services",
         "Feature Requests"
       ],
-      "app_version": "2.29.1"
+      "app_version": "2.29.1",
+      "text_en": "Can't transfer my account. When will account transfer be possible? The regular iOS version doesn't have it either, I'd have to start over from scratch, so what happens to all the money I topped up when I still can't transfer my account? Please reply urgently, because I've topped up a lot.",
+      "summary_en": "Can't transfer account on iOS; worried about losing paid top-ups."
     }
   ],
   "report": {

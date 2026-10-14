@@ -34,7 +34,9 @@
       "store_tags": [
         "Updates And Maintenance"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "The game changed operators? So bad.",
+      "summary_en": "Says the game got worse after the operator change."
     }
   ],
   "report": {

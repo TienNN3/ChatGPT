@@ -36,7 +36,9 @@
       ],
       "summary_vn": "Rao bán thẻ theo sao, 1 baht mỗi sao",
       "label_method": "ai_review",
-      "text_vn_machine": "5 sao = 5 ฿\n4 sao = 4\n1-3 sao đều có sẵn. Liên hệ để hỏi thăm. \n(Tín dụng có thể được kiểm tra trên trang hồ sơ)"
+      "text_vn_machine": "5 sao = 5 ฿\n4 sao = 4\n1-3 sao đều có sẵn. Liên hệ để hỏi thăm. \n(Tín dụng có thể được kiểm tra trên trang hồ sơ)",
+      "text_en": "5-star = 5 baht\n4-star = 4 baht\n1-3 star all available, contact me to ask\n(Trusted, check my profile)",
+      "summary_en": "Selling cards by star, 1 baht per star."
     },
     {
       "id": "facebook-a402835e6c626375",
@@ -73,7 +75,9 @@
       "summary_vn": "Nhận cày thuê đào kho báu 35 baht mỗi món",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Hàng đợi là miễn phí.\nĐào kho báu\n× 1 cái 35.-\n× 2 cái 70.-\n× 3 tặng 1 100.-\n•Yêu cầu mọi người đừng vội vàng •Khóa sky mail\nTín dụng trang hồ sơ"
+      "text_vn_machine": "Hàng đợi là miễn phí.\nĐào kho báu\n× 1 cái 35.-\n× 2 cái 70.-\n× 3 tặng 1 100.-\n•Yêu cầu mọi người đừng vội vàng •Khóa sky mail\nTín dụng trang hồ sơ",
+      "text_en": "Still taking orders\nTreasure digging\n× 1 item 35 baht\n× 2 items 70 baht\n× 3 + 1 free: 100 baht\n• Please don't rush me • Blue mail lock (?)\n• Check trust reviews on my profile",
+      "summary_en": "Offers treasure digging boosting at 35 baht per item."
     },
     {
       "id": "facebook-46e5a047132280d5",
@@ -108,7 +112,9 @@
         "mua bán vật phẩm"
       ],
       "summary_vn": "Tìm mua nhân sâm",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Looking to buy ginseng",
+      "summary_en": "Looking to buy ginseng."
     },
     {
       "id": "facebook-a37d35bb13559a7e",
@@ -147,7 +153,9 @@
       "summary_vn": "Phàn nàn hack nhặt thẻ khiến hầu như không thấy thẻ rơi",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Dạo này có ai gặp hack nhặt thẻ thường xuyên như mình không? Hầu như không thấy thẻ rơi trên đất luôn"
+      "text_vn_machine": "Dạo này có ai gặp hack nhặt thẻ thường xuyên như mình không? Hầu như không thấy thẻ rơi trên đất luôn",
+      "text_en": "Is anyone else running into card-picking hacks as much as I am lately? I barely see any cards dropped on the ground anymore.",
+      "summary_en": "Complains card-picking hacks mean almost no cards on the ground."
     },
     {
       "id": "facebook-90c01a59a67ca704",
@@ -185,7 +193,9 @@
         "mùa thu"
       ],
       "summary_vn": "Chia sẻ hạt giống mùa thu mới",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "New autumn seeds",
+      "summary_en": "Shares new autumn seeds."
     },
     {
       "id": "facebook-eb15418f7166d2a2",
@@ -224,7 +234,9 @@
       ],
       "summary_vn": "Khen nội dung đỉnh quá",
       "sentiment_rule": "Neutral",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Awesomeee",
+      "summary_en": "Says it's awesome."
     },
     {
       "id": "facebook-8aba95120971cd51",
@@ -259,7 +271,9 @@
       ],
       "summary_vn": "Hỏi khuôn mặt nhân vật này kiếm ở đâu",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho mình hỏi, khuôn mặt này kiếm ở đâu ạ?"
+      "text_vn_machine": "Cho mình hỏi, khuôn mặt này kiếm ở đâu ạ?",
+      "text_en": "May I ask, where do you get this face?",
+      "summary_en": "Asks where to get this character face."
     },
     {
       "id": "facebook-ea13d38bb5b69a14",
@@ -297,7 +311,9 @@
       ],
       "summary_vn": "Hỏi kiểu tóc này từ gói nào",
       "label_method": "ai_review",
-      "text_vn_machine": "Kiểu tóc này từ gói nào vậy mọi người?"
+      "text_vn_machine": "Kiểu tóc này từ gói nào vậy mọi người?",
+      "text_en": "Which pack is this hairstyle from, everyone?",
+      "summary_en": "Asks which pack this hairstyle is from."
     },
     {
       "id": "facebook-12d09eac59cabcb2",
@@ -336,7 +352,9 @@
       ],
       "summary_vn": "Hỏi kiểu tóc nữ trong ảnh từ gói nào",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi, kiểu tóc nữ trong ảnh này từ gói nào ạ?"
+      "text_vn_machine": "Cho hỏi, kiểu tóc nữ trong ảnh này từ gói nào ạ?",
+      "text_en": "Quick question, which pack is the female hairstyle in this pic from?",
+      "summary_en": "Asks which pack the female hairstyle in the pic is from."
     },
     {
       "id": "facebook-3f40adea4560c96a",
@@ -376,7 +394,9 @@
       "summary_vn": "Thông báo sắp ra sự kiện Rau Củ Khổng Lồ",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Sắp ra mắt: Sự kiện Rau Củ Khổng Lồ"
+      "text_vn_machine": "Sắp ra mắt: Sự kiện Rau Củ Khổng Lồ",
+      "text_en": "Coming soon: Giant Vegetable event",
+      "summary_en": "Announces the upcoming Giant Vegetable event."
     },
     {
       "id": "facebook-a2c60f67f46fe813",
@@ -416,7 +436,9 @@
       "summary_vn": "Khoe lần đầu câu được cá khổng lồ",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Câu cá bao lâu chưa từng câu được cá khổng lồ như người ta, hôm nay cuối cùng cũng tới lượt mình rồi"
+      "text_vn_machine": "Câu cá bao lâu chưa từng câu được cá khổng lồ như người ta, hôm nay cuối cùng cũng tới lượt mình rồi",
+      "text_en": "I've been fishing forever and never caught a giant fish like everyone else, today it's finally my turn!",
+      "summary_en": "Celebrates catching their first giant fish."
     },
     {
       "id": "facebook-bf51ed582ba400a3",
@@ -452,7 +474,9 @@
       ],
       "summary_vn": "Không vào được bản VNG, bản cũ lại hiện nhận 300 kim cương",
       "label_method": "ai_review",
-      "text_vn_machine": "Hiện thế này thì làm sao ạ? Vào bản VNG không được, nhưng vào game cũ thì hiện nhận 300 kim cương"
+      "text_vn_machine": "Hiện thế này thì làm sao ạ? Vào bản VNG không được, nhưng vào game cũ thì hiện nhận 300 kim cương",
+      "text_en": "What do I do when it shows this? I can't get into the VNG version, but when I open the old game it shows I can claim 300 diamonds.",
+      "summary_en": "Can't enter the VNG version; old version offers 300 diamonds."
     },
     {
       "id": "facebook-25d6a6c2c1c983a5",
@@ -489,7 +513,9 @@
         "ngoại hình nhân vật"
       ],
       "summary_vn": "Hỏi mini-me có mấy kiểu ngoại hình",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "How many looks does the mini-me have?",
+      "summary_en": "Asks how many looks the mini-me has."
     },
     {
       "id": "facebook-4651b5657c754101",
@@ -527,7 +553,9 @@
       ],
       "summary_vn": "Đổi quốc gia rồi quay lại không thấy Siam Town, NPC nói tiếng Anh",
       "label_method": "ai_review",
-      "text_vn_machine": "Trước đó mình đổi quốc gia sang châu Âu, khi quay lại châu Á sao chỉ thấy English Town và Global Town? Siam Town biến đâu mất rồi? NPC từ nói tiếng Thái chuyển hết sang tiếng Anh... (mình chơi trên Steam)"
+      "text_vn_machine": "Trước đó mình đổi quốc gia sang châu Âu, khi quay lại châu Á sao chỉ thấy English Town và Global Town? Siam Town biến đâu mất rồi? NPC từ nói tiếng Thái chuyển hết sang tiếng Anh... (mình chơi trên Steam)",
+      "text_en": "I changed my country to Europe before, and now that I've switched back to Asia, why do I only see English Town and Global Town? Where did Siam Town go? The NPCs that spoke Thai all switched to English.. (I play on Steam)",
+      "summary_en": "After changing region and back, Siam Town is gone and NPCs speak English."
     },
     {
       "id": "facebook-06ee5c6fe5bf28f7",
@@ -566,7 +594,9 @@
       "summary_vn": "Báo nhận xe kỷ niệm 3 năm nhưng không thấy trong hộp thư",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Kỷ niệm 3 năm, hệ thống báo nhận được 1 chiếc ô tô lúc 8 giờ sáng, xe đâu haha, thắc mắc ghê, không có trong hộp thư"
+      "text_vn_machine": "Kỷ niệm 3 năm, hệ thống báo nhận được 1 chiếc ô tô lúc 8 giờ sáng, xe đâu haha, thắc mắc ghê, không có trong hộp thư",
+      "text_en": "3rd anniversary: the system said I received a car at 8 AM, but where's the car haha. Really confused, it's not in my mailbox.",
+      "summary_en": "Reports the 3rd anniversary car isn't in the mailbox."
     },
     {
       "id": "facebook-9883bc239de96297",
@@ -604,7 +634,9 @@
         "sự kiện"
       ],
       "summary_vn": "Chia sẻ hình quái vật rau củ mới trong sự kiện Rau Củ Khổng Lồ",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Pics of the new vegetable monsters in the Giant Vegetable event",
+      "summary_en": "Shares pics of new vegetable monsters in the Giant Vegetable event."
     },
     {
       "id": "facebook-64ff66fd665a15c1",
@@ -642,7 +674,9 @@
         "gacha"
       ],
       "summary_vn": "Chia sẻ hình hộp gacha mới",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "New gacha box",
+      "summary_en": "Shares pics of the new gacha box."
     },
     {
       "id": "youtube-3dc64b37a4892d0d",
@@ -679,7 +713,9 @@
       ],
       "summary_vn": "Livestream Play Together tập làm cư dân Heartopia",
       "label_method": "ai_review",
-      "text_vn_machine": "[Livestream Play Together] Kataew tập làm cư dân Heartopia 🤔✨"
+      "text_vn_machine": "[Livestream Play Together] Kataew tập làm cư dân Heartopia 🤔✨",
+      "text_en": "【🔴Play Together】Kataeo practices being a Heartopia resident🤔✨ | Mellowlop",
+      "summary_en": "Play Together livestream practicing being a Heartopia resident."
     },
     {
       "id": "tiktok-17a1b58888788c99",
@@ -715,7 +751,9 @@
         "comment_count": 0,
         "video_title": null
       },
-      "collected_at": "2026-10-14T10:00:00+07:00"
+      "collected_at": "2026-10-14T10:00:00+07:00",
+      "text_en": "Home decorating ideas for the Galaxy Rabbit Village season",
+      "summary_en": "Shares home decorating ideas for the Galaxy Rabbit Village season."
     },
     {
       "id": "gplay-vng-f1e220dc73a18aa8",
@@ -749,7 +787,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "It's good, but you spend way too much time walking.",
+      "summary_en": "Good game, but walking around takes too long."
     },
     {
       "id": "gplay-vng-99588564a3177ece",
@@ -784,7 +824,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "So much fun.",
+      "summary_en": "Says the game is a lot of fun."
     },
     {
       "id": "appstore-vng-a62cb19c2d89533a",
@@ -820,7 +862,9 @@
         "Service",
         "Comparative Feedback"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Hacks. The game is full of hackers. I reported them and nothing happened, they don't do a damn thing. Don't play, it's a waste of time.",
+      "summary_en": "Lots of hackers, and reports aren't acted on."
     }
   ],
   "metrics": {

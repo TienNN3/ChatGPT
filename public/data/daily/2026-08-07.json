@@ -36,7 +36,9 @@
         "User Data And Privacy",
         "Updates And Maintenance"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "I'm so shocked it's not the old server anymore, my user is gone and my friends are gone too. Sad.",
+      "summary_en": "Server move cost them their account and friends list."
     },
     {
       "id": "appstore-vng-9fe9af204e6fbfd9",
@@ -72,7 +74,9 @@
       "store_tags": [
         "Comparative Feedback"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Give us the old Play Together back. I miss my old account so much, I was planning to come back, and I topped up a lot too.",
+      "summary_en": "Wants to return but lost an old account with many top-ups."
     }
   ],
   "report": {

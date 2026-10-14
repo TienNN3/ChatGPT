@@ -26,7 +26,9 @@
       "summary_vn": "Xem quảng cáo không được tính, bắt xem lại, mong sửa",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Please fix in-game ads not counting after I watch them, then asking me to watch again.",
+      "summary_en": "Watched ads don't count and must be rewatched; wants a fix."
     },
     {
       "id": "android-5d1bdc93d6d52fca",
@@ -53,7 +55,9 @@
       "summary_vn": "Chê đồ họa, server đông gây lag, lời thoại nhân vật phiền",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Really bad, graphics aren't nice. Please pass this on to the devs: the servers are so crowded they lag and you keep cramming more people in. The character dialogue is annoying and too wordy too. If you fix it I'll update my review, thanks.",
+      "summary_en": "Complains about graphics, laggy overcrowded servers and annoying NPC dialogue."
     },
     {
       "id": "android-9e42255b24209ad4",
@@ -80,7 +84,9 @@
       "summary_vn": "Khen cộng đồng nhưng chê gói nhân vật đắt, không đáng",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về việc nạp tiền, thanh toán hoặc nhận vật phẩm. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Great game, good community, but most people talk to you because of how you dress. Character packs aren't worth buying. You can live however you want, the game is good but the money side isn't worth it.",
+      "summary_en": "Praises the community but says character packs aren't worth the price."
     }
   ],
   "metrics": {

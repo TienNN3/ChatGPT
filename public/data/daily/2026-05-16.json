@@ -132,7 +132,9 @@
       "summary_vn": "Khen game vui nhưng vật phẩm đắt, mong giảm giá",
       "label_method": "ai_review",
       "text_vn_machine": "Game rất vui và gợi lại cảm giác tuổi thơ, nhưng vật phẩm hơi đắt. Mong giảm giá.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Really good. So fun huhu, I play like a little kid. But items are a bit pricey, please lower the prices, I'm broke 😭",
+      "summary_en": "Fun game, but items are expensive; asks for lower prices."
     },
     {
       "id": "android-e18879f155011551",
@@ -159,7 +161,9 @@
       "summary_vn": "Dùng hơn 200 kim cương quay 10 lần không được gì",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Mella is so sad. Mella isn't a spender, and Mella is bad at saving diamonds because Mella is addicted to the gacha. But this time Mella saved up diamonds and spent over 200 on a 10x draw box and got nothing at all. And now all of Mella's diamonds are gone, Mella is so sad. Please fix it if you can, Mella is so sad. Why did Mella draw and get nothing? Is Mella just unlucky??",
+      "summary_en": "Spent over 200 diamonds on a 10x draw and got nothing."
     }
   ],
   "ratings": [

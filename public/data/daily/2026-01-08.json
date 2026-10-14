@@ -192,7 +192,9 @@
       "summary_vn": "Chê ngọc xanh khó ra dù đập đá cả tháng",
       "label_method": "ai_review",
       "text_vn_machine": "Ngọc xanh rất khó xuất hiện dù người chơi đã đập đá suốt một tháng.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So stingy. Blue diamonds are really hard to get, I've been breaking rocks for a whole month",
+      "summary_en": "Complains blue gems are hard to get even after a month of mining."
     },
     {
       "id": "ios-d0941571e9eb27c9",
@@ -220,7 +222,9 @@
       "summary_vn": "Khen nhiều minigame, đồ miễn phí đẹp, nhiều hoạt động",
       "label_method": "ai_review",
       "text_vn_machine": "Game rất vui, có nhiều minigame, trang phục miễn phí đẹp, thú cưng, trồng trọt, câu cá và nhiều hoạt động.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Game review. Really fun, there are minigames, diamonds are easy to earn, lots of nice free items. There's a pet system, raising babies, farming, fishing, bug catching. Personally I love it",
+      "summary_en": "Praises the minigames, nice free items and many activities."
     },
     {
       "id": "ios-61d000346ff209a0",
@@ -246,7 +250,9 @@
       "summary_vn": "Cá vòng barracuda quá khó ra, mất hứng câu cá",
       "label_method": "ai_review",
       "text_vn_machine": "Cá vòng hiếm xuất hiện quá khó, khiến người chơi chán và mất hứng câu cá.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Adjustment. Please fix the Ring Barracuda fish shadow, it's way too hard to get. The more I play the more bored I get, I don't want to fish anymore. Sometimes I wait for the ring all day and it still doesn't show up, I'm starting to lose motivation to play",
+      "summary_en": "Ring Barracuda is too hard to get, losing interest in fishing."
     },
     {
       "id": "android-fbd37385dd7219fc",
@@ -272,7 +278,9 @@
       "summary_vn": "Chơi 6 năm vẫn thích, không thấy chán",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "I like this game, it's so fun. Been playing 6 years and still not bored",
+      "summary_en": "Has played 6 years and still enjoys it."
     },
     {
       "id": "android-1e93b99fb5e05b3c",
@@ -300,7 +308,9 @@
       "summary_vn": "Chê quảng cáo, kim cương đắt, đồ trong game quá mắc",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Everything else I can live with but not the ads: they freeze and I don't even get the reward. Money is already hard to earn and items are expensive, I went to buy stuff and oh my god, 150 baht gets you about 70 diamonds, that's a ripoff, one chair in the game is already about 37 diamonds. People without much money really can't play. Buying a full outfit isn't worth it at all, 50 baht for an ugly hat and a silly jeans and tank top set, so disappointing. Constant updates and nothing gets better. Just shut the game down if you're going to be this shameless. The in-game community is nice, totally different from the devs, who do nothing but grab money all day",
+      "summary_en": "Complains about ads, pricey diamonds and overpriced in-game items."
     },
     {
       "id": "android-9619bddd74945b5a",
@@ -328,7 +338,9 @@
       "summary_vn": "Chê nhiều lỗi, ưu ái người nạp, quảng cáo dài, hay rớt mạng",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Tons of bugs, after the update it's still just as buggy. The game only favors people who top up a lot and often, the big spenders are always lucky, I've noticed it with lots of people. Ads are sooo long. It also kicks me back to the server select screen way too often. The giant fish takes forever to show up and when it does the line snaps. Then there are foreign players who hack and troll, so annoying it makes me not want to play. Switch to another app for a second and it crashes. Boring",
+      "summary_en": "Complains about bugs, favoring spenders, long ads and frequent disconnects."
     },
     {
       "id": "android-39995822c1e65b8e",
@@ -354,7 +366,9 @@
       "summary_vn": "Game vui nhưng đôi khi hơi chán",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Fun, but sometimes a little boring",
+      "summary_en": "Fun but sometimes a bit boring."
     }
   ]
 }

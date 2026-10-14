@@ -27,7 +27,9 @@
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "This game is fun, but I'm jealous of people in the game because I always see everyone walking around in couples",
+      "summary_en": "Game is fun; jokes about being jealous that everyone has a partner."
     },
     {
       "id": "android-0282478a5f641df5",
@@ -55,7 +57,9 @@
       "sentiment_rule": "Mixed",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Please make fish appear a bit more, sometimes it takes 3-4 days of fishing to get 1, I can't take it",
+      "summary_en": "Wants better fish rates; it takes 3-4 days to catch one."
     },
     {
       "id": "android-62d10dd03fa91362",
@@ -81,7 +85,9 @@
       "summary_vn": "Khen game rất vui",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So fun",
+      "summary_en": "Says the game is very fun."
     }
   ],
   "metrics": {

@@ -38,7 +38,9 @@
       "summary_vn": "Hướng dẫn phím điều khiển và nhiệm vụ hằng ngày trong GOI",
       "sentiment_rule": "Positive",
       "label_method": "ai_review",
-      "text_vn_machine": "Làm sao để ĐI!!!\nPhím WASD = Đi bộ\nNút E = Nói chuyện\n TV = Điều chỉnh cử chỉ nhãn dán. Nhấn số 12345678 và bạn sẽ thực hiện cử chỉ hoặc gửi nhãn dán. \n Sách = Đặt tên cho nhân vật của bạn / Cách chơi cách goi / Bài tập về nhiệm vụ hàng ngày *Làm nhiệm vụ và nhận xu để mở gacha. Đừng quên nhấn chấp nhận*\nCửa = Tìm phòng và truy cập vào chế độ hướng dẫn, trong từ hướng dẫn.\nBàn trang điểm và tủ quần áo = trang điểm và mặc quần áo, những bộ trang phục rất dễ thương\nNếu bạn đi bên phải Sẽ có bà. Ngoài ra còn có một ấm trà.\n#goi"
+      "text_vn_machine": "Làm sao để ĐI!!!\nPhím WASD = Đi bộ\nNút E = Nói chuyện\n TV = Điều chỉnh cử chỉ nhãn dán. Nhấn số 12345678 và bạn sẽ thực hiện cử chỉ hoặc gửi nhãn dán. \n Sách = Đặt tên cho nhân vật của bạn / Cách chơi cách goi / Bài tập về nhiệm vụ hàng ngày *Làm nhiệm vụ và nhận xu để mở gacha. Đừng quên nhấn chấp nhận*\nCửa = Tìm phòng và truy cập vào chế độ hướng dẫn, trong từ hướng dẫn.\nBàn trang điểm và tủ quần áo = trang điểm và mặc quần áo, những bộ trang phục rất dễ thương\nNếu bạn đi bên phải Sẽ có bà. Ngoài ra còn có một ấm trà.\n#goi",
+      "text_en": "How to play GOI!!!\nWASD keys = move\nE key = talk\nTV = set emotes and stickers: press 1-2-3-4-5-6-7-8 to do an emote or send a sticker\nNotebook = name your character / how to play (how to goi) / daily quests (homework) *finish the quests, get coins and go draw the gacha right away, remember to tap claim*\nDoor = find a room, there's also a tutorial mode where it says tutorial\nDressing table and wardrobe = makeup and change clothes, the outfits are super cute\nKeep going to the right and you'll find an old lady, plus a gacha machine\n#goi",
+      "summary_en": "Guide to GOI controls and daily quests."
     }
   ],
   "metrics": {

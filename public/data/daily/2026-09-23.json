@@ -36,7 +36,9 @@
       ],
       "summary_vn": "Rao bán 12 nhân sâm thường, 100 baht một bộ",
       "label_method": "ai_review",
-      "text_vn_machine": "Nhân sâm thường 12 cây, 100 baht một bộ, ai quan tâm nhắn mình nhé"
+      "text_vn_machine": "Nhân sâm thường 12 cây, 100 baht một bộ, ai quan tâm nhắn mình nhé",
+      "text_en": "12 regular ginseng, 100 baht per set, inbox me if interested.",
+      "summary_en": "Selling 12 regular ginseng, 100 baht per set."
     },
     {
       "id": "facebook-dc0d0d00976feebf",
@@ -74,7 +76,9 @@
       "summary_vn": "Hỏi thông báo hiện lên như vậy do nguyên nhân gì",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Hiện lên thế này thì có thể do nguyên nhân gì vậy ạ?"
+      "text_vn_machine": "Hiện lên thế này thì có thể do nguyên nhân gì vậy ạ?",
+      "text_en": "What causes this to show up?",
+      "summary_en": "Asks what causes this message to appear."
     },
     {
       "id": "facebook-5ab373dc3116d2d1",
@@ -112,7 +116,9 @@
       ],
       "summary_vn": "Đăng câu hỏi vu vơ có biết không",
       "label_method": "ai_review",
-      "text_vn_machine": "Có biết không ta"
+      "text_vn_machine": "Có biết không ta",
+      "text_en": "Know this?",
+      "summary_en": "Random 'do you know' question."
     },
     {
       "id": "facebook-8f02cdcfdbe2df24",
@@ -150,7 +156,9 @@
       ],
       "summary_vn": "Hỏi nhóm có hướng dẫn cơ bản cho người chơi mới",
       "label_method": "ai_review",
-      "text_vn_machine": "Nhóm này có hướng dẫn cho người chơi mới không ạ, kiểu guide gì đó. Mình là người mới, tìm dụng cụ cơ bản mãi không thấy (không phải guide sự kiện, chỉ là hướng dẫn cơ bản cho người mới thật sự)"
+      "text_vn_machine": "Nhóm này có hướng dẫn cho người chơi mới không ạ, kiểu guide gì đó. Mình là người mới, tìm dụng cụ cơ bản mãi không thấy (không phải guide sự kiện, chỉ là hướng dẫn cơ bản cho người mới thật sự)",
+      "text_en": "Does our group have a guide for new players? I'm new and can't really find basic tools (not an event guide, just basic stuff for beginners).",
+      "summary_en": "Asks if the group has a basic guide for new players."
     },
     {
       "id": "facebook-9a61d376353dd6eb",
@@ -188,7 +196,9 @@
       ],
       "summary_vn": "Đùa có xe thể thao mà bé đòi đi xe buýt",
       "label_method": "ai_review",
-      "text_vn_machine": "Có xe thể thao mà bé bảo muốn đi xe buýt, mệt thật sự"
+      "text_vn_machine": "Có xe thể thao mà bé bảo muốn đi xe buýt, mệt thật sự",
+      "text_en": "I have a sports car but the little one says she wants to take the bus, so tired.",
+      "summary_en": "Jokes the kid wants the bus despite having a sports car."
     },
     {
       "id": "facebook-d4aef7cd6ba98744",
@@ -225,7 +235,9 @@
         "cần câu"
       ],
       "summary_vn": "Hỏi cần câu rồng nên nâng chỉ số gì",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "Which stats should I upgrade on the dragon rod?",
+      "summary_en": "Asks which stats to upgrade on the dragon rod."
     },
     {
       "id": "facebook-dc5698694654f85d",
@@ -261,7 +273,9 @@
         "vật phẩm"
       ],
       "summary_vn": "Hỏi bên trong là gì",
-      "label_method": "ai_review"
+      "label_method": "ai_review",
+      "text_en": "What's inside?",
+      "summary_en": "Asks what's inside."
     },
     {
       "id": "facebook-d79409e88bf0859a",
@@ -302,7 +316,9 @@
       "summary_vn": "Mới quay lại, hỏi rồng, troll là gì, nhiệm vụ rối",
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
-      "text_vn_machine": "Cho hỏi, mình mới quay lại chơi, mấy cái rồng, troll là gì vậy ạ? Bắn được đồ mà không biết dùng ở đâu, sao có nhiệm vụ chồng chéo, rối hết cả lên"
+      "text_vn_machine": "Cho hỏi, mình mới quay lại chơi, mấy cái rồng, troll là gì vậy ạ? Bắn được đồ mà không biết dùng ở đâu, sao có nhiệm vụ chồng chéo, rối hết cả lên",
+      "text_en": "Quick question, I just came back so I'm confused: what are these dragons and trolls? I shoot them and get items but don't know where to use them, and why are there overlapping quests? It's all so messy.",
+      "summary_en": "Returning player asks about dragons, trolls and confusing quests."
     },
     {
       "id": "facebook-323c9ba7644f4865",
@@ -338,7 +354,9 @@
       ],
       "summary_vn": "Hỏi gói khuyến mãi này kéo dài mấy ngày",
       "label_method": "ai_review",
-      "text_vn_machine": "Gói khuyến mãi này có mấy ngày vậy ạ?"
+      "text_vn_machine": "Gói khuyến mãi này có mấy ngày vậy ạ?",
+      "text_en": "How many days does this promo pack last?",
+      "summary_en": "Asks how long this promo pack lasts."
     },
     {
       "id": "youtube-04357320eb5b2fc6",
@@ -377,7 +395,9 @@
       ],
       "summary_vn": "Video chơi minigame sưu tầm sao lấp lánh sự kiện thỏ",
       "label_method": "ai_review",
-      "text_vn_machine": "Play Together: sự kiện minigame (Sưu tầm sao lấp lánh) ✓ Thỏ nhỏ ✓ Rất dễ thương"
+      "text_vn_machine": "Play Together: sự kiện minigame (Sưu tầm sao lấp lánh) ✓ Thỏ nhỏ ✓ Rất dễ thương",
+      "text_en": "Play Together: Event minigame (collect sparkling stars) ✓ Baby rabbit ✓ So cute #playtogether #playtogether",
+      "summary_en": "Video playing the rabbit event's sparkling star minigame."
     },
     {
       "id": "gplay-vng-6f495cc95ab35aad",
@@ -412,7 +432,9 @@
       "store_tags": [
         "Social And Community"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Playing with friends is so fun.",
+      "summary_en": "Enjoys playing with friends."
     }
   ],
   "metrics": {

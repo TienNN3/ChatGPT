@@ -36,7 +36,9 @@
         "Design",
         "Service"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Good and cute game.",
+      "summary_en": "Says the game is good and cute."
     },
     {
       "id": "gplay-vng-c69be9fd9bb518ff",
@@ -71,7 +73,9 @@
       "store_tags": [
         "Service"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "Amazing.",
+      "summary_en": "Says the game is amazing."
     },
     {
       "id": "appstore-vng-05318d31916dea44",
@@ -108,7 +112,9 @@
         "Feature Requests",
         "Cross Platform Consistency"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Good game, but I prefer the old app because you could play multiple accounts. I play 2 accounts and can't log into the other one, so sad. I hope we can log into multiple accounts like in the old app.",
+      "summary_en": "Wants multi-account login like the old app."
     }
   ],
   "report": {

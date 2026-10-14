@@ -26,7 +26,9 @@
       "summary_vn": "Khen game vui, lành mạnh, đã quay lại chơi nhiều lần",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Sooo fun, I've come back to it many times. It's a wholesome kind of game, like living life the way you want.",
+      "summary_en": "Says the game is fun and wholesome; has returned many times."
     },
     {
       "id": "gplay-vng-3a7b7d57678aaa99",
@@ -59,7 +61,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": null
+      "app_version": null,
+      "text_en": "So fun.",
+      "summary_en": "Says the game is really fun."
     },
     {
       "id": "gplay-vng-9d45f61a66b3f294",
@@ -94,7 +98,9 @@
       "store_tags": [
         "Performance And Bugs"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Haven't even been able to get in. The game looks so appealing, I really want to play but can't because the loading screen takes forever. I waited almost an hour so I gave up. I was bored and wanted to play to de-stress, and a loading screen this long just makes me more bored and stressed. Sigh, what is this, I'm Thai here (?).",
+      "summary_en": "Loading screen took almost an hour; gave up without getting in."
     },
     {
       "id": "gplay-vng-da96c17a0ab0848b",
@@ -127,7 +133,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Really fun, so much freedom, amazing.",
+      "summary_en": "Says the game is fun, free-form and amazing."
     },
     {
       "id": "gplay-vng-077fa2f0e67999ec",
@@ -162,7 +170,9 @@
         "Advertisements",
         "Feature Requests"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Remove the ads, it was fine before they were added, why add them?",
+      "summary_en": "Asks to remove ads; the game was better without them."
     }
   ],
   "metrics": {

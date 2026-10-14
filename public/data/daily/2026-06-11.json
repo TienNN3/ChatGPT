@@ -163,7 +163,9 @@
       "summary_vn": "Game nhiều lỗi, tải về rồi xoá ngay",
       "label_method": "ai_review",
       "text_vn_machine": "Game có quá nhiều lỗi. Người chơi tải về rồi nhanh chóng xóa.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So many bugs. Way too many bugs, downloaded it and deleted it soon after.",
+      "summary_en": "Too buggy; deleted soon after downloading."
     },
     {
       "id": "ios-a38774190ca9d12c",
@@ -189,7 +191,9 @@
       "summary_vn": "Dù cập nhật và mạng tốt vẫn thường văng game",
       "label_method": "ai_review",
       "text_vn_machine": "Sau khi cập nhật, game vẫn thường xuyên mất kết nối dù mạng gia đình tốt. Mong đội ngũ kiểm tra.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "The game keeps crashing. I updated the app and it still happens. My home internet is an expensive plan and I still get kicked out of the game, so frustrating. Please look into it.",
+      "summary_en": "Frequent crashes despite updating and a good connection."
     },
     {
       "id": "ios-62b57b3e6f7b2db0",
@@ -214,7 +218,9 @@
       "summary_vn": "Nạp tiền qua quét mã ngân hàng thường không nhận vật phẩm",
       "label_method": "ai_review",
       "text_vn_machine": "Khi nạp tiền bằng cách quét mã ngân hàng, người chơi thường không nhận được vật phẩm.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Bought items but didn't receive them. When I top up by scanning a bank QR code, it happens very often that I don't get the items.",
+      "summary_en": "Top-ups via bank QR scan often don't deliver items."
     },
     {
       "id": "android-538e183dcb8275a3",
@@ -240,7 +246,9 @@
       "summary_vn": "Mong có thêm cá hiếm",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trung tính về hoạt động và tính năng trong game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Let me catch rare fish too, please.",
+      "summary_en": "Wants to catch more rare fish."
     },
     {
       "id": "gplay-vng-80702f23b38901b0",
@@ -276,7 +284,9 @@
         "Performance And Bugs",
         "Offline Functionality"
       ],
-      "app_version": "2.27.1"
+      "app_version": "2.27.1",
+      "text_en": "My wifi is totally fine though???",
+      "summary_en": "Game shows a network error even though wifi is fine."
     }
   ],
   "ratings": [

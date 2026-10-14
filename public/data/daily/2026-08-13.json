@@ -33,7 +33,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Good game, brings back the old vibes.",
+      "summary_en": "Says the game is good and nostalgic."
     }
   ],
   "report": {

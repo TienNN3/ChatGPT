@@ -37,7 +37,9 @@
         "Service",
         "Performance And Bugs"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "So amazing, if you're lonely play this game, you won't be lonely anymore and you'll make friends too. There's so much to do in the game. I love it, guaranteed. But your phone needs lots of storage because this game eats a ton of space.",
+      "summary_en": "Praises making friends and lots to do, but it uses a lot of storage."
     },
     {
       "id": "gplay-vng-b43020eca0ce0d96",
@@ -70,7 +72,9 @@
       "date_basis": "published_at",
       "store_sentiment": "Happy",
       "store_tags": [],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Cool.",
+      "summary_en": "Says the game is cool."
     },
     {
       "id": "appstore-vng-644f8942389a2e8d",
@@ -107,7 +111,9 @@
         "User Data And Privacy",
         "Login"
       ],
-      "app_version": "2.30.0"
+      "app_version": "2.30.0",
+      "text_en": "Lost account. I reinstalled the game and my old account was completely gone, I have to start over. Please give my old account back, I topped up quite a bit, such a waste 🥹",
+      "summary_en": "Lost old account after reinstalling; asks for it back."
     }
   ],
   "report": {

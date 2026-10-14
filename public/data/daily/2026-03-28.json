@@ -146,7 +146,9 @@
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
       "text_vn_machine": "Sau khi đăng nhập trên iOS, người chơi không thể đăng nhập lại trên thiết bị Android.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Please help fix this. I have 2 devices, Android and iOS. After logging in on iOS I can't log back in on Android anymore. Please check it for me.",
+      "summary_en": "After logging in on iOS, can't log back in on Android."
     },
     {
       "id": "android-4922b44f74554841",
@@ -172,7 +174,9 @@
       "summary_vn": "Phàn nàn vào game quá chậm",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Getting into the game is painfully slow.",
+      "summary_en": "Complains entering the game is very slow."
     },
     {
       "id": "android-3496fecea253b044",
@@ -199,7 +203,9 @@
       "summary_vn": "Thích game nhưng ngại tải vì máy yếu, sợ đơ",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So fun, I played it before, I got a super cute girl character, just like the game's name. This game is so fun, I want to play again but I'm scared to download it because it might freeze, my phone doesn't have much storage. I really want to download it, I really want to play but I can't, I want to play this game too.",
+      "summary_en": "Likes the game but hesitant to download on a weak phone, fears freezing."
     }
   ]
 }

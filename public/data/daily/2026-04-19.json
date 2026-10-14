@@ -27,7 +27,9 @@
       "summary_vn": "Khen game nhưng mong giảm giá chó",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi trái chiều về gacha, cửa hàng, giá bán hoặc phần thưởng. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Great game but please make the dogs (pets) a bit cheaper 🥺🥺🥺🦮",
+      "summary_en": "Likes the game but wants cheaper dogs."
     }
   ],
   "metrics": {

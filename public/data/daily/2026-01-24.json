@@ -26,7 +26,9 @@
       "summary_vn": "Khen game rất vui, không lỗi",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "So fun, no bugs at all",
+      "summary_en": "Says the game is very fun with no bugs."
     },
     {
       "id": "android-899ec15fbbf01a70",
@@ -53,7 +55,9 @@
       "summary_vn": "Khen không quảng cáo, nhiều bạn, tự xây nhà",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tích cực về trải nghiệm chung và quảng cáo. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Super fun, no ads, lots of friends, you can build your own house, super fun, really good",
+      "summary_en": "Praises no ads, lots of friends and house building."
     },
     {
       "id": "android-4ed953cbb1ef721b",
@@ -80,7 +84,9 @@
       "summary_vn": "Game liên tục văng, bực mình nên xoá game",
       "label_method": "ai_review",
       "text_vn_machine": "Phản hồi tiêu cực về lỗi, lag, treo hoặc văng game. Đây là tóm tắt phân loại; cần đối chiếu nguyên văn tiếng Thái.",
-      "translation_method": "ai_contextual"
+      "translation_method": "ai_contextual",
+      "text_en": "Don't know if it's my phone or the game but it keeps crashing, so annoyed I don't want to play anymore, so I deleted it",
+      "summary_en": "Game keeps crashing, player got frustrated and deleted it."
     }
   ],
   "metrics": {

@@ -36,7 +36,9 @@
       ],
       "summary_vn": "Bán 20 cây nhân sâm thường giá 200 baht",
       "label_method": "ai_review",
-      "text_vn_machine": "Bán 20 cây nhân sâm bình thường với giá 200 baht. Nếu quan tâm, hãy nói chuyện với chúng tôi."
+      "text_vn_machine": "Bán 20 cây nhân sâm bình thường với giá 200 baht. Nếu quan tâm, hãy nói chuyện với chúng tôi.",
+      "text_en": "Selling a bundle of 20 normal ginseng for 200 baht, DM if interested.",
+      "summary_en": "Selling 20 normal ginseng for 200 baht."
     },
     {
       "id": "gplay-vng-53e632d1038ca547",
@@ -72,7 +74,9 @@
       "store_tags": [
         "Social And Community"
       ],
-      "app_version": null
+      "app_version": null,
+      "text_en": "I've played for years and always meet good friends, and this game has lots of things to do.",
+      "summary_en": "Long-time player praises good friends and lots of activities."
     },
     {
       "id": "appstore-vng-7add349a692d09bc",
@@ -108,7 +112,9 @@
         "Performance And Bugs",
         "Security"
       ],
-      "app_version": "2.31.0"
+      "app_version": "2.31.0",
+      "text_en": "Lost account. My account is completely gone, I'd topped up tens of thousands of baht.",
+      "summary_en": "Lost an account with tens of thousands of baht in top-ups."
     }
   ],
   "metrics": {
