@@ -118,6 +118,14 @@ Bản dịch phải đọc một lần là hiểu, đúng ngữ cảnh game. Kh�
 7. `npm run check` (validator + test) phải pass; mọi mục phải có nhãn.
 8. Commit và push `main`; GitHub Actions tự deploy.
 
+### Lượt chạy tự động hằng ngày
+
+- Mỗi ngày **6:00 sáng** (giờ máy, có thể trễ vài phút), task `ptg-th-daily-feedback` trong Claude desktop thu thập phản hồi của **ngày hôm trước** (Facebook group, fanpage Thái, YouTube, TikTok) từ trình duyệt Chrome người dùng để sẵn và đã đăng nhập, rồi cập nhật dữ liệu, chạy kiểm tra, commit và push.
+- **Không** đụng Sensor Tower: rating/review store do người dùng nhập tay bằng `import-sensortower-vng.mjs`.
+- Các bước chi tiết: `docs/daily-collection.md`. Nhập bằng `scripts/import-daily.mjs` (chỉ thêm, trùng thì bỏ qua, sai định dạng thì từ chối cả lượt); `scripts/receive-staging.mjs` nhận dữ liệu từ trang Facebook qua form POST.
+- Gặp đăng nhập / 2FA / CAPTCHA thì nguồn đó được ghi `blocked`, không tự xử lý. Kết quả từng lượt nằm ở `public/data/collection-runs/<ngày>.json`.
+- Ứng dụng Claude phải đang mở lúc 6:00; nếu đóng, task chạy khi mở lại.
+
 ## 8. Lưu ý cho AI tiếp tục dự án
 
 - Đọc tài liệu này, README.md và `test/dashboard-default.test.mjs` trước khi sửa.

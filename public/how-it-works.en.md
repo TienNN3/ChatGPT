@@ -112,6 +112,14 @@ Translations must be clear on first read and fit the game context. No word-by-wo
 7. `npm run check` (validator + tests) must pass; every item must be labeled.
 8. Commit and push `main`; GitHub Actions deploys automatically.
 
+### Automatic daily run
+
+- Every day at **6:00 AM** (local machine time, may start a few minutes late) the Claude desktop task `ptg-th-daily-feedback` collects **the previous day's** feedback (Facebook groups, Thai fanpage, YouTube, TikTok) from the Chrome window the user leaves open and logged in, then updates the data, runs the checks, commits and pushes.
+- It does **not** touch Sensor Tower: store ratings/reviews are imported by hand with `import-sensortower-vng.mjs`.
+- Step-by-step: `docs/daily-collection.md`. Import with `scripts/import-daily.mjs` (add-only, duplicates skipped, any invalid item rejects the whole batch); `scripts/receive-staging.mjs` receives data from Facebook pages via form POST.
+- Login / 2FA / CAPTCHA screens are recorded as `blocked` and never handled automatically. Each run's result is in `public/data/collection-runs/<date>.json`.
+- The Claude app must be open at 6:00; if it is closed, the task runs when the app is opened again.
+
 ## 8. Notes for AI continuing the project
 
 - Read this guide, README.md and `test/dashboard-default.test.mjs` before making changes.
