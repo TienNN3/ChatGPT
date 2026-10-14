@@ -683,30 +683,67 @@
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
       "text_vn_machine": "Mất 2 ngày là xong hết mọi thứ"
+    },
+    {
+      "id": "tiktok-74427512d53360b3",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@rukkung2000/video/7687819457300909319",
+      "author_masked": "r***",
+      "text_th": "#playtogether #playtogethervng #game #playtogethervn #แคสเกม",
+      "text_vn": "(Video chỉ có hashtag, không có mô tả)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "intent": "share",
+      "keywords": [
+        "video gameplay"
+      ],
+      "summary_vn": "Video gameplay không có mô tả",
+      "label_method": "ai_review",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 153,
+        "reactions": [],
+        "comment_count": 0,
+        "video_title": null
+      },
+      "collected_at": "2026-10-14T10:00:00+07:00"
     }
   ],
   "alerts": [],
   "metrics": {
-    "volume": 18,
+    "volume": 19,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 18
+      "Facebook Group": 18,
+      "TikTok": 1
     },
     "by_sentiment": {
       "Positive": 5,
-      "Neutral": 12,
+      "Neutral": 13,
       "Negative": 1,
       "Mixed": 0
     },
     "by_topic": {
-      "Other": 15,
+      "Other": 16,
       "Gacha / Shop / Pricing": 2,
       "Bug / Crash / Lag / Performance": 1
     },
     "by_segment": {
-      "unknown": 18
+      "unknown": 19
     },
-    "nss": 22.2,
+    "nss": 21.1,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

@@ -8,7 +8,8 @@
     "not_collected": "Chưa thu thập",
     "store": "Review Sensor Tower",
     "inactive": "Không có bài mới",
-    "youtube": "Tìm kiếm 30 ngày"
+    "youtube": "Tìm kiếm 30 ngày",
+    "tiktok": "Tìm kiếm 30 ngày"
   },
   "sources": [
     {
@@ -150,6 +151,14 @@
         "status": "partial",
         "added_feedback": 0
       }
+    },
+    {
+      "key": "TikTok",
+      "name": "TikTok (video và bình luận tiếng Thái)",
+      "type": "tiktok",
+      "status": "tiktok",
+      "detail": "Tìm 20 từ khoá tiếng Thái + quét 28 kênh creator và kênh @playtogetherth.official, 14/09 – 14/10/2026. Mỗi video của creator tính là 1 phản hồi, kèm bình luận tiếng Thái của người xem; video kênh chính thức chỉ lấy bình luận. Lưu ý: 94/112 bình luận dưới video kênh chính thức Thái là của người xem Việt Nam nên không tính.",
+      "url": "https://www.tiktok.com/@playtogetherth.official"
     },
     {
       "key": "Google Play",

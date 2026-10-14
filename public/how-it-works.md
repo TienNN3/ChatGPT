@@ -27,10 +27,11 @@ Danh sách nguồn và trạng thái thu thập nằm ở `public/data/sources.j
 | Facebook Group (Thái) | Cả bài đăng và bình luận hiển thị sẵn dưới bài: thảo luận, khoe ảnh, tham gia sự kiện, rao bán, trao đổi. Không mở hết từng chuỗi bình luận. |
 | Facebook Fanpage Thái (`playtogetherthailandofficial`) | Chỉ bình luận của người dùng. Không tính bài đăng chính thức. Không dùng fanpage global `PlayTogetherGame`. |
 | YouTube | Chỉ video tiếng Thái (tiêu đề hoặc mô tả có chữ Thái). Mỗi video của creator/người chơi tính là 1 phản hồi, cộng bình luận của người xem. Video của kênh chính thức `Play Together VNG TH` chỉ lấy bình luận. Bỏ bình luận của chủ kênh, bình luận chỉ có link/lời chào/quảng bá. |
+| TikTok | Video tiếng Thái của creator nói về Play Together (tìm bằng từ khoá tiếng Thái + quét kênh creator và `@playtogetherth.official`), mỗi video là 1 phản hồi, cộng bình luận **tiếng Thái** của người xem. Video kênh chính thức chỉ lấy bình luận. Bỏ bình luận của chủ kênh, bình luận chỉ có emoji/lời chào, và **bình luận của người xem Việt Nam** (TikTok đẩy video kênh Thái cho người Việt; 94/112 bình luận ngày 14/10 là tiếng Việt). Trang tìm kiếm TikTok có CAPTCHA: người dùng tự giải, AI không giải. Ngày đăng lấy từ ID video/bình luận. |
 | Google Play, App Store | Review có nội dung (Sensor Tower export). Cột tiếng Việt của review cũ là tóm tắt phân loại, không phải bản dịch. |
 | Rating Sensor Tower | Snapshot điểm tích lũy và điểm lượt mới theo tuần, **tách riêng app Play Together VNG và app Global (HAEGIN)**, không gộp. Rating không tính vào số phản hồi. |
 
-Trạng thái nguồn: `full` (đủ 30 ngày), `partial` (một phần), `pending` (group riêng tư chờ duyệt), `not_collected`, `inactive` (không có bài mới), `youtube`, `store`.
+Trạng thái nguồn: `full` (đủ 30 ngày), `partial` (một phần), `pending` (group riêng tư chờ duyệt), `not_collected`, `inactive` (không có bài mới), `youtube`, `tiktok`, `store`.
 
 ## 3. Quy tắc dữ liệu (bắt buộc)
 
@@ -83,7 +84,7 @@ Bản dịch phải đọc một lần là hiểu, đúng ngữ cảnh game. Kh�
 - `public/data/sources.json`: danh sách nguồn, tên hiển thị, trạng thái. `public/data/themes.json`: từ điển theme cũ. `public/data/facebook-insights.json`: gợi ý xử lý.
 - `scripts/import-facebook.mjs`: nhập staging Facebook (**thay toàn bộ mục Facebook bằng staging** → luôn gộp staging cũ + mới trước khi chạy; giữ bản dịch và nhãn cũ theo khoá link+nội dung+tác giả).
 - `scripts/translate-facebook-vietnamese.mjs`: dịch mục Facebook còn thiếu tiếng Việt (bộ nhớ đệm `.staging/translations-vi.json`).
-- `scripts/import-youtube.mjs`: thêm/cập nhật mục `source=YouTube` theo id, không đụng nguồn khác.
+- `scripts/import-youtube.mjs`, `scripts/import-tiktok.mjs`: thêm/cập nhật mục `source=YouTube` / `source=TikTok` theo id, không đụng nguồn khác.
 - `scripts/import-sensortower-ratings.mjs`, `import-sensortower-android.mjs`, `import-sensortower-ios.mjs`: rating và review store.
 - `scripts/apply-labels.mjs`: áp nhãn intent/keywords/summary từ file JSON.
 - `scripts/apply-translations.mjs`: áp bản dịch theo ngữ cảnh (giữ bản cũ ở `text_vn_machine`). `docs/translation-guide.md`: quy tắc dịch và thuật ngữ.

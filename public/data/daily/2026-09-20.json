@@ -772,17 +772,54 @@
       "summary_vn": "Video review VVIP Pass mùa thỏ làng Galaxy, khen rất đẹp",
       "label_method": "ai_review",
       "text_vn_machine": "Play Together: [Review] VVIP Pass mùa Thỏ làng Galaxy ✓ Rất đẹp"
+    },
+    {
+      "id": "tiktok-67b51fc211bae1df",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@rukkung2000/video/7687463359763025170",
+      "author_masked": "r***",
+      "text_th": "น่ารักชิบเป๋งเลย 💜💜💜#playtogether #playtogethervng #game #playtogethervn #แคสเกม",
+      "text_vn": "Dễ thương xỉu luôn 💜💜💜",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "intent": "praise",
+      "keywords": [
+        "ngoại hình nhân vật"
+      ],
+      "summary_vn": "Khen nhân vật/trang phục rất dễ thương",
+      "label_method": "ai_review",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 159,
+        "reactions": [],
+        "comment_count": 0,
+        "video_title": null
+      },
+      "collected_at": "2026-10-14T10:00:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 20,
+    "volume": 21,
     "noise": 0,
     "by_source": {
       "Facebook Group": 19,
-      "YouTube": 1
+      "YouTube": 1,
+      "TikTok": 1
     },
     "by_sentiment": {
-      "Positive": 5,
+      "Positive": 6,
       "Neutral": 14,
       "Negative": 1,
       "Mixed": 0
@@ -791,12 +828,12 @@
       "Other": 12,
       "Gacha / Shop / Pricing": 5,
       "Bug / Crash / Lag / Performance": 1,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 3
     },
     "by_segment": {
-      "unknown": 20
+      "unknown": 21
     },
-    "nss": 20,
+    "nss": 23.8,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

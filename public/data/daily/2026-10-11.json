@@ -1842,17 +1842,54 @@
       "summary_vn": "Video giới thiệu VVIP Pass mới với nhiều phần thưởng",
       "label_method": "ai_review",
       "text_vn_machine": "VVIP Pass mới mùa Undead Heart, phần thưởng đầy ắp!!!"
+    },
+    {
+      "id": "tiktok-eb4ed4a4dbe53587",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@rukkung2000/video/7695253499826736392",
+      "author_masked": "r***",
+      "text_th": "ปิดที่ 5.40 ได้อันดับที่ 1 (คิดว่าตันเท่านี้แหละ) #playtogether #playtogethervng #game #playtogethervn #แคสเกม",
+      "text_vn": "Chốt ở 5.40, được hạng 1 (chắc max tới đây thôi)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "intent": "share",
+      "keywords": [
+        "minigame"
+      ],
+      "summary_vn": "Khoe đạt hạng 1 với thành tích 5.40",
+      "label_method": "ai_review",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 316,
+        "reactions": [],
+        "comment_count": 0,
+        "video_title": null
+      },
+      "collected_at": "2026-10-14T10:00:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 50,
+    "volume": 51,
     "noise": 0,
     "by_source": {
       "Facebook Group": 48,
-      "YouTube": 2
+      "YouTube": 2,
+      "TikTok": 1
     },
     "by_sentiment": {
-      "Positive": 8,
+      "Positive": 9,
       "Neutral": 38,
       "Negative": 4,
       "Mixed": 0
@@ -1860,16 +1897,16 @@
     "by_topic": {
       "Event & Update content": 5,
       "Other": 32,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 5,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 6,
       "Bug / Crash / Lag / Performance": 2,
       "Login / Account / Data": 2,
       "Gacha / Shop / Pricing": 4
     },
     "by_segment": {
-      "unknown": 47,
+      "unknown": 48,
       "midgame": 3
     },
-    "nss": 8,
+    "nss": 9.8,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

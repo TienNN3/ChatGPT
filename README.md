@@ -101,6 +101,17 @@ npm run check
 
 Importer chỉ thêm hoặc cập nhật mục `source=YouTube` theo id và không đụng tới Facebook, store hay rating. Bình luận cũ hơn vài tuần chỉ có ngày gần đúng (`date_precision=approximate`) vì YouTube chỉ hiển thị "2 tuần trước".
 
+## Nhập TikTok
+
+Tìm video bằng từ khoá tiếng Thái (trang tìm kiếm có CAPTCHA, người dùng tự giải) và quét kênh creator Thái cùng `@playtogetherth.official`. Chỉ giữ video tiếng Thái nói về Play Together trong 30 ngày (mỗi video của creator là 1 phản hồi) và bình luận tiếng Thái của người xem; video kênh chính thức chỉ lấy bình luận; bỏ bình luận của người xem Việt Nam.
+
+```bash
+node scripts/import-tiktok.mjs .staging/tiktok-YYYY-MM-DD.json
+npm run check
+```
+
+File staging có sẵn bản dịch theo `docs/translation-guide.md` và nhãn `intent`/`keywords`/`summary`.
+
 ## Nhập rating Sensor Tower
 
 ```bash

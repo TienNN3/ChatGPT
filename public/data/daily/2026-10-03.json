@@ -1242,31 +1242,68 @@
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
       "text_vn_machine": "Hướng dẫn đào rau đầy đủ trong một bài! Đào ở đâu? Đào được bao nhiêu lần? Rau đào được dùng làm gì? Tổng hợp câu trả lời trong bài này! Bạn nào đang bối rối không biết bắt đầu từ đâu thì chia sẻ cho họ xem nhé! #playtogether #playtogethervng #playtogetherTH"
+    },
+    {
+      "id": "tiktok-21f3bfef2a1b2c87",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@playtogetherth.official/video/7692082255509949717?comment_id=7692282611268403988",
+      "author_masked": "⭐***",
+      "text_th": "Play together Thaiแต่เม้นส่วนใหญ่เป็นเวียดนาม5555",
+      "text_vn": "Play Together Thái mà bình luận phần lớn là người Việt haha",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "intent": "chat",
+      "keywords": [
+        "cộng đồng tiktok"
+      ],
+      "summary_vn": "Nhận xét kênh Thái nhưng bình luận đa số là người Việt",
+      "label_method": "ai_review",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": null,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": "Play Together VNG Thailand (official)"
+      },
+      "collected_at": "2026-10-14T10:00:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 33,
+    "volume": 34,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 33
+      "Facebook Group": 33,
+      "TikTok": 1
     },
     "by_sentiment": {
       "Positive": 5,
-      "Neutral": 25,
+      "Neutral": 26,
       "Negative": 3,
       "Mixed": 0
     },
     "by_topic": {
       "Event & Update content": 1,
       "Gacha / Shop / Pricing": 8,
-      "Other": 20,
+      "Other": 21,
       "Bug / Crash / Lag / Performance": 3,
       "Login / Account / Data": 1
     },
     "by_segment": {
-      "unknown": 33
+      "unknown": 34
     },
-    "nss": 6.1,
+    "nss": 5.9,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

@@ -1511,33 +1511,70 @@
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
       "text_vn_machine": "Nào các thành viên, cùng đi săn cá tôm hùm biển sâu"
+    },
+    {
+      "id": "tiktok-dcfa1da1895b3f58",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@lemondoggopt/video/7685721914484051220",
+      "author_masked": "l***",
+      "text_th": "โอกาสสุดท้ายแล้ววันนี้ #PTGCREATOR #PLAYTOGETHERVNG #PLAYTOGETHER #PLAYTOGETHERTH #PLAYTOGETHERSEASO",
+      "text_vn": "Hôm nay là cơ hội cuối rồi đó",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "intent": "event_entry",
+      "keywords": [
+        "sự kiện"
+      ],
+      "summary_vn": "Nhắc hôm nay là ngày cuối của sự kiện",
+      "label_method": "ai_review",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 83,
+        "reactions": [],
+        "comment_count": 0,
+        "video_title": null
+      },
+      "collected_at": "2026-10-14T10:00:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 41,
+    "volume": 42,
     "noise": 0,
     "by_source": {
       "Facebook Group": 39,
-      "YouTube": 2
+      "YouTube": 2,
+      "TikTok": 1
     },
     "by_sentiment": {
       "Positive": 6,
-      "Neutral": 32,
+      "Neutral": 33,
       "Negative": 3,
       "Mixed": 0
     },
     "by_topic": {
       "Other": 25,
       "Gacha / Shop / Pricing": 6,
-      "Event & Update content": 1,
+      "Event & Update content": 2,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 6,
       "Login / Account / Data": 1,
       "Bug / Crash / Lag / Performance": 2
     },
     "by_segment": {
-      "unknown": 41
+      "unknown": 42
     },
-    "nss": 7.3,
+    "nss": 7.1,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

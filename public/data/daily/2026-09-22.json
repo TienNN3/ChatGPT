@@ -4723,33 +4723,143 @@
       "summary_vn": "Hỏi lấy màu da nhân vật ở đâu",
       "label_method": "ai_review",
       "text_vn_machine": "Chị lấy màu da này ở đâu vậy?"
+    },
+    {
+      "id": "tiktok-51c382474068d96b",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@rukkung2000/video/7688289599311056146",
+      "author_masked": "r***",
+      "text_th": "ไปรับของฟรีกันเร็ว#playtogether #playtogethervng #game #playtogethervn #แคสเกม",
+      "text_vn": "Mau đi nhận quà miễn phí nào",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "theme": "Phần thưởng sự kiện",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "intent": "event_entry",
+      "keywords": [
+        "tặng quà",
+        "code quà tặng"
+      ],
+      "summary_vn": "Rủ mọi người đi nhận quà miễn phí",
+      "label_method": "ai_review",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 168,
+        "reactions": [],
+        "comment_count": 1,
+        "video_title": null
+      },
+      "collected_at": "2026-10-14T10:00:00+07:00"
+    },
+    {
+      "id": "tiktok-39d5f37933524854",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@rukkung2000/video/7688039335890930951",
+      "author_masked": "r***",
+      "text_th": "ใครป่วยและใครโสด#playtogether #playtogethervng #game #playtogethervn #แคสเกม",
+      "text_vn": "Ai đang ốm, ai đang độc thân nào",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "intent": "chat",
+      "keywords": [
+        "giải trí"
+      ],
+      "summary_vn": "Video vui hỏi ai ốm, ai độc thân",
+      "label_method": "ai_review",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 175,
+        "reactions": [],
+        "comment_count": 2,
+        "video_title": null
+      },
+      "collected_at": "2026-10-14T10:00:00+07:00"
+    },
+    {
+      "id": "tiktok-ac2248bc4f7093a4",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@rukkung2000/video/7688039335890930951?comment_id=7688041596945138440",
+      "author_masked": "M***",
+      "text_th": "สาดไป645666",
+      "text_vn": "Quẩy thôi haha (?)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "intent": "chat",
+      "keywords": [
+        "giải trí"
+      ],
+      "summary_vn": "Bình luận đùa vui",
+      "label_method": "ai_review",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": null,
+        "reactions": [],
+        "comment_count": null,
+        "video_title": "ใครป่วยและใครโสด"
+      },
+      "collected_at": "2026-10-14T10:00:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 131,
+    "volume": 134,
     "noise": 0,
     "by_source": {
       "Facebook Group": 129,
-      "YouTube": 2
+      "YouTube": 2,
+      "TikTok": 3
     },
     "by_sentiment": {
-      "Positive": 15,
-      "Neutral": 106,
+      "Positive": 16,
+      "Neutral": 108,
       "Negative": 8,
       "Mixed": 2
     },
     "by_topic": {
       "Gacha / Shop / Pricing": 14,
-      "Other": 99,
+      "Other": 101,
       "Bug / Crash / Lag / Performance": 4,
-      "Event & Update content": 2,
+      "Event & Update content": 3,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 10,
       "Login / Account / Data": 2
     },
     "by_segment": {
-      "unknown": 131
+      "unknown": 134
     },
-    "nss": 5.3,
+    "nss": 6,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

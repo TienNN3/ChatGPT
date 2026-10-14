@@ -2582,33 +2582,106 @@
       "sentiment_rule": "Negative",
       "label_method": "ai_review",
       "text_vn_machine": "Đập rau khổng lồ thế nào vậy ạ? Mình đập không được."
+    },
+    {
+      "id": "tiktok-cc2a1d8b359983f6",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@rukkung2000/video/7691647764970687762",
+      "author_masked": "r***",
+      "text_th": "#playtogether #playtogethervng #game #playtogethervn #แคสเกม",
+      "text_vn": "(Video chỉ có hashtag, không có mô tả)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "intent": "share",
+      "keywords": [
+        "video gameplay"
+      ],
+      "summary_vn": "Video gameplay không có mô tả",
+      "label_method": "ai_review",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 213,
+        "reactions": [],
+        "comment_count": 0,
+        "video_title": null
+      },
+      "collected_at": "2026-10-14T10:00:00+07:00"
+    },
+    {
+      "id": "tiktok-699aa39e7d87c3d3",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@rukkung2000/video/7691572056315464978",
+      "author_masked": "r***",
+      "text_th": "80จุมพอน้องงง#playtogether #playtogethervng #game #playtogethervn #แคสเกม",
+      "text_vn": "Quay 80 lượt là đủ rồi bé ơi (?)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá trị phần thưởng gacha",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "intent": "share",
+      "keywords": [
+        "gacha"
+      ],
+      "summary_vn": "Khoe kết quả quay gacha 80 lượt",
+      "label_method": "ai_review",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 216,
+        "reactions": [],
+        "comment_count": 1,
+        "video_title": null
+      },
+      "collected_at": "2026-10-14T10:00:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 68,
+    "volume": 70,
     "noise": 0,
     "by_source": {
       "Facebook Group": 62,
-      "YouTube": 6
+      "YouTube": 6,
+      "TikTok": 2
     },
     "by_sentiment": {
       "Positive": 18,
-      "Neutral": 42,
+      "Neutral": 44,
       "Negative": 8,
       "Mixed": 0
     },
     "by_topic": {
-      "Other": 44,
-      "Gacha / Shop / Pricing": 6,
+      "Other": 45,
+      "Gacha / Shop / Pricing": 7,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 4,
       "Event & Update content": 7,
       "Bug / Crash / Lag / Performance": 3,
       "Login / Account / Data": 4
     },
     "by_segment": {
-      "unknown": 68
+      "unknown": 70
     },
-    "nss": 14.7,
+    "nss": 14.3,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

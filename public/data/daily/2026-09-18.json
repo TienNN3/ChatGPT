@@ -770,17 +770,54 @@
       "sentiment_rule": "Neutral",
       "label_method": "ai_review",
       "text_vn_machine": "Nếu trang phục Thái Lan thực sự được đưa vào game, tôi sẽ tưởng tượng mình chụp ảnh cùng chú mèo NIAO trong nhà với thông điệp “CHÚNG TÔI LÀ THÁI LAN”!!"
+    },
+    {
+      "id": "tiktok-380aaf481e7f3724",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@lemondoggopt/video/7686819363948662037",
+      "author_masked": "l***",
+      "text_th": "POV : เมื่อเพื่อนชวนตกปลา *หมายเหตุ  คลิปนี้เป็นแค่การแสดงเท่านั้น ไม่ใช่เหตุการณ์ที่เกิดขึ้นจริงแต่อย่างใด #PTGCREATOR #PLAYTOGETHERVNG #PLAYTOGETHER #PLAYTOGETHERTH #PLAYTOGETHERSEASO",
+      "text_vn": "POV: khi bị bạn rủ đi câu cá (lưu ý: clip chỉ là diễn, không phải chuyện thật)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "intent": "share",
+      "keywords": [
+        "câu cá"
+      ],
+      "summary_vn": "Clip hài POV bị bạn rủ đi câu cá",
+      "label_method": "ai_review",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 105,
+        "reactions": [],
+        "comment_count": 4,
+        "video_title": null
+      },
+      "collected_at": "2026-10-14T10:00:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 20,
+    "volume": 21,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 20
+      "Facebook Group": 20,
+      "TikTok": 1
     },
     "by_sentiment": {
       "Positive": 8,
-      "Neutral": 8,
+      "Neutral": 9,
       "Negative": 4,
       "Mixed": 0
     },
@@ -789,12 +826,12 @@
       "Other": 11,
       "Login / Account / Data": 1,
       "Bug / Crash / Lag / Performance": 2,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 3
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 4
     },
     "by_segment": {
-      "unknown": 20
+      "unknown": 21
     },
-    "nss": 20,
+    "nss": 19,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

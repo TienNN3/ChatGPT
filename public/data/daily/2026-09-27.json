@@ -680,18 +680,55 @@
       "summary_vn": "Livestream Play Together tập làm cư dân Heartopia",
       "label_method": "ai_review",
       "text_vn_machine": "[Livestream Play Together] Kataew tập làm cư dân Heartopia 🤔✨"
+    },
+    {
+      "id": "tiktok-17a1b58888788c99",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@lemondoggopt/video/7690154582298594581",
+      "author_masked": "l***",
+      "text_th": "ไอเดียแต่งบ้านซีซันกระต่ายหมู่บ้านกาแลคซี่ #PTGCREATOR #PLAYTOGETHERVNG #PLAYTOGETHER #PLAYTOGETHERTH #PLAYTOGETHERSEASO #VVIPPass #playtogetherhouse",
+      "text_vn": "Ý tưởng trang trí nhà theo mùa Thỏ làng Galaxy",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "intent": "share",
+      "keywords": [
+        "trang trí nhà"
+      ],
+      "summary_vn": "Chia sẻ ý tưởng trang trí nhà mùa Thỏ làng Galaxy",
+      "label_method": "ai_review",
+      "date_basis": "published_at",
+      "published_label": null,
+      "date_precision": "exact",
+      "engagement": {
+        "views": 97,
+        "reactions": [],
+        "comment_count": 0,
+        "video_title": null
+      },
+      "collected_at": "2026-10-14T10:00:00+07:00"
     }
   ],
   "metrics": {
-    "volume": 18,
+    "volume": 19,
     "noise": 0,
     "by_source": {
       "Facebook Group": 17,
-      "YouTube": 1
+      "YouTube": 1,
+      "TikTok": 1
     },
     "by_sentiment": {
       "Positive": 3,
-      "Neutral": 11,
+      "Neutral": 12,
       "Negative": 4,
       "Mixed": 0
     },
@@ -699,13 +736,13 @@
       "Gacha / Shop / Pricing": 2,
       "Other": 11,
       "Event & Update content": 2,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 3,
       "Login / Account / Data": 1
     },
     "by_segment": {
-      "unknown": 18
+      "unknown": 19
     },
-    "nss": -5.6,
+    "nss": -5.3,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
